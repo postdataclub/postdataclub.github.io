@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../icon.png">
+
+    <title>Postdata.club - Ernesto Guerra</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href='../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <div  class="header-pc row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../index.html"><img class="logo-header" src="../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../index.html">Inicio</a></span></div>
+        <div><span><a href="quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" class="selected" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../generos/principales.html">Principales</a></div>
+            <div><a href="../generos/articulos.html">Artículos</a></div>
+            <div><a href="../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors"  class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="aymara.html">Aymara Vigil</a></div>
+            <div><a href="jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="ernesto.html" class="selected">Ernesto Guerra</a></div>
+            <div><a href="saimi.html" >Saimi Reyes</a></div>
+            <div><a href="yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+
+     <div class="article-header row  main-color ">
+        <div class="simple-header">Ernesto Guerra
+        <span class="header-icons">
+        <a href="mailto://ernesto@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://twitter.com/ernestoguerra21"><i class="fa fa-twitter"></i></a> 
+        </span>
+        </div>
+    </div>
+    
+
+    <div class="other-news row">
+        <div class="col-lg-3 col-md-3  container" >
+        <div class="news-block report-color">
+        <div class="title-author-block">
+            <div class="front-news-title"><a href="../issues/201609/un-problema-de-privacidad.html">El caso ETECSA</a></div>
+            <div class="front-news-author">Por <a href="ernesto.html">Ernesto Guerra</a></div>
+        </div>
+            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
+            <div class="front-news-lead">Un problema de privacidad</div>
+         </div>
+        </div>
+        
+        
+    </div>
+    
+   <div class="footer">
+        <div>
+        <span><a href="../index.html"><img class="logo-footer" src="../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+            $('#authors').show();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    </script>
+  </body>
+</html>
