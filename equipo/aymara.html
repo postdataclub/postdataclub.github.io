@@ -34,7 +34,54 @@
 
   <body>
 
-   <div  class="header-pc row">
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="active" class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="aymara.html">Aymara Vigil</a></li>
+                <li><a href="ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="jessica.html">Jessica Domínguez</a></li>
+                <li><a href="saimi.html">Saimi Reyes</a></li>
+                <li><a href="yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../generos/principales.html">Principales</a></li>
+                <li ><a href="../generos/principales.html">Artículos</a></li>
+                <li><a href="../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
       <div class="header-logo col-lg-6 col-md-6">
        <a href="../index.html"><img class="logo-header" src="../assets/images/logo.png"></a>
       </div>
