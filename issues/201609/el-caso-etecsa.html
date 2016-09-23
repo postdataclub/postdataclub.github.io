@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - El caso ETECSA</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/principales.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  report-color">
+            <div class="article-news-title">El caso ETECSA</div>
+            <div class="article-news-author">Por <a href="../../equipo/ernesto.html">Ernesto Guerra</a><span class="article-date">22/09/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Un problema de privacidad</div> 
+            
+             <div class="article-news-image">
+                <img src="images/etecsa.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: Yudivián Almeida</div>
+                </div>
+            </div>           
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+    Un día, solo por curiosidad, me dediqué a buscar datos de la artista cubana Haila María Mompié. Con menos de tres toques supe dónde vive, su número de celular y teléfono fijo, la verdadera edad que tiene y el día de su cumpleaños.
+ </p>
+    <p>
+Me imagino que, de ser un asesino en serie de cantantes, en un abrir y cerrar de ojos podría haber ido hasta allí a esperarla, todo gracias a la base de datos de la Empresa de Telecomunicaciones de Cuba S. A. (ETECSA) y a una de las aplicaciones que se encargan de procesarla por ti  en segundos.
+ </p>
+    <p>
+Se trata de un uso común de la base de datos de la única empresa de telecomunicaciones en Cuba, filtrada aún no se sabe cómo, pero ampliamente difundida entre casi todos los propietarios de teléfonos móviles en el país.
+ </p>
+    <p>
+Este simple acto, tan repetido y extendido, es un delito. Va en contra de la Declaración Universal de los Derechos Humanos, firmada y ratificada por Cuba, e infringe las más básicas leyes de cualquier otro estado del mundo.
+ </p>
+    <p>
+El Derecho Humano número 12, Derecho a la Intimidad, dispone que nadie será objeto de interferencias arbitrarias en su vida privada, su familia, su domicilio o su correspondencia, ni de ataques a su honra ni a su reputación. Toda persona tiene derecho a la protección de la ley contra tales interferencias o ataques.
+ </p>
+    <p>
+En la Constitución de la República de Cuba, se confirma la aceptación de este acápite. Asimismo, existe,al menos, otro artículo de la Carta Magna cubana,, que se corresponde al respeto de la privacidad:
+ </p>
+    <p class="cite">
+ARTÍCULO 57. La correspondencia es inviolable. Sólo puede ser ocupada, abierta y examinada en los casos previstos por la ley. Se guardará secreto de los asuntos ajenos al hecho que motivare el examen. El mismo principio se observará con respecto a las comunicaciones cablegráficas, telegráficas y telefónicas. 
+ </p>
+    <p>
+De tal modo, la filtración de la base de datos de ETECSA  que engloba a casi la totalidad de los usuarios cubanos de telefonía fija y móvil en el país, es una seria invasión a la intimidad de millones de personas.
+ </p>
+ </div>
+ 
+ <div class="media-block report-color">
+<div class="phrase">
+    « La filtración de la base de datos de ETECSA es una seria invasión a la intimidad de millones de personas »
+</div>
+</div>
+ 
+ <div class="text-block">
+    <div class="subtitle report-text">
+El origen del mal y cómo genera ingresos
+</div>
+    <p>
+Los escándalos relacionados con el espionaje de la Agencia de Seguridad Nacional de los Estados Unidos (NSA), hicieron que la opinión pública pusiera más atención en la manera en que la privacidad se maneja en todos los ámbitos de la vida, principalmente el de las telecomunicaciones.
+</p>
+
+En Cuba, el hecho más notorio fue el relativo a Zunzuneo, una red social patrocinada por la Agencia Internacional de Estados Unidos para la Ayuda al Desarrollo (USAID),que pretendía fomentar la subversión.
+ </p>
+    <p>
+El 10 de abril de 2014, el diario Granma publicó <a href="http://www.granma.cu/cuba/2014-04-10/etecsa-condena-el-uso-de-servicios-de-telecomunicaciones-ilicitos-contra-sus-redes-y-usuarios">una información</a> donde se hacía explícita la posición de la Empresa de Telecomunicaciones respecto a 
+ese fenómeno:
+ </p>
+    <p class="cite">
+Daniel Ramos Fernández, Jefe de Seguridad de ETECSA, explicó en conferencia de prensa que la empresa detectó tráfico de mensajería Spam tanto en septiembre del 2009, durante el Concierto por la Paz celebrado en La Habana, como a inicios del 2010, cuando se comenzó a identificar un tráfico inusual proveniente de la plataforma ZunZuneo, que realizaba envíos masivos de mensajes a clientes de la empresa. “Esto provocó que ETECSA comenzara a recibir quejas reiteradas de los usuarios sobre la recepción de mensajes no deseados”, dijo. (…)
+ </p>
+    <p class="cite">
+Por otra parte, el Jefe de Seguridad de ETECSA añadió que la Empresa seguirá estimulando el crecimiento de los servicios y las inversiones en este sector, y aseguró que la misma no ha entregado la base de datos de sus usuarios a ningún operador ni entidad extranjera, por lo que desconoce la vía y forma empleada para que un proyecto como ZunZuneo haya podido acceder a esa información.
+ </p>
+    <p>
+En esa ocasión, una internauta identificada como Natacha comentó en la entrada:
+ </p>
+    <p class="quote">
+Creo sería interesante averiguar cómo se ha filtrado la base de datos no solo hacia el exterior, sino también en el interior de nuestro país, ya que muchas personas tienen en su poder guías telefónicas digitales que incluyen no solo los números de teléfonos celulares, sino también el de las casas particulares, como el mío, que es privado y no aparece en la guía impresa de ETECSA, se está fugando información que facilita muchas molestias a los usuarios (…)
+ </p>
+    <p>
+Asimismo, otras páginas y blogs se refirieron la existencia de la base de datos —prácticamente de dominio público— desde el año 2011, con sucesivas actualizaciones hasta el 2016.
+ </p>
+    <p>
+El bloguero cubano Alejo3399 <a href="https://alejo3399.wordpress.com/2014/04/25/mis-datos-privados-publicos-de-etecsa">denunció</a> el hecho:
+ </p>
+    <p class="quote">
+Si usted fue de los primeros en adquirir un celular con línea cubana, debe saber que su información personal anda por ahí regada en miles de teléfonos móviles, y podrá, por tanto, ser empleada al antojo de cada portador. Igual no dudo que una próxima versión del software venga ya con la base de datos actualizada, y hasta con las direcciones de correo @nauta de los clientes que hayan contratado ese servicio(…)
+ </p>
+    <p class="quote">
+¡Entonces no digo yo si ZunZuneo y Piramideo van a llegar a nuestros móviles…! Llega cualquiera, ya sea con intenciones políticas o con el objetivo de vendernos entradas para un espectáculo humorístico en una paladar de La Habana.
+ </p>
+    <p>
+La filtración de este cúmulo de datos privados, generó consigo varias formas de gestionarlo. Primeramente, fueron las aplicaciones para entorno de escritorio, específicamente de la plataforma Windows y más tarde, con la penetración de otras tecnologías en el país, los desarrolladores locales se dieron ala tarea de volverla multiplataforma y generar ingresos.
+ </p>
+    <p>
+De tal modo, actualmente se puede acceder desde cualquier versión de sistema operativo Android, iOS, Windows e incluso 
+<a href="http://cuba.porlalivre.com/software-apps/octanex-etecsa-en-symbianbbjavaandr-423LQ673/">un anuncio</a> de la web de clasificados Porlalivre aumenta las plataformas y sistemas que pueden operar sobre la base de datos:
+ </p>
+    <p class="quote">
+Directorio Telefónico en su móvil Symbian, BlackBerry, JAVA, Android, Windows Mobile y Windows Phone. Permite realizar búsquedas ultrarápidas por nombre o números telefónicos.
+ </p>
+    <p>
+Asimismo, se declara que el precio para obtener la aplicación es de cinco pesos convertibles (alrededor de cinco dólares, según el cambio vigente), aunque no se detalla si los datos van incluidos. De todas maneras, estos También se puede consultar online, no ya para cuba y dentro de ella sino en cualquier lugar del mundo desde el sitio www.
+ </p>
+    <p>
+Este caso puntual no es único. La mayoría de los negocios por cuenta propia que se dedican a la reparación y venta de celulares en el país, tiene ofertas de packs de programas para los diferentes sistemas móviles en los que generalmente se incluyen las relacionadas con ETECSA, incluso como gancho para la compra.
+ </p>
+    <p>
+Varias aplicaciones móviles se desarrollan actualmente dentro del país para este fin. La pionera fue EtecsaDroyd, especializada en la búsqueda de datos personales.
+ </p>
+    <p>
+También podemos citar Rápido Etecsa y Guía Telefónica, la primera firmada por la Empresa de Programación y Diseño, Prodis y la segunda por Adoble.
+ </p>
+    <p>
+Sin embargo, a diferencia de EtecsaDroyd, ambas se concentran en valores agregados de la Empresa de Telecomunicaciones, como servicios de carteleras culturales, cambio de moneda, resultados deportivos, así como consultas de saldo, traspaso de crédito y llamadas de cobro revertido, entre otros.
+ </p>
+    <p>
+En el caso de Guía Telefónica, en <a href="http://adoblecuba.com/pages/vistasoftware.php?id=19&sist=1">su web</a> los creadores destacan que, además, permite seleccionar cualquier base de datos (bajo su responsabilidad).
+ </p>
+    <p>
+La aclaración es válida, pero aun así permite la intrusión en los datos personales.
+</p>
+<div class="subtitle report-text">
+La privacidad manejada en el mundo. Legislación cubana e informatización de la sociedad cubana
+</div>
+ </p>
+    <p>
+Actualmente, el problema de la privacidad es muy difundido en varios espacios.
+ </p>
+    <p>
+De acuerdo con Gabriel Sánchez e Isai Rojas en <a href="http://revista.seguridad.unam.mx/printpdf/337">su artículo</a> de la Revista Seguridad, Defensa Digital, en el mundo existen dos vertientes principales entorno a la protección de los datos personales: El modelo europeo busca proteger la información y la propiedad de la misma, en aras de conservar la honorabilidad de la persona aun cuando ésta hubiese fallecido, la motivación de este modelo tiene base en los derechos humanos de los individuos. El modelo estadounidense pretende proteger la información de las personas con el concepto de derecho a la privacidad, el cual puede extinguirse con la muerte del sujeto, el modelo surge derivado de motivos comerciales ya que las empresas utilizaban de manera indiscriminada esa información.
+ </p>
+    <p>
+En este campo, la Unión Europea es líder, con varias legislaciones vigentes para la región, que implican a empresas de todo el mundo. Producto de ello, los términos y condiciones del servicio, así como las políticas de privacidad de compañías como Apple, Microsoft, Facebook y Google, han tenido que manejar sus postulados y tratar de adaptarlos al contexto actual.
+ </p>
+    <p>
+En América Latina, las reformas constitucionales introdujeron la protección de los datos personales, según destaca en 
+<a href="http://www.habeasdata.org/wp/2008/04/12/pdp-en-america-latina/">su texto</a> Protección de Datos Personales en América Latina-Juan Pérez ante una disyuntiva de progreso y bienestar, Carlos G. Gregorio.
+ </p>
+  </div>
+ 
+ <div class="media-block report-color">
+<div class="phrase">
+    « En América Latina, las reformas constitucionales introdujeron la protección de los datos personales »
+</div>
+</div>
+<div class="text-block" >
+    <p>
+Dos acápites constitucionales percibieron la existencia de riesgos en el proceso de informatización. Son el caso de la Constitución Política del Perú: Artículo 2. ‘Derechos fundamentales de la persona: ... (6.). A que los servicios informáticos, computarizados o no, públicos o privados, no suministren informaciones que afecten la intimidad personal y familiar’; y el de la Constitución de la RepúblicaBolivariana de Venezuela: Artículo 60. ‘Toda persona tiene derecho a la protección desu honor, vida privada, intimidad, propia imagen, confidencialidad y reputación. La ley limitará el uso de la informática para garantizar el honor y la intimidad personal yfamiliar de los ciudadanos y ciudadanas y el pleno ejercicio de sus derechos’.
+ </p>
+    <p>
+Asimismo, Brasil (1988) artículo5° X. XII y LXXII; artículo 105 I b); Colombia (1991) artículo 15; Paraguay (1992)artículos. 33, 36 y 135; Perú (1993) artículos. 2°, 162, 203-3; Argentina (1994)artículos. 19 y 43: y Ecuador (1998) artículos. 23.8: 23.13; 23.24; 94, comprenden los asuntos de la privacidad, dice Gregorio.
+ </p>
+    <p>
+En Cuba el caso es diferente. <a href="http://oiprodat.com/2013/11/11/necesidad-de-una-ley-de-proteccion-de-datos-personales-en-cuba/">Un artículo</a> publicado en el Observatorio Iberoamericano de Protección de Datos, escrito por la abogada cubana Mayra Delgado Novoa, refiere que hasta el momento, el ordenamiento jurídico cubano no cuenta con regulaciones específicas que estén acordes a los avances que en estos últimos tiempos ha venido realizando el país con relación a las  nuevas tecnologías y, aunque se han dado tímidos pasos en este sentido, como es el caso de la promulgación del Decreto-Ley No. 204, de 11 de enero del 2000 que encarga al Ministerio de la Informática y las Comunicaciones las tareas y funciones encaminadas a rectorar y desarrollar los procesos informáticos y tecnológicos, no existe una norma que garantice jurídicamente la protección de la información en lo relativo al tratamiento de los datos personales, lo que se ha convertido en una marcada necesidad sobre todo partiendo del hecho de la existencia de diversas instituciones en el país que poseen y gestionan éstos.
+ </p>
+    <p>
+El Resumen de las Prioridades de la Informatización de la Sociedad Cubana, fechado de 2015, no contempla expresamente la protección de datos de los usuarios, sin embargo, existen ciertos acápites que bien podrían trabajar en esa dirección.
+ </p>
+    <p>
+Entre ellos los siguientes Ejes Estratégicos:
+ </p>
+    <p class="cite">
+III. Gobierno y comercio electrónico: Impulsar el desarrollo de soluciones informáticas que simplifiquen los procesos y trámites administrativos; fomentar los servicios en línea; desarrollar el comercio electrónico en el país; crear las bases legales, técnicas y organizativas que garanticen la plena autenticación de los ciudadanos en condiciones de seguridad.
+ </p>
+    <p class="cite">
+VII. Seguridad Tecnológica: Fortalecer la ciberseguridad ycontrarrestar la actividad enemiga, delictiva y nociva con el empleo de las TIC; potenciar la protección de los sistemas tecnológicos; establecer e implementar políticas de Seguridad Tecnológica; desarrollar soluciones informáticas que garanticen la gestión de esta.
+ </p>
+    <p class="cite">
+VIII. Marco Legal: Actualizar la legislación vigente; conformar el marco regulatorio que garantice impulsar, promover y desarrollar el uso de las TIC; actualizar las regulaciones referidas a la propiedad intelectual y el derecho de autor en aquellas materias vinculadas a las TIC.
+ </p>
+    <p>
+Todo ello y más, debería estar acorde a las Prioridades de informatización, para garantizar que los datos de los usuarios de los diferentes servicios que planea el país, no se vean comprometidos.
+</p>
+<div class="subtitle report-text">
+ETECSA y la privacidad 
+</div>
+<p></p>
+La Empresa de Telecomunicaciones de Cuba S. A., ETECSA, asegura que no conoce el origen de la filtración de los datos de sus usuarios y, al parecer, las medidas que implementó resultaron eficaces, pues no conocemos de ninguna actualización de la Base de Datos en cuanto a cantidad de entradas para los años 2015 y 2016.
+ </p>
+    <p>
+Sin embargo, se difundió exponencialmente en la calle con todos los datos, hasta el año 2014. Esto implica que salieron de las Oficinas de ETECSA por cuatro años seguidos, sin que la Empresa lo pudiera impedir o se pronunciara al respecto, al menos no públicamente.
+ </p>
+    <p>
+No obstante, desde el punto de vista legal implementa acciones en el campo de la privacidad. Por ejemplo, el contrato del servicio de correo internacional Nauta específica entre las obligaciones de la proveedora garantizar al USUARIO las condiciones de privacidad en el área de navegación.
+ </p>
+    <p>
+Por otra parte, en una renovada versión de su contrato del servicio de Telefonía Celular Prepago destaca algunos acápites relacionados con el fenómeno:
+ </p>
+    <p class="cite">
+5. EL CLIENTE será el único responsable de brindar información fidedigna de su identidad personal; así como de los efectos que se deriven del uso inadecuado del SERVICIO. 
+ </p class="cite">
+    <p class="cite">
+10. Los datos personales del CLIENTE y el número del SERVICIO asignado, tiene carácter privado y confidencial y sólo podrán ser revelados en los casos previstos en la legislación vigente.
+ </p>
+    <p class="cite">
+11. EL CLIENTE tiene la obligación de actualizar y rectificar los datos de carácter personal cuando ocurra alguna modificación en los mismos.
+ </p>
+    <p class="cite">
+12. ETECSA adoptará las medidas técnicas exigidas por la legislación vigente para la protección y tratamiento de los datos personales del CLIENTE cuidando el secreto de las telecomunicaciones.
+ </p>
+    <p>
+Sin embargo, la siguiente disposición expresa:
+ </p>
+    <p class="cite">
+13. EL CLIENTE mediante la firma del presente contrato, presta su consentimiento expreso para:
+ </p>
+    <p class="cite">
+a) Que los datos personales facilitados formen parte de las bases de datos de ETECSA.
+ </p>
+ 
+ 
+  </div>
+ 
+ <div class="media-block report-color">
+<div class="phrase">
+    « Los datos personales del CLIENTE y el número del SERVICIO asignado, tienen carácter privado y confidencial y sólo podrán ser revelados en los casos previstos en la legislación vigente »
+</div>
+</div>
+ 
+ <div class="text-block">
+ 
+    <div class="subtitle report-text">
+Un peligro que nadie parece notar 
+ </div>
+    <p>
+ETECSA habla muy poco de su Base de Datos y la manera en que fue filtrada. La aparición de una nueva versión durante cuatro años, es un puñetazo en los derechos elementales de los ciudadanos.
+ </p>
+    <p>
+El hecho de manejar los datos privados de tantas personas y ello resultara un negocio, no promete un futuro esperanzador.
+ </p>
+    <p>
+La legislación cubana y el Ministerio de la Informática de las Comunicaciones debenexplicitar estatutos que regulen el respeto pleno a la privacidad de los ciudadanos cubanos.
+ </p>
+    <p>
+La cantidad de datos a disposición de cualquiera que pueda descargarlos de Internet —la base se haya hospedada incluso en servidores de datos internacionales para la descarga libre— u obtenerlos de un amigo, y  las múltiples aplicaciones que ayudan al filtrado y búsqueda constituyen un peligro.
+ </p>
+    <p>
+Bromas pesadas, acosos y hasta actos en contra de la vida de otras personas podrían estar facilitados en gran medida por ese compendio de información.
+ </p>
+    <p>
+La expansión de la conectividad en distintas áreas públicas del país y la informatización de la sociedad cubana son indicadores de progreso y, a la vez, anuncian la aparición de los males que atrae este tipo de tecnología: hackeos, robo de cuentas bancarias, distribución de malware y robos de identidad. 
+ </p>
+    <p>
+En ese sentido la sociedad cubana tiene que ser educada; pero las entidades encargadas de proveer los servicios deben comenzar, por lo menos, por garantizar la integridad de sus sistemas, y que la información que sus contratos hacen de obligatoria entrega, permanezca privada.
+    </p>
+    
+    </div>
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201609/el-caso-etecsa.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201609-5'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+     <div class="read-more report-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="la-base-de-datos-de-etecsa.html">La base de datos de ETECSA</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+         <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block article-color">
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="des-cifrando-los-nombres.html"> Des-cifrando los nombres</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/aymara.html">Aymara Vigil</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+           </div>
+            
+            </div>
+        </div>
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block research-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="es-usted-unico-en-cuba.html"> ¿Es usted único en Cuba?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a></div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block comment-color"> 
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="millennials-con-y.html"> Millennials con Y</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+           </div>            
+          </div>
+        </div>
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+  </body>
+</html>

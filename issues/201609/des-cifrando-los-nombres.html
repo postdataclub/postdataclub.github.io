@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Des-cifrando los nombres</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/principales.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+    <div class="article-header row  article-color">
+            <div class="article-news-title">Des-cifrando los nombres</div>
+            <div class="article-news-author">Por <a href="../../equipo/aymara.html">Aymara Vigil</a> y  <a href="../../equipo/saimi.html">Saimi Reyes</a><span class="article-date">22/09/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">¿Qué palabra te define mejor que tu nombre?</div>  
+            
+             <div class="article-news-image">
+                <img src="images/scrabble.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: Yudivián Almeida</div>
+                </div>
+            </div>  
+                      
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    
+    <p>
+    Nuestro nombre marca nuestra vida e incluso puede definir nuestra personalidad desde el mismo nacimiento. El vínculo entre cualquier persona y su antropónimo es tan estrecho que, solo la idea de llamarnos diferente puede ser, en algunos casos, inaceptable. Claro, esto difiere de la situación de algunos desafortunados, cuyos padres se lo pensaron poco antes de regalar a sus descendientes dianas portables como Angulo, Emeregilda, Gil, Dámasa; u otras combinaciones menos agradables como Alan Brito, Tomás Cao o Dulce Rebollo, por solo citar algunos de los más traumáticos ejemplos.
+    </p>
+    <p>
+    Desde las primeras civilizaciones, los nombres tuvieron significaciones figuradas o metafóricas, expresando no solo cualidades y méritos, también pertenencia a distintas clases sociales, especificidades de cada historia personal o hasta constancia de defectos físicos. Así pasaba, con los prácticos romanos, quienes incorporaron al nombre personal un prenombre que indicaba el orden de nacimiento (Primo, Segundo, Quinto), y la procedencia, el oficio u otra particularidad.
+    </p>
+    <p>
+    Pero, dejando a un lado la teorización onomástica, veamos qué sucede en Cuba con una cuestión tan sensible como la de nombrar a los descendientes.
+    </p>
+    <div class="subtitle article-text">
+    Los nombres cubanos
+    </div>
+    <p>
+    Tras <a href="la-base-de-datos-de-etecsa.html">procesar la base de datos de ETECSA</a> y contabilizar los nombres de más de tres millones de usuarios, fue sorprendente descubrir que el nombre de mujer más común en Cuba es Yanet. La versión criolla de Janet tuvo tal auge que desplazó sin miramientos a María, Caridad o Mercedes pasando por años de tradiciones, por modas, por novelas de la literatura, radiales y televisadas, o por influencias de todo tipo, en unos pocos años.
+    </p>
+    <p>
+    Sin embargo, y aunque <a href="millennials-con-y.html">la moda de las Y</a> también caló fuerte entre los nombres masculinos en la Isla, los Yunior, Yoel o Yunier, no superaron nunca en cantidad a los nombres formales heredados de la fuerte tradición cristiana. En los datos acumulados para este artículo, el nombre Jorge Luis, el más utilizado por los hombres, supera en alrededor de seis mil apariciones a las Yanet, demostrando que entre los nombres femeninos hay más variedad, y que Jorge Luis, parece ser, por amplia ventaja, el más común entre todos los nombres cubanos.
+    </p>
+    
+    </div>
+    
+    <div id="ranking" class="media-block article-border border" >
+        <div class="graph-text article-text">
+            Ranking de nombres
+        </div>
+        <div class="graph">
+            <div style="margin-left:4px;margin-bottom:5px;">
+                <span class="article-text cursor" style="font-weight:bold" id='general' href="#" onclick="filter('general')">Nombres Más Comunes</span> |
+                <span class="article-text cursor" id='compound' href="#" onclick="filter('compound')">Nombres Compuestos</span> |
+                <span class="article-text cursor" id='first' href="#" onclick="filter('first')">Primer Nombre</span> |
+                <span class="article-text cursor" id='second' href="#" onclick="filter('second')">Segundo Nombre</span>
+            </div>
+            <table id="names-ranking"  class="table table-striped table-condensed table-hover">
+            </table>
+             <div id="names-control" ></div>
+            
+        </div>
+    </div>
+    
+    <div class="text-block">
+    <p>
+    La forma de nombrar en la Isla hasta finales de la década de 1950 parece signada por el santoral católico. Los nombres clásicos, que responden a la tradición y que fueron heredados de España, país que nos colonizó, eran habituales antes del año 1963, que marcó el punto de inflexión en la manera de nombrar. 
+</p>
+    <p>
+Antes de los años 60s, las mujeres solían tener nombres compuestos y la mayoría incluían a alguna virgen. Las madres acostumbraban a utilizar alguno de los nombres de santos y beatos que en cada fecha aparecían en sus almanaques, por tanto, antes de 1950, no hay una uniformidad en los nombres de mujeres, más allá de las constantes María, Caridad o Mercedes.
+</p>
+    <p>
+Si hacemos una línea temporal que divida los nombres de mujeres en antes y después de la Revolución, y los organizamos en cantidad de apariciones, el único nombre que aparece entre los diez primeros en las dos listas es Maritza. Casualmente, en ambas ocupa el octavo puesto.
+</p>
+    <p>
+Los nombres masculinos también seguían la tradición católica antes de 1959, respondiendo al santoral, y utilizando como comodín 
+recurrente nombres bíblicos como José o Juan. Sin embargo, los nombres compuestos no eran tan comunes como los de las mujeres, 
+<a href="la-base-de-datos-de-etecsa.html#nombres-compuestos">una costumbre que ahora parece invertirse</a>.
+</p>
+    <p>
+Esta manera de nombrar, aunque siempre regida por el santoral y la liturgia cristiana, tenía sus características distintivas, que marcaban 
+la diferencia en comparación a la propia España u otros países latinoamericanos. Los cubanos resultan devotos, sobre todo, a algunos santos como 
+San Lázaro, Santa Bárbara, la virgen de las Mercedes y la Patrona de Cuba: la Virgen de la Caridad del Cobre. Esta última aparece como nombre común solo, y como parte de nombres compuesto muchas veces en dos versiones: Caridad o De la Caridad. 
+</p>
+
+    <p>
+Mientras más cerca de las festividades de estos santos están los nacimientos, más aparecen los nombres relacionados, que llegan a su punto máximo 
+en el día del santoral. El 4 de diciembre, Día de Santa Bárbara, los nombres más comunes de mujer son Barbara, Bárbara y Barbarita, y entre 
+los hombres aparecen entre los tres primeros dos referencias: Barbaro y Barbarito. Casos similares son apreciables el 8 de septiembre, 
+el 24 de septiembre o el 17 de diciembre.
+</p>
+<p>
+La costumbre de nombrar siguiendo el santoral llegó a tal punto que no solo se tomaba como referencia el nombre del santo sino que también se utilizaban
+los términos asociados a dicho personaje. El 10 de diciembre, por ejemplo, los nombres femeninos más utilizados son Mérida, Eulalia y Loreta. Ese día, 
+según los santorales publicados en Cuba en el Almanaque Cubano de 1921 y el Almanaque Campesino de 1946, se venera a Nuestra Señora de Loreto y a Santa Eulalia de Mérida. Incluso, las ciudades de donde provenían
+estas figuras marcaron la vida de muchas mujeres nacidas ese día.
+</p>
+    <p>
+Antes de 1959 llamarse Fidel no era muy común. De hecho, después de ese año tampoco fue muy utilizado para nombrar a los cubanos. Sin embargo, superó con creces a otros nombres de varón de ese año. Todo un pueblo agradecido, olvidó por esa vez el santoral y nombró a sus hijos como el líder de los rebeldes.
+</p>
+    <p>
+El pico de apariciones de los llamados Ernesto también fue impulsado por un hecho: en 1968, justo cuando estaba reciente la noticia de la muerte de Ernesto “Ché” Guevara, la historia comenzó a influir más que los santos entre las madres y los padres cubanos.
+</p>
+    <p>
+Tanto es así, que si miramos día por día los nombres más comunes en Cuba, sumando los nacidos entre 1930 y 1997, veremos que casi todo el año predominan las referencias al calendario católico, pero hay varios días en que las influencias nada tienen que ver con la iglesia, y son muy notorias. 
+</p>
+    <p>
+El 13 de marzo, , el nombre José Antonio supera a los demás, en homenaje al líder juvenil que dirigió en esa fecha de 1957 las acciones contra el Palacio Presidencial y la emisora Radio Reloj. El 28 de octubre Camilo, el 7 de diciembre Antonio o el 10 de octubre Carlos Manuel, demuestran que en la Isla 
+se gestaba una conciencia nacional relacionada con su historia pasada y reciente. 
+    </p>
+    
+    </div>
+    
+    
+    <div id="santoral" class="media-block article-border border">
+        <div class="graph-text article-text">
+        Nombres más populares según día del año
+        </div>
+        <div id="evolution-initials" class="graph " >
+        <div style="margin-left:4px;margin-bottom:20px;margin-top:30px;" class="article-text post-media ">
+            <span>
+                Mes: 
+                <select style="margin-left:2px; margin-right:20px;" id="months">
+                <option value="1" >enero</option>
+                <option value="2">febrero</option>
+                <option value="3">marzo</option>
+                <option value="4">abril</option>
+                <option value="5">mayo</option>
+                <option value="6">junio</option>
+                <option value="7">julio</option>
+                <option value="8">agosto</option>
+                <option value="9">septiembre</option>
+                <option value="10">octubre</option>
+                <option value="11">noviembre</option>
+                <option value="12">diciembre</option>
+                </select>
+            </span>
+            <span>
+                Día: 
+                <select style="margin-left:2px;margin-right:20px;" id="days" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+            </span>
+            <span>
+                Sexo: 
+                <select style="margin-left:2px;" id="sex">
+                <option value="female">femenino</option>
+                <option value="male">masculino</option>
+                </select>
+            </span>
+        </div>
+       <div style="margin-left:4px;color:#FFFFFF;" class="row">
+           <div style="height:125px;padding-top:20px;;text-align:center;border-radius:10px;background-color:#EE48A3;" class="col-lg-4 col-md-4 article-color podium">
+                <div style="font-size:30px;font-weight:bold">1</div> <div id="name-1" style="font-size:18px;">Nombre Compuesto</div>
+            </div>
+           <div class="col-lg-1 col-md-1"></div>
+           <div style="height:125px;padding-top:20px;;text-align:center;border-radius:10px;background-color:#EE48A3;" class="col-lg-3 col-md-3 article-color podium">
+                <div style="font-size:30px;font-weight:bold">2</div> <div id="name-2" style="font-size:18px;">Nombre Compuesto</div>
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+            <div style="height:125px;padding-top:20px;;text-align:center;border-radius:10px;background-color:#EE48A3;" class="col-lg-2 col-md-2 article-color podium">
+                <div style="font-size:30px;font-weight:bold">3</div> <div id="name-3" style="font-size:18px;">Nombre Compuesto</div>
+            </div>
+        </div>
+        </div>
+        <div id="fact" style="margin-left:40px;margin-top:40px;margin-right:40px;;font-size:24px;font-weight:bold;">Aquí va el fact</div>
+    </div>
+    
+    <div class="text-block">
+    
+    <p>
+    Los años 70 significaron el fortalecimiento de las relaciones con la Unión Soviética, a tal punto que el idioma ruso era estudiado en las escuelas cubanas y que los nombres de la lejana potencia socialista europea empezaron a aparecer en la antroponimia cubana. Los nacidos en esa década, sobre todo los hombres, empezaron a llamarse Alexis, Alexander o Vladimir. También había Tatianas y Katiuskas, pero no tantas como para desplazar a los otros nombres femeninos, algo que sí sucedió entre los varones.
+    </p>
+    <p>
+Según los datos de los usuarios de ETECSA, ya en el 77 comenzaron a emerger los nombres con Y. Yanet y Yaima habían llegado para quedarse, y en los años siguientes, sobre todo a principios de los 80s, su popularidad aumentó. Los cubanos empezaron a utilizar su creatividad y convirtieron sonoridades foráneas en nombres únicos, a la vez que incorporaron referencias de la televisión a la hora de identificar a sus hijos.
+    </p>
+    <p>
+Michael Jackson, el Rey del Pop, alcanzó su fama internacional a finales de los años 70s y Cuba quedó deslumbrada, igual que el resto del mundo, por la voz, el baile y las historias detrás del cantante. En 1980 -y hasta 1984-  el nombre de varón más utilizado para los recién nacidos fue Maikel, una de las versiones cubanas, aunque no la única.
+    </p>
+
+    
+    </div>
+    
+    <div id="nombres-por-annos" class="media-block article-border border">
+        <div class="graph-text article-text">
+        Nombres más populares por año desde 1930 hasta 1997
+        </div>
+        <div id="generaciony" class="graph" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+            <div id="chart2"></div>
+            <div id="mujer" style="text-align:center;font-size:24px;font-weight:bold;" class="female-text">mercedes</div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+            <div id="year" style="padding-top:40px;text-align:center;font-size:50px;font-weight:bold;" class="article-text">1930</div>
+            <div >
+                <div class="col-lg-2 col-md-2">
+                1930
+                </div>
+                 <div class="col-lg-8 col-md-8" style="text-align:center;">
+                <input id="slider" value="1930" min="1930" max="1997" type="range" style="text-align:center;width:100%;margin-bottom:10px;margin-left:10px;"></input>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                1997
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+            <div id="chart1"></div>
+            <div id="hombre" style="text-align:center;font-size:24px;font-weight:bold;" class="male-text">manuel</div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    
+   <div class="text-block">
+        <p>
+Del año 1986 al año 1988, se impuso como tendencia llamarse Yasmany. Esta manera de escribirlo fue la más popular, sin embargo, Yasmani también era muy común en la época y los dos nombres muestran un comportamiento similar en su curva de apariciones. Así también sucede con Joel y Yoel, aunque con Y es más común, las dos versiones tuvieron su auge a la vez. Lo importante para los cubanos a la hora de nombrar parece ser, más allá de la ortografía, el cómo se escucha.
+    </p>
+    <p>
+    La última década del siglo pasado sirvió para posicionar a Alejandro entre los nombres de varón de la Isla. Aunque es muy reciente, y no entró entre los diez más comunes en Cuba, si estuvo en la cima desde el año 1989, y hasta la última fecha de la cual reportamos información: 1997. Daniel y Adrián también comenzaron a ser frecuentes, acompañados de Jorge Luis, el único nombre que se mantuvo casi siempre entre los favoritos desde 1960.
+</p> 
+    <p>
+Las teleseries transmitidas por la televisión cubana, provenientes de otras latitudes, también marcaron tendencias en la Isla. Laura, Claudia, y Eliany se volvieron virales entre los nombres de mujer en Cuba de los años 90s, impulsados por las telenovelas brasileñas o colombianas en transmisión. Incluso, la realeza británica se coló entre las cubanas, y apareció Dayana, la versión criolla de Diana, para demostrar la simpatía por la princesa de Gales. 
+</p> 
+    <p>
+El regreso a los nombres compuestos, la feminización de nombres masculinos –Alejandra, Carla, Daniela- y el uso de nombres típicos de otros idiomas, 
+parecen ser la tendencia actual. Sin embargo, cosas que suceden todos los días, nuevos famosos, nuevas telenovelas, nuevas series y nuevos contextos, 
+continuarán marcando pautas en la manera de nombrar en Cuba. Aunque no aparecen en estas gráficas, conocemos pequeñas llamadas Shakira, o niños que llevan los nombres de ídolos del fútbol, como Cristiano, Ronaldo o Lionel.
+</p> 
+    <p>
+Recorrer la historia de los nombres en nuestro país resulta una manera de conocer, desde otro punto de vista, los momentos vividos por los cubanos. Esta revisión, que contempló a cerca del 30% de los habitantes de la Isla, nos mostró algunos datos curiosos y otros sorprendentes, y también nos llevó a confirmar viejas certezas.
+    </p> 
+    
+    </div>
+    
+    <div id="100-nombres" class="media-block article-border border">
+        <div class="graph-text article-text">
+        Navegue entre los 100 nombres cubanos, de hombre y de mujer, más populares entre 1930 y 1997 
+        </div>
+        <div id="evolution-names" class="graph" ></div>
+        <div>
+            <div style="text-align:center;font-size:20px"><span id="filter-todo" class="filtertodo big cursor" onclick="filter_name('todo')" >Todos</span> <span id="filter-hombre" class="filterhombre big cursor" onclick="filter_name('hombre')">Hombres</span> <span  class="filtermujer big cursor" onclick="filter_name('mujer')" id="filter-mujer">Mujeres</span></div><br>
+            <div id="names" style="padding-left:30px;padding-right:30px;"></div>
+        </div>
+    </div>   
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201609/des-cifrando-los-nombres.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201609-2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>
+    
+     <div class="read-more article-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="la-base-de-datos-de-etecsa.html">La base de datos de ETECSA</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            </div>
+        </div>
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block research-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="es-usted-unico-en-cuba.html"> ¿Es usted único en Cuba?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a></div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block comment-color"> 
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="millennials-con-y.html"> Millennials con Y</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+           </div>            
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3  container" >
+            <div class="news-block report-color">
+           <div class="title-author-block">
+                <div class="front-news-title"><a href="el-caso-etecsa.html">El caso ETECSA</a></div>
+                <div class="front-news-author">Por <a href="../../equipo/ernesto.html">Ernesto Guerra</a></div>
+            </div>
+             </div>
+        </div>
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+        $(document).ready(function() {  
+        $.getJSON("data/count_names.json",function(jd){
+            counts = jd;
+            c_click = {};
+            names = [];
+            for(var i in counts) {
+                names.push(i);
+            }
+            names.sort();
+            
+            for(var j=0; j<names.length;j++) {
+                i=names[j];
+                c_click[i] = false;
+                $('#names').append('<span id="'+i.replace(/[' ']/gi,'-')+'" href="#" class="'+counts[i]['sex']+' cursor" onclick="load_data(\''+i+'\')">'+i+'</span> ');
+            }
+            
+            alicia = ['alicia'].concat(counts['alicia']['evolucion']);
+            abel = ['abel'].concat(counts['abel']['evolucion']);
+            c_click['alicia'] = true;
+            c_click['abel'] = true;
+            $('#alicia').css('opacity',1.0);
+            $('#abel').css('opacity',1.0);
+            
+            chart = c3.generate({
+        bindto: '#evolution-names',
+        data: {
+            type: 'spline',
+            x: 'Años',
+          columns: [ abel , alicia,
+            ['Años',1930,
+ 1931,
+ 1932,
+ 1933,
+ 1934,
+ 1935,
+ 1936,
+ 1937,
+ 1938,
+ 1939,
+ 1940,
+ 1941,
+ 1942,
+ 1943,
+ 1944,
+ 1945,
+ 1946,
+ 1947,
+ 1948,
+ 1949,
+ 1950,
+ 1951,
+ 1952,
+ 1953,
+ 1954,
+ 1955,
+ 1956,
+ 1957,
+ 1958,
+ 1959,
+ 1960,
+ 1961,
+ 1962,
+ 1963,
+ 1964,
+ 1965,
+ 1966,
+ 1967,
+ 1968,
+ 1969,
+ 1970,
+ 1971,
+ 1972,
+ 1973,
+ 1974,
+ 1975,
+ 1976,
+ 1977,
+ 1978,
+ 1979,
+ 1980,
+ 1981,
+ 1982,
+ 1983,
+ 1984,
+ 1985,
+ 1986,
+ 1987,
+ 1988,
+ 1989,
+ 1990,
+ 1991,
+ 1992,
+ 1993,
+ 1994,
+ 1995,
+ 1996,
+ 1997]] 
+ },
+ 
+
+         axis: {
+            x: {
+                label: 'Años',
+                 extent: [1958.5, 1997.5]
+            },
+            y: {
+                label: 'Número de Apariciones',
+                
+            }
+        },
+        subchart: {
+          show: true
+        },
+        
+      });
+         }); 
+          });         
+        
+     
+      
+      
+      function load_data(id){
+        evol = [id].concat(counts[id]['evolucion']);
+        if (c_click[id]==false) {
+            chart.load({
+              columns: [
+                evol
+              ]
+            });
+            c_click[id] = true;
+            $('#'+id.replace(/[' ']/gi,'-')).css('opacity',1.0);
+        }
+        else {
+            chart.unload({
+               ids: id
+            });
+            c_click[id] = false;
+            $('#'+id.replace(/[' ']/gi,'-')).css('opacity',0.5);
+        }
+      }
+      
+      function filter_name(id) {
+        $("#filter-"+id).css('opacity',1);
+        if (id=='todo') {
+            $(".mujer").show();
+            $("#filter-mujer").css('opacity',0.5);
+            $(".hombre").show();
+            $("#filter-hombre").css('opacity',0.5);
+        }
+        if (id=='mujer') {
+            $(".mujer").show();
+            $("#filter-todo").css('opacity',0.5);
+            $(".hombre").hide();
+            $("#filter-hombre").css('opacity',0.5);
+        }
+        if (id=='hombre') {
+            $(".mujer").hide();
+            $("#filter-mujer").css('opacity',0.5);
+            $(".hombre").show();
+            $("#filter-todo").css('opacity',0.5);
+        }
+      
+      }
+    </script>
+     <script>
+    
+    
+       $.getJSON('data/names.json', function(apellidos) {
+        d = apellidos;
+        $('#names-ranking').append('<thead><tr style="font-weight:bold"><td>Posición</td><td class="male-text">Hombres</td><td class="female-text">Mujeres</td></tr></thead>');
+        $('#names-ranking').append('<tbody>');
+        for(var i=0;i<d['male']['general'].length;i++){
+            console.log(i);
+            if (i<10){ 
+                $('#names-ranking').append('<tr><td>'+(i+1)+'</td><td class="general male-text">'+d['male']['general'][i]+'</td><td class="general female-text">'+d['female']['general'][i]+'</td><td  style="display:none" class="compound male-text">'+d['male']['compound'][i]+'</td><td style="display:none" class="compound  female-text">'+d['female']['compound'][i]+'</td><td  style="display:none" class="first male-text">'+d['male']['first'][i]+'</td><td style="display:none" class="first  female-text">'+d['female']['first'][i]+'</td><td style="display:none" class="second male-text">'+d['male']['second'][i]+'</td><td style="display:none" class="second female-text">'+d['female']['second'][i]+'</td></tr>');
+            } 
+            if (i>=10) {
+                $('#names-ranking').append('<tr class="morename" style="display:none"><td>'+(i+1)+'</td><td class="general male-text">'+d['male']['general'][i]+'</td><td class="general female-text">'+d['female']['general'][i]+'</td><td  style="display:none" class="compound male-text">'+d['male']['compound'][i]+'</td><td style="display:none" class="compound  female-text">'+d['female']['compound'][i]+'</td><td  style="display:none" class="first male-text">'+d['male']['first'][i]+'</td><td style="display:none" class="first  female-text">'+d['female']['first'][i]+'</td><td style="display:none" class="second male-text">'+d['male']['second'][i]+'</td><td style="display:none" class="second female-text">'+d['female']['second'][i]+'</td></tr>');
+                //$('#names-ranking').append('<tr class="morename" style="display:none"><td>'+(i+1)+'</td><td class="general">'+d['male']['general'][i]+'</td><td class="general">'+d['female']['general'][i]+'</td><td  style="display:none" class="compound">'+d['male']['compound'][i]+'</td><td style="display:none" class="compound">'+d['female']['compound'][i]+'</td><td style="display:none"  class="first">'+d['male']['first'][i]+'</td><td style="display:none" class="first">'+d['female']['first'][i]+'</td><td style="display:none" class="second">'+d['male']['second'][i]+'</td><td style="display:none" class="second">'+d['female']['second'][i]+'</td></tr>');
+            }
+        }
+        $('#names-ranking').append('</tbody>');   
+        $('#names-control').append('<div id="masname"><span class="article-text cursor" style="text-decoration:None"  onclick="ver(\'masname\')">Ver más</span></div>');
+        $('#names-control').append('<div id="menosname" style="display:none"><span  style="text-decoration:None" class="article-text cursor" onclick="ver(\'menosname\')">Ver menos</span></div>');   
+      });
+      
+      function ver(action) {
+        if (action=="mas") {
+            $('#mas').hide();
+            $('.more').show();
+            $('#menos').show();
+        } 
+        if (action=="menos") {
+            $('#mas').show();
+            $('.more').hide();
+            $('#menos').hide();
+        }
+        if (action=="masname") {
+            $('#masname').hide();
+            $('.morename').show();
+            $('#menosname').show();
+        } 
+        if (action=="menosname") {
+            $('#masname').show();
+            $('.morename').hide();
+            $('#menosname').hide();
+        }
+        
+      }
+      
+      function filter(action){
+        if (action=='general'){
+            $('.general').show();
+            $('.compound').hide();
+            $('.first').hide();
+            $('.second').hide();
+            $("#general").css('font-weight','bold');
+            $("#compound").css('font-weight','normal');
+            $("#first").css('font-weight','normal');
+            $("#second").css('font-weight','normal');
+        }
+        if (action=='compound'){
+            $('.general').hide();
+            $('.compound').show();
+            $('.first').hide();
+            $('.second').hide();
+            $("#compound").css('font-weight','bold');
+            $("#general").css('font-weight','normal');
+            $("#first").css('font-weight','normal');
+            $("#second").css('font-weight','normal');
+        }
+        if (action=='first'){
+            $('.general').hide();
+            $('.compound').hide();
+            $('.first').show();
+            $('.second').hide();
+            $("#first").css('font-weight','bold');
+            $("#compound").css('font-weight','normal');
+            $("#general").css('font-weight','normal');
+            $("#second").css('font-weight','normal');
+        }
+        if (action=='second'){
+            $('.general').hide();
+            $('.compound').hide();
+            $('.first').hide();
+            $('.second').show();
+            $("#second").css('font-weight','bold');
+            $("#compound").css('font-weight','normal');
+            $("#first").css('font-weight','normal');
+            $("#general").css('font-weight','normal');
+        }
+        
+      }
+        
+
+    </script>
+    <script>
+    function set_santoral_info(){
+        var day = $('#days').val();
+        var month = $('#months').val();
+        var sex = $('#sex').val();
+        var tmonth = $('#months').find("option:selected").text();
+        if (sex=='female') {
+            $("#name-1").html(santoral[tmonth][day]['nombres_mujeres'][0]);
+            $("#name-2").html(santoral[tmonth][day]['nombres_mujeres'][1]);
+            $("#name-3").html(santoral[tmonth][day]['nombres_mujeres'][2]);
+            $("#fact").html(santoral[tmonth][day]['fact_mujeres']);
+            $(".podium").css('background-color','#EE48A3');
+            $("#fact").css('color','#EE48A3');
+        } else {
+            $("#name-1").html(santoral[tmonth][day]['nombres_hombres'][0]);
+            $("#name-2").html(santoral[tmonth][day]['nombres_hombres'][1]);
+            $("#name-3").html(santoral[tmonth][day]['nombres_hombres'][2]);
+            $("#fact").html(santoral[tmonth][day]['fact_hombres']);
+            $(".podium").css('background-color','#298CEE');
+            $("#fact").css('color','#298CEE');
+        }
+    }
+    
+    $(document).ready(function() {
+        $.getJSON("data/names_days.json",function(jd){
+            santoral = jd;
+            
+            set_santoral_info();    
+        });
+    });
+    
+    
+    $('#months').on('change', function() {
+        var day = $('#days').val();
+        var month = this.value;
+        var limit = 31 
+        if ( month == 2) {
+            limit = 28;
+            if (day > 28) day = 1;
+        }
+        if ( month == 4 || month == 6 ||month == 9 || month == 11) {
+            limit = 30;
+            if (day > 30) day = 1;
+        }
+        var s_text = ""
+        for(i=1;i<=limit;i++){
+            s_text += "<option value="+i+">"+i+"</option>";
+        }
+        $('#days').html(s_text); 
+        $('#days').val(day);   
+        set_santoral_info();    
+    });
+    
+    $('#days').on('change', function() {
+        set_santoral_info();
+    });
+    $('#sex').on('change', function() {
+        set_santoral_info();
+    });
+    </script>
+    <script>
+    anos = ['1930','1931',
+ '1932',
+ '1933',
+ '1934',
+ '1935',
+ '1936',
+ '1937',
+ '1938',
+ '1939',
+ '1940',
+ '1941',
+ '1942',
+ '1943',
+ '1944',
+ '1945',
+ '1946',
+ '1947',
+ '1948',
+ '1949',
+ '1950',
+ '1951',
+ '1952',
+ '1953',
+ '1954',
+ '1955',
+ '1956',
+ '1957',
+ '1958',
+ '1959',
+ '1960',
+ '1961',
+ '1962',
+ '1963',
+ '1964',
+ '1965',
+ '1966',
+ '1967',
+ '1968',
+ '1969',
+ '1970',
+ '1971',
+ '1972',
+ '1973',
+ '1974',
+ '1975',
+ '1976',
+ '1977',
+ '1978',
+ '1979',
+ '1980',
+ '1981',
+ '1982',
+ '1983',
+ '1984',
+ '1985',
+ '1986',
+ '1987',
+ '1988',
+ '1989',
+ '1990',
+ '1991',
+ '1992',
+ '1993',
+ '1994',
+ '1995',
+ '1996',
+ '1997'];
+ 
+    $.getJSON('data/names_years.json', function(y) {
+       years = y
+       chart1 = c3.generate({
+          bindto: '#chart1',
+          data: {
+              columns: [
+                  ['porciento', 36.0]
+              ],
+              type: 'gauge',
+              colors: {
+                'porciento': '#298CEE',
+            },
+              
+          },
+          gauge: {
+              min: 0,
+              max: 100,
+          }
+      });
+
+      chart2 = c3.generate({
+          bindto: '#chart2',
+          data: {
+              columns: [
+                  ['porciento', 36.0]
+              ],
+              type: 'gauge',
+              colors: {
+                'porciento': '#EE48A3',
+            },
+          },
+          gauge: {
+              min: 0,
+              max: 100,
+          }
+      });
+      
+         
+         function cycle(value){
+                index = value-1930;  
+                $("#year").html(anos[index]);
+                $("#mujer").html(years[anos[index]]['mujer'][0]);
+                $("#hombre").html(years[anos[index]]['hombre'][0]);
+                chart2.load({
+                columns: [
+                    ['porciento',years[anos[index]]['mujer'][1]]
+                ]
+                });
+                chart1.load({
+                columns: [
+                    ['porciento',years[anos[index]]['hombre'][1]]
+                ]
+                });
+        }
+        
+        $("#slider").on("input change", function(){
+            console.log(anos[this.value-1930]);
+            cycle(this.value);
+            
+        });
+      });
+    </script>
+    <script>
+     
+    </script>
+  </body>
+</html>

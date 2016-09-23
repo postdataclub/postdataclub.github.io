@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - ¿Es usted único en Cuba?</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/principales.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  research-color">
+            <div class="article-news-title">¿Es usted único en Cuba?</div>
+            <div class="article-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a><span class="article-date">22/09/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Historia sobre los documentos de identidad</div> 
+            
+             <div class="article-news-image">
+                <img src="images/identidad.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: Jessica Dominguez</div>
+                </div>
+            </div>                
+    </div>
+   
+    <div class="text-body">
+    
+    <div class="text-block">
+    
+    <p>
+    Quien escribe, 91021027775, de nacionalidad cubana y sexo femenino, nacida el 10 de febrero de 1991, es única y comprobable a efectos legales.
+</p>
+<p>
+Esos once dígitos en una tarjeta conforman un número de identidad permanente que unido al nombre, apellidos, dirección y otros datos personales, nos reconocen como ciudadanos cubanos, dan fe de vida, prueban que existimos. Eso nos convierte en seres sociales con derechos y deberes dentro del Estado.
+</p>
+<p>
+Todos los ciudadanos, mayores de 16 años de edad, están obligados a poseer, portar y mostrar un documento de identidad en el territorio nacional.
+</p>
+<p>
+El Carné de Identidad (CI) o la Tarjeta de Menor; el Documento de Identidad Provisional para extranjeros residentes de forma permanente, temporal o en inmobiliarias; el Pasaporte de la República de Cuba para los que viajen o residan en el exterior y el Carné de las Fuerzas Armadas Revolucionarias, para los militares de esa Institución en servicio activo (aunque ya desde 2015 también portan CI) son los documentos válidos en el país según establece 
+<a href="files/D-Ley-No-248.pdf">el Decreto-Ley 248</a> del 22 de junio del 2007.
+</p>
+
+<div class="subtitle research-text">
+41 años con Carné de Identidad
+</div>
+
+<p>
+Llevar el CI en el bolsillo o el monedero, además de obligatorio, es natural, común, e incluso inadvertido. En Cuba, no así en todos los países, su uso es necesario para realizar trámites legales, bancarios, estudiar, trabajar, inscribirse, comprar boletos de viaje, contratar servicios, recibir atención médica, votar, entre otros.
+</p>
+<p>
+Sin embargo, no fue hasta 1975 cuando los cubanos tuvieron por primera vez un documento único de identidad.
+</p>
+<p>
+Antes era el caos. Las personas utilizaban indistintamente, si los tenían, la Cédula Electoral, la Licencia de Conducción, el Pasaporte, o Carnés expedidos por organismos estatales como las Asociaciones Médicas, los Sindicatos (fundamentalmente el de la Industria Azucarera y Tabacalera), las Organizaciones de Masas y otros. Esto carecía totalmente de confiabilidad.
+</p>
+</div>
+
+<div class="image-block container" style=" max-width: 600px;">
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+ 
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/documento-antiguo-2.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/documento-antigo-1.jpg" class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+                <div class = "image-info row" style="text-align:center;margin-top:15px;">
+                    <div class="image-caption">Documentos de identidad antiguos</div>
+                </div>
+</div>
+
+<div class="text-block">
+<p>
+Por ello desde 1963 se comienza a pensar en un documento único, cuenta Hilda Hernández, Teniente Coronel retirada, quien trabajó vinculada al CI desde su creación. El primer paso fue el censo integral de población y vivienda que se materializó el 6 de septiembre de 1970.
+</p>
+<p>
+A partir de entonces se transcribieron los cuestionarios censales a tarjetas de control individual en las Oficinas del Carné de Identidad y Registro de Población. Luego, se le entregó a cada persona una constancia de enumeración que debía presentar para solicitar el CI o la Tarjeta de Menor a través de las zonas CDR y Bases Campesinas de la ANAP en cada cuadra.
+</p>
+<p>
+Se dice rápido, pero pasaron 5 años de papeleos: modelos y proformas incontables, de pruebas, de aprendizajes basados en la experiencia soviética para que se extendiera a todo el país la entrega del librito azul de 24 páginas que todavía hoy continúa vigente. El Coronel Luis Carlos García Gutiérrez, conocido como Fisín, condujo todo el proceso.
+</p>
+<p>
+El Plan Piloto sería en la provincia de Matanzas, lugar donde se iniciaba la experiencia del Poder Popular. 
+Allí mismo, en el entonces municipio Carlos Rojas en el municipio Martí se entregarían el 12 de febrero de 1975 
+los primeros carné de identidad en Cuba a 20 trabajadores, entre los que se encontraban los que se encontraban
+los héroes del trabajo Roberto Yáñez y Víctor Bernal.
+</p>
+<p>
+La Ley 1234 del Carné de Identidad y Registro de la Población, promulgada el 15 de junio de 1971, estableció el marco legal que ampliarían luego la ley 1278 del 13 de septiembre de 1974 y la Resolución 18 que es su Reglamento. En este último se norman los diferentes motivos por lo que podrá cambiarse, solicitarse, entregarse o retirarse, entre otros aspectos los documentos de identidad, además de los deberes y derechos de la ciudadanía. Asimismo, el artículo 5 del Decreto Ley 141 establece cuáles son las violaciones del mismo y las multas que se imponen por ellas.
+</p>
+<p>
+“La pretensión de Fisin era que no existiera otro documento, que ese fuera tu carné de identidad, tu carné escolar, tu carné de trabajador, tu certificado de nacimiento, para la defensa y tu número de carné fuera tu expediente para todo. La foto se renovaba a los 16, a los 25 y a los 40 y contenía datos sobre los hijos, el matrimonio, el divorcio, las notas escolares, los centros de trabajo, la posición en la defensa, el grupo sanguíneo entre otras anotaciones especiales”, recuerda el Coronel Lázaro Delgado, Primer Segundo Jefe de la Dirección de Identificación Inmigración y Extranjería (DIIE). 
+</p>
+</div>
+
+<div class="image-block container" style="max-width: 600px;">
+     <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+     
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="6"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="7"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="8"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="9"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="10"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="11"></li>
+  </ol>
+ 
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/librito-pag-1.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-2.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-3.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-4.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-5.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-6.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-7.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-8.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-9.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-10.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/librito-pag-11.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example-generic-1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic-1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<div class = "image-info row" style="text-align:center;margin-top:15px;">
+                    <div class="image-caption">Páginas del Carné de Identidad de 1975</div>
+                </div>
+</div>
+
+
+<div class="text-block">
+
+<p>
+A partir de ese momento los diferentes ministerios e instituciones dispusieron, de acuerdo a sus respectivas competencias, como habrían de emplearse.
+</p>
+<p>
+Por ejemplo, el Comité Estatal de Trabajo y Seguridad Social acordó adoptar el número de identidad permanente como número del expediente laboral y que en las páginas de la 12 a la 19 de CI se anotaran los datos laborales referentes al lugar de trabajo y ocupación, actualizable en casos de traslado o baja laboral. Además, para obtener empleo era requisito indispensable la presentación del CI. 
+</p>
+<p>
+El Ministerio de Educación acordó exigir que en todos los niveles de enseñanza se mostrara el Carné de Identidad o la Tarjeta de Menor para efectuar matrícula. En 1981 se establece el número de identidad permanente como número del expediente académico superior. Asimismo, en las páginas del CI destinada a anotaciones especiales se reflejaría el nivel superior, lo que era indispensable para iniciar el vínculo laboral.
+</p>
+<p>
+Por su parte, con los Registro Civil, Notarial y Tribunales se coordinó la expedición de la Certificación de Nacimiento para la solicitud del Carné de Identidad y la Tarjeta de Menor, con el fin de garantizar la calidad y prontitud en la confección de los documentos. 
+</p>
+<p>
+También se en las oficinas del Registro Civil y Notariados, fuera requisito indispensable la presentación del Carné de Identidad para efectuar matrimonios, los que se anotarían en las páginas 9 y 10 sobre los datos referentes al Estado Civil del ciudadano. Los Tribunales Provinciales Populares competentes anotarían en el CI todo lo relacionado con las sentencias de divorcio.
+</p>
+<p>
+El Banco Nacional de Cuba acordó la presentación del CI para todos los trámites, mientras que en las Oficinas de Correos y Telégrafos se exigió para efectuar cobros de giros, pensiones y recogida de bultos postales.
+</p>
+<p>
+Duró 24 años ese CI, aunque con tres versiones casi idénticas, hasta que en marzo de 1998 se cambió el librito por el carné tipo tarjeta: con cobertura plástica y diseño cubano; con menos información, pero más manuable y seguro. Además, se fue perfeccionando y luego se le añadió un sello de seguridad.
+</p>
+</div>
+
+<div class="image-block" style="text-align: center;">
+                <img src="images/carnet-viejo-jessica.jpg" style="width:90%;">
+                <div class = "image-info row">
+                    <div class="image-caption">Carné de Identidad anterior al actual</div>
+                </div>
+       </div>   
+
+
+<div class="text-block">
+<p>
+El sistema del Carné de Identidad y Registro de Población desde 1990 y hasta 1996 había comenzado un proceso de automatización, pero el elemento detonante fue que los libritos se agotaron. La Unión de Repúblicas Socialistas Soviéticas, de donde se traían, ya estaba extinta. A partir de ese momento habría que pagarlos y no había dinero: Cuba estaba en medio del Período Especial. Estuvimos casi dos años sin hacer carnés nuevos, se entregaba un documento provisional, explica el Coronel Lázaro Delgado Chaple, Primer Segundo Jefe de la DIIE.
+</p>
+<p>
+Y añade: “hubiésemos querido hacer uno más fuerte y resistente como el actual pero ese fue el que se pudo hacer en aquellas circunstancias.” El cambio supuso un conflicto con todos los organismos del Estado para quitar los datos que ya las personas estaban acostumbradas a poner. 
+</p>
+<p>
+Solo quedaron los datos identificativos, el tomo y el folio que daban carácter probatorio, la dirección -porque Cuba depende mucho de eso en su organización-, y la fecha donde se anotaba en la dirección- producto de los litigios de vivienda que se daban en esa época-, un dato para la defensa y si la persona era donante o no de órganos, explica el Coronel.
+</p>
+<p>
+Recientemente, en octubre de 2014, los cubanos cambiaron de nuevo el Carné de Identidad. Ahora es una tarjeta de policarbonato, similar a una tarjeta magnética, más resistente, sobre la cual un láser imprime a relieve los datos personales. 
+</p>
+<p>
+Este nuevo documento de identidad es menos vulnerable. Cuenta con campos de lectura mecánica como el Código QR, el PDF y el código de barra, que contienen datos encriptados, posee hologramas de seguridad asociados al laminado, impresiones del pulgar y firma digital, como explica la capitana Agdarys Morales, especialista de la DIIE.
+</p>
+</div>
+
+<div class="image-block" style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iutCgClqtqI" frameborder="0" allowfullscreen></iframe> 
+  <div class = "image-info row" style="margin-top:15px;">
+                    <div class="image-caption">Video promocional transmitido por la TV Cubana sobre la implementación del nuevo Carné de Identidad</div>
+                </div>             
+</div>  
+<div class="text-block">
+<p>
+Además, dice: “Nos estábamos quedando atrás en comparación con los sistemas mundiales, [el CI] se deterioraba con facilidad y se cambiaba con frecuencia extrema, sus datos no eran fiables pues se hacía por transcripción manual, la emisión era vulnerable estaban dispersos los documentos en blanco en todo el país. Era necesario fortalecerlo no por lo que pasaba sino por lo que podía pasar”.
+</p>
+<p>
+Hoy, para la creación de un documento, el proceso de identificación se realiza de forma automatizada y en pocos segundos se ejecuta la búsqueda sobre una base de millones de impresiones dactilares y rostros previamente registrados. El sistema verifica que esos datos no pertenezcan a otra persona.
+</p>
+<div class="subtitle research-text">
+El número de identidad
+</div>
+
+</div>
+
+<div class="image-block" style="text-align: center;">
+                <img src="images/numero de carne.jpg" style="width:60%;">
+                <div class = "image-info row">
+                    <div class="image-caption">Por: Jessica Dominguez</div>
+                </div>
+</div> 
+
+<div class="text-block">
+<p>
+El número de identidad se genera a partir de un algoritmo matemático y es, o debe ser, único.
+</p>
+<p>
+Ahora su asignación es fácil, el sistema está automatizado, pero ¿cómo se otorgaba antes?
+</p>
+<p>
+La capitana Morales explica que los números se generaban automatizados, y cada año se imprimían en libros que se distribuían por las provincias. Entonces, para otorgarlos se comprobaban con unas plantillas manuales antes de hacer el carné, o sea, para determinada fecha y sexo había varias posibilidades. Si se acababa, se le podía solicitar a otro municipio. Una vez asignado el número se eliminaba de la lista. También existía una reserva con números de años anteriores que no se utilizaban.
+</p>
+<p>
+Pero este mecanismo no fue infalible, se cometieron errores humanos: alguien que olvidó eliminar el número después de otorgarlo o que lo otorgó mal sin seguir los parámetros establecidos. Por ello, el número individual de algunos ciudadanos puede estar duplicado o, incluso, tener errores. 
+</p>
+<p>
+Para colmo de males, explica Morales, hubo una emisión de libros en la década del 60 de la cual se hicieron varias copias, por tanto se otorgaron los mismos números en diferentes provincias del país. En opinión del Coronel Delgado deben haber sido más de 200 000 los números repetidos.
+</p>
+<p>
+Con el cambio de carné y el paso a la base de datos informatizada, se han evidenciado los errores y ha habido que cambiar números que estaban mal.
+</p>
+<p>
+Ahora el número lo otorga el sistema informático. 
+</p>
+
+<div class="subtitle research-text">
+¿Qué hay detrás del carné?
+</div>
+<p>
+El documento de identidad es solo el último eslabón visible del Sistema Único de Identidad Nacional (SUIN) que implementa el Ministerio del Interior desde el 2012. 
+</p>
+<p>
+Está conformado por bases de datos inteligentes donde se integran nombres, apellidos, nombre de los padres y lugar de nacimiento, número de identidad permanente, datos asociados al Registro Civil (tomo, folio, fecha de asiento), domicilio legal, firma, fotos, e información de las impresiones dactilares.
+</p>
+<p>
+Además, guarda una copia de los documentos que ha tenido la persona y determina los que son válidos, conserva todos los trámites realizados y los datos asociados a estos: fecha, qué documentos obtuvo e, incluso, la serie de los mismos. También permite almacenar otros materiales auxiliares como certificaciones de nacimiento, propiedades, etc. de todos los ciudadanos.
+</p>
+<p>
+Desde el 2006 se trabajaba en concentrar la información personal y un año más tarde hubo un avance sustancial: la existencia de un sistema de impresiones dactilares automatizadas. Esto fue posible porque a partir del año 1992 a todos los jóvenes que arriban a los 16 años se le tomaban las impresiones en tiras dactiloscopias en papel, por lo que un por ciento importante de los ciudadanos cubanos ya están registrados. 
+</p>
+<p>
+Los datos biométricos que hoy se recogen, explica la capitana Morales, se circunscriben a la foto, las impresiones dactilares y a la firma de la persona, pero en función de un progresivo desarrollo se podrían incluir la voz, el ADN y el iris.
+</p>
+<p>
+Eso nos conduce a algunas preguntas esenciales respondidas por los funcionarios consultados:
+</p>
+<p>
+¿Son frecuentes en Cuba los delitos asociados a la identidad?
+</p>
+<p>
+Según el Coronel Delgado se daban con cierta frecuencia con los carnés viejos, sobre todo con el librito: era fácil cambiarle la foto y se simulaba el cuño que llevaba. Luego en la década del 90 quienes más incurrían en ello eran las prostitutas. 
+</p>
+<p>
+Antes había en Cuba una base de datos con impresiones dactilares pero al triunfo de la Revolución se suprimió por entenderse como una práctica utilizada por los órganos represivos de Batista. Cuando en 1992 se decidió tomar nuevamente a los jóvenes las impresiones dactilares el aumento de la suplantación fue una de las causas que lo motivó. Se hubiese querido hacerlo a todo el país pero no era posible.
+</p>
+<p>
+Actualmente, explica Agdarys Morales, los delitos asociados a este tema no son frecuentes, incluso la suplantación de identidad no está tipificada como tal en el código penal. Lo más parecido es el delito de desobediencia en el que se puede incurrir por ocultar la identidad o mostrar una diferente a las autoridades cuando lo solicitan. Eso no significa que en el marco delictivo no haya personas que intenten usar el nombre de otros para evadir su responsabilidad.
+</p>
+<p>
+¿Cuál es el marco legal que ampara registrar esa información personal?
+</p>
+<p>
+Para Morales el decreto Decreto-Ley 248 está obsoleto con relación al nuevo documento de identidad. Por ejemplo, lo que se llamaba Registro de Población y de Direcciones hoy es el Registro de Identidad y de Domicilio y sobre esa base hay que modificar las normas jurídicas que están vigentes y no se adecuan a las necesidades actuales.
+</p>
+<p>
+A partir de la aprobación de los lineamientos de la Política Económica y Social aprobados por el VI Congreso del Partido, se definió la política de reordenamiento de los registros públicos y se aprobó del Decreto Ley 335. Esta trae aparejado un reordenamiento de los registros y de las normas jurídicas asociadas a la actividad registral que incluye también las asociadas a la identidad.
+</p>
+<p>
+Lo que se ha hecho hasta ahora es adecuar los procedimientos de trabajo al respecto y se está trabajando en una nueva legislación: una ley de Identidad que no se circunscribiría solo al documento, sino general.
+</p>
+<p>
+Además, <a href="files/GO_X_38_2015.pdf">la resolución 249/2015</a> del Ministerio de Justicia reconoce al CI como una de las formas de publicación del registro civil. 
+</p>
+<p>
+Por otra parte en Cuba no existe una norma de la protección de datos personales. 
+</p>
+<p>
+¿Quiénes pueden acceder a la información registrada en el SUIN?
+</p>
+<p>
+El sistema de identidad se considera un registro público porque tiene expedición, o sea sus datos tienen forma de publicación, ya sea por la emisión del propio carné u otras como el registro de electores, no porque cualquiera pueda llegar y revisarlo. 
+</p>
+<p>
+Ninguna persona puede venir a solicitar los datos de otras, pero un ciudadano puede, de manera personal, solicitar verificar sus datos que aparecen registrados, personándose en una oficina del CI. 
+</p>
+<p>
+Además, hay otros organismos o entidades del Estado que hacen uso de la información, por ejemplo, el banco; excepto la referente al domicilio que no se hace pública para ningún organismo por no ser parte de la identidad, nos explica la capitana Agdarys Morales, especialista de la DIIE.
+</p>
+<p>
+La sociedad avanza y los procesos de informatización aportan mayor seguridad porque como decía Don Fernando Ortiz, desde 1911 en su libro La identificación dactiloscópica, “Para la vida social, que es la vida del derecho, unos necesitan asegurar su propia personalidad, otros necesitan perderla; y la sociedad se interesa en garantizar el derecho de los primeros, en impedir el fraude de los segundos, en fijar permanente la personalidad de cada cual.” 
+</p>
+<p>
+Los 102 años que nos separan del Gabinete de Identificación que promoviera el Dr. Ortiz acercan más a Cuba a lograr la perfecta individualización de los ciudadanos y su reconocimiento.
+    </p>
+    </div> 
+    
+    <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201609/es-usted-unico-en-cuba.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201609-3'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+</div> 
+
+ <div class="read-more research-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="la-base-de-datos-de-etecsa.html">La base de datos de ETECSA</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+         <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block article-color">
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="des-cifrando-los-nombres.html"> Des-cifrando los nombres</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/aymara.html">Aymara Vigil</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+           </div>
+            
+            </div>
+        </div>
+    
+         <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block comment-color"> 
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="millennials-con-y.html"> Millennials con Y</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+           </div>            
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3  container" >
+            <div class="news-block report-color">
+           <div class="title-author-block">
+                <div class="front-news-title"><a href="el-caso-etecsa.html">El caso ETECSA</a></div>
+                <div class="front-news-author">Por <a href="../../equipo/ernesto.html">Ernesto Guerra</a></div>
+            </div>
+             </div>
+        </div>
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+  </body>
+</html>
