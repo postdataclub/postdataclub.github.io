@@ -359,7 +359,17 @@ body {
     font-weight: bold;
     margin-bottom:15px;
     margin-left:3.3%;
+    margin-right:3.3%;
     font-size: 20px;
+}
+
+.graph-text-note {
+    /*text-align: center; */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:3.3%;
+    margin-right:3.3%;
+    font-size: 14px;
 }
 
 .border {
@@ -633,13 +643,22 @@ a:focus {
 
 .news-main-image > img {
     width: 100%;
-    height: 216px;
+    height: 241px;
 }
 
 .comments-block {
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 80px;
+}
+
+.menu-movil-separator {
+    height:65px;
+}
+
+.logo-responsive {
+    width:180px;
+    margin-top:-20px;
 }
 
 
