@@ -663,5 +663,23 @@ a:focus {
     margin-top:-20px;
 }
 
+@media not all and (min-width: 768px) {
+     .logo-footer {
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 10.5%;
+    }
+    
+    .footer-icons {
+    float: right;
+    padding-right: 15px;
+    color: #FFFFFF;
+    font-size:20px;
+    margin-top: 25px;
+    margin-right: 11%;
+    
+  }
+}
+
 
 
