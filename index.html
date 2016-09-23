@@ -1,11 +1,238 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="icon.png">
+
     <title>Postdata.club</title>
-    <meta content="">
-    <style></style>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href='assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
   </head>
+
   <body>
-  <img src="assets/images/logo.png" style="display:block;margin: 0 auto;margin-top:200px;width:800px;">
+  
+  <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" ><a href="index.html">Inicio</a></li>
+            <li><a href="equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="generos/principales.html">Principales</a></li>
+                <li ><a href="generos/principales.html">Artículos</a></li>
+                <li><a href="generos/reportajes.html">Reportajes</a></li>
+                <li><a href="generos/comentarios.html">Comentarios</a></li>
+                <li><a href="generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="index.html"><img class="logo-header" src="assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="index.html" class="selected">Inicio</a></span></div>
+        <div><span><a href="equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="generos/principales.html">Principales</a></div>
+            <div><a href="generos/articulos.html">Artículos</a></div>
+            <div><a href="generos/comentarios.html">Comentarios</a></div>
+            <div><a href="generos/reportajes.html">Reportajes</a></div>
+            <div><a href="generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+
+    <div class="main-news hidden-xs hidden-sm row  "> 
+        
+        <div class="col-lg-6 col-md-6  container news-main-block main-color" >
+            <div class="title-author-block">
+                <div class="front-news-title"><a href="issues/201609/la-base-de-datos-de-etecsa.html">La Base de Datos de ETECSA</a></div>
+                <div class="front-news-author">Por <a href="equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">Una base de datos es el punto de partida</div>
+        </div>
+        <div class="col-lg-6 col-md-6 container news-main-image" >
+            <img src="issues/201609/images/app-etecsa.jpg">
+        </div>
+    </div>
+
+    
+    <div class="other-news row">
+    
+        <div class="col-lg-3 col-md-3 hidden-md hidden-lg container" >
+            <div class="news-block main-color">
+            <div class="title-author-block">
+                <div class="front-news-title"><a href="issues/201609/la-base-de-datos-de-etecsa.html">La Base de Datos de ETECSA</a></div>
+                <div class="front-news-author">Por <a href="equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">Una base de datos es el punto de partida</div>
+        </div>
+        </div>
+        
+         <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block article-color">
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="issues/201609/des-cifrando-los-nombres.html"> Des-cifrando los nombres</a></div>
+            <div class="front-news-author">Por <a href="equipo/aymara.html">Aymara Vigil</a> y <a href="equipo/saimi.html">Saimi Reyes</a></div>
+            </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">¿Qué palabra te define mejor que tu nombre?</div>
+            </div>
+        </div>
+
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block research-color  ">
+             <div class="title-author-block">
+            <div class="front-news-title"><a href="issues/201609/es-usted-unico-en-cuba.html"> ¿Es usted único en Cuba?</a></div>
+            <div class="front-news-author">Por <a href="equipo/jessica.html">Jessica Dominguez</a></div>
+            </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">Historia sobre los documentos de identidad</a></div>
+            </div>
+        </div>
+        
+         <div class="col-lg-3 col-md-3  container " >
+           <div class="news-block comment-color"> 
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="issues/201609/millennials-con-y.html"> Millennials con Y</a></div>
+            <div class="front-news-author">Por <a href="equipo/yudivian.html">Yudivian Almeida</a></div>
+            </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">Las iniciales de los nombres en Cuba</div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3  container" >
+        <div class="news-block report-color">
+        <div class="title-author-block">
+            <div class="front-news-title"><a href="issues/201609/el-caso-etecsa.html">El caso ETECSA</a></div>
+            <div class="front-news-author">Por <a href="equipo/ernesto.html">Ernesto Guerra</a></div>
+        </div>
+            <div class="front-new-hr"><img  src="assets/images/rule.png"></div>
+            <div class="front-news-lead">Un problema de privacidad</div>
+         </div>
+        </div>
+        
+    </div>
+       
+    <div class="footer">
+        <div>
+        <span><a href="index.html"><img class="logo-footer" src="assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
   </body>
 </html>
-
