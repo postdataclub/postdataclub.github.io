@@ -1,0 +1,344 @@
+.huracan {
+    width: 100%;
+    min-height: 600px;
+    margin-top: -15px;
+
+    margin-bottom: -30px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    background-size: contain;
+    z-index:5;
+}
+
+.huracan-data {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.huracan-data-block {
+    margin-top: opx;
+}
+
+.year {
+
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+/*
+    color: #4B4B4D;
+*/
+/*
+    margin-left:50px;
+*/
+}
+
+.year > span {
+    background-color: RGBA(156,157,161,0.45);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.cuba {
+    background-color: #717276;
+/*
+    #9C9DA1;
+*/
+    min-height: 600px;
+    opacity: 0.95;
+    color: #FFFFFF;
+}
+
+.mapa-cuba {
+    width: 80%;
+    margin-bottom:30px;
+    margin-left: 25px;
+    
+}
+
+.huracan-info {
+    margin-left: 5%;
+    padding-right: 20px;
+}
+
+.huracan-info-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.huracan-info-muertes {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.huracan-info-damages{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.huracan-name {
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.huracan-tipo, .huracan-wind, .huracan-dates {
+    font-size: 20px;
+}
+
+.huracan-dates {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.huracan-card {
+    margin-top: -5px;
+    color: #FFFFFF;
+/*
+    color: #4B4B4D;
+*/
+    margin-left:0px;
+    font-weight: bold;
+    background-color: #717276;
+/*
+    background-color: RGB(113,114,118);
+*/
+/*
+    background-color: RGBA(156,157,161,0.8);
+*/
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 8px;
+    opacity: 0.9;
+/*
+    border-radius: 5px 5px 5px 5px;
+*/
+}
+
+
+
+.last {
+    position: absolute;
+    top: 60%;
+    margin-left: 10px;
+    font-size: 40px;
+    z-index: 10;
+    color: #4B4B4D;
+}
+
+.next {
+    position: absolute;
+    top: 60%;
+    margin-right: 10px;
+    right: 0%;
+    color: #FFFFFF;
+    z-index: 10;
+    font-size: 40px;
+}
+
+.huracan-info-damages-nota {
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.huracan-presentation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 550px;
+    background-color: RGBA(156,157,161,0.7);
+}
+
+.huracan-presentation-block {
+    color: #FFFFFF;
+
+}
+
+.huracan-presentation-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+     padding-left: 10%;
+    padding-right: 10%
+}
+
+.huracan-end-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+     padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+}
+
+.huracan-presentation-lead {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%
+    
+}
+
+.huracan-presentation-rule {
+    margin-top: -10px;
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.huracan-presentation-text {
+    margin-left: 13%;
+    margin-right: 13%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.huracan-end-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.creditos {
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+
+.creditos-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.huracanes-author {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.huracanes-author>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+.begin-presentation {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.begin-presentation > span {
+    background-color: #4B4B4D;
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.begin-presentation > span:hover,
+.begin-presentation > span:focus {
+    opacity: 0.8;
+}
+
+.navigation-bar {
+
+    background-color: rgba(255,255,255,0.85);
+
+    min-height: 40px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+.nav-selected {
+    background-color: #717276;
+    opacity: 0.9;
+}
+
+.main-navegation {
+    margin-top: 18px;
+    text-align: center;
+/*
+    margin-left: 4px;
+*/
+    margin-bottom: 20px;
+}
+
+.main-navegation >span {
+    background-color: #9C9DA1;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+.main-navegation >span:hover,
+.main-navegation >span:focus {
+    background-color: #717276;
+/*
+    background-color: #4B4B4D;
+*/
+    opacity: 0.9;
+}
+
+.nav-selected {
+    background-color: #717276;
+    opacity: 0.9;
+}
+
+.huracan-facts-block {
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.facts-intro {
+    font-size: 24px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.facts-item {
+/*
+    font-weight: bold;
+*/
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.facts-block {
+    padding-top:15px;
+    font-size: 18px;
+}
+
+.facts-intro-text {
+    color: #FFFFFF;
+    background-color: RGBA(156,157,161,0.7);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.huracanes-end-date {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
