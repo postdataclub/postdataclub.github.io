@@ -1,0 +1,2086 @@
+{
+    "title": {
+        "text": {
+          "headline": "Historia de Cuba en las Grandes Ligas",
+          "text": "<p>Cubano fue el primer latinoamericano en debutar en el béisbol profesional de los Estados Unidos. Cubanos han sido galardonados con premios a los mejores lanzadores, a los mejores bateadores, a los mejores fildeadores, a los mejores jugadores. Cubanos han contribuido a que sus equipos ganen series mundiales. Esos cubanos forman parte de la historia de las Grandes Ligas.</p>"
+        },
+            "media": {
+                "url": "images/malecon-slide.jpg",
+                "credit": "Foto: Yudivián Almeida"
+            }
+    },
+    "events": [
+        {
+            "text": {
+                "headline": "Pap\u00e1 Montero de lujo",
+                "text": "<p>Adolfo Luque o 'Pap\u00e1 Montero', como también le decían, tuvo una temporada excepcional. Lideró las mayores en juegos ganados con 27, en promedio de ganados y perdidos con 771, en lechadas con 6 y en PCL(ERA) con 1.93. Esa actuación le valió el Baseball Magazine All-Star.</p><p> Sus n\u00fameros de 1923, jugando para los Cincinnati  Reds, fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>41</td><td>27</td><td>8</td><td>2</td><td>151</td><td>88</td><td>1.93</td></tbody></table><p>El número de 27 juegos ganados en una temporada es todavía la mayor cifra alcanzada por un latinoamericano."
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1923",
+                "month":"11",
+                "display_date":"1923"
+            },
+            "media": {
+                "url": "images/adolfo-luque-1923.jpg",
+                "thumbnail": "images/adolfo-luque-1923-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://www.britannica.com'>Britannica.com</a>"
+            }
+        },
+        {
+            "text": {
+                "headline": "Guante de Oro para Mi\u00f1oso",
+                "text": "<p>'Minnie' Mi\u00f1oso recibió en 1957, jugando para los Chicago White Sox, su primer Guante de Oro (Golden Globe) y particip\u00f3 en su 5to Juego de las Estrellas. Ese año también, luego de haber estado al frente de las mayores en triples por 3 años -51, 54 y 56-, lideró la Liga Americana en dobles con 36. 'Mr. WhiteSox' es uno de los peloteros que han jugado en cinco d\u00e9cadas diferentes en las Grandes Ligas.</p>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1957",
+                "month":"11",
+                "display_date":"1957"
+            },
+            "media": {
+                "url": "images/minnoso-1957.jpg",
+                "thumbnail": "images/minnoso-1957-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://thisistrovegeneralstore.wordpress.com'>Trove General Store</a>",
+                "caption": "Miñoso, el primero de la izquierda, con su Guante de Oro"
+            }
+        },
+        {
+            "text": {
+                "headline": "TSN All-Star para Mi\u00f1oso",
+                "text": "<p>Minnie Mi\u00f1oso recibi\u00f3 por segunda ocasión el Guante de Oro, fue votado para participar en su 6to Juego de las Estrellas y fue nombrado All-Star por The Sporting News (TSN) como uno de los mejores jardineros. En esa selecci\u00f3n All-Star estaban estrellas como Willie Mays, Hank Aaron, Ernie Banks u Orlando Cepeda.</p><p>Sus n\u00fameros ofensivos en 1959 con los Medias Blancas fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>148</td><td>570</td><td>172</td><td>32</td><td>0</td><td>21</td><td>92</td><td>92</td><td>8</td><td>301</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1959",
+                "month":"11",
+                "display_date":"1959"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=K8VZCBpoJjc",
+                "credit": "Chicago White Sox - MLB",
+                "caption": "Recordando al gran 'Mr. White Sox' Minnie Mi\u00f1oso"
+            }
+        },
+        {
+            "text": {
+                "headline": "TSN reconoce a Fornieles y Mi\u00f1oso",
+                "text": "<p>Jos\u00e9 Miguel Torres Fornieles, Mike Fornieles, recibi\u00f3 el TSN Fireman of the Year por su actuación como relevista con los Red Sox de Boston. Sus n\u00fameros fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>70</td><td>10</td><td>5</td><td>14</td><td>64</td><td>49</td><td>2.64</td></tbody></table><p>Mi\u00f1oso recibi\u00f3 su tercer Guante de Oro, asistió su 7mo Juego de las Estrellas y fue nombrado nuevamente All-Star por The Sporting News (TSN). En esta temporada fue el l\u00edder en hits de la Liga Nacional. Sus n\u00fameros de 1960 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>154</td><td>591</td><td>184</td><td>32</td><td>4</td><td>20</td><td>89</td><td>105</td><td>17</td><td>311</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1960",
+                "month":"11",
+                "display_date":"1960"
+            },
+            "media": {
+                "url": "images/mike-fornieles-1960.jpg",
+                "thumbnail": "images/mike-fornieles-1960-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://1960sbaseballblog.blogspot.com'>1960s Baseball</a>",
+                "caption": "Mike Fornieles en su época con los Medias Rojas de Boston"
+            }
+        },
+        {
+            "text": {
+                "headline": "Guante de Oro para Zoilo Versalles",
+                "text": "<p>Zoilo Casanova Versalles Rodriguez, conocido tambi\u00e9n como 'Zorro', jugó en 1963 para los Twins de Minnesota.  En esa temporada, jugando como torpedero, recibi\u00f3 su primer Guante de Oro y fue votado para su primer Juego de las Estrellas. Su temporada consagratoria llegaría en 1965.</p>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1963",
+                "month":"11",
+                "display_date":"1963"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tony Oliva, Novato del A\u00f1o",
+                "text": "<p>Antonio Oliva Lopez Hernandes Javique, Tony Oliva, debutó en 1962 con los Twins de Minnesota, equipo con el que jugar\u00eda siempre en las mayores. En 1964, tras una impresionante campaña y, siendo elegible, fue nombrado Novato del Año en la Liga Americana. Esa temporada también fue votado al Juego de las Estrellas. Sus estad\u00edsticas fueron impresionantes. Gan\u00f3 el t\u00edtulo de bateo de la Liga Americana con 321, en anotadas con 109, en dobles con 43 y, además, fue l\u00edder en hits de las mayores con 217. Con tres campeonatos de bateo, cinco lideratos de hits en la liga Americana y un Guante de Oro, no se entiende por qué no ha sido elegido al Sal\u00f3n de la Fama.<p>Sus n\u00fameros en 1964 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>161</td><td>672</td><td>217</td><td>43</td><td>9</td><td>32</td><td>109</td><td>94</td><td>12</td><td>322</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1964",
+                "month":"11",
+                "display_date":"1964"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=eAeKYGmg6a0",
+                "credit": "Courtside Tweets",
+                "caption": "Los Mellizos de Minnesota retiran, como homenaje, el n\u00famero 6 de Tony Oliva"
+            }
+        },
+        {
+            "text": {
+                "headline": "Primer MVP cubano",
+                "text": "<p>Los Mellizos de Minnesota perdieron la serie mundial de 1965 ante Los Dodgers de los Ángeles. Por los Twins, fueron protagonistas Tony Oliva y Zoilo Versalles. Versalles fue reconocido como Jugador Más Valioso (MVP) de la Liga Americana, mientras que Tony Oliva quedó 2do en la votación por el MVP, y fue reconocido por The Sporting News como el Jugador del Año (TSN Player of the Year). Ambos fueron nombrados All-Star por TSN y asistieron al Juego de las Estrellas.</p><p> Versalles lideró las mayores en anotadas (126) y dobles (43), mientras que fue primero en la Liga Americana en triples (12), empatado con el también cubano Bert Campaneris. Oliva, por 2do año consecutivo encabezó la Americana en promedio (321) y hits (185). Zoilo y Leo Cárdenas, torpedero de los Reds de Cincinnati que también asistió al Juego de las Estrellas, obtuvieron el Guante de Oro. </p><p>Los n\u00fameros de Zoilo Versalles y Tony Oliva fueron:<p>Tony Oliva</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>149</td><td>576</td><td>185</td><td>40</td><td>5</td><td>16</td><td>107</td><td>98</td><td>19</td><td>321</td></tbody></table><p>Zoilo Versalles</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>160</td><td>666</td><td>182</td><td>45</td><td>12</td><td>19</td><td>126</td><td>77</td><td>27</td><td>273</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1965",
+                "month":"11",
+                "display_date":"1965"
+            },
+            "media": {
+                "url": "images/1965.jpg",
+                "thumbnail": "images/1965-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://artbymichaelbirawer.com/'>Art by Michael Birawer</a>",
+                "caption": "Los Mellizos Minnesota de 1965 tenían en sus filas a los cubanos Zoilo Versalles, Tony Oliva, Camilo Pascual e Hilario 'Sandy' Valdespino"
+            }
+        },
+        {
+            "text": {
+                "headline": "Guante de Oro para Tony Oliva",
+                "text": "<p>Tony Oliva recibi\u00f3 en 1966, como jardinero derecho, su único Guante de Oro. En esta campaña lideró en hits, por tercera ocasión consecutiva, la Liga America. Oliva fue nuevamente nombrado All-Star por The Sporting News (TSN) y asistió por 3ra ocasión en línea al Juego de las Estrellas.</p><p>Los números de Tony Oliva ese año fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>159</td><td>622</td><td>191</td><td>32</td><td>7</td><td>25</td><td>99</td><td>87</td><td>13</td><td>307</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1966"
+                ,
+                "month":"11",
+                "display_date":"1966"
+            },
+            "media": {
+                "url": "images/1966-tony-oliva.jpg",
+                "thumbnail": "images/1966-tony-oliva-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.offbeat.group.shef.ac.uk/'>The Sporting Statues Project</a>",
+                "caption": "Estatua a Tony Oliva en el Target Field, Minneapolis, estadio de los Twins de Minnesota"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tany Pérez, MVP All-Star Game",
+                "text": "<p>Atanasio 'Tany' Pérez Rigal, miembro del Salón de la Fama en Cooperstown, fue votado a su primer Juego de las Estrellas este año, mientras jugaba la tercera base con los Reds de Cincinnati. Ese Juego de las Estrellas se extendió a 15 innings, el más largo de las historia junto al del 2008, y fue decidido por un jonrón de Tany, lo que le valió el All-Star Game MVP. Sus n\u00fameros fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>156</td><td>600</td><td>174</td><td>28</td><td>7</td><td>26</td><td>78</td><td>102</td><td>0</td><td>290</td></tbody></table><p>Paulino Ortiz Casanova, Paul Casanova, catcher de los entonces de los Washington Senators, asistió al Juego de las Estrellas y fue galardonado como TSN All-Star. Sus números fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>122</td><td>429</td><td>109</td><td>16</td><td>5</td><td>13</td><td>45</td><td>44</td><td>1</td><td>254</td></tbody></table><p>Minervino Alejandro 'Minnie' Rojas Landin, pitcher relevista de los California Angels, lideró la Liga Americana en juegos salvados con 27. Esto le valió para recibi\u00f3 el galardón de The Sporting News, TSN Fireman of the Year. Minnie Rojas fue el segundo cubano en recibir este premio tras Mike Fornieles en 1960. Sus n\u00fameros fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>72</td><td>12</td><td>9</td><td>27</td><td>83</td><td>38</td><td>2.52</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1967",
+                "month":"11",
+                "display_date":"1967"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=ii8QxwkZ8sQ",
+                "credit": "CriticalPast",
+                "caption": "Jonrones del juego de las Estrellas de 1967"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cy Young para Mike Cuellar",
+                "text": "<p>Miguel Ángel 'Mike' Cuellar Santana lanzando para los Orioles de Baltimore fue galardonado con el premio Cy Young al mejor pitcher de la Liga Americana, empatado con Denny McLain. Mike Cuellar fue el primer latinoamericano en la historia que recibió el Cy Young y es el único cubano que lo ha obtenido. Su actuación también le valió el The Sporting News All-Star</p><p>Sus n\u00fameros fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>39</td><td>23</td><td>11</td><td>0</td><td>182</td><td>79</td><td>2.38</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1969",
+                "month":"11",
+                "display_date":"1969"
+            },
+            "media": {
+                "url": "images/1969-mike-cuellar.jpg",
+                "thumbnail": "images/1969-mike-cuellar-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.spokeo.com/'>Spokeo</a>",
+                "caption": "Mike Cuellar, lanzando con los Orioles de Baltimore"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tony Oliva, Tany Pérez: TSN All-Start",
+                "text": "<p>Tony Oliva y Tany Pérez tuvieron estadísticas de lujo en 1970 y The Sporting News (TSN) los incluyó en su TSN All-Start. Ambos fueron seleccionados al Juego de las Estrellas, Oliva en su 7ma ocasión consecutiva, Pérez por cuarta vez en línea. Tony Oliva lideró la Liga Americana en hits (206) y dobles (36). Sus números de esa temporada fueron: </p><p>Tony Perez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>158</td><td>587</td><td>186</td><td>28</td><td>6</td><td>40</td><td>107</td><td>129</td><td>8</td><td>316</td></tbody></table><p>Tony Oliva</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>157</td><td>628</td><td>204</td><td>36</td><td>7</td><td>23</td><td>96</td><td>107</td><td>5</td><td>324</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1970",
+                "month":"11",
+                "display_date":"1970"
+            },
+            "media": {
+                "url": "images/1970-tany-perez.jpg",
+                "thumbnail": "images/1970-tany-perez-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://baseballhall.org/'>Hall of Fame</a>",
+                "caption": "Tany Pérez, con los Cincinnati Reds"
+            }
+        },
+        {
+            "text": {
+                "headline": "Oliva, TSN Player of the Year",
+                "text": "<p>Tony Oliva recibi\u00f3 por segunda vez el premio The Sporting News (TSN) Player of the Year en 1971. Ese año lideró, por tercera vez, la Liga Americana en promedio (337) y slugging (546). Asistió a su 8vo Juego de las Estrellas de manera consecutiva y fue nombrado nuevamente TSN All-Star. En el Juego de las Estrellas, y luego nombrados TSN All-Star, también estuvieron presentes Cookie Rojas, segunda base de los Reales de Kansas City y Leo Cárdenas por los Twins de Minnesota. Sus n\u00fameros fueron:</p><p>Cookie Rojas</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>115</td><td>414</td><td>124</td><td>22</td><td>2</td><td>6</td><td>56</td><td>59</td><td>8</td><td>299</td></tbody></table><p>Tony Oliva</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>126</td><td>487</td><td>164</td><td>30</td><td>3</td><td>22</td><td>73</td><td>81</td><td>4</td><td>336</td></tbody></table><p>Leo Cárdenas</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>153</td><td>554</td><td>146</td><td>25</td><td>4</td><td>18</td><td>59</td><td>75</td><td>3</td><td>263</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1971",
+                "month":"11",
+                "display_date":"1971"
+            },
+            "media": {
+                "url": "images/1971-oliva.jpg",
+                "thumbnail": "images/1971-oliva-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://minnesota.twins.mlb.com'>Minnesota Twins</a>",
+                "caption": "Tony Oliva merece estar en Cooperstown"
+            }
+        },
+        {
+            "text": {
+                "headline": "Campaneris gana el Babe Ruth Award",
+                "text": "<p>Dagoberto 'Bert' Campaneris Blanco, torpedero de los Atléticos de Oakland, fue merecedor del Babe Ruth Award. Campaneris, quien fue líder en robos de bases en 6 temporadas de las mayores, fue también votado al Juego de las Estrellas. Ese año ganó su 2do anillo de Serie Mundial con los Atléticos.</p><p>'Campy', como también le decían a Campaneris, y Tany Pérez, fueron galardonados por The Sporting News (TSN) con el TSN All-Star. Las estadísticas ofensivas de Bert y Tany fueron:</p><p>Bert Campaneris</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>151</td><td>601</td><td>150</td><td>17</td><td>6</td><td>4</td><td>89</td><td>46</td><td>34</td><td>249</td></tbody></table><p>Tony Perez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>151</td><td>564</td><td>177</td><td>33</td><td>3</td><td>27</td><td>73</td><td>101</td><td>3</td><td>313</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1973",
+                "month":"11",
+                "display_date":"1973"
+            },
+            "media": {
+                "url": "images/1973-bert-campaneris.jpg",
+                "thumbnail": "images/1973-bert-campaneris-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://quotesgram.com/'>Quotes Gram</a>",
+                "caption": "Bert Campaneris, con los Atléticos de Oakland"
+            }
+        },
+        {
+            "text": {
+                "headline": "TSN All-Start para Mike Cuellar y Campaneris",
+                "text": "<p>Mike Cuellar y Bert Campaneris recibieron el TSN All-Star, premio que otorga The Sporting News. Ambos jugadores fueron votados para particar en el Juego de las Estrellas. En esa temporada Cuellar, con los Orioles de Baltimore, lideró a los pitchers de la Liga Americana en promedio de ganados y perdidos con 688. Mientras tanto, Campaneris ganó su tercer título de Serie Mundial con los Atléticos de Oakland.</p><p>Los números de Bert Campaneris fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>134</td><td>527</td><td>153</td><td>18</td><td>8</td><td>2</td><td>77</td><td>41</td><td>34</td><td>290</td></tbody></table><p>Las estadísticas de Mike Cuellar fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>38</td><td>22</td><td>10</td><td>0</td><td>106</td><td>86</td><td>3.11</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1974",
+                "month":"11",
+                "display_date":"1974"
+            },
+            "media": {
+                "url": "images/1974-atleticos.jpg",
+                "thumbnail": "images/1974-atleticos-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.fairtrademilwaukee.org/'>Four Corners of the World</a>",
+                "caption": "Los Atléticos de Oakland, campeones de 1974"
+            }
+        },
+        {
+            "text": {
+                "headline": "Luis Tiant gana el Babe Ruth Award",
+                "text": "<p>Luis Clemente Tiant Vega, lanzando para los Red Sox de Boston, recibi\u00f3 en 1975 el Babe Ruth Award. El Tiante, como le decían, integra junto a Minnie Miñoso y Tony Oliva el trío de cubanos que espera por los votos del Comité de la Era Dorada en su ruta a Cooperstown. Luis Tiant fue líder de su liga en promedio de carreras limpias en 2 ocasiones, de lechadas en 3 ocasiones y una en ponches. Asistió a 3 Juegos de las Estrellas y tuvo 4 temporadas de más de 20 juegos ganados. Es el cubano que más juegos ha ganado en la historia de las mayores con 229.  </p><p>Sus n\u00fameros en 1975 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>35</td><td>18</td><td>14</td><td>0</td><td>142</td><td>72</td><td>4.02</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1975",
+                "month":"11",
+                "display_date":"1975"
+            },
+            "media": {
+                "url": "images/1975-luis-tiant.jpg",
+                "thumbnail": "images/1975-luis-tiant-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://baseballhall.org/'>Hall of Fame</a>",
+                "caption": "Luis Tiant fue electo al Salón de la Fama de los Boston Red Sox en 1997"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tany Pérez, Lou Gehrig Memorial Award",
+                "text": "<p>Tany Perez recibi\u00f3, en su primer año jugando con los Medias Rojas de Boston, el Lou Gehrig Memorial Award</p><p>Sus n\u00fameros en esa temporada fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>151</td><td>585</td><td>161</td><td>31</td><td>3</td><td>25</td><td>73</td><td>105</td><td>1</td><td>275</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1980",
+                "month":"11",
+                "display_date":"1980"
+            },
+            "media": {
+                "url": "images/1980-lou-tony.jpg",
+                "thumbnail": "images/1980-lou-tony-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://museum.phideltatheta.org'>museum.phideltatheta.org</a>",
+                "caption": "Tany Pérez es premiado con el Lou Gehrig Memorial Award"
+            }
+        },
+        {
+            "text": {
+                "headline": "Canseco, Novato del Año",
+                "text": "<p>José Canseco Capas, jugando para los Atléticos de Oakland, recibi\u00f3 en 1986 el premio al Novato del Año en la Liga Americana. Esta fue la segunda vez en que un cubano lo obtuvo, luego de haberlo ganado Tony Oliva en 1964. Canseco impactaría en los años posteriores en las mayores, tanto por sus números ofensivos como, luego de retirado, por sus declaraciones acerca del uso de esteroides por él y por otros peloteros. </p><p>Sus n\u00fameros de la temporada, que también le valieron para asistir al Juego de las Estrellas de ese año, fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>157</td><td>600</td><td>144</td><td>29</td><td>1</td><td>33</td><td>85</td><td>117</td><td>15</td><td>240</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1986",
+                "month":"11",
+                "display_date":"1986"
+            },
+            "media": {
+                "url": "images/1986-canseco.jpg",
+                "thumbnail": "images/1986-canseco-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.huffingtonpost.com/'>The Huffington Post</a>",
+                "caption": "José Canseco tuvo una temporada de novato espectacular"
+            }
+        },
+        {
+            "text": {
+                "headline": "Primer 40 - 40 en MLB",
+                "text": "<p>1988 fue el año consagratorio de José Canseco. Esa temporada se convirtió en el primer pelotero en la historia de las Grandes Ligas en conectar al menos 40 jonrones (42) y robar al menos 40 bases (40). En ese año lideró las mayores en Jonrones (42), impulsadas (124)y slugging (569). Además, asistió al Juego de las Estrellas. Por esos números fue nombrado el Jugador Más Valioso (MVP) de la Liga Americana, 2do cubano en lograrlo tras Zoilo Versalles, recibió el Bate de Plata (Silver Slugger) y The Sporting News (TSN) lo nombró TSN Player of the Year y TSN All-Star. Canseco es, hasta hoy, el único cubano que ha ganado los premios al Novato del Año y al Jugador Más Valioso.</p><p>Sus estadísticas ofensivas de la temporada fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>158</td><td>610</td><td>187</td><td>34</td><td>0</td><td>42</td><td>120</td><td>124</td><td>40</td><td>306</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1988",
+                "month":"11",
+                "display_date":"1988"
+            },
+            "media": {
+                "url": "https://soundcloud.com/aermanagement/carlos-oliva-y-los-sobrinos",
+                "credit": "Carlos Oliva y los Sobrinos del Juez",
+                "caption": "Las actuaciones de Canseco inspiraron el inicio del popular tema 'Pelotero a la bola'"
+            }
+        },
+        {
+            "text": {
+                "headline": "Otro Bate de Plata para Canseco",
+                "text": "<p>José Canseco recibi\u00f3 en 1990, por 2da vez, el Bate de Plata y nuevamente fue nombrado TSN All-Star por The Sporting News. Asimismo, fue elegido para el Juego de las Estrellas.</p><p>Sus n\u00fameros fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>131</td><td>481</td><td>132</td><td>14</td><td>2</td><td>37</td><td>83</td><td>101</td><td>19</td><td>274</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1990",
+                "month":"11",
+                "display_date":"1990"
+            },
+            "media": {
+                "url": "images/1990-canseco.jpg",
+                "thumbnail": "images/1990-canseco-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.complex.com/'>Complex</a>",
+                "caption": "En los Atléticos de Oakland, Canseco y Mark McGwire eran conocidos como los 'Bash Brothers'"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tercer Bate de Plata para Canseco",
+                "text": "<p>Canseco recibi\u00f3 su 3er Bate de Plata y su 3er TSN All-Star por The Sporting News. En esa temporada, todavía jugando para los Atléticos de Oakland, lideró por segunda vez las grandes ligas en jonrones con 44, esta vez empatado con Cecil Fielder. </p><p>Sus n\u00fameros de 1991 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>154</td><td>572</td><td>152</td><td>32</td><td>1</td><td>44</td><td>115</td><td>122</td><td>26</td><td>265</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1991",
+                "month":"11",
+                "display_date":"1991"
+            },
+            "media": {
+                "url": "images/1991-canseco.jpg",
+                "thumbnail": "images/1991-canseco-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.goldinauctions.com/'>Goldin Auctions</a>"                
+            }
+        },
+        {
+            "text": {
+                "headline": "Liván Hernández se luce en postemporada",
+                "text": "<p>Los Marlins de la Florida, hoy de Miami, aparecieron en las mayores en 1993 y ganaron su primera Serie Mundial en 1997. El pitcher Liván Hernández fue la gran estrella de los Marlins en la postemporada. Su actuación fue tan brillante que ganó los premios de Jugador Más Valioso tanto en la Serie de Campeonato por la Liga Nacional, como en la Serie Mundial.</p><p> En esta temporada también ganaron sus primeros Guantes de Oro Rafael Palmeiro y Rey Ordóñez.</p><p>Los números de Liván Hernandez en la NLCS fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>2</td><td>0</td><td>0</td><td>16</td><td>2</td><td>0.84</td></tbody></table><p>Los n\u00fameros de Liván en la Serie Mundial fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>2</td><td>0</td><td>0</td><td>7</td><td>10</td><td>5.27</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1997",
+                "month":"11",
+                "display_date":"1997"
+            },
+            "media": {
+                "url": "images/1997-livan-hernandez.jpg",
+                "thumbnail": "images/1997-livan-hernandez-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.gossipextra.com/'>Gossip Extra</a>",
+                "caption": "Liván Hernández fue el héroe del primer título de Serie Mundial de los Marlins"
+            }
+        },
+        {
+            "text": {
+                "headline": "Palmeiro y Canseco, Bates de Plata",
+                "text": "<p>Rafael Palmeiro y José Canseco recibieron sendos premios Bates de Plata e igualmente fueron nombrados TSN All-Star por The Sporting News. En esa temporada, tanto Palmeiro como Canseco conectaron más de 40 jonrones. Rafael, además, fue elegido al Juego de las Estrellas.</p><p>Palmeiro es uno de los 5 peloteros en toda la historia que han conectado más de 500 jonrones y 3000 hits. Su entrada a Cooperstown parecía anunciada, pero un positivo en esteroides lo sacó de una ruta que parecía segura.</p><p>Palmeiro y Ordoñez ganaron por segundo año consecutivo el Guante de Oro.</p><p>Los números de Palmeiro y Canseco en 1998 fueron:</p><p>Jose Canseco</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>151</td><td>583</td><td>138</td><td>26</td><td>0</td><td>46</td><td>98</td><td>107</td><td>29</td><td>236</td></tbody></table><p>Rafael Palmeiro</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>162</td><td>619</td><td>183</td><td>36</td><td>1</td><td>43</td><td>98</td><td>121</td><td>11</td><td>295</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1998",
+                "month":"11",
+                "display_date":"1998"
+            },
+            "media": {
+                "url": "images/1998-palmeiro.jpg",
+                "thumbnail": "images/1998-palmeiro-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.camdenchat.com/'>Camden Chat</a>",
+                "caption": "Palmeiro es uno de los 5 peloteros en toda la historia que han conectado más de 500 jonrones y 3000 hits"
+            }
+        },
+        {
+            "text": {
+                "headline": "Palmeiro, TSN Major League Player of the Year",
+                "text": "<p>Rafael Palmeiro fue implacable con los pitchers en 1999. Sus 47 jonrones, 148 impulsadas y 323 de promedio, fueron razones suficientes para obtener su 2do Bate de Plata, ser elegido al Juego de las Estrellas y ser nombrado TSN Major League Player of the Year y TSN All-Star por The Sporting News (TSN). Además, Palmeiro y Rey Ordoñez recibieron en esa temporada su 3er Guante de Oro de manera consecutiva. Los n\u00fameros de Palmeiro en 1999 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>158</td><td>565</td><td>183</td><td>30</td><td>1</td><td>47</td><td>96</td><td>148</td><td>2</td><td>323</td></tbody></table><p>Orlando 'El Duque' Hernandez ganó en esa temporada con los Yankees de New York, el 2do de sus títulos en Series Mundiales. El Duque es el cubano con más títulos de Serie Mundial: 4. Su actuación en la Serie por el Campeonato de la Liga Americana le valió el ALCS MVP. Sus n\u00fameros en esa serie fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>1</td><td>0</td><td>0</td><td>13</td><td>6</td><td>1.8</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "1999",
+                "month":"11",
+                "display_date":"1999"
+            },
+            "media": {
+                "url": "images/1999-palmeiro.jpg",
+                "thumbnail": "images/1999-palmeiro-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.sportsmemorabilia.com/'>Sports Memorabilia</a>",
+                "caption": "En 1999 Palmeiro obtuvo su 3er Guante de Oro. Increíblemente el 1ro lo obtuvo jugando más juegos como designado que como primera base"
+            }
+        },
+        {
+            "text": {
+                "headline": "Bate de Plata para Liván Hernández",
+                "text": "<p>Livan Hernandez, jugando con los desaparecidos Expos de Montreal, demostró que no solo era un pitcher consistente, sino que también podría batear. En esa temporada recibió el Bate de Plata otorgado al pitcher con mejor ofensiva. Además, fue elegido para participar en su primer Juego de las Estrellas.</p><p>Sus estadísticas ofensivas fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>36</td><td>81</td><td>20</td><td>7</td><td>0</td><td>1</td><td>2</td><td>10</td><td>0</td><td>246</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2004",
+                "month":"11",
+                "display_date":"2004"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=S7DKK5xeQzU",
+                "credit": "MLBglobal",
+                "caption": "Liván, jugando con los Nacionales de Washington contra los Atléticos de Oakland, conecta un jonrón"
+            }
+        },
+        {
+            "text": {
+                "headline": "Alexei Ramírez, Bate de Plata",
+                "text": "<p>Alexei Ramirez recibi\u00f3 el Bate de Plata jugando como torpedero de los Chicago White Sox. El pinareño ya había lucido excelente en su debut en el 2008, cuando rompió el récord de las Grandes Ligas de jonrones con bases llenas para un novato y quedó segundo en la votación del Premio al Novato del Año de la Liga Americana, detrás de Evan Longoria.</p><p>Sus n\u00fameros del 2010 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>156</td><td>585</td><td>165</td><td>29</td><td>2</td><td>18</td><td>83</td><td>70</td><td>13</td><td>282</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2010",
+                "month":"11",
+                "display_date":"2010"
+            },
+            "media": {
+                "url": "images/2010-alexei.jpg",
+                "thumbnail": "images/2010-alexei-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://deportistascubanos.blogspot.com/'>Deportistas Cubanos</a>",
+                "caption": "Alexei Ramírez ha sido uno de los torpederos más ofensivos de las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "José Fernandez, Novato del Año",
+                "text": "<p>José Fernandez se estrenó en las grandes ligas como un pitcher consagrado. Fernández, jugando con los Marlins de Miami, ganó por tercera vez para un cubano el premio al Novato del Año, esta vez en la Liga Nacional. Su actuación también le permitió ser elegido al Juego de las Estrellas. Ese año en las votaciones al Novato del Año los cubanos Yasiel Puig y José Iglesias fueron segundos en sus respectivas ligas.</p><p>Los n\u00fameros de José Fernández fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>28</td><td>12</td><td>6</td><td>0</td><td>187</td><td>58</td><td>2.19</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2013",
+                "month":"11",
+                "display_date":"2013"
+            },
+            "media": {
+                "url": "images/2013-fernandez.jpg",
+                "thumbnail": "images/2013-fernandez-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://acn.com.ve/'>ACN</a>",
+                "caption": "José Fernández tenía todo para ser la estrella que ya era"
+            }
+        },
+        {
+            "text": {
+                "headline": "Abreu, Novato del Año",
+                "text": "<p>En el 2014, por segundo año consecutivo, un cubano se llevó el premio al Novato del Año. José Dariel Abreu, jugando por los White Sox de Chicago, ganó el galardón al mejor debutante de la Liga Americana. Esta fue la cuarta vez en que un cubano era seleccionado como mejor novato. Los números de José Dariel le valieron para asistir al Juego de las Estrellas y ganar su primer Bate de Plata. En esta temporada, Alexei Ramírez, coequipero de Abreu, ganó su segundo Bate de Plata y asistió por primera vez a un Juego de las Estrellas. Los números de Alexei y José Dariel en el 2014 fueron: </p><p>Alexei Ramirez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>158</td><td>622</td><td>170</td><td>35</td><td>2</td><td>15</td><td>82</td><td>74</td><td>21</td><td>273</td></tbody></table><p>José Abreu</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>145</td><td>556</td><td>176</td><td>35</td><td>2</td><td>36</td><td>80</td><td>107</td><td>3</td><td>316</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2014",
+                "month":"11",
+                "display_date":"2014"
+            },
+            "media": {
+                "url": "images/2014-abreu.jpg",
+                "thumbnail": "images/2014-abreu-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://cuban-play.com/'>Cuban-Play</a>",
+                "caption": "José Dariel Abreu debutó como un consagrado. En su segunda campaña se convirtió en el 2do pelotero, tras Albert Pujol, en impulsar más de 100 carreras y dar más de 30 jonrones en sus primeros 2 años en MLB"
+            }
+        },
+        {
+            "text": {
+                "headline": "Kendrys Morales, Bate de Plata",
+                "text": "<p>Kendrys Morales, con los Reales de Kansas City y Yoenis Céspedes, con los Mets de Nueva York, se enfrentaron en la Serie Mundial. Morales se llevó a casa su primer anillo. Su actuación ofensiva le valió su primer Bate de Plata. Céspedes, en tanto, recibió un Guante de Oro que lo reconoce como uno de los mejores jardineros de las mayores.</p><p>Los números ofensivos de Kendrys fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>158</td><td>569</td><td>165</td><td>41</td><td>2</td><td>22</td><td>81</td><td>106</td><td>0</td><td>289</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2015",
+                "month":"11",
+                "display_date":"2015"
+            },
+            "media": {
+                "url": "images/2015-kendrys.jpg",
+                "thumbnail": "images/2015-kendrys-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://panamericanworld.com/'>Panamerican World</a>",
+                "caption": "Kendrys retornó luego de recuperarse de una lesión. Kansas City tuvo en él uno de los pilares de su campaña exitosa"
+            }
+        },
+        {
+            "text": {
+                "headline": "Céspedes, TSN All-Star",
+                "text": "<p>Yoenis Céspedes, con su habitual consistencia al bate, fue elegido para participar en el Juego de las Estrellas, al cual no asistió por lesión. Su poder ofensivo y su fiabilidad a la defensa lo han hecho uno de los jugadores mejor pagados en la MLB. Los números ofensivos de Céspedes con los Mets de New Yor en 2016 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>132</td><td>479</td><td>134</td><td>25</td><td>1</td><td>31</td><td>72</td><td>86</td><td>3</td><td>280</td></tbody></table><p>José Fernández, de los Marlins de la Florida, se lesionó en el 2014 y fue sometido a una cirugía Tommy John. Se perdió casi toda la campaña del 2015, pero regresó a lanzar en septiembre de ese año y su 2016 fue impresionante. Sus números le permitieron ser elegido por 2da vez al Juego de las Estrellas. Sin embargo, su vida y su futuro brillante se apagaron en un accidente martítimo el 25 de septiembre del 2016. Sus estadísticas le hicieron acreedor, de manera póstuma, del premio al Regreso del Año en la Liga Nacional. Es el tercer cubano en obtenerlo, tras Tiant en 1972 y Canseco en 1994. Sus números del 2016 fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>29</td><td>16</td><td>8</td><td>0</td><td>253</td><td>55</td><td>2.86</td></tbody></table>"
+            },
+            "group": "Premios",
+            "start_date": {
+                "year": "2016",
+                "month":"11",
+                "display_date":"2016"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=KLofmHw3hms",
+                "credit": "YouTube",
+                "caption": "Yoenis Cespedes 2016 Highlights"
+            }
+        },
+        {
+            "text": {
+                "headline": "Esteban Bellán, el primero",
+                "text": "<p>Esteban 'Steve' Bellán fue el primer cubano, y latinoamericano, en jugar en el béisbol profesional de los Estados Unidos cuando, el 9 de mayo de 1871, debutó con los Troy Haymakers de la National Association of Professional Base Ball Players (NABBP).</p><p> La NABBP, fundada en el mismo 1871, fue la primera liga profesional de Béisbol en los Estados Unidos y desde sus inicios contó con presencia cubana. Bellán efectuó su último juego en la NABBP el 9 de junio de 1973 para los New York Mutuals.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 5,
+                "year": "1871",
+                "day": 9
+            },
+            "end_date": {
+                "month": 6,
+                "year": "1873",
+                "day": 9
+            },
+            "media": {
+                "url": "images/1871-bellan.jpg",
+                "thumbnail": "images/1871-bellan-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Esteban Bellán como estudiante en St. John's College."
+            }
+        },
+        {
+            "text": {
+                "headline": "Chick Pedroes, solo dos días",
+                "text": "<p>29 años después del debut de Esteban Bellán, hubo presencia cubana nuevamente en las Grandes Ligas: una presencia anecdótica. Chick Pedroes jugó por 2 días en los Chicago Orphans, que en ese mismo año comenzaron a llamarse Chicago Cubs (Cachorros de Chicago).</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 8,
+                "year": "1902",
+                "day":21
+            },
+            "end_date": {
+                "month": 8,
+                "year": "1902",
+                "day":22
+            },
+            "media": {
+                "url": "images/1902-pedroes.jpg",
+                "thumbnail": "images/1902-pedroes-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://desdemipalcodefanatico.wordpress.com'>Desde mi Palco de Fanático</a>",
+                "caption": "Chick Pedroes fue el segundo cubano en el béisbol profesional"
+            }
+        },
+        {
+            "text": {
+                "headline": "Desde 1911 hasta la actualidad",
+                "text": "<p>En la temporada de 1911 debutaron en las Grandes Ligas Rafael Almeida y Armando Marsans. Por primera vez jugaban en las mayores dos cubanos a la vez.</p><p>Almeida y Marsans efectuaron su primer partido en la gran carpa con los Cincinnati Reds el 4 de julio. Desde esa fecha hasta la actualidad, siempre ha habido, ininterrumpidamente, presencia cubana en las Grandes Ligas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 7,
+                "year": "1911",
+                "day": 4,
+                "display_date":"Temporada de 1911"
+            },
+            "media": {
+                "url": "images/1911-almeida-marsans.jpg",
+                "thumbnail": "images/1911-almeida-marsans-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://agatetype.typepad.com/'>Agate Type</a>",
+                "caption": "Desde que debutaron Almeida y Marsans siempre ha habido peloteros cubanos en las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta Adolfo Luque",
+                "text": "<p>Entre 1912 y 1914 debutaron otros 6 cubanos en Grandes Ligas. El 20 de mayo debutó con los Boston Braves el primer cubano que llegó a ser estrella en las mayores: Adolfo Domingo de Guzmán Luque. Junto a 'Dolf' Luque jugaron esa temporada otros 5 cubanos.</p><p>Los Boston Braves ganaron la Serie Mundial de ese año, pero Luque no jugó ninguno de los partidos del play-off final.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 5,
+                "year": "1914",
+                "day":20,
+                "display_date":"Temporada de 1914"
+            },
+            "media": {
+                "url": "images/1914-luque.jpg",
+                "thumbnail": "images/1914-luque-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://www.loc.gov/'>Library of Congress</a>",
+                "caption": "Adolfo Luque, también conocido como 'Papa Montero', fue el primer cubano en ser estrella en las grandes ligas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Liderato de lechadas para Luque",
+                "text": "<p>Desde 1915 hasta 1921 habían debutado en las mayores otros 6 peloteros cubanos. En la temporada de 1921 jugaron un total de 5 antillanos, entre ellos Luque. 'Papá Montero' ese año, con los Cincinnati Reds, logró el liderato de lechadas de la Liga Nacional, empatado con otros 6 peloteros.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1921"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1921"
+            }
+        },
+        {
+            "text": {
+                "headline": "Luque, líder en lechadas de nuevo",
+                "text": "<p>Entre 1922 y 1924 solo Pedro Dibut se sumó a las filas de los peloteros cubanos en las mayores. En 1924, además de Dibut, jugaron Adolfo Luque y 'Mike' Gonzáles. Luque, después de su fabulosa temporada de 1923, consiguió nuevamente, y por 3ra vez en su carrera de las mayores, el liderato de lechadas en la Liga Nacional.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1924"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1924"
+            }
+        },
+        {
+            "text": {
+                "headline": "Liderato en carreras limpias para Papá Montero",
+                "text": "<p>En 1925 debutó Ramón 'Mike' Herrera quien se sumó a Pedro Dibut, 'Mike' González y Adolfo Luque, quienes habían jugado la temporada anterior.</p><p>Luque continuó acrecentando su historia y en esa temporada lideró todas las grandes ligas en promedio de carreras limpias (ERA en inglés) con 2.63.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1925"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1925"
+            },
+            "media": {
+                "url": "images/1925-luque.jpg",
+                "thumbnail": "images/1925-luque-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.findagrave.com/>Find a grave</a>",
+                "caption": "Adolfo Luque consiguío en 1925 su 2do liderato en carreras limpias"
+            }
+               
+        },
+        {
+            "text": {
+                "headline": "Debut de Preston Gómez",
+                "text": "<p>Desde 1926 hasta 1944 debutaron en las mayores otros 16 cubanos. En esa temporada realizó su primer juego de Grandes Ligas Pedro 'Preston' Gómez Martínez quien jugó ese año junto a otros 11 compatriotas suyos. Esa fue, hasta ese momento, la más alta cifra de cubanos jugando en una misma temporada.</p><p>'Preston' Gómez, con los Senadores de Washington, solo jugó esa temporada en las Grandes Ligas. Gómez no trascendió como jugador, pero si lo hizo como coach. Bajo su mando, en 1959, los Habana Sugar Kings, con un nivel de AAA, ganaron la Pequeña Serie Mundial. Posteriormente, formó parte de los equipos de dirección de varios clubs de las mayores.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1944"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1944"
+            },
+            "media": {
+                "url": "images/1944-preston.jpg",
+                "thumbnail": "images/1944-preston-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.com'>Wikipedia</a>",
+                "caption": "'Preston' Gómez fue más exitoso como directivo que como jugador"
+            }
+        },
+        {
+            "text": {
+                "headline": "Llega 'Minnie' Miñoso",
+                "text": "<p>De 1945 a 1949 habían debutado en las grandes ligas 10 cubanos más. Saturnino Orestes Armas Miñoso y Julio González jugaron por primera vez en 1949 y se unieron esa temporada a otros 4 cubanos que ya jugaban en las mayores.</p><p>Saturnino Orestes de Armas Miñoso, que trascendió a la historia como 'Minnie' Miñoso, jugó su primer partido el 19 de abril de 1949 con los Indios de Cleveland, pero sus mayores exitos llegaron con los White Sox de Chicago, donde fue el primer negro en jugar. 'Mr. White Sox' como también llegaron a nombrar a Miñoso, es uno de los cubanos que debería tener asiento en el Salón de la Fama de Cooperstown.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1949"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1949"
+            },
+            "media": {
+                "url": "images/1949-minnie.jpg",
+                "thumbnail": "images/1949-minnie-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://cir-integracion-racial-cuba.org'>cir-integracion-racial-cuba.org</a>",
+                "caption": "'Minnie' Miñoso debutó con los Indios de Cleveland pero hizo historia con los Medias Blancas de Chicago"
+            }
+        },
+        {
+            "text": {
+                "headline": "Conrado Marrero debuta con 38 años",
+                "text": "<p>En 1950 debutaron 6 cubanos y jugaron un total de 9 antillanos. Entre los debutantes estaba una figura insigne del béisbol cubano: Conrado Marrero. 'El Guajiro de Laberinto', uno de los tantos apelativos de Marrero, jugó el 21 de abril de 1950, con 38 años, su primer partido con los Senadores de Washington. Se mantuvo jugando en las mayores hasta el 7 de septiembre de 1954.</p><p>Otro de los debutantes de ese año llegaría a participar posteriormente en un Juego las Estrellas: Sandalio Simeon 'Sandy' Consuegra.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1950"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1950"
+            },
+            "media": {
+                "url": "images/1950-marrero.jpg",
+                "thumbnail": "images/1950-marrero-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.com'>Wikipedia</a>",
+                "caption": "Conrado Marrero debutó en 1950 en las Grandes Ligas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cubanos en el Juego de las Estrellas",
+                "text": "<p>En 1951 debutaron 3 cubanos y jugaron un total de 9. En esta temporada, por primera vez en la historia, el Juego de las Estrellas de las Grandes Ligas contó con presencia cubana. Dos figuras históricas del béisbol nacional fueron los asistentes: Conrado 'El Premier' Marrero y 'Minnie' Miñoso. 'Mr. Whitesox' comenzó ese año una racha de tres temporadas consecutivas dominando la Liga Americana en bases robadas con 31 y también fue líder en triples con 14.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1951"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1951"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debut de Fornieles y Amorós",
+                "text": "<p>Doce cubanos jugaron en las temporada de 1951, de ellos 4 debutaron. Entre los debutantes, en los años posteriores, destacaron José Miguel Fornieles y Edmundo Amorós.</p><p>En esta temporada, por 2da ocasión consecutiva, 'Minnie' Miñoso estuvo  nuevamente en el Juego de las Estrellas y lideró las bases robadas de la Liga Americana con 22.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1952"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1952"
+            },
+            "media": {
+                "url": "images/1952-amoros.jpg",
+                "thumbnail": "images/1952-amoros-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://sabr.org'>SABR</a>",
+                "caption": "'Sandy' Amorós tendría su máxima gloria en la Serie Mundial de 1955"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tercer liderato de robadas para Miñoso",
+                "text": "<p>En 1953 jugaron 9 cubanos en las mayores y ninguno de ellos fue debutante. 'Minnie' Miñoso, por 3ra vez consecutiva, asistió al Juego de las Estrellas y terminó al frente de los robadores en la Liga Americana con 25.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1953"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1953"
+            }
+        },
+        {
+            "text": {
+                "headline": "Consuegra líder en ganados y perdidos",
+                "text": "<p>En 1954 debutaron Carlos Paula y Camilo Pascual, quienes jugaron en la temporada junto a otros 6 cubanos.</p><p>En el Juego de las Estrellas de la temporada estuvieron 'Minnie' Miñoso y 'Sandy' Consuegra. Miñoso fue líder en triples con 18 y Consuegra lideró ese año a todas las mayores en promedio de ganados y perdidos con 842.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1954"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1954"
+            },
+            "media": {
+                "url": "images/1954-sandy-consuegra.jpg",
+                "thumbnail": "images/1954-sandy-consuegra-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://sabr.org'>SABR</a>",
+                "caption": "'Sandy' Consuegra tuvo una gran temporada en 1954"
+            }
+        },
+        {
+            "text": {
+                "headline": "Camilo Pascual lidera las lechadas",
+                "text": "<p>Desde 1955 hasta 1959 debutaron en las grandes ligas 21 cubanos.</p><p>Esa temporada realizaron su primer juego en las mayores Mike Cuellar, Zoilo Versalles y Rudy Arias, quienes jugaron junto a otros 14 cubanos.</p><p>'Minnie' Miñoso, Pedro Ramos y Camilo Pascual asistieron al Juego de las Estrellas. Pascual lideró ese año, con 6, las lechadas en las Grandes Ligas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1959"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1959"
+            },
+            "media": {
+                "url": "images/1959-pascual.jpg",
+                "thumbnail": "images/1959-pascual-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://alchetron.com/'>Alchetron</a>",
+                "caption": "Pascual fue uno de los mejores pitchers de 1959"
+            }
+        },
+        {
+            "text": {
+                "headline": "Miñoso, Pascual y Tony Taylor al All-Stars Game",
+                "text": "<p>En 1960 debutaron 8 cubanos y jugaron un total de 22 antillanos</p><p>Miñoso obtuvo otro liderato, esta vez fue el primero en hits en la Liga Americana con 184.</p><p>Nuevamente tres cubanos fueron al Juego de las Estrellas: Miñoso y Camilo Pascual repitieron del año anterior, y para Tony Taylor fue su primera vez.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1960"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1960"
+            },
+            "media": {
+                "url": "images/1960-taylor.jpg",
+                "thumbnail": "images/1960-taylor-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.sabr.org'>SABR</a>",
+                "caption": "Antonio Nemesio 'Tony' Taylor, quien debutó en 1958, asistió el Juego de las Estrellas de 1960"
+            }
+        },
+        {
+            "text": {
+                "headline": "1961, pitcheo cubano",
+                "text": "<p>En la temporada debutaron 2 cubanos quienes jugaron con otros 17 cubanos en ese año. Camilo Pascual lideró la Liga Americana en ponches con 221 y a todas las mayores en lechadas con 8, empatado con Steve Barber.</p><p>'Mike' Fornieles y Camilo Pascual asistieron al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1961"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1961"
+            },
+            "media": {
+                "url": "images/1961-pascual.jpg",
+                "thumbnail": "images/1961-pascual-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.alchetron.com'>Alchetron</a>",
+                "caption": "Camilo Pascual tuvo un gran año en 1961"
+            }
+        },
+        {
+            "text": {
+                "headline": "Repite Pascual",
+                "text": "<p>Diego Seguí, Tony Oliva y Octavio Victor 'Cookie' Rojas fueron 3 de los 7 cubanos que debutaron ese año. Ellos integraron un grupo de 23 antillanos que jugaron en esa temporada.</p><p>Camilo Pascual volvió a liderar la Liga Americana en ponches con 206 y las mayores en lechadas con 6, empatado con 6 jugadores más. Con esa actuación volvió a estar presente en el Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1962"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1962"
+            }
+        },
+        {
+            "text": {
+                "headline": "Zoilo Versalles al Juego de las Estrellas",
+                "text": "<p>En la temporada debutaron 4 cubanos y jugaron un total de 24 antillanos. Ese fue el año del estreno de Marcelino Pons López con los Phillies de Filadelfia, quien jugó por primera vez el 14 de abril de 1963.</p><p>Camilo Pascual, por 3ra ocasión consecutiva, lideró en ponches la Liga Americana con 202. Zoilo Versalles, que lideró su liga en triples con 13, fue el único cubano en asistir al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1963"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1963"
+            },
+            "media": {
+                "url": "images/zoilo-versalles-1963.jpg",
+                "thumbnail": "images/zoilo-versalles-1963-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://sports.mearsonlineauctions.com/'>Mears Auctions</a>"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debutan Tiant, Tany, Campaneris y Chico Ruiz",
+                "text": "<p>En 1964 debutaron Luis Clemente Tiant, Atanasio 'Tany' Pérez, Dagoberto 'Bert' Campaneris e Hiraldo 'Chico' Ruiz. En total jugaron 25 cubanos esa temporada</p><p>Cuba estuvo presente en el Juego de las Estrellas con tres peloteros: Leonardo Lázaro 'Leo' Cardenas, que había debutado el 25 de julio de 1960 con los Cincinatti Reds, Camilo Pascual, que ya era un habitual de estos juegos, y Tony Oliva, que lideró su liga en average, hits, dobles y anotadas. Zoilo Versalles encabezó el listado de triples de su circuito empatado con Rich Rolling.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1964"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1964"
+            },
+            "media": {
+                "url": "images/1964-ruiz.jpg",
+                "thumbnail": "images/1964-ruiz-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.tumblr.com'>Tumblr</a>",
+                "caption": "'Chico' Ruiz ese año se robó home, estando Frank Robinson al bate. Con su carrera anotada, la única del juego, los Rojos de Cincinnati derrotaron a los Phillies de Filadelfia. Ese robo de home se transformó según la cultura popular en 'La maldición de Chico Ruiz' para los equipos de Filadelfia."
+            }
+        },
+        {
+            "text": {
+                "headline": "El año del Zorro",
+                "text": "<p>Zoilo Versalles, a quien le solían decir 'Zorro', fue el jugador más valioso de su liga. Él repitió su asistencia al Juego de las Estrellas del año anterior y le acompañaron Tony Oliva, Leo Cárdenas y 'Cookie' Rojas. Leo y Oliva también repetían del año anterior. Era el mayor número de cubanos que había asistido a un Juego de las Estrellas hasta esa fecha.</p><p>En esa temporada jugaron  26 antillanos entre los cuales hicieron su debut Tito Fuentes, Sandy Valdespino, Jackie Hernandez y Paul Casanova</p><p>En esa campaña Bert Campaneris, en su 1ra vez de 6 logradas, lideró a los robadores de la Liga America. Tony Oliva hizo lo mismo en hits y average, mientras que Zoilo los imitó en dobles y anotadas, en este último renglón al frente de todas las mayores, empatado con Tony Harper.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1965"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1965"
+            },
+            "media": {
+                "url": "images/1965-zoilo.jpg",
+                "thumbnail": "images/1965-zoilo-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.oldbaseball.com'>Old Baseball</a>",
+                "caption": "1965 fue el año de Zoilo Versalles"
+            }
+        },
+        {
+            "text": {
+                "headline": "Aumenta el número de jugadores cubanos",
+                "text": "<p>En la 1966 debutaron Minervino Alejandro 'Minnie' Rojas y Ramón López. Jugaron en total 29 cubanos, un récord que sería roto al año siguiente.</p><p>En el Juego de las Estrellas repitieron Tony Oliva y Leo Cardenas. Tres peloteros de las antillas estuvieron entre los líderes por departamento: Luis Tiant encabezó las lechadas de las mayores con 5 (7 jugadores empataron con él), Tony Oliva dio más hits que nadie en la Americana con 191 y Bert Campaneris volvió a ser el más robador de su circuito con 52.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1966"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1966"
+            }
+        },
+        {
+            "text": {
+                "headline": "Récord de cubanos en las mayores",
+                "text": "<p>El debut de 2 cubanos en 1967 contribuyó a que jugaran ese año en grandes ligas 30 nacidos en la mayor de las antillas. Ese número, que fue igualado en el 2016, es todavía récord.</p><p>Nuevamente, tres cubanos estuvieron entre los líderes por departamentos. Bert Campaneris, con 55, robó más que nadie en las mayores. 'Minnie' Rojas fue el mejor salvador de la Liga Americana con 27 y Tony Oliva lo imitó en dobles con 34.</p><p>Oliva asistió al Juego de las Estrellas junto a Tany Perez, Mike Cuellar y Paul Casanova</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1967"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1967"
+            },
+            "media": {
+                "url": "images/1967-oliva.jpg",
+                "thumbnail": "images/1967-oliva-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://1965topps.blogspot.com/'>1965topps blog</a>",
+                "caption": "Tony Oliva fue líder en dobles en 1967"
+            }
+        },
+        {
+            "text": {
+                "headline": "Seis cubanos al Juego de las Estrellas",
+                "text": "<p>En 1968, aunque debutaron 2, descendió a 25 el número de cubanos que jugaron en la temporada.</p><p>Entre los líderes estuvieron Luis Tiant y Campaneris, que repitió. El Tiante encabezó la Liga Americana en promedio de carreras limpias con un impresionante 1.6 y en lechadas con 9. Campaneris, algo habitual, lideró las mayores en robadas con 62 -empatado con Lou Brock- y la Americana en hits con 177.</p><p>Al Juego de las Estrellas asistieron un número récord de cubanos: 6. Ellos fueron Bert Campaneris, Tony Oliva, Joe Azcue, Tany Perez, Luis Tiant y Leo Cardenas</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1968"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1968"
+            },
+            "media": {
+                "url": "images/1968-azcue.jpg",
+                "thumbnail": "images/1968-azcue-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://1965topps.blogspot.com/'>1965topps blog</a>",
+                "caption": "José Joaquín 'Joe' Azcue, que debutó en 1960, asistió en 1968 a su único Juego de las Estrellas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tony Oliva y Tany Pérez, de nuevo al Juego de las Estrellas",
+                "text": "<p>En 1969 debutó José Martínez y jugaron un total de 27 cubanos.</p><p>Tony Oliva volvió a brillar liderando la Liga Americana en dobles con 39 y hits con 197. Él y Tany Pérez estuvieron presentes en el Juego de las Estrellas. En esta edición sorprende la ausencia de 'Mike' Cuellar, dados sus números de la temporada: 23 ganados y 11 perdidos, 182 ponches y 2.38 de promedio de carreras limpias.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1969"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1969"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cuatro cubanos entre los líderes por departamentos",
+                "text": "<p>Cristobal Rigoberto 'Minnie' Mendoza debutó en 1970 con los Minnesota Twins. Esa temporada jugaron en las mayores un total de 28 antillanos.</p><p>Cuatro cubanos estuvieron entre los líderes por departamentos, todos en la Liga Americana. Diego Seguí encabezó el promedio de carreras limpias con 2.56, Mike Cuellar fue el que más ganó con 24 (empatado con Dave McNally y Jim Perry) y el de mejor promedio de ganados y perdidos con 750, Campaneris estuvo al frente de los robadores con 42 y Tony Oliva encabezó el listado de hits y dobles con 204 y 36 respectivamente.</p><p>Al Juego de las Estrellas asistieron Tony Oliva, Mike Cuellar y Tany Pérez</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1970"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1970"
+            },
+            "media": {
+                "url": "images/1962-segui.jpg",
+                "thumbnail": "images/1962-segui-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://bjarkmanlatinobaseball.mlblogs.com'>Bjarkman MLBlogs/a>",
+                "caption": "Diego Seguí fue líder en carreras limpias"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tony Oliva, 8va vez en el Juego de las Estrellas",
+                "text": "<p>En 1971 jugaron 21 cubanos en las mayores y no debutó ninguno</p><p>En el Juego de las Estrellas de esa temporada participaron Mike Cuellar, Leo Cardenas, Cookie Rojas y Tony Oliva. 'Tony-O', como le decían también a Oliva, asistió a su 8vo Juego de las Estrellas de manera consecutiva, en una campaña donde también capturó su tercer título de bateo en la Liga Americana con un promedio de 337 y también encabezó el slugging con 546.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1971"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1971"
+            }
+        },
+        {
+            "text": {
+                "headline": "Campaneris, líder en robadas por sexta vez",
+                "text": "<p>En la 1972 jugaron 16 cubanos y, como en 1971, no debutó ninguno.</p><p>En esta temporada 'Bert' Campaneris lideró, por sexta vez, la Liga Americana en bases robadas con 52. También en ese circuito y en todas las mayores, Luis Tiant alcanzó por segunda vez el liderato en carreras limpias con 1.91.</p><p>'Cookie' Rojas y 'Bert' Campaneris estuvieron en el Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1972"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1972"
+            },
+            "media": {
+                "url": "images/1972-bert.jpg",
+                "thumbnail": "images/1972-bert-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://deviantart.com'>DeviantArt</a>",
+                "caption": "Campaneris es uno de los mejores robadores en la historia de las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "'Cookie' Rojas y Campaneris repiten en el Juego de las Estrellas",
+                "text": "<p>Cookie Rojas y Bert Campaneris, como en 1972, fueron los cubanos que asistieron al Juego de las Estrellas en una temporada donde jugaron 15 peloteros de la mayor de las Antillas y no se estrenó ninguno.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1973"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1973"
+            },
+            "media": {
+                "url": "images/1971-cookie-rojas.jpg",
+                "thumbnail": "images/1971-cookie-rojas-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://twitter.com'>Twitter</a>",
+                "caption": "Octavio Víctor 'Cookie' Rojas Rivas, con los Reales de Kansas City"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tiant y Cuellar destacan entre los pitchers",
+                "text": "<p>Oscar Zamora se estrenó en esta temporada donde jugaron otros 13 cubanos. Luis Tiant y 'Mike' Cuellar destacaron entre los pitchers. Tiant fue líder en lechadas con 7 y Cuellar en promedio de ganados y perdidos con 688.</p><p> Seis cubanos estuvieron en el Juego de las Estrellas: Tiant, Cuellar, Tany Perez, 'Cookie' Rojas y 'Bert' Campaneris</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1974"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1974"
+            },
+            "media": {
+                "url": "images/1974-cuellar.jpg",
+                "thumbnail": "images/1974-cuellar-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://basseball-fever.com'>Baseball Fever</a>",
+                "caption": "Mike Cuellar es el único pitcher cubano que ha ganado un Cy Young "
+            }
+        },
+        {
+            "text": {
+                "headline": "Bert y Tany en el Juego de las Estrellas",
+                "text": "<p>En la temporada de 1975 no debutó ningún cubano y formaron parte del juego un total de 13</p><p>De esos asistieron al juego de las estrellas Tany Perez y Bert Campaneris.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1975"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1975"
+            },
+            "media": {
+                "url": "images/1975-tany.jpg",
+                "thumbnail": "images/1975-tany-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://basseballhalloffame.org'>Basseball Hall of Fame</a>",
+                "caption": "Tany Pérez asistió en 1975 a su 6to Juego de las Estrellas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tiant y Tany por última vez al Juego de las Estrellas",
+                "text": "<p>Orlando González fue el único debutante en un 1976 cuando jugaron 12 cubanos en las mayores.</p><p>Las estrellas cubanas Luis Tiant, por 3ra vez, y Tany Perez, por 7ma, estuvieron presentes en el que resultaría su último Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1976"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1976"
+            },
+            "media": {
+                "url": "images/1975-tiant.jpg",
+                "thumbnail": "images/1975-tiant-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://bostonbaseballhistory.com/'>Boston Basseball History</a>",
+                "caption": "Luis Tiant es el pitcher cubano con más victorias en grandes ligas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Campaneris por última vez al All-Star Game",
+                "text": "<p>En el 77 solo jugaron 8 cubanos en la gran carpa. Bert Campaneris estuvo presente por sexta vez en el Juego de las Estrellas. Para Campaneris, quien jugó su último juego en las mayores en 1983, este fue su último All-Star Game.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1977"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1977"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debut de José Canseo",
+                "text": "<p>Entre 1978 y 1985 solo debutaron cuatros cubanos. En 1985, jugaron tres nacidos en la mayor de las Antillas y de ellos debutó uno solo: José Canseco. El cubano, que debutó con los Atléticos de Oakland el 2 de septiembre, completaría su temporada de novato en 1986. Su nombre, para bien y para mal, estaría ligado a la historia del deporte en las próximas decadas</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1985"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1985"
+            },
+            "media": {
+                "url": "images/1985-canseco.jpg",
+                "thumbnail": "images/1985-canseco-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.ecured.cu'>Ecured</a>",
+                "caption": "José Canseco debutó 1985 y completó su campaña de novato en 1986"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debut de Rafael Palmeiro",
+                "text": "<p>Nuevamente fueron tres los cubanos jugando en las mayores y un solo debutante. Como en el 85, el que se estrenaba, Rafael Palmeiro, también impactaría en la historia de las mayores.</p><p>José Canseco, quien completaría en ese año una brillante campaña de novato, asistió al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1986"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1986"
+            },
+            "media": {
+                "url": "images/1986-palmeiro.jpg",
+                "thumbnail": "images/1986-palmeiro-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://reds.enquirer.com'>Enquirer</a>",
+                "caption": "Rafael Palmeiro debutó el 8 de septiembre de 1986 con los Chicago Cubs"
+            }
+        },
+        {
+            "text": {
+                "headline": "Palmeiro y Canseco al Juego de las Estrellas",
+                "text": "<p>En 1987 y 1988 debutaron cuatro cubanos, y para 1988 siete antillanos jugaron la temporada.</p><p>En esa campaña Rafael Palmeiro y José Canseco, este en otro año de lujo, asistieron al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1988"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1988"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=FLae8JoetqM",
+                "credit": "PonceBaseballVideo",
+                "caption": "Presentación de los jugados del MLB All-Star Game de 1988"
+            }
+        },
+        {
+            "text": {
+                "headline": "Canseco repite en el Juego de las Estrellas",
+                "text": "<p>En una temporada donde solo jugaron 4 cubanos, José Canseco se consagraba como la estrella cubana de finales de los 80. En la temporada de 1989 asistió por 3ra vez, segunda consecutiva, al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1989"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1989"
+            }
+        },
+        {
+            "text": {
+                "headline": "Palmeiro líder en hits",
+                "text": "<p>Ozzie Canseco, hermano de José Canseco, debutó en 1990 y la cifra de cubanos que jugaron en esa temporada llegó a seis.</p><p>Rafael Palmeiro fue el líder en hits de la Liga Americana y José Canseco asistió a su cuarto Juego de las Estrellas, 3ro de forma consecutiva.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1990"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1990"
+            },
+            "media": {
+                "url": "images/1990-palmeiro.jpg",
+                "thumbnail": "images/1990-palmeiro-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.stickerpoints.com/'>Sticker Points</a>",
+                "caption": "Palmeiro es el cubano con más hits en las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "Canseco, líder en jonrones",
+                "text": "<p>Solo cuatro cubanos, sin que debutara ninguno, jugaron en 1991 en las grandes ligas. En esa temporada José Canseco, por segunda vez en su carrera, lideró en jonrones -con 44- la gran carpa, ahora empatado con Cecil Fielder; por su parte, Rafael Palmeiro lideró las mayores en dobles con 49.</p><p>En esa campaña, Palmeiro fue el único representante cubano al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1991"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1991"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=8gTRzk0cvEY",
+                "credit": "Youtube",
+                "caption": "Compilación de algunos jonrones de Canseco durante su carrera"
+            }
+        },
+        {
+            "text": {
+                "headline": "Canseco regresa al All-Stars Game",
+                "text": "<p>En 1992 debutó Tony Menéndez y jugaron un total de 6 cubanos en las mayores.</p><p>José Canseco retornó al Juego de las Estrellas en su quinta participación en estas lides.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1992"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1992"
+            },
+            "media": {
+                "url": "images/1992-canseco.jpg",
+                "thumbnail": "images/1992-canseco-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.imgrum.net/'>Imgrum</a>",
+                "caption": "Canseco en 1992 comienza a jugar con los Rangers de Texas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debutan Liván y Ordoñez",
+                "text": "<p>Entre 1993 y 1996 debutaron cinco cubanos. En la temporada de 1996 los que debutaron fueron Osvaldo Fernández, Rey Ordoñez y Liván Hernández. Los dos últimos acumularían logros importantes muy pronto.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1996"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1996"
+            },
+            "media": {
+                "url": "images/1996-ordonez.jpg",
+                "thumbnail": "images/1996-ordonez-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.cuban-play.com/'>Cuban Play</a>",
+                "caption": "Rey Ordoñez fue, en su época, unos de los mejores torpederos de las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debutan Rolando Arrojo y el 'El Duque' Hernández",
+                "text": "<p>En 1997 debutó un solo cubano. En 1998 debutaron tres: Vladimir Nuñez, Rolando Arrojo y Orlando 'El Duque' Hernández. Ellos  tres jugaron junto a otros 7 cubanos en esa temporada.</p><p>El Duque comenzaría ese mismo año una seguidilla de títulos que lo llevaría a ser el cubano con más anillos de Serie Mundial en la historia. En tanto, Rolando Arrojo acompañó a Rafael Palmeiro al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1998"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1998"
+            },
+            "media": {
+                "url": "images/1998-arrojo.jpg",
+                "thumbnail": "images/1998-arrojo-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://fullcount.weei.com'>Fullcount</a>",
+                "caption": "Rolando Arrojo asistió al Juego de las Estrellas en su temporada debut"
+            }
+        },
+        {
+            "text": {
+                "headline": "Palmeiro y Canseco, por última vez al Juego de las Estrellas",
+                "text": "<p>En la temporada debutaron Jorge Toca y Michael Tejera y jugaron un total de 11 cubanos</p><p>Rafael Palmeiro, en su 4ta ocasión, y José Canseco, en su sexta, asistieron por última vez al Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "1999"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "1999"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta José A. Contreras",
+                "text": "<p>Del 2000 al 2003 habían debutado 9 cubanos en las mayores. En 2003 quienes tuvieron su estreno fueron José Ariel Contreras y Michel Hernández, ellos jugaron con otros nueve cubanos.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2003"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2003"
+            },
+            "media": {
+                "url": "images/2003-contreras.jpg",
+                "thumbnail": "images/2003-contreras-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.espn.com'>ESPN</a>",
+                "caption": "José Ariel Contreras fue contratado en el 2003 por los Yankees de New York"
+            }
+        },
+        {
+            "text": {
+                "headline": "Danys Báez y Liván al Juego de las Estrellas",
+                "text": "<p>En el 2005 debutaron Yuniesky 'Riquimbili' Betancourt y Brayan Peña. Ellos se unieron a otros 8 cubanos que jugaron la temporada.</p><p>En esa campaña Danys Báez y Liván Hernández fueron los cubanos presentes en el Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2005"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2005"
+            },
+            "media": {
+                "url": "images/2005-baez.jpg",
+                "thumbnail": "images/2005-baez-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Danys Báez, quien debutó el 13 de mayo del 2000 con los Indios de Cleveland, asistió en el 2005 al Juego de las Estrellas"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta Kendrys Morales",
+                "text": "<p>El 2006 fue el año del debut de Kendrys Morales y Alay Soler quienes se unieron a otros siete cubanos para jugar la temporada.</p><p>Ese año José Ariel Contreras asistió a su único Juego de las Estrellas.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2006"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2006"
+            },
+            "media": {
+                "url": "images/2006-kendrys.jpg",
+                "thumbnail": "images/2006-kendrys-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Kendrys, hoy jugador de los Reales de Kansas City, debutó con los Angelinos de Anaheim y en su primer juego bateó de 5-3 con un jonrón."
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta Alexei Ramírez",
+                "text": "<p>En 2007 y 2008 debutaron 6 cubanos. Entre los que debutaron en 2008 se encontraba Alexei Ramírez, quien formó parte del grupo de 13 cubanos que jugaron en esa temporada.</p><p>Alexei tuvo una excelente primera campaña y quedó segundo en la votación al Novato del Año de la Liga Americana.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2008"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2008"
+            },
+            "media": {
+                "url": "images/2008-alexei.jpg",
+                "thumbnail": "images/2008-alexei-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Alexei Ramírez debutó el 31 de marzo de 2008 con los Chicago White Sox"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta Aroldis Chapman",
+                "text": "<p>En los años 2009 y 2010 debutaron otros seis cubanos. Entre los 15 de la Mayor de las Antillas que jugaron la temporada del 2010 se encontraba el pitcher debutante Aroldis Chapman. Aroldis fue utilizado incialmente como pitcher abridor, pero rápidamente fue movido al rol de cerrador y hoy es uno de los brazos más temibles de las Grandes Ligas. Las razones son concluyentes: Chapman es, por mucho, el pitcher que más rápido lanza en la historia del béisbol profesional de los Estados Unidos.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2010"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2010"
+            },
+            "media": {
+                "url": "images/2010-chapman.jpg",
+                "thumbnail": "images/2010-chapman-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Aroldis Chapman, el pitcher más rápido de la historia, debutó con los Cincinnati Reds, pero ya ha pasado por los Yankees de New York y los Cachorros de Chicago"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta Yoenis Céspedes",
+                "text": "<p>Entre el 2011 y el 2012 debutaron 7 cubanos. Yoenis Céspedes fue de los que debutó en el 2012 y formó parte del grupo de 18 cubanos que jugaron en esa temporada.</p><p>Chapman, ya asentado como cerrador, asistió a su primer Juego de las Estrellas."
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2012"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2012"
+            },
+            "media": {
+                "url": "images/2012-cespedes.jpg",
+                "thumbnail": "images/2012-cespedes-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.wikipedia.org'>Wikipedia</a>",
+                "caption": "Cespedes, quien hoy juega para los Mets, es el cubano mejor pagado del béisbol profesional"
+            }
+        },
+        {
+            "text": {
+                "headline": "Yoenis Céspedes gana su primer Derby de Jonrones",
+                "text": "<p>En la temporada del 2013 debutaron 4 cubanos y jugaron un total de 21 antillanos. Los dos debutantes más destacados de ese año fueron Yasiel Puig y José Fernández.</p><p>En el Juego de las Estrellas estuvieron presentes José Fernandez y, por 2da vez, Aroldis Chapman. Yoenis Céspedes fue invitado al Derby de Jonrones de ese año por Robinson Canó, capitán del equipo por la Liga Americana. 'La Potencia', como llaman a Céspedes, conecto 32 jonrones en el Derby y se en el primer ganador del derby de jonrones que no ha sido seleccionado para el Juego de las Estrellas en la misma temporada.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2013"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2013"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=r5FPTMZvdAw",
+                "credit": "AltoNivelSports",
+                "caption": "Yoenis en el Derby de Jonrones del 2013"
+            }
+        },
+        {
+            "text": {
+                "headline": "Debuta José Dariel Abreu",
+                "text": "<p>En la temporada del 2014 jugaron 26 cubanos de los cuales 9 fueron debutantes. El jugador, de los que se estrenó ese año, que más impacto causó fue José Dariel Abreu, que debutó con los Medias Blancas de Chicago. El cienfueguero tuvo las mejores cifras entre los novatos y lideró su liga en slugging con 582.</p><p>En el Juego de las Estrellas de ese año hubo abundante presencia cubana: Alexei Ramírez, José Abreu, Yasiel Puig, Yoenis Céspedes y Aroldis Chapman. Céspedes, participando esta vez por derecho propio, volvió a ganar el Derby de Jonrones.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2014"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2014"
+            },
+            "media": {
+                "url": "images/abreu-minoso.jpg",
+                "thumbnail": "images/abreu-minoso-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://mlblogswhitesoxpride.files.wordpress.com'>White Sox Pride</a>",
+                "caption": "En Chicago muchos ven a José Dariel Abreu como el relevo de 'Minnie' Miñoso"
+            }
+        },
+        {
+            "text": {
+                "headline": "Chapman a su 4to Juego de las Estrellas",
+                "text": "<p>En la temporada debutaron 7 cubanos y jugaron un total de 27 antillanos.</p><p>En el Juego de las Estrellas del 2015 estuvieron presentes Yasmani Grandal, que había debutado en el 2012, José Iglesias, que debutó en el 2011, y Aroldis Chapman, que participaba por 4ta ocasión consecutiva.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2015"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2015"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=4A5t7wLu9yo",
+                "credit": "Team Rvhx",
+                "caption": "Chapman es el pitcher que más rápido lanza en las mayores"
+            }
+        },
+        {
+            "text": {
+                "headline": "30 cubanos de nuevo",
+                "text": "<p>En el 2016 debutaron seis cubanos y jugaron 30 nacidos en la mayor de las Antillas. Así, 49 años después, se igualaba el récord de más cubanos jugando en las mayores que databa de 1967.</p><p>Fueron convocados para participar en el Juego de las Estrellas José Fernandez, Aledmys Díaz y Yoenis Céspedes, quien finalmente no asistió por lesión.</p><p>En septiembre de este año se tuvo que lamentar la muerte, por un accidente marítimo, de José Fernández.</p>"
+            },
+            "group": "Temporadas",
+            "start_date": {
+                "month": 4,
+                "year": "2016"
+            },
+            "end_date": {
+                "month": 9,
+                "year": "2016"
+            },
+            "media": {
+                "url": "images/2016-aledmys.jpg",
+                "thumbnail": "images/2016-aledmys-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.espn.com.ve'>ESPN</a>",
+                "caption": "Aledmys Díaz, con una buena temporada, está entre los candidatos a novato del año."
+            }
+        },
+        {
+            "text": {
+                "headline": "Martin Dihigo en el Salón de la Fama",
+                "text": "<p>Martin Dihigo, el Maestro, fue el primer cubano en entrar al Salón de la Fama en 1977, como bateador. El matancero jugó todas las posiciones y sobresalió tanto en el pitcheo como en el bateo. Su mejor temporada fue la de 1938, mientras competía por los Rojos del águila de Veracruz, en la Liga Mexicana. Dihigo inició su ascenso en el béisbol durante los choques que los equipos de la Liga Negra de Estados Unidos celebraran  en Cuba durante los inviernos. Esos mismos elencos lo animaron a probar suerte en los Estados Unidos. En Cuba compitió con el Almendares, Marianao, Cienfuegos y Santa Clara durante 21 temporadas. En las Ligas Negras norteamericanas pasó 23 campañas, repartidas entre los equipos de New York Cubans, Homestead Grayas, Hildale Daysies, Cuban Star East y Baltimore Black Sox. Además, jugó en Puerto Rico, Panamá, Venezuela y República Dominicana. Es el único jugador exaltado al Salón de la Fama de tres países: Cuba, Estados Unidos y México.</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1977"
+            },
+            "media": {
+                "url": "images/HallOfFameDihigo.jpg",
+                "thumbnail": "images/HallOfFameDihigo-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.baseballhall.org'>Hall of Fame</a>",
+                "caption": "Placa de Martín Dihigo en el Salón de la Fama"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tany Pérez en el Salón de la Fama",
+                "text": "<p>Tany Pérez, 'Tony Pérez', 'Big Dog' o 'Doggie' como también le llamaban, es considerado uno de los principales líderes de carreras impulsadas de su generación: logró 90 o más por año y un máximo de 129 carreras impulsadas en 1970. Además, fue elegido siete veces al Juego de las Estrellas y votado Jugador Más Valioso de ese evento en 1967. Aunque su último juego fue el 5 de octubre de 1986 con la edad de 44 años y después de haber competido por los equipos Cincinnati Reds (1964-1976, 1984-1986), Expos de Montreal (1977-1979), Boston Red Sox (1980-1982) y Philadelphia Phillies (1983); continuó vinculado al béisbol como Manager, primero de los Cincinnati Reds y después de los Florida Marlins. Fue incluido en el 2000 al Salón de la Fama del Béisbol con 499 votos (77,15%). </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "2000"
+            },
+            "media": {
+                "url": "images/HallOfFameTony.jpg",
+                "thumbnail": "images/HallOfFameTony-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.baseballhall.org'>Hall of Fame</a>",
+                "caption": "Placa de Atanasio 'Tany' Pérez Rigal en el Salón de la Fama"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cristóbal Torriente en el Salón de la Fama",
+                "text": "<p>2006, para los cubanos, fue particular en el Salón de la Fama del Béisbol, al ser incluidos los cubanos Cristóbal Torriente y José de la Caridad Méndez, ambos estrellas de las Ligas Negras norteamericanas. El primero, conocido como Carlos, fue un poderoso bateador zurdo que también deslumbró como jardinero central, al punto de considerarse que, junto a Jelly Gardner y Dave Malarcher, conforma uno de los mejores tríos de jardineros de la historia. Además, ganó el título de bateo en 1920 y 1923 con un average de 412.</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "2006"
+            },
+            "media": {
+                "url": "images/HallOfFameCarlos.jpg",
+                "thumbnail": "images/HallOfFameCarlos-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.baseballhall.org'>Hall of Fame</a>",
+                "caption": "Placa de Cristobal Torriente en el Salón de la Fama"
+            }
+        },
+        {
+            "text": {
+                "headline": "José de la Caridad Méndez en el Salón de la Fama",
+                "text": "<p>José Méndez, apodado el Diamante Negro y debutante por el Almendares, fue un pitcher legendario. Durante la visita de los Cincinnati Reds a La Habana en 1908, lo vieron dominar por completo ya que lanzó 25 entradas consecutivas en blanco en 3 apariciones. Entonces lo adoraron. En las Ligas Negras compitió  por Brooklyn Royal Giants, Almendares Park Cuban Stars, All Nations, Los Angeles White Sox , Chicago American Giants, Detroit Stars y Kansas City Monarchs. Su último juego fue en Cuba el 21 de enero de 1927. Murió 2 años después, a la edad de 41 años.En 2006 fue inmortalizado en Cooperstown junto a otro cubano: Cristóbal Torriente</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "2006"
+            },
+            "media": {
+                "url": "images/HallOfFameJose.jpg",
+                "thumbnail": "images/HallOfFameJose-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.baseballhall.org'>Hall of Fame</a>",
+                "caption": "Placa de José de la Caridad Méndez Baez en el Salón de la Fama"
+            }
+        },
+        {
+            "text": {
+                "headline": "Surgen los Havana Cubans",
+                "text": "<p>Los Havana Cubans comenzaron su vida en 1946 jugando en la Liga Internacional de Florida creada en ese mismo año, cuando el empresario George P. Foster montó en La Habana una franquicia de béisbol con ese nombre. El equipo consiguió 5 campeonatos consecutivos desde 1946 y hasta 1950. Este equipo estaba integrado por jugadores cubanos, latinos y estadounidenses radicados en La Habana y tenían el lema: 'Un paso más y llegamos',  pues aspiraban a integrar las Grandes Ligas estadounidenses. </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1946"
+            },
+            "media": {
+                "url": "images/hc-players.jpg",
+                "thumbnail": "images/hc-players-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://havanajournal.com'>Havana Journal</a>",
+                "caption": "Peloteros del Havana Cubans"
+            }
+        },
+        {
+            "text": {
+                "headline": "De Havana Cubans a Havana Sugar Kings",
+                "text": "<p>El nombre del equipo cambió de Havana Cubans a Havana Sugar Kings cuando Bobby Maduro compró en 1954 la franquicia a sus propietarios, y comenzaron a jugar en la International League de nivel triple A, como equipo afiliado a los Cincinnati Reds.</p><p>Los Cuban Sugar Kings, como también eran conocidos, en su primera temporada estuvieron dirigidos por Regino Otero y lograron 78 victorias con 77 derrotas, ocupando el quinto lugar en la Liga. </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1954"
+            },
+            "media": {
+                "url": "images/hsk-logo.jpg",
+                "thumbnail": "images/hcs-logo-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://mopupduty.com'>Mopupduty.com</a>",
+                "caption": "Logo de los Havana Sugar Kings"
+            }
+        },
+        {
+            "text": {
+                "headline": "Los Havana Sugars King ganan la Liga Internacional",
+                "text": "<p>El equipo ganó la Pequeña Serie Mundial ante los Minneapolis Millers con un jonrón decisivo de Daniel Morejón en el último de los siete juegos. Preston Gómez era su entrenador. Sin embargo, la franquicia abandonó Cuba y trasladó el equipo a Jersey City a mitad de la temporada de 1960, después de que el entonces Primer Ministro, Fidel Castro, decretara la nacionalización de todas las empresas estadounidenses en el país. La franquicia, bajo ese nombre, desapareció en 1961. </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1959",
+                "month":"10",
+                "day": "6"
+            },
+            "media": {
+                "url": "images/hc-team.jpg",
+                "thumbnail": "images/hc-team-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://wlrn.org'>WLRN</a>",
+                "caption": "Los Havana Sugar Kings de 1959"
+            }
+        },
+        {
+            "text": {
+                "headline": "Fin del Béisbol profesional en Cuba",
+                "text": "<p>El 15 de febrero de 1961 concluyó el ultimo campeonato de béisbol porfesional en Cuba. Los Elefantes de Cienfuegos se coronaron campeones y la lid fue jugada solo con peloteros cubanos.</p><p>El 23 de febrero de 1961 la Ley 936 había creado el Instituto Nacional de Deporte y Educación Física, INDER, y para octubre de ese año José Llanusa Gobel, su presidente, convocó a una reunión con todos los profesionales donde anunció la puesta en práctica de una futura ley que eliminaría definitivamente el deporte rentado (la Resolución 83-A/62, firmada el 19 de marzo de 1962 por él).</p><p>A partir del 14 de enero 1962 se pondría oficialmente fin al profesionalismo con el comienzo, en el estadio del Cerro, de las Series Nacionales, llamadas entonces Torneo Nacional de Béisbol Aficionado.</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1962",
+                "month":"1",
+                "day": "14"
+            }
+        },
+        {
+            "text": {
+                "headline": "Juegos entre equipo de la MLB y Cuba: primera vez en 40 años",
+                "text": "<p>Por primera vez tras el Triunfo de la Revolución, un equipo de las Mayores regresó a Cuba. Contra los Orioles de Baltimore se celebraron dos partidos: uno en el Estadio Latinoamericano y otro en el Oriole Park en Camden Yards.</p><p> En el juego efectuado en el Latino, Conrado Marrero lanzó la primera bola. En este primer partido vencieron los jugadores de la MLB con marcador de 3-2. Por Cuba abrió lanzando José Ibar, lo relevó José Ariel Contreras y terminó el juego Pedro Luis Lazo, quien cargó con la derrota. Las carreras cubanas fueron impulsadas por Omar Linares y Roberquis Vidaux.</p><p>El segundo duelo se efectuaría el 3 de mayo de ese mismo 1999.</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1999",
+                "month":"3",
+                "day": "28"
+            },
+            "media": {
+                "url": "images/1999-orioles.jpg",
+                "thumbnail": "images/1999-orioles-thumb.jpg", 
+                "credit": "Imagen tomada de <a href='https://zonadestrike.wordpress.com'>Zona de Strike</a>",
+                "caption": "Inauguración del partido entre los Baltimore Orioles y el equipo Cuba en el Estadio Latinoamericano"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cuba vs Baltimore Orioles: la revancha",
+                "text": "<p>Luego de que los Orioles de Baltimore  ganaron a la selección amateur de Cuba en el estadio Latinoamericano, se efectuó el segundo partido,  ahora en Baltimore. En Camden Yarks el resultado fue diferente y los cubanos ganaron al equipo de Grandes Ligas 12 por 6. El juego lo abrió José Ariel Contreras, le siguió Ormari Romero, y en el tercer inning subió a la lomita Norge Luis Vera -quien ganó el juego. Al bate por Cuba destacaron Andy Morales con jonrón de 3 carreras y Danel Castro que bateó de 5-4 con un triple y 2 impulsadas.</p><p>Hasta el 2016 no se volvió a efectuar otros juego entre el equipo Cuba y un equipo de las mayores.</p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "1999",
+                "month":"5",
+                "day": "3"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=q5NdAxYL1Fo",
+                "credit": "Cuba Béisbol",
+                "caption": "Resumen del juego entre Cuba y los Orioles efectuado en Camden Yarks"
+            }
+        },
+        {
+            "text": {
+                "headline": "Directivos de MLB en la Habana",
+                "text": "<p>Una delegación de la MLB, compuesta por directivos y jugadores -donde destacaron los cubanos Alexei Ramírez, Yasiel Puig, Brayan Peña y José Dariel Abreu- visitó Cuba en diciembre del 2016. Los directivos de MLB manifestaron la intención de estrechar vínculos y negociar, respetando las leyes de ambos países. Durante la visita, Dan Halem, vicepresidente de las Grandes Ligas y director jurídico de dicha organización, explicó que el objetivo del comisionado Rob Manfred y de la Asociación de Jugadores de MLB es tener un sistema legal y seguro para el normal flujo de peloteros entre Cuba y Estados Unidos. </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "2015",
+                "month":"12",
+                "day": "15"
+            },
+            "end_date": {
+                "year": "2015",
+                "month":"12",
+                "day": "16"
+            },
+            "media": {
+                "url": "images/2005-mlb.jpg",
+                "thumbnail": "images/2005-mlb-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://eldia.com.do/'>El Día</a>",
+                "caption": "Jugadores de la MLB que viajaron a La Habana en diciembre d 2015"
+            }
+
+        },
+        {
+            "text": {
+                "headline": "Cuba vs. Tampa Bay Rays en el Latino",
+                "text": "<p>El estadio Latinoamericano en la capital cubana volvió a acoger un partido entre un equipo de Grandes Ligas y una selección de Cuba.  17 años después de los partidos contra los Baltimore Orioles, se celebró el juego de exhibición entre el equipo nacional cubano y el Tampa Bay Rays de la Liga Americana.  Pedro Luis Lazo, pitcher con más victorias en campeonatos nacionales (257), y Luis Tiant, cubano con más triunfos en las Grandes Ligas (229), fueron los protagonistas en la ceremonia del lanzamiento de la primera pelota. El partido terminó 4-1 a favor de los invitados. En las gradas del Latino estuvieron el presidente cubano Raúl Castro y el presidente norteamericano Barack Obama, quien realizaba la primera visita de un jefe de estado estadounidense a la Isla en 88 años. </p>"
+            },
+            "group": "Hitos",
+            "start_date": {
+                "year": "2016",
+                "month":"3",
+                "day": "22"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=miO3zChSjTE",
+                "credit": "New China TV",
+                "caption": "Resumen del juego entre Cuba y los Tampa Bay Rays"
+            }
+        },
+        {
+            "text": {
+                "headline": "Un anillo para Bárbaro Garbey",
+                "text": "<p>Los Tigres de Detroit se coronaron en 1984 venciendo en 5 juegos a los Padres de San Diego. En su año de novato en las mayores, Bárbaro Garbey alcanzó su único anillo jugando para los Tigres, aunque su aporte, durante los 4 juegos en que participó, fue casi nulo.  Sus estadísticas en el Clásico de Octubre de 1984 lo confirman: </p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>4</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1984",
+                "month":"10",
+                "day": "14"
+            },
+            "media": {
+                "url": "images/1984-garbey.jpg",
+                "thumbnail": "images/1984-garbey-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.gamedaydet.com/'>Game Day Detroit</a>",
+                "caption": " Larry Herndon, Barbaro Garbey, Chet Lemon, Lou Whitaker y Darrell Evens formaron parte del equipo de Detroit que se coronó en 1984"
+            }
+        },
+        {
+            "text": {
+                "headline": "Sandy Amorós gana con los Dodgers de Brooklyn",
+                "text": "<p>Los Dodgers de Brooklyn ganaron en 1955 su única Serie Mundial mientras estaban localizados en New York. Su triunfo fue en siete juegos frente a sus vecinos, los Yankees de New York. Por los Dodgers jugó en cinco juegos de la serie el cubano Sandy Amorós. Amorós jonroneó en el 5to juego y fue protagonista de un fildeo importante en el último juego de la serie, ante un batazo de Yogi Berra. Sus números en la Serie Mundial que le dió su único anillo fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>5</td><td>12</td><td>4</td><td>0</td><td>0</td><td>1</td><td>3</td><td>3</td><td>0</td><td>333</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1955",
+                "month":"10",
+                "day":"4"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=Xcw7TH581uo",
+                "credit": "Swing Completo",
+                "caption": "Fildeo de Sandy Amorós en la Serie Mundial de 1955"
+            }
+        },
+        {
+            "text": {
+                "headline": "Canseco y Oakland en 1989",
+                "text": "<p>Los Atléticos de Oakland barrieron en 4 juegos a los Gigantes de San Francisco y se coronaron en el Cl\u00e1sico de Octubre de 1989. Esta Serie Mundial fue afectada por el terremoto de Loma Aprieta que provocó que el tercer juego programado para el 17 de octubre finalmente se efectuara el 27 del mismo mes.</p><p>José Canseco, luego de su año de fantasía en 1988 con Oakland, sumó ahora un anillo de Serie Mundial a su palmarés. Los números de Canseco en esa Serie Mundial fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>4</td><td>14</td><td>5</td><td>0</td><td>0</td><td>1</td><td>5</td><td>3</td><td>1</td><td>357</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1989",
+                "month":"10",
+                "day":"28"
+            },
+            "media": {
+                "url": "images/1989-oakland.jpg",
+                "thumbnail": "images/1989-oakland-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://manginphotography.net/'>Mangin Photography</a>",
+                "caption": "Jugadores de los Atléticos de Oakland festejan el triunfo"
+            }
+        },
+        {
+            "text": {
+                "headline": "El triunfo de Kendrys",
+                "text": "<p>Los Reales de Kansas City se coronaron en el Cl\u00e1sico de Octubre de 2015, venciendo en 5 juegos a los Mets de New York. En esa serie se enfrentaron también Kendrys Morales por los Reales y Yoenis Céspedes por los Mets. Ambos jugadores habían tenido excelentes números en la temporada. Céspedes, luego de ser traspasado a mitad de campaña a los Mets, fue la pieza esencial para que los de New York llegaran a la postemporada. Morales, logró finalmente regresar de la lesión que lo había alejado de las mayores y en el 2015 terminó ganando el Bate de Plata y su primer anillo de Serie Mundial.</p><p> Los números de Kendrys en el clásico fueron:</p><p>Kendrys Morales</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>5</td><td>10</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>200</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "2015",
+                "month":"11",
+                "day":"1"
+            },
+            "media": {
+                "url": "images/2015-kendry-royals.jpg",
+                "thumbnail": "images/2015-kendry-royals-thumb.jpg",
+                "credit": "Imagen tomada de <a href='TBO.com'>TBO</a>",
+                "caption": "Kendrys Morales logró su primer anillo con los Reales de Kansas City"
+            }
+        },
+        {
+            "text": {
+                "headline": "Luque de nuevo",
+                "text": "<p>Los Gigantes de New York se coronaron en 1933 en 5 juegos frente a los Senadores de Washington. En el último partido Adolfo Luque entró de relevista y terminó ganando el encuentro que daría la corona a los Gigantes y un segundo anillo a 'Papá Montero'. Los números de Luque en esa Serie Mundial fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>1</td><td>0</td><td>0</td><td>5</td><td>2</td><td>0.0</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1933",
+                "month": "10",
+                "day":"7"
+            },
+            "media": {
+                "url": "images/1933-gigantes-luque.jpg",
+                "thumbnail": "images/1933-gigantes-luque-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://www.thenationalpastimemuseum.com/'>The National Past Time Museum</a>",
+                "caption": "Los Gigantes de New York, campeones del Clásico de Octubre en 1933"
+            }
+        },
+        {
+            "text": {
+                "headline": "El Duque de Cuba",
+                "text": "<p>Los New York Yankees, el equipo más exitoso de las Grandes Ligas, venció en 4 juegos a los Padres de San Diego y se coronó en la Serie Mundial de 1998. En las filas de los Yankees estaba el experimentado, pero debutante en las mayores, Orlando 'El Duque' Hernández.  El Duque triunfó por primera vez en la MLB y así comenzó una estela de triunfos en postemporadas que lo llevaron a ser considerado un jugador talismán. Hernández ganó los 8 primeros partidos de postemporada que efectuó. En 7 temporadas y 15 series de postemporada ganó 9 partidos y perdió 3. En esa Serie Mundial lanzó y ganó el tercer juego.</p><p>Sus números del clásico fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>1</td><td>0</td><td>0</td><td>7</td><td>3</td><td>1.29</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1998",
+                "month":"10",
+                "day":"21"
+            },
+            "media": {
+                "url": "images/1998-yankess.jpg",
+                "thumbnail": "images/1998-yankess-thumb.jpg",
+                "credit":"Imagen tomada de <a href='http://www.wsj.com/'>The Wall Street Journal</a>",
+                "caption": "Orlando 'El Duque' Hérnández continuó su historia, ahora en las mayores, en 1998"
+            }
+        },
+        {
+            "text": {
+                "headline": "Liván y los Marlins",
+                "text": "<p>Los Marlins de la Florida, con apenas 5 años en las mayores, se coronaron en el Cl\u00e1sico de Octubre de 1997, venciendo en 7 juegos a los Indios de Cleveland. En su temporada de novato, Liván Hernández ya había sido nombrado el jugador más valioso de la Serie de Campeonato de la Liga Nacional. En la Serie Mundial no fue menos y también fue galardonado con el premio al Jugador Más Valioso, ganando 2 juegos.</p><p>Sus números en el clásico fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>2</td><td>0</td><td>0</td><td>7</td><td>10</td><td>5.27</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1997",
+                "month":"10",
+                "day": "26"
+            },
+            "media": {
+                "url": "images/1997-livan.jpg",
+                "thumbnail": "images/1997-livan-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://heavy.com/'>Heavy</a>",
+                "caption": "Liván Hernández festeja su premio de MVP de la Serie Mundial de 1997"
+            }
+        },
+        {
+            "text": {
+                "headline": "Para el Duque no hay dos sin tres",
+                "text": "<p>Los New York Yankees ganaron por 3ra vez consecutiva la Serie Mundial. Triunfaron en 5 juegos ante sus vecinos, los Mets de Nueva York. En esta ocasión en las filas de los Yankees hubo dos cubanos: Orlando Hernández y el veterano de las mayores José Canseco. Canseco ganó su segundo anillo aunque apenas aportó en la postemporada, teniendo en total un solo turno al bate.</p><p> El Duque, con esta victoria de los Yankees, empató con Bert Campaneris como el cubano con más títulos de Serie Mundial. En esa postemporada venció en 3 juegos pero, precisamente, en la Serie Mundial vió caer su invicto en partidos de play-off cuando cargó con la derrota en el 3er partido de las serie 4 por 2.</p><p> Los números de los cubanos en el Clásico de Octubre fueron:</p><p>Jose Canseco</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tbody></table><p>Orlando Hernandez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>0</td><td>1</td><td>0</td><td>12</td><td>3</td><td>4.91</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "2000",
+                "month":"10",
+                "day":"26"
+            },
+            "media": {
+                "url": "images/2000-elduque.jpg",
+                "thumbnail": "images/2000-elduque-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://newyork.cbslocal.com/'>CBS</a>",
+                "caption": "El Duque alcanzó en el 2000 su 3er anillo de Serie Mundial y empató con Bert Campaneris como los cubanos con más títulos"
+            }
+        },
+        {
+            "text": {
+                "headline": "Dos cubanos con Anillos",
+                "text": "<p>Los Orioles de Baltimore se coronaron en el Cl\u00e1sico de Octubre de 1970 en cinco juegos frente a los Rojos de Cincinnati de Tany Pérez. Por primera vez se coronaron campeones dos cubanos a la vez: los pitchers Mike Cuellar y Marcelino López. Cuellar fue el pitcher triunfador en el último juego de la Serie Mundial sumando un título al Cy Young que obtuvo el año anterior y al liderato en victorias de esa temporada.</p><p> El aporte de Cuellar en la postemporada no fue solo en pitcheo, el cubano conectó el único gran slam que ha conectado un pitcher en una serie de campeonato de liga. Dave McNally, otro pitcher estrella de los Orioles, imitó a Cuellar con un grand slam en la Serie Mundial.</p><p> Los números de pitcheo de los cubanos en la Serie Mundial fueron:</p><p>Marcelino Lopez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td></tbody></table><p>Mike Cuellar</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>1</td><td>0</td><td>0</td><td>5</td><td>2</td><td>3.18</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1970",
+                "month":"10",
+                "day":"15"
+            },
+            "media": {
+                "url": "images/1970-cuellar.jpg",
+                "thumbnail": "images/1970-cuellar-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://articles.baltimoresun.com/'>Baltimore Sun</a>",
+                "caption": "Mike Cuellar festeja el triunfo con los Orioles"
+            }
+        },
+        {
+            "text": {
+                "headline": "Jackie Hernández gana con Pittsburgh",
+                "text": "<p>Los Pittsburgh Pirates vencieron en 7 juegos a los campeones de 1970, los Orioles de Baltimore, y ganaron el Cl\u00e1sico de Octubre de 1971. Mike Cuellar, no pudo repetir su anillo y perdió dos juegos en la Serie Mundial, incluido el último partido, una joya de pitcheo que perdió 2 por 1. Por los ganadores, el torpedero cubano Jackie Hernández jugó los 7 juegos y obtuvo su único título en las mayores. Los número de Jackie fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>7</td><td>18</td><td>4</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>222</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1971",
+                "month":"10",
+                "day":"17"
+            },
+            "media": {
+                "url": "images/1971-pirates.jpeg",
+                "thumbnail": "images/1971-pirates-thumb.jpeg",
+                "credit": "Imagen tomada de <a href='http://iconicauctions.com/'>Iconic Auctions</a>",
+                "caption": "Los Piratas de Pittsburgh ganaron la Serie Mundial de 1971"
+            }
+        },
+        {
+            "text": {
+                "headline": "Primer título de Campaneris",
+                "text": "<p>Los Atléticos de Oakland se coronaron en 1972 frentes a los Rojos de Cincinnati en una serie mundial que llegó a los 7 juegos. En esa Serie Mundial también se enfrentaban dos de los cubanos que fueron estrellas en esos años: Bert Campaneris y Tany Pérez. Campaneris ganó su primer anillo de tres que obtuvo de manera consecutiva con Oakland. Los número de Bert en esa serie no fueron buenos:</p><p>Bert Campaneris</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>7</td><td>28</td><td>5</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>178</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1972",
+                "month":"10",
+                "day":"22"
+            },
+            "media": {
+                "url": "images/1972-campy.jpg",
+                "thumbnail": "images/1972-campy-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://www.pinterest.com/'>Pinterest</a>",
+                "caption": "Campaneris ganó su primer anillo de Serie Mundial en 1972 con los Atléticos de Oakland"
+            }
+        },
+        {
+            "text": {
+                "headline": "Cuatro para el Duque, uno para Contreras",
+                "text": "<p>Los Chicago White Sox luchaban contra la maldición de las 'Medias Negras' y llevaban 88 años sin ganar. En el 2005 pudieron vencerla. Los de Chicago barrieron en el Clásido de Octubre a los Astros de Houston en 4 juegos. Dos lanzadores cubanos contribuyeron a vencer el embrujo: José Ariel Contreras y Orlando 'El Duque' Hernández. Contreras ganó así su primer anillo de Serie Mundial y en la postemporada ganó 3 partidos y perdió 1. Entre los ganados estuvo el primer partido de la Serie Mundial, cuando venció 5 por 3.</p><p> El Duque ganó su 4to título de Serie Mundial y se convirtió en el cubano con más títulos en las mayores. En los play-off actuó como relevista y en la serie divisional, en el 3er partido frente a los Boston Red Sox, lanzó el inning de esa postemporada. Con ese inning El Duque aumentó su leyenda y Chicago camninó seguro a romper la maldición.</p><p>Los números de los cubanos en la Serie Mundial fueron:</p><p>Jose Contreras</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>3.86</td></tbody></table><p>Orlando Hernandez</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>0.0</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "2005",
+                "month":"10",
+                "day":"26"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=GlRwJH0bCOM",
+                "credit": "YouTube",
+                "caption": "El Duque lanza el 'inning de la postemporada' del 2005"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tercer anillo de Campaneris",
+                "text": "<p>Los Atléticos de Oakland vencieron en octubre en 5 juegos a los Dodger de los Ángeles y ganaron su tercer título en línea. Bert Campaneris, quien jugó en todos los juegos de las tres series mundiales ganadas por Oakland, se convirtió en ese entonces en el cubano con más títulos de las mayores. Ese récord fue igualado en el 2000 y superado en el 2005 por el Duque Hernández. Los números de Bert Campaneris en ese clásico fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>5</td><td>17</td><td>6</td><td>2</td><td>0</td><td>0</td><td>1</td><td>2</td><td>1</td><td>352</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1974",
+                "month":"10",
+                "day":"17"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=N2g_7tvLkDk",
+                "credit": "MLB",
+                "caption": "Campaneris realiza un squeeze play en el primer juego de la Serie Mundial de 1974"
+            }
+        },
+        {
+            "text": {
+                "headline": "Tany vs Tiant",
+                "text": "<p>La Serie Mundial de 1975 es considerada una de las mejores de la historia. Los Cincinnati Reds vencieron en 7 juegos a los Boston Red Sox. El 6to juego de la serie se decidió en 12 entradas y el 7mo se acabó 4 a 3 con los Rojos anotando la carrera de la victoria en el 9no inning. Dos cubanos que hicieron época en las mayores se enfrentaron en esta serie: Luis Tiant por Boston y Tany Pérez por Cincinnati. Diego Seguí, con los Medias Rojas, también estuvo, pero formaron parte de la historia Tiant y Tany.</p><p> El Tiante lanzó completo el primer juego de la serie y lo ganó 6 a 0, lanzó completo el 4to y lo ganó, lanzó en el 6to y no tuvo decisión, pero Boston ganó. El de Marianao lanzó en las 3 victorias de los Medias Rojas. Tany no había bateado un hit en los 4 primeros juegos pero en el 5to despachó 2 jonrones para la victoria de los Rojos. En el 7mo juego Pérez conectó su 3er jonrón de la Serie Mundial, impulsando 2 carreras, para acercar a Cincinnati 3 a 2 y que finalmente se impusieran 4 por 3. Ese fue el primer anillo de Tany Pérez, Tiant no llegó a alcanzar ninguno.  </p>Los números de Tany Pérez fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>7</td><td>28</td><td>5</td><td>0</td><td>0</td><td>3</td><td>4</td><td>7</td><td>1</td><td>178</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1975",
+                "month":"10",
+                "day":"22"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=Hwy_O4doQh8",
+                "credit": "MLB",
+                "caption": "Tany Pérez se había ido sin hits en la Serie Mundial hasta el 5to juego, cuando conectó 2 jonrones"
+            }
+        },
+        {
+            "text": {
+                "headline": "Segundo anillo para Tany",
+                "text": "<p>La Maquinaria Roja, los Rojos de Cincinnati, se coronaron nuevamente en 1976. El equipo, que contaba en sus filas con Jonnhy Bench, Joe Morgan, David Concepción, César Gerónimo, George Foster, Ken Griffey padre, Pete Rose y Tany Pérez, arrasó con los Yankees de New York en 4 juegos. Tany Pérez logró así su segundo campeonato en la MLB. Sus números en esa serie fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>4</td><td>16</td><td>5</td><td>1</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>312</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1976",
+                "month":"10",
+                "day":"21"
+            },
+            "media": {
+                "url": "images/1976-tany.jpg",
+                "thumbnail": "images/1976-tany-thumb.jpg",
+                "credit": "Imagen tomada de <a href='http://deportistascubanos.blogspot.com/'>Deportistas Cubanos</a>",
+                "caption": "Tany Pérez, Johnny Bench, Joe Morgan y Pete Rose formaron parte de los Rojos que ganaron las Series Mundiales de 1975 y 1976. Los tres primeros forman parte del Salón de la Fama y Rose es el líder en hits de todos los tiempos en las mayores "
+            }
+        },
+        {
+            "text": {
+                "headline": "Oakland y Bert repiten",
+                "text": "<p>Los Atléticos de Oakland repitieron su título nuevamente en una serie de 7 juegos. Los rivales de esta ocasión fueron los Mets de New York. En esta Serie Mundial Campaneris fue uno de los jugadores decisivos de los Atléticos. Sus números fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>SB</td><td>AVE</td></thead><tbody><td>7</td><td>31</td><td>9</td><td>0</td><td>1</td><td>1</td><td>6</td><td>3</td><td>3</td><td>290</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1973",
+                "month":"10",
+                "day":"21"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=dXh-FXj39yY",
+                "credit": "MLB",
+                "caption": "Bert Campaneris y Reggie Jackson jonronean en el 7mo juego de la Serie Mundial"
+            }
+        },
+        {
+            "text": {
+                "headline": "Segundo anillo para el Duque",
+                "text": "<p>Los Yankees de New York  repitieron su triunfo de 1999 en solo 4 juegos. En esta ocasión las víctimas fueron los Bravos de Atlanta. El Duque ya era una estrella en los Yankees y en la postemporada había sido nombrado el Jugador Más Valioso en la Serie de Campeonato de la Liga Americana. Fue designado para abrir el primer partido de la Serie Mundial y lo ganó 4 por 1, permitiendo un solo hit, jonrón de Chipper Jones. Cuando Mariano Rivera salvó el 4to juego que ganó Roger Clemens, también 4 por 1, el Duque alcanzó su 2do anillo. </p><p>Sus números en esa serie fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>1</td><td>1</td><td>0</td><td>0</td><td>10</td><td>2</td><td>1.29</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1999",
+                "month":"10",
+                "day":"27"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=qbD7QdxVgEA",
+                "credit": "MLB",
+                "caption": "El Duque poncha a 10 en el primer juego de la Serie Mundial de 1999"
+            }
+        },
+        {
+            "text": {
+                "headline": "Luque: primero en ganar un anillo",
+                "text": "<p>Adolfo Luque fue el primer cubano que jugó una serie mundial y la ganó. Los Rojos de Cincinnati, el equipo de Luque, se coronaron ante el equipo de los Medias Blancas de Chicago que fue conocido en la historia como 'The Black Socks'. En  el terreno, por el equipo ganador, Luque lanzó como relevista en dos juegos. Sus números fueron:</p><table class='table table-striped table-condensed table-hover'><thead><td>G</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead><tbody><td>2</td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>0.0</td></tbody></table>"
+            },
+            "group": "Títulos",
+            "start_date": {
+                "year": "1919",
+                "month":"10",
+                "day":"9"
+            },
+            "media": {
+                "url": "images/1919-rojos-luque.jpg",
+                "thumbnail": "images/1919-rojos-luque-thumb.jpg",
+                "credit": "Imagen tomada de <a href='https://commons.wikimedia.org/'>Wikimedia Commons</a>",
+                "caption": "Equipo de los Rojos de Cincinnati campeón de la Serie Mundial de 1919"
+            }
+        }
+    ]
+}
