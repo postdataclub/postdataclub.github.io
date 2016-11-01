@@ -111,6 +111,18 @@ body {
     color: #461A57;
 }
 
+.viz-color {
+   background-color: #9b142a;     
+}
+
+.viz-border {
+   border-color: #9b142a; 
+}
+
+.viz-text {
+    color: #9b142a;
+}
+
 .article-color {
    background-color: #C93160;  
 }
