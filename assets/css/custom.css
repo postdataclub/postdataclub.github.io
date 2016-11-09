@@ -12,6 +12,7 @@
        url(../fonts/Raleway-Bold.ttf);
 }
 
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -62,6 +63,7 @@ body {
     padding-right: 14px;
     background-color: #4B4B4D;
 }
+
 
 .header-menu > div > div > span >a {
     color: #FDFDFD;
@@ -121,6 +123,18 @@ body {
 
 .viz-text {
     color: #9b142a;
+}
+
+.prof-color {
+   background-color: #f06543;     
+}
+
+.prof-border {
+   border-color: #f06543; 
+}
+
+.prof-text {
+    color: #f06543;
 }
 
 .article-color {
@@ -691,6 +705,10 @@ a:focus {
     margin-right: 11%;
     
   }
+}
+
+.index-separator {
+    height: 10px;
 }
 
 
