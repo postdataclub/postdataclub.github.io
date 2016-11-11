@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Estrellas entre los grades</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  prof-color">
+            <div class="article-news-title">Estrellas entre los grandes</div>
+            <div class="article-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a href="../../equipo/aymara.html">Aymara Vigil</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a> <span class="article-date">7/11/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Una selección de los mejores jugadores cubanos en Grandes Ligas</div> 
+            
+<!--
+             <div class="article-news-image">
+                <img src="images/pelota-malecon.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: Yudivián Almeida</div>
+                </div>
+            </div>           
+-->
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>Seleccionar a los mejores, en cualquier tema, es siempre un ejercicio subjetivo. 
+    Si lo hacemos en un asunto como la pelota la dificultad es mayor. 
+    Un deporte tan rico como el béisbol posee un gran número de estadísticas
+    que permiten valorar el rendimiento de un pelotero en las diferentes aristas del
+    juego. Con esa profusión estadística se complejiza aún más la tarea de seleccionar
+    a los mejores.</p>
+    </div>
+    
+     <div class="media-block prof-border border">
+    <div class="graph-text prof-text">
+            Líderes históricos, entre cubanos, en distintos departamentos en la MLB
+        </div>
+    
+    <div class="prof-text graph" style="margin-bottom:20px;">
+            <span>
+                Categoría: 
+                <select style="margin-left:2px; margin-right:20px;" id="category">
+                <option value="general" >General</option>
+                <option value="pitcher">Lanzadores</option>
+                <option value="batting">Bateadores</option>
+                </select>
+            </span>
+            <span>
+                Estadística: 
+                <select style="margin-left:2px;margin-right:20px;" id="stats" >
+                <option value="seasons" class="option general" >Temporadas</option>
+                <option value="hits" class="option batting" style="display:None;">Hits</option>
+                <option value="runs" class="option batting" style="display:None;">Carreras</option>
+                <option value="doubles" class="option batting" style="display:None;">Dobles</option>
+                <option value="triples" class="option batting" style="display:None;">Triples</option>
+                <option value="homeruns" class="option batting" style="display:None;">Jonrones</option>
+                <option value="rbi" class="option batting" style="display:None;">Impulsadas</option>
+                <option value="stealbase" class="option batting" style="display:None;">Bases Robadas</option>
+                <option value="average" class="option batting" style="display:None;">Average</option>
+                <option value="allstar" class="option general" >AllStar Games</option>
+                <option value="postseasons" class="option general">Postemporadas</option>
+                <option value="titles" class="option general">Títulos de Serie Mundial</option>
+                <option value="games" class="option pitcher" style="display:None;">Juegos Lanzados</option>
+                <option value="wins" class="option pitcher" style="display:None;">Juegos Ganados</option>
+                <option value="innings" class="option pitcher" style="display:None;">Innings</option>
+                <option value="shutouts" class="option pitcher" style="display:None;">Lechadas</option>
+                <option value="strikeouts" class="option pitcher" style="display:None;">Ponches</option>
+                <option value="saves" class="option pitcher" style="display:None;">Salvados</option>
+                <option value="era" class="option pitcher" style="display:None;">Promedio de Carreras Limpias</option>
+                <option value="avepitcher" class="option pitcher" style="display:None;">Promedio de Ganados y Perdidos</option>
+                </select>
+            </span>
+        </div>
+    
+    <div id="hits"  class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más Hits en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Hits</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Rafael Palmeiro</td><td>3020</td></tr>
+           <tr><td>2</td><td>Tany Pérez</td><td>2732</td></tr>
+           <tr><td>3</td><td>Bert Campaneris</td><td>2249</td></tr>
+           <tr><td>4</td><td>Tony Taylor</td><td>2007</td></tr>
+           <tr><td>5</td><td>Minnie Miñoso</td><td>1963</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="runs" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text" >Más anotadas en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Anotadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Rafael Palmeiro</td><td>1663</td></tr>
+           <tr><td>2</td><td>Tany Pérez</td><td>1272</td></tr>
+           <tr><td>3</td><td>José Canseco</td><td>1186</td></tr>
+           <tr><td>4</td><td>Bert Campaneris</td><td>1181</td></tr>
+           <tr><td>5</td><td>Minnie Miñoso</td><td>1136</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    
+    <div id="doubles" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más dobles en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Dobles</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Rafael Palmeiro</td><td>585</td></tr>
+           <tr><td>2</td><td>Tany Pérez</td><td>505</td></tr>
+           <tr><td>3</td><td>José Canseco</td><td>340</td></tr>
+           <tr><td>4</td><td>Minnie Miñoso</td><td>336</td></tr>
+           <tr><td>5</td><td>José Cardenal</td><td>333</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="triples" class="graph mlbstat"  style="display:None;">
+    <div id="category" class="mlb prof-text">Más triples en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Triples</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Bert Campaneris</td><td>86</td></tr>
+           <tr><td>1</td><td>Tony Taylor</td><td>86</td></tr>
+           <tr><td>3</td><td>Minnie Miñoso</td><td>83</td></tr>
+           <tr><td>4</td><td>Tany Pérez</td><td>79</td></tr>
+           <tr><td>5</td><td>Zoilo Versalles</td><td>63</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="homeruns" class="graph mlbstat"  style="display:None;">
+    <div id="category" class="mlb prof-text">Más jonrones en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Jonrones</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Rafael Palmeiro</td><td>569</td></tr>
+           <tr><td>2</td><td>José Canseco</td><td>462</td></tr>
+           <tr><td>3</td><td>Tany Pérez</td><td>379</td></tr>
+           <tr><td>4</td><td>Tony Oliva</td><td>220</td></tr>
+           <tr><td>5</td><td>Minnie Miñoso</td><td>186</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="rbi" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más impulsadas en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Impulsadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Rafael Palmeiro</td><td>1835</td></tr>
+           <tr><td>2</td><td>Tany Pérez</td><td>1652</td></tr>
+           <tr><td>3</td><td>José Canseco</td><td>1407</td></tr>
+           <tr><td>4</td><td>Minnie Miñoso</td><td>1023</td></tr>
+           <tr><td>5</td><td>Tony Oliva</td><td>947</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="stealbase" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más bases robadas en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Bases Robadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Bert Campaneris</td><td>649</td></tr>
+           <tr><td>2</td><td>José Cardenal</td><td>329</td></tr>
+           <tr><td>3</td><td>Tony Taylor</td><td>234</td></tr>
+           <tr><td>4</td><td>Minnie Miñoso</td><td>205</td></tr>
+           <tr><td>5</td><td>José Canseco</td><td>200</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="average" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Mejor promedio en MLB (2000 o más turnos)</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Promedio</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Tony Oliva</td><td>304</td></tr>
+           <tr><td>2</td><td>Minnie Miñoso</td><td>298</td></tr>
+           <tr><td>3</td><td>Rafael Palmeiro</td><td>288</td></tr>
+           <tr><td>4</td><td>Tony González</td><td>286</td></tr>
+           <tr><td>5</td><td>Yunel Escobal</td><td>283</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="allstar" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más All-Stars Games en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>All-Stars Games</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Minnie Miñoso</td><td>9</td></tr>
+           <tr><td>2</td><td>Tony Oliva</td><td>8</td></tr>
+           <tr><td>3</td><td>Tany Pérez</td><td>7</td></tr>
+           <tr><td>3</td><td>Camilo Pascual</td><td>7</td></tr>
+           <tr><td>5</td><td>Bert Campaneris</td><td>6</td></tr>
+           <tr><td>5</td><td>José Canseco</td><td>6</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    
+    <div id="titles" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más anillos de Serie Mundial en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Anillos</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Orlando "El Duque" Hernández</td><td>4</td></tr>
+           <tr><td>2</td><td>Bert Campaneris</td><td>3</td></tr>
+           <tr><td>3</td><td>Tany Pérez</td><td>2</td></tr>
+           <tr><td>3</td><td>Adolfo Luque</td><td>2</td></tr>
+           <tr><td>3</td><td>José Canseco</td><td>2</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="postseasons" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más anillos de Serie Mundial en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+           <td>Ranking</td><td>Nombre</td><td>Postemporadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Orlando "El Duque" Hernández</td><td>7</td></tr>
+           <tr><td>2</td><td>Bert Campaneris</td><td>6</td></tr>
+           <tr><td>2</td><td>Tany Pérez</td><td>6</td></tr>
+           <tr><td>4</td><td>Mike Cuellar</td><td>5</td></tr>
+           <tr><td>4</td><td>José Canseco</td><td>5</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    
+    <div id="seasons" class="graph mlbstat">
+    <div id="category" class="mlb prof-text">Más temporadas en MLB </div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Temporadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Tany Pérez</td><td>23</td></tr>
+           <tr><td>2</td><td>Rafael Palmeiro</td><td>20</td></tr>
+           <tr><td>2</td><td>Adolfo Luque</td><td>20</td></tr>
+           <tr><td>4</td><td>Luis Tiant</td><td>19</td></tr>
+           <tr><td>4</td><td>Tony Taylor</td><td>19</td></tr>
+           <tr><td>4</td><td>Bert Campaneris</td><td>19</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="wins" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más juegos ganados en MLB </div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Juegos Ganados</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Luis Tiant</td><td>229</td></tr>
+           <tr><td>2</td><td>Adolfo Luque</td><td>194</td></tr>
+           <tr><td>3</td><td>Mike Cuellar</td><td>185</td></tr>
+           <tr><td>4</td><td>Liván Hernández</td><td>178</td></tr>
+           <tr><td>5</td><td>Camilo Pascual</td><td>174</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="games" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más juegos en MLB </div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Juegos</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Diego Seguí</td><td>639</td></tr>
+           <tr><td>2</td><td>Pedro Ramos</td><td>582</td></tr>
+           <tr><td>3</td><td>Luis Tiant</td><td>573</td></tr>
+           <tr><td>4</td><td>Tony Fossas</td><td>567</td></tr>
+           <tr><td>5</td><td>Adolfo Luque</td><td>550</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="innings" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más innings lanzados en MLB </div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Innings</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Luis Tiant</td><td>3486.1</td></tr>
+           <tr><td>2</td><td>Adolfo Luque</td><td>3220.1</td></tr>
+           <tr><td>3</td><td>Liván Hernández</td><td>3189</td></tr>
+           <tr><td>4</td><td>Camilo Pascual</td><td>2930.2</td></tr>
+           <tr><td>5</td><td>Mike Cuellar</td><td>2808</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="shutouts" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más lechadas en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Lechadas</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Luis Tiant</td><td>49</td></tr>
+           <tr><td>2</td><td>Camilo Pascual</td><td>36</td></tr>
+           <tr><td>2</td><td>Mike Cuellar</td><td>36</td></tr>
+           <tr><td>4</td><td>Adolfo Luque</td><td>26</td></tr>
+           <tr><td>5</td><td>Pedro Ramos</td><td>13</td></tr>
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="strikeouts" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más ponches en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Ponches</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Luis Tiant</td><td>2416</td></tr>
+           <tr><td>2</td><td>Camilo Pascual</td><td>2167</td></tr>
+           <tr><td>3</td><td>Liván Hernández</td><td>1976</td></tr>
+           <tr><td>4</td><td>Mike Cuellar</td><td>1632</td></tr>
+           <tr><td>5</td><td>Pedro Ramos</td><td>1298</td></tr>
+           
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="saves" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Más juegos salvados en MLB</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Juegos Salvados</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Aroldis Chapman</td><td>182</td></tr>
+           <tr><td>2</td><td>Dannys Báez</td><td>114</td></tr>
+           <tr><td>3</td><td>Diego Seguí</td><td>71</td></tr>
+           <tr><td>4</td><td>Mike Fornieles</td><td>55</td></tr>
+           <tr><td>5</td><td>Pedro Ramos</td><td>54</td></tr>
+           
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="era" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Mejor promedio de carreras limpias (PCL) en MLB (200 juegos o más)</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>PCL</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Aroldis Chapman</td><td>2.08</td></tr>
+           <tr><td>2</td><td>Mike Cuellar</td><td>3.14</td></tr>
+           <tr><td>3</td><td>Adolfo Luque</td><td>3.24</td></tr>
+           <tr><td>4</td><td>Luis Tiant</td><td>3.3</td></tr>
+           <tr><td>5</td><td>Sandy Consuegra</td><td>3.37</td></tr>
+           
+       </tbody>
+    </table>
+    </div>
+    
+    <div id="avepitcher" class="graph mlbstat" style="display:None;">
+    <div id="category" class="mlb prof-text">Mejor promedio de ganados y perdidos en MLB (200 juegos o más)</div>
+    <table id="" class='table table-striped table-condensed table-hover'>
+       
+       <thead style="font-weight:bold;">
+       <td>Ranking</td><td>Nombre</td><td>Promedio</td>
+        </thead>
+       <tbody>
+           <tr><td>1</td><td>Sandy Consuegra</td><td>614</td></tr>
+           <tr><td>2</td><td>Mike Cuellar</td><td>587</td></tr>
+           <tr><td>3</td><td>Orlando 'El Duque' Hernández</td><td>581</td></tr>
+           <tr><td>3</td><td>Luis Tiant</td><td>571</td></tr>
+           <tr><td>5</td><td>José A. Contreras</td><td>538</td></tr>
+           
+       </tbody>
+    </table>
+    </div>
+    
+    </div>
+    
+    <div class="text-block">
+    <p>Aún así, con la posibilidad de la subjetividad y la dificultad del empeño, nos aventuramos
+    a seleccionar a las estrellas del firmamento beisbolístico cubano en las Grandes Ligas:
+    una selección muy nuestra.
+    </p>
+    <p>
+    En una histora de 145 años en el béisbol profesional de los Estados Unidos, 
+    con un reparto de 199 peloteros cubanos, hay muchos protagonistas. Por ello, para nuestra
+    selección identificamos tres de los roles posibles: el pitcheo, el bateo y la actuación en
+    postemporada. Por cada rol escogimos a cuatros peloteros: tres que sobresalieron sobre el resto -los finalistas- 
+    y el que, para nosotros, resultó el mejor -el ganador-.
+    </p>
+    
+     <p>
+    Hacer la selección que proponemos ha sido dificil. Para ello hemos revisado una y otra vez las estadistícas
+    de los cubanos, sus logros, los reconocimientos obtenidos, así como su historia en las mayores.
+    Sabemos, a priori, que muchos no coincidirán con nuestros criterios. Esperamos entonces, que después
+    de conocer nuestra propuesta, en los comentarios, empiece la esquina caliente.
+    </p>
+    
+    </div>
+    
+    <div class="text-block">
+        <div class="subtitle prof-text">
+        Los mejores pitchers
+        </div>
+        <p>
+        Desde 1871 hasta la fecha han realizado algún lanzamiento de pitcheo 89 cubanos. El primero en hacerlo fue el gran Adolfo Luque, en 1914,
+        y el último, en el 2016, Ariel Miranda. En ese intervalo han destacado muchos lanzadores: el propio Luque, Conrado Marrero,
+        Sandy Consuegra, Mike Fornieles, Camilo Pascual, Mike Cuellar, Diego Seguí, Luis Tiant, Liván Hernández, 'El Duque' Hernández,
+        Aroldis Chapman y José Fernández, entre otros. Muchos de ellos han ocupado lideratos en los departamentos de pitcheo, han obtenido
+        premios por sus actuaciones, han sido importantes para sus equipos en la consecusión de títulos.
+        </p>
+        <p>
+        Para nuestra selección tuvimos en cuenta lideratos, premios, tiempo en las mayores, así como las estadísticas 
+        -entre los lanzadores cubanos- de toda la carrera en las Grandes Ligas.
+        </p>
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title" style="">
+                 Finalistas:
+                 </div>
+              </div>
+        </div>
+        <div class="row runners-row">
+                
+            <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Camilo Pascual
+               </div>
+               <div class="runner-img">
+               <img src="images/pascuca02.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+                   <thead>
+                       <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                   <tbody>
+                       <td>529</td><td>2930.2</td><td>174</td><td>170</td><td>10</td><td>2167</td><td>1069</td><td>3.63</td>
+                   </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Camilo Pascual, lideró su liga, del 61 al 63, en ponches y asistió a 7 Juegos de las Estrellas.  Es, entre los pitchers cubanos en las mayores, el 5to en juegos ganados, 2do en lechadas y 2do en poches. Su curva ha sido catalogada como la 10 mejor de todos los tiempos.
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Mike Cuellar
+               </div>
+               <div class="runner-img">
+               <img src="images/cuellmi01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+                   <thead>
+                       <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                   <tbody>
+                       <td>453</td><td>2808</td><td>185</td><td>130</td><td>11</td><td>1632</td><td>822</td><td>3.14</td>
+                   </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Mike Cuellar es el único cubano que ha ganado el Cy Young. 
+               Ganó la Serie Mundial en 1970, ese año lideró la MLB en ganados 
+               y fue 4 veces All-Star. Entre cubanos es 4to en ponches, 
+               3ro en ganados, 2do en PCL y 2do en promedio de ganados y perdidos. 
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name" >
+               Adolfo Luque
+               </div>
+               <div class="runner-img">
+               <img src="images/luquedo01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+                   <thead>
+                       <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                   <tbody>
+                       <td>550</td><td>3220.1</td><td>194</td><td>179</td><td>29</td><td>1130</td><td>918</td><td>3.24</td>
+                   </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Adolfo Luque, quien militó por 20 temporadas en las mayores, ganó dos series mundiales, en 1970 y 1933. 
+               Lideró las mayores una vez en ganados y dos veces en PCL.
+               Luque es, entre cubanos, 5to en juegos lanzados, 2do en ganados, 3ro en PCL y 4to en lechadas. 
+               </div>
+               </div>
+            </div>
+            
+        </div>
+    
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title">
+                 Ganador:
+                 </div>
+              </div>
+        </div>
+    
+        <div id="winner-more">
+             <div class="prof-color winner-name">
+             Luis Tiant
+             </div>
+        <div class="row winner-more">
+         
+         <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+                   <div class="runner-img">
+                   <img src="images/tiantlu01.jpg">
+                   </div>
+                   <div class="runner-stats">
+                   <table class='table table-striped table-condensed table-hover'>
+                       <thead>
+                           <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                       <tbody>
+                           <td>573</td><td>3486</td><td>229</td><td>172</td><td>15</td><td>2416</td><td>1104</td><td>3.3</td>
+                       </tbody>
+                   </table>
+                   </div>
+               </div>
+        </div>
+         
+         
+         <div class="col-lg-8 col-md-8 container top-five">
+           <p>Luis Tiant tuvo una carrera de 19 años en las Grandes Ligas. Durante ese período fue convocado dos veces al Juego de las Estrellas, lideró la Liga Americana por 2 veces en PCL y encabezó por 3 veces las lechadas.</p>
+           <p>El Tiante es, entre todos los pitchers cubanos, el 4to en PCL, e 3ro en juegos lanzados y el 1ro en lechadas, en ponches y en juegos ganados. Sus 229 juegos ganados lo mantienen a la cabeza de los pitchers de latinoamérica en las mayores.</p>
+           <p>Tiant ya debería estar en Cooperstown pero su entrada al Salón al Salón aún no se vislumbra.</p>
+         </div>
+        </div>
+       </div>
+       
+       <div class="winner-more">
+             <div id="open-tiant" class="prof-color cursor reading-more" onclick="show_profile('tiant',true)">
+             <span >Lea un perfil de Luis Tiant</span>
+             </div>
+             <div id="close-tiant" class="prof-color cursor reading-less" onclick="show_profile('tiant',false)" style="display:none">
+             <span >Cerrar el perfil</span>
+             </div>
+    <div id="tiant" style="display:none">
+    <div class="text-block">
+        <div class="subtitle prof-text big-subtitle">
+        Luis Tiant: el hombre sin Hall of Fame
+        </div>
+        <div class="subauthor">
+        Por <a href="../../equipo/aymara.html">Aymara Vigil</a>
+        </div>
+        <p>
+        Luis Clemente Tiant Vega, o simplemente Luis Tiant, no podría ser confundido con ningún otro pitcher latinoamericano de las grandes ligas. Tiant fue único en su tipo: mantuvo durante décadas de juego un estilo único e irrepetible de picheo, que muchas veces incluía darle la espalda completamente al bateador mientras lanzaba.
+</p>
+<p>
+El hombre del bigote al estilo del villano chino Fu Manchú, de las exageradas contorsiones antes de lanzar, de la recta por encima de los 90, del tabaco entre los dientes, el carismáticos cubano de los grandes momentos, fue uno de los lanzadores más ganadores que han pasado por las Grandes Ligas Americanas; pero también, uno de los pocos jugadores que vivió en carne propia los duros sacrificios y las largas luchas necesarias para triunfar al más alto nivel de juego. 
+</p>
+</div>
+
+<div class="image-block" style="text-align: center;">
+                <img src="images/perfil-tiant.jpg">
+                <div class = "image-info row">
+                    <div class="image-caption col-lg-9 col-md-9"></div>
+                    <div class="image-author col-lg-3 col-md-3">Foto tomada de: wbur.org</div>
+                </div>
+       </div>   
+       
+
+<div class="text-block">
+<p>
+Luis Tiant fue siempre un hombre noble, amistoso y risueño con pocas, o ningunas, ínfulas de grandeza. Nació en Marianao el 23 de noviembre de 1940, y desde niño mostró afición por el béisbol, pues su padre, Luis Tiant, fue una vieja estrella de los Azules de Almendares y la Negro Leagues. Sin embargo, dicen que su Tiant Sr. nunca lo alentó a comenzar una carrera, pues consideraba que había muy pocas oportunidades en el mundo del béisbol de Grandes Ligas para un hombre negro. 
+</p>
+<p>
+No obstante, el Tiante, como también es conocido, sí llegó a las Grandes Ligas en el año 1964. Con sus lanzamientos, desafiaba a cuanto bateador se opusiera, en una etapa extremadamente difícil para los pitchers, pues los que se acomodaban en el cajón de bateo eran respetados en todo el mundo por su altísimo nivel de juego. 
+</p>
+<p>
+Pero esto nunca detuvo al Tiante que antes de hacer su debut en las Grandes Ligas con los Indios de Cleveland, había jugado en la Liga Mexicana y en la Liga Menor Americana durante 5 años. Tiant, cuatro años luego de su debut en las mayores, ganó 21 juegos y solo perdió 9, ponchó a 264 bateadores, picheó 19 juegos completos, propinó 9 lechadas y obtuvo un record de 1.60 promedio de carreras limpias (ERA por sus siglas en Inglés).
+</p>
+<p>
+Luego de 6 años jugando con los Indios de Cleveland, Tiant fue contratado por los Minnesota Twins justo antes de comenzar la temporada del 1970. Mientras transcurría el año, el Tiante contaba con 7 victorias y 3 derrotas, sin embargo, una lesión en el hombro pondría un prematuro fin a la serie para él, y ocasionaría que fuese liberado de los Twins al finalizar la temporada.         
+</p>
+<div class="subtitle prof-text">
+        El retorno de un grande
+        </div>
+        <p>
+        Para cualquier otro jugador, una lesión y la liberación casi inmediata de un equipo, hubiese sido el fin de su vida deportiva. Sin embargo, Tiant supo reponerse y fue llevado a jugar con los Boston Red Sox. 
+</p>
+<p>
+Durante los ocho años de estancia en el Boston, el gigante capitalino estuvo en su mejor forma, aunque su carrera no despegó de la manera en que se hubiese esperado. En el primer año, apenas ganó un juego y perdió siete. Tuvo que pasar un tiempo para que el hombre de Marianao se recuperara y volteara las estadísticas a su favor. 
+</p>
+<p>
+En 1972, Tiant ganó 15 juegos y perdió solamente 6, y promedió un ERA de 1.91, cifras que le valieron el título del American League Comeback Player of the Year, un premio al mejor regreso de un jugador a las Grandes Ligas.
+</p>
+<p>
+El carismático pitcher derecho, a quien el bateador norteamericano Reggie Jackson llamó el “Fred Astaire del béisbol” por sus movimientos al lanzar, fue el segundo pitcher de Latinoamérica en propinar más strikes con 2 416. El hombre de marcado acento latino al hablar el inglés, ha sido también el pitcher cubano en Grandes Ligas con más juegos ganados (229 victorias), durante tres ocasiones se llevó el triunfo de 20 o más juegos en una serie, y repitió por tres veces la hazaña de ponchar a más de 200 peloteros en una sola temporada.
+</p>
+
+</div>
+ <div class="media-block prof-color">
+<div class="phrase">
+    « Reggie Jackson llamó a Luis Tiant el “Fred Astaire del béisbol” por sus movimientos al lanzar »
+</div>
+</div>
+
+<div class="text-block">
+
+<p>
+La mejor etapa individual llegó al Tiante durante el año 1968. En esta ocasión, logró promediar un ERA de 1.60, rompiendo las marcas para ubicarse como el segundo mejor registro desde 1919. 
+</p>
+<p>
+Nadie podría negar que, seis años después de su mejor temporada del ‘68, Tiant ya se echaba a sus espaldas el peso de los Boston Red Sox. En la temporada del 1974 el equipo terminó tercero en la Liga del Este, con un record de 84 juegos ganados, de los que él tenía el mérito de conseguir 22 triunfos.
+</p>
+<p>
+Hacia el final de su carrera, Tiant salió del Boston y jugó dos temporadas con los Yankees de New York, una con los Piratas de Pittsburgh y otra con el California Angels, justo antes de su retiro en el 1982.
+        </p>
+   
+   <div class="subtitle prof-text">
+Sin ruta hacia Cooperstown
+        </div>
+        <p>
+   A pesar de que Luis Tiant no ha sido seleccionado, fue el primero de los elegibles para el Salón de la Fama de Beisbol cinco años después de su retiro, en el 1987. 
+</p>
+<p>
+No obstante, nunca se acercó a la admisión ganadora, y la mayor cantidad de votos que obtuvo fue durante su primer año de votaciones. En esa ocasión, Tiant no superó ni la mitad del por ciento de los nombramientos, y alcanzó un raquítico 30.9%. 
+</p>
+<p>
+Muchos jamás han estado de acuerdo con su ingreso al Salón de la Fama, pero las estadísticas del Tiante estuvieron, entre lesiones y cambios de equipos, al nivel de los mejores  en las Grandes Ligas. No obstante, el derecho de Marianao, durante las 15 ocasiones en las que estuvo elegible, jamás se halló así mismo inmortalizado en Cooperstown.
+   </p>
+   
+</div>
+
+<div class="image-block" style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ddo5hrDNTCw" frameborder="0" allowfullscreen></iframe>
+  <div class = "image-info row" style="margin-top:15px;">
+                    <div class="image-caption">Tiant ha dicho a su familia que no acepte su exaltación al Salón de la Fama si esta ocurre después de su muerte</div>
+                </div>             
+</div>  
+
+    
+    <div id="winner-more">
+             <div class="prof-color cursor reading-less" onclick="show_profile('tiant',false)">
+             <span >Cerrar el perfil</span>
+             </div>
+    </div>
+    
+    </div>
+    
+    </div>
+    </div>
+    
+    
+    <div class="text-block" style="margin-top:30px;" >
+        <div class="subtitle prof-text">
+        Los mejores bateadores
+        </div>
+        <p>
+        De los 199 cubanos que han jugado en las mayores, 172 han pisado el cajón de bateo. Muchos de ellos han sido realmente
+        notables. Encabezar departamentos como las impulsadas, las anotadas, los hits, el promedio de bateo
+        o los jonrones, dan cuenta de ello.
+        </p>
+        <p>
+        Con el bate en la mano han destacado en la historia Minnie Miñoso, Cookie Rojas, Tony Oliva, Leo Cárdenas, Zoilo Versalles, 
+        José Cardenal, Bert Campaneris, Tony Taylor, Tany Pérez, José Canseco, Rafael Palmeiro, o más recientemente, Yoenis
+        Céspedes y José Dariel Abreu.
+        </p>
+        <p>Cómo en el caso de los lanzadores, se tuvo en cuenta los lideratos, los premios, la consistencia en las mayores
+        y las estadísticas a lo largo de la carrera. Aquí fue muy díficil dejar fuera a grandes peloteros como Bert Campaneris
+        o José Canseco, pero solo había cuatro cupos en nuestra selección.
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title" style="">
+                 Finalistas:
+                 </div>
+              </div>
+        </div>
+        <div class="row runners-row">
+                
+            <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Tony Oliva
+               </div>
+               <div class="runner-img">
+               <img src="images/olivato01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>1676</td><td>6880</td><td>1917</td><td>329</td><td>48</td><td>220</td><td>870</td><td>947</td><td>304</td>
+               </tbody>
+               </table>
+               
+               
+               </div>
+               <div class="prof-color runner-text">
+               Tony Oliva fue Novato del Año en su debut en 1964. Desde esa año, 
+               hasta 1971, participó ininterrumpidamente en el All-Star Game. 
+               Alcanzó un Guante de Oro y fue 5 veces líder en hits de su liga, 
+               4 veces en dobles, 3 veces en promedio de bateo y una vez en slugging y anotadas.
+               Entre los cubanos es 1ro en promedio de bateo, 4to en jonrones y 5 en impulsadas. 
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Tany Pérez
+               </div>
+               <div class="runner-img">
+               <img src="images/perezto01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>2777</td><td>9778</td><td>2732</td><td>505</td><td>79</td><td>379</td><td>1272</td><td>1652</td><td>279</td>
+               </tbody>
+               </table>
+               
+               
+               </div>
+               <div class="prof-color runner-text">
+               Tany Pérez es el único cubano que jugó en la MLB y está en el Salón de la Fama. 
+               Ganó dos series mundiales -1975 y 1976-, participó en 7 All-Stars Games y fue el MVP del juego del 1967.
+               Es el cubano con más temporadas en las mayores con 23. Entre los bateadores cubanos es 4to en triples,
+               3ro en jonrones y 2do en dobles, anotadas, hits e impulsadas.
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name" >
+               'Minnie' Miñoso 
+               </div>
+               <div class="runner-img">
+               <img src="images/minosmi01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>1835</td><td>7712</td><td>1963</td><td>336</td><td>83</td><td>186</td><td>1136</td><td>1023</td><td>298</td>
+               </tbody>
+               </table>
+               
+               
+               </div>
+               <div class="prof-color runner-text">
+               Minnie Miñoso es el cubanos que más veces ha estado en el Juego de las Estrellas con 9. 
+              Ganó  3 veces con el Guante de Oro y fue líder en su liga una vez en hits,
+               otra en dobles y 3 veces en triples y bases robadas. Entre los cubanos, es 
+               5to en anotadas, jonrones y hits, es 4to en dobles, impulsadas y bases robadas, 3ro en triples y 2do en average. 
+               </div>
+               </div>
+            </div>
+            
+        </div>
+    
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title">
+                 Ganador:
+                 </div>
+              </div>
+        </div>
+    
+        <div id="winner-more">
+             <div class="prof-color winner-name">
+             Rafael Palmeiro
+             </div>
+        <div class="row winner-more">
+         
+         <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+                   <div class="runner-img">
+                   <img src="images/palmera01.jpg">
+                   </div>
+                   <div class="runner-stats">
+                   
+                   <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>2831</td><td>10472</td><td>3020</td><td>585</td><td>38</td><td>569</td><td>1663</td><td>1835</td><td>288</td>
+               </tbody>
+               </table>
+               
+                   
+                   </div>
+               </div>
+        </div>
+         
+         
+         <div class="col-lg-8 col-md-8 container top-five">
+           <p>Rafael Palmeiro es uno de los 5 jugadores en toda la historia de la MLB con más de 3000 hits y de 500 jonrones.
+           Estas credenciales hubiesen sido suficientes para estar en Cooperstown pero un positvo en esteroides al final de
+           su carrera le ha impedido llegar al Olimpo.</p>
+           <p>Palmeiro durante su carrera fue 4 veces All-Star, ganó 2 Bates de Plata y 3 Guantes de Oro. Fue líder en su liga una vez en hits,
+           otra en dobles y una en anotadas</p> 
+           
+           <p>Entre los cubanos, en
+           sus 20 temporadas en las mayores, es 3ro en promedio y es el 1ro en dobles, hits, anotadas, impulsadas y jonrones. </p>  
+         </div>
+        </div>
+       </div>
+       
+       <div class="winner-more">
+             <div id="open-palmeiro" class="prof-color cursor reading-more" onclick="show_profile('palmeiro',true)">
+             <span >Lea un perfil de Rafael Palmeiro</span>
+             </div>
+             <div id="close-palmeiro" class="prof-color cursor reading-less" onclick="show_profile('palmeiro',false)" style="display:none">
+             <span >Cerrar el perfil</span>
+             </div>
+    <div id="palmeiro" style="display:none">
+    <div class="text-block">
+        <div class="subtitle prof-text big-subtitle">
+        La Maldición de Rafael Palmeiro
+        </div>
+        <div class="subauthor">
+        Por <a href="../../equipo/ernesto.html">Ernesto Guerra</a>
+        </div>
+       <p>
+       Cuando estaba en la cima de su carrera y a un paso de encontrarse en el Salón de la Fama de las Grandes Ligas de Béisbol (MLB) de los Estados Unidos, la maldición de Rafael Palmeiro se desencadenó. 
+</p><p>
+De la noche a la mañana, y a pesar de sus reclamos, fue despojado de toda su gloria, sus más de 500 jonrones quedaron en el olvido y el público lo abucheó en su última temporada.
+</p><p>
+Acusado de consumir esteroides, la vida de Rafael Palmeiro, el mejor bateador cubano en la historia de las Grandes Ligas, muestra el ascenso y caída de una estrella que no quiere volver a brillar.
+       </p>
+<div class="subtitle prof-text">
+        Ascenso
+        </div>
+       
+<p>
+Nacido en La Habana en 1964, Palmeiro emigró a los Estados Unidos junto a su familia. Allí intentó alcanzar el sueño americano mediante su mayor pasión: el béisbol.
+</p><p>
+Logró hacerse un lugar dentro de los Chicago Cubs, con los que firmó a la edad de 21 años para la temporada de 1986. Toda su carrera usó el número 25 en su uniforme, excepto cuando jugó para los Texas Rangers en la temporada de 1989.
+</p><p>
+Los Cubs, los Rangers y los Orioles de Baltimore fueron equipos por los que pasó durante sus 20 temporadas en activo. Entre los dos últimos equipos alternó en varias temporadas, como agente libre (free agent).
+</p><p>
+En 1987, el cubano sobrepasó la categoría de novato (rookie) con que se denomina a los recién iniciados en las ligas, y en lo adelante su carrera fue puro oro.
+</p><p>
+Ganó el Silver Slugger (en 1998 y 1999), premio que se entrega a los mejores bateadores, además de ser el único bateador designado en la historia de la liga que llegó a obtener un Guante de Oro, galardón que se otorga solo a los mejores jugadores defensivos, al posicionarse en primera base para las temporadas de 1997, 1998 y 1999.
+</p><p>
+Así transcurrió la carrera de Palmeiro hasta el año 2005, cuando conectó un hit y el juego se detuvo. Se había convertido en el cuarto hombre en la historia de las MLB en alcanzar la cifra de 3 000 hits y 500 home runs, junto a Willie Mays, Hank Aaron y Eddie Murray.
+</p><p>
+Pero ese año comenzó el desastre. Se hizo una campaña para hacer verificaciones de dopaje en las grandes ligas y Palmeiro fue llamado a testificar ante el Congreso.
+</p>       
+</div>
+ <div class="media-block prof-color">
+<div class="phrase">
+    « Solo 5 peloteros han alcanzado los 3000 hits y 500 jonrones en las Grandes Ligas: Willie Mays, Hank Aaron, Eddie Murray, Alex Rodríguez y Rafael Palmeiro »
+</div>
+</div>
+
+<div class="text-block">
+   
+   <div class="subtitle prof-text">
+Esteroides
+        </div>
+        <p>
+Para 2005 los esteroides dejaron de ser concernientes al deporte para transformarse en un problema político a nivel nacional. En ese contexto, se dieron escándalos como el de Mark McGwire, inculpado por el uso de esas sustancias a raíz de una investigación del FBI durante los años '90.
+</p><p>
+Además, José Canseco aceptó haberlos consumido e involucró a otros grandes del juego, Palmeiro incluido. Aunque hasta ese momento ninguna de las estrellas había dado positivo al consumo de estimulantes —al menos de manera pública— la sospecha se transformó en cacería de brujas, y el gobierno se involucró.
+</p><p>
+Para la primavera, Palmeiro voló hasta Washington, donde bajo juramento y al lado de McGwire, Sammy Sosa y Curt Schilling hizo sus declaraciones:
+</p><p>
+“No usé esteroides. Punto”, fue su escueta declaración en una habitación llena de congresistas.
+</p>
+
+
+</div>
+
+<div class="image-block" style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9aVpVi1flDY" frameborder="0" allowfullscreen></iframe>
+  <div class = "image-info row" style="margin-top:15px;">
+                    <div class="image-caption">Rafael Palmeiro declara ante el Congreso de los Estados Unidos</div>
+                </div>             
+</div>  
+<div class="text-block">
+
+<p>
+Las palabras, más tarde, se convirtieron en circo mediático. Al parecer, el gran beisbolista había mentido.
+</p><p>
+En ese momento su declaración fue tomada como verídica. El historial del pelotero, su average y su imbatible récord de 500 home runs lo hicieron merecedor de un pase directo al Comité de Cero Tolerancia de dopaje, a iniciativa del congresista Tom Davis. Su tarea sería hablar con los niños y jóvenes sobre los peligros de los esteroides, en una campaña a nivel nacional.
+</p><p>
+La felicidad duró seis semanas, al cabo de las cuáles una llamada de la Players Association le comunicó que había dado positivo para el uso de estanozolol, un tipo de droga muy común en todos los gimnasios del país y que eran de amplia distribución.        
+        </p>        
+    <div class="subtitle prof-text">
+Caida
+        </div>
+ <p>
+ “Sentí que vivía en una isla” declaró Rafael Palmeiro a <a href="http://www.foxsports.com/mlb/story/rafael-palmeiro-steroids-over-a-decade-later-the-baltimore-orioles-legend-moves-on-041816">FOX Sports</a> años más tarde. No era capaz de confiar en sus compañeros de equipo o incluso en su esposa.
+</p><p>
+Sospechaba que el positivo de las pruebas estaba relacionado con unas vitaminas que le inyectara su cónyuge, proveídas por un amigo suyo.
+</p><p>
+En esa época, alcanzó la marca de los 3 000 hits. El escándalo aún no era de proporciones nacionales, y había apelado alegando inocencia. Una comisión revisó sus pruebas.
+</p><p>
+Todas resultaron negativas, al igual que las de años anteriores, y no se encontró ningún rastro de vitaminas contaminadas en su sistema. No obstante, se llamó a Palmeiro arrogante y que su protesta no daba a lugar. Incluso pasó la prueba del polígrafo, para probar su inocencia.
+</p><p>
+Llamó al Comisionado Bud Selig y le rogó para que tomara cartas en el asunto. También tuvo una conversación con George W. Bush, quien le dijo que no se preocupara que él era un hombre fuerte y sería capaz de sobrevivir.
+</p><p>
+Después de su último juego, y con el proceso de suspensión aplicado, se retiró a su casa con sus dos hijos y esposa. Al día siguiente, Selig anunció a los medios que Palmeiro sería el primer hombre suspendido diez juegos por consumo de esteroides.
+</p><p>
+Fue un escándalo nacional. No solo los medios se ensañaron con la figura del cubano, sino que los fans lo odiaron. Cuando regresó de su suspensión, la acogida fue brutal. El público lo abucheó y le gritó ofensas, y así se mantuvo durante algunos juegos, hasta que se lesionó.
+</p><p>
+Por la lesión, Palmeiro fue enviado a casa a descansar por el resto de la temporada. En el siguiente período supo que su carrera había terminado: nadie quería un pelotero de 40 años con un pasado de esteroides.
+</p><p>
+Aunque se refugió lejos de su casa y apagó la tele para no escuchar las historias sobre él, sus dos hijos supieron de todo el problema. Palmeiro quedó destruido y dejó de creer en el béisbol.
+ </p>
+     <div class="subtitle prof-text">
+Votaciones
+        </div>
+<p>
+Unos meses antes del año 2007, el Congreso presentó un informe de 36 páginas donde se reconocía que Palmeiro no había consumido esteroides antes de su declaración en el año 2005.
+</p><p>
+A pesar de ello, siguió sin jugar. Se convirtió en inversor, pero cuando colapsó la economía norteamericana cayó en una profunda depresión, según declaraciones de su esposa.
+</p>
+
+</div>
+
+<div class="image-block" style="text-align: center;">
+                <img src="images/perfil-palmeiro.jpg">
+                <div class = "image-info row">
+                    <div class="image-caption col-lg-6 col-md-6"></div>
+                    <div class="image-author col-lg-6 col-md-6">Foto tomada de: seedsallday.com</div>
+                </div>
+       </div>   
+       
+
+<div class="text-block">
+
+<p>
+En medio de esos conflictos, llegó 2011, el primer año en el que el pelotero podría entrar en las votaciones para ubicarlo en el Salón de la Fama de la MLB. Dado su historial y sobre todo por los 569 home runs que acumuló con más de 3 000 hits, se sentía muy seguro de lograrlo.
+</p><p>
+Para alcanzar la gloria necesitaba el 75% de los votos, pero la decepción llegó cuando alcanzó solo el 11%, menos que los de un abusador de los esteroides declarado, Mark McGwire.
+</p><p>
+Se mantuvo en la lista de candidatos en 2012 y 2013, con votos del 12,6 y .8% respectivamente, hasta que en 2014 quedó por debajo del límite para postularse por otro año, con un 4,4%.
+</p><p>
+Fue devastador. Lo seguían castigando por una prueba de esteroides que se comprobó había dado falso positivo. Todos lo creían un tramposo y ahora tendrá que esperar 12 años hasta que el Comité de Veteranos decida si lo incluye o no en la lista de nominados.
+</p><p>
+Rafael Palmeiro, quizá el mejor bateador cubano en la historia de las Grandes Ligas, se quedará a las sombras por un circo mediático de pretensiones políticas. Por estos días, se enfoca en sus hijos, beisbolistas como él, y mira al futuro sin saber qué hará. El béisbol, por ahora, no está en su lista de posibilidades.
+</p>
+    </div>
+    
+    <div id="winner-more">
+             <div class="prof-color cursor reading-less" onclick="show_profile('palmeiro',false)">
+             <span >Cerrar el perfil</span>
+             </div>
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    
+    
+    <div class="text-block" style="margin-top:30px;" >
+        <div class="subtitle prof-text">
+        Los mejores en postemporada
+        </div>
+        <p>
+        La postemporada es la etapa cumbre de cada año en las mayores. En ese momento, los equipos que lograron 
+        clasificar a los play-off, vuelven a estar en el mismo punto. La diferencia entre un equipo que queda en el
+        camino y el que alcanza la gloria la hacen algunos peloteros. Son esos peloteros hechos para Octubre.
+        </p>
+        <p>
+        Hasta hoy, 45 cubanos han participado en al menos un partido de postemporada y de ellos solo 15 han jugado
+        y ganado alguna Serie Mundial.Solo 5 han podido coronarse en más de una ocasión:
+        Adolfo Luque, Tany Pérez, José Canseco, Bert Campaneris y Orlando 'El Duque' Hernández. El Duque es 
+        el cubano que más veces se titulado (4), y es también el que más veces ha estado en postemporadas (7) y,en series mundiales (5) -empatado con Tany Pérez-. Orlando y su hermano, Liván Hernández, son los únicos
+        que han sido premiados en las series de play-off. En 1997 Líván, con los Marlins de la Florida, fue el Jugador Más Valioso
+        de la Serie de Campeonato de la Liga Nacional y de la Serie Mundial, mientras que en 1999 El Duque, con los Yankees
+        de New York, fue el Jugador Más Valioso de la Serie de Campeonato de la Liga Americana.   
+        </p>
+        <p>Para la selección final se tuvo en cuenta el número de participaciones en postemporadas, el número de títulos,
+        los premios, así como las estadísticas en las postemporadas que participaron. 
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title" style="">
+                 Finalistas:
+                 </div>
+              </div>
+        </div>
+        <div class="row runners-row">
+                
+            <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Bert Campaneris
+               </div>
+               <div class="runner-img">
+               <img src="images/campabe01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>37</td><td>144</td><td>35</td><td>4</td><td>1</td><td>1</td><td>15</td><td>11</td><td>243</td>
+               </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Bert Campaneris fue el primer cubano en ganar 3 títulos de Serie Mundial y en años consecutivos -72, 73 y 74-. Participó  
+               en 6 postemporadas, completando 9 series de play-off. Jugó en 3 series mundiales.
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name">
+               Tany Pérez
+               </div>
+               <div class="runner-img">
+               <img src="images/perezto01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+                <table class='table table-striped table-condensed table-hover'>
+               <thead>
+                   <td>G</td><td>AB</td><td>H</td><td>2B</td><td>3B</td><td>HR</td><td>R</td><td>RBI</td><td>AVE</td>
+               </thead>
+               <tbody>
+                   <td>47</td><td>172</td><td>41</td><td>6</td><td>0</td><td>6</td><td>16</td><td>25</td><td>238</td>
+               </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Tany Pérez se tituló en 2 series mundiales de manera consecutiva -1975 y 1976-. Participó en 6 postemporadas, 
+               completando 11 series de play-off. Jugó 5 series mundiales.
+               </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 container top-five" >
+               <div  class="runners-row">
+               <div class="prof-color runner-name" >
+               Liván Hernández
+               </div>
+               <div class="runner-img">
+               <img src="images/hernali01.jpg">
+               </div>
+               <div class="runner-stats">
+               
+               <table class='table table-striped table-condensed table-hover'>
+                   <thead>
+                       <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                   <tbody>
+                       <td>12</td><td>68</td><td>7</td><td>3</td><td>0</td><td>47</td><td>36</td><td>3.97</td>
+                   </tbody>
+               </table>
+               
+               </div>
+               <div class="prof-color runner-text">
+               Liván Hernández se tituló en 1997 con los Marlins de la Florida. En esa postemporada ganó el NLCS MVP y el WS MVP.
+               Participó en 4 postemporadas, completando 9 series de play-off. Jugó 2 series mundiales.
+               </div>
+               </div>
+            </div>
+            
+        </div>
+    
+        <div class="selection-content">
+             <div  class="top-five">
+                 <div class="prof-text selection-title">
+                 Ganador:
+                 </div>
+              </div>
+        </div>
+    
+        <div id="winner-more">
+             <div class="prof-color winner-name">
+             Orlando 'El Duque' Hernández
+             </div>
+        <div class="row winner-more">
+         
+         <div class="col-lg-4 col-md-4 container top-five">
+               <div  class="runners-row">
+                   <div class="runner-img">
+                   <img src="images/hernaor01.jpg">
+                   </div>
+                   <div class="runner-stats">
+                   <table class='table table-striped table-condensed table-hover'>
+                       <thead>
+                           <td>G</td><td>INN</td><td>W</td><td>L</td><td>SV</td><td>SO</td><td>BB</td><td>ERA</td></thead>
+                       <tbody>
+                           <td>19</td><td>106</td><td>9</td><td>3</td><td>0</td><td>107</td><td>55</td><td>2.55</td>
+                       </tbody>
+                   </table>
+                   </div>
+               </div>
+        </div>
+         
+         
+         <div class="col-lg-8 col-md-8 container top-five">
+           <p>Orlando 'El Duque'Hernández es el cubano que ha ganado más títulos de series mundiales. 
+           Ganó sus tres primeros anillos de manera consecutiva con los Yankees de New York en 1998, 1999 y 2000,
+           mientras que su cuarto título lo ganó con los Chicago White Sox en el 2005.</p>
+           <p>El Duque participó en 7 postemporadas y completó 15 series de play-off. Jugó 5 series mundiales. 
+           En la serie de campeonato de 1999 fue nombrado el Jugador Más Valioso.</p>
+           <p>Hernández fue considerado un pitcher hecho para las postemporadas. Su marca de 9-3 y, sobre todo, ganar sus primeros 8 partidos de play-off , fueron razones suficientes.
+           El innig que lanzó de relevo en el 2005 con los Medias Blancas, donde con bases llenas y sin outs dio el cero, incrementó aún más su leyenda.</p>
+        
+         </div>
+    
+        </div>
+       </div>
+       
+       <div class="winner-more">
+             <div id="open-duque" class="prof-color cursor reading-more" onclick="show_profile('duque',true)">
+             <span >Lea un perfil de Orlando 'El Duque' Hernández</span>
+             </div>
+             <div id="close-duque" class="prof-color cursor reading-less" onclick="show_profile('duque',false)" style="display:none">
+             <span >Cerrar el perfil</span>
+             </div>
+    <div id="duque" style="display:none">
+    <div class="text-block">
+        <div class="subtitle prof-text big-subtitle">
+        El Duque es nuestro
+        </div>
+        <div class="subauthor">
+        Por <a href="../../equipo/saimi.html">Saimi Reyes</a>
+        </div>
+       <p>
+       No se puede hacer un perfil de un pelotero si no se sabe de pelota y mi única cultura beisbolera consiste en defender a los Industriales de la capital a toda costa, una pasión heredada de mis padres y de mi abuela materna. Mis principios en cuanto al deporte nacional implican no celebrar si otro equipo gana cualquier serie, no usar nunca, bajo ningún concepto, camisetas de otras provincias y seguir siempre a mi equipo, sin ofender a otros, aceptando las derrotas y juzgándolos justamente, pero sin abandonarlos nunca. 
+</p><p>
+Esa admiración heredada y ciega, que me hizo componer poemas excesivamente rimados cuando estaba en el preuniversitario y los Industriales ganaban, me lleva hoy a escribir este perfil parcializado sobre el pelotero preferido de mi papá, sobre el orgullo industrialista que dejó de jugar la Serie Nacional y que conquistó al mundo con su pitcheo y su actuación en las Grandes Ligas de los Estados Unidos. 
+</p><p>
+“Yo he jugado en los dos mejores equipos del mundo: los Yankees de Nueva York y los industriales” dijo El Duque Hernández y la frase se instauró enseguida en el ideario colectivo de los orgullosos capitalinos, para ser usada en cualquier disputa, en cualquier partido, en cualquier  situación. Si lo dice Orlando "El Duque" Hernández, me basta.
+       </p>
+</div>
+ <div class="media-block prof-color">
+<div class="phrase">
+    « Yo he jugado en los dos mejores equipos del mundo: los Yankees de Nueva York y los industriales »
+</div>
+</div>
+
+<div class="text-block">
+
+<p>   
+   <div class="subtitle prof-text">
+El Industrialista
+        </div>
+        <p>
+En el año 1986, Hernández, que había nacido en Villa Clara el 11 de octubre de 1965, comenzó a jugar con los Industriales. Su éxito fue aumentando con la selección capitalina, y entre los años 1988 y 1990 obtuvo un balance de 42 victorias frente a solo 13 derrotas. Para 1992, ganó por primera vez con su equipo la Serie Nacional y en ese mismo año obtuvo junto a al equipo Cuba la gloria olímpica en Barcelona.
+</p><p>
+El jugador se había ganado el respeto de los admiradores de todo el país por su precisión, y aún hoy tiene a muchos fanáticos, ya que destacaba en una época en que los bates eran más sólidos (de aluminio) y los bateadores legendarios. El Duque ponchó sin miramientos a hombres como Omar Linares, Orestes Kindelán, Antonio Pacheco, Víctor Mesa, o Lourdes Gourriel.
+</p><p>
+Luego de que en 1996 llevara de nuevo a industriales a merecer la corona nacional del béisbol, el lanzador derecho, que acumulaba 126 triunfos, 47 reveses, 1211 ponches, 23 lechadas, y nueve juegos salvados, se alejó para siempre de la pelota en Cuba. Su hermano, Liván Hernández, había desertado en 1995, y Orlando fue llamado a declarar acerca de sus relaciones con este y con un cazador de talentos estadounidense, Joe Cubas, que recientemente lo había estado localizando. Como resultado se le pidió abandonar la pelota cubana.
+</p><p>
+Impulsado posiblemente por la prohibición, el 25 de diciembre de 1997 abandonó la Isla en una embarcación por el pueblo villaclareño de Caibarién. Desde allí partió hacia la fama mundial.
+</p>
+
+   <div class="subtitle prof-text">
+Las Grandes Ligas
+        </div>
+<p>
+En junio del año 1998, El Duque comenzó a jugar con los Yankees. El equipo le había ofrecido un contrato por más de seis millones durante cuatro años. Antes de su debut, Hernández había pasado rápidamente por las ligas menores de la nación norteña, pero fue en el gran equipo de Nueva York donde se hizo conocer.
+</p><p>
+Es curioso que el Duque entró al beisbol profesional como un hombre nuevo. Incluso, cambió su año de nacimiento en el contrato y en la actualidad el sitio de las Grandes Ligas mantiene que el cubano nació en 1969. Hasta que se hizo público su contrato de divorcio (en el año 1999), en Estados Unidos el jugador era cuatro años más joven.
+</p><p>
+Sin importar su verdadera edad, la admiración que los fanáticos de ese país pusieron en él fue merecida. El Duque es el cubano que más veces ha ganado la Serie Mundial (tres con los Yankees y una vez con los White Sox de Chicago) y a sus cuatro anillos suma estadísticas impresionantes, sobre todo en Postemporada. Tanto es así, que se comenzó a decir que poseer al Duque era similar a contar con un talismán, pues jugó 9 campañas, y de esas, 8 veces el equipo al que pertenecía pasó de la serie regular a los Play Offs. 
+</p>
+
+</div>
+
+<div class="image-block" style="text-align: center;">
+                <img src="images/perfil-duque.jpg">
+                <div class = "image-info row">
+                    <div class="image-caption col-lg-6 col-md-6"></div>
+                    <div class="image-author col-lg-6 col-md-6">wrrv.com</div>
+                </div>
+       </div>   
+       
+
+<div class="text-block">
+<p>
+En su primer juego como beisbolista profesional, contra los jugadores de Tampa Bays, pitcheó durante 7 innings, en los cuales permitió solo una carrera limpia, y ponchó a 7 bateadores. Fue candidato a Novato del Año (Rookie of the Year) y quedó en cuarto lugar detrás de Ben Grieve, Rolando Arrojo y Mike Caruso. Al cierre de su primer año de actuación había ganado 12 veces y perdido 4, además de permitir un promedio de 3,13 carreras. En 141 entradas, había ponchado 131 veces a los lanzadores contrarios. Además, fue esa la primera vez que ayudó a su equipo a conseguir la victoria de la liga de la MLB.
+</p>
+
+
+
+<p>
+En 1999 los Yankees ganaron por segunda vez consecutiva  la Serie Mundial frente a los Braves de Atlanta, y en este año el pitcher cubano tuvo la mejor campaña de su vida. Las victorias, 17, fueron un record frente a las 9 derrotas, y el Duque ponchó 157 intentos de bateo. Ese año, después de la temporada regular, fue seleccionado el Jugador Más Valioso (MVP- Most Valuable Player) de la Liga de Campeones de la Serie Americana (ALCS), y con este reconocimiento se asentó, por fin, en el firmamento de las estrellas beisboleras. El año 2000 vino a completar la racha, con la tercera victoria en la Serie Mundial, frente a los Mets. 
+</p><p>
+Orlando Duque jugó junto a los Yankees entre los años 1998 y 2004, sin contar el 2003, y con ellos acumuló 61 victorias. En su última actuación con el equipo newyorkino, los llevó también a través de la postemporada, aunque finalmente perdieron frente a los Boxton Red Sox.
+</p><p>
+Para acabar de ponerle la guinda al pastel, en 2005, El Duque comenzó a lanzar para los Chicago White Sox, y ese año el equipo tuvo una increíble temporada, que los llevó a ganar la Serie Mundial. Sin dudas, poseer al pitcher cubano daba suerte: desde 1917 el equipo no obtenía este título.
+</p>
+
+</div>
+
+<div class="image-block" style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rrujodOAWZo" frameborder="0" allowfullscreen></iframe>
+  <div class = "image-info row" style="margin-top:15px;">
+                    <div class="image-caption">Momentos del Duque mientras jugaba con los Yankees</div>
+                </div>             
+</div>  
+<div class="text-block">
+
+
+<p>
+Hasta su retiro en 2011, El Duque jugó con varios equipos estadounidenses. El cubano era muy querido por la afición y muy famoso en el país norteño. Su característico número 26 y la manera de lanzar, elevando la pierna hasta esconder sus brazos, se volvieron sellos indiscutibles de Orlando, además de su modestia. Al recordar en cada entrevista que sus triunfos se deben a que jugó inicialmente con los azules de la capital cubana, el pelotero se crece a los ojos de los fanáticos cubanos.
+</p><p>
+El Duque es nuestro. Y del mundo.
+</p>
+    </div>
+    
+    <div id="winner-more">
+             <div class="prof-color cursor reading-less" onclick="show_profile('duque',false)">
+             <span >Cerrar el perfil</span>
+             </div>
+    </div>
+    
+    </div>
+    
+    </div>
+    </div>
+    
+   
+    
+    
+    
+    
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201611/estrellas-entre-los-grandes.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201611-2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+    
+    
+     <div class="read-more prof-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="cuba-en-las-mayores.html">Cuba en las mayores</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+    
+         <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block viz-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="historia-de-cuba-en-grandes-ligas.html">Breve historia de Cuba en las Grandes Ligas</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+            </div>
+            </div>
+        </div>
+    
+       <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="mlb-un-juego-de-ninos.html">MLB: ¿un juego de niños?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/julio.html">Julio Batista</a></div>
+            </div>
+            </div>
+        </div>
+    
+        
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    $('#category').on('change', function() {
+        options = {"general":"seasons","pitcher":"games","batting":"hits"};
+        val = $('#category').val();
+        $('.option').hide();
+        $('.'+val).show();
+        $('#stats').val(options[val]);
+        $('.mlbstat').hide();
+        $('#'+options[val]).show();
+    });
+    $('#stats').on('change', function() {
+        val = $('#stats').val();
+        $('.mlbstat').hide();
+        $('#'+val).show();
+    });
+    </script>
+  </body>
+</html>
