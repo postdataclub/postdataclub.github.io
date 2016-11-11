@@ -1,0 +1,159 @@
+.subauthor {
+    font-size:14px;
+    margin-top:-8px;
+    margin-bottom:10px;
+} 
+
+.subauthor >a {
+    text-decoration: None;
+    color: #717276;
+}
+
+.big-subtitle {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.winner-more {
+    margin-right:4px;
+    margin-left:4px;
+}
+
+.reading-more {
+    text-align: center;
+    color:#FFFFFF;
+    width: 100%;
+    height: 24px;
+}
+
+.selection-content {
+    margin-right:4px;
+    margin-left:4px;
+    margin-top:15px;
+}
+
+.top-five {
+    margin-top: 5px;
+}
+
+.selection-title {
+    font-weight:bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:left;
+    font-size:20px;
+}
+
+.runners-row {
+    margin-right:2px;
+    margin-left:2px;
+}
+
+.runner-name {
+    font-weight:bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+.runner-img {
+    text-align:center;
+    margin-top:5px;
+}
+
+.runner-stats { 
+    margin-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:12px;
+}
+
+.runner-text{ 
+    padding:5px;
+    margin-top:-18px;
+    font-size:15px;
+    color:#FFFFFF;
+}
+
+.winner-name{ 
+    font-weight:bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:24px;
+}
+
+.reading-less {
+    text-align:center;
+    color:#FFFFFF;
+    height:24px;
+    width: 100%;
+}
+
+.player-personal-block {
+    margin-top: 10px;
+}
+
+.info-item {
+    margin-bottom: 5px;
+}
+
+.player-info-block {
+    padding-left:30px;
+    padding-top: 8px;
+}
+
+.names,
+.seasons-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.names {
+    padding-bottom: 15px;
+}
+
+.player-stats-block {
+    margin-top: 20px;
+}
+
+.prix,
+.ws-team,
+.player {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-width: 4px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+.player:hover,
+.player:focus {
+    font-weight: bold;
+}
+
+.player-asg,
+.player-postseasons,
+.player-prixs {
+    margin-top: 10px;
+}
+
+.ws-teams {
+    margin-top: 3px;
+}
+.player-card-graph {
+    padding-bottom: 15px;
+}
+
+.list {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
