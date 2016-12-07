@@ -101,6 +101,7 @@ body {
 
 
 
+/*
 .main-color {
    background-color: #1F2025;     
 }
@@ -186,8 +187,9 @@ body {
 .report-text {
    color: #4B4B4D;     
 }
+*/
 
-/*
+
 .main-color {
    background-color: #461A57;     
 }
@@ -273,7 +275,7 @@ body {
 .report-text {
    color: #3A794C;     
 }
-*/
+
 
 .title-author-block {
         height: 120px;
