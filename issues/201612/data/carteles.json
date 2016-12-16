@@ -1,0 +1,740 @@
+{
+    "total": 25,
+    "carteles": [
+        {
+            "correct": 3,
+            "media": {
+                "guess": "1guess.jpg",
+                "orig": "1ori.jpg"
+            },
+            "options": [
+                "Fresa",
+                "Amor Helado",
+                "Fresa y Chocolate",
+                "Derretidos y enamorados"
+            ],
+            "value": 1,
+            "hint": "Única película nominada a premios Oscar y Goya que ganó el Coral del Festival de Cine Latinoamericano"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "2guess.jpg",
+                "orig": "2ori.jpg"
+            },
+            "options": [
+                "Aventuras de Juan Quinquin",
+                "Juan Quinquin en Pueblo Mocho",
+                "Aventuras de un quijote cubano",
+                "Juan Quinquin y su caballo"
+            ],
+            "value": 1,
+            "hint": "Realizada en 1967 y basada en una obra de Samuel Feijoó"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "4guess.jpg",
+                "orig": "4ori.jpg"
+            },
+            "options": [
+                "Bertillón 166",
+                "Ciudad en rojo",
+                "La hora roja",
+                "Persona 166"
+            ],
+            "value": 1,
+            "hint": "Basada en la novela Bertillón 166 de José Soler Puig"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "5guess.jpg",
+                "orig": "5ori.jpg"
+            },
+            "options": [
+                "Cosas que pasan en la Habana",
+                "Boccaccerias Habaneras",
+                "La Habana: Oh, la la!",
+                "Cuentos surrealistas"
+            ],
+            "value": 1,
+            "hint": "Un filme de Arturo Soto, inspirado en El Decameron"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "6guess.jpg",
+                "orig": "6ori.jpg"
+            },
+            "options": [
+                "Contigo pan y cebolla",
+                "Ernesto y Nereida",
+                "Clandestinos",
+                "La guerra y el amor"
+            ],
+            "value": 1,
+            "hint": "Ópera prima del director Fernando Pérez"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "7guess.jpg",
+                "orig": "7ori.jpg"
+            },
+            "options": [
+                "Marginales",
+                "Viva Cuba",
+                "Una escuela diferente",
+                "Conducta"
+            ],
+            "value": 1,
+            "hint": "Estrenada en 2014, con la actuación de Alina Rodríguez"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "8guess.jpg",
+                "orig": "8ori.jpg"
+            },
+            "options": [
+                "Soy Cuba",
+                "Cuba Libre",
+                "Historias de la Revolución",
+                "Barrio Cuba"
+            ],
+            "value": 1,
+            "hint": "Una mirada sobre la guerra hispano-cubano-norteamericana"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "9guess.jpg",
+                "orig": "9ori.jpg"
+            },
+            "options": [
+                "El bohio",
+                "El machete",
+                "Elpidio Valdés",
+                "Cuba Libre"
+            ],
+            "value": 1,
+            "hint": "Animado sobre diferentes etapas de la historia de Cuba"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "10guess.jpg",
+                "orig": "10ori.jpg"
+            },
+            "options": [
+                "Niña cubana",
+                "Hasta la victoria siempre",
+                "Memorias del subdesarrollo",
+                "El Mégano"
+            ],
+            "value": 1,
+            "hint": "Uno de los documentales más importantes del cine revolucioanrio"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "11guess.jpg",
+                "orig": "11ori.jpg"
+            },
+            "options": [
+                "Esteban",
+                "El pianista",
+                "El gran Lecuona",
+                "En blanco y negro"
+            ],
+            "value": 1,
+            "hint": "Con música de Chucho Valdés"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "12guess.jpg",
+                "orig": "12ori.jpg"
+            },
+            "options": [
+                "A jugar, versión cubana",
+                "Habanastation",
+                "Y sin embargo",
+                "Conducta"
+            ],
+            "value": 1,
+            "hint": "No usan nintendo"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "14guess.jpg",
+                "orig": "14ori.jpg"
+            },
+            "options": [
+                "Cuban Confidential",
+                "Soy Cuba",
+                "Humberto",
+                "Identidad nacional"
+            ],
+            "value": 1,
+            "hint": "Un documental de Carlos Barba"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "15guess.jpg",
+                "orig": "15ori.jpg"
+            },
+            "options": [
+                "La primera carga al machete",
+                "Bolivar",
+                "Baraguá",
+                "José Martí: el ojo del canario"
+            ],
+            "value": 1,
+            "hint": "Sobre un prócer latonoamericano"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "16guess.jpg",
+                "orig": "16ori.jpg"
+            },
+            "options": [
+                "La bella del Alhambra",
+                "Bailando con Margot",
+                "Yo, Isadora Ducan",
+                "Canción de Rachel"
+            ],
+            "value": 1,
+            "hint": "Primera película cubana en obtener un premio Goya"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "17guess.jpg",
+                "orig": "17ori.jpg"
+            },
+            "options": [
+                "Canción protesta",
+                "Máximo Gómez",
+                "La primera carga al machete",
+                "Una pelea cubana contra los demonios"
+            ],
+            "value": 1,
+            "hint": "Realizada en 1969 por Manuel Octavio Gómez"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "18guess.jpg",
+                "orig": "18ori.jpg"
+            },
+            "options": [
+                "La pared de las palabras",
+                "Suite habana",
+                "Madagascar",
+                "La vida es silbar"
+            ],
+            "value": 1,
+            "hint": "Todo ocurre el dia de Santa Bárbara"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "19guess.jpg",
+                "orig": "19ori.jpg"
+            },
+            "options": [
+                "Las doce sillas",
+                "Los sobrevivientes",
+                "La última cena",
+                "De cierta manera"
+            ],
+            "value": 1,
+            "hint": "Una comedia protagonizada por Reynaldo Miravalles"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "20guess.jpg",
+                "orig": "20ori.jpg"
+            },
+            "options": [
+                "Amada",
+                "Las profecías de Amanda",
+                "Cecilia",
+                "La Fortuna"
+            ],
+            "value": 1,
+            "hint": "Basada en hechos reales y protagonizada por Daysi Granados"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "21guess.jpg",
+                "orig": "21ori.jpg"
+            },
+            "options": [
+                "La caída del campo socialista",
+                "Miel para Oshun",
+                "Lisanka",
+                "La vida es silbar"
+            ],
+            "value": 1,
+            "hint": "Ambientada en los días de la Crisis de los Misiles"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "22guess.jpg",
+                "orig": "22ori.jpg"
+            },
+            "options": [
+                "Conducta",
+                "Habanastation",
+                "Clandestinos",
+                "Los dioses rotos"
+            ],
+            "value": 1,
+            "hint": "Está basada en la historia de Alberto Yarini, un mítico proxeneta habanero"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "23guess.jpg",
+                "orig": "23ori.jpg"
+            },
+            "options": [
+                "Plaff",
+                "Los pájaros tirándole a la escopeta",
+                "Se permuta",
+                "La muerte de un burócrata"
+            ],
+            "value": 1,
+            "hint": "Consuelo Vidal, Reynaldo Miravalles, Alberto Pujols y Beatriz Valdés juntos en una comedia"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "24guess.jpg",
+                "orig": "24ori.jpg"
+            },
+            "options": [
+                "Las profecías de Amanda",
+                "Amada",
+                "Lucía",
+                "Retrato de Teresa"
+            ],
+            "value": 1,
+            "hint": "La historia de tres mujeres cubanas en diferentes épocas"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "25guess.jpg",
+                "orig": "25ori.jpg"
+            },
+            "options": [
+                "Memorias del subdesarrollo",
+                "El Mégano",
+                "La primera carga al machete",
+                "Una pelea cubana contra los demonios"
+            ],
+            "value": 1,
+            "hint": "Una de las películas más importantes de la cinematografía cubana"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "26guess.jpg",
+                "orig": "26ori.jpg"
+            },
+            "options": [
+                "Se vende",
+                "Plaff",
+                "Se permuta",
+                "Barrio Cuba"
+            ],
+            "value": 1,
+            "hint": "Una conspiración en el barrio para alcanzar la felicidad"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "27guess.jpg",
+                "orig": "27ori.jpg"
+            },
+            "options": [
+                "Memorias del Subdesarrollo",
+                "La muerte de un burócrata",
+                "Navidades sangrientas",
+                "La última cena"
+            ],
+            "value": 1,
+            "hint": "Los burgueses se refugian del triunfo de la Revolución"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "28guess.jpg",
+                "orig": "28ori.jpg"
+            },
+            "options": [
+                "Filminuto",
+                "La primera carga al machete",
+                "Elpidio Valdés",
+                "El bohío"
+            ],
+            "value": 1,
+            "hint": "El dibujo animado cubano"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "29guess.jpg",
+                "orig": "29ori.jpg"
+            },
+            "options": [
+                "Elpidio Valdés",
+                "De tal Pedro tal astilla",
+                "Aventuras de Pomarrosa",
+                "El hombre de Maisinicú"
+            ],
+            "value": 1,
+            "hint": "Comedia basada en Romeo y Julieta"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "30guess.jpg",
+                "orig": "30ori.jpg"
+            },
+            "options": [
+                "El Benny",
+                "Zafiros: Locura azul",
+                "Bailando cha cha cha",
+                "Cuba baila"
+            ],
+            "value": 1,
+            "hint": "Documental sobre la idiosincrasia cubana y la expresión en los movimientos"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "31guess.jpg",
+                "orig": "31ori.jpg"
+            },
+            "options": [
+                "La muerte de un burócrata",
+                "Reina y Rey",
+                "Páginas del diario de Mauricio",
+                "Los sobrevivientes"
+            ],
+            "value": 1,
+            "hint": "Comedia de enredos que retrata los esfuerzos de un hombre por lograr la pensión de su familiar"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "32guess.jpg",
+                "orig": "32ori.jpg"
+            },
+            "options": [
+                "Elpidio Valdés contra águila y león",
+                "Fernanda y el misterio del Doctor Hyde",
+                "Vampiros en La Habana",
+                "Omega 3"
+            ],
+            "value": 1,
+            "hint": "Relata momentos de las dictaduras en Cuba en los años previos al triunfo de la Revolución"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "33guess.jpg",
+                "orig": "33ori.jpg"
+            },
+            "options": [
+                "El mexicano",
+                "Mella",
+                "Suite Habana",
+                "Amores perros"
+            ],
+            "value": 1,
+            "hint": "Un joven que intenta imponerse a las injusticias de su época"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "34guess.jpg",
+                "orig": "34ori.jpg"
+            },
+            "options": [
+                "Los dioses rotos",
+                "Harakiri",
+                "Verde verde",
+                "Santa Camila de La Habana Vieja"
+            ],
+            "value": 1,
+            "hint": "Un relato negro, donde el romance entre dos homosexuales termina en tragedia"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "35guess.jpg",
+                "orig": "35ori.jpg"
+            },
+            "options": [
+                "Nada",
+                "Retrato de Teresa",
+                "Miel para Oshun",
+                "Adorables mentiras"
+            ],
+            "value": 1,
+            "hint": "Cuenta con el guion del escritor que concibió la historia de Fresa y chocolate"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "37guess.jpg",
+                "orig": "37ori.jpg"
+            },
+            "options": [
+                "Amada",
+                "Retrato de Teresa",
+                "Las profecías de Amanda",
+                "Los sobrevivientes"
+            ],
+            "value": 1,
+            "hint": "Dirigida por Humberto Solás"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "38guess.jpg",
+                "orig": "38ori.jpg"
+            },
+            "options": [
+                "Retrato de Teresa",
+                "Lucía",
+                "Cecilia",
+                "Memorias del Subdesarrollo"
+            ],
+            "value": 1,
+            "hint": "Basada en un clásico literario cubano"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "39guess.jpg",
+                "orig": "39ori.jpg"
+            },
+            "options": [
+                "Cuba Libre",
+                "Viva Cuba",
+                "Barrio Cuba",
+                "Y sin embargo"
+            ],
+            "value": 1,
+            "hint": "Película infantil de Juan Carlos Cremata"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "40guess.jpg",
+                "orig": "40ori.jpg"
+            },
+            "options": [
+                "Cuba Libre",
+                "Viva Cuba",
+                "Y sin embargo",
+                "La edad de la peseta"
+            ],
+            "value": 1,
+            "hint": "Película de Pavel Giroud"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "41guess.jpg",
+                "orig": "41ori.jpg"
+            },
+            "options": [
+                "Elpidio Valdés",
+                "El machete",
+                "La primera carga al machete",
+                "Elpidio Valdés contra dólar y cañón"
+            ],
+            "value": 1,
+            "hint": "Dirigida y escrita por Juan Padrón"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "42guess.jpg",
+                "orig": "42ori.jpg"
+            },
+            "options": [
+                "El zoo",
+                "Madagascar",
+                "El elefante y la bicicleta",
+                "Hello Hemingway"
+            ],
+            "value": 1,
+            "hint": "Explora la llegada del cine a la Sierra Maestra"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "43guess.jpg",
+                "orig": "43ori.jpg"
+            },
+            "options": [
+                "Hello Hemingway",
+                "Viva Cuba",
+                "La vida es silbar",
+                "Emigrados"
+            ],
+            "value": 1,
+            "hint": "Los sueños de una estudiante con un gran creador"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "44guess.jpg",
+                "orig": "44ori.jpg"
+            },
+            "options": [
+                "Miel para Oshun",
+                "Lista de espera",
+                "Café Amargo",
+                "Un paraíso bajo las estrellas"
+            ],
+            "value": 1,
+            "hint": "¿Realidad o ficción? El sueño colectivo de muchos viajeros"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "45guess.jpg",
+                "orig": "45ori.jpg"
+            },
+            "options": [
+                "Papeles Secundarios",
+                "Adorables mentiras",
+                "El elefante y la bicileta",
+                "Se permuta"
+            ],
+            "value": 1,
+            "hint": "La vida no siempre nos tiene como primera opción"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "46guess.jpg",
+                "orig": "46ori.jpg"
+            },
+            "options": [
+                "Rapunzel",
+                "La princesa y el sapo",
+                "Viva Papi",
+                "Elpidio Valdés"
+            ],
+            "value": 1,
+            "hint": "Es tuerquista"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "47guess.jpg",
+                "orig": "47ori.jpg"
+            },
+            "options": [
+                "Barrio Cuba",
+                "Soy Cuba",
+                "Retrato de Teresa",
+                "Las profecías de Amanda"
+            ],
+            "value": 1,
+            "hint": "Filme ruso-cubano"
+        },
+        {
+            "correct": 1,
+            "media": {
+                "guess": "48guess.jpg",
+                "orig": "48ori.jpg"
+            },
+            "options": [
+                "El acompañante",
+                "Bailando con Margot",
+                "Kid Chocolate",
+                "Historias de la Revolución"
+            ],
+            "value": 1,
+            "hint": "Propuesta cubana a los Premios Oscar 2016"
+        },
+        {
+            "correct": 2,
+            "media": {
+                "guess": "49guess.jpg",
+                "orig": "49ori.jpg"
+            },
+            "options": [
+                "El mejor amigo",
+                "Reina y rey",
+                "Miel para Oshun",
+                "Cleopatra"
+            ],
+            "value": 1,
+            "hint": "Nada pudo separarlos"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "50guess.jpg",
+                "orig": "50ori.jpg"
+            },
+            "options": [
+                "Cecilia Valdés",
+                "Lucía",
+                "Las profecías de Amanda",
+                "Retrato de Teresa"
+            ],
+            "value": 1,
+            "hint": "Una mujer que se enfrenta a la vida"
+        },
+        {
+            "correct": 3,
+            "media": {
+                "guess": "51guess.jpg",
+                "orig": "51ori.jpg"
+            },
+            "options": [
+                "Nada",
+                "Faraona",
+                "Se permuta",
+                "Los pájaros tirándole a la escopeta"
+            ],
+            "value": 1,
+            "hint": "Todo el tiempo en movimiento"
+        },
+        {
+            "correct": 4,
+            "media": {
+                "guess": "52guess.jpg",
+                "orig": "52ori.jpg"
+            },
+            "options": [
+                "La pared de las palabras",
+                "Habana Blues",
+                "Habanastation",
+                "Suite Habana"
+            ],
+            "value": 1,
+            "hint": "Sobran las palabras"
+        }
+    ]
+}

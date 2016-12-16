@@ -1,0 +1,208 @@
+.ok,
+.tries,
+.ok-value,
+.tries-value {
+    font-size:18px;
+}
+
+.ok,
+.tries {
+    font-weight: bold;
+}
+.tries {
+    padding-left: 40px;
+}
+
+.hint {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.trivia-option {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.option-text {
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.guess {
+    background-color: #00a9a5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.next {
+    background-color: #00a9a5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.fb {
+    background-color: #3B5998;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+
+.tw {
+    background-color: #00ACED;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+
+.warning {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gameover1,
+.gameover2,
+.gameover3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.gameover3 {
+    font-weight: normal;
+}
+
+.movie-item {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 4px;
+    background-color: #b288c0;
+    margin-top:2px;
+}
+
+.actor-item {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 4px;
+    background-color: #136f63;
+    margin-top:2px;
+}
+
+.diagram {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.searchdiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.player {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-width: 4px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+.actorname  {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.actornumber {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.circle-img {
+    border-radius: 50%;
+}
+
+.fit {
+    width: 100%;
+}
+
+
+.pomares-color {
+    color: #ee5622;
+}
+.pomares-border {
+   padding:1px;
+   border:6px solid #ee5622;
+}
+
+.garcia-border {
+   padding:1px;
+   border:6px solid #684756;
+}
+.garcia-color {
+    color: #684756;
+}
+
+.miravalles-color {
+    color: #136f63;
+}
+
+.miravalles-border {
+   padding:1px;
+   border:6px solid #136f63;
+}
+
+.ali-color {
+    color: #3d314a;
+}
+
+.ali-border {
+   padding:1px;
+   border:6px solid #3d314a;
+}
+.candidatoname {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.div-center {
+    margin: 0 auto;
+    width:120px;
+}
+
+.tl-slide {
+    background-image: url(../images/fotograma-2.png);
+   background-size: cover;
+}
+
+.it {
+    font-style: italic;
+}
+
