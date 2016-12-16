@@ -197,9 +197,16 @@
     width:120px;
 }
 
+/*
 .tl-slide {
     background-image: url(../images/fotograma-2.png);
    background-size: cover;
+}
+*/
+
+.flag-min {
+    width:30px;
+    height:20px;
 }
 
 .it {
