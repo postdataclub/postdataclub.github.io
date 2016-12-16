@@ -134,7 +134,7 @@
                 "El Mégano"
             ],
             "value": 1,
-            "hint": "Uno de los documentales más importantes del cine revolucioanrio"
+            "hint": "Uno de los documentales más importantes del cine revolucionario"
         },
         {
             "correct": 1,
@@ -227,7 +227,7 @@
             "hint": "Realizada en 1969 por Manuel Octavio Gómez"
         },
         {
-            "correct": 1,
+            "correct": 4,
             "media": {
                 "guess": "18guess.jpg",
                 "orig": "18ori.jpg"
