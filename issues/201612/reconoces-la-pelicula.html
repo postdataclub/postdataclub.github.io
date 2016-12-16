@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club -  ¿Reconoces la película?</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="css/local.css">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  viz-color">
+            <div class="article-news-title"> ¿Reconoces la película?</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../../equipo/jesica.html">Jessica Dominguez</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a> <span class="article-date">15/12/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Trivia sobre carteles del cine cubano</div> 
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+    El contenido de los carteles del cine que se produce en Cuba, va más allá
+de la mera referencia a los filmes. Con una historia que ya puede ser
+contada como arte, los afiches creados a base de ilustraciones, se han
+vuelto parte de la cultura popular en la Isla, de manera que, en algunos
+casos, ver la imagen significa para nosotros una relación directa con la
+temática de la cinta en cuestión. Resulta que algunos carteles son tan
+significativos que es imposible no identificarlos. Otros, aún no se
+instauran en nuestro ideario: ¿cuántos puedes identificar tú?
+ </p>
+</div>
+
+<div id="film-trivia" class="media-block viz-border border">
+
+    <div class="graph-text viz-text" style="text-align:center;font-size:30px;margin-bottom: 60px;">
+    Trivia de Cine Cubano
+    </div>
+
+        <div id="trivia-result" class="graph" style="display:none"></div>
+        <div id='trivia' class="graph row">
+                <div id="cartel" class="col-lg-6 col-md-6">
+                    <img id="cartel-img" class="center-img" src="">
+                </div>
+                <div id="ẗrivia-options" class="col-lg-6 col-md-6 ">
+                     <div id="points" class="points">
+                         <span class="ok">Correctos: </span><span id="ok" class="ok-value">0</span> <span class="tries">Intentos: </span><span class="tries-value" id="tries">0</span> 
+<!--
+                         <span>Puntos: </span><span id="score">0</span>
+-->
+                     </div>
+                     <div id="hint" class="hint">Única película cubana nominada a los Oscar</div>
+                     <div id="trivia-option1" class="trivia-option"><label><input class="radio-option" id="radio1" type="radio" name="category" value="1" onclick="press();"><span id="option1" class="option-text">Título 1</span></label></div>
+                     <div id="trivia-option2" class="trivia-option"><label><input class="radio-option" id="radio2" type="radio" name="category" value="2" onclick="press();"><span id="option2" class="option-text">Título 2</span></label></div>
+                     <div id="trivia-option3" class="trivia-option"><label><input class="radio-option" id="radio3" type="radio" name="category" value="3" onclick="press();"><span id="option3" class="option-text">Título 3</span></label></div>
+                     <div id="trivia-option4" class="trivia-option"><label><input class="radio-option" id="radio4" type="radio" name="category" value="4" onclick="press();"><span id="option4" class="option-text">Título 4</span></label></div>
+                     <div id="alert" class="warning" style="display:none;">Debe seleccionar una opción</div>
+                     <div id="guess" class="guess cursor" onclick="ready();" >Listo</div>
+                     <div id="next" class="cursor next" onclick="next();" style="display:None;">Siguiente</div>
+                </div>            
+        </div>
+</div>
+
+ 
+
+ 
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201612/reconoces-el-cartel.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201612-4'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+     <div class="read-more viz-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="seis-grados-de-separacion-en-el-cine-cubano.html">Seis grados de separación en el cine cubano</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+         
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="latinoamerica-en-el-mapa-del-cine.html">Latinoamérica en el mapa del cine</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block prof-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="la-infinita-ola-de-reynaldo-miravalles.html">La infinita ola de Reynaldo Miravalles</a></div>
+            <div class="front-news-author">Por  <a href="../../equipo/ernesto.html">Ernesto Guerra</a> </div>
+            </div>
+            </div>
+        </div>
+        
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="el-cine-nacional-es-cubano.html">El cine nacional, ¿es cubano?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+            </div>
+            </div>
+        </div>
+    
+        
+         
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     
+    
+    <!-- 3 -->
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    
+    <script>
+    function shuffle(a) {
+        var j, x, i;
+        for (i = a.length; i; i--) {
+            j = Math.floor(Math.random() * i);
+            x = a[i - 1];
+            a[i - 1] = a[j];
+            a[j] = x;
+        }
+    }
+    function resetgame(){
+        $('#trivia-result').hide();
+        index=0;
+        ok=0;
+        score=0;
+        $("input:radio[name=category]:checked").attr('checked',false);
+        $('.radio-option').attr('disabled',false);
+        shuffle(carts);
+        set_data();
+        $('#trivia').show();
+        $('#next').hide();
+        $('#guess').show();
+    }
+    function press() {
+        $('#alert').hide();
+    }
+    function check(id) {
+        cindex = $("input:radio[name=category]:checked");
+        if (typeof(cindex.val())!="undefined") {
+            cindex.attr('checked',false);
+        }
+        $(id).attr('checked',true);
+        press();
+    }
+    function set_data() {
+          $('#cartel-img').attr('src','images/carteles/'+carts[index]['media']['guess']);
+          $("#hint").html(carts[index]['hint']);
+          $("#option1").html(carts[index]['options'][0]);
+          $("#option2").html(carts[index]['options'][1]);
+          $("#option3").html(carts[index]['options'][2]);
+          $("#option4").html(carts[index]['options'][3]);
+          $("#trivia-option1").css("background-color","#FFFFFF");
+          $("#trivia-option2").css("background-color","#FFFFFF");
+          $("#trivia-option3").css("background-color","#FFFFFF");
+          $("#trivia-option4").css("background-color","#FFFFFF");
+          $("#tries").html(index);
+          $("#ok").html(ok);
+          //$("#score").html(points);
+    }
+     $.getJSON("data/carteles.json",function(cts){
+          total = cts['total'];
+          index=0;
+          points = 0;
+          ok = 0;
+          carts = cts['carteles'];
+          shuffle(carts);
+          set_data();
+      });
+    
+    function ready() {        
+        tindex = $("input:radio[name=category]:checked").val();
+        if (typeof(tindex)!="undefined") {
+            console.log(tindex);
+            $('#cartel-img').attr('src','images/carteles/'+carts[index]['media']['orig']);
+            $('#guess').hide();
+            $('#next').show();
+            var correct = parseInt(carts[index]['correct']);
+            var value = parseInt(carts[index]['value']);
+            $('#trivia-option'+correct).css('background-color','rgba(0,169,165,0.5)');
+            if (parseInt(tindex)== correct) {
+                console.log('entra');
+                ok +=1;
+                points += value;
+            } else {
+                $('#trivia-option'+tindex).css('background-color','rgba(232,78,85,0.5)');
+            }
+            index++;
+            $("#tries").html(index);
+            $("#ok").html(ok);
+            $('.radio-option').attr('disabled',true);
+            //$("#score").html(points);
+        } else {
+            $('#alert').show();
+        }
+    }
+    function next() {
+        if (index==total) {
+            $('#trivia').hide();
+            text = "<div class='gameover1  viz-text'>Identificó correctamente "+ok+" de " +index+" películas</div>";
+            if (ok/index>=0.8) {
+                text+='<div class="gameover3 viz-text"> Usted es un conocedor del cine cubano </div>';
+            } else if ((ok/index<0.8)&&(ok/index>=0.5)) {
+                text+='<div class="gameover3 viz-text"> Usted sabe algo de cine cubano </div>';
+            } else {
+                text+='<div class="gameover3 viz-text"> Usted debe ver mucho más cine cubano </div>';
+            }
+
+            text += "<a style='text-decoration:none; href='https://twitter.com/share?url=http://www.postdata.club/issues/201612/reconoces-el-cartel.html&amp;text=Trivia%20de%20Cine%20Cubano&amp;hashtags=#postdataclub' target='_blank'><div class='tw cursor'>Comparte la trivia en Twitter</div><a href='http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201612/reconoces-el-cartel.html' target='_blank' style='text-decoration:none;'><div class='fb cursor'>Comparte la trivia en Facebook</div></a><div class='guess cursor' onclick='resetgame();'>Juegue de nuevo</div>"
+            $('#trivia-result').html(text);
+            $('#trivia-result').show();
+        } else{
+            $("input:radio[name=category]:checked").attr('checked',false);
+            $('.radio-option').attr('disabled',false);
+            set_data();
+            $('#next').hide();
+            $('#guess').show();
+        }
+    }
+    </script>
+  </body>
+</html>

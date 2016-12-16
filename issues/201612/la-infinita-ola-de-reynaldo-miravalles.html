@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - La infinita ola de Reynaldo Miravalles</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="css/local.css">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  prof-color">
+            <div class="article-news-title">La infinita ola de Reynaldo Miravalles</div>
+            <div class="article-news-author">Por <a href="../../equipo/ernesto.html">Ernesto Guerra</a><span class="article-date">15/11/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Un actor cubano para todos los tiempos</div> 
+             <div class="article-news-image">
+                <img src="images/reynaldo-miravalles.jpg">
+                <div class = "image-info row">
+                    <div class="image-caption col-lg-9 col-md-9">&nbsp;</div>
+                    <div class="image-author col-lg-3 col-md-3">Foto: cubadebate.cu</div>
+                </div>
+            </div>           
+
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+    Quizás la sinceridad de Reynaldo Miravalles no era evidente en sus películas. Al hablar sobre su papel en <span class="it">Esther en alguna parte</span> —su último filme— dijo que por suerte los diálogos eran cortos porque, de otra manera, no habría podido memorizarla.
+</p><p>
+Tenía casi 90 años y regresaba a La Habana después de establecerse fuera de Cuba a finales de siglo XX. Sin saberlo, filmaría su última cinta, bajo la batuta de otro grande del cine cubano: Gerardo Chijona.
+</p><p>
+Miravalles participó, según IMDB, en 35 proyectos audiovisuales. Su debut cinematográfico aconteció en <span class="it">Papalepe</span> (1957), una película producida por Venezuela y dirigida por Antonio Graciani en la que desempeñaba un rol de poca importancia.
+</p><p>
+Fue un artista completo. No solo estuvo en la gran pantalla, sino que supo conquistar la televisión y la radio. Este último medio fue el primero que lo acogió como actor, al participar en una transmisión de <span class="it">La Voz de los Ómnibus Aliados</span>, a la que llegó a los 19 años.
+</p>
+<p>
+Antes de ello, no podía imaginar que terminaría como una de las figuras más trascendentales del cine cubano porque, en sus inicios, la actuación no fue la prioridad de Miravalles.
+</p>
+
+<div class="subtitle prof-text">
+Fuera de la gran pantalla
+</div>
+<p>
+Pintor. Esa fue la primera opción dentro del mundo artístico explorada por Reynaldo Miravalles. 
+</p><p>
+Él nació en el Callejón del Chorro, en la Plaza de la Catedral de La Habana en enero de 1923, y a los 17 años se matriculó en una escuela de pintura, en Reina y Gervasio.
+</p><p>
+Se dedicó a esa tarea durante dos años, en las noches. Sin embargo, cuando le tocó el turno regular tuvo que renunciar a la vocación por los problemas económicos de la familia.
+</p><p>
+Los días eran para mejorar sus condiciones, y por entonces se dedicaba a vender algunos artículos en pos de ayudar a su madre. Con los ahorros y junto a un amigo, compró un café sin amueblar en el que vendía leche.
+</p><p>
+Justamente en ese local, conoció a un muchacho que no tenía dinero y trabajaba para Cadena Azul, la emisora radial. Él le dijo al futuro actor que era artista, y Miravalles le contestó que le gustaría dedicarse a ello.
+</p><p>
+Más tarde, se unió a un grupo de actores muy pequeño, e hizo un programa del que se transmitieron tres capítulos. Decidió que le gustaría la actuación.
+</p><p>
+Cuando comenzó a trabajar de manera regular en Cadena Azul, era de manera gratuita. En los primeros tiempos no recibió un centavo a cambio de sus actuaciones, que realizaba diariamente con dos frecuencias.
+</p><p>
+Se mudó a Prado, y alquiló un cuarto por tres pesos. Después de eso, se quedó sin dinero. Iba cada día a la emisora desde las siete de la mañana hasta las ocho de la noche para aprender de todo un poco.
+</p><p>
+Desde ese momento, la vena humorística del actor quedó al descubierto. De hecho, fue uno de los participantes de una famosa serie cómica radial de la época, llamada <span class="it">La Tremenda Corte</span>.
+</div>
+<div class="image-block" style="text-align: center;">
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/298062169&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+</div>
+<div class="text-block">
+</p><p>
+En la década del 50, entró al ámbito televisivo. Era el tiempo de las novelas jaboneras y los programas en vivo. En 1951 recibió el premio como el actor más destacado del medio, y en su larga carrera televisiva interpretó cientos de personajes.
+</p><p>
+El talento interpretativo de Miravalles lo dotó de la capacidad de asumir tanto papeles humorísticos, como otros de profundo dramatismo, hecho que evidenció con su participación en el teatro. De la escena trascendió en la memoria colectiva su actuación en <span class="it">Santa Camila de La Habana Vieja</span>.
+</p>
+<div class="subtitle prof-text">
+La pantalla grande
+</div>
+<p>
+Aunque su debut ocurrió en el año 1957, al momento de crearse el Instituto Cubano del Arte e Industria Cinematográficos (ICAIC), sus demostradas habilidades actorales lo convirtieron en una de las elecciones más acertadas para el nuevo panorama.
+</p><p>
+Títulos como <span class="it">Historias de la Revolución</span> (1960), <span class="it">El joven rebelde</span> (1961), <span class="it">Las 12 sillas</span> (1962), <span class="it">El hombre de Maisinicú</span> (1973), y <span class="it">Los sobrevivientes</span> (1978) que marcaron pautas en la historia cinematográfica cubana, tuvieron en su elenco a Reynaldo Miravalles.
+</p><p>
+También participó en otros filmes icónicos como <span class="it">Los pájaros tirándole a la escopeta</span> (1984), o su personaje de <span class="it">Pedro Cero por Ciento</span>, en el filme <span class="it">De tal Pedro tal astilla</span> (1985), una suerte de recreación en tono humorístico de la obra shakesperiana <span class="it">Romeo y Julieta</span>, llevada al campo cubano. 
+</p><p>
+Con este personaje, el actor mereció un premio Caracol, distinción entregada por la Unión de Escritores y Artistas de Cuba (UNEAC) en la categoría de Mejor Actuación Masculina.
+</p>
+<p>
+En el año 1991 participó en el polémico filme <span class="it">Alicia en el pueblo de Maravillas</span>, dirigida por Daniel Díaz Torres, y al año siguiente se sumó al elenco de <span class="it">Mascaró, el cazador americano</span>, por lo que ganó un Coral en el Festival Internacional del Nuevo Cine Latinoamericano en 1992.
+</p>
+</div>
+ <div class="media-block prof-color">
+<div class="phrase">
+    « Miravalles ganó un premio Caracol por <span class="it">De tal Pedro tal astilla</span> (1985) y un premio Coral por <span class="it">Mascaró, el cazador americano</span> (1992) »
+</div>
+</div>
+<div class="text-block">
+<p>
+A mediados de los años 90, Reynaldo Miravalles se radicó en Estados Unidos. Allí continuó su carrera, en filmes como <span class="it">El misterio Galíndez</span>, y <span class="it">Cercanía</span>.
+</p><p>
+Pasaron 19 años hasta que el actor volviera a filmar una cinta en Cuba. <span class="it">Esther en alguna parte</span> fue su último trabajo en la pantalla grande.
+</p><p>
+Interrogado sobre su ausencia del panorama fílmico cubano, se refirió a las lógicas de producción del cine:
+</p><p class="quote">
+"Si tú no vives en tu país, no hay un estilo de producción para que te seleccionen. Para esta película, no hay mucha gente que tenga la edad que tiene que salir en ella. Los viejos trabajan en el cine porque abren la puerta y solo dicen: 'el señor no está', y cierran la puerta. Los argumentos para viejos no existen en el cine (…). Y, además, para hacer una película, el argumento tiene que estar bueno. Si me ofrecen una película que no esté bien el argumento… ni aquí, ni allá".
+</p><p>
+Miravalles falleció en 2016. No hacía tanto el público lo había visto en <span class="it">Esther en alguna parte</span>, y regresar a La Habana lo llenó de emociones. Las personas lo fueron recordando, algunos se sacaron fotos y, en la mayoría de los casos, el cariño fue unánime.
+</p><p>
+E interrogado, de cómo le gustaría que le recordaran, dijo que con su trabajo, pero que, llegado el momento, no importaba mucho.
+</p><p class="quote">
+"Después que me muera, ¡se acabó la ola!"
+</p><p>
+Pero no se acaba.
+    </p>
+ </div>
+ 
+  
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201612/la-infinita-ola-de-reynaldo-miravalles.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201612-5'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+     <div class="read-more prof-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="seis-grados-de-separacion-en-el-cine-cubano.html">Seis grados de separación en el cine cubano</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+         
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="latinoamerica-en-el-mapa-del-cine.html">Latinoamérica en el mapa del cine</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
+            </div>
+            </div>
+        </div>
+        
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="el-cine-nacional-es-cubano.html">El cine nacional, ¿es cubano?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block viz-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="el-cine-nacional-es-cubano.html">¿Reconoces la película?</a></div>
+            <div class="front-news-author">Por Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../../equipo/jesica.html">Jessica Dominguez</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
+            </div>
+            </div>
+        </div>
+    
+        
+         
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     <script src="js/timeline.js"></script>
+    
+    <!-- 3 -->
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+   
+  </body>
+</html>

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - El cine nacional ¿es cubano?</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="css/local.css">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/aymara.html">Aymara Vigil</a></li>
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/aymara.html">Aymara Vigil</a></div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  article-color">
+            <div class="article-news-title">El cine nacional, ¿es cubano?</div>
+            <div class="article-news-author">Por <a href="../../equipo/jessica.html">Jessica Dominguez</a><span class="article-date">15/11/2016</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Una mirada a la producción y la industria cinematográfica</div> 
+<!--
+             <div class="article-news-image">
+                <img src="images/reynaldo-miravalles.jpg">
+                <div class = "image-info row">
+                    <div class="image-caption col-lg-9 col-md-9">&nbsp;</div>
+                    <div class="image-author col-lg-3 col-md-3">Foto: cubadebate.cu</div>
+                </div>
+            </div>           
+-->
+
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+   Para filmar, contratar personal, movilizar fondos, comercializar o exhibir una película en el país el Instituto Cubano de Industria Cinematográfica, ICAIC, u otra institución estatal, tienen que autorizarlo; o al menos, así está normado. 
+</p><p>
+Hoy, la necesidad de coproducciones, la emergencia y consolidación de productoras independiente y la democratización de los recursos para trabajar cambian la escena y diversifican los actores que hacen cine en Cuba. Sin embargo, sigue siendo el ICAIC quien otorga certificados de nacionalidad y tiene la autoridad, sobre criterios no públicos, de decidir el futuro de todos los materiales dentro de nuestras fronteras.
+</p><p>
+Desde su fundación con la Ley 169, primera en materia cultural aprobada por la Revolución el 2 de marzo de 1959, se define que el objetivo del ICAIC es:</p> 
+<p class="cite">“organizar, establecer y desarrollar la Industria Cinematográfica, atendiendo a criterios artísticos enmarcados en la tradición cultural cubana, y en los fines de la Revolución que la hace posible y garantiza el actual clima de libertad creadora”</p>
+<p>
+La industria del cine contempla la producción, comercialización así como la distribución, y obviamente es el ICAIC quien la rige; pero, dato curioso: si ese cine no se ha definido oficialmente como cubano queda en un limbo jurídico.
+</p><p>
+Para determinar la nacionalidad de una película se tienen en cuenta el idioma, la temática, el lugar de filmación, el personal que interviene -tanto los actores como los técnicos-, quiénes ocupan las principales direcciones artísticas, las aportaciones a la cultura nacional y por supuesto el origen del financiamiento. En el caso cubano, el ICAIC, ahora trabaja en una normativa que homogenice ese procedimiento.
+</p><p>
+Aunque basta una mirada superficial a la <a href="http://www.imdb.com">Internet Movies Data base</a>, IMDb, para encontrar asociados a Cuba dramas, románticos, musicales, triller, biografía, históricos, ciencia ficción, aventura y hasta Oeste, de muchos ni hemos escuchado hablar, menos ver.
+</p>
+<div id="categorias" class="media-block article-border border" style="">
+        <div class="graph-text article-text" style="text-align:center;">
+       Cine cubano por géneros
+        </div>
+        <div id='catgraph' class="graph" style="height: 600px; margin-top:-18px;">
+        </div>
+    </div>
+  <div class="text-block">
+<p>
+Por ejemplo, de este último género se reconocen cuatro exponentes: <span class="it">La justicia de los Villalobos</span> (1961), <span class="it">Aquí están los Villalobos</span> (1962), <span class="it">Osceola</span> (1971) y <span class="it">Vsadnik Benz Golovy</span> (1972), una versión de la historia del Jinete sin cabeza coproducida con la URSS.
+</p><p>
+Si miramos en el apartado de aventura aparecen 12 filmes, entre ellos: <span class="it">El cayo de la Muerte</span> en 2010 con guion de Arturo Infante y actuación de Caleb Casas, Laura Ramos, Alberto Pujols e Isabel Santos, o <span class="it">Encantada</span> de 2002 una cinta coproducida con Italia. 
+</p><p>
+La ciencia ficción no ha sido lo más usual, pero encontramos las más recientes <span class="it">Madrigal</span> y <span class="it">Omega 3</span> o, menos conocidas, <span class="it">Santo vs Cerebro del Mal</span> de 1961 y <span class="it">Cucaracha roja</span> en 2003 dirigida por Miguel Coyula y producida entre Cuba y Estados Unidos.
+</p><p>
+El cine cubano no está en su etapa de esplendor. Ninguna época es igual, pero los mecanismos actuales de la industria nacional se están alejando del espectador. El séptimo arte nacional tiene poco espacio y, a veces, tenemos la percepción de que no se produce, pero en realidad no lo podemos comprobar. 
+</p><p>
+Entonces, ¿cómo se está haciendo el cine cubano? Fundamentalmente de tres maneras: financiado por el Estado, en coproducciones con otros países o gestionando de manera independiente.
+</p>
+</div>
+<div id="evolucion" class="media-block article-border border" style="">
+        <div class="graph-text article-text" style="text-align:center;">
+       Evolución de los audiovisuales según entidades productoras
+        </div>
+        <div id='evograph' class="graph" style="height: 400px;">
+        </div>
+    </div>
+  <div class="text-block">
+<p>
+Han existido varios productores audiovisuales estatales: el Instituto Cubano de Radio y Televisión, RTV Comercial, Ministerio de Cultura, la UNEAC, la AHS, los Estudios Fílmicos de las FAR y el MININT, la Escuela Internacional de Cine y Televisión, la Facultad de Medios Audiovisuales del Instituto Superior de Arte, las televisiones locales y comunitaria, Trimagen y la Fundación del Nuevo Cine Latinoamericano, entre otros. 
+</p><p>
+Pero es el ICAIC, como órgano rector, quien debe incentivar el cine desde sus productoras: los Estudios de Animación producen los animados; la Productora Internacional gestiona proyectos de coproducción y de servicios y el Proyecto Palomas es la casa productora de audiovisuales para el activismo social, mientras que Productora Audiovisuales se encarga de largos y cortos de ficción, y de los documentales.
+</p><p>
+No obstante, la cantidad de dinero destinada anualmente a producir cine o la manera en que se seleccionan los proyectos que serán financiados no es transparente.
+</p><p>
+Sydney J. Levine, autora del libro Cine iberoamericano Industria y Financiamiento por país, explica que en Cuba no hay un modelo económico para el desarrollo del cine; aquí, a diferencia de los Estados Unidos, el Estado cubano lo financia y no se ve como una inversión, se piensa que no es necesario recuperar ese dinero, lo que hace cada vez más difícil financiar nuevos proyectos. 
+</p>
+
+<p>
+Las coproducciones han sido una alternativa, internacionalmente extendida, para realizar proyectos cinematográficos. Cuba es miembro de la Conferencia de Autoridades Cinematográficas Iberoamericana y tiene tratados bilaterales de coproducción con varios países. Según la base de datos de la IMDb desde 1960 hasta la actualidad Cuba ha coproducido 1903 audiovisuales con 93 países, entre ellos la URSS, Liechtentein, Nueva Zelanda, China y Angola; según IMDb en 140 filmes ha compartido roles con Estados Unidos y en 139 con España.
+</p>
+
+<p class="quote">
+"La Industria multiplicada enfrentará desafíos comunes. El primero, el financiamiento imprescindible. Confiamos en que el Estado y el Ministerio de Cultura continuarán apoyando la producción cinematográfica, sobre todo, los proyectos de mayor vuelo artístico. Sin embargo, serán necesarias otras fuentes de financiamiento y entre estas, las coproducciones que no atenten contra la soberanía y la calidad de la obra cinematográfica"</p>
+<p>Explica Roberto Smith, directo del ICAIC en entrevista realizada por el periódico Trabajadores luego de su nombramiento en 2013.
+</p>
+</div>
+<div id="coproducciones" class="media-block article-border border">
+        <div class="graph">
+         <div class="graph-text article-text" style="text-align:center;">
+       Países que han coproducido filmes con Cuba (primeros 20 de 1960 al 2016)
+        </div>
+        <div id='copgraph'  style="height: 500px;width:100%;">
+        </div>
+         <div class="graph-text article-text" style="text-align:center; margin-top: 40px;margin-bottom:20px;">
+       Cantidad de países que participan en la producción de un mismo film (1960 - 2016)
+        </div>
+        <div id='topgraph'  style="height: 400px;width:100%;">
+        </div>
+        </div>
+    </div>
+  
+  
+  <div class="text-block">
+<p>
+También se accede a fondos internacionales como Ibermedia, el fondo Hubert Blas y la Fundación Príncipe Claus de Holanda, World Cinema Found de Alemania, Fonds Sud de Francia, el Fondo Noruego, la Aecid de España, la Americas Media Initiative desde Estados Unidos, Cosude de Suiza, entre otros, como expone Sydney J. Levine.
+</p>
+<p>
+Por otra parte, existen múltiples productoras independientes. La cantidad exacta nadie la sabe, operan en los subterfugios de la legalidad aunque muchas tienen necesariamente que relacionarse con el ICAIC. Nombres como 5ta Avenida Producción, Island Film Cuba, Pirámide, La Rabia Pictures, El Ingenio y Aurora Productions son conocidos, sus trabajo le preceden y muchas de su obras han sido premiadas en diferentes certámenes internacionales.
+</p><p>
+Ejemplos hay suficientes, Alejandro Brugués (<span class="it">Personal Belongings</span>, <span class="it">Juan de los muertos</span>), Jorge Molina (<span class="it">Molina's Feroz</span>), Miguel Coyula (<span class="it">Memorias del Desarrollo</span>), Pavel Giroud (<span class="it">El Acompañante</span>), Carlos Lechuga (<span class="it">Melaza</span>) y Jessica Rodríguez (<span class="it">Espejuelos Oscuros</span>) realizaron su obras de manera independiente con fondos internacionales o técnicas como el crowdfunding pero con la participación también de artistas cubanos, con temáticas nacionales y contextualizados en Cuba, con maneras de hacer diferentes y variedad de géneros. Todos ellos, y otros están haciendo lo que llamara Gustavo Arcos en una entrevista publicada en Cubaposible: un cine posnacional.
+</p><p>
+Claudia Calviño, al frente de 5ta Avenida Producción y seleccionada por la revista Hollywood Reporter como la más talentosa del continente en 2014, dijo en entrevista a Wendy Guerra para El Mundo:</p>
+<p class="quote"> “...el trabajo de producir aquí se ha hecho muy difícil, si bien ahora mismo todos estamos trabajando en mejorar la situación del cine cubano, lo cierto es que constantemente tenemos que engavetar proyectos, rechazar muchas propuestas y posponer muchos planes porque sabemos que no vamos a poder hacerlos...”
+</p><p>
+La Muestra Joven organizada por el ICAIC desde el 2001 reconoció por primera vez estas producciones y les permitió un espacio para exhibirlas, con conflictos e incomprensiones mediante.
+</p><p>
+Porque aunque podría parecer –por certero- que producir es una odisea, esa es para los cubanos, acostumbrados al sacrificio y el invento, la parte más sencilla; la comercialización y la distribución se complejizan más, sobre todo para los proyectos independientes. 
+</p><p>
+Además, la exhibición está prácticamente condenada a espacios informales, todas las salas de cine en Cuba son estatales y es el ICAIC quien determina su programación.
+</p>
+</div>
+ 
+ <div class="media-block article-color">
+<div class="phrase">
+    « Muchas películas independientes apenas trascienden la premier en festivales, no se estrenan en salas de cine y llegar a la televisión es una rara excepción »
+</div>
+</div>
+ 
+ <div class="text-block">
+<p>
+Según Gustavo Arcos en el texto Casta de Malditos:</p>
+<p class="quote">“Los cineastas y críticos cubanos llevan tiempo alertando sobre los problemas que rodean a toda la industria del audiovisual nacional: desorganización, incoherencia, atomización, falta de fondos, ausencia de leyes, censuras, perdida de liderazgo, carencia de salas para la exhibición, insuficiente respaldo a las escuelas de cine y medios...”</p>
+<p></p> 
+Todo ello refuerza la necesidad de una reforma de cine cubano, a la manera de entenderlo, organizarlo y, sobre todo, darle un marco legal acorde a los tiempos modernos.
+</p><p>
+La polémica sobre la necesidad de una ley de cine no es nueva, comenzó en 2008 previo al VII Congreso de la UNEAC y hasta hoy no se han materializado los resultados. Los cineastas convocaron de forma autónoma a una asamblea para debatir temas de su interés, sobre todo los cambios en el sector de los cuales estaban al margen. Allí se eligió a un grupo de 20 representantes mandatados para dialogar con los decisores estatales y realizar propuestas. Las principales demandas de este grupo recogidas en el texto <span class="it">G-20: Seguir y Seguir reuniéndose</span> de Manuel Iglesias incluyen:
+</p><ul>
+ <li>el reconocimiento de la condición laboral del creador audiovisual</li>
+
+<li>la legalización de las productoras independientes</li>
+
+<li>la creación de un Fondo de Desarrollo Cinematográfico que brinde oportunidades equitativas a todos los creadores</li>
+
+
+<li>la necesaria transformación de las estructuras del ICAIC</li>
+
+<li>iniciar estudios para una futura Ley de Cine “que recoja estos y otros cambios, dé coherencia cultural y legal a todo el sistema cinematográfico y audiovisual del país en consonancia con las nuevas realidades, y permita al Estado renovar y fijar sus metas de apoyo, protección y promoción del arte cinematográfico, como lo hizo en marzo de 1959.</li>
+</ul>
+<p>
+Fernando Pérez, uno de los más reconocidos cineastas cubanos y miembro del G-20, en entrevista realizada por Mónica Rivero comentó sobre la futura ley:</p>
+<p class="quote"> “es importante porque va a regular –no a controlar– el desarrollo y el movimiento del audiovisual cubano, que en este momento lo necesita. Nosotros no queremos el libertinaje, lo que queremos es una regulación determinada por una ley de nuestro país. Y se ha estudiado.”
+</p><p>
+Ocho años después, con documentos escritos y consensuados con las autoridades no hay todavía resultados sobre el tema.
+</p><p>
+Sacar de las catatumbas institucionales la variopinta y multiforme producción nacional es una necesidad, encontrar mecanismos para ponerlo a escrutinio público es una obligación. Hoy nadie puede, con toda certeza, conocer, historiar, o siquiera listar todo el cine cubano hecho en la actualidad, no está oficialmente registrado en ningún sitio. Una gran parte del cine nacional, cubano, es apátrida.
+</p>
+
+ </div>
+ 
+  </div>
+ 
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201612/el-cine-nacional-es-cubano.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201612-3'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+     <div class="read-more article-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="seis-grados-de-separacion-en-el-cine-cubano.html">Seis grados de separación en el cine cubano</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+         
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="latinoamerica-en-el-mapa-del-cine.html">Latinoamérica en el mapa del cine</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block prof-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="la-infinita-ola-de-reynaldo-miravalles.html">La infinita ola de Reynaldo Miravalles</a></div>
+            <div class="front-news-author">Por  <a href="../../equipo/ernesto.html">Ernesto Guerra</a> </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block viz-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="el-cine-nacional-es-cubano.html">¿Reconoces la película?</a></div>
+            <div class="front-news-author">Por Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../../equipo/jesica.html">Jessica Dominguez</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
+            </div>
+            </div>
+        </div>
+    
+        
+         
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!-- 3 -->
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script src="js/d3plus.min.js"></script>
+    <script>
+    var sample_data = [
+    {"Películas": 140, "País":"Estados Unidos", "group": ""},
+    {"Películas": 138, "País": "España", "group": ""},
+    {"Películas": 52, "País": "México", "group": ""},
+    {"Películas": 47, "País": "Canadá", "group": ""},
+    {"Películas": 41, "País": "Francia", "group": ""},
+    {"Películas": 39, "País": "Alemania", "group": ""},
+    {"Películas": 37, "País": "Argentina", "group": ""},
+    {"Películas": 35, "País": "Venezuela", "group": ""},
+    {"Películas": 32, "País": "Colombia", "group": ""},
+    {"Películas": 30, "País": "Brasil", "group": ""},
+    {"Películas": 30, "País": "Italia", "group": ""},
+    {"Películas": 26, "País": "Reino Unido", "group": ""},
+    {"Películas": 24, "País": "Perú", "group": ""},
+    {"Películas": 18, "País": "Suiza", "group": ""},
+    {"Películas": 14, "País": "Chile", "group": ""},
+    {"Películas": 12, "País": "Portugal", "group": ""},
+    {"Películas": 11, "País": "Costa Rica", "group": ""},
+    {"Películas": 11, "País": "Puerto Rico", "group": ""},
+    {"Películas": 10, "País": "Panamá", "group": ""},
+    {"Películas": 9, "País": "R. Dominicana", "group": ""}
+  ];
+  var visualization = d3plus.viz()
+    .container("#copgraph")
+    .data(sample_data)
+    .type("bar")
+    .color("País")                // groups colored to show ungrouping
+    .id({
+      "value": ["group","País"],
+      "grouping": false            // grouping set to false ungroups parent nesting
+    })
+    .depth(1)
+    .size("Películas")
+    .color("País")
+    .y("Películas")
+    .x("País")
+    .legend({"size":0})
+    .draw();
+    </script>
+    <script>
+    var sample_data = [
+    //{"Películas": 1313, "Cantidad":1, "group": ""},
+    {"Películas": 432, "Cantidad": 2, "group": ""},
+    {"Películas": 92, "Cantidad": 3, "group": ""},
+    {"Películas": 35, "Cantidad": 4, "group": ""},
+    {"Películas": 9, "Cantidad": 5, "group": ""},
+    {"Películas": 9, "Cantidad": 6, "group": ""},
+    {"Películas": 2, "Cantidad": 7, "group": ""},
+    {"Películas": 3, "Cantidad": 8, "group": ""},
+    {"Películas": 2, "Cantidad": 9, "group": ""},
+    {"Películas": 3, "Cantidad": 10, "group": ""},
+    {"Películas": 1, "Cantidad": 11, "group": ""},
+    {"Películas": 1, "Cantidad": 14, "group": ""},
+    {"Películas": 1, "Cantidad": 19, "group": ""}
+  ];
+  var visualization = d3plus.viz()
+    .container("#topgraph")
+    .data(sample_data)
+    .type("tree_map")
+    .color("Cantidad")                // groups colored to show ungrouping
+    .id({
+      "value": ["group","Cantidad"],
+      "grouping": false            // grouping set to false ungroups parent nesting
+    })
+    .depth(1)
+    .size("Películas")
+    .color("Cantidad")
+    .y("Películas")
+    .x("Cantidad")
+    .legend({"size":20})
+    .draw();
+    </script>
+    <script>
+
+  // sample data array
+  var sample_data = [
+    {"Películas": 13, "name": "Acción","group":""},
+    {"Películas": 37, "name": "Aventura","group":""},
+    {"Películas": 137, "name": "Animación","group":""},
+    {"Películas": 125, "name": "Comedia","group":""},
+    {"Películas": 17, "name": "Crimen","group":""},
+    {"Películas": 952, "name": "Documental","group":""},
+    {"Películas": 386, "name": "Drama","group":""},
+    {"Películas": 38, "name": "Familiar","group":""},
+    {"Películas": 29, "name": "Fantasía","group":""},
+    {"Películas": 1, "name": "Film-Noir","group":""},
+    {"Películas": 38, "name": "Familiar","group":""},
+    {"Películas": 84, "name": "Historia","group":""},
+    {"Películas": 22, "name": "Horror","group":""},
+    {"Películas": 63, "name": "Musica","group":""},
+    {"Películas": 28, "name": "Musical","group":""},
+    {"Películas": 18, "name": "Misterio","group":""},
+    {"Películas": 44, "name": "Romance","group":""},
+    {"Películas": 13, "name": "Ciencia Ficción","group":""},
+    {"Películas": 15, "name": "Deporte","group":""},
+    {"Películas": 22, "name": "Thriller","group":""},
+    {"Películas": 12, "name": "Guerra","group":""},
+    {"Películas": 5, "name": "Oeste","group":""}
+  ]
+
+  // instantiate d3plus
+  var visualization = d3plus.viz()
+    .container("#catgraph")     // container DIV to hold the visualization
+    .data(sample_data)     // data to use with the visualization
+    .type("bubbles")       // visualization type
+    .id(["group", "name"]) // nesting keys
+    .depth(1)              // 0-based depth
+    .size("Películas")         // key name to size bubbles
+    .color("name")        // color by each group
+    .legend({"size":20})
+    .draw()                // finally, draw the visualization!
+
+</script>
+<script>
+  // sample data array
+  var sample_data = [
+    {"año":1960,"name":"icaic","Películas":3},
+{"año":1960,"name":"otros","Películas":2},
+{"año":1960,"name":"icaic y otros","Películas":0},
+{"año":1961,"name":"icaic","Películas":5},
+{"año":1961,"name":"otros","Películas":2},
+{"año":1961,"name":"icaic y otros","Películas":0},
+{"año":1962,"name":"icaic","Películas":4},
+{"año":1962,"name":"otros","Películas":1},
+{"año":1962,"name":"icaic y otros","Películas":0},
+{"año":1963,"name":"icaic","Películas":2},
+{"año":1963,"name":"otros","Películas":0},
+{"año":1963,"name":"icaic y otros","Películas":0},
+{"año":1964,"name":"icaic","Películas":10},
+{"año":1964,"name":"otros","Películas":0},
+{"año":1964,"name":"icaic y otros","Películas":2},
+{"año":1965,"name":"icaic","Películas":5},
+{"año":1965,"name":"otros","Películas":1},
+{"año":1965,"name":"icaic y otros","Películas":0},
+{"año":1966,"name":"icaic","Películas":8},
+{"año":1966,"name":"otros","Películas":0},
+{"año":1966,"name":"icaic y otros","Películas":0},
+{"año":1967,"name":"icaic","Películas":6},
+{"año":1967,"name":"otros","Películas":0},
+{"año":1967,"name":"icaic y otros","Películas":0},
+{"año":1968,"name":"icaic","Películas":8},
+{"año":1968,"name":"otros","Películas":0},
+{"año":1968,"name":"icaic y otros","Películas":1},
+{"año":1969,"name":"icaic","Películas":4},
+{"año":1969,"name":"otros","Películas":1},
+{"año":1969,"name":"icaic y otros","Películas":0},
+{"año":1970,"name":"icaic","Películas":0},
+{"año":1970,"name":"otros","Películas":2},
+{"año":1970,"name":"icaic y otros","Películas":0},
+{"año":1971,"name":"icaic","Películas":2},
+{"año":1971,"name":"otros","Películas":0},
+{"año":1971,"name":"icaic y otros","Películas":2},
+{"año":1972,"name":"icaic","Películas":6},
+{"año":1972,"name":"otros","Películas":1},
+{"año":1972,"name":"icaic y otros","Películas":0},
+{"año":1973,"name":"icaic","Películas":5},
+{"año":1973,"name":"otros","Películas":0},
+{"año":1973,"name":"icaic y otros","Películas":1},
+{"año":1974,"name":"icaic","Películas":6},
+{"año":1974,"name":"otros","Películas":0},
+{"año":1974,"name":"icaic y otros","Películas":0},
+{"año":1975,"name":"icaic","Películas":4},
+{"año":1975,"name":"otros","Películas":0},
+{"año":1975,"name":"icaic y otros","Películas":0},
+{"año":1976,"name":"icaic","Películas":11},
+{"año":1976,"name":"otros","Películas":1},
+{"año":1976,"name":"icaic y otros","Películas":1},
+{"año":1977,"name":"icaic","Películas":5},
+{"año":1977,"name":"otros","Películas":2},
+{"año":1977,"name":"icaic y otros","Películas":2},
+{"año":1978,"name":"icaic","Películas":4},
+{"año":1978,"name":"otros","Películas":0},
+{"año":1978,"name":"icaic y otros","Películas":2},
+{"año":1979,"name":"icaic","Películas":7},
+{"año":1979,"name":"otros","Películas":0},
+{"año":1979,"name":"icaic y otros","Películas":5},
+{"año":1980,"name":"icaic","Películas":7},
+{"año":1980,"name":"otros","Películas":0},
+{"año":1980,"name":"icaic y otros","Películas":0},
+{"año":1981,"name":"icaic","Películas":6},
+{"año":1981,"name":"otros","Películas":0},
+{"año":1981,"name":"icaic y otros","Películas":0},
+{"año":1982,"name":"icaic","Películas":7},
+{"año":1982,"name":"otros","Películas":0},
+{"año":1982,"name":"icaic y otros","Películas":2},
+{"año":1983,"name":"icaic","Películas":10},
+{"año":1983,"name":"otros","Películas":0},
+{"año":1983,"name":"icaic y otros","Películas":1},
+{"año":1984,"name":"icaic","Películas":11},
+{"año":1984,"name":"otros","Películas":1},
+{"año":1984,"name":"icaic y otros","Películas":1},
+{"año":1985,"name":"icaic","Películas":11},
+{"año":1985,"name":"otros","Películas":1},
+{"año":1985,"name":"icaic y otros","Películas":3},
+{"año":1986,"name":"icaic","Películas":10},
+{"año":1986,"name":"otros","Películas":0},
+{"año":1986,"name":"icaic y otros","Películas":2},
+{"año":1987,"name":"icaic","Películas":19},
+{"año":1987,"name":"otros","Películas":1},
+{"año":1987,"name":"icaic y otros","Películas":5},
+{"año":1988,"name":"icaic","Películas":10},
+{"año":1988,"name":"otros","Películas":5},
+{"año":1988,"name":"icaic y otros","Películas":5},
+{"año":1989,"name":"icaic","Películas":9},
+{"año":1989,"name":"otros","Películas":5},
+{"año":1989,"name":"icaic y otros","Películas":4},
+{"año":1990,"name":"icaic","Películas":9},
+{"año":1990,"name":"otros","Películas":3},
+{"año":1990,"name":"icaic y otros","Películas":6},
+{"año":1991,"name":"icaic","Películas":5},
+{"año":1991,"name":"otros","Películas":10},
+{"año":1991,"name":"icaic y otros","Películas":3},
+{"año":1992,"name":"icaic","Películas":6},
+{"año":1992,"name":"otros","Películas":3},
+{"año":1992,"name":"icaic y otros","Películas":3},
+{"año":1993,"name":"icaic","Películas":2},
+{"año":1993,"name":"otros","Películas":7},
+{"año":1993,"name":"icaic y otros","Películas":5},
+{"año":1994,"name":"icaic","Películas":3},
+{"año":1994,"name":"otros","Películas":6},
+{"año":1994,"name":"icaic y otros","Películas":5},
+{"año":1995,"name":"icaic","Películas":3},
+{"año":1995,"name":"otros","Películas":4},
+{"año":1995,"name":"icaic y otros","Películas":1},
+{"año":1996,"name":"icaic","Películas":3},
+{"año":1996,"name":"otros","Películas":7},
+{"año":1996,"name":"icaic y otros","Películas":1},
+{"año":1997,"name":"icaic","Películas":0},
+{"año":1997,"name":"otros","Películas":7},
+{"año":1997,"name":"icaic y otros","Películas":6},
+{"año":1998,"name":"icaic","Películas":8},
+{"año":1998,"name":"otros","Películas":51},
+{"año":1998,"name":"icaic y otros","Películas":2},
+{"año":1999,"name":"icaic","Películas":8},
+{"año":1999,"name":"otros","Películas":39},
+{"año":1999,"name":"icaic y otros","Películas":4},
+{"año":2000,"name":"icaic","Películas":1},
+{"año":2000,"name":"otros","Películas":11},
+{"año":2000,"name":"icaic y otros","Películas":4},
+{"año":2001,"name":"icaic","Películas":4},
+{"año":2001,"name":"otros","Películas":21},
+{"año":2001,"name":"icaic y otros","Películas":6},
+{"año":2002,"name":"icaic","Películas":15},
+{"año":2002,"name":"otros","Películas":25},
+{"año":2002,"name":"icaic y otros","Películas":6},
+{"año":2003,"name":"icaic","Películas":10},
+{"año":2003,"name":"otros","Películas":54},
+{"año":2003,"name":"icaic y otros","Películas":4},
+{"año":2004,"name":"icaic","Películas":30},
+{"año":2004,"name":"otros","Películas":61},
+{"año":2004,"name":"icaic y otros","Películas":1},
+{"año":2005,"name":"icaic","Películas":15},
+{"año":2005,"name":"otros","Películas":43},
+{"año":2005,"name":"icaic y otros","Películas":2},
+{"año":2006,"name":"icaic","Películas":5},
+{"año":2006,"name":"otros","Películas":32},
+{"año":2006,"name":"icaic y otros","Películas":2},
+{"año":2007,"name":"icaic","Películas":1},
+{"año":2007,"name":"otros","Películas":11},
+{"año":2007,"name":"icaic y otros","Películas":1},
+{"año":2008,"name":"icaic","Películas":4},
+{"año":2008,"name":"otros","Películas":45},
+{"año":2008,"name":"icaic y otros","Películas":2},
+{"año":2009,"name":"icaic","Películas":2},
+{"año":2009,"name":"otros","Películas":14},
+{"año":2009,"name":"icaic y otros","Películas":0},
+{"año":2010,"name":"icaic","Películas":3},
+{"año":2010,"name":"otros","Películas":21},
+{"año":2010,"name":"icaic y otros","Películas":8},
+{"año":2011,"name":"icaic","Películas":0},
+{"año":2011,"name":"otros","Películas":22},
+{"año":2011,"name":"icaic y otros","Películas":2},
+{"año":2012,"name":"icaic","Películas":3},
+{"año":2012,"name":"otros","Películas":21},
+{"año":2012,"name":"icaic y otros","Películas":4},
+{"año":2013,"name":"icaic","Películas":1},
+{"año":2013,"name":"otros","Películas":20},
+{"año":2013,"name":"icaic y otros","Películas":1},
+{"año":2014,"name":"icaic","Películas":1},
+{"año":2014,"name":"otros","Películas":13},
+{"año":2014,"name":"icaic y otros","Películas":2},
+{"año":2015,"name":"icaic","Películas":1},
+{"año":2015,"name":"otros","Películas":23},
+{"año":2015,"name":"icaic y otros","Películas":3},
+{"año":2016,"name":"icaic","Películas":0},
+{"año":2016,"name":"otros","Películas":17},
+{"año":2016,"name":"icaic y otros","Películas":3}
+  ]
+  // instantiate d3plus
+  var visualization = d3plus.viz()
+    .container("#evograph")  // container DIV to hold the visualization
+    .data(sample_data)  // data to use with the visualization
+    .type("line")    // visualization type
+    .id("name")         // key for which our data is unique on
+    .text("name")       // key to use for display text
+    .y("Películas")         // key to use for y-axis
+    .x("año")          // key to use for x-axis
+    .time("año")
+    .shape({
+      "interpolate": "basis"  // takes accepted values to change interpolation type
+    })
+    .format({
+      "text": function(text, params) {
+        
+        if (text === "icaic") {
+          return "ICAIC";
+        }
+        if (text === "icaic y otros") {
+          return "ICAIC y otros";
+        }
+        if (text === "otros") {
+          return "Otros";
+        }
+        else {
+          return d3plus.string.title(text, params);
+        }
+        
+      }})
+      .y({"grid": false})
+        .x({"grid": false})
+    .draw()             // finally, draw the visualization!
+</script>
+  </body>
+</html>
