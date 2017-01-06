@@ -807,5 +807,13 @@ a:focus {
     margin-right: auto;
 }
 
+.it {
+    font-style: italic;
+}
+
+.bd {
+    font-weight: bold;
+}
+
 
 
