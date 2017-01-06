@@ -70,7 +70,7 @@
 .gblock-menu {
     font-size: 18px;
     padding: 0px;
-    color: #DDDDDD;
+    color: #897477;
 }
 
 .gblock-option {
@@ -78,18 +78,18 @@
     padding-right: 9px;
     padding-top: 2px;
     padding-bottom: 2px;
-    background-color: #DDDDDD;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #897477;
 }
 
 .gblock-selected {
-    background-color: #FFFFFF;
+    background-color: #897477;
     font-weight: bold;
-    color: #DDDDDD;
+    color: #FFFFFF;
 }
 
 .gitem-selected {
-    background-color: #DDDDDD;
+    background-color: #897477;
     color: #FFFFFF;
 }
 
@@ -98,7 +98,7 @@
     margin-left: 0px;
     margin-top: 2px;
     background-color: #FFFFFF;
-    color: #DDDDDD;
+    color: #897477;
     width: 188px;
 }
 
