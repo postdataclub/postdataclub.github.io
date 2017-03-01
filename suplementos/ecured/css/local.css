@@ -1,0 +1,42 @@
+.wiki-names {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    min-height:55px;
+}
+
+.ecured-color {
+    color: #EE1C25;
+}
+
+.wikipedia-color {
+    color: #0465B2;
+}
+
+.wiki-color {
+    color: #592F93;
+}
+
+.ecuall-color {
+    color: #D7AC00;
+}
+
+.selection {
+    text-align: center;
+}
+
+.selectionbar {
+    margin-bottom: 10px;
+}
+
+.sel-table {
+    margin-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#open-atable, 
+#close-atable {
+    margin-left: 20px;
+    text-align: center;
+}
