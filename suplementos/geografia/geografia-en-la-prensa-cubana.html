@@ -681,9 +681,10 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
                     regions: [{
                     attribute: 'fill',
                     scale: ['#C8EEFF', '#0071A4'],
-                    normalizeFunction: function(value) {
-                        return Math.log10(value);
-                    },
+                    normalizeFunction: 'polynomial',
+                    //normalizeFunction: function(value) {
+                    //    return Math.log10(value);
+                    //},
                     values: data,
                     min: 1,
                     max: 6000
@@ -771,6 +772,8 @@ function get_data(press,from,end){
     if (sum!=0)
         data[item[key][0]]=sum;
     }
+    console.log('Entra');
+    console.log(data);
     return data;
 }
 
