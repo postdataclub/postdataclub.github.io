@@ -715,8 +715,11 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
                         el.html(el.html()+' - '+data[code]+' menciones');
                     else
                         el.html(el.html()+' - '+data[code]+' mención');
-                else 
-                    el.html(el.html()+' - sin menciones');
+                else
+                    if (code=='CU')
+                        el.html(el.html()+' - no fue analizado');
+                    else
+                        el.html(el.html()+' - sin menciones');
         },
             regionStyle: {
               initial: {
