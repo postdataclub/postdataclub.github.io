@@ -36,10 +36,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-84667443-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -330,6 +328,7 @@ Varios países africanos se quedaron fuera de los diarios cubanos durante 2016, 
 <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4 container" >
                 <span class="main-text">Periódicos:&nbsp;</span>   
                 <select style="margin-left:2px; margin-right:20px;" id="pressselect">
+                <option value="all" class="main-text bd">Todos</option>
                 <option value="gr"  class="gr-color bd">Granma</option>
                 <option value="jr"  class="jr-color bd">Juventud Rebelde</option>
                 <option value="tr"  class="tr-color bd">Trabajadores</option>
@@ -419,16 +418,13 @@ La búsqueda por menciones geográficas, obviamente, no determina qué fue notic
      <div class="comments-block">
 <div id="disqus_thread"></div>
 <script>
-
 /**
  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-
 var disqus_config = function () {
     this.page.url = 'http://postdata.club/suplementos/geografia/geografia-en-la-prensa-cubana.html';  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = 'PDClub-201703-S2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
-
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = '//postdataclub.disqus.com/embed.js';
@@ -548,7 +544,6 @@ function generate_xaxis(){
             x.push(i+'/'+(m+1));
     return x;
 }
-
 function generate_yaxis(){
     x = ['Menciones'];
     for(m=0;m<months.length;m++)
@@ -556,7 +551,6 @@ function generate_yaxis(){
             x.push(i);
     return x;
 }
-
     
     $('[data-toggle="datepicker"]').datepicker({autoHide:true,format:'dd/mm/yyyy',startDate: new Date(2016,0,1),endDate: new Date(2016,11,31)});
     $('#fromdate').datepicker('setDate',new Date(2016,0,1));
@@ -621,9 +615,7 @@ function changepaper(paper) {
         $('.paperoption').removeClass('border');
         $('#groption').addClass('border');
     }
-
 }
-
 </script>
 <script>
 $.getJSON('data/countries-count.json', function(count) {
@@ -638,7 +630,6 @@ $.getJSON('data/countries-count.json', function(count) {
             ['Juventud Rebelde'].concat(count['jr']),
             ['Trabajadores'].concat(count['tr'])
           ],
-          //type: 'area-step',
           groups: [['Todos'],['Granma'], ['Juventud Rebelde'],['Trabajadores']],
           types: {
             'Granma':'area-step',
@@ -675,6 +666,55 @@ $.getJSON('data/countries-data.json', function(countries) {
 data = {};
 var clicked = null;
 var text = "Menciones";
+codes = [];
+function get_all_data(){
+    var at = {};
+    var gt = countries['gr'];
+    var jt = countries['jr'];
+    var tt = countries['tr'];
+    var keys = [];
+    for(var c in gt){
+        keys.push(c);
+        codes.push(gt[c][0]);
+    }
+    for(var c in jt){
+        if (!(c in keys))
+            keys.push(c);
+            codes.push(jt[c][0]);
+    }
+    for(var c in tt){
+        if (!(c in keys))
+            keys.push(c);
+            codes.push(gt[c][0]);
+    }
+    
+    for(var k=0;k<keys.length; k++){
+        var days = [];
+        var country = '';
+        var gin = false;
+        var jin = false;
+        var tin = false;
+        if (keys[k] in gt){
+            country = gt[keys[k]][0];
+            gin =  true;
+        }
+        if (keys[k] in jt) {
+                country = jt[keys[k]][0];
+                jin =  true;
+                }
+        if (keys[k] in tt) {
+                country = tt[keys[k]][0]; 
+                tin =  true;
+                }
+        for(var j=0;j<366;j++){
+                days.push((gin?gt[keys[k]][1][j]:0)+(jin?jt[keys[k]][1][j]:0)+(tin?tt[keys[k]][1][j]:0));
+        }
+        at[keys[k]]=[country,days];
+    }
+    return at;
+}
+
+all_data = get_all_data();
 
 map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$("#map"),
             series: {
@@ -682,9 +722,6 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
                     attribute: 'fill',
                     scale: ['#C8EEFF', '#0071A4'],
                     normalizeFunction: 'polynomial',
-                    //normalizeFunction: function(value) {
-                    //    return Math.log10(value);
-                    //},
                     values: data,
                     min: 1,
                     max: 6000
@@ -694,7 +731,8 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
             onRegionClick: function(e, code){
                 m=$('#map').vectorMap('get','mapObject'); 
                 if (clicked!=code){
-                    if (code in data){
+                    if (codes.indexOf(code)!=-1){
+                        console.log(codes.indexOf(code)!=-1);
                         clicked = code;
                         m.clearSelectedRegions();
                         m.setSelectedRegions([code]);
@@ -712,14 +750,19 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
              onRegionTipShow: function(e, el, code){
                 if (code in data)
                     if (data[code]>1)
-                        el.html(el.html()+' - '+data[code]+' menciones');
+                        el.html(el.html()+' - '+data[code]+' menciones <br><div style="text-align:center">(De click para marcar/desmarcar)</div>');
                     else
-                        el.html(el.html()+' - '+data[code]+' mención');
+                        el.html(el.html()+' - '+data[code]+' mención <br><div style="text-align:center">(De click para marcar/desmarcar)</div>');
                 else
                     if (code=='CU')
                         el.html(el.html()+' - no fue analizado');
                     else
-                        el.html(el.html()+' - sin menciones');
+                        if (codes.indexOf(code)!=-1){
+                            el.html(el.html()+' - sin menciones en el período <br><div style="text-align:center">(De click para marcar/desmarcar)</div>');
+                        } else {
+                            el.html(el.html()+' - sin menciones en el año <br><div style="text-align:center">(No es seleccionable)</div>');
+                        }
+                        
         },
             regionStyle: {
               initial: {
@@ -730,7 +773,6 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
                 //fill: '#461A57'
               //}
               }});
-
  var chartline = c3.generate({
         bindto: '#country-line-graph',
         data: {
@@ -763,26 +805,48 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
 
 
 function get_data(press,from,end){
-    var item = countries[press];
-    var data = {};
-    for (key in item) {
-        sum = 0;
-        for(var i=from;i<end+1;i++){
-            if (item[key][1][i]!=null) {
-                sum += item[key][1][i];
-            }
+    var ldata = {};
+    if (press=="all") {
+        gr = get_data('gr',from,end);
+        jr = get_data('jr',from,end);
+        tr = get_data('tr',from,end);
+        for(k in gr){
+            if (k in ldata)
+                ldata[k] = ldata[k]+gr[k];
+            else
+                ldata[k] = gr[k];
         }
-    if (sum!=0)
-        data[item[key][0]]=sum;
+        for(k in jr){
+            if (k in ldata)
+                ldata[k] = ldata[k]+jr[k];
+            else
+                ldata[k] = jr[k];
+        }
+        for(k in tr){
+            if (k in ldata)
+                ldata[k] = ldata[k]+tr[k];
+            else
+                ldata[k] = tr[k];
+        }
     }
-    console.log('Entra');
-    console.log(data);
-    return data;
+    else {
+        var item = countries[press];
+        for (var key in item) {
+            sum = 0;
+            for(var i=from;i<end+1;i++){
+                if (item[key][1][i]!=null) {
+                    sum += item[key][1][i];
+                }
+            }
+            if (sum!=0)
+                ldata[item[key][0]]=sum;
+        }
+    }
+    return ldata;
 }
 
-
 function update_map() {
-    press = $('#pressselect').val();
+    var press = $('#pressselect').val();
     from = $('#fromdate').datepicker('getDate');
     to = $('#todate').datepicker('getDate');
     data = get_data(press,get_day_index(from.getMonth()+1,from.getDate()),get_day_index(to.getMonth()+1,to.getDate()));
@@ -793,10 +857,11 @@ function update_map() {
         m.series.regions[0].setScale(['#E4DFB6','#D61F26']);
     if (press=='jr')
         m.series.regions[0].setScale(['#E4DFB6','#1BB6F1']);
+    if (press=='all')
+        m.series.regions[0].setScale(['#E4DFB6','#461A57']);
     m.series.regions[0].clear();
     m.series.regions[0].setValues(data);
 }
-
 function update_region(){
         from = $('#fromdate').datepicker('getDate');
         to = $('#todate').datepicker('getDate');
@@ -805,15 +870,12 @@ function update_region(){
         setTimeout(function () {
         chartline.regions.add([{start:get_day_index(from.getMonth()+1,from.getDate()),end:get_day_index(to.getMonth()+1,to.getDate()),class:'region1'}]);},200);
 }
-
 $('#fromdate').on('change', function() {
         d = $('#fromdate').datepicker('getDate');
         $('#todate').datepicker('setStartDate',d);
         update_map();
         update_region();
     });
-
-
 $('#todate').on('change', function() {
         d = $('#todate').datepicker('getDate');
         $('#fromdate').datepicker('setEndDate',d);
@@ -826,11 +888,19 @@ $('#pressselect').on('change', function() {
             update_line_graph(clicked);
         }
     });
-    
+
+
+
 update_map();
 
+
+
+
 function update_line_graph(code){
-    var item = countries[press];
+    var press = $('#pressselect').val();
+    var ditem = all_data;
+    if (press!='all')
+        var ditem = countries[press];    
     var color="#D61F26";
     text = '<span class="bd gr-color">Granma</span>';
     if (press=='tr') {
@@ -841,10 +911,14 @@ function update_line_graph(code){
         color="#1BB6F1";
         text = '<span class="bd jr-color">Juventud Rebelde</span>';
     }
-    for(key in item)
-        if (item[key][0]==code){
+    if (press=='all') {
+        color="#461A57";
+        text = '<span class="bd main-text">Todos</span>';
+    }
+    for(key in ditem)
+        if (ditem[key][0]==code){
             $('#country-line-text').html('<span class="bd">'+key.toUpperCase()+'</span> en '+text);
-            menciones = ['Menciones'].concat(item[key][1]);
+            menciones = ['Menciones'].concat(ditem[key][1]);
             chartline.load({
                columns:[menciones],
                colors: {
@@ -855,8 +929,6 @@ function update_line_graph(code){
 }
             
 });
-
-
 </script>    
   </body>
 </html>
