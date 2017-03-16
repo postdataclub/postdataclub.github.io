@@ -755,7 +755,7 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
                         el.html(el.html()+' - '+data[code]+' mención <br><div style="text-align:center">(De click para marcar/desmarcar)</div>');
                 else
                     if (code=='CU')
-                        el.html(el.html()+' - no fue analizado');
+                        el.html(el.html()+' - no fue analizado <br><div style="text-align:center">(No es seleccionable)</div>');
                     else
                         if (codes.indexOf(code)!=-1){
                             el.html(el.html()+' - sin menciones en el período <br><div style="text-align:center">(De click para marcar/desmarcar)</div>');
