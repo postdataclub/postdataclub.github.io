@@ -548,7 +548,7 @@ function generate_yaxis(){
     x = ['Menciones'];
     for(m=0;m<months.length;m++)
         for(i = 1;i<months[m]+1;i++)
-            x.push(i);
+            x.push(0);
     return x;
 }
     
@@ -915,8 +915,10 @@ function update_line_graph(code){
         color="#461A57";
         text = '<span class="bd main-text">Todos</span>';
     }
+    var not_in_data = true;
     for(key in ditem)
         if (ditem[key][0]==code){
+            not_in_data = false;
             $('#country-line-text').html('<span class="bd">'+key.toUpperCase()+'</span> en '+text);
             menciones = ['Menciones'].concat(ditem[key][1]);
             chartline.load({
@@ -924,8 +926,19 @@ function update_line_graph(code){
                colors: {
                 'Menciones': color,
             }
-            });
-        }
+        });
+    }
+    if (not_in_data) {
+        $('#country-line-text').html('<span class="bd">'+key.toUpperCase()+'</span> en '+text);
+            menciones = generate_yaxis();
+            chartline.load({
+               columns:[menciones],
+               colors: {
+                'Menciones': color,
+            }
+        });
+    
+    }
 }
             
 });
