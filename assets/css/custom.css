@@ -509,6 +509,14 @@ body {
     color: #298CEE;
 }
 
+.female-color {
+    background-color: #EE48A3;
+}
+
+.male-color {
+    background-color: #298CEE;
+}
+
 .footer-icons {
     float: right;
     padding-right: 15px;
