@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../icon.png">
 
-    <title>Postdata.club - El Sexo de los Premios Nacionales</title>
+    <title>Postdata.club - Premios Nacionales: mujeres a la sombra</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
     <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
     <!-- Bootstrap core CSS -->
@@ -455,7 +455,10 @@ var disqus_config = function () {
                 total += dat['total'];
                 woman += dat['woman'];
             }
-            ids.forEach(sum_data);
+            console.log(ids);
+            for(var i of ids.values()){
+              sum_data(i);  
+            }
             return {'total':total,'woman':woman};
         }
         
@@ -534,9 +537,9 @@ var disqus_config = function () {
             var mmax = 2017;
             var ids = get_all_ids(prizes);
             var tyears = [];
-            ids.forEach(function(id){
+            for(var id of ids.values()){
                 tyears.push(prizes['prizes'][id]['first_year']);
-            });
+            }
             var years = [];
             for(var i=get_min(tyears);i<=mmax;i++){
                 years.push(i);
@@ -547,13 +550,13 @@ var disqus_config = function () {
         function get_year_prize(prizes){
             var dat = {};
             var ids = get_all_ids(prizes);
-            ids.forEach(function(id){
+            for(var id of ids.values()){
                 if (!(prizes['prizes'][id]['first_year'] in dat)){
                     dat[prizes['prizes'][id]['first_year']]= {'value':prizes['prizes'][id]['first_year'],'text':prizes['prizes'][id]['name']};
                 } else {
                     dat[prizes['prizes'][id]['first_year']]['text'] = dat[prizes['prizes'][id]['first_year']]['text']+' - '+prizes['prizes'][id]['name'];
                 }
-            });
+            }
             var dat_a = [];
             for(var i in dat){
                 dat_a.push(dat[i]);
@@ -581,11 +584,16 @@ var disqus_config = function () {
             years.forEach(function(y){
                 var total = 0;
                 var woman = 0;
-                ids.forEach(function(id){
+                //ids.forEach(function(id){
+                    //var dat = get_prize_data_per_year(id,y,prizes);
+                    //total += dat['total'];
+                    //woman +=dat['woman'];
+                //});
+                for(var id of ids.values()){
                     var dat = get_prize_data_per_year(id,y,prizes);
                     total += dat['total'];
                     woman +=dat['woman'];
-                });
+                }
                 womans.push(woman);
                 percents.push(Math.round(woman*100/total));
             });
@@ -658,7 +666,6 @@ var disqus_config = function () {
             var text = '';
             var persons = prizes['prizes'][id]['prizes'][year];
             persons.forEach(function(e){
-                console.log(e);
                 var nickname = e['nickname'];
                 var name = e['name'];
                 var sex = e['sex'];
@@ -724,7 +731,7 @@ var disqus_config = function () {
         
         function get_all_prize_foot_td(sex,start_year,id,prizes){
             var text = '';
-            for(var i=start_year;i<=2016;i++){
+            for(var i=start_year;i<=2017;i++){
                 text+= get_prize_foot_td(sex,i,id,prizes);
             }
             return text;
@@ -738,7 +745,7 @@ var disqus_config = function () {
             } 
             var id = $('#footprize').val();
             var year = prizes['prizes'][id]['first_year'];
-            $('#foottext').html(sextext+' - <span class="bd">Premio Nacional de '+prizes['prizes'][id]['name'] + '</span>, desde '+year+' hasta 2016');
+            $('#foottext').html(sextext+' - <span class="bd">Premio Nacional de '+prizes['prizes'][id]['name'] + '</span>, desde '+year+' hasta 2017');
             $('#foottr').html(get_all_prize_foot_td(sex,year,id,prizes));
         }
         
