@@ -823,5 +823,36 @@ a:focus {
     font-weight: bold;
 }
 
+.facebook-color {
+    background-color: #3B5998;
+}
+
+.twitter-color {
+    background-color: #00ACED;
+}
+
+.link-out {
+    color: #FFFFFF;
+}
+
+.link-out:hover, .link-out:focus {
+    font-weight: bold;
+    color:#ffffff;
+}
+
+#link-bar {
+    margin-top:20px;
+    text-align:center;
+    font-size:30px;
+    color:#ffffff;
+    padding:4px;
+}
+
+.legend{
+    margin-left: 60px;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: left;
+}
 
 

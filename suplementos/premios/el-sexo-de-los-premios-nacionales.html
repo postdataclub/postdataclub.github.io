@@ -137,11 +137,11 @@
 
             </div>           
     </div>
-    
+   
     <div class="text-body">
     
     <div class="text-block">
-  <p>Los derechos de las mujeres, la igualdad de oportunidades y su reconocimiento social parecen temas resueltos en la sociedad cubana. Desde el triunfo revolucionario, y particularmente desde la creación de la Federación de Mujeres Cubana, la igualdad de género es una de las banderas de nuestro sistema. Sin embargo, todavía existen prejuicios sociales –no así legales- sobre determinadas profesiones ejercidas por las féminas.
+  <p>Los derechos de las mujeres, la igualdad de oportunidades y su reconocimiento social parecen temas resueltos en la sociedad cubana. Desde el triunfo revolucionario, y particularmente desde la creación de la Federación de Mujeres Cubanas (FMC), la igualdad de género es una de las banderas de nuestro sistema. Sin embargo, todavía existen prejuicios sociales –no así legales- sobre determinadas profesiones ejercidas por las féminas.
 </p><p>
 En Cuba se entregan Premios Nacionales por la obra de toda la vida a muchos profesionales de diversas ramas. Los galardones que se otorgan a los artistas y escritores, suelen ser los más promovidos por los medios, no obstante, los ingenieros, arquitectos, abogados, economistas, químicos, físicos y matemáticos son premiados cada año por su aporte a la sociedad.
 </p><p>
@@ -215,8 +215,8 @@ Así, tanto aquellos que han dedicado su vida a las ciencias naturales, a las hu
             <div>
             <table class="sex-meter-table">
             <tr>
-            <td id="fall-percent" class="female-color" style="width:50%;"></td>
-            <td id="mall-percent" class="male-color" style="width:50%;"></td>
+            <td id="fall-percent" class="female-color" style="width:50%;">&nbsp;</td>
+            <td id="mall-percent" class="male-color" style="width:50%;">&nbsp;</td>
             </tr>
             </table> 
             </div>
@@ -231,6 +231,10 @@ Así, tanto aquellos que han dedicado su vida a las ciencias naturales, a las hu
             <div id="sex-meter-prize-info" class="sex-meter-prize-inf" style="display:None;">
                 Texto
             </div>
+            <div class="main-text legend" style="margin-left:0px;">
+        * Si selecciona o deselecciona un premio se recalcula el porciento total de Premios otorgados a mujeres en 
+        base a los premios seleccionados
+        </div>
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 male-text sex-icon" >
         <i class="fa fa-male"></i>
@@ -244,7 +248,7 @@ Así, tanto aquellos que han dedicado su vida a las ciencias naturales, a las hu
 <p>
 Por ejemplo, los Premios Nacionales de Arquitectura, Ingeniería Civil, Ingeniería Hidráulica, Ingeniería Eléctrica, Ingeniería Mecánica, Ingeniería Industrial, Geociencia e Ingeniería Química dedicadas  a la construcción, son entregados por la Unión Nacional de Arquitectos e Ingenieros  de la Contrucción de Cuba (UNAICC), institución que plantea las bases para otorgar los premios. Para ser elegido con uno de los reconocimientos, primeramente se debe estar afiliado a la organización y ser considerado profesional destacado y de alto nivel. Si tenemos en cuenta los datos del Censo de Población y Viviendas de 2012, en esa fecha eran 128 700 los egresados de esas especialidades en Cuba, y de ellos, menos del 30% eran mujeres.
 </p><p>
-La igualdad de oportunidades para hombres y mujeres que reconoce la sociedad cubana, denota que las mujeres pueden incursionar sin problemas en las carreras de ingienerías. Sin embargo, no suelen  hacerlo. Si nunca se dedican a esas labores, resulta imposible ser reconocido con alguno de los Premios Nacionales de la UNAICC. 
+La igualdad de oportunidades para hombres y mujeres que reconoce la sociedad cubana, denota que las mujeres pueden incursionar sin problemas en las carreras de ingenerías. Sin embargo, no suelen  hacerlo. Si nunca se dedican a esas labores, resulta imposible ser reconocido con alguno de los Premios Nacionales de la UNAICC. 
 </p><p>
 Por otro lado, una profesión que habitualmente ha sido reconocida como “femenina”, es la danza. Muchas son las niñas que asisten a las escuelas de danza en el país y menos los niños que desde edades tempranas recorren ese camino. El Premio Nacional de Danza es, de todos los que hemos analizados, el que mayor proporción femenina presenta; pero las mujeres que han recibido el galardón superan a los hombres solo en uno.
 </p><p>
@@ -254,11 +258,17 @@ Tampoco en las áreas que se asocian más a las mujeres como son las artes y las
 </p>
 </div>
   
-  <div id="porciento-premios" class="media-block main-border border">
+  <div id="evolution-porciento-premios" class="media-block main-border border">
         <div class="graph-text main-text" style="text-align:center;">
         Evolución de los Premios Nacionales otorgados a mujeres
         </div>
         <div id="evolution" class="graph" ></div>
+        <div class="main-text legend">
+        * La curva representa el porciento por año de mujeres que obtuvieron Premios Nacionales <br>
+        * El diámetro de la esfera representa el número total de mujeres que obtuvieron Premios Nacionales en cada año <br>
+        * Las líneas verticales representan el año en el que cada premio comenzó a otorgarse <br>
+        * En la gráfica inferior se puede seleccionar, para mayor detalle, el período de tiempo que se desee 
+        </div>
     </div>
     
     <div class="text-block">
@@ -266,7 +276,7 @@ Tampoco en las áreas que se asocian más a las mujeres como son las artes y las
 </p><p>
 A lo anterior se suma la doble tarea –profesional y familiar- que la mayoría de las mujeres asumen. Todavía hoy son ellas las principales responsables de las labores domésticas y la crianza de los hijos. Esto puede restar fuerza y dedicación a sus trabajos. 
 </p><p>
-Aunque la equidad de género es ampliamente defendida en nuestro país, los números arrojados por el análisis de 25 Premios Nacionales, nos dicen que todavía en la práctica no se logra. Las mujeres son mucho menos reconocidas por la obra de toda la vida.
+Aunque la equidad de género es ampliamente defendida en nuestro país, los números arrojados por el análisis de <span id="totalprices">25</span> Premios Nacionales, nos dicen que todavía en la práctica no se logra. Las mujeres son mucho menos reconocidas por la obra de toda la vida.
 </p>    
     </div>
      
@@ -278,9 +288,13 @@ Aunque la equidad de género es ampliamente defendida en nuestro país, los núm
     </p>
     </div>    
  
-  </div>
- 
-    
+  <div class="text-block">
+   <div id="link-bar" class="row">
+        <a class="link-out" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/suplementos/premios/el-sexo-de-los-premios-nacionales.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a>
+        <a class="link-out" href="https://twitter.com/share?url=http://www.postdata.club/suplementos/premios/el-sexo-de-los-premios-nacionales.html&amp;text=Premios%20Nacionales%3A%20mujeres%20a%20la%20sombra&amp;hashtags=#postdataclub" target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a>
+        <a class="link-out" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Premios Nacionales: mujeres a la sombra http://www.postdata.club/suplementos/premios/el-sexo-de-los-premios-nacionales.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 main-color"><i class="fa fa-envelope"></i> Email</div></a>
+    </div>
+   </div> 
      <div class="comments-block">
 <div id="disqus_thread"></div>
 <script>
@@ -466,6 +480,7 @@ var disqus_config = function () {
             var dat = get_all_prize_data(lids,data);
             var fp = Math.round(dat['woman']*100/dat['total']);
             var mp = 100-fp;
+            $('#totalprices').html(get_all_ids(data).size);
             if (lids.size!=0) {
                 if (!$('#fall-percent').hasClass('female-color')){ 
                     $('#fall-percent').addClass('female-color');
@@ -476,11 +491,11 @@ var disqus_config = function () {
                 $('#mall-percent').css('width',mp+'%');
                 $('#sex-meter-gen').html(fp+'%');
                 //$('#total-prizes').html(lids.size+' Premios Nacionales');
-                $('#total-woman').html(dat['woman']+' mujeres');
+                $('#total-woman').html(dat['woman']+' a mujeres');
                 if(dat['woman']==1){
                     $('#total-woman').html('1 mujer');
                 }
-                $('#total-man').html((dat['total']-dat['woman'])+' hombres')
+                $('#total-man').html((dat['total']-dat['woman'])+' a hombres')
             } else { 
                 $('#fall-percent').removeClass('female-color');
                 $('#mall-percent').removeClass('male-color');
@@ -552,9 +567,9 @@ var disqus_config = function () {
             var ids = get_all_ids(prizes);
             for(var id of ids.values()){
                 if (!(prizes['prizes'][id]['first_year'] in dat)){
-                    dat[prizes['prizes'][id]['first_year']]= {'value':prizes['prizes'][id]['first_year'],'text':prizes['prizes'][id]['name']};
+                    dat[prizes['prizes'][id]['first_year']]= {'value':prizes['prizes'][id]['first_year'],'text':prizes['prizes'][id]['shortname']};
                 } else {
-                    dat[prizes['prizes'][id]['first_year']]['text'] = dat[prizes['prizes'][id]['first_year']]['text']+' - '+prizes['prizes'][id]['name'];
+                    dat[prizes['prizes'][id]['first_year']]['text'] = dat[prizes['prizes'][id]['first_year']]['text']+' | '+prizes['prizes'][id]['shortname'];
                 }
             }
             var dat_a = [];
@@ -654,9 +669,8 @@ var disqus_config = function () {
             }
         },
                 point: {
-        //          r: 10
                   r: function (d) {
-                    return dat[2][d.index]*1.5;
+                    return dat[2][d.index]*1;
                   }
                 }
               });

@@ -3,6 +3,7 @@
         "pc": {
             "id": "pc",
             "name": "Patrimonio Cultural",
+            "shortname": "Patrimonio",
             "institutions": [
                 {
                     "name": "Consejo Nacional de Patrimonio Cultural",
@@ -57,6 +58,7 @@
         "ea": {
             "id": "ea",
             "name": "Enseñanza Artística",
+            "shortname": "Ens. Art.",
             "institutions": [
                 {
                     "name": "Consejo Nacional de Escuelas de Arte",
@@ -283,6 +285,7 @@
         "ap": {
             "id": "ap",
             "name": "Artes Plásticas",
+            "shortname": "Art. Plást.",
             "institutions": [
                 {
                     "name": "Consejo Nacional de las Artes Plásticas",
@@ -487,6 +490,7 @@
         "li": {
             "id": "li",
             "name": "Literatura",
+            "shortname":"Literat.",
             "institutions": [
                 {
                     "name": "Instituto Cubano del Libro",
@@ -791,6 +795,7 @@
         "mu": {
             "id": "mu",
             "name": "Música",
+            "shortname":"Música",
             "institutions": [
                 {
                     "name": "Instituto Cubano de la Música",
@@ -1093,6 +1098,7 @@
         "hu": {
             "id": "hu",
             "name": "Humorismo",
+            "shortname":"Humor",
             "institutions": [
                 {
                     "name": "Centro Promotor del Humor",
@@ -1243,6 +1249,7 @@
         "ed": {
             "id": "ed",
             "name": "Edición",
+            "shortname": "Edición",
             "institutions": [
                 {
                     "name": "Instituto Cubano del Libro",
@@ -1415,6 +1422,7 @@
         "dl": {
             "id": "dl",
             "name": "Diseño del Libro",
+            "shortname":"D. Libro.",
             "institutions": [
                 {
                     "name": "Instituto Cubano del Libro",
@@ -1581,6 +1589,7 @@
         "de": {
             "id": "de",
             "name": "Derecho",
+            "shortname":"Derecho",
             "co-name": "Carlos Manuel de Céspedes",
             "institutions": [
                 {
@@ -1684,6 +1693,7 @@
         "ci": {
             "id": "ci",
             "name": "Cine",
+            "shortname": "Cine",
             "co-name": null,
             "institutions": [
                 {
@@ -1831,6 +1841,7 @@
         "da": {
             "id": "da",
             "name": "Danza",
+            "shortname": "Danza",
             "co-name": null,
             "institutions": [
                 {
@@ -2028,6 +2039,7 @@
         "cs": {
             "id": "cs",
             "name": "Ciencias Sociales y Humanísticas",
+            "shortname":"C. Soc.",
             "institutions": [
                 {
                     "name": "Instituto Cubano del Libro",
@@ -2240,6 +2252,7 @@
         "ic": {
             "id": "ic",
             "name": "Investigación Cultural",
+            "shortname": "Inv. Cult.",
             "co-name": null,
             "institutions": [
                 {
@@ -2389,6 +2402,7 @@
         "ra": {
             "id": "ra",
             "name": "Radio",
+            "shortname": "Radio",
             "co-name": null,
             "institutions": [
                 {
@@ -2834,6 +2848,7 @@
         "tv": {
             "id": "tv",
             "name": "Televisión",
+            "shortname": "TV",
             "co-name": null,
             "institutions": [
                 {
@@ -3319,6 +3334,7 @@
         "pe": {
             "id": "pe",
             "name": "Periodismo",
+            "shortname": "Periodismo",
             "co-name": "José Martí",
             "institutions": [
                 {
@@ -3754,6 +3770,7 @@
         "ec": {
             "id": "ec",
             "name": "Economía",
+            "shortname": "Economía",
             "institutions": [
                 {
                     "name": "Asociación Nacional de Economistas y Contadores de Cuba",
@@ -3870,6 +3887,7 @@
         "te": {
             "id": "te",
             "name": "Teatro",
+            "shortname": "Teatro",
             "institutions": [
                 {
                     "name": "Consejo Nacional de las Artes Escénicas",
@@ -4094,6 +4112,7 @@
         "ar": {
             "id": "ar",
             "name": "Arquitectura",
+            "shortname":"Arquit.",
             "institutions": [
                 {
                     "name": "Unión Nacional de Arquitectos e Ingenieros de la Construcción",
@@ -4474,6 +4493,7 @@
         "hi": {
             "id": "hi",
             "name": "Ingeniería Hidráulica",
+            "shortname": "Ing. Hid.",
             "institutions": [
                 {
                     "name": "Unión Nacional de Arquitectos e Ingenieros de la Construcción",
@@ -4830,6 +4850,7 @@
         "cv": {
             "id": "cv",
             "name": "Ingeniería Civil",
+            "shortname": "Ing. Civ.",
             "institutions": [
                 {
                     "name": "Unión Nacional de Arquitectos e Ingenieros de la Construcción",
@@ -5202,6 +5223,7 @@
         "me": {
             "id": "me",
             "name": "Ingenierías Mecánica, Eléctrica e Industrial aplicadas a la Construcción",
+            "shortname":"Mec-Elect-Ind",
             "institutions": [
                 {
                     "name": "Unión Nacional de Arquitectos e Ingenieros de la Construcción",
@@ -5471,7 +5493,8 @@
         },
         "qi": {
             "id": "qi",
-            "name": "Geociencias y la Química",
+            "name": "Geociencias y la Química  aplicadas a la Construcción",
+            "shortname": "Geoc-Quím",
             "institutions": [
                 {
                     "name": "Unión Nacional de Arquitectos e Ingenieros de la Construcción",
@@ -5762,6 +5785,7 @@
         "hs": {
             "id": "hs",
             "name": "Historia",
+            "shortname": "Hist.",
             "institutions": [
                 {
                     "name": "Unión Nacional de Historiadores",
@@ -5784,50 +5808,57 @@
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"1999": [
+                ],
+                "1999": [
                     {
                         "name": "César García del Pino",
                         "nickname": "César García",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ]
-                ,"2001": [
+                ],
+                "2001": [
                     {
                         "name": "José Cantón Navarro",
                         "nickname": "José Cantón",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2003": [
+                ],
+                "2003": [
                     {
                         "name": "Eusebio Leal Spengler",
                         "nickname": "Eusebio Leal",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2005": [
+                ],
+                "2005": [
                     {
                         "name": "Áurea Matilde Fernández Muñiz",
                         "nickname": "Áurea Matilde Fernández",
                         "sex": "Femenino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "María del Carmen Barcia Zequeira",
                         "nickname": "María del Carmen Barcia",
                         "sex": "Femenino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Olga Portuondo Zúñiga",
                         "nickname": "Olga Portuondo",
                         "sex": "Femenino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Francisco Pérez Guzmán",
                         "nickname": "Francisco Pérez",
                         "sex": "Masculino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Eduardo Torres Cuevas",
                         "nickname": "Eduardo Torres Cuevas",
                         "sex": "Masculino",
@@ -5840,52 +5871,469 @@
                         "nickname": "Fidel Castro",
                         "sex": "Masculino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Francisca López Civeira",
                         "nickname": "Francisca López",
                         "sex": "Femenino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Pedro Álvarez Tabío",
                         "nickname": "Pedro Álvarez",
                         "sex": "Masculino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Rolando Jesús Rodríguez García",
                         "nickname": "Rolando Jesús Rodríguez",
                         "sex": "Masculino",
                         "age": 0
-                    },{
+                    },
+                    {
                         "name": "Jorge Ibarra Cuesta",
                         "nickname": "Jorge Ibarra",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2009": [
+                ],
+                "2009": [
                     {
                         "name": "Ibrahím Hidalgo Paz",
                         "nickname": "Ibrahím Hidalgo",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2010": [
+                ],
+                "2010": [
                     {
                         "name": " Pedro Pablo Rodríguez",
                         "nickname": " Pedro Pablo Rodríguez",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2011": [
+                ],
+                "2011": [
                     {
                         "name": "Mario Mencía Cobas",
                         "nickname": "Mario Mencía",
                         "sex": "Masculino",
                         "age": 0
                     }
-                ],"2017": [
+                ],
+                "2017": [
                     {
                         "name": "Mildred de la Torre Molina",
                         "nickname": "Mildred de la Torre",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ]
+            }
+        },
+        "em": {
+            "id": "em",
+            "name": "Enseñanza de la Matemática y la Computación \"Raimundo Reguera\"",
+            "shortname": "Ens. Mat. y Comp.",
+            "institutions": [
+                {
+                    "name": "Sociedad Cubana de Matemática y Computación",
+                    "art": "la"
+                }
+            ],
+            "category": "Ciencias Naturales y Exactas",
+            "first_year": 2009,
+            "prizes": {
+                "2009": [
+                    {
+                        "name": "Luis Davison San Juan",
+                        "nickname": "Luis Davidson",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Margarita Suárez Alonso",
+                        "nickname": "Margarita Suárez",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Hilarión Santana de Armas",
+                        "nickname": "Hilarión Santana",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2011": [
+                    {
+                        "name": "Mario Díaz González",
+                        "nickname": "Mario Díaz",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Virginia Álvarez Suárez",
+                        "nickname": "Virginia Álvarez",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Raúl Ochoa Rojas",
+                        "nickname": "Raúl Ochoa",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2013": [
+                    {
+                        "name": "María Victoria Mederos Brú",
+                        "nickname": "María Victoria Mederos",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Ángela Serafina Miyar Chávez",
+                        "nickname": "Ángela Serafina Miyar",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Hilba Claudina Rivero Álvarez",
+                        "nickname": "Hilba Claudina Rivero",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "2015": [
+                    {
+                        "name": "Luis Davison San Juan",
+                        "nickname": "Luis Davidson",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "María de los Ángeles Prieto Durán",
+                        "nickname": "María de los Ángeles Prieto",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Sergio Ballester Pedroso",
+                        "nickname": "Sergio Ballester",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ]
+            }
+        },
+        "mc": {
+            "id": "mc",
+            "name": "Matemática y Computación \"Pablo Miquel\"",
+            "shortname": "Mat. y Comp.",
+            "institutions": [
+                {
+                    "name": "Sociedad Cubana de Matemática y Computación",
+                    "art": "la"
+                }
+            ],
+            "category": "Ciencias Naturales y Exactas",
+            "first_year": 1979,
+            "prizes": {
+                "1982": [
+                    {
+                        "name": "Francisco Guerra",
+                        "nickname": "Francisco Guerra",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Miguel Jiménez Pozo",
+                        "nickname": "Miguel Jiménez",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Andrés Fraguela Collar",
+                        "nickname": "Andrés Fraguela",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "1986": [
+                    {
+                        "name": "Guillermo López Lagomasino",
+                        "nickname": "López Lagomasino",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Miguel Katrib Mora",
+                        "nickname": "Miguel Katrib",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "José Ruiz Schulcloper",
+                        "nickname": "José Ruiz Schulcloper",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "1988": [
+                    {
+                        "name": "Luciano García Garrido",
+                        "nickname": "Luciano García",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Martín López",
+                        "nickname": "Martín López",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Lina García",
+                        "nickname": "Lina García",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "José A. Repilado Ramírez",
+                        "nickname": "José Repilado",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Celia Rizo",
+                        "nickname": "Celia Rizo",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "1991": [
+                    {
+                        "name": "Luis Campistrous",
+                        "nickname": "Luis Campistrous",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "1994": [
+                    {
+                        "name": "Armando Flores",
+                        "nickname": "Armando Flores",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "1997": [
+                    {
+                        "name": "Pablo Olivares",
+                        "nickname": "Pablo Olivares",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Olga Padrón",
+                        "nickname": "Olga Padrón",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "2005": [
+                    {
+                        "name": "Juan Bory Reyes",
+                        "nickname": "Juan Bory",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Miguel Ángel Borges",
+                        "nickname": "Miguel Ángel Borges",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Rafael Bello Pérez",
+                        "nickname": "Rafael Bello",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Ricardo Abreu Blaya",
+                        "nickname": "Ricardo Abreu",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2007": [
+                    {
+                        "name": "Reinaldo Rodríguez",
+                        "nickname": "Reinaldo Rodríguez",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Ricardo Grau Ábalo",
+                        "nickname": "Ricardo Grau",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Julián Bravo Castilleiro",
+                        "nickname": "Julián Bravo",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2009": [
+                    {
+                        "name": "Eberto Morgado Morales",
+                        "nickname": "Eberto Morgado",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Mijail Borges Quintana",
+                        "nickname": "Mijail Borges",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Olga Lidia Pérez González",
+                        "nickname": "Olga Lidia Pérez",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "María Matilde García Lorenzo",
+                        "nickname": "María Matilde García",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "2011": [
+                    {
+                        "name": "Mariano Rodríguez Ricard",
+                        "nickname": "Mariano Rodríguez",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Yailé Caballero Mota",
+                        "nickname": "Yailé Caballero",
+                        "sex": "Femenino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Lorgio Félix Batard Martínez",
+                        "nickname": "Lorgio Félix Batard",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Zenaida García Valdivia",
+                        "nickname": "Zenaida García",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "2013": [
+                    {
+                        "name": "Raúl Guinovart Díaz",
+                        "nickname": "Raúl Guinovart",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Edel Bartolo García Reyes",
+                        "nickname": "Edel Bartolo García",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Mateo Lezcano Brito",
+                        "nickname": "Mateo Lezcano",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Isabel Alonso Berenguer",
+                        "nickname": "Isabel Alonso",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ]
+            }
+        },
+        "fi": {
+            "id": "fi",
+            "name": "Física \"Manuel F. Gran\"",
+            "shortname": "Física",
+            "institutions": [
+                {
+                    "name": "Sociedad Cubana de Física",
+                    "art": "la"
+                }
+            ],
+            "category": "Ciencias Naturales y Exactas",
+            "first_year": 2011,
+            "prizes": {
+                "2011": [
+                    {
+                        "name": "Carlos Cabal Mirabal",
+                        "nickname": "Carlos Cabal",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Melquiades de Dios Leyva",
+                        "nickname": "Melquiades de Dios",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Hugo Pérez Rojas",
+                        "nickname": "Hugo Pérez",
+                        "sex": "Masculino",
+                        "age": 0
+                    },
+                    {
+                        "name": "Carlos Trallero Giner",
+                        "nickname": "Carlos Trallero",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2012": [
+                    {
+                        "name": "Alejandro Cabo Montes de Oca",
+                        "nickname": "Alejandro Cabo",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2013": [
+                    {
+                        "name": "Elena Vigil Santos",
+                        "nickname": "Elena Vigil",
+                        "sex": "Femenino",
+                        "age": 0
+                    }
+                ],
+                "2014": [
+                    {
+                        "name": "Augusto González",
+                        "nickname": "Augusto González",
+                        "sex": "Masculino",
+                        "age": 0
+                    }
+                ],
+                "2016": [
+                    {
+                        "name": "Osvaldo de Melo Pereira",
+                        "nickname": "Osvaldo de Melo Pereira",
                         "sex": "Masculino",
                         "age": 0
                     }
