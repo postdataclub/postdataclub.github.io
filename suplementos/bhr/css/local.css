@@ -1,0 +1,66 @@
+.slider {
+   background-color: #FFFFFF;
+}
+
+.slider-item {
+    width: 80px;
+} 
+
+.flag-min {
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #EBE2EC;
+}
+
+.border-white {
+    border-color: #FFFFFF;
+}
+
+.flag-min {
+    width:30px;
+    height:20px;
+}
+
+.map {
+    width: 100%;
+    height: 415px;
+}
+
+.blogo {
+    width:70px;
+    text-align: center;
+}
+
+.btext {
+    font-size:20px;
+    padding-left: 60px;
+}
+
+.countrylinetext{
+    font-size: 30px;
+    padding-left:45px;
+    font-weight: bold;
+}
+
+#country-data {
+  padding-left:45px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#bghinfo {
+  padding-left: 25px;
+}
+
+.binfo {
+  margin-left: 90px;
+  display:none;
+}
+
+.bhead {
+    margin-top:10px;
+    padding-left: 15px;
+}

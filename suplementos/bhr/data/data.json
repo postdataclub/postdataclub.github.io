@@ -1,0 +1,992 @@
+{
+    "BF": {
+        "terreno": 41419,
+        "name": "Burkina Fasso",
+        "partos": 11672,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 296225,
+        "operaciones": 2387,
+        "pis": "2000-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 690529
+    },
+    "BO": {
+        "terreno": 38145675,
+        "name": "Bolivia ",
+        "partos": 51241,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 15723,
+        "operaciones": 1432401,
+        "pis": "2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 67209288
+    },
+    "JP": {
+        "terreno": null,
+        "name": "Jap\u00f3n",
+        "partos": null,
+        "cooperacion": "2013-2014-2015",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "BI": {
+        "terreno": "24",
+        "name": "Burundi",
+        "partos": 4804,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014",
+        "vacunas": "13",
+        "operaciones": 3912,
+        "pis": "2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014",
+        "casos": 198242
+    },
+    "BT": {
+        "terreno": "0",
+        "name": "But\u00e1n",
+        "partos": "877",
+        "cooperacion": "1999-2000-2001-2002-2003-2013-2014",
+        "vacunas": "0",
+        "operaciones": 3074,
+        "pis": null,
+        "casos": 230282
+    },
+    "JM": {
+        "terreno": 7629,
+        "name": "Jamaica",
+        "partos": "2",
+        "cooperacion": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 63408,
+        "operaciones": 17659,
+        "pis": null,
+        "casos": 1011064
+    },
+    "BW": {
+        "terreno": 4816,
+        "name": "Botswana",
+        "partos": 12488,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 83083,
+        "operaciones": 48316,
+        "pis": "2003-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "casos": 2290596
+    },
+    "BR": {
+        "terreno": 30438,
+        "name": "Brasil",
+        "partos": 1033,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2013-2014-2015-2016",
+        "vacunas": 15681,
+        "operaciones": 1602,
+        "pis": null,
+        "casos": 71477619
+    },
+    "NR": {
+        "terreno": 2183,
+        "name": "Nauru",
+        "partos": "237",
+        "cooperacion": "2004-2009-2010-2011-2012-2013-2014-2015",
+        "vacunas": "9",
+        "operaciones": "169",
+        "pis": "2004-2009-2010-2011-2013-2014-2015",
+        "casos": 35284
+    },
+    "BZ": {
+        "terreno": 805024,
+        "name": "Belice",
+        "partos": 32129,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 225115,
+        "operaciones": 111352,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 4682873
+    },
+    "RU": {
+        "terreno": null,
+        "name": "Rusia",
+        "partos": null,
+        "cooperacion": "2015-2016",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "RW": {
+        "terreno": 81993,
+        "name": "Ruanda",
+        "partos": 8009,
+        "cooperacion": "2005-2006-2007-2008-2009-2010",
+        "vacunas": "0",
+        "operaciones": 32859,
+        "pis": "2005-2006-2007-2008-2009-2010",
+        "casos": 557653
+    },
+    "GW": {
+        "terreno": 430769,
+        "name": "Guinea Bissau",
+        "partos": 10657,
+        "cooperacion": "1999-2000-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 52213,
+        "operaciones": 24577,
+        "pis": "2001-2002-2003-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 1210018
+    },
+    "GT": {
+        "terreno": 6565106,
+        "name": "Guatemala",
+        "partos": 167472,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 1358943,
+        "operaciones": 414057,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 41355090
+    },
+    "GQ": {
+        "terreno": 4813343,
+        "name": "Guinea Ecuatorial",
+        "partos": "123",
+        "cooperacion": "1999-2000-2001-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 815292,
+        "operaciones": 229972,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013",
+        "casos": 11811544
+    },
+    "VC": {
+        "terreno": 4876,
+        "name": "San Vicente y las Granadinas",
+        "partos": 2052,
+        "cooperacion": "1999-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "45",
+        "operaciones": 4564,
+        "pis": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 23609
+    },
+    "GY": {
+        "terreno": 345837,
+        "name": "Guyana",
+        "partos": 33296,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 9665,
+        "operaciones": 149537,
+        "pis": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 5223451
+    },
+    "AG": {
+        "terreno": 1972,
+        "name": "Antigua y Barbuda",
+        "partos": "9",
+        "cooperacion": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 8603,
+        "pis": null,
+        "casos": 348436
+    },
+    "GA": {
+        "terreno": 86932,
+        "name": "Gab\u00f3n",
+        "partos": 6641,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 57275,
+        "operaciones": 24909,
+        "pis": "2004-2005-2006-2007-2008-2009-2010-2011",
+        "casos": 1452145
+    },
+    "GN": {
+        "terreno": 140184,
+        "name": "Guinea Conakry",
+        "partos": 17517,
+        "cooperacion": "1999-2000-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 105348,
+        "operaciones": 22703,
+        "pis": "2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 538952
+    },
+    "GM": {
+        "terreno": 1941144,
+        "name": "Gambia",
+        "partos": 372834,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 404216,
+        "operaciones": 175866,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 13503449
+    },
+    "GH": {
+        "terreno": 3336016,
+        "name": "Ghana",
+        "partos": 185268,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 565011,
+        "operaciones": 18347,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015",
+        "casos": 19031741
+    },
+    "KI": {
+        "terreno": 70243,
+        "name": "Kiribati",
+        "partos": 2864,
+        "cooperacion": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 4607,
+        "operaciones": 6756,
+        "pis": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 34135
+    },
+    "AHO": {
+        "terreno": null,
+        "name": "Antillas Holandesas",
+        "partos": null,
+        "cooperacion": "2001-2002-2003-2004-2007-2008-2009-2010-2011-2012",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "MV": {
+        "terreno": null,
+        "name": "Islas Mald\u00edvas",
+        "partos": null,
+        "cooperacion": "1999-2000-2002-2003",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "BS": {
+        "terreno": null,
+        "name": "Bahamas",
+        "partos": null,
+        "cooperacion": "2002-2003-2004-2005-2006-2016",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "HT": {
+        "terreno": 9032085,
+        "name": "Hait\u00ed",
+        "partos": 171613,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 1649672,
+        "operaciones": 582755,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 27124928
+    },
+    "HN": {
+        "terreno": 13143122,
+        "name": "Honduras",
+        "partos": 174492,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 1014806,
+        "operaciones": 823772,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 29557714
+    },
+    "KN": {
+        "terreno": "36",
+        "name": "San Crist\u00f3bal y Nieves",
+        "partos": "692",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 8166,
+        "pis": null,
+        "casos": 195057
+    },
+    "PT": {
+        "terreno": 9963,
+        "name": "Portugal",
+        "partos": "0",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 10851,
+        "pis": null,
+        "casos": 1812681
+    },
+    "PY": {
+        "terreno": 362565,
+        "name": "Paraguay",
+        "partos": 8965,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014",
+        "vacunas": 847965,
+        "operaciones": 49549,
+        "pis": "2000-2001-2002-2003-2004-2005-2006",
+        "casos": 1760229
+    },
+    "PA": {
+        "terreno": null,
+        "name": "Panam\u00e1",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009",
+        "vacunas": null,
+        "operaciones": 44486,
+        "pis": null,
+        "casos": null
+    },
+    "PE": {
+        "terreno": 145861,
+        "name": "Per\u00fa",
+        "partos": "206",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015",
+        "vacunas": 2283,
+        "operaciones": 18645,
+        "pis": "2008-2009-2010-2011-2012-2013",
+        "casos": 626882
+    },
+    "PK": {
+        "terreno": 802282,
+        "name": "Pakist\u00e1n",
+        "partos": "599",
+        "cooperacion": null,
+        "vacunas": 13986,
+        "operaciones": 14506,
+        "pis": null,
+        "casos": 1743244
+    },
+    "ZM": {
+        "terreno": null,
+        "name": "Zambia",
+        "partos": null,
+        "cooperacion": "1999-2000",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "EH": {
+        "terreno": 5556,
+        "name": "Republica Arabe Saharau\u00ed Democr\u00e1tica",
+        "partos": 2057,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 3138,
+        "pis": "2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 92693
+    },
+    "ZA": {
+        "terreno": 21026,
+        "name": "Sud\u00e1frica",
+        "partos": 8376,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 59153,
+        "operaciones": 28426,
+        "pis": null,
+        "casos": 7756261
+    },
+    "EC": {
+        "terreno": 63257,
+        "name": "Ecuador",
+        "partos": 2809,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 100984,
+        "operaciones": 173146,
+        "pis": null,
+        "casos": 4166951
+    },
+    "GD": {
+        "terreno": "347",
+        "name": "Granada",
+        "partos": 7962,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 19847,
+        "pis": null,
+        "casos": 252903
+    },
+    "ET": {
+        "terreno": 6105,
+        "name": "Etiop\u00eda",
+        "partos": 3557,
+        "cooperacion": "2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 6966,
+        "operaciones": 29274,
+        "pis": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 511894
+    },
+    "ZW": {
+        "terreno": 389631,
+        "name": "Zimbabwe",
+        "partos": 129453,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 14975,
+        "operaciones": 295136,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 9478677
+    },
+    "ES": {
+        "terreno": null,
+        "name": "Espa\u00f1a",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "ER": {
+        "terreno": 48379,
+        "name": "Eritrea",
+        "partos": 11872,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 78979,
+        "operaciones": 2087,
+        "pis": "2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 1434635
+    },
+    "UY": {
+        "terreno": 175246,
+        "name": "Uruguay",
+        "partos": "0",
+        "cooperacion": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 90616,
+        "pis": null,
+        "casos": 602001
+    },
+    "ML": {
+        "terreno": 372431,
+        "name": "Mali",
+        "partos": 20941,
+        "cooperacion": "2000-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "vacunas": 169129,
+        "operaciones": 51908,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "casos": 2963220
+    },
+    "MN": {
+        "terreno": "817",
+        "name": "Mozambique",
+        "partos": 133597,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "7",
+        "operaciones": 211917,
+        "pis": null,
+        "casos": 4479588
+    },
+    "US": {
+        "terreno": null,
+        "name": "Estados Unidos",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "UG": {
+        "terreno": "0",
+        "name": "Uganda",
+        "partos": "592",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "9",
+        "operaciones": 3341,
+        "pis": null,
+        "casos": 14115
+    },
+    "UA": {
+        "terreno": "0",
+        "name": "Ucrania",
+        "partos": "0",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011",
+        "vacunas": "0",
+        "operaciones": "0",
+        "pis": "2007-2008-2009-2010-2011",
+        "casos": 39484
+    },
+    "MX": {
+        "terreno": 17923,
+        "name": "M\u00e9xico",
+        "partos": "391",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2012-2013-2014-2015",
+        "vacunas": 13487,
+        "operaciones": "442",
+        "pis": null,
+        "casos": 55889
+    },
+    "DJ": {
+        "terreno": 45178,
+        "name": "Djibouti",
+        "partos": 31735,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 33671,
+        "operaciones": 69852,
+        "pis": "2007-2008-2009-2010-2011-2012",
+        "casos": 839312
+    },
+    "SB": {
+        "terreno": 176,
+        "name": "Salom\u00f3n",
+        "partos": "313",
+        "cooperacion": "2008-2009-2010-2011-2012-2013",
+        "vacunas": "0",
+        "operaciones": "337",
+        "pis": "2008-2009-2010-2011-2012-2013",
+        "casos": 16689
+    },
+    "NI": {
+        "terreno": 2816415,
+        "name": "Nicaragua",
+        "partos": 20883,
+        "cooperacion": "1999-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 42781,
+        "operaciones": 22423,
+        "pis": "2002-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 7311409
+    },
+    "NA": {
+        "terreno": 106411,
+        "name": "Namibia",
+        "partos": 5717,
+        "cooperacion": "1999-2000-2001-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 3913831,
+        "operaciones": 1297238,
+        "pis": "2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "casos": 7837819
+    },
+    "NE": {
+        "terreno": 26889,
+        "name": "N\u00edger",
+        "partos": 31457,
+        "cooperacion": "1999-2000-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 227715,
+        "operaciones": 42271,
+        "pis": "2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 1231202
+    },
+    "SC": {
+        "terreno": 25283,
+        "name": "Seychelles",
+        "partos": 6419,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 70584,
+        "pis": "2009-2010-2011",
+        "casos": 2250266
+    },
+    "NG": {
+        "terreno": "0",
+        "name": "Nigeria",
+        "partos": "0",
+        "cooperacion": "2001-2002-2003-2004-2005-2006-2007-2008-2009-2010",
+        "vacunas": "0",
+        "operaciones": "841",
+        "pis": null,
+        "casos": 152
+    },
+    "NP": {
+        "terreno": 613,
+        "name": "Nepal",
+        "partos": null,
+        "cooperacion": null,
+        "vacunas": null,
+        "operaciones": "649",
+        "pis": null,
+        "casos": 19636
+    },
+    "CO": {
+        "terreno": null,
+        "name": "Colombia",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "CN": {
+        "terreno": "569",
+        "name": "China",
+        "partos": "6",
+        "cooperacion": "2004-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "376",
+        "operaciones": 11412,
+        "pis": null,
+        "casos": 126846
+    },
+    "CL": {
+        "terreno": null,
+        "name": "Chile",
+        "partos": null,
+        "cooperacion": "2002-2003-2005",
+        "vacunas": null,
+        "operaciones": 1384,
+        "pis": null,
+        "casos": 43752
+    },
+    "CG": {
+        "terreno": 2347,
+        "name": "Congo",
+        "partos": 649,
+        "cooperacion": "2004-2005-2006-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 3532,
+        "operaciones": 11397,
+        "pis": "2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 328997
+    },
+    "CR": {
+        "terreno": "0",
+        "name": "Costa Rica",
+        "partos": "0",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006",
+        "vacunas": "0",
+        "operaciones": "0",
+        "pis": null,
+        "casos": 7579
+    },
+    "SZ": {
+        "terreno": 9563,
+        "name": "Swazilandia",
+        "partos": 10978,
+        "cooperacion": "2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 1238,
+        "operaciones": 15495,
+        "pis": "2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 97132
+    },
+    "SR": {
+        "terreno": 33819,
+        "name": "Surinam",
+        "partos": "856",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 8815,
+        "operaciones": 13513,
+        "pis": "2007-2008-2009-2010-2011",
+        "casos": 309034
+    },
+    "KH": {
+        "terreno": "21",
+        "name": "Cambodia",
+        "partos": "0",
+        "cooperacion": "2000-2004",
+        "vacunas": "0",
+        "operaciones": "0",
+        "pis": "2000-2001-2002-2003-2004",
+        "casos": "801"
+    },
+    "SV": {
+        "terreno": 26511,
+        "name": "El Salvador",
+        "partos": "2",
+        "cooperacion": "1999-2000-2009-2010-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 9764,
+        "pis": "2000-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 129394
+    },
+    "TUV": {
+        "terreno": 1202,
+        "name": "Tuvalu",
+        "partos": "867",
+        "cooperacion": "2008-2009-2010-2011-2012",
+        "vacunas": "0",
+        "operaciones": 1687,
+        "pis": "2008-2009-2010-2011-2012",
+        "casos": 33991
+    },
+    "SH": {
+        "terreno": null,
+        "name": "Suiza",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "KW": {
+        "terreno": null,
+        "name": "Kuwait",
+        "partos": null,
+        "cooperacion": "2016",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "SA": {
+        "terreno": "0",
+        "name": "Arabia Saudita",
+        "partos": 156,
+        "cooperacion": "2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 1275,
+        "pis": null,
+        "casos": 1099652
+    },
+    "SD": {
+        "terreno": null,
+        "name": "Sud\u00e1n",
+        "partos": null,
+        "cooperacion": "2007-2008-2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "DO": {
+        "terreno": null,
+        "name": "R. Dominicana",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "DM": {
+        "terreno": "0",
+        "name": "Dominica",
+        "partos": "795",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 7126,
+        "operaciones": 3962,
+        "pis": "2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 141364
+    },
+    "BB": {
+        "terreno": null,
+        "name": "Barbados",
+        "partos": null,
+        "cooperacion": "2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "YE": {
+        "terreno": "0",
+        "name": "Yemen",
+        "partos": "901",
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "vacunas": "451",
+        "operaciones": 34082,
+        "pis": null,
+        "casos": 495904
+    },
+    "DZ": {
+        "terreno": "0",
+        "name": "Argelia",
+        "partos": 500541,
+        "cooperacion": "2000-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 458465,
+        "pis": null,
+        "casos": 6769248
+    },
+    "KOS": {
+        "terreno": null,
+        "name": "Kosovo",
+        "partos": null,
+        "cooperacion": "1999",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "CV": {
+        "terreno": 20704,
+        "name": "Cabo Verde",
+        "partos": 19004,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 29408,
+        "pis": null,
+        "casos": 1056405
+    },
+    "CW": {
+        "terreno": null,
+        "name": "Curazao",
+        "partos": null,
+        "cooperacion": "2016",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "TZ": {
+        "terreno": 22101,
+        "name": "Tanzania",
+        "partos": 14944,
+        "cooperacion": "1999-2004-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 25573,
+        "pis": "2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 822056
+    },
+    "LA": {
+        "terreno": "0",
+        "name": "Laos",
+        "partos": 1326,
+        "cooperacion": "1999-2000-2001-2002-2003-2005-2006-2008-2009-2010-2011-2012-2013-2014-2015",
+        "vacunas": "0",
+        "operaciones": 2231,
+        "pis": "2008-2009-2010-2011-2012-2013-2014-2015",
+        "casos": 37539
+    },
+    "TT": {
+        "terreno": 7006,
+        "name": "Trinidad y Tobago",
+        "partos": "15",
+        "cooperacion": "1999-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 285756,
+        "operaciones": 31986,
+        "pis": null,
+        "casos": 1797964
+    },
+    "LK": {
+        "terreno": null,
+        "name": "Sri Lanka",
+        "partos": null,
+        "cooperacion": "1999-2000",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "TL": {
+        "terreno": 5097382,
+        "name": "Timor Leste",
+        "partos": 69403,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 10725,
+        "operaciones": 109799,
+        "pis": "2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "casos": 11127530
+    },
+    "LR": {
+        "terreno": null,
+        "name": "Liberia",
+        "partos": null,
+        "cooperacion": "2014",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": "2003",
+        "casos": "201"
+    },
+    "LS": {
+        "terreno": 13039,
+        "name": "Lesotho",
+        "partos": 8173,
+        "cooperacion": "2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": 26046,
+        "pis": "2002-2004-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 1884738
+    },
+    "TD": {
+        "terreno": 1005,
+        "name": "Chad",
+        "partos": 6825,
+        "cooperacion": "2004-2005-2006-2007-2013-2014-2015-2016",
+        "vacunas": "225",
+        "operaciones": 6431,
+        "pis": "2003-2004-2005-2006-2007-2013-2014-2015-2016",
+        "casos": 183183
+    },
+    "VE": {
+        "terreno": 408053997,
+        "name": "Venezuela",
+        "partos": 121629,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 165105,
+        "operaciones": 3098930,
+        "pis": "2000-2001-2002-2003",
+        "casos": 1176822059
+    },
+    "IQ": {
+        "terreno": null,
+        "name": "Irak",
+        "partos": null,
+        "cooperacion": "1999-2001-2002-2003",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "SL": {
+        "terreno": 34857,
+        "name": "Sierra Leona",
+        "partos": 728,
+        "cooperacion": "2005-2006-2007-2008-2009-2011-2012-2013-2014-2015",
+        "vacunas": 1514,
+        "operaciones": 7609,
+        "pis": "2005-2006-2007-2008-2009-2011-2012-2013-2014-2015",
+        "casos": 311768
+    },
+    "IT": {
+        "terreno": null,
+        "name": "Italia",
+        "partos": null,
+        "cooperacion": "2001-2002-2003-2004-2005-2006-2007-2008-2009",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "AO": {
+        "terreno": 34062,
+        "name": "Angola",
+        "partos": 257668,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 684229,
+        "operaciones": 369611,
+        "pis": null,
+        "casos": 15476550
+    },
+    "AR": {
+        "terreno": null,
+        "name": "Argentina",
+        "partos": null,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "ST": {
+        "terreno": "942",
+        "name": "Santo Tom\u00e9 y Pr\u00edncipe",
+        "partos": 27204,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "9",
+        "operaciones": 16398,
+        "pis": "2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 368642
+    },
+    "VU": {
+        "terreno": 4045,
+        "name": "Vanuatu",
+        "partos": "0",
+        "cooperacion": "2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": "0",
+        "operaciones": "0",
+        "pis": "2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "casos": 123647
+    },
+    "ID": {
+        "terreno": 56988,
+        "name": "Indonesia",
+        "partos": "32",
+        "cooperacion": "1999",
+        "vacunas": 10796,
+        "operaciones": 2207,
+        "pis": null,
+        "casos": 103214
+    },
+    "AW": {
+        "terreno": null,
+        "name": "Aruba",
+        "partos": null,
+        "cooperacion": "2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012",
+        "vacunas": null,
+        "operaciones": null,
+        "pis": null,
+        "casos": null
+    },
+    "QA": {
+        "terreno": "0",
+        "name": "Qatar",
+        "partos": 1554,
+        "cooperacion": "1999-2000-2001-2002-2003-2004-2005-2006-2007-2008-2009-2010-2011-2012-2013-2014-2015-2016",
+        "vacunas": 5187,
+        "operaciones": 9378,
+        "pis": "2001-2002",
+        "casos": 568859
+    }
+}
