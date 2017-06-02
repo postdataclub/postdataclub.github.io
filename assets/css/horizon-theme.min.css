@@ -1,0 +1,8 @@
+/*
+ * Horizon Swiper
+ * Version 1.1.1
+ * Domain ( http://horizon-swiper.sebsauer.de/ )
+ * Copyright 2015 Sebastian Sauer ( http://www.sebsauer.de/ )
+ * Licensed under MIT ( https://github.com/sebsauer90/horizon-swiper/blob/master/LICENSE )
+ */
+.horizon-swiper{background:#e5eaef}.horizon-swiper.arrows{padding:0 50px}.horizon-swiper .horizon-dots{padding:0 0 6px}.horizon-swiper .horizon-dots .horizon-dot{width:12px;height:12px;padding:0;font-size:0;line-height:1;background:0 0;border:1px solid #2c3e50;border-radius:50%;-webkit-transition:background .3s;transition:background .3s}.horizon-swiper .horizon-dots .horizon-dot.active{background:#2c3e50}.horizon-swiper .horizon-next,.horizon-swiper .horizon-prev{position:absolute;top:5px;bottom:5px;width:40px;border:none;outline:0;background:center no-repeat}.horizon-swiper .horizon-next:active,.horizon-swiper .horizon-next:focus,.horizon-swiper .horizon-next:hover,.horizon-swiper .horizon-prev:active,.horizon-swiper .horizon-prev:focus,.horizon-swiper .horizon-prev:hover{outline:0}.horizon-swiper .horizon-prev{left:5px;background-image:url(arrow-left.svg)}.horizon-swiper .horizon-next{right:5px;background-image:url(arrow-right.svg)}
