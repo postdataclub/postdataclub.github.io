@@ -739,7 +739,7 @@ Por las distintas formas de colaboración y según las estadísticas aportadas p
     los que se reportan en los <a href="http://bvscuba.sld.cu/anuario-estadistico-de-cuba/">anuarios estadísticos de salud</a>. De estos anuarios
     se tomaron los reportes de <span class="it">Países en los que Cuba presta colaboración en salud según regiones</span> y 
     <span class="it"> Programa Integral de Salud. Países que lo integran según continentes</span>, desde el año 1999 hasta el 2016, que
-    es el período en el cual se encontraron datos reportados. Con esta información de conformó un <a href="data/data.json">archivo</a> en formato JSON que contiene
+    es el período en el cual se encontraron datos reportados. Con esta información se conformó un <a href="data/data.json">archivo</a> en formato JSON que contiene
     los datos relativos a la cooperación médica cubana por países.
     </p>
     </div>
@@ -958,15 +958,13 @@ function setCountry(code){
 
 $('#countryselect').on('change', function() {
   c = this.value;
-  console.log(c);
-  console.log(clicked);
   setCountry(c);
 })
 
 function update_graph(code){
    $('#country-name').html(countries[code]['name']);
    col = "<span class='bd'>Años de la colaboración médica:</span> ";
-   pis = "<span class='bd'>Años en que participó en Progra Integral de Salud:</span> ";
+   pis = "<span class='bd'>Años en que participó en Programa Integral de Salud:</span> ";
    casos =    "<span class='bd'>Casos vistos:</span> ";
    terreno =    "<span class='bd'>Casos vistos en el terreno:</span> ";
    oper =    "<span class='bd'>Operaciones quirúrgicas:</span> ";
