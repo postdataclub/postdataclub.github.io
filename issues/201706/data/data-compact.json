@@ -1,5 +1,45 @@
 {
     "books": {
+        "hmef": {
+            "publish_year": 2001,
+            "type": "Poesía",
+            "title": "A la sombre de los muchachos en flor"
+        },
+        "dlbm": {
+            "publish_year": 2008,
+            "type": "Novela",
+            "title": "Desde los blancos manicomios"
+        },
+        "pcma": {
+            "publish_year": null,
+            "type": "Poesía",
+            "title": "Poesía completa"
+        },
+        "pcms": {
+            "publish_year": null,
+            "type": "Poesía",
+            "title": "Poesía completa"
+        },
+        "paru": {
+            "publish_year": 1912,
+            "type": "Poesía",
+            "title": "Poemetos de Alma Rubens"
+        },
+        "orpn": {
+            "publish_year": 2014,
+            "type": "Poesía",
+            "title": "Otro retorno al país natal"
+        },
+        "vdex": {
+            "publish_year": 2014,
+            "type": "Poesía",
+            "title": "Vías de extinción"
+        },
+        "pojk": {
+            "publish_year": null,
+            "type": "Poesía",
+            "title": "Poesía"
+        },
         "cobra": {
             "publish_year": 1972,
             "type": "Novela",
@@ -2147,6 +2187,29 @@
         }
     },
     "people": {
+        "milho": {
+            "bio": "Escritor. Mención Premio David UNEAC 2012",
+            "selection": [
+                "para",
+                "jard",
+                "pojk",
+                "pcdm",
+                "cuvp",
+                "vdex",
+                "orpn",
+                "pced",
+                "paru",
+                "pcma",
+                "pcms",
+                "tsva",
+                "dlbm",
+                "hmef"
+            ],
+            "name": "Alain Santana López",
+            "sex": "Masculino",
+            "birthyear": null,
+            "shortname": "Milho Montenegro"
+        },
         "gipi": {
             "bio": "Escritora, periodista, investigadora, cr\u00edtica literaria, guionista de cine, radio y televisi\u00f3n. Premio Luis Rogelio Nogueras de Ensayo 2005",
             "selection": [
@@ -2160,7 +2223,8 @@
                 "pdvm",
                 "isab",
                 "mdin",
-                "enrc"
+                "enrc",
+                "dlbm"
             ],
             "name": "Gina Picart Baluja",
             "sex": "Femenino",
@@ -4641,7 +4705,8 @@
                 "lnda",
                 "lsct",
                 "lmyf",
-                "ecdj"
+                "ecdj",
+                "vdex"
             ],
             "shortname": "Ant\u00f3n Arrufat"
         },
@@ -4894,7 +4959,8 @@
             "sex": "Masculino",
             "birthyear": 1888,
             "books": [
-                "pcmp"
+                "pcmp",
+                "paru"
             ],
             "shortname": "Jos\u00e9 Manuel Poveda"
         },
@@ -5303,7 +5369,8 @@
             "birthyear": 1940,
             "books": [
                 "tras",
-                "nbre"
+                "nbre",
+                "pojk"
             ],
             "shortname": "Jos\u00e9 Koser"
         },
@@ -6223,7 +6290,8 @@
             "books": [
                 "deas",
                 "jyop",
-                "adho"
+                "adho",
+                "pcma"
             ],
             "shortname": "Mirta Aguirre"
         },
@@ -6539,6 +6607,46 @@
                 "pcgb"
             ],
             "shortname": "Gast\u00f3n Baquero"
+        },
+        "laru": {
+            "name": "Laura del Carmen Ruiz Montes",
+            "deadyear": null,
+            "sex": "Femenino",
+            "birthyear": 1966,
+            "books": [
+                "orpn"
+            ],
+            "shortname": "Laura Ruiz Montes"
+        },
+        "mase": {
+            "name": "Manuel de Zequeira y Arango",
+            "deadyear": 1846,
+            "sex": "Masculino",
+            "birthyear": 1764,
+            "books": [
+                "pcms"
+            ],
+            "shortname": "Manuel de Zequeira"
+        },
+        "mama": {
+            "name": "Ana Margarita Mateo Palmer",
+            "deadyear": null,
+            "sex": "Femenino",
+            "birthyear": 1950,
+            "books": [
+                "dlbm"
+            ],
+            "shortname": "Margarita Mateo"
+        },
+        "nesi": {
+            "name": "Nelson Simón González",
+            "deadyear": null,
+            "sex": "Masculino",
+            "birthyear": 1965,
+            "books": [
+                "hmef"
+            ],
+            "shortname": "Nelson Simón"
         }
     }
 }
