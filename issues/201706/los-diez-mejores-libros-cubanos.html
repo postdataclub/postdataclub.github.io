@@ -127,13 +127,19 @@
         <span class="it">Y a los que respondieron, las damos dobles</span>.</p>
         <p><span style="float: right">14 de junio, 2017</span></p>
         </div>
+        <hr>
     </div>
+<!--
     <div class="row containter" id="best-menu">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 cursor main-color bmenu" id="mbooks">Libros</div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 cursor best-menu-color bmenu"  id="mencuestados">Encuestados</div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 cursor best-menu-color bmenu"  id="mdatos">Datos</div>
     </div>
+-->
      <div class="bcontent container" id="cbooks">
+        <div class="main-text" style="font-size:30px;font-weight:bold;padding-bottom:10px;">
+                Los Libros
+        </div>
         <div id="cbooks-intro">
         <p>
         Hablar de los 10 mejores libros cubanos es una provocación. No existen los mejores libros: cada cual tiene sus
@@ -147,9 +153,13 @@
         <div id="ctbooks">
         
         </div>
+        <hr>
         </div>
         
-        <div class="bcontent container" id="cencuestados" style="display:none;">
+        <div class="bcontent container" id="cencuestados" >
+        <div class="main-text" style="font-size:30px;font-weight:bold;padding-bottom:10px;margin-top:-20px;">
+                Los Encuestados
+        </div>
         <div id="ctencuestados">
         <p>Para realizar este trabajo se obtuvieron las listas de <span id="total-people">total</span> personas a las que se sumaron las de los 4 miembros del equipo de Postdata.club. 
         Del total de encuestados, <span id="woman-people">#</span> son mujeres y <span id="man-people">#</span> hombres.
@@ -171,9 +181,13 @@
         ellos, fueron más inluyentes:</p>
         </div>
         <div id="clencuestados"></div>
+        <hr>
         </div>
         
-        <div class="bcontent container" id="cdatos" style="display:none;">
+        <div class="bcontent container" id="cdatos" >
+        <div class="main-text" style="font-size:30px;font-weight:bold;padding-bottom:10px;margin-top:-20px;">
+                Los Datos
+        </div>
             <p>
             Luego de encuestar a <span id="totald-people">X</span> personas, llegamos a la cifra 
             de <span id="totald-books">X</span> libros, de <span id="totald-authors">X</span> autores. 
@@ -297,11 +311,8 @@
         * Obtenga más información deslizando el mouse (o haciendo tap) en cada elemento del listado
         </div>
             </div>
-            
-            
-            
-            
         </div>
+        
         
         <div class="notes">
              <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
@@ -336,9 +347,9 @@ Además, les damos las gracias a los periodistas Yoel Rodríguez y Susana Antón
     
     <div class="text-block notes">
    <div id="link-bar" class="row">
-        <a class="link-out" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a>
-        <a class="link-out" href="https://twitter.com/share?url=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html&amp;text=Los%2010%20mejores%20libros%20cubanos&amp;hashtags=#postdataclub" target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a>
-        <a class="link-out" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Los 10 mejores libros cubanos http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 main-color"><i class="fa fa-envelope"></i> Email</div></a>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html"  target='_blank'><div class="cursor  facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html&amp;text=Los%2010%20mejores%20libros%20cubanos&amp;hashtags=#postdataclub" target='_blank'><div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Los 10 mejores libros cubanos http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos.html"  target='_blank'><div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div></a></div>
     </div>
    </div>
     
@@ -1024,17 +1035,18 @@ $( document ).ready(function() {
         }
         
         updateDatos(data);
-        
+        getBooksType(data);
+        setEvolutionChart(data); 
        
         
-        $('.bmenu').click(function(e){
-        var id = e.currentTarget.id;
-        switch_div(id);
-        if (id=='mdatos') {
-            getBooksType(data);
-            setEvolutionChart(data);    
-        }
-        });
+        //$('.bmenu').click(function(e){
+        //var id = e.currentTarget.id;
+        //switch_div(id);
+        //if (id=='mdatos') {
+            //getBooksType(data);
+            //setEvolutionChart(data);    
+        //}
+        //});
         
     });
     
