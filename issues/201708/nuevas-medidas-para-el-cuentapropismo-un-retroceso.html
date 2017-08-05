@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Nuevas medidas para el Cuentapropismo ¿un retroceso?</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="../../assets/css/jquery-jvectormap-2.0.3.css"/>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+    <div class="article-header row  article-color">
+            <div class="article-news-title">Nuevas medidas para el Cuentapropismo ¿un retroceso?</div>
+            <div class="article-news-author">Por  <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a><span class="article-date">4/08/2017</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Acercamiento a las recientes decisiones sobre la gestión no estatal en Cuba</div>  
+                      
+    </div>
+    
+    <div class="text-body">
+    
+    
+    
+    <div class="text-block">
+    
+   <p>
+   El primero de agosto de 2017, fue publicada la <a href="docs/GOC-2017-EX31.pdf">Gaceta Oficial Extraordinaria No. 31</a>, donde se daba a conocer la Resolución Número 22/2017 
+   del Ministerio de Trabajo y Seguridad Social (MTSS).
+    </p><p>
+    Desde el momento de la publicación de la misma, se hacía efectiva la medida de no otorgar por el momento nuevas autorizaciones 
+    para ejercer en Cuba el trabajo por cuentapropia, hasta que concluya el perfeccionamiento de este tipo de gestión, en 28 de 
+    las 201 actividades permitidas en el país.
+    </p><p>
+Además, en lo adelante, se hace definitiva la medida de no otorgar licencias de vendedor mayorista de productos agropecuarios, 
+vendedor minorista de productos agropecuarios, carretillero o vendedor de productos agrícolas de forma ambulatoria, 
+comprador vendedor de discos y operador de equipos de recreación. La medida no incluye a los trabajadores cuyas licencias 
+ya habían sido emitidas, a quienes se les permitirá continuar con sus actividades.
+</p><p>
+Si comparamos la lista de las actividades para las que desde ahora no se emitirán licencias, 
+con la lista de las licencias más ejercidas a inicios de 2017, se puede apreciar que las licencias 
+que hasta ahora habían sido otorgadas en las áreas suspendidas o canceladas, <span class="bd">reunen en su totalidad 
+un 25% porciento de las licencias otorgadas</span> para trabajar en el sector no estatal. Si no contamos 
+a los trabajadores contratados que están asociados a otras actividades, 
+se habla entonces de alrededor del 33% del trabajo por cuentapropia en Cuba. 
+</p><p>
+Además, en el listado de las 10 primeras actividades que más trabajadores por cuentapropia acumulan podemos 
+ver que en 4 de estas el otorgamiento de licencias ha sido detenido o eliminado.
+   </p> 
+    </div>
+    
+    <div id="top10" class="media-block article-border border">
+        <div class="graph-text article-text">
+        Top 10 Actividades por Cuenta Propia a inicios de 2017
+        </div>
+        
+       
+                
+        <div id="top-table" class="graph" style="margin-top:5px;">
+        
+        <div  style="margin-left:16px;" >
+        <table  class="table table-striped table-condensed table-hover article-text">
+        <thead><tr class="bd"><td>Ranking</td><td >Actividad</td><td>Licencias</td><td>Estado</td></tr></thead>
+        <tbody>
+            <tr class="active"><td>1</td><td>Trabajador contratado</td><td>132 395</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="warning"><td>2</td><td>Arrendadores de vivienda, habitaciones y espacios</td><td>35 066</td><td><i class="fa fa-pause "></i> Detenida</td></tr>
+            <tr class="active"><td>3</td><td>Agente de Telecomunicaciones</td><td>24 523</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>4</td><td>Elaborador vendedor de alimentos y bebidas no alcohólicas<br> de forma ambulatoria</td><td>23 905</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="warning"><td>5</td><td>Cafetería de alimentos ligeros</td><td>23 107</td><td><i class="fa fa-pause "></i> Detenida</td></tr>
+            <tr class="warning"><td>6</td><td>Productor vendedor artículos varios de uso en el hogar</td><td>16 791</td><td><i class="fa fa-pause "></i> Detenida</td></tr>
+            <tr class="active"><td>7</td><td>Mensajero</td><td>16 242</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>8</td><td>Tracción humana y animal: coches</td><td>15 763</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="danger"><td>9</td><td>Carretillero o vendedor de producción agrícola<br> en forma ambulatoria</td><td>15 526</td><td><i class="fa fa-close "></i> Eliminada</td></tr>
+            <tr class="active"><td>10</td><td>Albañil</td><td>15 414</td><td><i class="fa fa-check "></i> Activa</td></tr>
+<!--
+            <tr class="active"><td>11</td><td>Transporte de carga y pasajeros: autos</td><td>15 194</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>12</td><td>Tracción humana y animal: ciclos</td><td>12 285</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="warning"><td>13</td><td>Elaborador vendedor de alimentos y bebidas no alcohólicas<br> en punto fijo de venta (Cafetería)</td><td>9579</td><td><i class="fa fa-pause "></i> Detenida</td></tr>
+            <tr class="active"><td>14</td><td>Trabajador doméstico</td><td>9379</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="danger"><td>15</td><td>Comprador vendedor de discos</td><td>7519</td><td><i class="fa fa-close "></i> Eliminada</td></tr>
+            <tr class="warning"><td>16</td><td>Modista o sastre</td><td>6809</td><td><i class="fa fa-pause "></i> Detenida</td></tr>
+            <tr class="active"><td>17</td><td>Barbero</td><td>6574</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>18</td><td>Carpintero</td><td>6080</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>19</td><td>Manicura</td><td>5751</td><td><i class="fa fa-check "></i> Activa</td></tr>
+            <tr class="active"><td>20</td><td>Peluquera</td><td>4902</td><td><i class="fa fa-check "></i> Activa</td></tr>
+-->
+            
+        </tbody>
+        </table>
+        </div>
+        
+        </div>
+    
+    </div>   
+    
+    <div class="text-block">
+    <p>
+    Esta medida, además, pone freno, por el momento,  a determinadas actividades que son distintivas en el trazado del cuentapropismo
+    , con un gran peso económico y social y que involucran a un número considerable de cubanos. Muchas de estas actividades se encontraban en franco crecimiento, mientras que otras, las menos, 
+    mostraban un ritmo estable o descendente.
+    </p>
+    
+    </div>
+    
+    <div id="evolucion" class="media-block article-border border">
+        <div class="graph-text article-text">
+        Evolución de licencias otorgadas con respecto al año anterior 2012-2016
+        </div>
+        
+        <div id="evolution-initials" class="graph " >
+        <div style="margin-left:4px;margin-bottom:20px;margin-top:30px;" class="article-text post-media row">
+            <p style="font-size:14px;margin-left:16px;">Seleccione locación y actividad. Luego adiciónela para que se muestre en el gráfico.</p>    
+            <div class="col-lg-4 col-md-4">
+                <span class="bd">
+                Locación: 
+                </span>
+                <select style="margin-left:2px; margin-right:20px;" id="locations">
+                </select>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <span class="bd">
+                Actividad: 
+                </span>
+                <select style="margin-left:2px;margin-right:20px;width:300px;" id="activities" >
+                </select>
+            </div>
+            <div class="col-lg-2 col-md-2">
+            <button type="button" class=" btn">
+            <span class="cursor bd" id="addline">                
+                <i class="fa fa-plus-square-o "></i> Adicionar                 
+            </span>
+            </button>
+            </div>
+        </div>
+        
+        <div id="evolution-names" class="graph" ></div>
+        
+        <div  style="margin-left:16px;" >
+        <table  class="table table-striped table-condensed table-hover article-text">
+        <thead><tr class="bd"><td>Locación</td><td >Actividad</td><td ></td></tr></thead>
+        <tbody id="dellines">
+            <tr id='tr-CUB-190'><td width="20%">Cuba</td><td width="70%">Chapistero</td><td class="cursor"><span class="delline bd" id="CUB-190"><i class="fa fa-minus-square-o"></i> Eliminar</span></td></tr>
+        </tbody>
+        </table>
+        </div>
+    </div> 
+    </div> 
+    
+    
+    
+     
+     
+     <div class="text-block">
+     <p>
+     La Resolución 22/2017, firmada por la Ministra de Trabajo y Seguridad Social Margarita M. González Fernández y 
+     fechada el 18 de julio de 2017, no expone ninguna razón para la prohibición del otorgamiento de las licencias. 
+     Sin embargo, <a href="http://www.granma.cu/cuba/2017-08-01/por-la-ruta-de-la-actualizacion-01-08-2017-00-08-07/">el diario Granma</a> 
+     permitió que el ministerio en cuestion ofreciera explicaciones.
+     </p><p>
+     La viceministra primera de Trabajo y Seguridad Social, Marta Elena Feitó Cabrera, informó  que:
+     </p><p class="quote">
+      La más reciente evaluación al desempeño de este sector permitió comprobar, entre otros elementos, 
+      que se utilizan materias primas, materiales y equipos de procedencia ilícita; persiste el incumplimiento de 
+      obligaciones tributarias y se subdeclaran ingresos; falta de enfrentamiento y solución oportuna a los problemas; 
+      subsisten imprecisiones e insuficiencias en el control; así como se constatan deficiencias en la contratación 
+      económica para la prestación de servicios u oferta de productos entre personas jurídicas y personas naturales.
+     </p>
+      <p>
+      En tal sentido, existen algunas contradicciones visibles entre los argumentos esgrimidos para la suspensión y la realidad.
+      </p> 
+      <p>
+      En cuanto al robo de materiales o materias primas, por ejemplo, podría aplicarse y constatarse en algunas de 
+      las actividades enlistadas, pero no se justifica, por ejemplo, en el caso de 8 de las licencias  cuyo otorgamiento fue suspendido, 
+      que, por la descripción de  las actividades que realizan estos trabajadores, no requieren de muchos recursos materiales 
+      para ejercer su labor. Es díficil argumentar que un repasador, un profesor de música o un gestor de pasaje 
+      necesariamente estén vinculados a desvíos y robos para ejercer su trabajo.
+      </p>
+      
+      <p>Por otra parte, se decide no otorgar licencias en 4 de las modalidades relacionadas con la elaboración y venta de alimentos,
+      actividades más relacionadas con posibles desvíos de recursos, pero se mantiene intacta la figura del Elaborador vendedor de alimentos
+      y bebidas no alcohólicas de forma ambulatoria. Quizás aquí la diferencia es que en las primeras se suelen utilizar trabajadores
+      contratados y en esta última no.</p>
+      
+      <p>
+      En el año 2010 la Central de Trabajadores de Cuba anunció la necesidad de eliminar en un primer momento 
+      alrededor de 500 000 trabajadores en el sector estatal que deberían incorporarse paulatinamente a las actividades no estatales. 
+      <a href="http://www.cubadebate.cu/noticias/2010/09/13/reducira-cuba-medio-millon-de-plazas-en-el-sector-estatal/">El pronunciamiento</a> 
+      decía:
+      </p>
+      <p class="cite">
+      [..] Es conocido que el exceso de plazas sobrepasa el millón de personas en los sectores presupuestado y empresarial.</p>
+      <p class="cite">
+        Nuestro Estado no puede ni debe continuar manteniendo empresas, entidades productivas, de servicios y presupuestadas 
+        con plantillas infladas, y pérdidas que lastran la economía, resultan contraproducentes, generan malos hábitos y deforman 
+        la conducta de los trabajadores. 
+      </p>
+      <p>
+      Ese millón de empleados que sobraban en el sector estatal, y que se debían quedarse sin empleo, o que estuvieron interruptos un tiempo 
+      y se previó que emigraran a la gestión por cuentapropia, ¿fueron finalmente movidos de estas plazas innecesarias? ¿ya todos son cuentapropistas? 
+      Y si así fuese -que la matemática más elemental permite responder que no-  ¿ahora son necesarios de vuelta? 
+      </p>
+      <p>
+      Además, <a href="http://www.granma.cu/cuba/2017-08-01/por-la-ruta-de-la-actualizacion-01-08-2017-00-08-07/">el artículo de Granma</a> se acerca al tema tributario, enunciando, entre otras medidas, que se eliminará 
+      la exención de pago por los cinco primeros trabajadores contratados que existía hasta el momento y el aumento gradual de 
+      los impuestos en dependencia de la cantidad de empleados.  
+      Esta medida significa una contradicción en sí misma:  le quita incentivos a la expansión de los negocios por cuentapropia, 
+      que es donde la  mayor cantidad de personas que no encontraron sitio en el sector estatal han sido asimiladas, en mucho casos 
+      en la actividad de trabajadores contratados. 
+      </p>
+      <p>
+      Otro asunto que resulta contraproducente en las nuevas medidas es el tema de la temporalidad. El Ministerio de Trabajo y 
+      Seguridad Social no ha anunciado el plazo en que se volverán a pronunciar al respecto. El estado ni siquiera anunció una fecha 
+      futura para informar en qué punto se encontrará el proceso o un aproximado del tiempo que podría tardar la reorganización. 
+      </p>
+    </div>
+    
+    <div class="image-block" style="text-align: center;">
+                <img src="images/comment-mtss.jpg" style="width:75%;">
+                <div class = "image-info row">
+                    <div class="image-caption">Captura de pantalla de un comentario del MTSS en artículo de Granma</div>
+                </div>
+    </div> 
+    <div class="text-block">
+     <p>
+     Una alternativa plausible hubiera sido anunciar con un período de antelación la actual suspensión y no otorgamiento definitivo
+     de las licencias. Esta alerta sería apreciada por las personas que estaban reuniendo el capital o realizando inversiones para
+     comenzar el ejercicio por cuentapropia y hoy no saben qué pasará con esos esfuerzos y proyectos.
+     </p>
+     <p>
+     Entre los afectados produce insatisfacciones la continua particularización del fenómeno, lo que hace que en cada caso 
+     sea necesario consultar a profundidad qué puede o no hacerse. La propia viceministra primera del 
+     Ministerio de Trabajo y Seguridad Social afirmó que la determinación de no emitir las licencias suspendidas o canceladas 
+     "forma parte de un proceso sistemático de revisión y perfeccionamiento, encaminado a corregir deficiencias, de manera 
+     que ninguna acción quede al margen de la legalidad."
+     </p>
+     <p>
+     ¿Es necesario tratar de controlar todos los detalles al mínimo? ¿No sería más conveniente definir qué actividades no deben realizarse y 
+     el resto dejarlo a la elección de las personas? Un conjunto de normas con este espíritu serían un estímulo a la innovación y,
+     por tanto, a la economía y la sociedad.
+     </p>
+     <p>
+     Hay muchos otros elementos que atentan contra el buen funcionamiento del cuentapropismo y cuyas soluciones están en manos de quienes
+     tienen a su cargo legislar y gobernar: los mercado mayoristas, un mejor diseño de la política fiscal e impositiva o la creación de un
+     marco legal para el establecimiento de la Pequeña y Mediana Empresa.
+     </p>
+     <p>
+     El impacto social de la resolución 22/2017 y de las que vendrán, alcanza, posiblemente, a la mayoría de los cubanos. La economía cubana,
+     que ha tenido un impulso de peso con el turismo, pudiera ser afectada. Entre las licencias que no se otorgarán por el momento están
+     las asociadas con el arrendamiento de viviendas y habitaciones y con actividades complementarias (Restaurantes y Cafeterías) que son
+     imprescindibles para asumir el incremento sostenido de visitantes extranjeros.
+     </p>
+     <p>
+     Los más afectados, por supuesto, serán las personas que deseaban lanzarse por estos rumbos, que reunieron el dinero, 
+     realizaron inversiones o dejaron sus empleos. Sin embargo, también resultarán perjudicadas las personas que nada tiene que ver 
+     con las actividades del sector no estatal, pero que tienen que lidiar con él, por ser este un espacio donde encuentran la 
+     solución a necesidades que no cubre el estado.
+     </p>
+     <p>
+     Según un comentario publicado en <a href="http://www.cubadebate.cu/noticias/2017/08/01/la-gaceta-oficial-de-cuba-anuncia-nuevas-medidas-para-el-trabajo-por-cuenta-propia/">Cubadebate</a> 
+     por Alejandro Peñalver Mauri, quien se acredita como profesor de 
+     Dirección Estratégica en la Facultad de Economía de la Universidad de La Habana:
+     </p>
+     <p class="quote">Al impedirse la posibilidad de que existan nuevos Cuenta Propistas, se limita la posibilidad de elección para 
+     el consumidor, y a su vez a los actuales Cuenta Propistas se les crea la oportunidad de imponer sus condiciones en 
+     cuanto a menor calidad y mayor precio.</p>
+     <p class="quote">
+     La potencialidad de que entren a competir nuevos Cuenta Propistas, incluso si no llegan a abrir sus negocios, 
+     frena el incremento de los precios. La rentabilidad del sector tiende a disminuir solo por saber que pueden entrar nuevos 
+     Cuenta Propistas, y por tanto los precios se mantienen bajos.
+     </p>
+     <p class="quote">[...]</p>
+     <p class="quote">
+     El resultado final es que los actuales Cuentapropistas se enriquecerán todavía más, acumulando riquezas, y 
+     la población pagando precios más caros con productos y servicios de menor calidad, cargará con el mayor peso de la medida.
+     </p>
+     </div> 
+     
+     <div class="text-block" style="font-size:12px;margin-top:50px;">
+    <p>
+    *Los datos utilizados fueron entregados por el Ministerio de Trabajo y Seguridad Social a pedido de los autores. Las actividades por Cuentapropia
+    se reflejan con los nombres tal como aparecen en la base de datos suministrada. Por este motivo, algunas actividades como el arrendamiento de viviendas, habitaciones y espacios
+    aparecen como actividades independientes. Hay otras que no aparecen en las resoluciones relacionadas con el Trabajo por Cuentapropia. Los datos fueron procesados por el 
+    el equipo de <a href="http://www.postdata.club">Postdata.club</a> y pueden ser consultadas en <a href="data/cuentapropia.json">este documento</a> en formato JSON.
+    </p>
+    </div>    
+      
+    </div> , 
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201708/nuevas-medidas-para-el-cuentapropismo-un-retroceso.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201708-2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>
+    
+     <div class="read-more article-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-12 col-md-12 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="un-negocio-en-cada-cuadra.html">Un negocio en cada cuadra</a></div>
+            <div class="front-news-author">Por Dailene Doval, Daniella Pérez, <a href="../../equipo/jessica.html">Jessica Dominguez</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+    
+         
+  
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="../../assets/js/jquery-jvectormap-cuba-mill-es.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+        $.getJSON("data/cantidades.json",function(cp){
+            data = {};
+            _years=['Años',2012,2013,2014,2015,2016];
+            years=[2012,2013,2014,2015,2016];
+            all = ['CUB-Chapistero'];
+            var showed = {'CUB-190':'CUB-190'};
+            provs  = {'CUB':'Cuba','PRI':'Pinar del Río','ART':'Artemisa','LHA':'La Habana','MAY':'Mayabeque','MAT':'Matanzas','VCL':'Villa Clara','CFG':'Cienfuegos','SSP':'Sancti Spiritus','CAV':'Ciego de Ávila','CAM':'Camagüey','LTU':'Las Tunas','HOL':'Holguín','GRA':'Granma','SCU':'Santiago de Cuba','GTM':'Guantánamo','IJV':'Isla de la Juventud'};
+            tp = ''
+            for(var i in provs){
+                tp +='<option value="'+i+'">'+provs[i]+'</option>';
+            }
+            $('#locations').html(tp);
+            for(var i in years){
+                all.push(cp['years'][years[i]]['CUB']['190']);
+            }
+            tc = ''
+            cdes = [];
+            for(var i in cp['codes']){
+                cdes.push([i,cp['codes'][i]]);
+            } 
+            function compare_codes(id1,id2){
+                if (id1[1] < id2[1])
+                    return -1;
+                if (id1[1] > id2[1])
+                    return 1;
+                return 0;
+            }
+            cdes.sort(compare_codes);
+            for(var i in cdes){
+                sel = '';
+                if (cdes[i][0]=='190'){
+                    sel="selected='selected'";
+                }
+                tc +='<option value="'+cdes[i][0]+'"  '+sel+'>'+cdes[i][1]+'</option>';
+            }
+            $('#activities').html(tc);
+            for(var i in years){
+                all.push(cp['years'][years[i]]['CUB']['190']);
+            }
+            console.log(all);
+            chart = c3.generate({
+                bindto: '#evolution-names',
+                data: {
+                    type: 'line',
+                    x: 'Años',
+                    columns: [ _years,all] 
+            },
+ 
+
+         axis: {
+            x: {
+                label: 'Años'
+            },
+            y: {
+                label: 'Diferencia de Licencias respecto al año anterior',
+                
+            }
+        }
+      });
+         
+         $('#addline').click(function(e){
+            var p = $('#locations').val();
+            var c = $('#activities').val();
+            var id = p+'-'+cp['codes'][c];
+            var tid = p+'-'+c;
+            if (!(tid in showed)) {
+                showed[tid]=tid;
+                var a = [id];
+                for(var i in years){
+                    var value = null;
+                    if ((p in cp['years'][years[i]])&&(c in cp['years'][years[i]][p])){
+                        value = cp['years'][years[i]][p][c];
+                    }
+                    a.push(value);
+                }
+                chart.load({
+                  columns: [
+                    a
+                  ]
+                }); 
+                var newtr = "<tr id='tr-"+tid+"'><td width='20%'>"+provs[p]+"</td><td width='70%'>"+cp['codes'][c]+"</td><td class='cursor'><span class='delline bd' id='"+tid+"'><i class='fa fa-minus-square-o'></i> Eliminar</span></td></tr>";
+                $('#dellines').append(newtr);
+                $('.delline').click(aunload); 
+            }
+            });
+            
+            function aunload(e){
+                var lid = e.currentTarget.id;
+                delete(showed[lid]);
+                var s = lid.split('-');
+                var p = s[0];
+                var c = cp['codes'][s[1]];
+                var id = p+'-'+c;
+                chart.unload({
+                   ids: id
+                });
+                $('#tr-'+lid).replaceWith('');
+            };
+            
+            $('.delline').click(aunload); 
+            
+     
+    
+        });
+    </script>
+   
+
+  </body>
+</html>
