@@ -146,7 +146,6 @@
    <p>
    El primero de agosto de 2017, fue publicada la <a href="docs/GOC-2017-EX31.pdf">Gaceta Oficial Extraordinaria No. 31</a>, donde se daba a conocer la Resolución Número 22/2017 
    del Ministerio de Trabajo y Seguridad Social (MTSS).
-    </p><p>
     Desde el momento de la publicación de la misma, se hacía efectiva la medida de no otorgar por el momento nuevas autorizaciones 
     para ejercer en Cuba el trabajo por cuentapropia, hasta que concluya el perfeccionamiento de este tipo de gestión, en 28 de 
     las 201 actividades permitidas en el país.
@@ -244,8 +243,8 @@ ver que en 4 de estas el otorgamiento de licencias ha sido detenido o eliminado.
                 </select>
             </div>
             <div class="col-lg-2 col-md-2">
-            <button type="button" class=" btn">
-            <span class="cursor bd" id="addline">                
+            <button type="button" class=" btn" id="addline">
+            <span class="cursor bd" >                
                 <i class="fa fa-plus-square-o "></i> Adicionar                 
             </span>
             </button>
@@ -314,7 +313,7 @@ ver que en 4 de estas el otorgamiento de licencias ha sido detenido o eliminado.
         la conducta de los trabajadores. 
       </p>
       <p>
-      Ese millón de empleados que sobraban en el sector estatal, y que se debían quedarse sin empleo, o que estuvieron interruptos un tiempo 
+      Ese millón de empleados que sobraban en el sector estatal, y que se debían quedar sin empleo, o que estuvieron interruptos un tiempo 
       y se previó que emigraran a la gestión por cuentapropia, ¿fueron finalmente movidos de estas plazas innecesarias? ¿ya todos son cuentapropistas? 
       Y si así fuese -que la matemática más elemental permite responder que no-  ¿ahora son necesarios de vuelta? 
       </p>
@@ -354,7 +353,7 @@ ver que en 4 de estas el otorgamiento de licencias ha sido detenido o eliminado.
      </p>
      <p>
      ¿Es necesario tratar de controlar todos los detalles al mínimo? ¿No sería más conveniente definir qué actividades no deben realizarse y 
-     el resto dejarlo a la elección de las personas? Un conjunto de normas con este espíritu serían un estímulo a la innovación y,
+     el resto dejarlo a la elección de las personas? Un conjunto de normas con este espíritu sería un estímulo a la innovación y,
      por tanto, a la economía y la sociedad.
      </p>
      <p>
@@ -588,6 +587,8 @@ var disqus_config = function () {
                 var newtr = "<tr id='tr-"+tid+"'><td width='20%'>"+provs[p]+"</td><td width='70%'>"+cp['codes'][c]+"</td><td class='cursor'><span class='delline bd' id='"+tid+"'><i class='fa fa-minus-square-o'></i> Eliminar</span></td></tr>";
                 $('#dellines').append(newtr);
                 $('.delline').click(aunload); 
+            } else {
+                alert("Ya está en la gráfica. Seleccione otra combinación.");
             }
             });
             

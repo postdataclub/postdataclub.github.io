@@ -188,8 +188,8 @@
                 </select>
             </div>
             <div class="col-lg-2 col-md-2">
-            <button type="button" class=" btn">
-            <span class="cursor bd" id="addline">                
+            <button type="button" class=" btn" id="addline">
+            <span class="cursor bd" >                
                 <i class="fa fa-plus-square-o "></i> Adicionar                 
             </span>
             </button>
@@ -613,6 +613,8 @@ var disqus_config = function () {
                 var newtr = "<tr id='tr-"+tid+"'><td width='20%'>"+provs[p]+"</td><td width='70%'>"+cp['codes'][c]+"</td><td class='cursor'><span class='delline bd' id='"+tid+"'><i class='fa fa-minus-square-o'></i> Eliminar</span></td></tr>";
                 $('#dellines').append(newtr);
                 $('.delline').click(aunload); 
+            } else {
+                alert("Ya está en la gráfica. Seleccione otra combinación.");
             }
             });
             
