@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Las patrias del atletismo</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Las patrias del atletismo</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">18/08/2017</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">20 años de transfers of allegiance</div> 
+             <div class="article-news-image">
+                <img src="images/ramil-guliyev-200m.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: independent.co.uk</div>
+                </div>
+
+            </div>           
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+    No fue <a href="https://www.iaaf.org/athletes/south-africa/wayde-van-niekerk-255162">Wayde van Niekerk</a>, no fue <a href="https://www.iaaf.org/athletes/botswana/isaac-makwala-237317">Isaac Kakwala</a>, fue <a href="https://www.iaaf.org/athletes/turkey/ramil-guliyev-226874">Ramil Guliyev</a> quien conquistó, inesperadamente, el título de los 200 metros planos en Londres. 
+    Relevó en lo alto del podio a <a href="https://www.iaaf.org/athletes/jamaica/usain-bolt-184599">Usain Bolt</a> quien, en su despedida de los mundiales de atletismo, no se presentó en la especialidad. Guliyev celebró su
+    triunfo con dos banderas: al cuello la de la nación que le vió nacer, entre sus manos la del país por el que compite. 
+    </p><p>
+    Ramil ganó la medalla de oro para Turquía. Los otomanos solo consiguieron otra medalla más: <a href="https://www.iaaf.org/athletes/turkey/yasmani-copello-233990">Yasmani Copello</a>, cubano de nacimiento, hoy turco, obtuvo el subtítulo
+    del los 400 metros con vallas. Azerbaiyán, el país de origen de Ramil Guliyev, nunca ha ganado una medalla en los mundiales de atletismo.
+    </p>
+    <p>
+    La XVI edición del Campeonato Mundial de Atletismo, Londres 2017, concluyó el pasado 13 de agosto. En esa cita 43 países alcanzaron, al menos, un metal bronceado; 6 de estas
+    naciones obtuvieron algunas de sus medallas con deportistas nacionalizados. En total, los nacionalizados alcanzaron al menos 7 medallas (2 de oro, 1 de plata, 4 de bronce).
+    Turquía y Baréin obtuvieron todas sus medallas con atletas importados que compitieron bajo sus  respectivas federaciones nacionales.
+    </p>
+    <p>La nacionalización de atletas sigue siendo un problema para el deporte. En el atletismo, la IAAF, ente rector del campo y pista, ha decidido enfrentar el asunto.</p>
+    <p>
+    En febrero pasado, el Consejo de la IAAF, a partir de una propuesta del presidente del organismo, Sebastian Coe, <a href="https://www.iaaf.org/news/press-release/transfer-allegiance-council-meeting-russia">decidió congelar cualquier nuevo
+    trámite de autorización a atletas para competir por una federación diferente a la anterior con que competían</a> (en inglés, <span class='it'>transfers of allegiance</span>).
+    Para ello se revocaron, con efecto inmediato, <a href="https://www.iaaf.org/download/download?filename=e13da04e-f783-4037-85bb-36790084bcfc.pdf&urlslug=IAAF%20Competition%20Rules%202016-2017%2C%20in%20force%20from%201%20November%202015%20(Chapter%203%20%E2%80%93%20Anti-Doping%20Rules%20of%20this%20edition%20of%20the%20rule%20book%20are%20no%20longer%20in%20force)">las reglas de competición</a> 5.2(b), 5.4(d) y 5.4(e), que permitían y regulaban que los atletas pudieran competir representando a nuevos países
+    a partir de obtener la nacionalidad de estos o poseer doble nacionalidad.
+    </p><p>
+    Coe comentó al respecto:
+    </p>
+    <p class="quote">Ha quedado claro, a partir de las múltiples transferencias de atletas, especialmente de África, que las actuales normas ya no son aptas para su propósito. El atletismo, que en sus niveles más altos de competición es un deporte de campeonato basado en equipos nacionales, es particularmente vulnerable en este aspecto. Además, las reglas actuales no ofrecen las protecciones necesarias a los atletas individuales implicados y están abiertas al abuso.
+</p>
+<p> En cifras de los últimos 20 años de <a href="https://www.iaaf.org/about-iaaf/documents/transfer-of-allegiance">transferencias reportadas por la IAAF</a>, África ha sido el continente más afectado por la pérdida de atletas por cambios de nacionalidad, seguido de Europa y la región de Norte, Centroamérica y el Caribe. 
+    Mientras tanto, Europa es el principal receptor de atletas nacionalizados, llegando a acaparar casi el 57% de todas las transferencias, incluyendo las que ocurren entre naciones
+    del viejo continente.
+</p>
+
+</div>
+   
+      <div id="activities-distribution" class="media-block main-border border">
+        <div class="graph-text main-text" style="text-align:center;">
+        Distribución de los cambios de membresía por federaciones continentales 1998-2017
+        </div>
+         <div class='row'>
+         <div class="col-lg-6 col-md-6">
+         <div class="graph-text main-text" style="text-align:center;font-size:17px;">
+        Atletas perdidos por federación
+        </div>
+        <div id="from-pie" class="graph" style="margin-top:5px;">
+        </div>
+        </div>
+        
+        <div class="col-lg-6 col-md-6">
+        <div class="graph-text main-text" style="text-align:center;font-size:17px;">
+        Atletas adquiridos por federación
+        </div>
+        <div id="to-pie" class="graph" style="margin-top:5px;">
+        </div>
+        </div>
+        
+        </div>  
+        <div class="graph-text main-text" style="text-align:center;font-size:17px;margin-top:20px;">
+        Cambios entre las federaciones continentales
+        </div>
+        <div class="row bd main-text">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:left;padding-left:55px;font-size:14px;">Desde</div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:right;padding-right:58px;font-size:14px;">Hacia</div>
+        </div>     
+        <div id="regions" class="graph"></div>
+    </div> 
+   
+   <div class="text-block">
+    <p>
+    El fenómeno de los <span class='it'>transfers of allegiance</span> no es cosa de pocos países. Las nacionalizaciones de atletas han involucrado, en un sentido u otro, a 144 de las federaciones que pertenecen o han
+    pertenecido a la IAAF. De ellas, 66 han estado tanto recibiendo como perdiendo atletas, 33 solo han recibido y 45 son las que solo cuentan
+    pérdidas. 
+    </p>
+    <p>
+    Estados Unidos, a nadie sorprende, es el país que más atletas ha agregado a sus filas, con 67. En el tope de la lista de los países con mayor número de adquisiciones de
+    atletas se encuentran, en la mayoría de los casos, naciones con gran poder económico. Algunos de estos países, con gran tradición atlética, como los Estados Unidos, Francia 
+    o Rusia, podrían sustentar sus resultados competitivos sin la necesidad de importar atletas. Otras naciones no. 
+    </p>
+    </div>
+    <div class="image-block" style="text-align: center;">
+                <img src="images/lagat.jpg" style="width:100%;">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9">Bernard Lagat, de origen keniano, ganó los trials de USA en 5000m en 2016. Lagat ganó para Kenya 2 medallas olímpicas y un bronce mundial al aire libre, con USA logró 5 medallas mundiales al aire libre incluidos dos títulos.</div>
+                <div class="image-author col-lg-3 col-md-3">Foto: Sports Illustrated</div>
+                </div>
+       </div>    
+    <div class="text-block">
+    <p>
+    Sin embargo, y de manera llamativa, no es un país africano el que más atletas ha transferido a otras federaciones nacionales. El país que más atletas ha perdido es Estados Unidos, con 97. 
+    También, en la lista de países con más pérdidas de atletas, resulta extraña la presencia de Gran Bretaña y Francia. Más evidente es que en el listado se encuentren Kenya, Etiopía, Marruecos, Nigeria y Cuba. 
+    </p>
+    <p>
+    Mayor claridad sobre la afectación de la nacionalización ofrece la diferencia entre atletas aquiridos y atletas perdidos. Así,
+    con un balance negativo más acentuado, por orden -exceptuando el caso de los Estados Unidos-, están Kenya, Marruecos, Etiopía, Cuba y Ucrania.
+    </p>
+</div>
+ 
+ <div id="countries-info" class="media-block main-border border">
+        <div class="graph-text main-text">
+        Top 10 de países con <select id="select-top">
+            <option value="lose-table">más pérdidas</option>
+            <option value="wins-table">más adquisiciones</option> 
+            <option value="negative-table">balance negativo</option>
+            <option value="positive-table">balance positivo</option>
+        </select>
+        </div>
+        
+        <div class="graph">
+        <div id="lose-table" class="top-table">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Ranking</td><td>País</td><td>No. de Pérdidas</td></tr></thead>
+            <tbody>
+            <tr ><td>1</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td>97</td></tr>
+            <tr ><td>2</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ke.png"> Kenya</td><td>67</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/et.png"> Etiopía</td><td>55</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ma.png"> Marruecos</td><td>36</td></tr>
+            <tr ><td>5</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/gb.png"> Gran Bretaña</td><td>34</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/cu.png"> Cuba</td><td>30</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ua.png"> Ucrania</td><td>30</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/fr.png"> Francia</td><td>23</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ru.png"> Rusia</td><td>23</td></tr>
+            <tr ><td>10</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ng.png"> Nigeria</td><td>18</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="wins-table" class="top-table" style="display:none;">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Ranking</td><td>País</td><td>No. de Adquisiciones</td></tr></thead>
+            <tbody>
+            <tr ><td>1</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td>67</td></tr>
+            <tr ><td>2</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/fr.png"> Francia</td><td>55</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bh.png"> Baréin</td><td>49</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/it.png"> Italia</td><td>39</td></tr>
+            <tr ><td>5</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/tr.png"> Turquía</td><td>32</td></tr>
+            <tr ><td>5</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/es.png"> España</td><td>32</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ir.png"> Irlanda</td><td>29</td></tr>
+            <tr ><td>7</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/gb.png"> Gran Bretaña</td><td>28</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ru.png"> Rusia</td><td>25</td></tr>
+            <tr ><td>9</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ca.png"> Canadá</td><td>22</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="positive-table" class="top-table" style="display:none;">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Ranking</td><td>País</td><td>Adquisiciones - Pérdidas</td></tr></thead>
+            <tbody>
+            <tr ><td>1</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bh.png"> Baréin</td><td>46</td></tr>
+            <tr ><td>2</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/it.png"> Italia</td><td>36</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/fr.png"> Francia</td><td>32</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/tr.png"> Turquía</td><td>30</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/es.png"> España</td><td>30</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ir.png"> Irlanda</td><td>24</td></tr>
+            <tr ><td>7</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/qa.png"> Qatar</td><td>18</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/il.png"> Israel</td><td>12</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ca.png"> Canadá</td><td>12</td></tr>
+            <tr ><td>10</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/be.png"> Bélgica</td><td>10</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="negative-table" class="top-table" style="display:none;">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Ranking</td><td>País</td><td>Adquisiciones - Pérdidas</td></tr></thead>
+            <tbody>
+            <tr ><td>1</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/kn.png"> Kenya</td><td>-66</td></tr>
+            <tr ><td>2</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/et.png"> Etiopía</td><td>-54</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ma.png"> Marruecos</td><td>-38</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/cu.png"> Cuba</td><td>-30</td></tr>
+            <tr ><td>4</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td>-30</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ua.png"> Ucrania</td><td>-29</td></tr>
+            <tr ><td>7</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bg.png"> Bulgaria</td><td>-8</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/er.png"> Eritrea</td><td>-6</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/gb.png"> Gran Bretaña</td><td>-6</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/eg.png"> Egipto</td><td>-6</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+  </div>
+  </div>
+    
+  <div class="text-block">
+    <p>La principal causa de los <span class="it">transfers of allegiance</span> es económica. Los incentivos monetarios que ofrecen determinados
+    países, y también mejores condiciones de preparación, son el mayor estímulo para que los deportistas adopten nuevas "patrias" en el atletismo.</p>
+    <p>
+    Esta práctica, incluso, cambia las configuraciones de los medalleros de los grandes eventos mundiales y la percepción
+    de las potencialidades deportivas de varios países. Baréin ha ganado todas sus medallas en campeonatos mundiales al aire libre con atletas nacionalizados.
+    Qatar, a excepción de las ganadas en salto alto por <a href="https://www.iaaf.org/athletes/qatar/mutaz-essa-barshim-253964">Mutaz Essa Barshim</a>, también tiene como medallistas a atletas nacidos fuera de sus fronteras.
+    Turquía ganó todas sus medallas del recién concluido mundial y también del pasado campeonato europeo de atletismo, donde fue cuarta en el medallero, con deportistas importados. </p> 
+   </div>
+    
+    <div id="nationalities" class="media-block main-border border">
+        <div class="graph-text main-text">
+        Cambios de nacionalidad entre países de las federaciones continentales 1998-2017
+        </div>
+        <div id="changes" class="graph" >
+        <div class="row main-text">
+            <div class="col-lg-6 col-md-6" style="padding-left:22px;margin-top:4px;">
+                <span class="bd">
+                Desde: 
+                </span>
+                <select class="transfers" style="margin-left:2px;width:200px;"  id="from">
+                <option value='Africa'>CAA (África)</option>
+                <option value='America' selected="selected">NACAC (Norte, Centroamérica y el Caribe)</option>
+                <option value='Asia'>AAA (Asia)</option>
+                <option value='Europa'>EAA (Europa)</option>
+                <option value='Oceania'>OAA (Oceanía)</option>
+                <option value='Sudamerica'>ConSudAtle (Sudamérica)</option>
+                </select>
+            </div>
+            <div class="col-lg-6 col-md-6" style="padding-left:22px;margin-top:4px;">
+                <span class="bd">
+                Para: 
+                </span>
+                <select class="transfers" style="margin-left:2px;width:200px;" id="to" >
+                <option value='Africa'>CAA (África)</option>
+                <option value='America'>NACAC (Norte, Centroamérica y el Caribe)</option>
+                <option value='Asia'>AAA (Asia)</option>
+                <option value='Europa'  selected="selected">EAA (Europa)</option>
+                <option value='Oceania'>OAA (Oceanía)</option>
+                <option value='Sudamerica'>ConSudAtle (Sudamérica)</option>
+                </select>
+            </div>
+        </div>
+        <div id="none" class="graph main-text bd" style="display:None;">No hay cambios de nacionalidad</div>
+        
+        
+        <div id="chart"></div>
+        </div>
+    </div>
+    
+    <div class="text-block">
+    <p>
+    Sin embargo, no es la compra de atletas la única causa para la adopción, por los atletas, de nuevos equipos nacionales, porque ¿cómo se justificaría
+    que los Estados Unidos sea el país que más atletas ha perdido en los últimos 20 años? ¿Cómo es posible que Francia y Gran Bretaña, a su vez grandes
+    importadores, pierdan tantos deportistas?
+    </p>
+    <p>Las razones de este fenómeno pueden ser varias. Las historias personales de los atletas, sus países de origen, o los de sus ancestros, parecen ser
+    una causa importante para cambiar de nacionalidad competitiva. Este tema puede ilustrarse con los 24 movimientos de atletas desde Europa
+    hacia África, que fueron realizados desde solo 3 países -Portugal, Gran Bretaña y Francia- y, en la mayoría de los casos, los países receptores
+    fueron antiguas colonias de estas naciones. O, en otro ejemplo, que el movimiento de atletas de Gran Bretaña hacia Irlanda, sea el 6to más común.</p> 
+    <p>
+    </div>
+    
+    <div id="countries-info" class="media-block main-border border">
+        <div class="graph-text main-text">
+        Movimientos más frecuentes de atletas 1998-2017
+        </div>
+        
+        <div class="graph">
+        <div id="transactiones-table" >
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Ranking</td><td>País de Origen</td><td>País de Destino</td><td>No. de cambios</td></tr></thead>
+            <tbody>
+            <tr ><td>1</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/kn.png"> Kenia</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bh.png"> Baréin</td><td>20</td></tr>
+            <tr ><td>2</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/kn.png"> Kenia</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td>19</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/et.png"> Etiopía</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bh.png"> Baréin</td><td>17</td></tr>
+            <tr ><td>3</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ma.png"> Marruecos</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/fr.png"> Francia</td><td>17</td></tr>
+            <tr ><td>5</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ng.png"> Nigeria</td><td>16</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/cu.png"> Cuba</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/es.png"> España</td><td>15</td></tr>
+            <tr ><td>6</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/gb.png"> Gran Bretaña</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ir.png"> Irlanda</td><td>15</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/us.png"> Estados Unidos</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ca.png"> Canadá</td><td>12</td></tr>
+            <tr ><td>8</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ua.png"> Ucrania</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/ru.png"> Rusia</td><td>12</td></tr>
+            <tr ><td>10</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/kn.png"> Kenia</td><td><img style="height:20px;width:40px;" class="flag-mini" src="../../assets/images/flags-mini/bh.png"> Turquía</td><td>9</td></tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    <div class="text-block">
+    La realidad competitiva de cada país podría ser otra posible causa que impulse a los deportistas a competir por otras naciones. 
+    Atletas de países con una alta calidad atlética, cuyo desempeño no basta para ocupar los lugares cimeros en su país de origen, podrían optar
+    por adquirir una nueva nacionalidad y desde ella, entonces, intentar incursionar en los grandes eventos del deporte. 
+    </p>
+    <p>De igual modo, deportistas relevantes en el ocaso de sus carreras podrían adoptar un nuevo país y así extender su trayectoria en eventos con representaciones nacionales. 
+    <a href="https://www.iaaf.org/athletes/slovenia/merlene-ottey-61432">Merlene Ottey</a>, una de las grandes figuras del atletismo de todos los tiempos, ganó con Jamaica 9 medallas olímpicas, 14 medallas en mundiales de
+    atletismo al aire libre y 6 en mundiales bajo techo. En el 2002, con 42 años, comenzó a competir por Eslovenia y su calidad todavía le alcanzó
+    para conseguir un bronce en los 60 metros planos en el campeonato mundial bajo techo de Birminghan en el 2003. Ninguna otra jamaicana estuvo 
+    en ese podio.</p>
+  </div>  
+    
+ <div class="image-block" style="text-align: center;">
+                <img src="images/ottey.jpg" style="width:100%;">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9">Merlene Ottey, con 52 años, compitió por Eslovenia en el campeonato europeo de atletismo</div>
+                <div class="image-author col-lg-3 col-md-3">Foto: www.abc.es</div>
+                </div>
+       </div>    
+    
+    
+  <div class="text-block">
+  <p>
+  Otro motivo, aunque parece manifestarse en menor medida, tiene que ver con las relaciones personales. Los matrimonios entre personas de diferentes nacionalidades
+  provocan que un miembro de la pareja establezca su residencia en otro país diferente al suyo. Cuando el involucrado es un atleta resulta 
+  muchas veces, con el paso del tiempo, en un <span class="it">transfer of allegiance</span>. 
+  </p>
+  <p><a href="https://www.iaaf.org/athletes/mexico/liliana-allen-60037">Lilliana Allen</a>, recordista cubana de los 100 metros planos, contrajo matrimonio con un entrenador méxicano y se radicó en México, compitiendo por este país a partir de 1998. 
+  <a href="https://www.iaaf.org/athletes/israel/donald-blair-sanford-234344">Donald Sanford</a>, corredor estadounidense de 400m, se casó con la jugadora de baloncesto israelí Danielle Dekell y se nacionalizó israelí en 2010. Desde 2012 compite por Israel.
+  Si bien en estos casos hubo cambios de nacionalidad, no siempre ocurre así. Los Eaton, <a href="https://www.iaaf.org/athletes/united-states/ashton-eaton-231489">Ashton</a> y <a href="https://www.iaaf.org/athletes/canada/brianne-theisen-eaton-207624">Brianne</a>, figuras estelares de las competencias múltiples en el atletismo, se casaron 
+  en el 2013 y, hasta el retiro prematuro de ambos, luego de Río 2016, ella siempre representó a Canadá y él a los Estados Unidos.
+   </p>
+   
+   <p>
+   Igualmente, son pocos los casos de múltiples cambios de nacionalidad por un mismo deportista. Lo más común es que un atleta cambie
+   a competir a un país y luego, al paso del tiempo, retorne a su país de origen. <a href="https://www.iaaf.org/athletes/france/jerome-romain-6967">Jerôme Romain</a>, triple saltador, compitió por Dominica, a partir de 1999
+   compitió por Francia y en 2008 se puso nuevamente bajo la bandera de Dominica. <a href="https://www.iaaf.org/athletes/united-states/olivia-ekpone-243249">Olivia Ekpone</a>, de padre nigeriano y madre estadounidense, compitió hasta
+   el 2015 por los Estados Unidos, en 2016 compitió por Nigeria y en el 2017 está de vuelta para competir por los Estados Unidos. Quizás el ejemplo más celebre 
+   de competir bajo múltiples nacionalidades es el de la cubana <a href="https://www.iaaf.org/athletes/great-britain-ni/yamile-aldama-80049">Yamilé Aldama</a>, quien fue una de las protagonistas del triple salto femenino por más de una
+   década representando a tres países: Cuba, Sudán y Gran Bretaña.
+   </p>
+   
+    
+  </div>
+    
+    <div class="image-block" style="text-align: center;">
+                <img src="images/aldama.jpg" style="width:100%;">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9">Yamilé Aldama representó a Cuba, Sudán y Gran Bretaña. Bajo las tres naciones ganó medallas importantes.</div>
+                <div class="image-author col-lg-3 col-md-3">Fotos: Sporting-Heroes.net/IAAF</div>
+                </div>
+       </div> 
+     
+  <div class="text-block">
+        <p>
+        Las condiciones y regulaciones en los distintos países son también un detonante para que los atletas tomen la decisión para competir bajo otra
+        bandera. <a href="https://www.iaaf.org/athletes/great-britain-ni/miguel-francis-282996">Miguel Francis</a>, nació en Monserrat, y residió en Antigua y Barbuda desde los 5 años, compitiendo por esta bandera haste el 2015, 
+        sin embargo, siendo ciudadano de un territorio británico de ultramar (Monserrat) desde el 2017 compite por el Gran Bretaña. Similares son
+        los casos de <a href="https://www.iaaf.org/athletes/great-britain-ni/shara-proctor-196700">Shara Proctor</a> y <a href="https://www.iaaf.org/athletes/great-britain-ni/zharnel-hughes-271965">Zharnel Hughes</a>, nacidos en Anguila, o de <a href="https://www.iaaf.org/athletes/great-britain-ni/delanno-williams-252105">Delanno Williams</a>, nacido en Islas Turcas y Caicos. Ni Monserrat, ni Anguila,
+        ni Islas Turcas y Caicos tienen comités olímpicos nacionales. 
+        </p>
+        <p>
+        Por otra parte, Cuba, una de las naciones más afectadas en el atletismo por el robo y la pérdida de atletas, al punto que en los últimos 20 años
+        atletas cubanos han ganado para otras naciones 11 medallas en los eventos más importantes del atletismo (olimpiadas y mundiales bajo techo y al aire libre),
+        aún no contempla, <a href="https://deporcuba.com/2017/07/23/correr-por-cuba-es-lo-mas-grande/">según expresó Yipsi Moreno</a>, metodóloga de la comisión nacional de atletismo,  la participación en eventos internacionales oficiales
+        de atletas cubanos residentes en el exterior.
+        </p>
+        <p><a href="https://www.iaaf.org/athletes/cuba/richer-perez-302657">Richer Pérez</a>, campeón panamericano de maratón en el 2015 y participante cubano en la olimpiada de Río, poseia la marca clasificatoria para Londres 2017
+        pero no fue seleccionado para participar por Cuba. Pérez reside en México a donde se trasladó por motivos familiares. No sería extraño
+        verlo correr por otra nación en el futuro.
+        </p>
+    </div>
+  
+    
+     <div id="countries-info" class="media-block main-border border">
+        <div class="graph-text main-text">
+        Explore los cambios de los distintos países 1998-2017
+        </div>
+        <div class="graph main-text">
+        Seleccione un país: <span><select width="150px;" id="countries" ><option value="none" selected="selected">-------</option></select></span>
+        </div>
+        <div id="country-data" class="graph main-text" style="display:none;">
+            <div id="country-name">Country Name</div>
+            <div id="aloses-block">
+                Perdidas: <span id="aloses-total">0 atletas</span>
+            </div>
+            <div id="awins-block">
+                Adquisiciones: <span id="awins-total">0 atletas</span>
+            </div>
+       
+        <div id="transfer-list" class="main-text">
+        <div id="transfer-selection">
+        <span id="transfer-type"></span> <span id="transfer-country"></span> <span id="transfer-atletas"></span>
+        </div>
+        <div id="transfer-table">
+            <table  class="table table-striped table-condensed table-hover main-text">
+        <thead><tr class="bd"><td >Nombre</td><td>Año</td><td></td></tr></thead>
+        <tbody id="atletas">
+        </tbody>
+        </table>
+        </div>
+        </div>
+       
+        </div>
+    </div>
+    
+    <div class="text-block">
+    
+    <p>
+    El cambio de nacionalidades en el atletimos es un asunto que no solo compete al ente rector del atletismo; las asociaciones y federaciones nacionales también deben jugar un
+    papel esencial. Proveer las condiciones esenciales que, según las posibilidades de cada país, requieren los atletas, acompasar sus reglamentos
+    a un mundo global y conectado que permita a los deportistas residir en cualquier lugar y competir bajo su nación de origen a partir
+    de un conjunto de pautas coherentes previamente establecidas y establecer mecanismos para la solución de conflictos entre atletas y federaciones,
+    son pasos que debe acometer cada nación.
+    </p>
+    <p>
+    La IAAF tiene una ardua labor por delante para dar una propuesta de solución a una problemática que es compleja y multifactorial.
+    El grupo de trabajo que fue creado para estudiar el asunto y que estará dirigido por Hiroshi Yokokawa, miembro del consejo de la IAAF, deberá proponer
+     nuevas pautas para determinar cómo se manejan las patrias en el atletismo antes de que termine este año. A partir de 2018, las tablas de medallas nos dirán
+     que pasó.
+    </p>
+    </div>
+
+<div class="media-block">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se hizo?</span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología</span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div class="text-block" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    El artículo está hecho en base a <a href="https://www.iaaf.org/about-iaaf/documents/transfer-of-allegiance">los documentos PDF</a> publicados por la IAAF
+    donde se listan todos los <span class="it">transfer of allegiance</span> desde 1998 hasta 2017. Estos documentos fueron procesados para obtener los datos
+    reflejados en el artículo.   
+    </p>
+    <p>En una primera instancia del procesamiento, se obtuvo de cada uno de los documentos su texto plano utilizando la herramienta <span class="it">pdftotext</span>.
+    Con cada texto se creo un documento que fue convertido, de manera manual y utilizando la selección en columnas que provee <a href="www.sublimetext.com">sublime</a>,
+    en un fichero <span class="it">csv</span> que contiene el nombre del atleta, el país de origen del cambio, el país de destino, el año de elegibilidad
+    para competir por el país de destino y el año relativo a la publicación oficial del <span class="it">transfer of allegiance</span>. 
+    </p>
+    <p>
+    Posteriormente,
+    los documentos <span class="it">csv</span> fueron transformados, utilizando de lenguaje de programación <span class="it">python</span>, en un único <a href="http://127.0.0.1:8000/suplementos/iaaf/data/all.json">documento
+    <span class="it">JSON</span></a> con toda la información de las transferencias desde 1998 hasta 2017. Las transferencias fueron procesadas para obtener 
+    información cuantificadas relativa a los países involucrados, la cual fue también agregada al documento <a href="http://127.0.0.1:8000/suplementos/iaaf/data/all.json">documento
+    <span class="it">JSON</span></a>.
+    </p>
+    <p>En la revisión manual de las transferencias se detectaron algunas inconsistencias de los datos, las cuales, luego de la verificación utilizando otras fuentes,
+    fueron subsanadas. Otras, que no se pudieron certificar como errores fueron dejadas tal como se obtuvieron de las fuentes originales. Como inconsistencia
+    se detectó que existían transferencias relativas a un mismo atleta con el mismo par país origen-país destino, en estos casos se eliminaron
+    aquellas cuya actualización era más antigua. También fueron homogenizados algunos datos relativos a las siglas de países utilizadas en <a href="https://www.iaaf.org/about-iaaf/documents/transfer-of-allegiance">los documentos</a>
+    de la IAAF.
+    </p>
+    <p>Para las visualizaciones se utilizó <a href="http://c3js.org/">C3.js</a> en la generación de los gráficos de pastel y en el caso de los <a href="https://es.wikipedia.org/wiki/Diagrama_de_Sankey">los diagramas de Sankey</a>
+    se tomó como base el cógigo del <a href="http://sankey.csaladen.es/">Sankey Diagram Generator</a> que se realizó a partir del <a href="https://github.com/d3/d3-sankey/">Sankey plugin</a> para <a href="d3js.org">D3</a>
+    </p>
+    </div>
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología</span>
+             </div>
+    </div>
+    </div>
+    
+ 
+  </div>
+ 
+ <div class="text-block notes">
+   <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html"  target='_blank'><div class="cursor  facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html&amp;text=Las%20patrias%20del%20atletismo&amp;hashtags=#postdataclub" target='_blank'><div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Las patrias del atletismo http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html"  target='_blank'><div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div></a></div>
+    </div>
+   </div> 
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201708-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+   <div class="read-more main-text">
+    Lea también:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/cuba-en-las-mayores.html">Cuba en las mayores</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+         <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block viz-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/historia-de-cuba-en-grandes-ligas.html">Breve historia de Cuba en las Grandes Ligas</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block prof-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/estrellas-entre-los-grandes.html">Estrellas entre los grandes</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a href="../../equipo/aymara.html">Aymara Vigil</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a> </div>
+            </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-3 col-md-3 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/mlb-un-juego-de-ninos.html">MLB: ¿un juego de niños?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/julio.html">Julio Batista</a></div>
+            </div>
+            </div>
+        </div>
+  
+    </div>
+     
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/sankey.js"></script>
+    <script src="js/iaaf.js"></script>
+    <script src="js/regions.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+   <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    </script>
+   </script>
+    <script>
+    $.getJSON("data/all.json",function(a){
+    nodes = [{"name":"Cuba"},{"name":"Francia"},{"name":"España"},{"name":"Camerún"},{"name":"Italia"}];
+    links = [{"source":0,"target":2,"value":a['pairs']['CUB-ESP']},{"source":3,"target":1,"value":a['pairs']['CMR-FRA']},{"source":0,"target":4,"value":a['pairs']['CUB-ITA']}];
+    function dsort(a,b){
+        for(var i=0;i<a.length-1;i++)
+            for(var j=i+1;j<a.length;j++)
+                if (a[i]['name']>a[j]['name']){
+                    var temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                    temp = b[i];
+                    b[i] = b[j];
+                    b[j] = temp;
+                }
+    }
+    function filter(from,to){
+        var p = a['pairs'];
+        var c = a['countries'];
+        var f=[];
+        var f_index=[];
+        var t=[];
+        var t_index=[];
+        for(var i in p){
+            var s = i.split('-');
+            if ((from==c[s[0]]['region'])&&(to==c[s[1]]['region'])){
+                if (f_index.indexOf(s[0])==-1){
+                    f_index.push(s[0]);
+                    f.push({'name':c[s[0]]['name']});
+                }
+                if (t_index.indexOf(s[1])==-1){
+                    t_index.push(s[1]);
+                    t.push({'name':c[s[1]]['name']});
+                }
+            }
+        }
+        nodes = f.concat(t);
+        links = [];
+        var base = f_index.length;
+        for(var i in p){
+            var s = i.split('-');
+            if ((from==c[s[0]]['region'])&&(to==c[s[1]]['region'])){
+                links.push({'source':f_index.indexOf(s[0]),'target':base+t_index.indexOf(s[1]),'value':p[i]})
+            }
+        }
+        th = f_index.length;
+        if (th<t_index.length) {
+            th = t_index.length;
+        }
+    }
+    function mydraw() {
+        data={"nodes": nodes,"links":links};
+        if (th*30<400){
+            $('#chart').height('400px');
+        } else {
+            $('#chart').height(th*30+'px');
+        }
+        $('#none').hide();
+        $('#chart').show();
+        if (nodes.length==0){
+            $('#chart').hide();
+            $('#none').show();
+        }
+        change(data);
+    }
+    
+    function myreload(){
+        var f = $('#from').val();
+        var t = $('#to').val();
+        filter(f,t);
+        mydraw();
+    }
+    $('.transfers').on('change',myreload);
+    //$('#chart').resize(myreload);
+    window.addEventListener("resize", myreload);
+    
+    filter("America","Europa");
+    mydraw(); 
+    
+    function compare_countries(id1,id2){
+                if (id1[1] < id2[1])
+                    return -1;
+                if (id1[1] > id2[1])
+                    return 1;
+                return 0;
+    }
+    function getCountries(){
+        var c = [];
+        for(var i in a['countries']){
+            c.push([i,a['countries'][i]['name']]);
+        }
+        return c;
+    }
+    var countries = getCountries();
+    countries.sort(compare_countries);
+    for(var i in getCountries()){
+        $('#countries').append('<option value="'+countries[i][0]+'">'+countries[i][1]+'</option>');
+    }
+    function getCountriesTo(c){
+        var toc = [];
+        for(var i in a['pairs']){
+            var s = i.split('-');
+            if (s[0]==c){
+                toc.push([s[1],a['countries'][s[1]]['name'],a['pairs'][i]]);
+            }
+        }
+        toc.sort(compare_countries);
+        return toc;
+    }
+    function getCountriesFrom(c){
+        var toc = [];
+        for(var i in a['pairs']){
+            var s = i.split('-');
+            if (s[1]==c){
+                toc.push([s[0],a['countries'][s[0]]['name'],a['pairs'][i]]);
+            }
+        }
+        toc.sort(compare_countries);
+        return toc;
+    }
+    $('#countries').on('change',function(){
+        var val = $('#countries').val();
+        if (val=='none'){
+            $('#country-data').hide();
+        } else {
+            $('#country-data').show();
+            $('#country-name').html('<img class="flag-mini" src="../../assets/images/flags-mini/'+a['countries'][val]['flag']+'"> '+a['countries'][val]['name']);
+            var tc = getCountriesTo(val);
+            var fc = getCountriesFrom(val);
+            var fct = 0;
+            var tct = 0;
+            for(var i in tc){
+                tct += tc[i][2];
+            }
+            for(var i in fc){
+                fct += fc[i][2];
+            }
+            var pt = '';
+            if (tct==0) {
+                pt = '<span class="bd">0</span> atletas ';
+            }
+            if (tct==1) {
+                pt = '<span class="bd">1</span> atleta ';
+                generateTransferCountry('lose');
+            }
+            if (tct>1) {
+                pt = '<span class="bd">'+tct+'</span> atletas ';
+                generateTransferCountry('lose');
+            }
+            if (tc.length==1){
+                pt +='con destino a <span class="bd">1</span> país';
+            }
+            if (tc.length>1){
+                pt +='con destino a <span class="bd">'+tc.length+'</span> países';
+            }  
+            $('#aloses-total').html(pt);
+            var at = '';
+            if (fct==0) {
+                at = '<span class="bd">0</span> atletas ';
+            }
+            if (fct==1) {
+                at = '<span class="bd">1</span> atleta ';
+                generateTransferCountry('wins');
+            }
+            if (fct>1) {
+                at = '<span class="bd">'+fct+'</span> atletas ';
+                generateTransferCountry('wins');
+            }
+            if (fc.length==1){
+                at +='desde <span class="bd">1</span> país';
+            }
+            if (fc.length>1){
+                at +='desde <span class="bd">'+fc.length+'</span> países';
+            }  
+            $('#awins-total').html(at);
+            
+            if ((fct==0)&&(tct>0)){
+                $('#transfer-type').html('Pérdidas ');
+            }
+            if ((tct==0)&&(fct>0)){
+                $('#transfer-type').html("Adquisiciones ");
+            }
+            if ((fct>0)&&(tct>0)){
+                $('#transfer-type').html('<select id="type-select"><option value="wins">Adquisiciones</option><option value="lose">Pérdidas</option></select> ');
+                
+                $('#type-select').on('change',function(){
+                    generateTransferCountry($('#type-select').val());
+                });
+                
+            }
+            
+            function winsCountry(){
+                var c = $('#wins-country').val();
+                var id = c+'-'+$('#countries').val();
+                if (a['pairs'][id]==1){
+                    $('#transfer-atletas').html(' (1 atleta)');
+                } else {
+                    $('#transfer-atletas').html(' ('+a['pairs'][id]+' atletas)');
+                }
+                getAtletas(c,$('#countries').val());
+            }
+            
+            function loseCountry(){
+                var c = $('#lose-country').val();
+                var id = $('#countries').val()+'-'+c;
+                if (a['pairs'][id]==1){
+                    $('#transfer-atletas').html(' (1 atleta)');
+                } else {
+                    $('#transfer-atletas').html(' ('+a['pairs'][id]+' atletas)');
+                }
+                getAtletas($('#countries').val(),c);
+            }
+            
+            function getAtletas(from,to){
+                var l = [];
+                var t = a['transfers'];
+                for(var i in t){
+                    if ((t[i]['from']==from)&&(t[i]['to']==to)){
+                        l.push([t[i]['name']+' '+t[i]['surname'],t[i]['year']]);
+                    }
+                }
+                l.sort(compare_countries);
+                $('#atletas').html('');
+                for(var i in l){
+                    $('#atletas').append('<tr><td>'+l[i][0]+'</td><td>'+l[i][1]+'</td><td style="text-align:right;"><img class="flag-mini" src="../../assets/images/flags-mini/'+a['countries'][from]['flag']+'"> <i class="fa fa-arrow-right" style="vertical-align:super;"></i> <img class="flag-mini" src="../../assets/images/flags-mini/'+a['countries'][to]['flag']+'"></td></tr>')
+                }
+            }
+            
+            function generateTransferCountry(type){
+                if (type=='lose'){
+                    if (tc.length==1){
+                        $('#transfer-country').html('hacia '+tc[0][1]);
+                        
+                    }
+                    if (tc.length>1) {
+                        var list = '<select id="lose-country">';
+                        for(var i in tc){
+                            list+='<option value="'+tc[i][0]+'">'+tc[i][1]+'</option>'; 
+                        }
+                        list += '</select>';
+                        $('#transfer-country').html('hacia '+list);
+                        $('#lose-country').on('change',loseCountry);
+                    }
+                    if (tc[0][2]==1){
+                        $('#transfer-atletas').html(' (1 atleta)');
+                    } else {
+                        $('#transfer-atletas').html(' ('+tc[0][2]+' atletas)');
+                    }
+                    getAtletas($('#countries').val(),tc[0][0]);
+                }
+                if (type=='wins'){
+                    if (fc.length==1){
+                        $('#transfer-country').html('desde '+fc[0][1]);
+                    }
+                    if (fc.length>1) {
+                        var list = '<select id="wins-country">';
+                        for(var i in fc){
+                            list+='<option value="'+fc[i][0]+'">'+fc[i][1]+'</option>'; 
+                        }
+                        list += '</select>';
+                        
+                        $('#transfer-country').html('desde '+list);
+                        $('#wins-country').on('change',winsCountry);
+                    }
+                    if (fc[0][2]==1){
+                        $('#transfer-atletas').html(' (1 atleta)');
+                    } else {
+                        $('#transfer-atletas').html(' ('+fc[0][2]+' atletas)');
+                    }
+                    getAtletas(fc[0][0],$('#countries').val());
+                }
+            }
+            
+        }
+    });
+    $('#select-top').on('change',function(){
+        var val = $('#select-top').val();
+        $('.top-table').hide();
+        $('#'+val).show();
+    });
+});
+	</script>
+    <script>
+    var chart1 = c3.generate({
+        bindto: '#from-pie',
+        data: {
+          columns: [
+            ["África (CAA)",257],
+            ["Europa (EAA)",209],
+            ["Norte, Centroamérica y el Caribe (NACAC)",175],
+            ["Asia (AAA)",22],
+            ["Oceanía (OAA)",19],
+            ["Sudamérica (ConSudAtle)",9],
+          ],
+          type : 'donut'
+        },
+        axis: {
+          x: {
+            label: 'Sepal.Width'
+          },
+          y: {
+            label: 'Petal.Width'
+          }
+        },
+        donut: {
+          title: "691 pérdidas",
+          width: 50
+        },
+        tooltip: {
+            format: {
+                title: function(d) {return d},
+                value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+' atletas)' },
+            } 
+        }
+      });
+      
+      var chart2 = c3.generate({
+        bindto: '#to-pie',
+        data: {
+          columns: [
+            ["África (CAA)",61],
+            ["Europa (EAA)",393],
+            ["Norte, Centroamérica y el Caribe (NACAC)",132],
+            ["Asia (AAA)",78],
+            ["Oceanía (OAA)",20],
+            ["Sudamérica (ConSudAtle)",7],
+          ],
+          type : 'donut'
+        },
+        axis: {
+          x: {
+            label: 'Sepal.Width'
+          },
+          y: {
+            label: 'Petal.Width'
+          }
+        },
+        donut: {
+          title: "691 adquisiciones",
+          width: 50
+        },
+        tooltip: {
+            format: {
+                title: function(d) {return d},
+                value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+' atletas)' },
+            } 
+        }
+      });
+    </script>
+    <script>
+    function dow(){
+    $.getJSON("data/regions.json",function(b){
+    bn = b['nodes'];
+    bl = b['links'];
+    rdata ={"nodes": bn,"links":bl};
+    rechange(rdata);
+    });
+    }
+    dow();
+    window.addEventListener("resize", dow); 
+    </script>
+    
+  </body>
+</html>

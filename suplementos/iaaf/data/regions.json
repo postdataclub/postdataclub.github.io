@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "name": "África"
+        },
+        {
+            "name": "Norte, Centroamérica y el Caribe"
+        },
+        {
+            "name": "Asia"
+        },
+        {
+            "name": "Europa"
+        },
+        {
+            "name": "Oceanía"
+        },
+        {
+            "name": "Sudamérica"
+        },
+        {
+            "name": "África"
+        },
+        {
+            "name": "Norte, Centroamérica y el Caribe"
+        },
+        {
+            "name": "Asia"
+        },
+        {
+            "name": "Europa"
+        },
+        {
+            "name": "Oceanía"
+        },
+        {
+            "name": "Sudamérica"
+        }
+    ],
+    "links": [
+        {
+            "source": 2,
+            "target": 6,
+            "value": 3
+        },
+        {
+            "source": 3,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 10,
+            "value": 3
+        },
+        {
+            "source": 3,
+            "target": 9,
+            "value": 157
+        },
+        {
+            "source": 3,
+            "target": 8,
+            "value": 3
+        },
+        {
+            "source": 3,
+            "target": 7,
+            "value": 16
+        },
+        {
+            "source": 1,
+            "target": 11,
+            "value": 5
+        },
+        {
+            "source": 2,
+            "target": 8,
+            "value": 5
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 7
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": 25
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 3
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 5
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 65
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "value": 24
+        },
+        {
+            "source": 2,
+            "target": 9,
+            "value": 9
+        },
+        {
+            "source": 5,
+            "target": 9,
+            "value": 7
+        },
+        {
+            "source": 4,
+            "target": 9,
+            "value": 11
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "value": 69
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 143
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 38
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "value": 5
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 4
+        },
+        {
+            "source": 1,
+            "target": 9,
+            "value": 66
+        },
+        {
+            "source": 3,
+            "target": 10,
+            "value": 8
+        },
+        {
+            "source": 4,
+            "target": 6,
+            "value": 2
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "value": 5
+        }
+    ]
+}
