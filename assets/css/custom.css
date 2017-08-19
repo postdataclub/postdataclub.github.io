@@ -453,9 +453,18 @@ body {
     font-size: 17px;
 }
 
+@media (min-width:990px){
 .text-block {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+}
+
+@media (max-width:990px){
+.text-block {
+    margin-left: 0%;
+    margin-right: 0%;
+}
 }
 
 .media-block {
