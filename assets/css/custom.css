@@ -508,6 +508,16 @@ body {
 */
 }
 
+.border-up {
+    border-width: 4px;
+    border-top-style: solid;
+}
+
+.border-down {
+    border-width: 4px;
+    border-bottom-style: solid;
+}
+
 .cursor {
     cursor: pointer;
 }
@@ -865,5 +875,7 @@ a:focus {
     margin-top: 20px;
     text-align: left;
 }
+
+
 
 
