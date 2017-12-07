@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - En dos ruedas y con electricidad</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="../../assets/css/tooltipster.bundle.min.css"/>
+    
+    
+    
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/tooltipster.bundle.min.js"></script>
+    
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/local.css">
+    
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator"></div>
+    <div class="main-title">
+        <div class="first-title">
+        En dos ruedas y con electricidad
+        </div>
+        <div class="second-title">
+        La ruta cubana de las motos eléctricas
+        </div>
+    </div>
+    <div id="block1" style="margin-top:-15px;" >
+    <img src="images/ilustracion-1.jpg" class="cover main-border  border-down">
+    </div>
+    
+    <div id="panama" class="me-art" style="padding-top:15px;">
+<p>
+Por tercera vez ese día, Marina intentó llamar a la Embajada de Panamá en Cuba para pedir cita. El objetivo era conseguir la Visa de Turismo que le permitiera conocer otro país y, de paso, invertir en algunos equipos e insumos que le pudieran aportar alguna ganancia económica.
+</p>
+<p>
+Su primo, Freddy, había viajado como <span class="it">mula</span> dos veces, pero ella quería ir por su cuenta. Trabajaba en una empresa mixta, así que de a poco acumuló en el banco una cifra superior a los 500 dólares que exigía la Embajada. Podía declarar, además, que tenía una casa a su nombre, lo que serviría para demostrar su inteción de regresar al país. Redactó la carta de justificación del viaje, en la que expresaba su interés por el Istmo, su fascinación por la cultura e historias del país centroamericano.
+</p>
+<p>
+Cuando por fin alguien contestó la llamada, fijó su cita para tres meses después que, si no agónicos, al menos la tuvieron un poco nerviosa. Había destinado mucho tiempo y esfuerzo a esto, y planeaba gastarse la mayoría de sus ahorros. Aunque Freddy le repitiera una y otra vez que lo de las motos era un negocio redondo, le quedaban dudas.
+</p>
+<p>
+La visa se la dieron sin problemas. Tenía todo en regla, y con el dinero  acumulado en el banco demostró su solvencia, lo que le valió tres años de entradas múltiples a Panamá.
+</p>
+<p>
+Al pasaje destinó 450 CUC, 50 a pagar la visa y unos 150 a la estancia en Panamá por tres días. Fue con otros cubanos, pues le advirtieron que la Zona Franca era algo caótica y era mejor ir en grupo, así que entre todos se decidieron a alquilar un transporte que les garantizara el viaje de ida y vuelta.
+</p>
+
+</div>
+
+
+<div id="panama-evolution" class="media-block main-border border">
+
+        <div class="graph-text main-text" style="text-align:center;">
+        Top de Países según el número de ingreso de turistas a la Zona Libre de Colón (2007-2016)
+        </div>
+            
+            <div style="padding-left:10px;padding-right:10px;">
+            <table  class="table table-striped table-condensed table-hover main-text" >
+            <thead><tr class="bd"><td></td><td class="hidden-xs hidden-sm">2007</td><td class="hidden-xs hidden-sm">2008</td><td class="hidden-xs hidden-sm">2009</td><td class="hidden-xs hidden-sm">2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td></tr></thead>
+            <tbody>
+            <tr><td>1</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(38 564)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(59 074)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(28 579)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(37 237)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(36 545)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(36 237)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(34 475)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(35 832)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(29 251)</span></td>
+            <td ><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(15 316)</span></td>
+            </tr>
+            
+            <tr ><td>2</td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(27 629)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="co" class="flag-mini cursor  popup" title="Colombia" src="../../assets/images/flags-mini/co.png">  <br><span class="mini-total">(43 066)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(28 391)</span></td>
+            <td  class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(20 083)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(29 350)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(27 627)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(19 288)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(16 288)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(13 889)</span></td>
+            <td ><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(12 856)</span></td>
+            </tr>
+            
+            <tr ><td>3</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(12 630)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(15 502)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(9 545)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(11 336)</span></td>
+            <td><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(15 778)</span></td>
+            <td><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(16 765)</span></td>
+            <td><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(16 963)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(12 284)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(12 304)</span></td>
+            <td><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(12 313)</span></td>
+            </tr>
+            
+            <tr ><td>4</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ht" class="flag-mini cursor  popup" title="Haití" src="../../assets/images/flags-mini/ht.png">   <br><span class="mini-total">(6 759)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(7 942)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(5 542)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(9 341)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(12 634)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(12 923)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(11 126)</span></td>
+            <td><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(10 094)</span></td>
+            <td><img style="height:20px;width:40px;" data="ve" class="flag-mini cursor  popup" title="Venezuela" src="../../assets/images/flags-mini/ve.png">   <br><span class="mini-total">(10 087)</span></td>
+            <td><img style="height:20px;width:40px;" data="cr" class="flag-mini cursor  popup" title="Costa Rica" src="../../assets/images/flags-mini/cr.png">   <br><span class="mini-total">(9 923)</span></td>
+            </tr>
+            
+            <tr ><td>5</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(6 320)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ht" class="flag-mini cursor  popup" title="Haití" src="../../assets/images/flags-mini/ht.png">   <br><span class="mini-total">(7 536)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ht" class="flag-mini cursor  popup" title="Haití" src="../../assets/images/flags-mini/ht.png">   <br><span class="mini-total">(5 280)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(6 210)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(6 484)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(7 611)</span></td>
+            <td><img style="height:20px;width:40px;" data="es" class="flag-mini cursor  popup" title="España" src="../../assets/images/flags-mini/es.png">   <br><span class="mini-total">(7 570)</span></td>
+            <td><img style="height:20px;width:40px;" data="es" class="flag-mini cursor  popup" title="España" src="../../assets/images/flags-mini/es.png">   <br><span class="mini-total">(7 567)</span></td>
+            <td><img style="height:20px;width:40px;" data="es" class="flag-mini cursor  popup" title="España" src="../../assets/images/flags-mini/es.png">   <br><span class="mini-total">(7 668)</span></td>
+            <td><img style="height:20px;width:40px;" data="cu" class="flag-mini cursor  popup" title="Cuba" src="../../assets/images/flags-mini/cu.png">   <br><span class="mini-total">(5 024)</span></td>
+            </tr>
+            
+            <tr ><td>6</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(4 867)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(7 225)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(4 889)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(3 895)</span></td>
+            <td><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(4 079)</span></td>
+            <td><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(4 011)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(7 109)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(5 600)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">   <br><span class="mini-total">(5 909)</span></td>
+            <td><img style="height:20px;width:40px;" data="es" class="flag-mini cursor  popup" title="España" src="../../assets/images/flags-mini/es.png">   <br><span class="mini-total">(4 829)</span></td>
+            </tr>
+            
+            <tr ><td>7</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ec" class="flag-mini cursor  popup" title="Ecuador" src="../../assets/images/flags-mini/ec.png">   <br><span class="mini-total">(4 148)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(5 094)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(3 757)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="ht" class="flag-mini cursor  popup" title="Haití" src="../../assets/images/flags-mini/ht.png">   <br><span class="mini-total">(3 810)</span></td>
+            <td><img style="height:20px;width:40px;" data="ht" class="flag-mini cursor  popup" title="Haití" src="../../assets/images/flags-mini/ht.png">   <br><span class="mini-total">(3 786)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">   <br><span class="mini-total">(3 719)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">   <br><span class="mini-total">(4 505)</span></td>
+            <td><img style="height:20px;width:40px;" data="cu" class="flag-mini cursor  popup" title="Cuba" src="../../assets/images/flags-mini/cu.png">   <br><span class="mini-total">(5 033)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">   <br><span class="mini-total">(4 761)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">   <br><span class="mini-total">(4 039)</span></td>
+            </tr>
+            
+            <tr ><td>8</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(3 548)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="do" class="flag-mini cursor  popup" title="R. Dominicana" src="../../assets/images/flags-mini/do.png">  <br><span class="mini-total">(3 670)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(2 628)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(3 161)</span></td>
+            <td><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(3 131)</span></td>
+            <td><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(2 910)</span></td>
+            <td><img style="height:20px;width:40px;" data="cu" class="flag-mini cursor  popup" title="Cuba" src="../../assets/images/flags-mini/cu.png">  <br><span class="mini-total">(3 480)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">  <br><span class="mini-total">(3 900)</span></td>
+            <td><img style="height:20px;width:40px;" data="cu" class="flag-mini cursor  popup" title="Cuba" src="../../assets/images/flags-mini/cu.png">  <br><span class="mini-total">(3 118)</span></td>
+            <td><img style="height:20px;width:40px;" data="ni" class="flag-mini cursor  popup" title="Nicaragua" src="../../assets/images/flags-mini/ni.png">  <br><span class="mini-total">(2 548)</span></td>
+            </tr>
+            
+            <tr ><td>9</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="do" class="flag-mini cursor  popup" title="R. Dominicana" src="../../assets/images/flags-mini/do.png">  <br><span class="mini-total">(3 361)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(3 625)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="do" class="flag-mini cursor  popup" title="R. Dominicana" src="../../assets/images/flags-mini/do.png">  <br><span class="mini-total">(2 441)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="gt" class="flag-mini cursor  popup" title="Guatemala" src="../../assets/images/flags-mini/gt.png">   <br><span class="mini-total">(2 631)</span></td>
+            <td><img style="height:20px;width:40px;" data="pe" class="flag-mini cursor  popup" title="Perú" src="../../assets/images/flags-mini/pe.png">   <br><span class="mini-total">(2 820)</span></td>
+            <td><img style="height:20px;width:40px;" data="es" class="flag-mini cursor  popup" title="España" src="../../assets/images/flags-mini/es.png">   <br><span class="mini-total">(2 551)</span></td>
+            <td><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(3 479)</span></td>
+            <td><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(2 533)</span></td>
+            <td><img style="height:20px;width:40px;" data="br" class="flag-mini cursor  popup" title="Brazil" src="../../assets/images/flags-mini/br.png">  <br><span class="mini-total">(2 526)</span></td>
+            <td><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(1 868)</span></td>
+            </tr>
+            
+            <tr ><td>10</td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="gt" class="flag-mini cursor  popup" title="Guatemala" src="../../assets/images/flags-mini/gt.png">   <br><span class="mini-total">(2 778)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="gt" class="flag-mini cursor  popup" title="Guatemala" src="../../assets/images/flags-mini/gt.png">   <br><span class="mini-total">(3 169)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="gt" class="flag-mini cursor  popup" title="Guatemala" src="../../assets/images/flags-mini/gt.png">   <br><span class="mini-total">(2 248)</span></td>
+            <td class="hidden-xs hidden-sm"><img style="height:20px;width:40px;" data="do" class="flag-mini cursor  popup" title="R. Dominicana" src="../../assets/images/flags-mini/do.png">  <br><span class="mini-total">(2 524)</span></td>
+            <td><img style="height:20px;width:40px;" data="br" class="flag-mini cursor  popup" title="Brazil" src="../../assets/images/flags-mini/br.png">  <br><span class="mini-total">(2 703)</span></td>
+            <td><img style="height:20px;width:40px;" data="do" class="flag-mini cursor  popup" title="R. Dominicana" src="../../assets/images/flags-mini/do.png">  <br><span class="mini-total">(2 346)</span></td>
+            <td><img style="height:20px;width:40px;" data="us" class="flag-mini cursor  popup" title="Estados Unidos" src="../../assets/images/flags-mini/us.png">  <br><span class="mini-total">(2 638)</span></td>
+            <td><img style="height:20px;width:40px;" data="br" class="flag-mini cursor  popup" title="Brazil" src="../../assets/images/flags-mini/br.png">  <br><span class="mini-total">(2 301)</span></td>
+            <td><img style="height:20px;width:40px;" data="hn" class="flag-mini cursor  popup" title="Honduras" src="../../assets/images/flags-mini/hn.png">  <br><span class="mini-total">(2 436)</span></td>
+            <td><img style="height:20px;width:40px;" data="sv" class="flag-mini cursor  popup" title="El Salvador" src="../../assets/images/flags-mini/sv.png">  <br><span class="mini-total">(1 789)</span></td>
+            </tr>
+            
+            </tbody>
+        </table>
+        </div>
+
+</div>
+
+
+
+
+<div  id="panama-cont" class="me-art">
+
+<p>
+La moto representaría 200 de los 1000 puntos que le permitía importar la Aduana de Cuba en cada ocasión y esta, por ser la primera en el año, se le cobraría en CUP, con un valor 24 veces inferior al del CUC. Por tanto, podría distribuir el resto de la importación permitida en otros objetos que luego revendería en la Isla. Poco a poco recuperaría lo invertido.
+</p>
+<p>
+Llevaba una lista. Se decidió a llevar solo una moto eléctrica, aunque la Aduana permitía dos por importación. Debía cumplir con los requisitos de no sobrepasar los 1000 watts de potencia o la Aduana General de la Repúblicase la podría decomisar. La enviaría por barco como Equipaje No Acompañado (ENA), así que había apuntado en su teléfono el contacto de una empresa que enviaba mercancías a Cuba en contenedores por mar.
+</p>
+<p>
+Además, enviaría dos split de aire acondicionado de una tonelada, encargados por un amigo; dos lavadoras y un minibar. Todo ello iría, junto a la moto, en el ENA. Para llenar los 23 kilogramos que le permitía Copa en su equipaje, y dentro del margen de los 30 kg de artículos personales y misceláneas libres de impuesto permitido, llevaría algunas prendas de vestir, juegos de sábanas, dos memorias USB y algunas otras cosas que le completaran el peso, siempre respetando los totales por producto que establece la Aduana.
+</p>
+<p>
+En la Zona Franca fue a la tienda de Mishozuki. Había varios modelos, y los precios oscilaban entre los 820 y los 1000 USD. Compró uno de los modelos Shark. Estaba en rebaja y le costó 890, en La Habana podría revenderla en 1900 o hasta 2000 CUC y el proceso completo de hacerla llegar a su país costaría alrededor de 1300 dólares. La ganancia no era despreciable.
+</p>
+</div>
+
+<div id="panama-tiendas" class="media-block main-border border">
+
+ <div class="graph-text main-text" style="text-align:center;">
+        Fotos tomadas en Panamá a empresas que venden Motos Eléctricas
+        </div>
+
+<div class="image-block container" style="max-width: 900px;">
+     <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+     
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic-1" data-slide-to="5"></li>
+  </ol>
+ 
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/unico-front.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+       Unico, empresa venezolana con sede en la zona franca de Panamá, venden a los cubanos, como promedio, 500 motos al mes.
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/unico-flags.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      Venezuela, Panamá y Cuba son países determinantes para Unico.
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/unico-motos.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      Las motos eléctricas Unico Eagle son uno de los modelos más importados hacia Cuba. 
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/mishozuki-front.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      Mishozuki, es otra de las empresas que, desde Panamá, vende motos eléctricas a cubanos para su importación hacia la isla.
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/mishozuki-motos.jpg"  class="carousel-photo">
+      <div class="carousel-caption">
+      Las ofertas son comunes ante la competencia que existe en la zona franca por la venta de motos eléctricas.
+      </div>
+    </div>
+    
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example-generic-1" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic-1" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+
+     </div>
+     </div>
+
+<div  id="panama-cont-ii" class="me-art">
+<p>
+La compra fue un éxito. Por suerte sus compañeros fueron buenos guías y le sugirieron qué tipo de productos tendrían más salida y con cuáles iba a recuperar la inversión de manera exitosa.
+</p>
+<p>
+El traslado por mar le costó 130 USD por metro cúbico. También tuvo que gastar en el movimiento entre bodegas en la Zona Franca, así como en la documentación del embarque. El dinero gastado lo recuperaría vendiendo la moto.
+</p>
+<p>
+Cuando abandonó el puerto sintió un gran peso sobre sus hombros. Planeaba con su esposo quedar embarazada pronto y confiaba en el éxito de la inversión para garantizar el futuro de la familia. Se alejó de la Zona y entonces se dio cuenta de la inmensidad que le rodeaba. Más tarde, mientras la tarde caía, se durmió agotada en la habitación que compartía con otros dos cubanos.
+</p>
+<p>
+Al día siguiente, muy temprano, subió al avión y, despidiéndose de Panamá, se dio cuenta de lo poco que había visto de esa tierra.
+</p>
+
+</div>
+    
+<div id="block2" style="margin-top:30px;">
+    <img src="images/ilustracion-2.jpg" class="cover  main-border  border-down ">
+    </div>  
+    
+     <div class="analysis" style="margin-top:-10px;padding-top:25px;margin-bottom:-25px;padding-bottom:15px;">   
+    <div id="intro" class="me-art">
+        <p>Las calles cubanas se han inundado de motos eléctricas. No es dificil notarlo. En cualquier esquina uno ve Águilas, Pumas, Tiburones o Coyotes, que, en dos ruedas, circulan entre autos, camiones y ómnibus. Son tantas que uno creería que intentan superar la supremacía de los Almendrones.
+        </p>
+        <p>La presencia creciente de los ciclomotores eléctricos podría formar parte de una estrategia nacional para reconfigurar el escenario automotor cubano. Sin embargo, no hay evidencia de que ello haya sido el resultado de un propósito gubernamental intencionado.
+        </p>
+        <p>
+        Las ciclomotores eléctricos comenzaron a venderse en la red de tiendas minorista a partir del 2008, con Minerva como la marca por excelencia. Pero la presencia en las tiendas de las motos no fue consistente y en poco tiempo ya no hubo oferta. En ese entonces, la huella de las motos eléctricas en las calles no llegó a ser excepcionalmente notable.
+        </p>
+        <p>
+        El punto de inflexión parece estar marcado en el 2013. En ese año la Aduana General de la República autorizó la importación de ciclomotores con propulsión eléctrica a las personas naturales mayores de diez años de edad. En cada importación, atendiendo al caracter no comercial de las mismas, se podían importar dos motos que cumplieran con un límite máximo de velocidad que no superara los 50 kilómetros por hora y cuya potencia del motor no excediece los 1000 watt.
+        </p>
+        <p>
+        Las modalidades, para las personas naturales, en que ocurre la importación de las motos eléctricas son dos: el Equipaje No Acompañado (ENA) y los envíos. En el caso del ENA, el pago en la primera importación en un año calendario, se realiza en CUP y a partir de la segunda los derechos de aduana se pagan en CUC. Por su parte, cada envío tiene un límite valorado en 200 pesos y se exime el pago de aranceles por los primeros 30 pesos. Una persona puede recibir, con carácter no comercial, un número indeterminado de envíos por los cuales siempre pagará los aranceles en CUC.
+        </p>
+        <p>
+        La posibilidad de importar las motos eléctricas, ya sea en equipajes no acompañados o a través de envíos, conjugada con la reforma migratoria previa que permitió una mayor movilidad internacional a los cubanos residentes en la Isla, y el nunca resuelto problema del tranporte público cubano, fueron los vientos que impulsaron la actual ola de motos eléctricas.
+        </p>
+        <p>
+        Los ciclomotores siguen ausentes en la mayoría de la tiendas cubanas. Sin embargo, en el mercado informal, ese que rige muchos de los precios en Cuba, su presencia es notoria. Las motos eléctricas continúan llegando desde cualquier geografía: desde China, desde los Estados Unidos, desde Panamá...
+        </p>
+        </div>
+</div>
+        
+<div id="zona-evolution" class="media-block main-border border">
+<div class="graph-text main-text" style="text-align:center;">
+        Evolución de la entrada de cubanos a Panamá por el Aeropuerto Internacional de Tocumen (2007-2016)
+        </div>
+        
+        <div id="chart4" class="brand-evol"></div>
+</div>       
+        
+    
+    
+     
+    
+    <div id="puerto" class="me-art">
+<p>
+Manolito recibió un email de Víctor desde Panamá, donde le confirmaba que, entre otras cosas, le había enviado una moto eléctrica a su nombre a través de una aerolínea. Victor mandaba dos más en su equipaje no acompañado. Se puso muy contento, todo marchaba según lo previsto. Entre los dos habían reunido el dinero sobrante de la venta de la casa de sus padres. Les alcanzó para comprarse un apartamento cada uno y decidieron invertir el dinero extra en algún negocio.
+</p>
+<p>
+Cuando Victor regresó se trazaron la estrategia. Manolito había contactado con un camionero de su cuadra para la recogida de los bultos en Aerovaradero, en Boyeros. Lo más difícil era el viaje ese a La Habana, pero era allí a donde enviaban sus paquetes y el ENA de su hermano.
+</p>
+<p>
+Sería un día entero desde Villa Clara, pero la inversión bien lo valía. Además, si era cierto que allá el mercado de las motos estaba mejor, se podrían deshacer de ella rápidamente. La demanda era muy grande.
+</p>
+<p>
+Llegaron al área de carga a las 7:00 am, a pesar de que una semana antes, cuando le avisaron de la cita para pasar a recoger el envío, le advirtieron que madrugar era en vano. Una hora más tarde, pasó una funcionaria y les recogió los papeles que los acreditaban como los receptores de los bultos. Tenían que revisar bien si todo estaba en orden, pues Aerovaradero debía ser notificado de la rotura o maltrato de sus pertenencias para que procediera la indemnización.
+</p>
+<p>
+A las 12:30 pm, dijeron por fin el nombre de Manolito. Entró a los almacenes, sus pertenencias fueron pesadas y contabilizadas y se le entregó, por cada envío, un vale por el que debió pagar en CUP y otro donde le exigían el precio en CUC de los puntos correspondientes al paquete menos 30 CUC que eran libres de pago. Por la moto, que la aduana valoraba en 200 pesos, pagó 170 CUC. Víctor pagó los aranceles en CUP por ser esta su primera importación.
+</p>
+<p>
+Los paquetes y los huacales con las motos eléctricas fueron llevados en montacargas hasta la puerta, donde se les acercó un camionero de La Habana, a juzgar por el aspecto y acento:
+</p>
+<p>
+–¿Esas son motos eléctricas?
+</p>
+<p>
+Manolito asintió.
+</p>
+<p>
+–Las llevo hasta donde ustedes quieran. 
+</p>
+<p>
+–No, gracias, ya tenemos transporte –contestó Víctor adelantándose. El camionero le tendió la mano:
+</p>
+<p>
+–Carlos, mucho gusto. Te doy 1750 por cada una si me las dejas ahora mismo.
+</p>
+<p>
+Manolito y Víctor se miraron. Aunque iban a ganar menos del dinero esperado, con esa oferta se quitaban de encima el proceso de proponer la moto, venderla y lidiar con los clientes. Aunque habían comprado modelos Unico Eagle y en el momento era uno de los modelos más conocidos y eficientes, igual no tenían experiencia vendiendo ese tipo de artículos. Se apartaron del camionero y se pusieron de acuerdo: las venderían allí mismo al seguro y era algo menos en lo que pensar.
+</p>
+<p>
+Por su parte, Carlitos, el camionero, tenía un sistema de ventas consolidado. Se había convertido en un proveedor fijo de motos eléctricas y se ahorraba todo el paso de la importación y los gastos en el viaje. Había puesto a su sobrino, que estudiaba en la universidad, a colgarle anuncios en los sitios más populares de clasificados en Cuba: Revolico y Porlalivre. Además, el joven se encargaba de gestionar el negocio con los clientes, de manera tal que su tío solo debía llevar el encargo y recoger el dinero. Después le pagaba algo por cada moto que vendiera.
+</p>
+</div>
+
+  <div id="ads-evolution" class="media-block main-border border">
+    <div class="graph-text main-text" style="text-align:center;">
+        Evolución de los anuncios de Revolico en la categoría Motos (Feb/2014 - Sep/2017)
+        </div>
+        <div style="text-align:center;" > <div class="btn-group"><button id="chart1-button" type="button" class="cursor btn check btn-evols" onclick="changeEvolutionDiv('chart1');"> Porciento </button><button type="button" class="cursor btn  btn-evols" onclick="changeEvolutionDiv('chart2');" id="chart2-button"> Total </button></div></div>
+        <div id="chart1" class="ads-evol"></div>
+        <div id="chart2" class="ads-evol" style="display:None" ></div>
+    </div>
+
+<div id="puerto-cont-i" class="me-art">
+<p>
+Carlos, con esas de ahora, ya había comprado cuatro motos ese día, casi sin moverse de la puerta de la terminal de carga de Aerovaradero. Le habían dicho que en el puerto la cosa estaba mejor, pero ya allí estaba en confianza. Era un sitio alejado de la ciudad y, si bien los clientes no eran tantos, la competencia tampoco.
+</p>
+<p>
+Sacó el celular y marcó un número:
+</p>
+<p>
+–Sobrino, ¿estás en la escuela?... Apúrate y abre Revolico, que tengo unas Unico pa’ vender.
+</p>    
+</div>   
+
+   
+    
+      
+ <div id="block2" style="margin-top:30px;">
+    <img src="images/ilustracion-3.jpg" class="cover  main-border  border-down">
+    </div>
+    
+     
+ <div class="analysis" style="margin-top:-10px;padding-top:25px;padding-bottom:20px;">    
+    <div id="fuga" class="me-art">
+    <p>
+    La compra por cubanos de artículos diversos en otros países para su importación y posterior venta en Cuba es un fenómeno complejo. Algunos elementos a considerar son la inestabilidad o ausencias prolongadas de distintos productos en las tiendas nacionales, así como sus precios, a menudo muy elevados e incluso -en algunos casos- irracionales, lo que provoca que en el país exista la posibilidad de un comercio informal con artículos extrafronteras que redunda en beneficios económicos para quienes lo practican y permite a parte de la población acceder a un conjunto de productos que pueden ser atractivos ya sea por su carencia, su calidad o su precio.
+    </p>
+    <p>
+    Por otra parte, el fenómeno creciente de la importación de distintos bienes por personas naturales está provocando que salgan del país cantidades no despreciables de divisas convertibles, principalmente euros y dólares. Estas divisas son utilizadas para la compra de los productos, fuera de Cuba, que luego serán comercializados en la Isla utilizando unas de las dos monedas locales (CUC o CUP). Parte de lo conseguido en la venta será destinado a comprar divisas convertibles, dentro del país, que serán destinadas para su uso en próximas salidas del país con sus respectivas importaciones. Esto es un ciclo donde, en cada iteración, salen divisas del territorio nacional.
+    </p>
+    <p>
+    La importación y venta informal de las motos eléctricas es un ejemplo de este fenómeno. Para la importación desde Panamá, un cubano destina apróximadamente 1300 dólares a que la moto llegue desde el Itsmo a un puerto cubano. Por otra parte, según nos comentaron en la tienda Unico, ellos venden a cubanos una media de 500 motos mensuales que hace un total de 6000 en el año. Esto significa que solo en la Unico se pudieron haber gastado en un año más de 7 millones de dólares que, en gran parte, salieron de territorio cubano. A esta cifra habría que incluir cuánto se gasta en las tiendas de AVA, Mishozuki y de otras marcas de motos eléctricas que se importan a Cuba desde varios países. Evidentemente, el número no es despreciable y en este cálculo no se han considerado otros productos que se importan.
+    </p>
+    <p>
+    Cuando, en los últimos años, las autoridades han tratado de atacar este fenómeno, las medidas se han centrado, sobre todo, en 
+    modificaciones a las regulaciones aduanales tales como fijar límites en las cantidades de productos a importar, estableciendo 
+    lo que consideran márgenes no comerciales de importación, o que el pago de los derechos aduanales, a partir de la segunda importación 
+    en el año fiscal, se realice en CUC, multiplicando por 24 el gasto que eroga un cubano por este fin. Sin embargo, esto no ha detenido el 
+    fenómeno. Por tal motivo, en varias ocasiones, se han desatado rumores sobre presuntas normas aduanales que impondrían regulaciones más 
+    drásticas o, incluso, prohibirían la importación de determinados productos como, por ejemplo, las motos eléctricas. La Aduana, recientemente, 
+    ha <a href="http://www.aduana.co.cu/index.php/423-nota-informativa" style="color:#DDDDDD;text-decoration:None;">desmentido rumores</a> de esta índole.
+    </p>
+    <p>
+     Medidas de esta índole no gozarían de popularidad y, si bien limitarían en alguna medida la fuga de capitales y el comercio informal de productos importados, terminarían perjudicando a las personas que importan productos para sus necesidades personales sin ningún afán de lucro -que existen y que no son pocas- o, incluso, afectaría a aquellas personas que participan del comercio informal y que, a través de él, consiguen productos difíciles de encontrar en las tiendas, en muchos casos, con mejores precios.
+    </p>
+    <p>
+    Si las regulaciones aduanales hasta hoy no han resuelto el problema ¿por qué no probar con otras alternativas? ¿Por qué no incentivar, por ejemplo, la compra de los productos en Cuba a través de un política de precios más cercana a la realidad?
+    </p>
+    <p>
+    El estudio de los precios de los productos en los países desde donde se importan, los gastos de transportación, así como el precio de venta en el mercado informal cubano, podrían ser referentes para establecer una política de precios más cercana a la realidad. Para el estado, que a diferencia de una persona natural, tiene mayor capacidad negociadora y más recursos, la posibilidad de hacer grandes importaciones a precios más atractivos, no debería ser complicado. Esto posibilitaría, además, obtener beneficios que ingresen a las arcas del estado para otros fines. Es posible lograr márgenes comerciales interesantes, las personas que importan para la venta lo han demostrado.
+    </p>
+    <p>
+    En febrero pasado, se anunció que ya circulaban en las calles cubanas 100 motos eléctricas, con características similares a las que importan las personas naturales, la cuales fueron ensambaladas en Cuba con componentes, en su mayoría, provenientes de China. En el año se prevía una producción de 5000 unidades, y la mayor parte de ellas se vendería en las tiendas recaudadoras de divisas a un precio de 1 261 CUC. Este resultaría un precio similar al que se gasta para importar una moto desde Panamá y bastante inferior a los precios de venta que maneja el mercado informal. Parecía una apuesta interesante y en la dirección correcta, sin embargo, en los nueve meses transcurridos desde el anuncio, no se han visto muchas de esas motos en la calle y menos en la red de tiendas, mientras, en puertos y aeropuertos, se siguen descargando motos eléctricas AVA, Unico, Mishozuki...
+    </p>
+    </div>  
+ </div>  
+  
+    
+    <div id="brand-evolution" class="media-block main-border border" style="margin-top:-5px;">
+    <div class="graph-text main-text" style="text-align:center;">
+        Evolución de los principales marcas de motos eléctricas en Revolico (Feb/2014 - Sep/2017)
+        </div>
+        
+        <div id="chart3" class="brand-evol"></div>
+    </div>
+    
+
+<div id="revolico" class="me-art">    
+    <p>
+    Mercedes y Tony montaron una cafetería en Santiago de las Vegas. Llevaban 20 años de casados y ya los niños estaban encaminados, uno en el servicio y la otra en octavo grado.
+</p>
+<p>
+–Estoy cansada de pedir favores –dijo Mercedes.
+</p>
+<p>
+–¿Por qué lo dices? ¿Por el transporte de la mercancía?
+</p>
+<p>
+–Sí. Hay que estar comprándole la gasolina a Javier y esperar a que tenga tiempo. Yo creo que con el dinero que tenemos guardado podemos comprarnos una moto eléctrica.
+</p>
+<p>
+–¿De los cacharros esos que ni hacen bulla?
+</p>
+<p>
+–El marido de la manicurie, tiene una hace año y pico y le ha salido buenísima.
+</p>
+<p>
+No discutieron mucho más. Los choferes que contrataban para buscar mercancías eran muy informales y a veces aparecían buenas ofertas a altas horas de la noche y les daba vergüenza molestar.
+</p>
+<p>
+Tony no dijo nada a su mujer, pero empezó a indagar en el barrio. Le contaron que un muchachito de la zona, el que arreglaba celulares, se había comprado una hacía dos años y le había salido buenísima. Que esas motos eran estelares, por lo menos la marca que él tenía, que era  AVA.
+</p>
+<p>
+A Mercedes, Chicho, el marido de la manicurie, le dijo que él iba por la segunda moto. Que cada año él reunía y se compraba una nueva y que se había casado con el modelo AVA Águila. En las motos se movía para todo: paseos y trabajo. Además, como no las maltrataba mucho, podía revender en un poco menos las motos usadas y siempre recuperaba algo.
+</p>
+<p>
+–Te quitas de arriba la compradera de gasolina, la cambiadera de aceite y la dejas cargando antes de dormir y al otro día te levantas y puedes caminar hasta 50 kilómetros confia’o. Dile a tu marido que no lo piense más, que esa es una buena inversión. La mejor que he hecho en mi vida.
+</p>
+
+</div>
+
+<div id="radio-moto" class="media-block main-border border">
+    <div class="graph-text main-text" style="text-align:center;">
+        Rango de una moto eléctrica con una autonomía máxima de 70 km<br>
+        <span style="font-size:12px;">De click en el mapa para ver  hasta donde puede llegar la moto</span><br>
+        <span style="font-size:12px;">En el slider puede modificar la carga de la batería de la moto</span>
+        </div>
+        <div >
+            <table class="map-legend" >
+                <tbody>
+                <tr>
+                <td style="padding:10px;">
+                <div class="circle round-way"></div>
+                <div class="circle-text main-text">Un solo sentido</div>
+                </td>
+                <td style="padding:10px;">
+                <div class="circle one-way"></div>
+                <div class="circle-text main-text">Ida y vuelta</div>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+        </div>
+    <div class="battery main-text">Carga de la batería: <span id="bat_value">100</span>% | Autonomía: <span id="bat_aut">70</span> km</div>
+    <div class='row'>
+                <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1 main-text" style="text-align:right ">
+                0%
+                </div>
+                 <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10" style="text-align:center;">
+                <input id="slider" value="100" min="0" max="100" type="range" style="text-align:center;width:100%;margin-bottom:10px;"></input>
+                </div>
+                <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1  main-text" style="text-align:left">
+                100%
+                </div>
+            </div>
+    
+    <div id="map"></div>
+    
+    </div>
+
+<div id="revolico-cont" class="me-art"> 
+<p>
+Lo único malo, le contaron a los dos, era que las piezas eran difíciles de conseguir, aunque siempre se podía hacer algo. Las baterías a veces se fundían, o las cajas de cambio de velocidad y hasta las gomas daban problemas; pero también coincidieron en que valía la pena tomar el riesgo.
+</p>
+<p>
+Una mañana Mercedes despidió al niño, que se iba para el servicio.
+</p>
+<p>
+–Cuando vengas de pase vamos a tener moto.
+</p>
+<p>
+Él la abrazó, le dio un beso y le preguntó que si iba a dejarlo salir en ella.
+</p>
+<p>
+–Claro, mijo. Pero tienes que sacar licencia, como tu papá.
+</p>
+<p>
+Había que ver lo alegre que se fue esa semana para la unidad. Y la niña, que ya se veía levantándose más tarde para que su papá la llevara a la Secundaria como al hijo de Chicho, que llegaba, se quitaba su casco y entraba corriendo a la formación. Ya casi no tendría que coger guaguas para ninguna parte.
+</p>
+<p>
+Esa misma tarde, cerraron la cafetería temprano. En el Paquete habían entrado los clasificados de la semana anterior, y en Revolico dieron con un tal Luis que estaba vendiendo motos eléctricas. Tenía de varias marcas y modelos. Ellos se interesaron por una  Aguila, el modelo de AVA que les habían recomendado. 
+La oferta de una AVA Puma les resultó atractiva, pero coincidieron en que Mercedes estaría más cómoda en una moto más pequeña y menos pesada. Les iba a costar 1900 CUC.
+</p>
+</div>
+
+<div id="panama-evolution" class="media-block main-border border">
+<div class="graph-text main-text" style="text-align:center;">
+        Precio estimado de algunos modelos de motos eléctricas en Revolico<br> Julio-Septiembre 2017
+        </div>
+        
+        <div id="estimador" class="main-text">Seleccione el <a href="https://es.wikipedia.org/wiki/Medidas_de_tendencia_central">estimador</a> a utilizar:  
+        <select id="est-select">
+            <option value="med">mediana</option>
+            <option value="ave">promedio</option>
+            <option value="mod">moda</option>
+        </select>
+        </div>
+        <div id="moto-prices" class="brand-evol row">
+        <div class="col-lg-3 col-md-6">
+        
+        <div class="moto-image"><img src="images/eagle.jpg"></div>
+        <div class="moto-model main-text">Unico Eagle</div>
+        <div class="moto-price"><span class="est med">1900 CUC</span><span class="est ave" style="display:None;">1841 CUC</span><span class="est mod" style="display:None;">1900 CUC</span></div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+        
+        <div class="moto-image"><img src="images/aguila.jpg"></div>
+        <div class="moto-model main-text">AVA Aguila</div>
+        <div class="moto-price"><span class="est med">1900 CUC</span><span class="est ave" style="display:None;">1822 CUC</span><span class="est mod" style="display:None;">1900 CUC</span></div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+        
+        <div class="moto-image"><img src="images/puma.jpg"></div>
+        <div class="moto-model main-text">AVA Puma</div>
+        <div class="moto-price"><span class="est med">1900 CUC</span><span class="est ave" style="display:None;">2033 CUC</span><span class="est mod" style="display:None;">2000 CUC</span></div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+        
+        <div class="moto-image"><img src="images/bigshark.jpg"></div>
+        <div class="moto-model main-text">Mishozuki New Big Shark</div>
+        <div class="moto-price"><span class="est med">2200 CUC</span><span class="est ave" style="display:None;">2180 CUC</span><span class="est mod" style="display:None;">2300 CUC</span></div>
+        </div>
+        </div>
+</div> 
+
+<div id="revolico-cont-ii" class="me-art" style="padding-bottom:20px;">
+<p>
+Como Luis estudiaba en la universidad pidió que lo encontraran en su casa esa misma tarde, que la moto estaría lista, aunque si ellos lo deseaban podrían llevarla a domicilio, acción que les costaría un poco más. Decidieron que no se vería bien el camión descargando el vehículo en su casa y el ojo de los vecinos en el proceso, así que fueron hasta donde vivía el vendedor. 
+</p>
+<p>
+Él les presentó a su tío, que era quien les vendería directamente la moto. De manera rápida, el hombre les enseñó cómo funcionaba el aparato, cómo cargarlo y otros detalles técnicos que Tony agradeció y Mercedes no entendió.
+</p>
+<p>
+Al terminar el negocio y con la moto, que tenía la carga completa, se pusieron los cascos que habían comprado a unos cuentapropistas y, con el sol azotando sus espaldas, partieron de regreso a casa por la carretera de Managua, felices y en silencio.
+</p>
+
+</div>
+     
+    <div id="block4">
+    <img src="images/ilustracion-4.jpg" class="cover main-border  border-down">
+    </div> 
+ <div class="analysis" style="margin-top:-10px;padding-top:25px;padding-bottom:20px;margin-bottom:-25px">    
+    <div id="fuga" class="me-art">
+    <p>
+    El poseer una moto eléctrica implica un ahorro considerable para aquellos que las utilizan. Este tipo de transporte no consume combustibles tradicionales, y sus dueños utilizan mucho menos el transporte público o taxis, en sus distintas variantes, significando esto último  un alivio para cualquier bolsillo en vista de las tarifas actuales de los boteros. 
+</p><p>
+El principal gasto que representa una moto eléctrica, evidentemente, es en consumo de electricidad. Según Yorlandys Salgado, ingeniero eléctrico y profesor de la Facultad de Ingeniería Eléctrica de la Universidad Tecnológica de La Habana (CUJAE), si en un hogar cubano se conecta una moto diariamente para obtener carga, el gasto del hogar por concepto de electricidad aumentaría, en pocos cientos de pesos y, comparativamente, sería menor que el gasto de moverse por la ciudad durante un mes en almendrones que cobren entre 10 y 20 pesos por viaje.
+</p><p> 
+ Este consumo, además, sería en el caso extremo de que las motos necesiten ser recargadas diariamente por el tiempo máximo para llenar la batería, lo que casi siempre resulta innecesario, pues muchas personas no realizan el recorrido máximo de autonomía que permiten estos medios de transporte.
+</p>
+
+
+<p>
+Un problema que suelen traer las motos eléctricas es que su carga demora horas, lo que impide su uso luego de haber realizado un viaje largo. Al no existir en la Isla una alternativa de carga para este tipo de transporte, y al ser la recarga de las motos eléctricas una cuestión de tiempo, las personas realizan las cargas en sus casas, pero también suelen utilizar la electricidad de sus centros de trabajo  para garantizar, por ejemplo, su regreso, lo que termina derivando en gastos para el centro de trabajo. 
+</p>
+
+</div>
+</div>
+<div id="panama-evolution" class="media-block main-border border">
+<div class="graph-text main-text" style="text-align:center;">
+        Consumo eléctrico/gasto de una moto eléctrica Unico Eagle
+        </div>
+        
+        <div class="battery main-text">
+        Tarifa eléctrica base (CUP por kW): 
+        <select id="tarifa">
+        <option value="0.09">0.09</option>
+        <option value="0.3">0.30</option>
+        <option value="0.4">0.40</option>
+        <option value="0.6">0.60</option>
+        <option value="0.8">0.80</option>
+        <option value="1.5">1.50</option>
+        <option value="1.8">1.80</option>
+        <option value="2">2.00</option>
+        <option value="3">3.00</option>
+        <option value="5" selected="selected">5.00</option>
+        </select>
+        </div>
+        <div class="battery main-text">
+        Días en el mes a utilizar: 
+        <select id="dias">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30"  selected="selected">30</option>
+        <option value="31">31</option>
+        </select>
+        </div>
+        
+        <div class="battery main-text">Distancia diaria a recorrer: <span id="bat1_aut">35</span> km</div>
+    <div class='row'>
+                <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1 main-text" style="text-align:right ">
+                0 km
+                </div>
+                 <div class="col-lg-10 col-md-10 col-xs-10 col-sm-10" style="text-align:center;">
+                <input id="distance" value="35" min="0" max="70" type="range" style="text-align:center;width:100%;margin-bottom:10px;"></input>
+                </div>
+                <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1  main-text" style="text-align:left">
+                70 km
+                </div>
+            </div>
+            
+            
+         <div style="padding-left:30px;padding-right:30px;">
+            <table id="cost" class="table table-striped table-condensed table-hover main-text" >
+            <thead><tr class="bd"><td></td><td>Diario</td><td>Total</td></tr></thead>
+            <tbody>
+            <tr><td>Horas de carga</td><td><span id="hc"  class="bd">4</span> horas <span id="mc" class="bd">0</span> min</td><td><span id="ht"  class="bd">120</span> horas <span id="mt" class="bd">0</span> min</td></tr>
+            <tr><td>Kilowatts</td><td><span id="kwd" class="bd">0.864</span> kW</td><td><span id="kwt" class="bd">25.92</span> kW</td></tr>
+            <tr><td>Gasto</td><td><span id="gd" class="bd">4.32</span> CUP</td><td><span id="gt" class="bd">129.6</span> CUP</td></tr>
+            </tbody>
+            </table>
+        </div>
+        
+</div> 
+
+ <div class="analysis" style="margin-top:-25px;padding-top:25px;padding-bottom:20px;">  
+<div id="energia-cont-ii" class="me-art">
+
+<p>
+Una solución sería crear en nuestro país una red de estaciones de carga donde los choferes de motos eléctricas podrían rellenar las baterías de sus vehículos y pagar por ello. Una red de esta índole no sería sencilla de diseñar pues existen múltiples modelos de motos eléctricos con baterías basadas en distintos materiales y con cargadores diferentes, sin embargo, al parecer del ingeniero Salgado, es una idea factible. Incluso, esta red podría concebir la carga rápida. Un inconveniente de este modelo de carga es que esta acorta la vida útil de las baterías, por ello su uso debería enfocarse a que las motos consigan la carga necesaria para llegar al destino de su viaje y allí entonces completar, de la manera tradicional, el ciclo de carga de la moto.
+</p><p>
+Otra alternativa, tanto para crear una red de estaciones carga como para crear estas estaciones en centros de trabajo, sería utilizar fuentes renovables de energía. Ello estaría alineado con la política del país al respecto. Una posibilidad sería el uso de la energía solar, para ello habría que diseñar estaciones de carga que obtengan la energía a partir de paneles fotovoltaicos. Estas estaciones, a partir de las características de los paneles, servirían para efectuar carga lenta y, además, en función de la cantidad de motos que puedan ser cargadas a la vez, aumentarían su tamaño. Por ello, los paneles  necesitan ser ubicados en grandes espacios donde, además, se tenga en cuenta la cantidad de motos que utilizarán el servicio. Esos espacios necesitan ser pensados desde el punto de vista de la radiación solar, la logística, la ubicación y el buen funcionamiento, pero no son un imposible si detrás de ellos hay un trabajo serio.
+</p>
+</div>
+ <div class="image-block" style="text-align: center;padding-top:10px;" >
+                <div><img src="images/solar-charging-station.jpg" style="width:100%;"></div>
+                <div class="img-caption" style="position:relative;">Ejemplo de una estación de carga solar para vehículos eléctricos</div>
+</div> 
+<div id="fuga-cont" class="me-art">
+<p>
+Otra manera de disminuir las posibles afectaciones que podrían causar estos vehículos es emplear una estrategia de comunicación efectiva. Yorlandys Salgado explica que existen horarios en que al país, incluso, le conviene que se conecten muchos equipos, para que la curva de demanda electrica no tenga cambios bruscos, lo que obliga, en algunos casos, a apagar centrales eléctricas, cuya arrancada conlleva un mayor gasto.
+</p><p>
+ Si existieran una estrategia comunicativa que informara también de esto a las personas, las motos eléctricas, lejos de irse convirtiendo en un problema que a la larga podría afectar la economía del país, contribuirían al equilibrio de la demanda de la electricidad generada, y si se hiciera conciencia al respecto, se podría, además, ahorrar energía en los horarios en que no es conveniente el uso excesivo de la electricidad generada en Cuba.
+</p><p>
+Otro gasto que suelen traer los automóviles o las motos de combustible son las piezas de repuesto, que son, algunas veces, difíciles de conseguir en Cuba, por la antigüedad de muchos de los medios de transporte que circulan en el país y por la carencia de esas piezas en el contexto nacional. Las motos eléctricas, aunque modernas, también se ven afectadas, fundamentalmente, por las baterías. 
+</p><p>
+La mayoría de las motos eléctricas que circulan en el país utilizan baterías de plomo, cuyo ciclo de vida les otorga un uso útil de alrededor de dos años. La dificultad para comprar en la red de tiendas del país estas baterías, ha generado también un mercado informal de las mismas. Estas también proceden de importaciones realizadas por personas naturales a la Isla, quienes ofertan baterías de plomo, pero también han comenzado a comercializar las baterías de litio, cuyo ciclo de vida puede ser de 3 a 6 veces el de las baterías de plomo. Los precios de estas son muy elevados, en el orden de los 1000 CUC o más,  lo que es casi el doble de su precio de venta en las tiendas AVA, Unico o Mishozuki, pero los dueños de motos eléctricas se atreven a comprarlas porque significan un ahorro a largo plazo.
+</p><p>
+Sin dudas, la enorme cantidad de motos eléctricas que circulan por el país -y que sigue aumentando-
+esta incidiendo, para bien, en la vida de muchas familias cubanas. Sin embargo hay que tener en cuenta que ello repercute en varias esferas de la vida en Cuba, y que van desde la ecología, hasta el coste económico.  Su importación provoca la fuga de divisas de la Isla y su uso representa un gasto de electricidad y recursos que el gobierno no ha contemplado, pero las afectaciones que podrían causar se deben, sobre todo, a la falta de previsión y el desconocimiento. 
+</p><p>
+Las motos eléctricas son coloridas, son económicas, resuelven muchos problemas y llegaron para quedarse, así que hay que asimilarlas como parte de la curiosa amalgama de situaciones que es Cuba. Hay que asumirlas, pero de la manera correcta, para que sus beneficios sean más apreciables. 
+    </p>
+    </div>
+</div>
+
+
+<div class="media-block" style="margin-top:-40px;">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se hizo? <i class="fa fa-plus-square-o"></i></span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div id="fuga" class="me-art" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    En la realización del artículo se distintas fuentes de datos e información. En primera instancia, se conversó con personas que 
+    han importado motos eléctricas, que las han comprado y que las han utilizado. Además, se visitó tanto la terminal de carga del aeropuerto 
+    como la del puerto donde también se establecieron conversaciones sobre la temática y se pudo conocer detalles de la parte del proceso
+    de importación que ocurre estos espacios. Estas conversaciones fueron la base argumental para la construcción de las historias que se cuentan.
+    </p>
+    <p>
+    Los datos relativos a las visitas de los cubanos a Panamá y a la Zona Franca de Colón fueron tomados del <a href="http://www.atp.gob.pa/sites/default/files/documentos/demanda_2007-2016.pdf" style="text-decoration:None;">reporte</a> de los 
+    indicadores de turismo en Panamá del 2007 a 2016, publicado por el Ministerio de Turismo de Panamá.  
+    </p>
+    <p>La información sobre los procedimientos aduanales se obtuvieron a partir de la consulta del <a href="http://www.aduana.co.cu/index.php/descargas/category/5-libro-normas-aduaneras">libro de normas aduanales</a> que contiene
+    un conjunto de regulaciones y  procedimientos que norman la importación en Cuba.
+    </p>
+    <p>Para analizar la evolución del mercado informal de motos eléctricas se tomo como referente a <a href="http://www.revolico.com">Revolico</a>, que es el mayor sitio
+    de clasificados en Cuba. En esto punto se contó con la colaboración de <a href="http://www.isladata.com">Isladata</a> que realizó la recolección de datos
+    relativos a los anuncios vinculados al mercado de las motos. Fueron colectados todos los anuncios en la categoría Motos desde febrero del año 2014 
+    hasta septiembre del 2017. El procesamiento de estos datos fue realizado de manera conjunta entre miembros del equipo de <a href="http://www.isladata.com">Isladata</a> y el equipo de <a href="http://www.postdata.club">Postdata.club</a>.</p>
+    <p>
+    El primer paso del procesamiento fue eleminar los anuncios repetidos, una vez eliminados se tuvo una colección 119 622 anuncios y, de ellos, tenían términos 
+    asociados a motos eléctricas 24 549. Estos últimos fueron utilizados para establecer las comparativas y precios en las distintas marcas y modelos.
+    Para identificar que realmente un anuncio estuviera lo más vinculado posible a la venta de una moto, se buscaron todos los anuncios con precio
+    de venta entre 1200 y 2500, y con estos entonces se buscaron los que estuviera vinculados con los términos asociados a cada marca y modelo.
+    Así se obtuvieron las gráficas y tendencias que se muestran en el artículo. Para el cálculo del precio de los distintos modelos, se tomaron solamente
+    los anuncios que estuvieran en el trimestre julio-septiembre del 2017 y luego con cada conjunto de anuncios 
+    (150 para Unico Eagle, 184 para AVA Aguila, 351 para AVA Puma y para 165 Mishozuki New Big Shark) se calcularon los distintos estimadores. 
+    </p>
+    <p>Los elementos asociados con el consumo eléctrico y la demanda de electricidad se consultaron con el Ingeniero Eléctrico y Master en Ciencias Yorlandys Salgado
+    y el Ingeniero en Automática y Master en Sistemas Digitales Alejandro Pérez Malagón.</p>
+    </div>
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    </div>
+    </div>    
+<div id="block5" >
+
+<div class="me-art" style="padding-top:20px;padding-bottom:0px;">
+    <div class="row">
+    <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+    <img src="images/moto.png">
+    </div>
+    <div class="col-lg-7 col-md-7">
+        <p><span class="bd">Fecha de publicación:</span><br>
+        <span class="auts">7/12/2017</span></p>
+        <p><span class="bd">Autores:</span> <br>
+        <span class="auts"><a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/jessica.html">Jessica Dominguez</a></span></p>
+        <p><span class="bd">Colaboradores:</span><br>
+        <span class="auts">Camelia Martínez y Edel Pizjuán</span></p>
+        <p><span class="bd">Ilustraciones:</span><br>
+        <span class="auts"><a href="../../equipo/ernesto.html">Ernesto Guerra</a></span></p>
+        <p><span class="bd">Recolección de datos:</span><br>
+        <span class="auts"><a href="http://www.isladata.com">Isladata</a></span></p>
+    </div>
+    </div>
+</div>
+</div> 
+ 
+
+<div class="image-block">
+   <div id="link-bar" class="row">
+        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div ><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div ><i class="fa fa-envelope"></i> Email</div></a></div>
+    </div>
+   </div>
+    
+
+<div class="read-more main-text">
+    Lea también en Postdata.club:
+    </div>
+<div class="other-news row">
+    <div class="col-lg-6 col-md-6  container" >
+        <div class="news-block main-color">
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="../201708/un-negocio-en-cada-cuadra.html">Un negocio en cada cuadra</a></div>
+            <div class="front-news-author">Por Dailene Doval, Daniella Pérez, <a href="../../equipo/jessica.html">Jessica Dominguez</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col-lg-6 col-md-6  container" >
+        <div class="news-block main-color">
+           <div class="title-author-block">
+            <div class="front-news-title"><a href="../201708/nuevas-medidas-para-el-cuentapropismo-un-retroceso.html">Nuevas medidas para el Cuentapropismo ¿un retroceso?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+        </div>
+        </div>
+  
+    </div>
+    
+         <div class="comments-block">
+        <div id="disqus_thread"></div>
+        <script>
+        
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+        
+        var disqus_config = function () {
+            this.page.url = 'http://postdata.club/201712/en-dos-ruedas-y-con-electricidad.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'PDClub-201712-1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//postdataclub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>   
+    
+    </div>
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    </script>
+    <script>
+    
+    $(document).ready(function() {
+            $('.popup').tooltipster({delay: 0, distance: 0, arrow: false});
+            
+        });
+        
+    $('#est-select').on('change',function(){
+        var val = $('#est-select').val();
+        $('.est').hide();
+        $('.'+val).show();
+    });
+    
+    
+    function getTimeInMinutes(distance){
+        return 8*60*(distance/70);
+    }
+    
+    function updateCharge() {
+            var distance = $('#distance').val();
+            var days = $('#dias').val();
+            var tarifa = $('#tarifa').val();
+            var minutes = getTimeInMinutes(distance);
+            console.log(distance);
+            console.log(minutes);
+            var c_h = Math.trunc(minutes/60);
+            var t_h = Math.trunc(minutes*days/60);
+            var c_m = Math.round(minutes%60);
+            var t_m = Math.round(minutes*days%60);
+            var k_d = 72*3*minutes/60;
+            $('#bat1_aut').html(distance);
+            $('#hc').html(c_h);
+            $('#mc').html(c_m);
+            $('#ht').html(t_h);
+            $('#mt').html(t_m);
+            $('#kwd').html(Math.round(k_d)/1000);
+            $('#kwt').html(Math.round(k_d*days)/1000);
+            $('#gd').html(Math.round((Math.round(k_d)/10)*tarifa)/100);
+            $('#gt').html(Math.round((Math.round(k_d)/10)*tarifa*days)/100);
+    }
+    $("#dias").on('change',function(){
+        updateCharge();
+    });
+    $("#tarifa").on('change',function(){
+        updateCharge();
+    });
+    $("#distance").on("input change", function(){
+            //distance = Math.round(_distance*this.value/100);
+            updateCharge();
+    });
+        
+    $('.flag-mini.popup').mouseover(function(){
+        var at = $(this).attr("data");
+        $("[data='"+at+"']").parent().addClass("history");
+    });
+    
+    $('.flag-mini.popup').mouseleave(function(){
+        var at = $(this).attr("data");
+        $("[data='"+at+"']").parent().removeClass("history");
+    });
+    
+    var chart4 = c3.generate({
+        bindto: '#chart4',
+        data: {
+          x: "Año",
+          columns: [
+            ['Año',2007,2008,2009,2010,2011,2012,2013,2014,2015,2016],
+            ['Total de cubanos',4538,4877,5032,5025,5461,5960,8245,8869,13659,22019]
+          ],
+          type: 'spline'
+           
+        },
+        
+        axis: {
+            x: {
+                label: 'Año',
+                
+            },
+            y: {
+                label: 'Total de cubanos',
+                
+            }
+        },
+         grid: {
+          x: {
+            lines: [{'value':2013,'text':'2013 - Reforma Migratoria' }]
+          }
+        }
+      });
+    </script>
+    
+    
+    
+    <script>
+    function changeEvolutionDiv(id){
+        $('.ads-evol').hide();
+        $('#'+id).show();
+        $('.btn-evols').removeClass('check');
+        $('#'+id+'-button').addClass('check');
+    }
+    $.getJSON("data/ads_evolution.json",function(ads){
+      var years = ['2014','2015','2016','2017'];
+      var months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+      var me = ['Anuncios relacionados con Motos Eléctricas'];
+      var ne = ['Anuncios relacionados con Motos No Eléctricas'];
+      var ame = ['Anuncios relacionados con Motos Eléctricas'];
+      var ane = ['Anuncios relacionados con Motos No Eléctricas'];
+      var dates = ['x'];
+      for(var y in years){
+        for(var m in months){
+            if (parseInt(months[m]) in ads[years[y]]){
+                dates.push(new Date(years[y]+'-'+months[m]+'-02'));
+                var tme = ads[years[y]][parseInt(months[m])]['e'];
+                var tne = ads[years[y]][parseInt(months[m])]['g'];
+                var pme = Math.round((tme*100)/(tme+tne));
+                var pne = 100 - pme;
+                me.push(pme);
+                ame.push(tme);
+                ne.push(pne);
+                ane.push(tne);
+            }
+        }
+      }
+
+      var chart1 = c3.generate({
+        bindto: '#chart1',
+        data: {
+          x: dates[0],
+           xFormat : '%Y%m%d',
+          columns: [
+            dates,
+            me,
+            ne
+          ],
+          type: 'area-step',
+          groups: [[me[0], ne[0]]],
+           
+        },
+        
+        axis: {
+            x: {
+                label: 'Fecha',
+                type : 'timeseries',
+                tick : {
+              format : "%b/%y" 
+            }
+                
+            },
+            y: {
+                label: 'Porciento de anuncios',
+                
+            }
+        },
+        tooltip: {
+        format:{
+            value: function(value,r, id,index) {
+                return value+'%'; }            
+            }
+        },
+      });
+      
+      var chart2 = c3.generate({
+        bindto: '#chart2',
+        data: {
+          x: dates[0],
+           xFormat : '%Y%m%d',
+          columns: [
+            dates,
+            ame,
+            ane
+          ],
+          type: 'area-step',
+          groups: [[me[0], ne[0]]],
+           
+        },
+        
+        axis: {
+            x: {
+                label: 'Fecha',
+                type : 'timeseries',
+                tick : {
+              format : "%b/%y" 
+            }
+                
+            },
+            y: {
+                label: 'Total de anuncios',
+                
+            }
+        },
+      });
+      
+    });
+    
+    $.getJSON("data/marcas_evolution.json",function(ads){
+      var years = ['2014','2015','2016','2017'];
+      var months = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+      var av = ['AVA'];
+      var mi = ['Mishozuki'];
+      var un = ['Unico'];
+      var dates = ['x'];
+      for(var y in years){
+        for(var m in months){
+            if (parseInt(months[m]) in ads[years[y]]){
+                dates.push(new Date(years[y]+'-'+months[m]+'-02'));
+                var tmi = ads[years[y]][parseInt(months[m])]['mishozuki'];
+                var tav = ads[years[y]][parseInt(months[m])]['ava'];
+                var tun = ads[years[y]][parseInt(months[m])]['unico'];
+                mi.push(tmi);
+                av.push(tav);
+                un.push(tun);
+            }
+        }
+      }
+
+      console.log(mi);      
+      var chart3 = c3.generate({
+        bindto: '#chart3',
+        data: {
+          x: dates[0],
+           xFormat : '%Y%m%d',
+          columns: [
+            dates,
+            av,
+            un,
+            mi
+          ],
+          type: 'spline',
+          //groups: [[tmi[0], tav[0],tun[0]]],
+           
+        },
+        
+        axis: {
+            x: {
+                label: 'Fecha',
+                type : 'timeseries',
+                tick : {
+              format : "%b/%y" 
+            }
+                
+            },
+            y: {
+                label: 'Total de anuncios',
+                
+            }
+        },
+      });
+      
+    });
+
+    </script>
+    <script>
+      marker = null;
+      innerCircle = null;
+      outerCircle = null;
+      ll= null;
+      _distance = 35000;
+      distance = 35000;
+      
+      
+      
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: {lat: 23.000696, lng: -82.366592 }, 
+          type: "roadmap"
+        });
+        
+        $("#slider").on("input change", function(){
+            distance = Math.round(_distance*this.value/100);
+            placeMarkerAndPanTo(ll, map);
+            $('#bat_value').html(this.value);
+            $('#bat_aut').html(distance*2/1000);
+    });
+
+        map.addListener('click', function(e) {
+          ll = e.latLng;
+          placeMarkerAndPanTo(e.latLng, map);
+        });
+      }
+
+      function placeMarkerAndPanTo(latLng, map) {
+        if (marker!=null) {
+            marker.setMap(null);
+            innerCircle.setMap(null);
+            outerCircle.setMap(null)
+        }
+        marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          icon: "images/moto-icon.png"
+        });
+        innerCircle = new google.maps.Circle({
+            strokeColor: 'blue',
+            strokeOpacity: 0.2,
+            strokeWeight: 1,
+            fillColor: '#529116',
+            fillOpacity: 0.3,
+            map: map,
+            center: latLng,
+            radius: distance,
+            clickable: false,
+          });
+          outerCircle = new google.maps.Circle({
+            strokeColor: 'blue',
+            strokeOpacity: 0.2,
+            strokeWeight: 1,
+            fillColor: '#BECC22',
+            fillOpacity: 0.3,
+            map: map,
+            center: latLng,
+            radius: distance*2,
+            clickable: false,
+          });
+          
+        //map.panTo(latLng);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqfnhkS9PE2i4I3AB2xG48LR82akmDlwI&callback=initMap">
+    </script>
+  </body>
+</html>
