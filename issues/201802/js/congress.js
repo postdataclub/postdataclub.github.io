@@ -820,7 +820,7 @@ function init() {
         text: '#scroll_text1',
         step: '#scroll_text1 .step1',
         debug: false,
-        offset: 0.6
+        offset: 0.5
     })
         .onStepEnter(handleStepEnter1)
         .onStepExit(handleStepExit1)
@@ -833,7 +833,7 @@ function init() {
         text: '#scroll_text2',
         step: '#scroll_text2 .step2',
         debug: false,
-        offset: 0.6
+        offset: 0.5
     })
         .onStepEnter(handleStepEnter2)
         .onContainerEnter(handleContainerEnter2)
@@ -845,7 +845,7 @@ function init() {
         text: '#scroll_text3',
         step: '#scroll_text3 .step3',
         debug: false,
-        offset: 0.6
+        offset: 0.5
     })
         .onStepEnter(handleStepEnter3)
         .onStepExit(handleStepExit3)
