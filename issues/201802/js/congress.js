@@ -633,15 +633,9 @@ function handleStepEnter2(response) {
             lines.load({columns:[
         ['Passed Resolutions',null,null,null,0, 0, 0, 0, 0, 1, 1, 0, 4, 2, 1, 3, 2, 6, 7, 7, 10, 8, 4, 7, 4, 4, 0,null,null]]})}
         ,500);
-        //setTimeout(function () {
-            //lines.load({columns:[
-        //['Laws + Passed Resolutions',null,null,null,0, 2, 6, 12, 6, 9, 10, 10, 19, 14, 10, 11, 14, 13, 15, 13, 16, 13, 18, 16, 12, 11, 3,null,null]]})}
-        //,800);
          setTimeout(function (){lines.focus(['Laws','Passed Resolutions'])},1000);
-         //setTimeout(function (){lines.focus(['Laws','Passed Resolutions','Laws + Passed Resolutions'])},1000);
         }else{
             lines.unload(['Laws','Passed Resolutions']);
-            //lines.unload(['Laws','Passed Resolutions','Laws + Passed Resolutions']);
         }
     }
     
@@ -786,37 +780,28 @@ function handleStepEnter3(response) {
 }
 
 function handleStepExit1(response) {
-    // response = { direction }
 }
 function handleStepExit2(response) {
-    // response = { direction }
 }
 function handleStepExit3(response) {
-    // response = { direction }
 }
 
 function handleContainerEnter1(response) {
-    // response = { direction }
 }
 
 function handleContainerEnter2(response) {
-    // response = { direction }
 }
 
 function handleContainerEnter3(response) {
-    // response = { direction }
 }
 
 function handleContainerExit1(response) {
-    // response = { direction }
 }
 
 function handleContainerExit2(response) {
-    // response = { direction }
 }
 
 function handleContainerExit3(response) {
-    // response = { direction }
 }
 
 function setupStickyfill() {
@@ -827,13 +812,8 @@ function setupStickyfill() {
 
 function init() {
     setupStickyfill();
-
-    // 1. force a resize on load to ensure proper dimensions are sent to scrollama
     handleResize();
-
-    // 2. setup the scroller passing options
-    // this will also initialize trigger observations
-    // 3. bind scrollama event handlers (this can be chained like below)
+    
     scroller1.setup({
         container: '#scroll1',
         graphic: '#scroll_graphic1',
@@ -1012,5 +992,387 @@ bills = get_general_bills();
 lines = get_lines();
 chile = get_chile_lines();
 positions = get_positions();
+
+function get_line_g(did){ return c3.generate({
+    bindto: did,
+    data: {
+      x: 'Congresos',
+      columns: [
+        ['Congresos', 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,116, 117],
+        ['Propuestas', null, null, null,16, 28, 36, 59, 59, 75, 58, 86, 106, 95, 53, 89, 82, 106, 84, 103, 114, 109, 155, 100, 86, 143, 52, null, null],
+        ['Laws',null, null, null,0, 2, 6, 12, 6, 8, 9, 10, 15, 12, 9, 8, 12, 7, 8, 6, 6, 5, 14, 9, 8, 7, 3, null, null],
+        ['Passed Resolutions',null,null,null,0, 0, 0, 0, 0, 1, 1, 0, 4, 2, 1, 3, 2, 6, 7, 7, 10, 8, 4, 7, 4, 4, 0,null,null],
+      ],
+      labels: true,
+      type: 'spline',
+      colors: {'Propuestas': c_proposals,'Laws':c_bills_law,'Passed Resolutions': c_res_pass,'Laws + Passed Resolutions':c_amends},
+    },
+    axis: {
+      x: {
+        label: 'Congresos',
+        position: 'outer-middle',
+      },
+       y: {
+        default: [0,180],
+        label: 'Cantidad',
+        position: 'outer-middle',
+      }
+    },
+    legend: {
+        show: true,
+    },
+    padding: {
+        right: 0
+    },
+    tooltip: {
+      grouped: true
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d+' Congreso'}
+        } 
+    },
+     grid: {
+      x: {
+        lines: [{'value':91,'text':'Richard Nixon'},{'value':93.5,'text':'Gerald Ford'},{'value':95,'text':'Jimmy Carter'},
+        {'value':99,'text':'Ronald Reagan'},{'value':103,'text':'William Clinton'},
+        {'value':107,'text':'George Bush Jr.'},{'value':111,'text':'Barack Obama'},{'value':115,'text':'Donald Trump'}]
+    }
+    },
+        subchart: {
+          show: false
+    }
+});
+}
+
+var g7=get_line_g('#g7');
+var g8=get_line_g('#g8');
+g8.zoom([91,103]);
+g8.regions.add({start:93,end:101,class:"region1"});
+var g9=get_line_g('#g9');
+g9.zoom([102,108]);
+g9.regions.add({start:103,end:106,class:"region2"});
+var g10=get_line_g('#g10');
+g10.zoom([106,112]);
+g10.regions.add({start:108,end:110,class:"region3"});
+g10.hide(['Propuestas']);
+var g11=get_line_g('#g11');
+g11.zoom([109,116]);
+g11.regions.add({start:111,end:114,class:"region4"});
+var g12=get_line_g('#g12');
+g12.regions.add({start:93,end:101,class:"region1"});
+g12.regions.add({start:103,end:106,class:"region2"});
+g12.regions.add({start:108,end:110,class:"region3"});
+g12.regions.add({start:111,end:114,class:"region4"});
+
+var g14 = c3.generate({
+    bindto: '#g14',
+    data: {
+      x: 'Congresos',
+      columns: [
+        ['Congresos',92,  93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,116],
+        ['Pakistán',null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1, null, 2, null, null, null, null,null],
+        ['Angola',null, null, 4, 2, 1, null, null, 3, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['México',null, 5, 3, null, null, 4, 3, 4, null, null, null, null, 4, 5, null, 4, 4, 4, 4, null, null, 3, 3, null,null],
+        ['Egipto',null, null, null, 1, null, null, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['India',null, null, null, null, null, null, null, null, null, 3, null, null, null, null, null, null, null, null, null, null, null, null, null, 1,null],
+        ['Corea del Norte',null, null, null, null, null, null, null, null, null, null, null, 2, null, null, null, null, null, null, null, 1, 1, null, null, null,null],
+        ['Japón',null, null, null, null, null, null, null, null, null, 1, 3, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['Nicaragua',null, 4, null, null, null, null, 2, 2, 4, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['URSS',null, null, 2, 3, 4, null, null, null, 3, 5, 5, 1, 2, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['Canadá',null, null, null, null, null, 3, null, null, null, null, null, null, null, null, null, 3, null, null, null, null, 2, 1, null, null,null],
+        ['Afganistán',null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 5, 5, 3, 5, 5, 4, 1, null,null],
+        ['Panamá',null, null, null, null, 2, null, null, null, null, 4, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['Israel',null, null, null, 4, null, null, null, null, 2, null, 4, 5, 3, 2, 1, null, 2, null, 2, null, null, null, null, null,null],
+        ['Irán',null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2, null, null, 1, 3, 3, null, null, null,null],
+        ['China',null, null, null, null, null, null, null, null, null, 2, 2, null, 1, null, 3, 5, 1, 2, null, null, null, null, null, 4,null],
+        ['Haití',null, 3, null, null, 5, 5, 5, 5, null, null, null, 4, null, 4, 5, null, null, null, null, null, null, null, null, null,null],
+        ['Iraq',null, null, null, null, null, null, null, null, null, null, 1, null, null, null, null, null, 3, 3, 5, 4, 4, 5, 4, 3,null],
+        ['El Salvador',null, null, null, null, null, null, 4, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['Polonia',null, null, 1, null, null, 1, null, null, 5, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,null],
+        ['Vietnam',null, null, 5, 5, 3, 2, null, null, null, null, null, null, null, 1, 2, null, null, null, null, null, null, null, null, null,null],
+        ['Siria',null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2, 2,null],
+        ['Rusia',null, null, null, null, null, null, null, null, null, null, null, 3, 5, 3, 4, 1, null, null, null, null, null, 2, 5, 5,null],
+      ],
+      labels: true,
+      type: 'scatter',
+    },
+    axis: {
+      x: {
+        label: 'Congresos',
+        position: 'outer-middle',
+        tick: [92,  93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,116],
+      },
+       y: {
+        default: [0,6],
+        show: false
+      }
+    },
+    legend: {
+        show: true,
+    },
+    padding: {
+        right: 0,
+        top: 20,
+        left: 10,
+    },
+    tooltip: {
+      grouped: false
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d+' Congreso'},
+            value: function(value,id,x,d) { 
+            return 'Posición '+(6-value)+' - '+get_pos_data()[d+92][x]+ ' coincidencias'},
+        } 
+    },
+        point: {
+          r: function (d) {
+            if((d.x!=92)&&(d.x!=116))
+                return get_pos_data()[d.x][d.id]/2+2;
+          }
+        }
+});
+
+var g13 = c3.generate({
+    bindto: '#g13',
+    data: {
+      x: 'Congresos',
+      columns: [
+        ['Congresos',  92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115,116],
+        ['Cuba',  null,16, 28, 36, 59, 59, 75, 58, 86, 106, 95, 53, 89, 82, 106, 84, 103, 114, 109, 155, 100, 86, 143, 52, null],
+        ['Chile', null,204, 169, 149, 138, 394, 371, 436, 499, 22, 14, 9, 5, 29, 23, 14, 28, 26, 29, 19, 13, 13, 9, 9, null],
+      ],
+      labels: true,
+      type: 'spline',
+      colors: {'Cuba': c_proposals,'Chile': chile},
+    },
+    axis: {
+      x: {
+        label: 'Congresos',
+        position: 'outer-middle',
+      },
+       y: {
+        default: [0,180],
+        label: 'Propuestas',
+        position: 'outer-middle',
+      }
+    },
+    legend: {
+        show: true,
+    },
+    padding: {
+        right: 0
+    },
+    tooltip: {
+      grouped: true
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d+' Congreso'},
+        } 
+    },
+     grid: {
+      x: {
+        lines: [{'value':100.5,'text':'Plebiscito Nacional de Chile de 1988'}]
+    }
+    },
+    regions : [{start:92,end:100.5}],
+});
+
+var g6= c3.generate({
+    bindto: '#g6',
+    data: {
+      columns: [
+        ['Amendments - No Passed', 217],
+        ['Amendments - Passed', 60],
+      ],
+      type: 'pie',
+      labels: true,
+      colors: {'Amendments - No Passed': c_amends,'Amendments - Passed':c_amends_pass},
+    },
+    legend: {
+        show: true,
+    },
+    interaction: {
+      enabled: true
+    },
+    padding: {
+        right: 30
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d},
+            value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+')' },
+        } 
+    }
+});
+
+var g5 = c3.generate({
+    bindto: '#g5',
+    data: {
+      x: 'Cámara',
+      columns: [
+        ['Cámara','Cámara de Representantes','Senado'],
+        ['Simple Resolutions - No Passed', 91,60],
+        ['Simple Resolutions - Passed', 27,39],
+        ['Concurrent Resolutions - No passed', 95,28],
+        ['Concurrent Resolutions - Passed', 4,1],
+        ['Joint Resolutions - No Laws', 42,8],
+        ['Joint Resolutions - Laws', 9,1],
+      ],
+      groups: [['Simple Resolutions - No Passed','Simple Resolutions - Passed'],
+      ['Concurrent Resolutions - No passed','Concurrent Resolutions - Passed'],
+      ['Joint Resolutions - No Laws','Joint Resolutions - Laws']
+      ],
+      type: 'bar',
+      labels: true,
+      colors: {'Simple Resolutions - No Passed': c_res_simp, "Simple Resolutions - Passed": c_res_pass,
+      'Concurrent Resolutions - No passed': c_res_conc, "Concurrent Resolutions - Passed": c_res_pass,
+      'Joint Resolutions - No Laws': c_res_join, "Joint Resolutions - Laws": c_bills_law
+      }
+    },
+    legend: {
+        show: true,
+    },axis: {
+          x: {
+           type: 'categorized',
+           label: 'Cámara'
+          }
+        },
+    interaction: {
+      enabled: true
+    },
+        padding: {
+            right: 30
+        }
+});
+
+var g4 = c3.generate({
+    bindto: '#g4',
+    data: {
+      columns: [
+        ['Simple', 217],
+        ['Concurrent', 128],
+        ['Joint', 60]
+      ],
+      type: 'donut',
+      labels: true,
+      colors: {'Simple':c_res_simp,"Concurrent":c_res_conc,"Joint":c_res_join},
+    },
+    legend: {
+        show: true,
+    },
+    interaction: {
+      enabled: true
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d},
+            value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+')' },
+        } 
+    },
+    donut : {
+        title: '405 Resolutions' 
+    },
+        padding: {
+            right: 30
+        }
+});
+
+var g3 = c3.generate({
+        bindto: '#g3',
+        data: {
+          x: 'Cámara',
+          columns: [
+            ['Cámara','Cámara de Representantes','Senado'],
+            ['Bills - No Laws', 683, 417],
+            ['Bills - Laws',148, 24],
+          ],
+          groups: [['Bills - No Laws','Bills - Laws']],
+          type: 'bar',
+          labels: true,
+          colors:{'Bills - No Laws':c_bills,'Bills - Laws':c_bills_law}
+        },
+        padding: {
+            right: 30
+        },
+        axis: {
+          x: {
+           type: 'categorized',
+           label: 'Cámara'
+          }
+        },
+        tooltip: {
+            format: {
+                title: function(d) {return d},
+                value: function(value, id) { return ''+value+'' },
+            } 
+        }
+});
+
+var g2 = c3.generate({
+    bindto: '#g2',
+    data: {
+      columns: [
+        ['Bills - No Laws', 1100],
+        ['Bills - Laws', 172],
+      ],
+      type: 'donut',
+      labels: true,
+      colors: {'Bills':c_bills,'Resolutions':c_res,'Amendments':c_amends,
+      'Bills - No Laws': c_bills,"Bills - Laws":c_bills_law},
+    },
+    legend: {
+        show: true,
+    },
+    padding: {
+        right: 30
+    },
+    donut : {
+        title: '1272 Bills' 
+    },
+    interaction: {
+      enabled: true
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d},
+            value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+')' },
+        } 
+    }
+}); 
+var g1 = c3.generate({
+    bindto: '#g1',
+    data: {
+      columns: [
+        ['Bills', 1272],
+        ['Resolutions', 405],
+        ['Amendments', 217]
+      ],
+      type: 'donut',
+      labels: true,
+      colors: {'Bills':c_bills,'Resolutions':c_res,'Amendments':c_amends,
+      'Bills - No Laws': c_bills,"Bills - Laws":c_bills_law},
+    },
+    legend: {
+        show: true,
+    },
+    padding: {
+        right: 30
+    },
+    donut : {
+        title: '1894 propuestas' 
+    },
+    interaction: {
+      enabled: true
+    },
+    tooltip: {
+        format: {
+            title: function(d) {return d},
+            value: function(value, ratio, id) { return d3.format(",.1f")(ratio*100)+'% ('+value+')' },
+        } 
+    }
+}); 
 
 

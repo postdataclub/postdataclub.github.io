@@ -10,34 +10,14 @@ body {
     position: absolute;
     text-align: center;
     color: #FFFFFF;
+    background-color: rgba(100,100,100,0.7);
 }
 
-.inner-block {
-    position: relative;
-    left:0;
-    top:0%;
-    /*transform:translateY(-50%);*/
-/*    background-color: rgba(100,100,100,0.5);
-  padding: 15px;
-    color: #ffffff;
-    font-weight: bold;
-*/
-}
 
-.inner-block-left {
-    position: relative;
-    left:-25%;
-    top:0%;
-    transform:translateY(-50%);
-/*    background-color: rgba(100,100,100,0.5);
-    padding: 15px;
-    color: #ffffff;
-*/    
-}
 
 .inner-block-right {
     position: relative;
-    left:20%;
+    
 /*    top:0%;
     transform:translateY(-50%);
 /*    background-color: rgba(100,100,100,0.5);
@@ -71,11 +51,9 @@ body {
     margin-right: auto;
     width: 70%;
 }
-.inner-block  {
-    width: 40%;
-}
-.inner-block-left, .inner-block-right {
+.inner-block-right {
     width: 30%;
+     left:  20%;
 }
 .fg {
     z-index: 10;
@@ -87,17 +65,17 @@ body {
 
 @media (max-width:990px){
 .main-title {
-    top: 10%;
+    top: 18%;
     left: 30%;
-    transform: translate(-20%,30%);
+    transform: translate(-20%,0%);
 }
 .first-title {
- font-size: 30px;
+ font-size: 24px;
  font-weight: bold;
 }
 
 .second-title {
- font-size: 20px;
+ font-size: 18px;
 }
 .me-art {
     display: block;
@@ -105,12 +83,8 @@ body {
     margin-right: auto;
     width: 90%;
 }
-.inner-block {
+.inner-block-right {
     width:85%;
-}
-.inner-block-left, inner-block-right {
-    width:85%;
-    left:0%;
 }
 .fg {
     z-index: -10;
@@ -123,6 +97,7 @@ body {
 /*For scrollama*/
 #scroll1, #scroll2, #scroll3 {
     position: relative;
+    top: 0px;
     /*border-top: 1px dashed #000;
     border-bottom: 1px dashed #000;
     */
