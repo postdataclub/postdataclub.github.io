@@ -13,22 +13,17 @@ body {
     background-color: rgba(100,100,100,0.7);
 }
 
-
-
 .inner-block-right {
     position: relative;
-    
-/*    top:0%;
-    transform:translateY(-50%);
-/*    background-color: rgba(100,100,100,0.5);
-    padding: 15px;
-    color: #ffffff;
-*/
 }
 
 .me-art {
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+.lin {
+    text-decoration: None;
 }
 
 @media (min-width:990px){
@@ -94,13 +89,9 @@ body {
 }
 }
 
-/*For scrollama*/
 #scroll1, #scroll2, #scroll3 {
     position: relative;
     top: 0px;
-    /*border-top: 1px dashed #000;
-    border-bottom: 1px dashed #000;
-    */
 }
 
 #scroll_graphic1, #scroll_graphic2 , #scroll_graphic3 {
@@ -121,7 +112,6 @@ body {
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-   /* border: 1px solid #000;*/
 }
 
 #scroll_text1, #scroll_text2, #scroll_text3 {
@@ -133,8 +123,7 @@ body {
 
 .step1, .step2, .step3 {
     margin: 0 auto;
-   /* border: 1px solid #333;*/
-    min-heigth: 100px;
+    min-height: 100px;
 }
 
 .disp {
@@ -183,13 +172,7 @@ body {
     background-color: rgba(0,57,166,0.2);
 }
 
-.rep {
-    background-color: red;
-}
 
-.dem {
-    background-color: blue;
-}
 
 
 
