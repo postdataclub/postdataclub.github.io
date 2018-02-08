@@ -454,7 +454,7 @@ return {93: {'Angola': 0, 'Haití': 1, 'México': 1, 'Nicaragua': 1, 'Pakistán'
  } 
 
 function get_positions(){ return c3.generate({
-    bindto: '#positions',
+    bindto: '#chile-lines',
     data: {
       x: 'Congresos',
       columns: [
@@ -732,6 +732,7 @@ function handleStepEnter3(response) {
             $('#countries2').show();
         }else{
             $('#countries2').hide();
+            chile = get_chile_lines();
             $('#chile-lines').show();
         }
     }
@@ -746,10 +747,11 @@ function handleStepEnter3(response) {
     }
     if (response.index==5){
         if (response.direction=='down'){
+            positions = get_positions();
             $('#countries2').hide();
-            $('#positions').show();
+            $('#chile-lines').show();
         }else{
-            $('#positions').hide();
+            $('#chile-lines').hide();
             $('#countries2').show();
             $('#su2').addClass('select-country');
             $('#ru').addClass('select-country');
@@ -991,7 +993,6 @@ map = new jvm.Map({map: 'world_mill',backgroundColor: 'transparent', container:$
 bills = get_general_bills();
 lines = get_lines();
 chile = get_chile_lines();
-positions = get_positions();
 
 function get_line_g(did){ return c3.generate({
     bindto: did,
