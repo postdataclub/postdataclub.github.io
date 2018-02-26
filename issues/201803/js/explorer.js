@@ -763,7 +763,7 @@ $.getJSON("data/candidatos.json",function(data){
      
      function set_bio_info(id){
         var c = cands[id-1];
-        $("#bio-image").prop('src','images/photos/'+c['list_id']+'.jpg');
+        $("#bio-image").prop('src','images/'+c['list_id']+'.jpg');
         $('#bio-name').html('<span class="bd viz-text">'+c['nombre']+'</span>');
         $('#bio-age').html('<span class="report-text bd">Edad: </span>'+c['edad']+' años');
         $('#bio-job').html('<span class="report-text bd">Trabajo: </span>'+c['trabajo']);
