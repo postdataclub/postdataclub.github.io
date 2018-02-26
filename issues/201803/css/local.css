@@ -1,0 +1,153 @@
+select:disabled {
+    background-color: #DDDDDD;
+    opacity: 0.2;
+} 
+
+.candidate {
+    width: 25px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.candidate > i {
+    font-size: 23px;
+}
+
+.normal {
+    color: #BDBDBD;
+}
+
+#set-up, #set-down {
+    text-align: justify;
+    width: 99%;
+}
+
+#explorer {
+    margin-top: -14px;
+}
+
+#filters {
+}
+
+#put-filter-head, #set-filter-head, .labels-block {
+    color: #FFFFFF;
+    padding-left:5px;
+    opacity: 0.75;
+    font-size:14px;
+    width:100%;
+    min-height:30px;
+    padding-top:4px;
+    padding-bottom:4px;
+    margin-bottom:0px;
+}
+
+.labels-block {
+    opacity: 1;
+}
+
+#set-label-block {
+    background-color: rgba(58,121,76,0.75);
+    margin-bottom: 0px;
+}
+#put-label-block {
+    background-color: rgba(155,20,42,0.75);
+}
+
+#set-filter-block, #put-filter-block {
+    padding-left:5px;
+    font-size:12px;
+    margin-bottom:4px;
+    padding-right: 5px;
+}
+
+select {
+    width:95%;
+}
+
+.candidate:hover, .candidate:focus {
+    background-color: rgba(155,20,42,0.2);
+}
+
+#fcontent {
+ display: block;
+ margin: 0 auto;
+}
+
+.label-block {
+    font-weight: bold;
+}
+
+.sitem,.pitem {
+    padding-left: 4px;
+    padding-right:4px;
+    border-radius: 4px 4px 4px 4px;
+    margin-right: 2px;
+}
+
+.sitem {
+    background-color: rgb(58,121,76);
+}
+
+.pitem {
+    background-color: rgb(155,20,42);    
+}
+
+#bio {
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 10;
+    left:30%;
+    top:15%;
+    width: 40%;
+    padding: 10px;
+    
+}
+
+#gray-out {
+    position: absolute;
+    z-index:5;
+    width:100%;
+    opacity:0.6;
+    background-color: gray;
+    top:-10px;
+}
+
+#bio-name {
+    font-size: 18px;
+}
+
+#bio-hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid rgb(155,20,42);
+}
+
+#info-hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid rgb(155,20,42);
+    opacity: 0.5;
+}
+
+#bioclose {
+    width:100%;
+    text-align: right;
+}
+
+#perc-block {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#perc-content {
+    width: 100%;
+    min-height: 30px;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+#elem-block {
+    font-size: 16px;
+    padding-left:30px;
+    padding-top: 4px;
+}
+
