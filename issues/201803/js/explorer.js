@@ -569,13 +569,7 @@ $.getJSON("data/candidatos.json",function(data){
                     $('#put-item-all').hide();
                 } 
                 $('#put-label-block').append('<span id="'+iid+'" class="pitem">'+text+"</span>");
-            } else {
-                sitem -=1;
-                $('#'+iid).detach();
-                if (pitem==0){
-                    $('#put-item-all').show();
-                } 
-            }
+            } 
         }
     }
     
