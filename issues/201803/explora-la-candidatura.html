@@ -101,15 +101,68 @@
       </div>
     </nav>
     <div class="menu-movil-separator"></div>
-
-    <div id="gray-out" style="display:none;"></div>
+    
+    <div id="introduction" class="cintroduction">
+    <div id="introduction-title" class="viz-color">
+    <div class="bd">Explora la candidatura al parlamento</div>
+    <div id="introduction-credit" class="row">
+        <div id="introduction-author" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">Por: <a href="../../equipo/yudivian.html">Yudivián Almeida</a> </div>
+        <div id="introduction-date" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">28/02/2018</div>
+    </div>
+    </div>
+    <div id="introduction-text">
+    <p><span class="bd">Postdata.club</span> propone un herramienta para explorar, desde
+     los datos contenidos en las biografías publicadas de los candidatos a diputados, parte de la información sobre el futuro parlamento. 
+    
+    </p>
+    
+     <p>Existen mútiples formas de caracterizar la candidatura a diputados. Nuestro propósito es que, definiendo una combinación de criterios establecidos, se pueda obtener información
+     sobre la candidatura a diputados.
+     No solo información general, sino también aquella que cada cual considere relevante sin importar cuan específica
+     pueda ser.
+     </p>
+    </div>
+    <div id="help" class="viz-text" ><span class="help-link cursor explore">Explora</span>|<span id="discover" class="help-link cursor ">Descubre cómo funciona ></span></div>
+    </div>
+    
+    <div id="how" class="cintroduction" style="display:none;">
+    <div id="introduction-title" class="viz-color">
+    <div class="bd">¿Cómo se explora la candidatura?</div>
+    </div>
+    <div id="introduction-text">
+    <p>
+    Para explorar la candidatura se pueden realizar dos acciones: definir el conjunto de candidatos que se quiere analizar.
+    e identificar a un grupo de candidatos en el conjunto definido.
+    </p>
+    
+     <p>Para definir del conjunto se establecen múltiples criterios que van desde las provincias y municipios
+     por donde se elegirán los futuros diputados hasta la membresía de estos a distintas organizaciones. Cada vez que se 
+     selecciona un criterio, automáticamente se actualiza el conjunto en el cual se podrán identificarse varios candidatos.
+     </p>
+     <p>Para identificar a los diputados se seleccionan otro grupo de criterios. Estos criterios pueden modificarse si 
+     se varía el conjunto de diputados a explorar. Cada vez que se selecciona un criterio aparecen identificados los diputados
+     que responden a esos criterios en el conjunto que se explora.</p>
+     <p>Además, si se da click en cualquiera de los íconos que representan a los diputados se puede obtener la información relativa
+     al candidato que representa cada figura. La información de todos los candidatos está contenida en este <a class="viz-text text-link" href="data/candidatos.json">fichero JSON</a></p>
+    </div>
+    <div id="help" class="viz-text" ><span id="intro-back" class="help-link cursor">< Introducción</span>|<span class="help-link cursor explore">Explora</span></div>
+    </div>
+    
+    
+    <div id="gray-out" ></div>
+    
     
     <div id="explorer" class="row ">
            <div id="filters" class="col-lg-2 col-md-2">
+           
+            <div class="options-head viz-color row cursor hidden-lg hidden-md">
+                ¿Cómo funciona?
+           </div>
+            
             <div id='set-filter-head' class="report-color cursor collap">
             <span id="set-filter-simbol"><i id="set-status" class="fa fa-minus-square-o "></i></span> Determina el conjunto
             </div>
-            <div id='set-filter-block' class="collaps">
+            <div id='set-filter-block' class="collaps" style="display:none;">
             <div id="province-set">
             Provincia:<br> <span><select id="province-select"><option value="none" selected="selected">Todas</option></select></span>
             </div>
@@ -244,36 +297,37 @@
             </div>
             </div>
             
+           <div class="options-head viz-color row cursor hidden-sm hidden-xs">
+                ¿Cómo funciona?
+           </div> 
+            
+           <div id="sharer" class="hidden-xs hidden-sm">
+           
+           <div id="link-bar" class="row ">
+                <div class="cursor col-lg-4 col-md-4  facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div> <i class="fa fa-facebook" ></i> </div></a></div>
+                <div class="cursor col-lg-4 col-md-4  twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div > <i class="fa fa-twitter"></i> </div></a></div>
+                <div class="cursor col-lg-4 col-md-4  main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div > <i class="fa fa-envelope"></i> </div></a></div>
+            </div>
+            
+           </div>
+           
            </div>
            
            <div id="fcontent" class="col-lg-10 col-md-10">
            
-           <div id="bio" style="display:none;">
-            <div id="bio-block" class="row">
-            <div id="bio-photo" class="col-lg-4 col-md-4"><img id="bio-image" src="images/photos/1.jpg"></div>
-            <div id="bio-data" class="col-lg-8 col-md-8">
-                <div id="bio-name">Name</div>
-                <div id="bio-age">Age</div>
-                <div id="bio-job">Jobs</div>
-                <div id="bio-region">Region</div>
-                <div id="bio-orgs">Orgs</div>
-            </div>
-            </div>
-            <hr id="bio-hr">
-            <div id="bio-info">dfadfaf</div>
-            <div id="bioclose" class="cursor"><span id="bio-close" class="bd">Cerrar <i class="fa fa-close"></i></span></div>
-           </div>
-           <div id="set-label-block" class="report-color labels-block"><span class="label-block">Candidatos:</span>
+           
+           
+           <div id="set-label-block" class="report-color labels-block hidden-sm hidden-xs"><span class="label-block">Candidatos:</span>
            <span id="set-item-all" class="sitem" >todos</span>
            </div>
-           <div id="put-label-block" class="viz-color labels-block"><span class="label-block">Identificados:</span> 
+           <div id="put-label-block" class="viz-color labels-block  hidden-sm hidden-xs"><span class="label-block">Identificados:</span> 
            <span id="put-item-all"  class="pitem">todos</span>
            </div>
            <div id="num-info" class="row">
-           <div id="perc-block" class="col-lg-1 col-md-1 bd viz-text">
+           <div id="perc-block" class="col-lg-2 col-md-2 col-xs-2 col-sm-2 bd viz-text">
             <div id="perc-content"><span id="perc-number">100%</span></div>
            </div>
-           <div id="elem-block" class="col-lg-11 col-md-11">
+           <div id="elem-block" class="col-lg-10 col-md-10 col-xs-10 col-sm-10 ">
                 <div id="id-block">
                     <span id="id-number" class="viz-text bd">605</span> candidatos identificados
                 </div>
@@ -283,18 +337,33 @@
            </div>
            </div>
            <hr id="info-hr">
+           <div id="bio" style="display:none;">
+            <div id="bio-block" class="row">
+            <div id="bio-photo" class="col-lg-4 col-md-4 col-xs-4 col-sm-4"><img  id="bio-image" src="images/1.jpg"></div>
+            <div id="bio-data" class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                <div id="bio-name">Name</div>
+                <div id="bio-age">Age</div>
+                <div id="bio-job">Jobs</div>
+                <div id="bio-region">Region</div>
+                <div id="bio-orgs">Orgs</div>
+            </div>
+            </div>
+            <hr id="bio-hr">
+            <div id="bio-info">Biografía</div>
+            <div id="bioclose" class="cursor"><span id="bio-close" class="bd">Cerrar <i class="fa fa-close"></i></span></div>
+           </div>
            <div id="set-up"></div>
            <div id="set-down"></div>
            </div>
     </div> 
 
-<div class="image-block">
-   <div id="link-bar" class="row">
+<div class="image-block hidden-lg hidden-md">
+   <div id="link-bar" class="row ">
         <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div><i class="fa fa-facebook" ></i> Facebook</div></a></div>
-        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div ><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div><i class="fa fa-twitter"></i> Twitter</div></a></div>
         <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div ><i class="fa fa-envelope"></i> Email</div></a></div>
     </div>
-   </div>
+</div>
     
 
     

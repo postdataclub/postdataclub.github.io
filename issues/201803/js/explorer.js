@@ -15,8 +15,14 @@ fvalues = {
 
 collapsed= {
     "put-filter-block":true,
-    "set-filter-block":false
+    "set-filter-block":true
 };
+
+if ($('body').width()>990){
+    console.log('entra');
+    collapsed['set-filter-block'] = false;
+    $('#set-filter-block').show();
+}
 
 set_values = {
     'province': 'none',
@@ -773,6 +779,7 @@ $.getJSON("data/candidatos.json",function(data){
      }
      
      $('.candidate').click(function(e){
+        $('#gray-out').css('height',$('body').height());
         var cid = e.currentTarget.id.slice(1,e.currentTarget.id.length);
         set_bio_info(cid);
         $('#gray-out').show();
@@ -784,8 +791,31 @@ $.getJSON("data/candidatos.json",function(data){
         $('#bio').hide();
     });
     $('#gray-out').click(function(e){
+        $('#introduction').hide();
         $('#gray-out').hide();
+         $('#how').hide();
         $('#bio').hide();
+    });
+    $('.explore').click(function(e){
+        $('#introduction').hide();
+        $('#how').hide();
+        $('#gray-out').hide();
+    });
+    $('#discover').click(function(e){
+        $('html,body').animate({'scrollTop':0},'fast');
+        $('#introduction').hide();
+        $('#how').show();
+    });
+    $('#intro-back').click(function(e){
+        $('html,body').animate({'scrollTop':0},'fast');
+        $('#how').hide();
+        $('#introduction').show();
+        
+    });
+    $('.options-head').click(function(e){
+        $('html,body').animate({'scrollTop':0},'fast');
+        $('#gray-out').show();
+        $('#how').show();
     });
 });
 
@@ -812,8 +842,8 @@ $('.collap').click(function(e){
 
 function set_sizes(){
     var height = window.innerHeight;
-    $('#gray-out').css('height',height-5);
-    $('#fcontent').css('min-height',height-65)
+    $('#fcontent').css('min-height',height-65);
+    $('#gray-out').css('height',$('body').height()+10);
 }
 
 window.addEventListener('resize', set_sizes);

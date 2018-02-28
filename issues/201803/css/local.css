@@ -29,9 +29,9 @@ select:disabled {
 #filters {
 }
 
-#put-filter-head, #set-filter-head, .labels-block {
+#put-filter-head, #set-filter-head, .options-head, .labels-block, #sharer {
     color: #FFFFFF;
-    padding-left:5px;
+    padding-left:5px; 
     opacity: 0.75;
     font-size:14px;
     width:100%;
@@ -40,6 +40,20 @@ select:disabled {
     padding-bottom:4px;
     margin-bottom:0px;
 }
+
+.options-head {
+    margin-top: 4px;
+    margin-left:0px;
+    margin-right:0px;
+    text-align: left;
+    opacity:1;
+
+}
+
+.options-head>div{
+    padding:0px;
+}
+
 
 .labels-block {
     opacity: 1;
@@ -96,21 +110,87 @@ select {
     position: absolute;
     background-color: #FFFFFF;
     z-index: 10;
-    left:30%;
+    left:29%;
     top:15%;
-    width: 40%;
+    width: 42%;
     padding: 10px;
     
+}
+
+.cintroduction {
+    z-index:10;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 14%;
+    left: 18%;
+    width:64%;
+}
+#introduction-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-left:6%;
+    padding-right:6%;
+}
+
+#introduction-text{
+    padding-left:6%;
+    padding-right:6%;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#introduction-credit {
+    font-size: 11px;
+    margin-top:0px;
+}
+#introduction-date{
+    text-align: right;
+}
+#introduction-author>a {
+    color: #FFFFFF;
+}
+
+#introduction-author>a:hover, #introduction-author>a:focus, .link-out:hover, .link-out:focus { 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-link:hover,.text-link:focus { 
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(155,20,42);   
+}
+
+#help{
+    text-align:right;
+    padding-bottom:20px;
+    padding-right: 6%;
+    font-size: 17px;    
+}
+.help-link {
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.help-link:hover, .help-link:focus {
+    font-weight: bold;
 }
 
 #gray-out {
     position: absolute;
     z-index:5;
     width:100%;
-    opacity:0.6;
+    opacity:0.8;
     background-color: gray;
     top:-10px;
+    height: 100%;
 }
+
+
 
 #bio-name {
     font-size: 18px;
@@ -149,5 +229,99 @@ select {
     font-size: 16px;
     padding-left:30px;
     padding-top: 4px;
+    
+}
+
+@media (min-width:990px){
+#sharer {
+    padding-left:0px;
+    font-size:14px;
+    width:100%;
+    min-height:30px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    color: #000000;
+}
+.link-out {
+    font-size: 20px;
+    margin-left: 0px;
+}
+#link-bar {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+}
+
+
+
+@media (max-width:990px){
+#elem-block {
+    font-size: 14px;
+    padding-top:2px
+}
+
+#perc-content {
+    font-size: 24px;
+    min-height: 24px;
+    
+}
+#perc-block {
+    padding-top:3px;
+}
+.candidate {
+    width: 13px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.candidate > i {
+    font-size: 13px;
+}
+
+#info-hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#bio {
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 10;
+    left:6%;
+    top:0%;
+    width: 88%;
+    padding: 10px;
+    
+}
+.cintroduction {
+    top: 10%;
+    left: 5%;
+    width:90%;
+}
+#introduction-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left:6%;
+    padding-right:6%;
+}
+#introduction-text{
+    padding-left:6%;
+    padding-right:6%;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#introduction-credit {
+    font-size: 10px;
+    margin-top:0px;
+}
+#help{
+    text-align:right;
+    padding-bottom:10px;
+    padding-right: 6%;
+    font-size: 14px;    
+}
 }
 
