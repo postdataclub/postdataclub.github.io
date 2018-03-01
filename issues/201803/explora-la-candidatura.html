@@ -30,13 +30,13 @@
     <script src="../../assets/js/tooltipster.bundle.min.js"></script>
     
     <script>
-  //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  //(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  //m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  //})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  //ga('create', 'UA-84667443-1', 'auto');
-  //ga('send', 'pageview');
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
 
@@ -111,8 +111,8 @@
     </div>
     </div>
     <div id="introduction-text">
-    <p><span class="bd">Postdata.club</span> propone un herramienta para explorar, desde
-     los datos contenidos en las biografías publicadas de los candidatos a diputados, parte de la información sobre el futuro parlamento. 
+    <p><span class="bd">Postdata.club</span> propone un herramienta para explorar parte de la información 
+    sobre el futuro parlamento a partir de los datos contenidos en las biografías publicadas de los candidatos a diputados,  
     
     </p>
     
@@ -135,13 +135,13 @@
     e identificar a un grupo de candidatos en el conjunto definido.
     </p>
     
-     <p>Para definir del conjunto se establecen múltiples criterios que van desde las provincias y municipios
-     por donde se elegirán los futuros diputados hasta la membresía de estos a distintas organizaciones. Cada vez que se 
+     <p>Para definir el conjunto se establecen múltiples criterios que van desde las provincias y municipios
+     por donde se elegirán los futuros diputados, hasta la membresía de estos a distintas organizaciones. Cada vez que se 
      selecciona un criterio, automáticamente se actualiza el conjunto en el cual se podrán identificarse varios candidatos.
      </p>
      <p>Para identificar a los diputados se seleccionan otro grupo de criterios. Estos criterios pueden modificarse si 
      se varía el conjunto de diputados a explorar. Cada vez que se selecciona un criterio aparecen identificados los diputados
-     que responden a esos criterios en el conjunto que se explora.</p>
+     que responden a los criterios de identificación en el conjunto que se explora.</p>
      <p>Además, si se da click en cualquiera de los íconos que representan a los diputados se puede obtener la información relativa
      al candidato que representa cada figura. La información de todos los candidatos está contenida en este <a class="viz-text text-link" href="data/candidatos.json">fichero JSON</a></p>
     </div>
@@ -170,7 +170,7 @@
             Municipio:<br> <span><select id="municipality-select" disabled><option value="none" selected="selected">Todos</option></select></span>
             </div>
             <div id="age-set">
-            Edad:<br> <span>de <input type="number" value="19" id='age-set-young' min="19" max="95"> a <input type="number" id='age-set-old' min="19" max="95" value="95"> años</span>
+            Edad:<br> <span>de <input type="number" value="19" id='age-set-young' min="19" max="94"> a <input type="number" id='age-set-old' min="19" max="94" value="94"> años</span>
             </div>
             <div id="sex-set">
             Sexo:<br> 
@@ -236,7 +236,7 @@
             </div>
             <div id='put-filter-block' class="collaps" style="display:none;">
             <div id="age-put">
-            Edad:<br> <span>de <input datavalue="19" type="number" value="19" id='age-put-young' min="19" max="95"> a <input type="number" id='age-put-old' min="19" max="95" value="95"> años</span>
+            Edad:<br> <span>de <input datavalue="19" type="number" value="19" id='age-put-young' min="19" max="94"> a <input type="number" id='age-put-old' min="19" max="94" value="94"> años</span>
             </div>
             <div id="sex-put">
             Sexo:<br> 
@@ -304,9 +304,9 @@
            <div id="sharer" class="hidden-xs hidden-sm">
            
            <div id="link-bar" class="row ">
-                <div class="cursor col-lg-4 col-md-4  facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div> <i class="fa fa-facebook" ></i> </div></a></div>
-                <div class="cursor col-lg-4 col-md-4  twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div > <i class="fa fa-twitter"></i> </div></a></div>
-                <div class="cursor col-lg-4 col-md-4  main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div > <i class="fa fa-envelope"></i> </div></a></div>
+                <div class="cursor col-lg-4 col-md-4  facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201803/explora-la-candidatura.html"  target='_blank'><div> <i class="fa fa-facebook" ></i> </div></a></div>
+                <div class="cursor col-lg-4 col-md-4  twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201803/explora-la-candidatura.html&amp;text=Explora%20la%20candidatura%20a%20diputados&amp;hashtags=#postdataclub" target='_blank'><div > <i class="fa fa-twitter"></i> </div></a></div>
+                <div class="cursor col-lg-4 col-md-4  main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201803/explora-la-candidatura.html"  target='_blank'><div > <i class="fa fa-envelope"></i> </div></a></div>
             </div>
             
            </div>
@@ -343,6 +343,7 @@
             <div id="bio-data" class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
                 <div id="bio-name">Name</div>
                 <div id="bio-age">Age</div>
+                <div id="bio-class">Level</div>
                 <div id="bio-job">Jobs</div>
                 <div id="bio-region">Region</div>
                 <div id="bio-orgs">Orgs</div>
@@ -359,9 +360,9 @@
 
 <div class="image-block hidden-lg hidden-md">
    <div id="link-bar" class="row ">
-        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div><i class="fa fa-facebook" ></i> Facebook</div></a></div>
-        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html&amp;text=En%20dos%20ruedas%20y%20con%20electricidad&amp;hashtags=#postdataclub" target='_blank'><div><i class="fa fa-twitter"></i> Twitter</div></a></div>
-        <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201712/en-dos-ruedas-y-con-electricidad.html"  target='_blank'><div ><i class="fa fa-envelope"></i> Email</div></a></div>
+        <div class="cursor col-lg-4 col-md-4  facebook-color"><a class="link-out" style="text-decoration:none;"  href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201803/explora-la-candidatura.html"  target='_blank'><div> <i class="fa fa-facebook" ></i> Facebook</div></a></div>
+                <div class="cursor col-lg-4 col-md-4  twitter-color"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201803/explora-la-candidatura.html&amp;text=Explora%20la%20candidatura%20a%20diputados&amp;hashtags=#postdataclub" target='_blank'><div > <i class="fa fa-twitter"></i> Twitter</div></a></div>
+                <div class="cursor col-lg-4 col-md-4  main-color"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=En dos ruedas y con electricidad http://www.postdata.club/issues/201803/explora-la-candidatura.html"  target='_blank'><div > <i class="fa fa-envelope"></i> Email</div></a></div>
     </div>
 </div>
     
@@ -375,17 +376,17 @@
          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
         
-        //var disqus_config = function () {
-            //this.page.url = 'http://postdata.club/issues/201802/los-numeros-de-leyes-sobre-cuba-en-el-congreso-de-estados-unidos.html';  // Replace PAGE_URL with your page's canonical URL variable
-            //this.page.identifier = 'PDClub-201802-1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        //};
+        var disqus_config = function () {
+            this.page.url = 'http://postdata.club/issues/201803/explora-la-candidatura.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'PDClub-201803-2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
         
-        //(function() { // DON'T EDIT BELOW THIS LINE
-            //var d = document, s = d.createElement('script');
-            //s.src = '//postdataclub.disqus.com/embed.js';
-            //s.setAttribute('data-timestamp', +new Date());
-            //(d.head || d.body).appendChild(s);
-        //})();
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//postdataclub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </div>   
@@ -427,7 +428,6 @@
     <script>
     $(document).ready(function() {
             $('.popup').tooltipster({delay: 2, distance: 0});
-            
     });
     </script>
     <script src="js/explorer.js"></script>
