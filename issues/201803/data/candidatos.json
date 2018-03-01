@@ -1697,7 +1697,7 @@
                 "sexo": "f",
                 "list_id": "30",
                 "nombre": "Maritza Colombe Chala",
-                "trabajo": "Administradora del Ta ller de Escogida de Tabaco v-12-69"
+                "trabajo": "Administradora del Taller de Escogida de Tabaco v-12-69"
             }
         ],
         "Viñales": [
@@ -1812,7 +1812,7 @@
             {
                 "edad": 77,
                 "nivel": "Superior",
-                "bio": "Miembro del Movimiento 26 de Julio, del Ejército Rebelde e integró la Columna 1 «José Martí». Al triunfo de la Revolución cumplió diferentes funciones en la Marina de Guerra Revolucionaria. Fue Jefe de la mgr y desde el 2010 Jefe de la Aduana General de la República. Es miembro del Comité Central del PCC. Es diputado.",
+                "bio": "Miembro del Movimiento 26 de Julio, del Ejército Rebelde e integró la Columna 1 «José Martí». Al triunfo de la Revolución cumplió diferentes funciones en la Marina de Guerra Revolucionaria. Fue Jefe de la MGR y desde el 2010 Jefe de la Aduana General de la República. Es miembro del Comité Central del PCC. Es diputado.",
                 "organizaciones": [
                     "pcc",
                     "cdr",
@@ -5388,7 +5388,7 @@
                     "acrc",
                     "ctc",
                     "cdr",
-                    "cdr"
+                    "pcc"
                 ],
                 "sexo": "m",
                 "list_id": "45",
