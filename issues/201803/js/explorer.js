@@ -1,8 +1,10 @@
+scrollpos = 0;
+showbio = false;
 sitem = 0;
 pitem = 0;
 
 fyoung = {'value':19,'marked':false};
-fold = {'value':95,'marked':false};
+fold = {'value':94,'marked':false};
 fvalues = {
     'sex' : {'value':'none','marked':false},
     'class' : {'value':'none','marked':false},
@@ -19,7 +21,6 @@ collapsed= {
 };
 
 if ($('body').width()>990){
-    console.log('entra');
     collapsed['set-filter-block'] = false;
     $('#set-filter-block').show();
 }
@@ -35,12 +36,12 @@ set_values = {
     'anap':'none',
     'acrc':'none',
     'young':19,
-    'old':95
+    'old':94
 }
 
 put_values={
     "young":{'value':19,"valid":true},
-    "old":{'value':95,"valid":true},
+    "old":{'value':94,"valid":true},
     "sex":{'value':'none',"valid":true},
     "class":{'value':'none',"valid":true},
     "pcc":{'value':'none',"valid":true},
@@ -119,8 +120,8 @@ $.getJSON("data/candidatos.json",function(data){
     }
     
     function change_slabels_age(y,o){
-        if ((y!=19)||(o!=95)){
-            if((set_values.young==19)&&(set_values.old==95)){
+        if ((y!=19)||(o!=94)){
+            if((set_values.young==19)&&(set_values.old==94)){
                 sitem+=1;
                 if (sitem==1){
                         $('#set-item-all').hide();
@@ -221,8 +222,8 @@ $.getJSON("data/candidatos.json",function(data){
             if (val<minval){
                 $('#age-set-old').val(minval);
             } 
-            else if (val>95){
-                $('#age-set-old').val(95);
+            else if (val>94){
+                $('#age-set-old').val(94);
                 
             } 
             else {
@@ -766,6 +767,7 @@ $.getJSON("data/candidatos.json",function(data){
         $("#bio-image").prop('src','images/'+c['list_id']+'.jpg');
         $('#bio-name').html('<span class="bd viz-text">'+c['nombre']+'</span>');
         $('#bio-age').html('<span class="report-text bd">Edad: </span>'+c['edad']+' años');
+        $('#bio-class').html('<span class="report-text bd">Nivel escolar: </span>'+c['nivel']);
         $('#bio-job').html('<span class="report-text bd">Trabajo: </span>'+c['trabajo']);
         $('#bio-info').html('<span class="report-text bd">Biografía: </span>'+c['bio']);
         $('#bio-region').html('<span class="report-text bd">Elegible por: </span>'+c['municipio']+', '+c['provincia']);
@@ -779,18 +781,29 @@ $.getJSON("data/candidatos.json",function(data){
      }
      
      $('.candidate').click(function(e){
+        scrollpos = $('body').scrollTop();
         $('#gray-out').css('height',$('body').height());
         var cid = e.currentTarget.id.slice(1,e.currentTarget.id.length);
         set_bio_info(cid);
         $('#gray-out').show();
+        $('html,body').animate({'scrollTop':0},'fast');
         $('#bio').show();
+        showbio = true;
     });
     
     $('#bio-close').click(function(e){
+        $('html,body').animate({'scrollTop':scrollpos},'fast');
         $('#gray-out').hide();
         $('#bio').hide();
+        showbio = false;
+        scrollpos = 0;
     });
     $('#gray-out').click(function(e){
+        if (showbio){
+            $('html,body').animate({'scrollTop':scrollpos},'fast');
+            scrollpos=0;
+            showbio = false;
+        }
         $('#introduction').hide();
         $('#gray-out').hide();
          $('#how').hide();
@@ -839,6 +852,7 @@ $('.collap').click(function(e){
         $('#'+hid).slideUp(200);
     }
 });
+
 
 function set_sizes(){
     var height = window.innerHeight;
