@@ -799,17 +799,16 @@ $.getJSON("data/candidatos.json",function(data){
         scrollpos = 0;
     });
     $('#gray-out').click(function(e){
-        if (showbio){
-            $('html,body').animate({'scrollTop':scrollpos},'fast');
-            scrollpos=0;
-            showbio = false;
-        }
+        $('html,body').animate({'scrollTop':scrollpos},'fast');
+        scrollpos=0;
         $('#introduction').hide();
         $('#gray-out').hide();
          $('#how').hide();
         $('#bio').hide();
     });
     $('.explore').click(function(e){
+        $('html,body').animate({'scrollTop':scrollpos},'fast');
+        scrollpos=0;
         $('#introduction').hide();
         $('#how').hide();
         $('#gray-out').hide();
@@ -826,6 +825,7 @@ $.getJSON("data/candidatos.json",function(data){
         
     });
     $('.options-head').click(function(e){
+        scrollpos = $('body').scrollTop();
         $('html,body').animate({'scrollTop':0},'fast');
         $('#gray-out').show();
         $('#how').show();
