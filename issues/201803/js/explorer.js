@@ -12,7 +12,8 @@ fvalues = {
     'ujc' : {'value':'none','marked':false},
     'ctc' : {'value':'none','marked':false},
     'anap' : {'value':'none','marked':false},
-    'acrc' : {'value':'none','marked':false}
+    'acrc' : {'value':'none','marked':false},
+    'cm' : {'value':'none','marked':false}
 }
 
 collapsed= {
@@ -35,6 +36,7 @@ set_values = {
     'ctc':'none',
     'anap':'none',
     'acrc':'none',
+    'cm':'none',
     'young':19,
     'old':94
 }
@@ -49,6 +51,7 @@ put_values={
     "ctc":{'value':'none',"valid":true},
     "anap":{'value':'none',"valid":true},
     "acrc":{'value':'none',"valid":true},
+    "cm":{'value':'none',"valid":true}
 };
 
 $.getJSON("data/candidatos.json",function(data){
@@ -264,23 +267,121 @@ $.getJSON("data/candidatos.json",function(data){
      
      
      function invalidate_option(k,value){
+        if (k=='pcc'){
+            invalidate_pcc(value);
+        } else {
+            if (value!='none'){
+                if (!fvalues[k].marked) {
+                    var oldvalue = $('#'+k+'-put-select').val();
+                    $('#'+k+'-put-select').prop('disabled',true);
+                    fvalues[k].marked = true;
+                    fvalues[k].value = oldvalue;
+                    $('#'+k+'-put-select').val('none');
+                    $('#'+k+'-put-select').change();
+                }
+            } else {
+                if (fvalues[k].marked) {
+                    $('#'+k+'-put-select').val(fvalues[k].value);
+                    $('#'+k+'-put-select').change();
+                    $('#'+k+'-put-select').prop('disabled',false);
+                    fvalues[k].marked = false;
+                }
+            }
+        }
+     }
+     
+     function invalidate_pcc(value){
+        $('#pcc-put-select>option').show();
         if (value!='none'){
-            if (!fvalues[k].marked) {
-                var oldvalue = $('#'+k+'-put-select').val();
-                $('#'+k+'-put-select').prop('disabled',true);
-                fvalues[k].marked = true;
-                fvalues[k].value = oldvalue;
-                $('#'+k+'-put-select').val('none');
-                $('#'+k+'-put-select').change();
+            var oldvalue = fvalues['pcc'].value;
+            if (value=='no') {
+                put_values.pcc.valid= false;
+                $('#pcc-put-select').prop('disabled',true);
+                $('#pcc-put-select').val('none');
+                $('#pcc-put-select').change();
+            }
+            if (value=='yes'){
+                $('#pcc-put-no').hide();
+                $('#pcc-put-yes').hide();
+                $('#pcc-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')){
+                    put_values.pcc.valid= false;
+                    $('#pcc-put-select').val('none');
+                    $('#pcc-put-select').change();
+                    if (oldvalue=='yes') {
+                        put_values.pcc.valid= true;
+                    } else {
+                        $('#pcc-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#pcc-put-select').val(fvalues['pcc'].value);
+                    $('#pcc-put-select').change();
+                }
+            }
+            if (value=='cc'){
+                $('#pcc-put-no').hide();
+                $('#pcc-put-yes').hide();
+                $('#pcc-put-cc').hide();
+                $('#pcc-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')||(oldvalue=='cc')){
+                    put_values.pcc.valid= false;
+                    $('#pcc-put-select').val('none');
+                    $('#pcc-put-select').change();
+                    if (oldvalue=='cc') {
+                        put_values.pcc.valid= true;
+                    } else {
+                        $('#pcc-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#pcc-put-select').val(fvalues['pcc'].value);
+                    $('#pcc-put-select').change();
+                }
+            }
+            if (value=='bp'){
+                $('#pcc-put-no').hide();
+                $('#pcc-put-yes').hide();
+                $('#pcc-put-bp').hide();
+                $('#pcc-put-cc').hide();
+                $('#pcc-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')||(oldvalue=='bp')||(oldvalue=='cc')){
+                    put_values.pcc.valid= false;
+                    $('#pcc-put-select').val('none');
+                    $('#pcc-put-select').change();
+                    if (oldvalue=='bp') {
+                        put_values.pcc.valid= true;
+                    } else {
+                        $('#pcc-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#pcc-put-select').val(fvalues['pcc'].value);
+                    $('#pcc-put-select').change();
+                }
+            }
+            if (value=='secretariado'){
+                $('#pcc-put-no').hide();
+                $('#pcc-put-yes').hide();
+                $('#pcc-put-cc').hide();
+                $('#pcc-put-secretariado').hide();
+                $('#pcc-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')||(oldvalue=='secretariado')||(oldvalue=='cc')){
+                    put_values.pcc.valid= false;
+                    $('#pcc-put-select').val('none');
+                    $('#pcc-put-select').change();
+                    if (oldvalue=='secretariado') {
+                        put_values.pcc.valid= true;
+                    } else {
+                        $('#pcc-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#pcc-put-select').val(fvalues['pcc'].value);
+                    $('#pcc-put-select').change();
+                }
             }
         } else {
-            if (fvalues[k].marked) {
-                $('#'+k+'-put-select').val(fvalues[k].value);
-                $('#'+k+'-put-select').change();
-                $('#'+k+'-put-select').prop('disabled',false);
-                fvalues[k].marked = false;
-                fvalues[k].marked = false;
-            }
+            put_values.pcc.valid= true;
+            $('#pcc-put-select').val(fvalues['pcc'].value);
+            $('#pcc-put-select').change();
+            $('#pcc-put-select').prop('disabled',false);
         }
      }
      
@@ -314,6 +415,12 @@ $.getJSON("data/candidatos.json",function(data){
             text = 'militantes del PCC';
         } else if (val=='no'){
             text = 'no militantes del PCC';
+        } else if (val=='secretariado'){
+            text = 'miembros del Secretariado del CC del PCC';
+        } else if (val=='bp'){
+            text = 'miembros del Buró Político del PCC';
+        } else if (val=='cc'){
+            text = 'miembros del Comité Central del PCC';
         }
         change_slabels(set_values.pcc,val,'set-item-pcc',text);
         set_values.pcc = val;
@@ -376,6 +483,20 @@ $.getJSON("data/candidatos.json",function(data){
         show_set();
      });
      
+     $('#cm-set-select').on('change',function(e){
+        var val = $('#cm-set-select').val();
+        invalidate_option('cm',val);
+        var text = 'none';
+        if (val=='yes'){
+            text = 'miembros del Consejo de Ministros';
+        } else if (val=='no'){
+            text = 'no pertenecen al Consejo de Ministros';
+        }
+        change_slabels(set_values.cm,val,'set-item-cm',text);
+        set_values.cm = val;
+        show_set();
+     });
+     
      function filter_by_sex(sex,elems){
         if (sex!='none'){
             var _items = [];
@@ -433,6 +554,52 @@ $.getJSON("data/candidatos.json",function(data){
         return elems;
     }
     
+    function filter_by_pcc(member,elems){
+        if (member!='none'){
+            var _items = [];
+            for(var i in elems){
+                if((member=='yes')||(member=='no')) {
+                    if(member=='yes'){
+                        if(cands[elems[i]-1]['organizaciones'].indexOf('pcc')!=-1){
+                            _items.push(elems[i]);
+                        }
+                    } 
+                    else{
+                        if(cands[elems[i]-1]['organizaciones'].indexOf('pcc')==-1){
+                            _items.push(elems[i]);
+                        }
+                    }
+                } else {
+                    if(cands[elems[i]-1]['pcc'].indexOf(member)!=-1){
+                        _items.push(elems[i]);
+                    }
+                }
+            }
+            return _items;
+        }
+        return elems;
+    }
+    
+    function filter_by_cm(member,elems){
+        if (member!='none'){
+            var _items = [];
+            for(var i in elems){
+                if(member=='yes'){
+                    if(cands[elems[i]-1]['cm'].indexOf('miembro')!=-1){
+                        _items.push(elems[i]);
+                    }
+                }
+                else{
+                    if(cands[elems[i]-1]['cm'].indexOf('miembro')==-1){
+                        _items.push(elems[i]);
+                    }
+                }
+            }
+            return _items;
+        }
+        return elems;
+    }
+    
     
      
      function create_set(){
@@ -448,6 +615,7 @@ $.getJSON("data/candidatos.json",function(data){
         var ctc_set = $('#ctc-set-select').val();
         var anap_set = $('#anap-set-select').val();
         var acrc_set = $('#acrc-set-select').val();
+        var cm_set = $('#cm-set-select').val();
         
         if (prov_set!='none'){
             if (mun_set!='none'){
@@ -472,13 +640,21 @@ $.getJSON("data/candidatos.json",function(data){
         items = filter_by_age(yage_set,oage_set,items);
         
         items = filter_by_sex(sex_set,items);
+        
         items = filter_by_class(class_set,items);
         
-        items = filter_by_org(pcc_set,'pcc',items);
+        //items = filter_by_org(pcc_set,'pcc',items);
+        items = filter_by_pcc(pcc_set,items);
+        
         items = filter_by_org(ujc_set,'ujc',items);
+        
         items = filter_by_org(anap_set,'anap',items);
+        
         items = filter_by_org(acrc_set,'acrc',items);
+        
         items = filter_by_org(ctc_set,'ctc',items);
+        
+        items = filter_by_cm(cm_set,items);
         
         return items;
      }
@@ -521,6 +697,44 @@ $.getJSON("data/candidatos.json",function(data){
         }
         return true;
     }
+    
+    function is_selected_by_pcc(member,elem){
+        if (member!='none'){
+                if((member=='yes')||(member=='no')){
+                    if(member=='yes'){
+                        if(!(elem['organizaciones'].indexOf('pcc')!=-1)){
+                            return false;
+                        }
+                    }
+                    else{
+                        if(!(elem['organizaciones'].indexOf('pcc')==-1)){
+                            return false;
+                        }
+                    }
+                } else {
+                    if((elem['pcc'].indexOf(member)==-1)){
+                        return false;
+                    }
+                }
+        }
+        return true;
+    }
+    
+    function is_selected_by_cm(member,elem){
+        if (member!='none'){
+                if(member=='yes'){
+                    if(!(elem['cm'].indexOf('miembro')!=-1)){
+                        return false;
+                    }
+                }
+                else{
+                    if(!(elem['cm'].indexOf('miembro')==-1)){
+                        return false;
+                    }
+                }
+        }
+        return true;
+    }
      
      function is_selected(cid){
         var yage_put = parseInt($('#age-put-young').val());
@@ -532,6 +746,7 @@ $.getJSON("data/candidatos.json",function(data){
         var ctc_put = $('#ctc-put-select').val();
         var anap_put = $('#anap-put-select').val();
         var acrc_put = $('#acrc-put-select').val();
+        var cm_put = $('#cm-put-select').val();
         
         var c = cands[cid-1];
         
@@ -543,7 +758,7 @@ $.getJSON("data/candidatos.json",function(data){
         if ((class_put!='none')&&!(class_put==c['nivel']))
             return false;
             
-        if (!is_selected_by_org(pcc_put,'pcc',c))
+        if (!is_selected_by_pcc(pcc_put,c))
             return false;
         if (!is_selected_by_org(ujc_put,'ujc',c))
             return false;
@@ -552,6 +767,8 @@ $.getJSON("data/candidatos.json",function(data){
         if (!is_selected_by_org(anap_put,'anap',c))
             return false;
         if (!is_selected_by_org(acrc_put,'acrc',c))
+            return false;
+        if (!is_selected_by_cm(cm_put,c))
             return false;        
         return true;
      }
@@ -677,11 +894,21 @@ $.getJSON("data/candidatos.json",function(data){
     
      $('#pcc-put-select').on('change',function(e){
         var val = $('#pcc-put-select').val();
+        if (put_values.pcc.valid){
+            fvalues['pcc'].value = val;
+            console.log('cambia a '+val);
+        }
         var text = 'none';
         if (val=='yes'){
             text = 'militantes del PCC';
         } else if (val=='no'){
             text = 'no militantes del PCC';
+        } else if (val=='secretariado'){
+            text = 'miembros del Secretariado del CC del PCC';
+        } else if (val=='bp'){
+            text = 'miembros del Buró Político del PCC';
+        } else if (val=='cc'){
+            text = 'miembros del Comité Central del PCC';
         }
         change_plabels(put_values.pcc.value,val,'put-item-pcc',text);
         put_values.pcc.value = val;
@@ -734,6 +961,18 @@ $.getJSON("data/candidatos.json",function(data){
         }
         change_plabels(put_values.acrc.value,val,'put-item-acrc',text);
         put_values.acrc.value = val; 
+        select_and_show();
+     });
+     $('#cm-put-select').on('change',function(e){
+        var val = $('#cm-put-select').val();
+        var text = 'none';
+        if (val=='yes'){
+            text = 'miembros del Consejo de Ministros';
+        } else if (val=='no'){
+            text = 'no pertenecen al Consejo de Ministros';
+        }
+        change_plabels(put_values.cm.value,val,'put-item-cm',text);
+        put_values.cm.value = val; 
         select_and_show();
      });
      
