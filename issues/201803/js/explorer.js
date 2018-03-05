@@ -13,7 +13,8 @@ fvalues = {
     'ctc' : {'value':'none','marked':false},
     'anap' : {'value':'none','marked':false},
     'acrc' : {'value':'none','marked':false},
-    'cm' : {'value':'none','marked':false}
+    'cm' : {'value':'none','marked':false},
+    'anpp' : {'value':'none','marked':false}
 }
 
 collapsed= {
@@ -37,6 +38,7 @@ set_values = {
     'anap':'none',
     'acrc':'none',
     'cm':'none',
+    'anpp':'none',
     'young':19,
     'old':94
 }
@@ -51,7 +53,8 @@ put_values={
     "ctc":{'value':'none',"valid":true},
     "anap":{'value':'none',"valid":true},
     "acrc":{'value':'none',"valid":true},
-    "cm":{'value':'none',"valid":true}
+    "cm":{'value':'none',"valid":true},
+    "anpp":{'value':'none',"valid":true}
 };
 
 $.getJSON("data/candidatos.json",function(data){
@@ -385,6 +388,48 @@ $.getJSON("data/candidatos.json",function(data){
         }
      }
      
+     function invalidate_anpp(value){
+        $('#anpp-put-select>option').show();
+        if (value!='none'){
+            var oldvalue = fvalues['anpp'].value;
+            if (value=='no') {
+                put_values.anpp.valid= false;
+                $('#anpp-put-select').prop('disabled',true);
+                $('#anpp-put-select').val('none');
+                $('#anpp-put-select').change();
+            }
+            if (value=='yes'){
+                $('#anpp-put-no').hide();
+                $('#anpp-put-yes').hide();
+                $('#anpp-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')){
+                    put_values.anpp.valid= false;
+                    $('#anpp-put-select').val('none');
+                    $('#anpp-put-select').change();
+                    if (oldvalue=='yes') {
+                        put_values.anpp.valid= true;
+                    } else {
+                        $('#anpp-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#anpp-put-select').val(fvalues['anpp'].value);
+                    $('#anpp-put-select').change();
+                }
+            }
+            if (value=='ce'){
+                $('#anpp-put-select').prop('disabled',true);
+                put_values.anpp.valid= false;
+                $('#anpp-put-select').val('none');
+                $('#anpp-put-select').change();
+            }
+        } else {
+            put_values.pcc.valid= true;
+            $('#anpp-put-select').val(fvalues['anpp'].value);
+            $('#anpp-put-select').change();
+            $('#anpp-put-select').prop('disabled',false);
+        }
+     }
+     
      $('#class-set-select').on('change',function(e){
         var clas = $('#class-set-select').val();
         invalidate_option('class',clas);
@@ -497,6 +542,22 @@ $.getJSON("data/candidatos.json",function(data){
         show_set();
      });
      
+      $('#anpp-set-select').on('change',function(e){
+        var val = $('#anpp-set-select').val();
+        invalidate_anpp(val);
+        var text = 'none';
+        if (val=='yes'){
+            text = 'diputados al Parlamento';
+        } else if (val=='no'){
+            text = 'no son diputados';
+        } else if (val=='ce'){
+            text = 'miembros del Consejo de Estado';
+        } 
+        change_slabels(set_values.anpp,val,'set-item-anpp',text);
+        set_values.anpp = val;
+        show_set();
+     });
+     
      function filter_by_sex(sex,elems){
         if (sex!='none'){
             var _items = [];
@@ -580,6 +641,33 @@ $.getJSON("data/candidatos.json",function(data){
         return elems;
     }
     
+    function filter_by_anpp(member,elems){
+        if (member!='none'){
+            var _items = [];
+            for(var i in elems){
+                if((member=='yes')||(member=='no')) {
+                    if(member=='yes'){
+                        if(cands[elems[i]-1]['anpp'].indexOf('diputado')!=-1){
+                            _items.push(elems[i]);
+                        }
+                    } 
+                    else{
+                        if(cands[elems[i]-1]['anpp'].indexOf('diputado')==-1){
+                            _items.push(elems[i]);
+                        }
+                    }
+                } else {
+                    if(cands[elems[i]-1]['anpp'].indexOf(member)!=-1){
+                        _items.push(elems[i]);
+                    }
+                }
+            }
+            return _items;
+        }
+        return elems;
+    }
+    
+    
     function filter_by_cm(member,elems){
         if (member!='none'){
             var _items = [];
@@ -616,6 +704,7 @@ $.getJSON("data/candidatos.json",function(data){
         var anap_set = $('#anap-set-select').val();
         var acrc_set = $('#acrc-set-select').val();
         var cm_set = $('#cm-set-select').val();
+        var anpp_set = $('#anpp-set-select').val();
         
         if (prov_set!='none'){
             if (mun_set!='none'){
@@ -643,7 +732,6 @@ $.getJSON("data/candidatos.json",function(data){
         
         items = filter_by_class(class_set,items);
         
-        //items = filter_by_org(pcc_set,'pcc',items);
         items = filter_by_pcc(pcc_set,items);
         
         items = filter_by_org(ujc_set,'ujc',items);
@@ -655,6 +743,8 @@ $.getJSON("data/candidatos.json",function(data){
         items = filter_by_org(ctc_set,'ctc',items);
         
         items = filter_by_cm(cm_set,items);
+        
+        items = filter_by_anpp(anpp_set,items);
         
         return items;
      }
@@ -720,6 +810,28 @@ $.getJSON("data/candidatos.json",function(data){
         return true;
     }
     
+     function is_selected_by_anpp(member,elem){
+        if (member!='none'){
+                if((member=='yes')||(member=='no')){
+                    if(member=='yes'){
+                        if(!(elem['anpp'].indexOf('diputado')!=-1)){
+                            return false;
+                        }
+                    }
+                    else{
+                        if(!(elem['anpp'].indexOf('diputado')==-1)){
+                            return false;
+                        }
+                    }
+                } else {
+                    if((elem['anpp'].indexOf(member)==-1)){
+                        return false;
+                    }
+                }
+        }
+        return true;
+    }
+    
     function is_selected_by_cm(member,elem){
         if (member!='none'){
                 if(member=='yes'){
@@ -747,6 +859,7 @@ $.getJSON("data/candidatos.json",function(data){
         var anap_put = $('#anap-put-select').val();
         var acrc_put = $('#acrc-put-select').val();
         var cm_put = $('#cm-put-select').val();
+        var anpp_put = $('#anpp-put-select').val();
         
         var c = cands[cid-1];
         
@@ -769,7 +882,9 @@ $.getJSON("data/candidatos.json",function(data){
         if (!is_selected_by_org(acrc_put,'acrc',c))
             return false;
         if (!is_selected_by_cm(cm_put,c))
-            return false;        
+            return false; 
+        if (!is_selected_by_anpp(anpp_put,c))
+            return false; 
         return true;
      }
      
@@ -973,6 +1088,24 @@ $.getJSON("data/candidatos.json",function(data){
         }
         change_plabels(put_values.cm.value,val,'put-item-cm',text);
         put_values.cm.value = val; 
+        select_and_show();
+     });
+     $('#anpp-put-select').on('change',function(e){
+        var val = $('#anpp-put-select').val();
+        if (put_values.anpp.valid){
+            fvalues['anpp'].value = val;
+            console.log('cambia a '+val);
+        }
+        var text = 'none';
+        if (val=='yes'){
+            text = 'diputados al Parlamento';
+        } else if (val=='no'){
+            text = 'no diputados';
+        } else if (val=='ce'){
+            text = 'miembros del Consejo de Estado';
+        }
+        change_plabels(put_values.anpp.value,val,'put-item-anpp',text);
+        put_values.anpp.value = val;
         select_and_show();
      });
      
