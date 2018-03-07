@@ -14,7 +14,9 @@ fvalues = {
     'anap' : {'value':'none','marked':false},
     'acrc' : {'value':'none','marked':false},
     'cm' : {'value':'none','marked':false},
-    'anpp' : {'value':'none','marked':false}
+    'anpp' : {'value':'none','marked':false},
+    'other' : {'value':'none','marked':false},
+    'dir' : {'value':'none','marked':false}
 }
 
 collapsed= {
@@ -39,6 +41,8 @@ set_values = {
     'acrc':'none',
     'cm':'none',
     'anpp':'none',
+    'other':'none',
+    'dir':'none',
     'young':19,
     'old':94
 }
@@ -54,7 +58,9 @@ put_values={
     "anap":{'value':'none',"valid":true},
     "acrc":{'value':'none',"valid":true},
     "cm":{'value':'none',"valid":true},
-    "anpp":{'value':'none',"valid":true}
+    "anpp":{'value':'none',"valid":true},
+    "other":{'value':'none',"valid":true},
+    "dir":{'value':'none',"valid":true}
 };
 
 $.getJSON("data/candidatos.json",function(data){
@@ -430,6 +436,42 @@ $.getJSON("data/candidatos.json",function(data){
         }
      }
      
+     function invalidate_dir(value){
+        $('#dir-put-select>option').show();
+        if (value!='none'){
+            var oldvalue = fvalues['dir'].value;
+            if (value=='no') {
+                put_values.dir.valid= false;
+                $('#dir-put-select').prop('disabled',true);
+                $('#dir-put-select').val('none');
+                $('#dir-put-select').change();
+            }
+            else if (value=='yes'){
+                $('#dir-put-no').hide();
+                $('#dir-put-yes').hide();
+                $('#dir-put-select').prop('disabled',false);
+                if ((oldvalue=='no')||(oldvalue=='yes')){
+                    put_values.dir.valid= false;
+                    $('#anpp-put-select').val('none');
+                    $('#dir-put-select').change();
+                    if (oldvalue=='yes') {
+                        put_values.dir.valid= true;
+                    } else {
+                        $('#dir-put-select').prop('disabled',true);
+                    }
+                } else {
+                    $('#dir-put-select').val(fvalues['dir'].value);
+                    $('#dir-put-select').change();
+                }
+            }
+        } else {
+            put_values.dir.valid= true;
+            $('#dir-put-select').val(fvalues['dir'].value);
+            $('#dir-put-select').change();
+            $('#dir-put-select').prop('disabled',false);
+        }
+     }
+     
      $('#class-set-select').on('change',function(e){
         var clas = $('#class-set-select').val();
         invalidate_option('class',clas);
@@ -555,6 +597,20 @@ $.getJSON("data/candidatos.json",function(data){
         } 
         change_slabels(set_values.anpp,val,'set-item-anpp',text);
         set_values.anpp = val;
+        show_set();
+     });
+     
+     $('#dir-set-select').on('change',function(e){
+        var val = $('#dir-set-select').val();
+        invalidate_dir(val);
+        var text = 'none';
+        if (val=='yes'){
+            text = 'ocupan cargos directivos';
+        } else if (val=='no'){
+            text = 'no ocupan cargos directivos';
+        } 
+        change_slabels(set_values.dir,val,'set-item-dir',text);
+        set_values.dir = val;
         show_set();
      });
      
@@ -688,6 +744,29 @@ $.getJSON("data/candidatos.json",function(data){
         return elems;
     }
     
+    function filter_by_dir(member,elems){
+        if (member!='none'){
+            var _items = [];
+            for(var i in elems){
+                if((member=='yes')||(member=='no')) {
+                    if(member=='yes'){
+                        if(cands[elems[i]-1]['directivo'].length!=0){
+                            _items.push(elems[i]);
+                        }
+                    } 
+                    else{
+                        if(cands[elems[i]-1]['directivo'].length==0){
+                            _items.push(elems[i]);
+                        }
+                    }
+                } 
+            }
+            return _items;
+        }
+        return elems;
+    }
+    
+    
     
      
      function create_set(){
@@ -705,6 +784,7 @@ $.getJSON("data/candidatos.json",function(data){
         var acrc_set = $('#acrc-set-select').val();
         var cm_set = $('#cm-set-select').val();
         var anpp_set = $('#anpp-set-select').val();
+        var dir_set = $('#dir-set-select').val();
         
         if (prov_set!='none'){
             if (mun_set!='none'){
@@ -745,6 +825,8 @@ $.getJSON("data/candidatos.json",function(data){
         items = filter_by_cm(cm_set,items);
         
         items = filter_by_anpp(anpp_set,items);
+        
+        items = filter_by_dir(dir_set,items);
         
         return items;
      }
@@ -831,6 +913,20 @@ $.getJSON("data/candidatos.json",function(data){
         }
         return true;
     }
+    function is_selected_by_other(member,elem){
+        if (member!='none'){
+                if((member=='ministro')){
+                    if (elem['cm'].indexOf('ministro')==-1)
+                        return false;
+                } else {
+                    if((elem['otros'].indexOf(member)==-1)){
+                        console.log('otrs');
+                        return false;
+                    }
+                }
+        }
+        return true;
+    }
     
     function is_selected_by_cm(member,elem){
         if (member!='none'){
@@ -841,6 +937,28 @@ $.getJSON("data/candidatos.json",function(data){
                 }
                 else{
                     if(!(elem['cm'].indexOf('miembro')==-1)){
+                        return false;
+                    }
+                }
+        }
+        return true;
+    }
+    
+    function is_selected_by_dir(member,elem){
+        if (member!='none'){
+                if((member=='yes')||(member=='no')){
+                    if(member=='yes'){
+                        if(!(elem['directivo'].length!=0)){
+                            return false;
+                        }
+                    }
+                    else{
+                        if(!(elem['directivo'].length==0)){
+                            return false;
+                        }
+                    }
+                } else {
+                    if((elem['directivo'].indexOf(member)==-1)){
                         return false;
                     }
                 }
@@ -860,6 +978,8 @@ $.getJSON("data/candidatos.json",function(data){
         var acrc_put = $('#acrc-put-select').val();
         var cm_put = $('#cm-put-select').val();
         var anpp_put = $('#anpp-put-select').val();
+        var other_put = $('#other-put-select').val();
+        var dir_put = $('#dir-put-select').val();
         
         var c = cands[cid-1];
         
@@ -884,6 +1004,10 @@ $.getJSON("data/candidatos.json",function(data){
         if (!is_selected_by_cm(cm_put,c))
             return false; 
         if (!is_selected_by_anpp(anpp_put,c))
+            return false; 
+        if (!is_selected_by_other(other_put,c))
+            return false; 
+        if (!is_selected_by_dir(dir_put,c))
             return false; 
         return true;
      }
@@ -1106,6 +1230,65 @@ $.getJSON("data/candidatos.json",function(data){
         }
         change_plabels(put_values.anpp.value,val,'put-item-anpp',text);
         put_values.anpp.value = val;
+        select_and_show();
+     });
+     $('#other-put-select').on('change',function(e){
+        var val = $('#other-put-select').val();
+        if (put_values.other.valid){
+            fvalues['other'].value = val;
+            console.log('cambia a '+val);
+        }
+        var text = 'none';
+        if (val=='ministro'){
+            text = 'ministros';
+        } else if (val=='general'){
+            text = 'generales';
+        } else if (val=='rector'){
+            text = 'rectores';
+        }
+        change_plabels(put_values.other.value,val,'put-item-other',text);
+        put_values.other.value = val;
+        select_and_show();
+     });
+     
+     $('#dir-put-select').on('change',function(e){
+        var val = $('#dir-put-select').val();
+        if (put_values.dir.valid){
+            fvalues['dir'].value = val;
+            console.log('cambia a '+val);
+        }
+        var text = 'none';
+        if (val=='yes'){
+            text = 'ocupan cargos directivos';
+        } else if (val=='no'){
+            text = 'no ocupan cargos directivos';
+        } else if (val=='ministerial'){
+            text = 'con cargos en el sector público';
+        } else if (val=='comunicación'){
+            text = 'con cargos en el sector de la comunicación';
+        } else if (val=='docente'){
+            text = 'con cargos en el sector de la educación';
+        } else if (val=='investigación'){
+            text = 'con cargos en el sector de la investigación';
+        } else if (val=='empresa'){
+            text = 'con cargos en el sector empresarial';
+        } else if (val=='militar'){
+            text = 'con cargos en el sector militar';
+        } else if (val=='pp'){
+            text = 'en entidades del Poder Popular';
+        } else if (val=='pcc'){
+            text = 'con cargos en el PCC';
+        } else if (val=='joven'){
+            text = 'en la FEU o la UJC';
+        } else if (val=='religioso'){
+            text = 'con cargos en instituciones religiosas';
+        } else if (val=='nogob'){
+            text = 'con cargos en otras organizaciones no gubernamentales';
+        } else if (val=='otros'){
+            text = 'con cargos en otros sectores';
+        } 
+        change_plabels(put_values.dir.value,val,'put-item-dir',text);
+        put_values.dir.value = val;
         select_and_show();
      });
      
