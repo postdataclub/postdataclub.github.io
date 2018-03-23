@@ -1,0 +1,304 @@
+body {
+    font-size: 18px;
+}
+.cover {
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.main-title {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(100,100,100,0.7);
+}
+
+
+
+/* scrollama */
+
+#scroll {
+    position: relative;
+}
+
+.scroll__graphic {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    bottom: auto;
+    background-color: #fff;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.scroll__graphic.is-fixed {
+    position: fixed;
+}
+
+.scroll__graphic.is-bottom {
+    bottom: 0;
+    top: auto;
+}
+
+.chart {
+    position: absolute;
+    right: 1rem;
+    left: 0;
+    top:45px;
+/*
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    background-color: #ddd;
+
+    border: 1px solid #000;
+*/
+}
+
+
+.scroll__text {
+    position: relative;
+    width: 45%;
+    margin-left:55%;
+}
+
+.step {
+}
+
+.step.is-active {
+    background-color: lightgoldenrodyellow;
+}
+
+.step p {
+    width: 75%;
+}
+
+#bosses, #vps,  #members, #legend {
+    width: 100%;
+    text-align: center;
+}
+
+#members {
+    margin-top:5px;
+}
+#vps {
+    margin-top:5px;
+}
+#legend {
+    margin-top:-5px;
+    font-size: 10px;
+}
+
+#legend>div>img  {
+    width: 20px;
+}
+
+#bosses>div,  #vps>div,  #members>div, #legend>div  {
+    display: inline-block;
+    margin-left: 3px;
+    padding-top:7px;
+}
+
+#vps>div,  #members>div  {
+    vertical-align: top;
+}
+
+#vps {
+    margin-top: 5px;
+}
+
+#m1-name, #m2-name, #m8-name {
+    font-size: 13px;
+}
+
+.charge {
+    font-size: 16px;
+}
+
+.member  {
+    height: 85px;
+}
+
+.vices {
+    height: 85px;
+}
+
+#m1-image>img {
+    width: 70px;
+}
+
+#m2-image>img {
+    width: 60px;
+}
+
+#m8-image>img {
+    width: 50px;
+}
+
+.m-image>img {
+    width: 45px;
+}
+
+.vpre-image>img {
+    width: 55px;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.normal-border {
+    padding: 1px;
+    border: 3px solid #A7A7A7;
+}
+
+.new-border {
+    padding: 1px;
+    border: 3px solid red;
+}
+
+.change-border {
+    padding: 1px;
+    border: 3px solid blue;
+}
+
+.charge {
+    font-weight: bold;
+}
+
+.m-name {
+    font-size: 9px;
+    width: 45px;
+}
+
+.vp-name {
+    font-size: 11px;
+    width: 55px;
+}
+.anpp-person {
+    width: 50px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.anpp-circle-image {
+    width: 40px;
+}
+.anpp-name {
+    font-size: 9px;
+    max-width: 50px;
+}
+
+@media (max-width:900px){
+body {
+    font-size: 16px;
+}
+
+.main-title {
+    top: 30%;
+    left: 20%;
+    transform: translate(-12.5%,0%);
+    padding: 3px;
+}
+.first-title {
+ font-size: 28px;
+ font-weight: bold;
+ padding: 3px;
+}
+
+.second-title {
+ font-size: 22px;
+ padding: 3px;
+}
+.me-art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.canpp {
+    height: 115px;
+}
+#panpp>div,#vanpp>div,#sanpp>div {
+    transform: rotate(90deg) ;
+    font-size: 13px;
+}
+
+#panpp>div {
+}
+
+#panpp,#vanpp,#sanpp {
+    max-width: 15px;
+}
+
+.anpp-person {
+    width: 33px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.anpp-circle-image {
+    width: 30px;
+}
+.anpp-name {
+    font-size: 8px;
+    max-width: 35px;
+}
+.anpp-years{
+    font-size: 11px;
+}
+
+.scroll__text {
+    position: relative;
+    width: 90%;
+    margin-left:5%;
+}
+.scroll__graphic{
+    display: None;
+}
+.step p {
+    width: 100%;
+}
+}
+
+@media (min-width:900px){
+.main-title {
+    top: 10%;
+    left: 30%;
+    transform: translate(-20%,30%);
+    padding: 5px;
+}
+.first-title {
+ font-size: 60px;
+ font-weight: bold;
+ padding: 5px;
+}
+
+.second-title {
+ font-size: 40px;
+ padding: 5px;
+}
+.me-art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+}
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+.check {
+    background-color: #461A57;     
+    color: #FFFFFF;
+}
+#table-most-cs, #table-most-pcs {
+    margin-top:10px;
+}
+.total {
+    text-align: center;
+}
