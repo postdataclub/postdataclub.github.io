@@ -1066,6 +1066,91 @@
      de Estado, quienes deberán serán electos por el parlamento que se constituirá el próximo 19 de abril.
     </p>
     </div>
+ 
+ 
+<div class="media-block" style="margin-top:-10px;">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se hizo? <i class="fa fa-plus-square-o"></i></span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div id="fuga" class="me-art" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    Para realizar el trabajo la premisa era identificar a todos los diputados que han pertenecido a la dirección de la Asamblea
+    Nacional del Poder Popular (ANPP) y al Consejo de Estado (CE). Estos datos fueron encontrados a partir de los reportes
+    publicados por cada legislatura el <a href="http://www.parlamentocubano.cu">sitio web</a> de la ANPP, así mismo hubo
+    que encontrar todos los posibles cambios ocurridos en los CE consultando distintos medios de prensa porque no todos los
+    cambios que han ocurrido se reportan en el sitio de la Asamblea.  
+    </p>
+    <p>
+    Con esta información se creó una <a href="data/consejo-estado.json">base de datos</a> en formato JSON con todas aquellas
+    personas que han pertenecido al CE o a la dirección de la ANPP desde 1976 hasta la fecha. De la misma forma, se representó
+    en la base datos la estructura de cada Consejo y los cambios que se sucedieron en cada uno de ellos.
+    </p>
+    <p>
+    Luego, por cada persona presente en la base de datos, se anotó la información de pertenencia a las distintas instituciones
+    mencionadas en el artículo en cada uno de los años cuando se realizó una elección. De esta manera se tenía la
+    información que disponía la Comisión de Candidaturas Nacional antes de realizar el proyecto de candidatura que debía
+    ser aprobado y elegido por cada Parlamento.
+    </p>
+    <p>
+    Para obtener los datos de las estructuras del PCC (Comité Central y su Buró Político) se consultador los datos
+    relativos a todos los Congresos del PCC efectuados. Estos datos se encontraron en los sitios <a href="http://www.pcc.cu">Partido Comunista de Cuba</a> y <a href="http://congresopcc.cip.cu">Congresos del PCC</a>.
+    También fueron analizadas las informaciones de cambios realizados  en las estructuras del PCC a través de los reportes 
+    publicados en <a href="http://congresopcc.cip.cu">Congresos del PCC</a> y en distintos medios de prensa. Igualmente,
+    se buscó la cronología de los Secretarios Provinciales por cada Provincia de Cuba.
+    </p>
+    <p>
+    Para el resto de las instituciones analizadas se buscó, a través de distintos medios, la cronología de sus máximos
+    dirigentes. Para el caso de los ministros, se utilizaron los datos publicados en el sitio de la ANPP. Esta información
+    fue contrastada y completada con reportes buscados en múltiples medios.
+    </p>
+    <p>
+    Con estos datos se anotó manualmente la base de datos. Luego se realizó el análisis de esta utilizando técnicas
+    estadísticas y de agrupamiento. Con los patrones encontrados se realizaron las distintas visualizaciones necesarias
+    para comprender el análisis de mejor forma. Para ello se apostó por combinar el uso del <span class="it">scrolly 
+    telling</span> en la historia de los CE con gráficas y tablas para mostrar varios de los patrones encontrados. 
+    </p>
+    <p>Técnicamente, para la construcción de la base de datos en formato JSON, fue necesario descargar varias
+    páginas y documentos de distintos sitios web. Algunas descargas se realizaron manualmente y otras se realizaron
+    utilizando <span class="it">wget</span> y <span class="it">scrapy</span>. Para procesar estas páginas se programó en
+    <span class="it">python</span> y se extrajeron los datos esenciales. Posteriormente, con esta información se anotó
+    y completó la base de datos. En esta, finalmente, se detectaron los patrones mostrados utilizando también un programa
+    hecho en <span class="it">python</span>.
+    </p>
+    <p>Para las visualizaciones se utilizó <span class="it">JQuery</span>, <span class="it">D3.js</span> y <span class="it">C3.js</span> para los gráficos y tablas, además de <a href="https://github.com/russellgoldenberg/scrollama">Scrollama</a>
+    para realizar el <span class="it">scrolly telling</span>
+    </div>
+    
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    </div>
+    </div>    
+<div id="block5" >
+
+<div class="me-art" style="padding-top:20px;padding-bottom:0px;">
+    <div class="row">
+    <div class="col-lg-5 col-md-5">
+        <p><span class="bd">Autores:</span> <br>
+        <span class="auts"><a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/ernesto.html">Ernesto Guerra</a></span></p>
+        <p><span class="bd">Foto:</span><br>
+        <span class="auts"><a href="../../equipo/ernesto.html">Ernesto Guerra</a></span></p>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <p><span class="bd">Fecha de publicación:</span><br>
+        <span class="auts">23/3/2018</span></p>
+        <p><span class="bd">Fuentes principales de datos:</span><br>
+        <span class="auts"><a href="http://www.parlamentocubano.cu">Asamblea Nacional del Poder Popular de la República de Cuba</a>
+        , <a href="http://www.pcc.cu">Partido Comunista de Cuba</a> y <a href="http://congresopcc.cip.cu">Congresos del PCC</a>
+        
+    </div>
+    </div>
+</div>
+</div> 
     
 
 <div class="image-block ">
