@@ -906,7 +906,7 @@
     },
     "personas": {
         "133": {
-            "diputada": true,
+            "diputado": true,
             "nombre-corto": "Carmen Rosa López",
             "nacimiento": null,
             "nombre": "Carmen Rosa López",
@@ -927,7 +927,7 @@
             "id": 133
         },
         "132": {
-            "diputada": true,
+            "diputado": true,
             "nombre-corto": "Ana M. Mari Machado",
             "nacimiento": 1964,
             "nombre": "Ana María Mari Machado",
@@ -948,7 +948,7 @@
             "id": 132
         },
         "131": {
-            "diputada": true,
+            "diputado": true,
             "nombre-corto": "Miriam Brito",
             "nacimiento": null,
             "nombre": "Miriam Brito Sarroca",
@@ -967,7 +967,7 @@
             "id": 131
         },
         "130": {
-            "diputada": false,
+            "diputado": false,
             "nombre-corto": "Jaime Crombet",
             "nacimiento": 1941,
             "nombre": "Jaime Crombet Hernández-Baquero",
@@ -1007,7 +1007,7 @@
             "id": 130
         },
         "134": {
-            "diputada": false,
+            "diputado": false,
             "nombre-corto": "Félix Glez Viego",
             "nacimiento": null,
             "nombre": "Félix González Viego",
@@ -1028,7 +1028,7 @@
             "id": 134
         },
         "24": {
-            "diputada": false,
+            "diputado": false,
             "sexo": "f",
             "nombre": "Haydée Santamaría Cuadrado",
             "id": 24,
@@ -1049,6 +1049,7 @@
             "nacimiento": 1923
         },
         "25": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Osmany Cienfuegos Gorriarán",
             "id": 25,
@@ -1102,6 +1103,7 @@
             "nacimiento": 1931
         },
         "26": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Juan Marinello Vidaurreta",
             "id": 26,
@@ -1122,6 +1124,7 @@
             "nacimiento": 1898
         },
         "27": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Severo Aguirre del Cristo",
             "id": 27,
@@ -1146,6 +1149,7 @@
             "nacimiento": 1912
         },
         "20": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Roberto Veiga Menéndez",
             "id": 20,
@@ -1174,6 +1178,7 @@
             "nacimiento": null
         },
         "21": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Jorge Lezcano Pérez",
             "id": 21,
@@ -1214,6 +1219,7 @@
             "nacimiento": null
         },
         "22": {
+            "diputado": false,
             "sexo": "f",
             "nombre": "Vilma Lucila Espín Guillois",
             "id": 22,
@@ -1251,6 +1257,7 @@
             "nacimiento": 1930
         },
         "23": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "José Ramírez Cruz",
             "id": 23,
@@ -1278,6 +1285,7 @@
             "nacimiento": 1923
         },
         "28": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Reynaldo Castro Yedra",
             "id": 28,
@@ -1300,6 +1308,7 @@
             "nacimiento": 1941
         },
         "29": {
+            "diputado": false,
             "sexo": "f",
             "nombre": "Marta Depress Arozarena",
             "id": 29,
@@ -1318,6 +1327,7 @@
             "nacimiento": null
         },
         "4": {
+            "diputado": true,
             "sexo": "m",
             "nombre": "Ramiro Valdés Menéndez",
             "id": 4,
@@ -1375,6 +1385,7 @@
             "nacimiento": 1932
         },
         "8": {
+            "diputado": false,
             "sexo": "f",
             "nombre": "Celia Sánchez Manduley",
             "id": 8,
@@ -1397,7 +1408,8 @@
             "nacimiento": 1920
         },
         "119": {
-            "nombre-corto": "Sergio J, Rdguez",
+            "diputado": true,
+            "nombre-corto": "Sergio J. Rdguez",
             "nacimiento": 1954,
             "nombre": "Sergio Juan Rodríguez Morales",
             "cargos": {
@@ -1415,6 +1427,7 @@
             "id": 119
         },
         "120": {
+            "diputado": false,
             "nombre-corto": "Liudmila Álamo",
             "nacimiento": null,
             "nombre": "Liudmila Álamo Dueñas",
@@ -1437,6 +1450,7 @@
             "id": 120
         },
         "121": {
+            "diputado": false,
             "nombre-corto": "Isis E. Diez",
             "nacimiento": null,
             "nombre": "Isis Evangelina Diez Duardo",
@@ -1455,6 +1469,7 @@
             "id": 121
         },
         "122": {
+            "diputado": false,
             "nombre-corto": "Kirenia Díaz",
             "nacimiento": null,
             "nombre": "Kirenia Díaz Burque",
@@ -1473,6 +1488,7 @@
             "id": 122
         },
         "123": {
+            "diputado": true,
             "nombre-corto": "Susely Morfa",
             "nacimiento": 1982,
             "nombre": "Susely Morfa González",
@@ -1493,6 +1509,7 @@
             "id": 123
         },
         "124": {
+            "diputado": false,
             "nombre-corto": "José Arañaburo",
             "nacimiento": null,
             "nombre": "José Arañaburo García",
@@ -1511,6 +1528,7 @@
             "id": 124
         },
         "125": {
+            "diputado": false,
             "nombre-corto": "Luis Méndez",
             "nacimiento": null,
             "nombre": "Luis Méndez Morejón",
@@ -1529,6 +1547,7 @@
             "id": 125
         },
         "126": {
+            "diputado": false,
             "nombre-corto": "Ernesto Suárez",
             "nacimiento": null,
             "nombre": "Ernesto Suárez Méndez",
@@ -1547,6 +1566,7 @@
             "id": 126
         },
         "128": {
+            "diputado": false,
             "nombre-corto": "Zoila Benítez",
             "nacimiento": null,
             "nombre": "Zoila Benítez de Mendoza",
@@ -1567,6 +1587,7 @@
             "id": 128
         },
         "129": {
+            "diputado": false,
             "nombre-corto": "Ricardo Alarcón",
             "nacimiento": 1937,
             "nombre": "Ricardo Alarcón de Quesada",
@@ -1606,6 +1627,7 @@
             "id": 129
         },
         "118": {
+            "diputado": true,
             "nombre-corto": "Yuniasky Crespo",
             "nacimiento": 1978,
             "nombre": "Yuniasky Crespo Baquero",
@@ -1626,6 +1648,7 @@
             "id": 118
         },
         "59": {
+            "diputado": false,
             "nombre-corto": "Carlos Dotres",
             "nacimiento": null,
             "nombre": "Carlos P. Dotres Martínez",
@@ -1655,6 +1678,7 @@
             "id": 59
         },
         "58": {
+            "diputado": false,
             "nombre-corto": "Concepción Campa",
             "nacimiento": 1951,
             "nombre": "Concepción Campa Huergo",
@@ -1685,6 +1709,7 @@
             "id": 58
         },
         "55": {
+            "diputado": false,
             "nombre-corto": "Rosa E. Simeón",
             "nacimiento": 1945,
             "nombre": "Rosa Elena Simeón Negrín",
@@ -1725,6 +1750,7 @@
             "id": 55
         },
         "54": {
+            "diputado": false,
             "nombre-corto": "Pedro Ross",
             "nacimiento": null,
             "nombre": "Pedro Ross Leal",
@@ -1762,6 +1788,7 @@
             "id": 54
         },
         "57": {
+            "diputado": false,
             "nombre-corto": "Sixto Batista",
             "nacimiento": 1932,
             "nombre": "Sixto Batista Santana",
@@ -1792,6 +1819,7 @@
             "id": 57
         },
         "56": {
+            "diputado": false,
             "nombre-corto": "Hipólito Abril",
             "nacimiento": null,
             "nombre": "Hipólito Abril Santos",
@@ -1810,6 +1838,7 @@
             "id": 56
         },
         "51": {
+            "diputado": false,
             "nombre-corto": "Juan Escalona",
             "nacimiento": 1931,
             "nombre": "Juan Escalona Reguera",
@@ -1843,6 +1872,7 @@
             "id": 51
         },
         "50": {
+            "diputado": false,
             "nombre-corto": "Enith Alerm",
             "nacimiento": null,
             "nombre": "Enith Alerm Prieto",
@@ -1861,6 +1891,7 @@
             "id": 50
         },
         "53": {
+            "diputado": false,
             "nombre-corto": "Marcos Portal",
             "nacimiento": null,
             "nombre": "Marcos Javier Portal León",
@@ -1901,6 +1932,7 @@
             "id": 53
         },
         "52": {
+            "diputado": false,
             "nombre-corto": "Felipe Pérez Roque",
             "nacimiento": 1965,
             "nombre": "Felipe Ramón Pérez Roque",
@@ -1933,6 +1965,7 @@
             "id": 52
         },
         "115": {
+            "diputado": true,
             "nombre-corto": "Ileana A. Flores",
             "nacimiento": 1967,
             "nombre": "Ileana Amparo Flores Morales",
@@ -1951,6 +1984,7 @@
             "id": 115
         },
         "114": {
+            "diputado": true,
             "nombre-corto": "Rafael R. Santiesteban",
             "nacimiento": 1970,
             "nombre": "Rafael Ramón Santiesteban Pozo",
@@ -1971,6 +2005,7 @@
             "id": 114
         },
         "88": {
+            "diputado": false,
             "nombre-corto": "Regla D. Armenteros",
             "nacimiento": null,
             "nombre": "Regla Dayamí Armenteros Mesa",
@@ -1989,6 +2024,7 @@
             "id": 88
         },
         "89": {
+            "diputado": true,
             "nombre-corto": "Leopoldo Cinta",
             "nacimiento": 1941,
             "nombre": "Leopoldo Cintra Frías",
@@ -2031,6 +2067,7 @@
             "id": 89
         },
         "111": {
+            "diputado": true,
             "nombre-corto": "Carlos R. Miranda",
             "nacimiento": 1965,
             "nombre": "Carlos Rafael Miranda Martínez",
@@ -2051,6 +2088,7 @@
             "id": 111
         },
         "110": {
+            "diputado": true,
             "nombre-corto": "Miguel Barnet",
             "nacimiento": 1940,
             "nombre": "Miguel Ángel Barnet Lanza",
@@ -2071,6 +2109,7 @@
             "id": 110
         },
         "113": {
+            "diputado": true,
             "nombre-corto": "Ulises Guilarte",
             "nacimiento": 1964,
             "nombre": "Ulises Guilarte de Nacimiento",
@@ -2097,6 +2136,7 @@
             "id": 113
         },
         "112": {
+            "diputado": true,
             "nombre-corto": "Liz B. Rosabal",
             "nacimiento": 1971,
             "nombre": "Liz Belkys Rosabal Ponce",
@@ -2117,6 +2157,7 @@
             "id": 112
         },
         "82": {
+            "diputado": false,
             "nombre-corto": "Luis S. Herrera",
             "nacimiento": null,
             "nombre": "Luis Saturnino Herrera Martínez",
@@ -2135,6 +2176,7 @@
             "id": 82
         },
         "83": {
+            "diputado": false,
             "nombre-corto": "Christian Jiménez",
             "nacimiento": null,
             "nombre": "Julio Christian Jiménez Molina",
@@ -2161,6 +2203,7 @@
             "id": 83
         },
         "80": {
+            "diputado": false,
             "nombre-corto": "R. Ignacio Glez Planas",
             "nacimiento": null,
             "nombre": "Roberto Ignacio González Planas",
@@ -2191,6 +2234,7 @@
             "id": 80
         },
         "81": {
+            "diputado": false,
             "nombre-corto": "Martha Hernández",
             "nacimiento": null,
             "nombre": "Martha Hernández Romero",
@@ -2209,6 +2253,7 @@
             "id": 81
         },
         "86": {
+            "diputado": false,
             "nombre-corto": "Francisco Soberón",
             "nacimiento": null,
             "nombre": "Francisco Soberón Valdés",
@@ -2239,6 +2284,7 @@
             "id": 86
         },
         "87": {
+            "diputado": false,
             "nombre-corto": "Surina Acosta",
             "nacimiento": null,
             "nombre": "Surina Acosta Brook",
@@ -2257,6 +2303,7 @@
             "id": 87
         },
         "84": {
+            "diputado": false,
             "nombre-corto": "Nidia D. Martínez",
             "nacimiento": null,
             "nombre": "Nidia Diana Martínez Pití",
@@ -2275,6 +2322,7 @@
             "id": 84
         },
         "85": {
+            "diputado": false,
             "nombre-corto": "Pedro Sáez Montejo",
             "nacimiento": null,
             "nombre": "Pedro Sáez Montejo",
@@ -2310,6 +2358,7 @@
             "id": 85
         },
         "3": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Juan Almeida Bosque",
             "id": 3,
@@ -2349,6 +2398,7 @@
             "nacimiento": 1927
         },
         "7": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Carlos Rafael Rodríguez Rodríguez",
             "id": 7,
@@ -2388,6 +2438,7 @@
             "nacimiento": 1913
         },
         "108": {
+            "diputado": true,
             "nombre-corto": "Martha del C. Mesa",
             "nacimiento": 1961,
             "nombre": "Martha del Carmen Mesa Valenciano",
@@ -2406,6 +2457,7 @@
             "id": 108
         },
         "109": {
+            "diputado": true,
             "nombre-corto": "Miriam Nicado",
             "nacimiento": 1960,
             "nombre": "Miriam Nicado García",
@@ -2424,6 +2476,7 @@
             "id": 109
         },
         "102": {
+            "diputado": true,
             "nombre-corto": "Marino Murillo",
             "nacimiento": 1961,
             "nombre": "Marino Alberto Murillo Jorge",
@@ -2451,6 +2504,7 @@
             "id": 102
         },
         "103": {
+            "diputado": true,
             "nombre-corto": "Adel Yzquierdo",
             "nacimiento": 1945,
             "nombre": "Adel Onofre Yzquierdo Rodríguez",
@@ -2476,6 +2530,7 @@
             "id": 103
         },
         "100": {
+            "diputado": true,
             "nombre-corto": "Mercedes López",
             "nacimiento": 1964,
             "nombre": "Lázara Mercedes López Acea",
@@ -2507,6 +2562,7 @@
             "id": 100
         },
         "101": {
+            "diputado": true,
             "nombre-corto": "Homero Acosta",
             "nacimiento": null,
             "nombre": "Homero Acosta Álvarez",
@@ -2525,6 +2581,7 @@
             "id": 101
         },
         "106": {
+            "diputado": true,
             "nombre-corto": "Yaramis Armenteros",
             "nacimiento": 1975,
             "nombre": "Yaramis Armenteros Medina",
@@ -2543,6 +2600,7 @@
             "id": 106
         },
         "107": {
+            "diputado": true,
             "nombre-corto": "Lester A. Alemán",
             "nacimiento": 1978,
             "nombre": "Lester Alain Alemán Hurtado",
@@ -2561,6 +2619,7 @@
             "id": 107
         },
         "104": {
+            "diputado": true,
             "nombre-corto": "Jennifer Bello",
             "nacimiento": 1992,
             "nombre": "Jennifer Bello Martínez",
@@ -2581,6 +2640,7 @@
             "id": 104
         },
         "105": {
+            "diputado": true,
             "nombre-corto": "Bruno Rodríguez",
             "nacimiento": 1958,
             "nombre": "Bruno Eduardo Rodríguez Parrilla",
@@ -2612,6 +2672,7 @@
             "id": 105
         },
         "39": {
+            "diputado": false,
             "nombre-corto": "Mercedes Díaz",
             "nacimiento": null,
             "nombre": "Mercedes Díaz Herrera",
@@ -2630,6 +2691,7 @@
             "id": 39
         },
         "38": {
+            "diputado": false,
             "nombre-corto": "Pedro M. Chávez",
             "nacimiento": null,
             "nombre": "Pedro M. Chávez González",
@@ -2654,6 +2716,7 @@
             "id": 38
         },
         "33": {
+            "diputado": false,
             "nombre-corto": "Armando Acosta",
             "nacimiento": 1920,
             "nombre": "Armando Acosta Cordero",
@@ -2678,6 +2741,7 @@
             "id": 33
         },
         "32": {
+            "diputado": false,
             "nombre-corto": "José M. Miyar",
             "nacimiento": 1932,
             "nombre": "José Miguel Miyar Barrueco",
@@ -2708,6 +2772,7 @@
             "id": 32
         },
         "31": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Abelardo Colomé Ibarra",
             "id": 31,
@@ -2763,6 +2828,7 @@
             "nacimiento": 1939
         },
         "30": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Senén Casas Regueiro",
             "id": 30,
@@ -2792,6 +2858,7 @@
             "nacimiento": 1934
         },
         "37": {
+            "diputado": true,
             "nombre-corto": "José R. Balaguer",
             "nacimiento": 1932,
             "nombre": "José Ramón Balaguer Cabrera",
@@ -2838,6 +2905,7 @@
             "id": 37
         },
         "36": {
+            "diputado": false,
             "nombre-corto": "Braulio Maza",
             "nacimiento": null,
             "nombre": "Braulio Maza Oliva",
@@ -2858,6 +2926,7 @@
             "id": 36
         },
         "35": {
+            "diputado": false,
             "nombre-corto": "Raúl Roa",
             "nacimiento": 1907,
             "nombre": "Raúl Roa García",
@@ -2883,6 +2952,7 @@
             "id": 35
         },
         "34": {
+            "diputado": true,
             "nombre-corto": "José R. Fernández",
             "nacimiento": 1923,
             "nombre": "José Ramón Fernández Álvarez",
@@ -2930,6 +3000,7 @@
             "id": 34
         },
         "60": {
+            "diputado": false,
             "nombre-corto": "Eslinda Orozco",
             "nacimiento": null,
             "nombre": "Eslinda G. Orozco Moreno",
@@ -2948,6 +3019,7 @@
             "id": 60
         },
         "61": {
+            "diputado": true,
             "nombre-corto": "Abel Prieto",
             "nacimiento": 1950,
             "nombre": "Abel Prieto Jiménez",
@@ -2987,6 +3059,7 @@
             "id": 61
         },
         "62": {
+            "diputado": true,
             "nombre-corto": "Ulises Rosales",
             "nacimiento": 1942,
             "nombre": "Ulises Rosales del Toro",
@@ -3036,6 +3109,7 @@
             "id": 62
         },
         "63": {
+            "diputado": false,
             "nombre-corto": "Nelson Torres",
             "nacimiento": null,
             "nombre": "Nelson Torres Pérez",
@@ -3068,6 +3142,7 @@
             "id": 63
         },
         "64": {
+            "diputado": false,
             "nombre-corto": "María Caridad Abreus",
             "nacimiento": null,
             "nombre": "María Caridad Abreus Ruíz",
@@ -3086,6 +3161,7 @@
             "id": 64
         },
         "65": {
+            "diputado": false,
             "nombre-corto": "Marcos R. Aguilera",
             "nacimiento": null,
             "nombre": "Marcos Raúl Aguilera Guetón",
@@ -3104,6 +3180,7 @@
             "id": 65
         },
         "66": {
+            "diputado": false,
             "nombre-corto": "Julio Casas",
             "nacimiento": 1936,
             "nombre": "Julio Casas Regueiro",
@@ -3144,6 +3221,7 @@
             "id": 66
         },
         "67": {
+            "diputado": false,
             "nombre-corto": "Juan Contino",
             "nacimiento": null,
             "nombre": "Juan Contino Aslán",
@@ -3173,6 +3251,7 @@
             "id": 67
         },
         "68": {
+            "diputado": false,
             "nombre-corto": "Sergio Corrieri",
             "nacimiento": 1939,
             "nombre": "Sergio Corrieri Hernández",
@@ -3201,6 +3280,7 @@
             "id": 68
         },
         "69": {
+            "diputado": false,
             "nombre-corto": "Roberto Díaz",
             "nacimiento": null,
             "nombre": "Roberto Tomás Díaz Sotolongo",
@@ -3231,6 +3311,7 @@
             "id": 69
         },
         "2": {
+            "diputado": true,
             "sexo": "m",
             "nombre": "Raúl Castro Ruz",
             "id": 2,
@@ -3312,6 +3393,7 @@
             "nacimiento": 1931
         },
         "6": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Blas Roca Calderío",
             "id": 6,
@@ -3340,6 +3422,7 @@
             "nacimiento": 1908
         },
         "99": {
+            "diputado": true,
             "nombre-corto": "Gladys Bejerano",
             "nacimiento": 1947,
             "nombre": "Gladys Bejerano Portela",
@@ -3364,6 +3447,7 @@
             "id": 99
         },
         "98": {
+            "diputado": true,
             "nombre-corto": "Miguel Díaz-Canel",
             "nacimiento": 1960,
             "nombre": "Miguel Mario Díaz-Canel Bermúdez",
@@ -3407,6 +3491,7 @@
             "id": 98
         },
         "91": {
+            "diputado": true,
             "nombre-corto": "María del C. Concepción",
             "nacimiento": 1958,
             "nombre": "María del Carmen Concepción González",
@@ -3440,6 +3525,7 @@
             "id": 91
         },
         "90": {
+            "diputado": true,
             "nombre-corto": "Inés M. Chapman",
             "nacimiento": 1966,
             "nombre": "Inés María Chapman Waugh",
@@ -3463,6 +3549,7 @@
             "id": 90
         },
         "93": {
+            "diputado": true,
             "nombre-corto": "Tania León",
             "nacimiento": 1965,
             "nombre": "Tania León Silveira",
@@ -3483,6 +3570,7 @@
             "id": 93
         },
         "92": {
+            "diputado": true,
             "nombre-corto": "María Y. Ferrer",
             "nacimiento": 1941,
             "nombre": "María Yolanda Ferrer Gómez",
@@ -3510,7 +3598,8 @@
             "id": 92
         },
         "95": {
-            "nombre-corto": "Julio Mtnez",
+            "diputado": false,
+            "nombre-corto": "Julio Martínez",
             "nacimiento": 1968,
             "nombre": "Julio Martínez Ramírez",
             "cargos": {
@@ -3535,6 +3624,7 @@
             "id": 95
         },
         "94": {
+            "diputado": true,
             "nombre-corto": "Álvaro López Miera",
             "nacimiento": 1943,
             "nombre": "Álvaro López Miera",
@@ -3566,6 +3656,7 @@
             "id": 94
         },
         "97": {
+            "diputado": false,
             "nombre-corto": "Juan J. Rabilero",
             "nacimiento": null,
             "nombre": "Juan José Rabilero Fonseca",
@@ -3588,6 +3679,7 @@
             "id": 97
         },
         "96": {
+            "diputado": false,
             "nombre-corto": "Dignora Montano",
             "nacimiento": null,
             "nombre": "Dignora Montano Perdomo",
@@ -3606,6 +3698,7 @@
             "id": 96
         },
         "11": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Armando Hart Dávalos",
             "id": 11,
@@ -3657,6 +3750,7 @@
             "nacimiento": 1930
         },
         "10": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Osvaldo Dorticós Torrado",
             "id": 10,
@@ -3687,6 +3781,7 @@
             "nacimiento": 1919
         },
         "13": {
+            "diputado": true,
             "sexo": "m",
             "nombre": "José Ramón Machado Ventura",
             "id": 13,
@@ -3737,6 +3832,7 @@
             "nacimiento": 1930
         },
         "12": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Sergio del Valle Jiménez",
             "id": 12,
@@ -3774,6 +3870,7 @@
             "nacimiento": 1927
         },
         "15": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Diocles Torralbas González",
             "id": 15,
@@ -3810,6 +3907,7 @@
             "nacimiento": null
         },
         "14": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Arnaldo Milián Castro",
             "id": 14,
@@ -3838,6 +3936,7 @@
             "nacimiento": 1913
         },
         "17": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Flavio Bravo Pardo",
             "id": 17,
@@ -3866,6 +3965,7 @@
             "nacimiento": 1921
         },
         "16": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Belarmino Castilla Mas",
             "id": 16,
@@ -3888,6 +3988,7 @@
             "nacimiento": 1934
         },
         "19": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Luis Orlando Domínguez Muñiz",
             "id": 19,
@@ -3917,6 +4018,7 @@
             "nacimiento": null
         },
         "18": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Joel Domenech Benítez",
             "id": 18,
@@ -3947,6 +4049,7 @@
             "nacimiento": null
         },
         "117": {
+            "diputado": true,
             "nombre-corto": "Teresa M. Amarelle",
             "nacimiento": 1964,
             "nombre": "Teresa María Amarelle Boué",
@@ -3968,6 +4071,7 @@
             "id": 117
         },
         "116": {
+            "diputado": true,
             "nombre-corto": "Miladys Orraca",
             "nacimiento": 1966,
             "nombre": "Miladys Orraca Castillo",
@@ -3988,6 +4092,7 @@
             "id": 116
         },
         "48": {
+            "diputado": true,
             "nombre-corto": "Esteban Lazo",
             "nacimiento": 1944,
             "nombre": "Esteban Lazo Hernández",
@@ -4038,6 +4143,7 @@
             "id": 48
         },
         "49": {
+            "diputado": false,
             "nombre-corto": "Luis G. Abreu",
             "nacimiento": null,
             "nombre": "Luis G. Abreu Mejías",
@@ -4056,6 +4162,7 @@
             "id": 49
         },
         "46": {
+            "diputado": false,
             "nombre-corto": "Lázaro Trensillo",
             "nacimiento": null,
             "nombre": "Lázaro Trensillo Fis",
@@ -4074,6 +4181,7 @@
             "id": 46
         },
         "47": {
+            "diputado": false,
             "nombre-corto": "Félix Villar",
             "nacimiento": null,
             "nombre": "Félix Villar Bencomo",
@@ -4092,6 +4200,7 @@
             "id": 47
         },
         "44": {
+            "diputado": false,
             "nombre-corto": "Zeida Suárez",
             "nacimiento": null,
             "nombre": "Zeida Suárez Premier",
@@ -4110,6 +4219,7 @@
             "id": 44
         },
         "45": {
+            "diputado": false,
             "nombre-corto": "Lidia M. Tablada",
             "nacimiento": null,
             "nombre": "Lidia M. Tablada Romero",
@@ -4130,7 +4240,8 @@
             "id": 45
         },
         "42": {
-            "nombre-corto": "Roberto Robainas",
+            "diputado": false,
+            "nombre-corto": "Roberto Robaina",
             "nacimiento": null,
             "nombre": "Roberto Robaina González",
             "cargos": {
@@ -4162,6 +4273,7 @@
             "id": 42
         },
         "43": {
+            "diputado": false,
             "nombre-corto": "Pedro Sáez Jova",
             "nacimiento": null,
             "nombre": "Pedro Canisio Sáez Jova",
@@ -4180,6 +4292,7 @@
             "id": 43
         },
         "40": {
+            "diputado": false,
             "nombre-corto": "Carlos Lage",
             "nacimiento": 1951,
             "nombre": "Carlos Aurelio Lage Dávila",
@@ -4223,6 +4336,7 @@
             "id": 40
         },
         "41": {
+            "diputado": false,
             "nombre-corto": "Orlando Lugo",
             "nacimiento": 1935,
             "nombre": "Orlando Lugo Fonte",
@@ -4260,6 +4374,7 @@
             "id": 41
         },
         "1": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Fidel Castro Ruz",
             "id": 1,
@@ -4323,6 +4438,7 @@
             "nacimiento": 1926
         },
         "5": {
+            "diputado": true,
             "sexo": "m",
             "nombre": "Guillermo García Frías",
             "id": 5,
@@ -4357,6 +4473,7 @@
             "nacimiento": 1928
         },
         "9": {
+            "diputado": false,
             "sexo": "m",
             "nombre": "Pedro Miret Prieto",
             "id": 9,
@@ -4404,6 +4521,7 @@
             "nacimiento": 1927
         },
         "77": {
+            "diputado": false,
             "nombre-corto": "Carlos M. Valenciaga",
             "nacimiento": null,
             "nombre": "Carlos Manuel Valenciaga Díaz",
@@ -4424,6 +4542,7 @@
             "id": 77
         },
         "76": {
+            "diputado": true,
             "nombre-corto": "Salvador Valdés",
             "nacimiento": 1950,
             "nombre": "Salvador Antonio Valdés Mesa",
@@ -4460,6 +4579,7 @@
             "id": 76
         },
         "75": {
+            "diputado": false,
             "nombre-corto": "José L. Rdguez",
             "nacimiento": 1946,
             "nombre": "José Luis Rodríguez García",
@@ -4498,6 +4618,7 @@
             "id": 75
         },
         "74": {
+            "diputado": false,
             "nombre-corto": "Otto Rivero",
             "nacimiento": null,
             "nombre": "Otto Rivero Torres",
@@ -4526,6 +4647,7 @@
             "id": 74
         },
         "73": {
+            "diputado": false,
             "nombre-corto": "Regla Martínez",
             "nacimiento": null,
             "nombre": "Regla Martínez Herrera",
@@ -4544,6 +4666,7 @@
             "id": 73
         },
         "72": {
+            "diputado": false,
             "nombre-corto": "Conrado Mtnez Corona",
             "nacimiento": 1949,
             "nombre": "Conrado César Martínez Corona",
@@ -4576,6 +4699,7 @@
             "id": 72
         },
         "71": {
+            "diputado": false,
             "nombre-corto": "Roberto Fdez Retamar",
             "nacimiento": 1930,
             "nombre": "Roberto Fernández Retamar",
@@ -4594,6 +4718,7 @@
             "id": 71
         },
         "70": {
+            "diputado": true,
             "nombre-corto": "Caridad Diego Bello",
             "nacimiento": null,
             "nombre": "Caridad del Rosario Diego Bello",
@@ -4622,7 +4747,8 @@
             "id": 70
         },
         "79": {
-            "nombre-corto": "María Ferrer",
+            "diputado": false,
+            "nombre-corto": "María T. Ferrer",
             "nacimiento": null,
             "nombre": "María Teresa Ferrer Madrazo",
             "cargos": {
@@ -4640,6 +4766,7 @@
             "id": 79
         },
         "78": {
+            "diputado": true,
             "nombre-corto": "Iris Betancourt",
             "nacimiento": null,
             "nombre": "Iris Betancourt Téllez",
