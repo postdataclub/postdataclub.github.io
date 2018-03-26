@@ -577,13 +577,26 @@ init();
     function set_most_cs_table(data,m,cant,bid){
         for(var i=0;i<cant;i++){
             var text='<tr>';
+            var t1='';
+            var t2='';
+            var t3='';
+
             var m1 = data['personas'][m[i][0]];
             var c1 = m[i][1];
+            if (m1['diputado']){
+                t1 = ' dip ';
+            }
             var m2 = data['personas'][m[i+cant][0]];
             var c2 = m[i+cant][1];
+            if (m2['diputado']){
+                t2 = ' dip ';
+            }
             var m3 = data['personas'][m[i+2*cant][0]];
             var c3 = m[i+2*cant][1];
-            text = text + '<td>'+m1['nombre-corto']+'</td><td class="total">'+c1+'</td><td class="hidden-sm hidden-xs">'+m2['nombre-corto']+'</td><td class="hidden-sm hidden-xs total">'+c2+'</td><td class="hidden-sm hidden-xs">'+m3['nombre-corto']+'</td><td class="hidden-sm hidden-xs total">'+c3+'</td>';
+            if (m3['diputado']){
+                t3 = ' dip ';
+            }
+            text = text + '<td class="'+t1+'">'+m1['nombre-corto']+'</td><td class="total">'+c1+'</td><td class="hidden-sm hidden-xs'+t2+'">'+m2['nombre-corto']+'</td><td class="hidden-sm hidden-xs total">'+c2+'</td><td class="hidden-sm hidden-xs'+t3+'">'+m3['nombre-corto']+'</td><td class="hidden-sm hidden-xs total">'+c3+'</td>';
             text = text+'</tr>';
             $('#'+bid).append(text);
         }

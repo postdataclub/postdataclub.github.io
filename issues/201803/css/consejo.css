@@ -261,6 +261,95 @@ body {
 .step p {
     width: 100%;
 }
+
+
+
+
+
+#members {
+    margin-top:1px;
+}
+#vps {
+    margin-top:1px;
+}
+#legend {
+    margin-top: -5px;
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+#legend>div>img  {
+    width: 15px;
+}
+
+#bosses>div,  #vps>div,  #members>div, #legend>div  {
+    display: inline-block;
+    margin-left: 0px;
+    padding-top:0px;
+}
+
+#vps>div,  #members>div  {
+    vertical-align: top;
+}
+
+#vps {
+    margin-top: 0px;
+}
+
+#m1m-name, #m2m-name, #m8m-name {
+    font-size: 10px;
+}
+
+.charge {
+    font-size: 10px;
+}
+
+
+#m1m-image>img {
+    width: 30px;
+}
+
+#m2m-image>img {
+    width: 30px;
+}
+
+#m8m-image>img {
+    width: 30px;
+}
+
+.m-image>img {
+    width: 30px;
+}
+
+.vpre-image>img {
+    width: 30px;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.ce-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.normal-border {
+    padding: 1px;
+    border: 2px solid #A7A7A7;
+}
+
+.new-border {
+    padding: 1px;
+    border: 2px solid red;
+}
+
+.change-border {
+    padding: 1px;
+    border: 2px solid blue;
+}
+
 }
 
 @media (min-width:900px){
@@ -300,5 +389,14 @@ body {
     margin-top:10px;
 }
 .total {
+    text-align: center;
+}
+
+.dip {
+    color: #461A57;
+    font-weight: bold;
+}
+
+.smallnote {
     text-align: center;
 }
