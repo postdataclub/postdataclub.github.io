@@ -629,6 +629,7 @@ init();
             label: 'Total de Diputados',
             position: 'outer-middle',
           }
+          
         }, 
         bar: {
           width: {
@@ -714,6 +715,7 @@ init();
           type: 'line',
         },
         axis: {
+          max: {y: 32},
           x: {
             type: 'categorized',
             label: 'ANPP'
@@ -723,7 +725,10 @@ init();
             position: 'outer-middle',
           }
         }
-      }); 
+      });
+      if (bid=='line2-anpp'){
+        chart.axis.range({max:{y:9},min:{y:2}});
+      }
     }
     
     function set_pie(data,all) {
@@ -888,7 +893,7 @@ init();
         set_evolution_charges(data,'line2-anpp',b[1],mapping);
         set_pie(data,t[0]);
         set_area_step(data);
-        console.log(set_renovation_cs(data));
+        set_renovation_cs(data);
     }
     set_graphics(data);
 });
