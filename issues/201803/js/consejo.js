@@ -615,8 +615,8 @@ init();
             bosses,
           ],
           colors: {
-                'Membresías al CS': '#B1B1B1',
-                'Dirección del CS': '#298CEE',
+                'Membresías al CE': '#B1B1B1',
+                'Dirección del CE': '#298CEE',
             },
           type: 'bar',
         },
