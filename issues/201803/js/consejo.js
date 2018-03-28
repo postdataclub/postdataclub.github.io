@@ -636,6 +636,9 @@ init();
             ratio: 0.9,
             max: 100
           },
+        },
+        padding: {
+            bottom: 30
         }
       }); 
       
@@ -724,6 +727,9 @@ init();
             label: 'Total de Diputados',
             position: 'outer-middle',
           }
+        },
+        padding: {
+            bottom: 30
         }
       });
       if (bid=='line2-anpp'){
@@ -817,6 +823,9 @@ init();
           y: {
             lines: [{'value':15.5,'text':'' }]
           }
+        },
+        padding: {
+            bottom: 30
         }
         
       }); 
@@ -874,6 +883,9 @@ init();
                 
             }
         },
+        padding: {
+            bottom: 30
+        }
       });
     }
     
