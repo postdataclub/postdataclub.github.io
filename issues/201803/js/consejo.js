@@ -603,8 +603,8 @@ init();
     }
     
     function set_membership_histogram() { 
-        var members = ['Membresías al CS',54,41,12,4,4,6,1,3];
-        var bosses = ['Dirección del CS',7,4,1,4,0,3,1,1];
+        var members = ['Membresías al CE',54,41,12,4,4,6,1,3];
+        var bosses = ['Dirección del CE',7,4,1,4,0,3,1,1];
         var chart = c3.generate({
         bindto: '#histograma',
         data: {
