@@ -1,0 +1,183 @@
+body {
+    font-size: 18px;
+}
+.cover {
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.main-title {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(100,100,100,0.7);
+}
+
+/*Chatbot elems*/
+
+#demo {
+    /*background-color: #ffffff;*/
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #F8F8F8;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #999;
+    line-height: 1.4em;
+}
+#demo input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 400px;
+}
+.button {
+    display: inline-block;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+}
+#chatBotCommandDescription {
+    display: none;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.commandDescription {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+input:focus {
+    outline: none;
+}
+.chatBotChatEntry {
+    display: none;
+}
+
+.chat-inputs{
+    margin-top:20px;
+    padding-left: 20px;
+}
+
+/*Close Chatbot elems*/
+
+
+@media (max-width:900px){
+body {
+    font-size: 16px;
+}
+
+.other-news, #demo {
+    width: 96%;
+    margin-left:1%;
+}
+
+#demo input {
+    width: 320px;
+}
+
+.button {
+    margin-top: 4px;
+    margin-left: 3px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 11px;
+    float: left;
+}
+
+
+.main-title {
+    top: 30%;
+    left: 20%;
+    transform: translate(-12.5%,0%);
+    padding: 3px;
+}
+.first-title {
+ font-size: 28px;
+ font-weight: bold;
+ padding: 3px;
+}
+
+.second-title {
+ font-size: 22px;
+ padding: 3px;
+}
+.me-art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+}
+
+@media (min-width:900px){
+.main-title {
+    top: 10%;
+    left: 30%;
+    transform: translate(-20%,30%);
+    padding: 5px;
+}
+.first-title {
+ font-size: 60px;
+ font-weight: bold;
+ padding: 5px;
+}
+
+.second-title {
+ font-size: 40px;
+ padding: 5px;
+}
+.me-art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+}
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+.check {
+    background-color: #461A57;     
+    color: #FFFFFF;
+}
+
+
+.smallnote {
+    text-align: center;
+}
+
+#bio {
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-size: 8px;
+}
+
+#bio-name {
+    font-size: 18px;
+}
+
+#bio-hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid rgb(155,20,42);
+}
+
+#info-hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid rgb(155,20,42);
+    opacity: 0.5;
+}
+
+.name-bot-item{
+    margin-left: 20px;
+}
