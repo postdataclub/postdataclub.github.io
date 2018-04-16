@@ -7012,7 +7012,9 @@
             {
                 "edad": 74,
                 "nivel": "Superior",
-                "pcc": [],
+                "pcc": [
+                    "cc"
+                ],
                 "cm": [
                     "miembro",
                     "ministro"
