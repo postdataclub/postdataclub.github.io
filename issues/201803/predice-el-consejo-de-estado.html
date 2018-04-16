@@ -189,14 +189,14 @@
     de pertenecer al Consejo de Estado (CE) de cada diputado. 
     </p>
     <p>
-    En la creación del chatbot se utilizó la bilioteca de javascript <a href='http://rawgit.com/ddsky/chatbot'>Chatbot</a>. Para Amanda, como chatbot, 
+    En la creación del chatbot se utilizó la biblioteca de javascript <a href='http://rawgit.com/ddsky/chatbot'>Chatbot</a>. Para Amanda, como chatbot, 
     sus interacciones fueron definidas con expresiones regulares. Así, para cada patrón se redactaron un conjunto de posibles respuestas de las cuales
-    se escogía la respuesta que daría Amanda. Algunas de estas respuestas requería de información específica para cada diputado, estas se obtuvieron
+    se escogía la respuesta que daría Amanda. Algunas de estas respuestas requerían de información específica para cada diputado, estas se obtuvieron
     de una base de datos creada para artículos previos que tocaban el tema de las elecciones. En el caso de las probabilidades en las que se basa la prediccón,
-    se tomaron de un modelo que se creo explícitamente para el uso de Amanda.
+    se tomaron de un modelo que se creó explícitamente para el uso de Amanda.
     </p>
     <p>
-    La búsqueda de los datos de los diputados según su nombre se realizó utilizando la biblioteca de javascript <a href="http://fusejs.io">Fuse</a> que
+    La búsqueda de los datos de los diputados según su nombre se realizó utilizando la biblioteca de javascript <a href="http://fusejs.io">Fuse</a>, que
     permite hacer búsquedas difusas en un arreglo a partir de cadenas de texto.
     </p>
     <p>
@@ -206,32 +206,32 @@
     había pertenecido al CE se podían disponer de varios datos que podrían ser utilizados en la construcción de un clasificador. 
     </p>
     <p>
-    En total, se dispuso
-    de 22 características diferentes: el identificador de la persona, si perteneció al CE anterior y a cuantos consejos había pertenecido, el sexo de la persona,
-    si pertenecía al buró político, al comité central o al secretariado del PCC, si era el máximo dirigente de la UJC, CDR, CTC, ANAP o FMC, si era secretario
-    provincial del PCC y de qué provincia lo era, si era miembro del Consejo de Ministros (CM), si era ministro, si era directivo del CM y que ministerio tenía a
-    su cargo, si había estado en la dirección del CE anterior, que cargo tenía y cuantas veces había integrado direcciones del CE, y, finalmente, si formó parte
+    En total, dispusimos
+    de 22 características diferentes: el identificador de la persona, si perteneció al CE anterior y a cuántos consejos había pertenecido, el sexo de la persona,
+    si pertenecía al Buró Político, al Comité Central o al Secretariado del PCC, si era el máximo dirigente de la UJC, CDR, CTC, ANAP o FMC, si era secretario
+    provincial del PCC y de qué provincia lo era, si era miembro del Consejo de Ministros (CM), si era ministro, si era directivo del CM y qué ministerio tenía a
+    su cargo, si había estado en la dirección del CE anterior, qué cargo tenía y cuántas veces había integrado direcciones del CE, y, finalmente, si formó parte
     de la dirección de la Asamblea Nacional anterior. 
     </p>
     <p>
-    Con estas características, para poder construir el clasificador era necesario anotar, por cada Consejo elegido, un conjunto de diputados que no fue electo
-    al CE. Para esto era necesario identificar varios diputados de cada legisltura y luego buscar las informaciones para completar, por cada uno, las
-    22 características que se tenían de cada miembro del CE. Esta era una tarea ardua y propensa a errores. Así que se intentó otra alternativa.
+    Con estas características, y para poder construir el clasificador, fue necesario anotar, por cada Consejo elegido, un conjunto de diputados que no fue electo
+    al CE. Para esto fue necesario identificar varios diputados de cada legislatura y luego buscar las informaciones para completar, por cada uno, las
+    22 características que se tenían de cada miembro del CE. Esta fue una tarea ardua y propensa a errores, así que se intentó otra alternativa.
     </p>
     <p>
-    Como en el artículo <a href="consejo-de-estado.html">Consejo de Estado de Cuba</a> se pudo comprobar que habían varios elementos que parecían
+    Como en el artículo <a href="consejo-de-estado.html">Consejo de Estado de Cuba</a> se pudo comprobar que había varios elementos que parecían
     ser muy relevantes en la conformación de los CE, se tomaron estos elementos como base para definir dos conjuntos diferentes a partir de todas
     las personas que han integrado los Consejos. Uno de estos conjuntos tendría a los diputados que más se parecen a los parlamentarios que no resultan
     electos al CE y un segundo con los diputados que tienen características que los hicieron miembros más probables. Estos conjuntos 
     se utilizaron para entrenar el clasificador supervisado, el primero como clase negativa y el segundo como clase positiva.
     </p>
     <p>
-    En el conjunto de miembros más probables de pertenecer al CE se caracterizó por aquellos diputados que han pertenecido 3 veces o más al consejo de estado,
+    En el conjunto de miembros más probables de pertenecer al CE se caracterizó por aquellos diputados que han pertenecido 3 veces o más al Consejo de Estado,
     los máximos dirigentes de la UJC, CDR, CTC, ANAP y FMC, los ministros de las FAR y el MINREX, todos los que han pertenecido a las direcciones de los
     CE así como los Secretarios Provinciales del PCC en La Habana.
     </p>
     <p>
-    Para trabajar con los distintos algoritmos de aprendizaje de máquina se utilizó la biblioteca de clases <span class="it">sklearn</span> y el lenguaje de programación <span class="it">Python</span>. 
+    Para trabajar con los distintos algoritmos de aprendizaje de máquina se utilizó la biblioteca de clases <span class="it">Sklearn</span> y el lenguaje de programación <span class="it">Python</span>. 
     Como las características que se tienen de cada miembro del CE son mixtas, donde lo más común es que existan características binarias se utilizó una
     representación binaria de los vectores de características. En cada vector, los datos binarios fueron representados como tales. Para los elementos que
     representaban un identificador, se contabilizaron todos los posibles indicadores y se creó una lista binaria donde el índice que coincide con el identificador
@@ -252,12 +252,12 @@
     fue entrenado con la totalidad del conjunto de entrenamiento: los miembros de todos los CE cuya clase estará dada por la pertenencia o no al conjunto con más
     posibilidades de pertenecer al CE dada la historia. Luego de entrenado, ante la inexistencia de un conjunto de prueba, se clasificó nuevamente el total del conjunto y se obtuvo un
     porciento de clasificación de 66.54%. Igualmente, se clasificaron todos los CE desde la I hasta la VIII legislatura y los porcientos de clasificación
-    fueron 66.66%, 61.76%, 68.57%, 70.58%, 76.47%, 76.47%, 59.23% y 55.26% respectivamente. En todos los casos el valor fue superior al 55% que es un
-    valor de veracidad interesante si se tiene en cuenta que la probabilidad de, al azar, adivinar un consejo de estado es casi cero.
+    fueron 66.66%, 61.76%, 68.57%, 70.58%, 76.47%, 76.47%, 59.23% y 55.26% respectivamente. En todos los casos el resultado fue superior al 55% que es un
+    valor de veracidad interesante si se tiene en cuenta que la probabilidad de, al azar, adivinar un Consejo de Estado es casi cero.
     </p>
     <p>
     Siguiendo esta misma metodología, se creó un clasificador ensemble basado en votos (VotingClassifier), integrado por clasificadores del mismo tipo que
-    el anterior, para poder determinar la probabilidad de que un miembro del Consejo de Estado fuese parte de la dirección de este. Aquí la otención y definición
+    el anterior, para poder determinar la probabilidad de que un miembro del Consejo de Estado fuese parte de la dirección de este. Aquí la obtención y definición
     del conjunto de entrenamiento era más clara. Todos los miembros de un CE que hubieran formado parte de la dirección del mismo integrarían la clase
     positiva y el resto la negativa. En este caso, como en el anterior clasificador, si una persona pertenecía a varios CE tendría en el conjunto de
     entrenamiento tantas instancias como pertenencias a los Consejos hubiese tenido. En cada instancia estarían reflejadas las características relativas
@@ -290,7 +290,7 @@
         <p><span class="bd">Autores:</span> <br>
         <span class="auts"><a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/ernesto.html">Ernesto Guerra</a></span></p>
         <p><span class="bd">Foto:</span><br>
-        <span class="auts"><a href="../../equipo/ernesto.html">Ernesto Guerra</a></span></p>
+        <span class="auts">Tomada de <a href=http://www.arquitecturacuba.com/">Arquitectura Cuba</a></span></p>
     </div>
     <div class="col-lg-6 col-md-6">
         <p><span class="bd">Fecha de publicación:</span><br>
