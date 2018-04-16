@@ -1197,7 +1197,7 @@
                 "1981": [
                     "cc",
                     "m",
-                    "mgov"
+                    "mgob"
                 ],
                 "1976": [
                     "cdr",
@@ -2126,9 +2126,7 @@
                 ],
                 "2013": [
                     "ctc",
-                    "cc",
-                    "sppcc",
-                    "pcclab"
+                    "cc"
                 ]
             },
             "sexo": "m",
@@ -3436,10 +3434,11 @@
                 "2008": [
                     "cm",
                     "m",
-                    "mauc"
+                    "cont"
                 ],
                 "2013": [
-                    "cc"
+                    "cc",
+                    "cont"
                 ]
             },
             "sexo": "f",
@@ -3482,7 +3481,6 @@
                     "bp",
                     "cc",
                     "cm",
-                    "1vcm",
                     "vcm"
                 ]
             },
@@ -4720,7 +4718,7 @@
         "70": {
             "diputado": true,
             "nombre-corto": "Caridad Diego Bello",
-            "nacimiento": null,
+            "nacimiento": 1956,
             "nombre": "Caridad del Rosario Diego Bello",
             "cargos": {
                 "1986": [],
