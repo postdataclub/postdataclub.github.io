@@ -227,6 +227,7 @@ var config = {
     //engines: [ChatBot.Engines.duckduckgo()],
     engines: [],
     addChatEntryCallback: function(entryDiv, text, origin) {
+        $('#chatBotCommandDescription').hide();
         entryDiv.delay(100).slideDown();
     }
 };
@@ -507,7 +508,7 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:(?:cu[áa]l(?:es)?)[ ]+(?:es|son)[ ]+(?:la(
 },"Escribe 'Qué probabilidad tiene [nombre]' y Amanda te dirá su probabilidad, según ella cree, de pertenecer al CE");
 
 ChatBot.addPattern("(?:[\¿]?[ ]*)(?:Ra[uú]l[ ]+ser[áa][ ]+presidente|Ra[úu]l[ ]+ser[áa][ ]+miembro[ ]+del[ ]+(?:ce|consejo[ ]+de[ ]+estado|consejo))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
-    var texts = ['<span style="font-weight:bold">Raúl Castro</span> no será Presidente del Consejo de Estado. Lo anunció hace algún tiempo y lo reafirmó recientemente. Podría pertenecer al Consejo, pero no lo creo. Si decidiece que aceptaría pertenecer, es casi seguro que sería electo.',
+    var texts = ['<span style="font-weight:bold">Raúl Castro</span> no será Presidente del Consejo de Estado. Lo anunció hace algún tiempo y lo reafirmó recientemente. Podría pertenecer al Consejo, pero no lo creo. Si decidiera pertenecer, es casi seguro que sería electo.',
     'No. No son mis palabras, son las que <span style="font-weight:bold">Raúl Castro</span> ha dicho varias veces. Lo que nunca ha dicho es que no pertenecerá al Consejo, pero tampoco creo que asuma eso como lo hizo en su ocasión <span style="font-weight:bold">Fidel</span>. Este elemento lo he tenido en cuenta en mi predicción.',
     'Cuando <span style="font-weight:bold">Fidel</span> anunció que no aceptaría el cargo de Presidente tampoco fue electo al Consejo de Estado. <span style="font-weight:bold">Raúl Castro</span>, quien ya dijo que no aceptará ser Presidente, creo que hará lo mismo. Esto está considerado a la hora de discriminar los datos que da como resultado mi modelo de predición.']
     var index = Math.trunc(Math.random()*3);
@@ -607,7 +608,7 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:cu[áa]l[ ]+ser[áa][ ]+el|predice[ ]+el|ad
 ChatBot.addPattern("(?:[\¿]?[ ]*)(?:((?:por[ ]*qu[ée][ ]+te[ ]+llamas[ ]+)(?:Amanda|as[íi]))|(?:de[ ]+donde[ ]+sale[ ]+tu[ ]+nombre|cu[áa]l[ ]+es[ ]+el[ ]+origen[ ]+de[ ]+tu[ ]+nombre))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
     var texts = ['Mi nombre es una alegoría al Cine Cubano. Me bautizaron <span style="font-weight:bold">Amanda</span> por el personaje de la película "Las Profecías de Amanda" el cuál protagonizó Daysi Granados y se basaba en la vida real de una clarividente nombrada Martha Estévez.',
     'Por la película "Las Profecías de Amanda" pues como el personaje principal desde que nací tengo el don de las profecías. Aunque no estoy segura que se me den muy bien.',
-    'Cuando mis creadores pensaban un nombre no podían decidirse. Pensaron llamarme, recordando a los clásicos griegos, Delfos o Cassandra, pero al final primó <span style="font-weight:bold">Amanda</span> por ser el nombre de un personaje, ya clásico, del cine cubano. Así también mi nombre es también un reconocimiento al cine nacional.']
+    'Cuando mis creadores pensaban un nombre no podían decidirse. Pensaron llamarme, recordando a los clásicos griegos, Delfos o Cassandra, pero al final primó <span style="font-weight:bold">Amanda</span> por ser el nombre de un personaje, ya clásico, del cine cubano. Así también mi nombre es un reconocimiento al cine nacional.']
     var index = Math.trunc(Math.random()*3);
     ChatBot.addChatEntry(texts[index],"bot");
 },undefined);
