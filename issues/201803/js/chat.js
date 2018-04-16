@@ -214,7 +214,7 @@ function getCERepeaters(){
 
 //console.log(getCEPCCDir('bp'));
 
-var fuse = new Fuse(dips, { keys: ["nombre"], include: ["score"] });
+var fuse = new Fuse(dips, { keys: ["nombre-corto","nombre","nombre-alternativo"], include: ["score"] });
 
 
 //console.log(fuse.search('raúl modesto castro ruz'));
@@ -256,7 +256,7 @@ ChatBot.addPattern("(?:mi nombre es|yo soy|me llamo) (.*)", "response", undefine
     ChatBot.setHumanName(matches[1]);
     hName = matches[1];
     var texts = ['Hola <span style="font-weight:bold">'+matches[1]+ '</span>, un placer conocerte. Puedes preguntarme sobre cuál creo que será el próximo Consejo de Estado. Si quieres saber que preguntas entiendo presiona el botón <span class="main-text">¿Qué puedo preguntar?</span>',
-    '<span style="font-weight:bold">'+matches[1]+'</span> es un lindo nombre. Yo trato de adivinar a quienes integrarán el Consejo de Estado que se elegirá el 19 de abril. En el botón <span class="main-text">¿Qué puedo preguntar?</span> puedes ver ejemplos de preguntas que comprendo.',
+    '<span style="font-weight:bold">'+matches[1]+'</span> es un lindo nombre. Yo trato de adivinar a quienes integrarán el Consejo de Estado que se elegirá a partir del 18 de abril. En el botón <span class="main-text">¿Qué puedo preguntar?</span> puedes ver ejemplos de preguntas que comprendo.',
     'Un placer <span style="font-weight:bold">'+matches[1]+'</span>. Yo soy un chatbot que intenta predecir el próximo Consejo de Estado. Yo no comprendo todas las preguntas posibles, en el botón <span class="main-text">¿Qué puedo preguntar?</span> puedes ver algunas que si entiendo.' 
     ]
     var index = Math.trunc(Math.random()*3);
@@ -627,7 +627,7 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:qui[ée]n((es)?)[ ]+se[ ]+mantendr[áa]((n)
     var prob = e['prob'];
     var cep = Math.round(p.length/31*100);
     var anp = Math.round(total/605*100);
-    var texts = ["Creo que serán electos "+p.length+' '+ytext+'. '+nbeg+names+'Entonces el '+cep+'% del Consejo de Estado serían diputados que pertenecieron al anterior Consejo.',
+    var texts = ["Creo que serán electos "+p.length+' '+ytext+'. '+nbeg+names+'Entonces, el '+cep+'% del Consejo de Estado serían diputados que pertenecieron al anterior Consejo.',
     p.length+' '+ytext+', según el algoritmo que desarrollé, volverán a integrar el Consejo. '+nbeg+names+'La probabilidad media que le asigna el modelo a que un miembro del anterior Consejo sea reelecto es '+prob,
     "Por mi modelo, "+p.length+' '+ytext+' serían reelegidos. '+nbeg+names+'Por esta predicción, '+p.length+' de los '+total+' miembros anteriores, que todos fueron electos como diputados, volverían a ser parte del Consejo.'];
     var index = Math.trunc(Math.random()*3);
