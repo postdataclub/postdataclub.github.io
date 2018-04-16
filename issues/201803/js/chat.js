@@ -227,7 +227,7 @@ var config = {
     //engines: [ChatBot.Engines.duckduckgo()],
     engines: [],
     addChatEntryCallback: function(entryDiv, text, origin) {
-        $('#chatBotCommandDescription').hide();
+        $('#chatBotCommandDescription').slideUp();
         entryDiv.delay(100).slideDown();
     }
 };
