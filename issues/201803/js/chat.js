@@ -517,7 +517,7 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:Ra[uú]l[ ]+ser[áa][ ]+presidente|Ra[úu]l
 ChatBot.addPattern("(?:[\¿]?[ ]*)(?:puedo[ ]+(pertenecer|ser[ ]+(electo|elegido))[ ]+al[ ]+(ce|consejo[ ]+de[ ]+estado|consejo))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
     var texts = ['Si eres diputado si, sino no. Si eres diputado pregunta "Cuál es la probabilidad de" y agregas tu nombre, así te podré dar las probabilidades que creo que tienes de salir electo. Aunque, como sabes, esos números no son más que una adivinación.',
     'Solo los diputados pueden ser electos al Consejo de Estado. Si eres diputado y la Comisión de Candidaturas Nacional te propone es bastante seguro que la ANPP te elija. Para saber las probabilidades que yo creo que tienes, si eres diputado, escribe "Cuál es la probabilidad de" y adiciona tu nombre completo.',
-    'Solo si eres diputado. Si lo fueses puedes averiguar cual es la probabilidad que te asigno de ser electo. Para eso escribe "Cuál es la probabilidad de" y ;uego pon tu nombre completo.']
+    'Solo si eres diputado. Si lo fueses puedes averiguar cual es la probabilidad que te asigno de ser electo. Para eso escribe "Cuál es la probabilidad de" y luego pon tu nombre completo.']
     var index = Math.trunc(Math.random()*3);
     ChatBot.addChatEntry(texts[index],"bot");
 },"Escribe 'Puedo pertenecer al CE' y Amanda responderá lo que piensa");
