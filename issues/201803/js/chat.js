@@ -606,9 +606,17 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:cu[áa]l[ ]+ser[áa][ ]+el|predice[ ]+el|ad
 },"Escribe 'Cuál será el próximo CE' y Amanda te dirá su predicción");
 
 ChatBot.addPattern("(?:[\¿]?[ ]*)(?:((?:por[ ]*qu[ée][ ]+te[ ]+llamas[ ]+)(?:Amanda|as[íi]))|(?:de[ ]+donde[ ]+sale[ ]+tu[ ]+nombre|cu[áa]l[ ]+es[ ]+el[ ]+origen[ ]+de[ ]+tu[ ]+nombre))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
-    var texts = ['Mi nombre es una alegoría al Cine Cubano. Me bautizaron <span style="font-weight:bold">Amanda</span> por el personaje de la película "Las Profecías de Amanda" el cuál protagonizó Daysi Granados y se basaba en la vida real de una clarividente nombrada Martha Estévez.',
+    var texts = ['Mi nombre es una alegoría al Cine Cubano. Mis padres me bautizaron <span style="font-weight:bold">Amanda</span> por el personaje de la película "Las Profecías de Amanda" el cuál protagonizó Daysi Granados y se basaba en la vida real de una clarividente nombrada Martha Estévez.',
     'Por la película "Las Profecías de Amanda" pues como el personaje principal desde que nací tengo el don de las profecías. Aunque no estoy segura que se me den muy bien.',
-    'Cuando mis creadores pensaban un nombre no podían decidirse. Pensaron llamarme, recordando a los clásicos griegos, Delfos o Cassandra, pero al final primó <span style="font-weight:bold">Amanda</span> por ser el nombre de un personaje, ya clásico, del cine cubano. Así también mi nombre es un reconocimiento al cine nacional.']
+    'Cuando mis creadores pensaban un nombre no podían decidirse. Uno  de mis padres pensó llamarme, recordando a los clásicos griegos, Delfos o Cassandra, pero al final primó <span style="font-weight:bold">Amanda</span> por ser el nombre de un personaje, ya clásico, del cine cubano. Así también mi nombre es un reconocimiento al cine nacional.']
+    var index = Math.trunc(Math.random()*3);
+    ChatBot.addChatEntry(texts[index],"bot");
+},undefined);
+
+ChatBot.addPattern("(?:[\¿]?[ ]*)(?:qui[ée]nes[ ]+son[ ]+tus[ ]+(padres|papis|progenitores)|qui[ée]n[ ]+te[ ]+cre[óo])(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
+    var texts = ['Es una cosa bien rara. Tengo tres padres: Yudivián Almeida, Saimi Reyes y Ernesto Guerra. La gente dice que me parezco a los tres.',
+    'Soy el resultado de la modernidad. Tengo una mamá y dos papás que fueron quienes me crearon. Mi madre es Saimi Reyes y mis padres son Yudivián Almeida y Ernesto Guerra.',
+    'Mis creadores son Yudivián Almeida, Saimi Reyes y Ernesto Guerra. No sé a cual de los tres me parezco más']
     var index = Math.trunc(Math.random()*3);
     ChatBot.addChatEntry(texts[index],"bot");
 },undefined);
