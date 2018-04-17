@@ -479,16 +479,17 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:(?:cu[áa]l(?:es)?)[ ]+(?:es|son)[ ]+(?:la(
         var dpj = Math.round(dip['probabilidades']['jce']*100)/100;
     }
     var tadd='';
-    if (dip['id']==48){
-        tadd = '<span style="font-weight:bold">Lazo</span> no creo que sea electo al CE pues tradicionalmente los Presidentes de la ANPP anterior son candidatos a continuar en su cargo y a no integrar el Consejo de Estado. Aun así calculé sus probabilidades.'
-    } else {
-        if (dip['edad']>=80){
-            tadd = 'Creo que <span style="font-weight:bold">'+dname+'</span> seguirá el mismo ejemplo de <span style="font-weight:bold">Raúl Castro</span>, quien no aceptará ser Presidente del CE y seguro tampoco formará parte del mismo. Aún así calculé sus probabilidades.';
-        }
-        else {
-            if (dip['id']==2){
+    if (dip['id']==2){
                 tadd = '<span style="font-weight:bold">Raúl</span> afirmó que no aceptará el cargo del Presidente del Consejo de Estado aunque no dijo nada sobre su pertenencia a este Consejo, lo que creo que tampoco aceptará. No obstante, también calculé sus probabilidades.';
             }
+     else {
+        if (dip['id']==48){
+            tadd = '<span style="font-weight:bold">Lazo</span> no creo que sea electo al CE pues tradicionalmente los Presidentes de la ANPP anterior son candidatos a continuar en su cargo y a no integrar el Consejo de Estado. Aun así calculé sus probabilidades.'
+        }
+        else {
+           if (dip['edad']>=80){
+                tadd = 'Creo que <span style="font-weight:bold">'+dname+'</span> seguirá el mismo ejemplo de <span style="font-weight:bold">Raúl Castro</span>, quien no aceptará ser Presidente del CE y seguro tampoco formará parte del mismo. Aún así calculé sus probabilidades.';
+           }   
         }
     }
     if (dname==undefined){
