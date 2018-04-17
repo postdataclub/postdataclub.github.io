@@ -621,6 +621,15 @@ ChatBot.addPattern("(?:[\¿]?[ ]*)(?:qui[ée]nes[ ]+son[ ]+tus[ ]+(padres|papis|
     ChatBot.addChatEntry(texts[index],"bot");
 },undefined);
 
+ChatBot.addPattern("(?:[\¿]?[ ]*)(?:qu[ée][ ]+edad[ ]+tienes|cu[áa]ntos[ ]+a[nñÑ]os[ ]+tienes|cu[áa]ndo[ ]+(naciste(s)?|es[ ]+tu[ ]+cumple(a[ñǸ]o(s)?)?))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
+    //(?:[\¿]?[ ]*)(?:qu[ée][ ]+edad[ ]+tienes|cu[áa]l[ ]+es[ ]+tu[ ]+edad|cu[áa]ntos[ ]+a[ñÑ]os[ ]+tienes|cu[áa]ndo[ ]+(naciste|es[ ]+tu[ ]+cumple(a[ñǸ]o(s)?)?)|(cu[áa]l[ ]+es[ ]+(tu|la)[ ]+fecha[ ]+de[ ]+(nacimiento|cumple(a[ñǸ]o(s)?)?)))(?:[ ]*)(?:[\?]?)
+    var texts = ['Yo soy muy jovencita. Nací el 16 de abril de abril de 2018 y mis padres pensaron en concebirme dos semanas antes.',
+    'Dicen que soy la encarnación de Amanda, la de la película. Si fuera así tendŕia más años, pero en realidad nací el 16 de abril de 2018.',
+    'Nací en el seno de Postdata un 16 de abril de 2018. Soy la hija de tres padres!!!']
+    var index = Math.trunc(Math.random()*3);
+    ChatBot.addChatEntry(texts[index],"bot");
+},undefined);
+
 
 ChatBot.addPattern("(?:[\¿]?[ ]*)(?:qui[ée]n((es)?)[ ]+se[ ]+mantendr[áa]((n)?)|(cu[áa]les|qui[ée]n(es)?)[ ]+ser[áa](n)?[ ]+(reelecto(s)?|reelegido(s)+))(?:[ ]*)(?:[\?]?)", "response", undefined, function (matches) {
     var e = getCERepeaters();
