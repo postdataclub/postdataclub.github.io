@@ -1,0 +1,221 @@
+#bosses, #vps,  #members, #legend {
+    width: 100%;
+    text-align: center;
+}
+
+#members {
+    margin-top:5px;
+}
+#vps {
+    margin-top:5px;
+}
+#legend {
+    margin-top:-5px;
+    font-size: 10px;
+}
+
+#legend>div>img  {
+    width: 20px;
+}
+
+#bosses>div,  #vps>div,  #members>div, #legend>div  {
+    display: inline-block;
+    margin-left: 3px;
+    padding-top:7px;
+}
+
+#vps>div,  #members>div  {
+    vertical-align: top;
+}
+
+#vps {
+    margin-top: 5px;
+}
+
+#m1-name, #m2-name, #m8-name {
+    font-size: 13px;
+}
+
+.charge {
+    font-size: 16px;
+}
+
+.member  {
+    height: 85px;
+}
+
+.vices {
+    height: 85px;
+}
+
+#m1-image>img {
+    width: 70px;
+}
+
+#m2-image>img {
+    width: 60px;
+}
+
+#m8-image>img {
+    width: 50px;
+}
+
+.m-image>img {
+    width: 45px;
+}
+
+.vpre-image>img {
+    width: 55px;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.normal-border {
+    padding: 1px;
+    border: 3px solid #A7A7A7;
+}
+
+.new-border {
+    padding: 1px;
+    border: 3px solid red;
+}
+
+.change-border {
+    padding: 1px;
+    border: 3px solid blue;
+}
+
+.charge {
+    font-weight: bold;
+}
+
+.m-name {
+    font-size: 9px;
+    width: 45px;
+}
+
+#m1m-name,#m2m-name,#m8m-name{
+    font-size: 12px;
+    width: 80px;    
+}
+.vp-name {
+    font-size: 11px;
+    width: 55px;
+}
+
+#m1m-image>img {
+    width: 70px;
+}
+
+#m2m-image>img {
+    width: 60px;
+}
+
+#m8m-image>img {
+    width: 50px;
+}
+
+@media (max-width:900px){
+#members {
+    margin-top:1px;
+}
+#vps {
+    margin-top:1px;
+}
+#legend {
+    margin-top: -5px;
+    font-size:=[[[[[[[[[[[[[[px;
+    margin-bottom: 10px;
+}
+
+#legend>div>img  {
+    width: 15px;
+}
+
+#bosses>div,  #vps>div,  #members>div, #legend>div  {
+    display: inline-block;
+    margin-left: 0px;
+    padding-top:0px;
+}
+
+#vps>div,  #members>div  {
+    vertical-align: top;
+}
+
+#vps {
+    margin-top: 0px;
+}
+
+#m1m-name, #m2m-name, #m8m-name {
+    font-size: 10px;
+}
+
+.charge {
+    font-size: 10px;
+}
+
+
+#m1m-image>img {
+    width: 30px;
+}
+
+#m2m-image>img {
+    width: 30px;
+}
+
+#m8m-image>img {
+    width: 20px;
+}
+
+.m-image>img {
+    width: 30px;
+}
+
+.vpre-image>img {
+    width: 30px;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.ce-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.normal-border {
+    padding: 1px;
+    border: 2px solid #A7A7A7;
+}
+
+.new-border {
+    padding: 1px;
+    border: 2px solid red;
+}
+
+.change-border {
+    padding: 1px;
+    border: 2px solid blue;
+}
+
+}
+
+@media (min-width:900px){
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+.check {
+    background-color: #461A57;     
+    color: #FFFFFF;
+}
+.smallnote {
+    text-align: center;
+}
+
+}
