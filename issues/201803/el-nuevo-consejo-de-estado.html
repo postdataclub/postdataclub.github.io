@@ -392,6 +392,19 @@ otros 23 diputados para completar la membresía del Consejo.
     En la propuesta de dirección del CE todos son miembros del CC aunque de ellos solo 4 integran el BP. Esta también es la más baja cifra 
     histórica.
     </p>
+    
+</div>
+
+<div class="media-block border main-border">
+        <div class="graph-text main-text" style="text-align: center;">
+            Evolución de la pertenencia al Comité Central y Buró Político del PCC<br>
+            de los miembros del Consejo de Estado y su dirección.
+        </div>
+        <div id="pcc" class="graph" ></div>
+</div>
+
+<div class="text-block">    
+    
     <p>
     Aún cuando no están nominados ni Raúl ni Machado Ventura, el proyecto de candidatura no marca una ruptura con la Generación Histórica pues,
     en un CE que tendrá 13 nuevos integrantes, tres miembros de esta generación son candidatos : Ramiro Valdés 
@@ -429,7 +442,7 @@ otros 23 diputados para completar la membresía del Consejo.
     Aunque muchos -incluida nuestra chatbot <a href="">Amanda</a>- predijeron los posibles Consejos de Estado de Cuba muy pocos acertaron.
     Eso si, pocos fallaron en el pronóstico de Presidente de este órgano que mañana, cuando se anuncien los resultados
     de las elecciones, quedará constituido. Entonces, oficialmente, tendremos un Consejo de Estado que incorporó  integrantes
-    no esperados que acompañarán a aquellos que ya conocen de esta responsabilidad. En las manos de todos sus miembros estará gran parte de
+    no esperados que acompañarán a aquellos que ya conocen de este empeño. En las manos de todos sus miembros estará gran parte de
     la responsabilidad de delinear el futuro inmediato de Cuba.
     </p>
 </div>
@@ -558,6 +571,37 @@ var disqus_config = function () {
         }
       });
     </script>
-    
+    <script>
+    var x = ['x','Inicio I ANPP','Inicio II ANPP','Inicio III ANPP'
+        ,'Inicio IV ANPP','Inicio V ANPP','Inicio VI ANPP'
+        ,'Inicio VII ANPP','Inicio VIII ANPP','Inicio IX ANPP'];
+        var chart2 = c3.generate({
+        bindto: "#pcc",
+        data: {
+          x : 'x',
+          columns: [x,
+          ['Miembros del CC en CE',29,30,25,26,25,20,19,20,18],
+          ['Miembros del BP en CE',13,14,11,14,10,11,10,11,9],
+          ['Miembros del CC en Dir. del CE',7,7,7,7,7,7,7,6,4],
+          ['Miembros del BP en Dir. del CE',8,8,8,8,8,8,8,7,8]
+          ],
+          type: 'line',
+        },
+        axis: {
+          max: {y: 32},
+          x: {
+            type: 'categorized',
+            label: 'ANPP'
+          },
+          y: {
+            label: 'Total de Diputados',
+            position: 'outer-middle',
+          }
+        },
+        padding: {
+            bottom: 60
+        }
+      });
+    </script>
   </body>
 </html>
