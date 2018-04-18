@@ -423,13 +423,13 @@
             ],
             "trabajo": "Miembro del Buró Político. Vicepresidente del Consejo de Estado",
             "nombre": "Salvador Antonio Valdés Mesa",
-            "nombre-alternativo": "Salvador Mesa",
+            "nombre-alternativo": "Salvador Valdés Mesa",
             "pcc": [
                 "bp",
                 "cc"
             ],
             "otros": [],
-            "nombre-corto": "Salvador Mesa Valdés",
+            "nombre-corto": "Salvador Valdés Mesa",
             "probabilidades": {
                 "jce": 0.9211160331092898,
                 "election": 0.0,
@@ -9875,13 +9875,13 @@
             ],
             "trabajo": "Miembro del Buró Político del Partido. Ministro de Salud Pública",
             "nombre": "Roberto Tomás Morales Ojeda",
-            "nombre-alternativo": "Roberto Tomás Morales Ojeda",
+            "nombre-alternativo": "Tomás Morales Ojeda",
             "pcc": [
                 "bp",
                 "cc"
             ],
             "otros": [],
-            "nombre-corto": "Roberto Tomás Morales Ojeda",
+            "nombre-corto": "Roberto Morales Ojeda",
             "probabilidades": {
                 "jce": 0.09714284932677501,
                 "election": 0.0,
@@ -16284,12 +16284,12 @@
             ],
             "trabajo": "Contralora General de la República de Cuba",
             "nombre": "Gladys María Bejerano Portela",
-            "nombre-alternativo": "Gladys María Bejerano Portela",
+            "nombre-alternativo": "Gladys Bejerano Portela",
             "pcc": [
                 "cc"
             ],
             "otros": [],
-            "nombre-corto": "Gladys María Bejerano Portela",
+            "nombre-corto": "Gladys Bejerano Portela",
             "probabilidades": {
                 "jce": 0.8126609279944693,
                 "election": 0.0,
