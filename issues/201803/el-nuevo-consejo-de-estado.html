@@ -404,6 +404,16 @@ otros 23 diputados para completar la membresía del Consejo.
     nacional de la Federación de Estudiantes Universitarios, quien es, a su vez, el candidato más joven a un CE que tendrá una edad promedio 
     aproximada de 48 años, que es similar a la de la Asamblea que es de 49.
     </p>
+</div>
+
+<div class="media-block border main-border">
+        <div class="graph-text main-text" style="text-align: center;">
+            Distribución por rango de edades de los Candidatos al CE
+        </div>
+        <div id="edad" class="graph" ></div>
+</div>
+
+<div class="text-block">
     <p>
     En esta ocasión, están propuestos para formar parte del Consejo 5 diputados que tienen cargos con rango de ministro a los que se suma
     la actual Contralora General. Entonces, formarán parte del Consejo, como es tradicional los ministros de las FAR (Leopoldo Cintra) y de 
@@ -468,12 +478,13 @@ var disqus_config = function () {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
     <script src="../../assets/js/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
     <script src="../../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="../../assets/js/echarts.min.js"></script>
       <script>
     $(document).on('click',function (e) {
         submenu = $('#header-submenu');
@@ -511,67 +522,31 @@ var disqus_config = function () {
     }
     </script>
     <script >
-        var dom = document.getElementById("radar");
-var myChart = echarts.init(dom);
-var app = {};
-option = null;
-option = {
-    tooltip: {},
-    legend: {
-        data: ['% en Candidatura', '% en Población con 18 años o más','% en Total de la Población'],
-        bottom: 11
-    },
-    radar: {
-        // shape: 'circle',
-        name: {
-            textStyle: {
-                color: '#fff',
-                backgroundColor: '#999',
-                borderRadius: 3,
-                padding: [3, 5]
-           }
+    var chart1 = c3.generate({
+        bindto: '#edad',
+        data: {
+          columns: [
+            ["con 40 años o menos", 4],
+            ["de 41 a 60 años", 21],
+            ["con más de 60 años", 6],
+
+          ],
+          type : 'donut',
         },
-        indicator: [
-          { name: 'Mujeres', max: 58.54},
-           { name: 'Jovenes', max: 32.63},
-           { name: 'Blancos', max: 70.51},
-           { name: 'Negros y Mestizos', max: 44.73},
-           { name: 'Nivel Escolar Medio Superior', max: 37.72},
-           { name: 'Nivel Escolar Superior', max: 94.6},
-           { name: 'Sector Educación', max: 8.55},
-           { name: 'Sector Salud', max: 6.18},
-           { name: 'Sector Investigación', max: 4.36},
-           { name: 'Sector Cultura y Deporte', max: 9.27},
-           { name: 'Sector Campesino y Cooperativo', max: 10.64},
-           { name: 'Sector No Estatal', max: 6.62},
-        ]
-    },
-    series: [{
-        name: 'Comparación',
-        type: 'radar',
-        emphasis: {
-            areaStyle: {normal: {}}
+        axis: {
+          x: {
+            label: 'Sepal.Width'
+          },
+          y: {
+            label: 'Petal.Width'
+          }
         },
-        data : [
-            {
-                value : [53.22, 13.2, 59.34, 40.66, 14, 86, 7.77, 5.62, 3.97,8.43,4.63,0.66],
-                name : '% en Candidatura'
-            },
-             {
-                value : [50.62, 29.66, 64.1, 35.9,34.29, 10.43, 5.62,5.45,0.26,1.97,9.68,6.02],
-                name : '% en Población con 18 años o más'
-            },
-             {
-                value : [50.19, 27, 64.1, 35.9, 34.29, 10.43, 4.49,4.35,0.33,1.58,7.73,4.81],
-                name : '% en Total de la Población'
-            }
-        ]
-    }]
-};;
-if (option && typeof option === "object") {
-    myChart.setOption(option, true);
-    myChart.dispatchAction({type:'legendToggleSelect',name:'% en Total de la Población'});
-}
+        donut: {
+    
+          title: "31 candidatos",
+          width: 70
+        }
+      });
     </script>
     
   </body>
