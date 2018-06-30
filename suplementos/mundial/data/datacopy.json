@@ -1,0 +1,1002 @@
+{
+    "mundial": {
+        "grupos": {
+            "a": {
+                "1": "Uruguay",
+                "2": "Rusia"
+            },
+            "b": {
+                "1": "España",
+                "2": "Portugal"
+            },
+            "c": {
+                "1": "Francia",
+                "2": "Dinamarca"
+            },
+            "d": {
+                "1": "Croacia",
+                "2": "Argentina"
+            },
+            "e": {
+                "1": "Brasil",
+                "2": "Suiza"
+            },
+            "f": {
+                "1": "Suecia",
+                "2": "México"
+            },
+            "g": {
+                "1": "Bélgica",
+                "2": "Inglaterra"
+            },
+            "h": {
+                "1": "Colombia",
+                "2": "Japón"
+            }
+        },
+        "8vos": null,
+        "4tos": null,
+        "semi": null,
+        "final": null
+    },
+    "competidores": {
+        "Sports Illustrated": {
+            "link": "https://www.si.com/soccer/2018/06/04/world-cup-2018-predictions-knockout-bracket-winner",
+            "logo": "images/sports-illustrated.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egypto"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Croacia",
+                    "2": "Argentina"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Costa Rica"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Senegal"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Argentina",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Perú",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Argentina",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "España"
+            ],
+            "final": "Brasil"
+        },
+        "EA Sports": {
+            "link": "https://www.easports.com/fifa/news/2018/ea-sports-predicts-world-cup-fifa-18",
+            "logo": "images/EA_Sports_logo.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Croacia",
+                    "2": "Argentina"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Costa Rica"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "Suecia"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Uruguay",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Croacia",
+                "Alemania",
+                "Colombia"
+            ],
+            "4tos": [
+                "Francia",
+                "Bélgica",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Francia",
+                "Alemania"
+            ],
+            "final": "Francia"
+        },
+        "BBC": {
+            "link": "http://www.bbc.com/mundo/deportes-44440228",
+            "logo": "images/bbc.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egypto"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Croacia",
+                    "2": "Argentina"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Serbia"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Senegal"
+                }
+            },
+            "8vos": [
+                "Uruguay",
+                "Argentina",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Perú",
+                "Alemania",
+                "Colombia"
+            ],
+            "4tos": [
+                "Uruguay",
+                "Brasil",
+                "España",
+                "Colombia"
+            ],
+            "semi": [
+                "Brasil",
+                "España"
+            ],
+            "final": "Brasil"
+        },
+        "Trabajadores": {
+            "link": "http://www.trabajadores.cu/20180506/el-campeon-del-mundo-sera/",
+            "logo": "images/trabajadores.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egypto"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "Suecia"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Colombia"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "AS": {
+            "link": "https://as.com/futbol/2018/06/11/mundial/1528709081_495416.html",
+            "logo": "images/as.jpg",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Serbia"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Uruguay",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Colombia"
+            ],
+            "4tos": [
+                "Uruguay",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "España"
+            ],
+            "final": "España"
+        },
+        "PhillyVoice": {
+            "link": "http://www.phillyvoice.com/world-cup-2018-preview-schedule-times-match-ups-predictions/",
+            "logo": "images/phillyvoice.jpg",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Costa Rica"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Polonia",
+                    "2": "Colombia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Colombia",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Argentina",
+                "Alemania"
+            ],
+            "semi": [
+                "Francia",
+                "Argentina"
+            ],
+            "final": "Argentina"
+        },
+        "KDnuggets": {
+            "link": "https://www.kdnuggets.com/2018/06/football-world-cup-predictions.html",
+            "logo": "images/kdnuggets.jpg",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egipto"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brazil",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "sportinglife": {
+            "link": "https://www.sportinglife.com/football/news/world-cup:-elimination-predictions/147089",
+            "logo": "images/sportinglife.jpg",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egipto"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Australia"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Islandia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Uruguay",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Argentina",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "FiveThirtyEight": {
+            "link": "https://projects.fivethirtyeight.com/2018-world-cup-predictions/",
+            "logo": "images/fivethirtyeight.jpg",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "Suecia"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Argentina",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "España"
+            ],
+            "final": "Brasil"
+        },
+        "The Mane Land": {
+            "link": "https://www.themaneland.com/2018/6/5/17426356/the-mane-lands-world-cup-2018-predictions",
+            "logo": "images/the_mane_land.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Egipto"
+                },
+                "b": {
+                    "1": "Portugal",
+                    "2": "España"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Islandia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Costa Rica"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Uruguay",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "Portugal",
+                "Perú",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Portugal",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "talkSport": {
+            "link": "https://talksport.com/football/357478/world-cup-2018-super-computer-predicts-winners-russia/",
+            "logo": "images/talksport.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Egipto",
+                    "2": "Uruguay"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Perú"
+                },
+                "d": {
+                    "1": "Islandia",
+                    "2": "Argentina"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Serbia"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Polonia",
+                    "2": "Colombia"
+                }
+            },
+            "8vos": [
+                "Egypto",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Islandia",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "España"
+            ],
+            "final": "Brasil"
+        },
+        "CBS Sports": {
+            "link": "https://www.cbssports.com/soccer/world-cup/news/2018-world-cup-predictions-russia-2018-brackets-favorites-expert-picks-and-upsets-by-cbs-sports-experts/",
+            "logo": "images/cbssports.png",
+            "person": "Tom Fornell",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Serbia"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Senegal"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Argentina",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Argentina"
+            ],
+            "final": "Brasil"
+        },
+        "Goldman Sachs": {
+            "link": "http://www.goldmansachs.com/our-thinking/pages/world-cup-2018/multimedia/report.pdf",
+            "logo": "images/goldman-sachs.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Arabia Saudita"
+                },
+                "b": {
+                    "1": "Portugal",
+                    "2": "España"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Australia"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Islandia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "España",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "Portugal",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "Portugal",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Alemania"
+            ],
+            "final": "Brasil"
+        },
+        "Universidad Técnica de Dortmund": {
+            "link": "https://arxiv.org/abs/1806.03208",
+            "logo": "images/universidad-dortmund.png",
+            "person": "none",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "Suecia"
+                },
+                "g": {
+                    "1": "Bélgica",
+                    "2": "Inglaterra"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Francia",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Argentina",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Francia",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Brasil",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "Granma": {
+            "link": "http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018",
+            "logo": "images/granma.png",
+            "person": "Oscar Sánchez",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Portugal"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Croacia",
+                    "2": "Argentina"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "Suecia"
+                },
+                "g": {
+                    "1": "Inglaterra",
+                    "2": "Bélgica"
+                },
+                "h": {
+                    "1": "Polonia",
+                    "2": "Colombia"
+                }
+            },
+            "8vos": [
+                "Portugal",
+                "Argentina",
+                "Brasil",
+                "Bélgica",
+                "España",
+                "Croacia",
+                "Alemania",
+                "Inglaterra"
+            ],
+            "4tos": [
+                "Argentina",
+                "Brasil",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Argentina",
+                "Alemania"
+            ],
+            "final": "Alemania"
+        },
+        "Fox Sports": {
+            "link": "https://www.foxsports.com/soccer/video/1244148803995",
+            "logo": "images/foxsports.png",
+            "person": "Alexi Lalas",
+            "grupos": {
+                "a": {
+                    "1": "Uruguay",
+                    "2": "Rusia"
+                },
+                "b": {
+                    "1": "España",
+                    "2": "Marruecos"
+                },
+                "c": {
+                    "1": "Francia",
+                    "2": "Dinamarca"
+                },
+                "d": {
+                    "1": "Argentina",
+                    "2": "Croacia"
+                },
+                "e": {
+                    "1": "Brasil",
+                    "2": "Suiza"
+                },
+                "f": {
+                    "1": "Alemania",
+                    "2": "México"
+                },
+                "g": {
+                    "1": "Inglaterra",
+                    "2": "Bélgica"
+                },
+                "h": {
+                    "1": "Colombia",
+                    "2": "Polonia"
+                }
+            },
+            "8vos": [
+                "Marruecos",
+                "Francia",
+                "México",
+                "Plonia",
+                "España",
+                "Dinamarca",
+                "Alemania",
+                "Bélgica"
+            ],
+            "4tos": [
+                "Francia",
+                "México",
+                "España",
+                "Alemania"
+            ],
+            "semi": [
+                "Francia",
+                "España"
+            ],
+            "final": "España"
+        }
+    }
+}

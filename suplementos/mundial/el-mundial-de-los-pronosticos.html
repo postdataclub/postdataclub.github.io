@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - El mundial de los pronósticos</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">El mundial de los prónosticos</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">29/6/2018</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">¿Qué pasaría si los pronosticos compitieran entre ellos?</div> 
+             <div class="article-news-image">
+                <img src="images/rusia-2018.jpg">
+
+            </div>           
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+        <p>En tiempos de Copa del Mundo muchos jugamos a adivinar. La mayoría tenemos nuestros equipos favoritos -el mío es Francia- y
+        en cada partido inclinamos la balanza por uno de los once en disputa siguiendo cualquier criterio. Incluso, comentan que la popular
+        serie animada "Los Simpson" en 1997 predijo que la final en Rusia 2018 sería entre Portugal y México -que es una alternativa posible-
+        y Homer, quien en la última temporada todavía sigue vivo, en ese entonces prometió matarse si los lusos no ganaban.</p>
+        <p>Precompetencia, varios espacios hicieron su predicción completa: desde los clasificados por grupos hasta llegar al campeón.
+        Para ello se basaron en distintos elementos que van desde la intuición y los deseos propios hasta simulaciones computacionales y técnicas de 
+        Inteligencia Artificial.</p>
+        <p>Predecir la ruta completa que seguirán los equipos en el Mundial es mucho más díficil que solo adivinar
+        el país que resulte campeón. Por ello, en Postdata.club decidimos organizar una competencia paralela al mundial donde los competidores
+        serán 16 pronósticos completos que fueron publicados antes del inicio del mundial. Así, el 15 de junio cuando en el estadio Luzhnikí de Moscú se conozca el campeón
+        también sabremos cual fue el mejor de los pronósticos en competencia.</p>
+        <p>La competencia será en formato de eliminación directa. El pareo de los pronósticos se determinará en función de los puntos que
+        alcanzaron en la fase de grupos. En esta fase recibirán un punto por cada equipo que fue acertado correctamente para clasificar
+        a octavos de final y otro punto por cada posición correcta acertada. De esta manera, el máximo de puntos posibles a alcanzar será 32.
+        Esta cifra de puntos será la misma que se repartirá en cada ronda y determinará a los vencedores en cada una de ellas. Los puntos de
+        cada ronda anterior servirán como criterio de desempate.</p>
+        </div>
+        
+        <div class="text-block">
+        <div class="subtitle main-text">
+        Los contendientes
+        </div>
+        <p>
+        Para esta competencia seleccionamos 16 pronósticos de distintos espacios: 13 de medios de comunicación, y uno respectivamente
+        de una universidad, de un sitio de análisis de datos y de un grupo de banca e inversión. Todos ellos realizaron el pronóstico
+        en cada una de las fases del mundial: clasificados en los grupos y los ganadores en 8vos, 4tos, semifinales y la final. Cómo
+        en "Los Simpson" solo pronosticaron la final y el posible campeón lamentablemente no clasificaron como competidores.
+        </p>
+        <p>Estos son los pronósticos en competencia: 
+        <a href="https://as.com/futbol/2018/06/11/mundial/1528709081_495416.html">AS</a>, 
+        <a href="http://www.bbc.com/mundo/deportes-44440228">BBC</a>, 
+        <a href="https://www.cbssports.com/soccer/world-cup/news/2018-world-cup-predictions-russia-2018-brackets-favorites-expert-picks-and-upsets-by-cbs-sports-experts/">CBS Sports</a>, 
+        <a href="https://www.easports.com/fifa/news/2018/ea-sports-predicts-world-cup-fifa-18">EA Sports</a>, 
+        <a href="https://projects.fivethirtyeight.com/2018-world-cup-predictions/">FiveThirtyEight</a>,     
+        <a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a>, 
+        <a href="http://www.goldmansachs.com/our-thinking/pages/world-cup-2018/multimedia/report.pdf">Goldman Sachs</a>, 
+        <a href="http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018">Granma</a>, 
+        <a href="https://www.kdnuggets.com/2018/06/football-world-cup-predictions.html">KDnuggets</a>, 
+        <a href="http://www.phillyvoice.com/world-cup-2018-preview-schedule-times-match-ups-predictions/">PhillyVoice</a>, 
+        <a href="https://www.sportinglife.com/football/news/world-cup:-elimination-predictions/147089">sportinglife</a>, 
+        <a href="https://www.si.com/soccer/2018/06/04/world-cup-2018-predictions-knockout-bracket-winner">Sports Illustrated</a>, 
+        <a href="https://talksport.com/football/357478/world-cup-2018-super-computer-predicts-winners-russia/">talkSport</a>, 
+        <a href="https://www.themaneland.com/2018/6/5/17426356/the-mane-lands-world-cup-2018-predictions">The Mane Land</a>, 
+        <a href="http://www.trabajadores.cu/20180506/el-campeon-del-mundo-sera/">Trabajadores</a> y la
+        <a href="https://arxiv.org/abs/1806.03208">Universidad Técnica de Dortmund</a> (UT Dortmund).
+        </p>
+        <p>
+        En los casos de <a href="https://www.cbssports.com/soccer/world-cup/news/2018-world-cup-predictions-russia-2018-brackets-favorites-expert-picks-and-upsets-by-cbs-sports-experts/">CBS Sports</a>, 
+        <a href="http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018">Granma</a> y <a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a> se 
+        propusieron varios pronósticos. Entonces, para cada uno de estos medios se determinó, a partir de los resultados de la fase de grupos, cual
+        era la propuesta con mayor puntaje según las reglas de puntuación para esta fase. Resultaron ganadores y fueron seleccionados como pronóstico
+        representante de cada espacio el de Tom Fornell en <a href="https://www.cbssports.com/soccer/world-cup/news/2018-world-cup-predictions-russia-2018-brackets-favorites-expert-picks-and-upsets-by-cbs-sports-experts/">CBS Sports</a>, 
+        el de Alexi Lalas en <a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a>
+        y el de Oscar Sánchez en <a href="http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018">Granma</a>.
+        </p>
+        </div>
+        
+        <div class="text-block">
+        <div id="grupos" class="subtitle main-text">La fase de grupos</div>
+        <p>
+        En la fase de grupos ningún pronóstico, ni creo que nadie en el mundo, pudo acertar que Alemania no pasaría la fase de grupos.
+        De hecho, todos los pronósticos en competencia predijeron incorrectamente que clasificaría a 8vos de final como primero del
+        Grupo F. Mientras tanto todos adivinarron correctamente que Francia y Brasil encabezaría respectivamente los Grupos C y E.
+        </p>
+        <p>
+        Al parecer, el grupo más sencillo de adivinar correctamente los clasificados fue el G pues 14 de los pronósticos coincidieron
+        en que Bélgica e Inglaterra, en ese orden, encabezarían el grupo. Los dos que fallaron, y solo erraron en el orden, fueron Oscar Sánchez en
+        <a href="http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018">Granma</a> y Alexi Lalas en <a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a>.
+        </p>
+        <p>Lo más curioso, y fallido, fue que <a href="http://www.goldmansachs.com/our-thinking/pages/world-cup-2018/multimedia/report.pdf">Goldman Sachs</a> 
+        propusiera a Arabia Saudita como clasificado en el Grupo A y que <a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a>
+        hiciera lo mismo con Marruecos en el B.</p>
+        <p>
+        La evaluación de cada pronóstico según lo que propusieron para la clasificación en la fase de grupos permitió establecer un ranking para
+        establecer los cruces que se evaluarán posteriormente según los resultados de los 8vos de final. Cuando existió un empate en la puntuación
+        se siguió un criterio alfabético para el ordenamiento.
+        </p>
+        
+        <p>
+        <div id="ranking-grupos" style="margin-left:3%" class="row">
+        <div class="col-lg-6 col-md-6"> 
+        <div><span class="position">1.</span> <span class="contender"><a href="https://www.easports.com/fifa/news/2018/ea-sports-predicts-world-cup-fifa-18">EA Sports</a></span> <span class="points"> (25)</span></div>
+        <div><span class="position">2.</span> <span class="contender"><a href="https://projects.fivethirtyeight.com/2018-world-cup-predictions/">FiveThirtyEight</a></span> <span class="points"> (25)</span></div>
+        <div><span class="position">3.</span> <span class="contender"><a href="https://arxiv.org/abs/1806.03208">UT Dortmund</a></span> <span class="points"> (25)</span></div>
+        <div><span class="position">4.</span> <span class="contender"><a href="https://www.cbssports.com/soccer/world-cup/news/2018-world-cup-predictions-russia-2018-brackets-favorites-expert-picks-and-upsets-by-cbs-sports-experts/">CBS Sports</a></span> <span class="points"> (24)</span></div>
+        <div><span class="position">5.</span> <span class="contender"><a href="http://www.granma.cu/mundial-futbol-2018/2018-05-16/los-pronosticos-de-rusia-2018">Granma</a></span> <span class="points"> (24)</span></div>
+        <div><span class="position">6.</span> <span class="contender"><a href="https://www.kdnuggets.com/2018/06/football-world-cup-predictions.html">KDnuggets</a></span> <span class="points"> (24)</span></div>
+        <div><span class="position">7.</span> <span class="contender"><a href="http://www.phillyvoice.com/world-cup-2018-preview-schedule-times-match-ups-predictions/">PhillyVoice</a></span> <span class="points"> (23)</span></div>
+        <div><span class="position">8.</span> <span class="contender"><a href="https://as.com/futbol/2018/06/11/mundial/1528709081_495416.html">AS</a></span> <span class="points"> (22)</span></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+        <div><span class="position">9.</span> <span class="contender"><a href="http://www.bbc.com/mundo/deportes-44440228">BBC</a></span> <span class="points"> (22)</span></div>
+        <div><span class="position">10.</span> <span class="contender"><a href="https://www.foxsports.com/soccer/video/1244148803995">Fox Sports</a></span> <span class="points"> (22)</span></div>
+        <div><span class="position">11.</span> <span class="contender"><a href="https://www.si.com/soccer/2018/06/04/world-cup-2018-predictions-knockout-bracket-winner">Sports Illustrated</a></span> <span class="points"> (22)</span></div>
+        <div><span class="position">12.</span> <span class="contender"><a href="https://www.sportinglife.com/football/news/world-cup:-elimination-predictions/147089">sportinglife</a></span> <span class="points"> (21)</span></div>
+        <div><span class="position">13.</span> <span class="contender"><a href="http://www.trabajadores.cu/20180506/el-campeon-del-mundo-sera/">Trabajadores</a></span> <span class="points"> (21)</span></div>
+        <div><span class="position">14.</span> <span class="contender"><a href="http://www.goldmansachs.com/our-thinking/pages/world-cup-2018/multimedia/report.pdf">Goldman Sachs</a></span> <span class="points"> (19)</span></div>
+        <div><span class="position">15.</span> <span class="contender"><a href="https://talksport.com/football/357478/world-cup-2018-super-computer-predicts-winners-russia/">talkSport</a></span> <span class="points"> (18)</span></div>
+        <div><span class="position">16.</span> <span class="contender"><a href="https://www.themaneland.com/2018/6/5/17426356/the-mane-lands-world-cup-2018-predictions">The Mane Land</a></span> <span class="points"> (17)</span></div>
+        </div>
+        </div>
+        </p>
+        
+        <p>
+        Para la fase de 8vos de final el pareo de los contendientes se realizará 1ro vs 16to, 2do vs 15to y así sucesivamente.
+        Esta fase será eliminatoria y cada pronóstico recibirá los puntos de acuerdo a su pronóstico de esta fase. De esta manera,
+        recibirá 3 puntos por cada equipo pronosticado correctamente como ganador en 8vos de final. Así, mismo se recibirá
+        un punto por cada equipo ganador y que esté situado correctamente en el organigrama de eliminación. En caso de igualdad, 
+        se desempatará con los puntos de la ronda anterior.
+        </p>
+        <div id="cruces" class="media-block main-border border">
+        <div class="graph-text main-text" style="text-align:center;">
+            Todos los cruces del Mundial de Pronósticos
+        </div>
+        <div id="bracket"  style="display:table;margin:0 auto;"></div>
+        </div>
+        </div>
+
+
+    
+
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/suplementos/mundial/el-mundial-de-los-pronosticos.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201806-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+    
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/jquery.bracket.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.bracket.min.css" />
+    <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+        var minimalData = {
+        teams : [
+          ["EA Sports", "The Mane Land"], 
+          ["As", "BBC"],
+          
+          ["Granma", "sportinglife"], 
+          ["CBS Sports", "Trabajadores"],
+          
+          ["UT Dortmund", "Goldman Sachs"],
+          ["KDnuggets", "Sports Illustrated"],
+          
+          
+          ["PhillyVoice", "Fox Sports"],
+          ["FiveThirtyEight", "talkSport"],
+        ],
+        results : [ 
+           
+        ]
+      }
+ 
+    $(function() {
+    $('#bracket').bracket({
+      init: minimalData,
+      skipConsolationRound: true,
+      teamWidth: 90,
+      scoreWidth: 20,
+      matchMargin: 13,
+      roundMargin: 10,
+      })
+       })
+    </script>
+    
+  </body>
+</html>
