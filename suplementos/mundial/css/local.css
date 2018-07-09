@@ -3,3 +3,8 @@
     color: #717276;
     font-size: 22;
 } 
+
+.looser {
+    text-decoration: line-through red;
+    
+}
