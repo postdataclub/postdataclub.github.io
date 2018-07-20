@@ -1,0 +1,2916 @@
+{
+    "personas": {
+        "1": {
+            "nombre": "Fidel Castro Ruz",
+            "sexo":"masculino"
+        },
+        "2": {
+            "nombre": "Raúl Castro Ruz",
+            "sexo":"masculino"
+        },
+        "3": {
+            "nombre": "Ramiro Valdés Menéndez",
+            "sexo":"masculino"
+        },
+        "4": {
+            "nombre": "José Ramon Machado Ventura",
+            "sexo":"masculino"
+        },
+        "5": {
+            "nombre": "Miguel Díaz-Canel Bermúdez",
+            "sexo":"masculino"
+        },
+        "6": {
+            "nombre": "Salvador Valdés Mesa",
+            "sexo":"masculino"
+        },
+        "8": {
+            "nombre": "Osvaldo Dorticós Torrado",
+            "sexo":"masculino"
+        },
+        "9": {
+            "nombre": "Belarmino Castilla Mas",
+            "sexo":"masculino"
+        },
+        "10": {
+            "nombre": "Flavio Bravo Pardo",
+            "sexo":"masculino"
+        },
+        "11": {
+            "nombre": "Guillermo García Frías",
+            "sexo":"masculino"
+        },
+        "12": {
+            "nombre": "Diocles Torralbas",
+            "sexo":"masculino"
+        },
+        "13": {
+            "nombre": "Carlos Rafael Rodríguez",
+            "sexo":"masculino"
+        },
+        "14": {
+            "nombre": "Joel Domenech Benítez",
+            "sexo":"masculino"
+        },
+        "15": {
+            "nombre": "José Ramón Fernández Álvarez",
+            "sexo":"masculino"
+        },
+        "16": {
+            "nombre": "Humberto Pérez González",
+            "sexo":"masculino"
+        },
+        "17": {
+            "nombre": "José López Moreno",
+            "sexo":"masculino"
+        },
+        "18": {
+            "nombre": "Arnaldo Milián Castro",
+            "sexo":"masculino"
+        },
+        "19": {
+            "nombre": "Osmany Cienfuegos Gorriarán",
+            "sexo":"masculino"
+        },
+        "20": {
+            "nombre": "Antonio Esquivel Yedra",
+            "sexo":"masculino"
+        },
+        "21": {
+            "nombre": "Pedro Miret Prieto",
+            "sexo":"masculino"
+        },
+        "22": {
+            "nombre": "Antonio Rodríguez Maurell",
+            "sexo":"masculino"
+        },
+        "23": {
+            "nombre": "Adolfo Díaz Suárez",
+            "sexo":"masculino"
+        },
+        "24": {
+            "nombre": "Lionel Soto Prieto",
+            "sexo":"masculino"
+        },
+        "25": {
+            "nombre": "Jaime Crombet Hernández-Baquero",
+            "sexo":"masculino"
+        },
+        "26": {
+            "nombre": "Jorge Luis Rodríguez García",
+            "sexo":"masculino"
+        },
+        "27": {
+            "nombre": "Otto Rivero Torres",
+            "sexo":"masculino"
+        },
+        "28": {
+            "nombre": "Ricardo Cabrisas Ruiz",
+            "sexo":"masculino"
+        },
+        "29": {
+            "nombre": "Ulises Rosales del Toro",
+            "sexo":"masculino"
+        },
+        "30": {
+            "nombre": "Jorge Luis Sierra Cruz",
+            "sexo":"masculino"
+        },
+        "31": {
+            "nombre": "Marino Alberto Murillo Jorge",
+            "sexo":"masculino"
+        },
+        "32": {
+            "nombre": "Antonio Enrique Lusson Battle",
+            "sexo":"masculino"
+        },
+        "33": {
+            "nombre": "Adel Yzquierdo Rodríguez",
+            "sexo":"masculino"
+        },
+        "34": {
+            "nombre": "Carlos Lage Dávila",
+            "sexo":"masculino"
+        },
+        "35": {
+            "nombre": "José Amado Ricardo Guerra",
+            "sexo":"masculino"
+        },
+        "36": {
+            "nombre": "Rafael Francia Mestre",
+            "sexo":"masculino"
+        },
+        "37": {
+            "nombre": "Carlos Pérez León",
+            "sexo":"masculino"
+        },
+        "38": {
+            "nombre": "Alfredo Jordán Morales",
+            "sexo":"masculino"
+        },
+        "39": {
+            "nombre": "María del Carmen Pérez",
+            "sexo":"femenino"
+        },
+        "40": {
+            "nombre": "Gustavo Rodríguez Rollero",
+            "sexo":"masculino"
+        },
+        "41": {
+            "nombre": "Héctor Rodríguez Llompart",
+            "sexo":"masculino"
+        },
+        "42": {
+            "nombre": "Ernesto Meléndez Bach",
+            "sexo":"masculino"
+        },
+        "43": {
+            "nombre": "Ibrahim Ferradaz",
+            "sexo":"masculino"
+        },
+        "44": {
+            "nombre": "Marta Lomás Morales",
+            "sexo":"femenino"
+        },
+        "45": {
+            "nombre": "Rodrigo Malmierca Díaz",
+            "sexo":"masculino"
+        },
+        "46": {
+            "nombre": "Marcelo Fernández Font",
+            "sexo":"masculino"
+        },
+        "47": {
+            "nombre": "Raúl de la Nuez Ramírez",
+            "sexo":"masculino"
+        },
+        "48": {
+            "nombre": "José López Moreno",
+            "sexo":"masculino"
+        },
+        "49": {
+            "nombre": "Raúl Cabrera",
+            "sexo":"masculino"
+        },
+        "50": {
+            "nombre": "Homero Crabb Valdés",
+            "sexo":"masculino"
+        },
+        "51": {
+            "nombre": "Juan Mario Junco del Pino",
+            "sexo":"masculino"
+        },
+        "52": {
+            "nombre": "Fidel Fernando Figueroa de la Paz",
+            "sexo":"masculino"
+        },
+        "53": {
+            "nombre": "René Mesa Villafaña",
+            "sexo":"masculino"
+        },
+        "54": {
+            "nombre": "Levi Farah Balmaseda",
+            "sexo":"masculino"
+        },
+        "55": {
+            "nombre": "José Cañete Álvarez",
+            "sexo":"masculino"
+        },
+        "57": {
+            "nombre": "Osvaldo Martínez",
+            "sexo":"masculino"
+        },
+        "58": {
+            "nombre": "José Luis Rodríguez García",
+            "sexo":"masculino"
+        },
+        "60": {
+            "nombre": "Lina Pedraza Rodríguez",
+            "sexo":"femenino"
+        },
+        "61": {
+            "nombre": "Gladys María Bejerano Portela",
+            "sexo":"femenino"
+        },
+        "62": {
+            "nombre": "Oscar Fernández Padilla",
+            "sexo":"masculino"
+        },
+        "63": {
+            "nombre": "Joaquín Benavides Rodríguez",
+            "sexo":"masculino"
+        },
+        "64": {
+            "nombre": "Francisco Linares Calvo",
+            "sexo":"masculino"
+        },
+        "65": {
+            "nombre": "Alfredo Morales Cartaya",
+            "sexo":"masculino"
+        },
+        "66": {
+            "nombre": "Margarita Marlene González Fernández",
+            "sexo":"femenino"
+        },
+        "67": {
+            "nombre": "Francisco García Vals",
+            "sexo":"masculino"
+        },
+        "68": {
+            "nombre": "Rodrigo García León",
+            "sexo":"masculino"
+        },
+        "69": {
+            "nombre": "Manuel Miyares Rodríguez",
+            "sexo":"masculino"
+        },
+        "70": {
+            "nombre": "Georgina Barreiro Fajardo",
+            "sexo":"femenino"
+        },
+        "71": {
+            "nombre": "Santiago Riera Hernández",
+            "sexo":"masculino"
+        },
+        "72": {
+            "nombre": "Arturo Guzmán Pascual",
+            "sexo":"masculino"
+        },
+        "73": {
+            "nombre": "Julio Casas Regueiro",
+            "sexo":"masculino"
+        },
+        "74": {
+            "nombre": "Leopoldo Cintra Frías",
+            "sexo":"masculino"
+        },
+        "75": {
+            "nombre": "Asela de los Santos Tamayo",
+            "sexo":"femenino"
+        },
+        "76": {
+            "nombre": "Luis Ignacio Gómez Gutiérrez",
+            "sexo":"masculino"
+        },
+        "77": {
+            "nombre": "Ena Elsa Velázquez Cobiella",
+            "sexo":"femenino"
+        },
+        "79": {
+            "nombre": "Sergio del Valle Jiménez",
+            "sexo":"masculino"
+        },
+        "80": {
+            "nombre": "José Abrantes Fernández",
+            "sexo":"masculino"
+        },
+        "81": {
+            "nombre": "Abelardo Colomé Ibarra",
+            "sexo":"masculino"
+        },
+        "82": {
+            "nombre": "Carlos Fernández Gondín",
+            "sexo":"masculino"
+        },
+        "83": {
+            "nombre": "Julio Cesar Gandarilla Bermejo",
+            "sexo":"masculino"
+        },
+        "84": {
+            "nombre": "Pedro Guelmes González",
+            "sexo":"masculino"
+        },
+        "85": {
+            "nombre": "Manuel Castillo Rabassa",
+            "sexo":"masculino"
+        },
+        "86": {
+            "nombre": "Silvano Colás Sánchez",
+            "sexo":"masculino"
+        },
+        "87": {
+            "nombre": "Ignacio González Planas",
+            "sexo":"masculino"
+        },
+        "88": {
+            "nombre": "Medardo Díaz Toledo",
+            "sexo":"masculino"
+        },
+        "89": {
+            "nombre": "Maimir Mesa Ramos",
+            "sexo":"masculino"
+        },
+        "90": {
+            "nombre": "Armando Torres Santrayll",
+            "sexo":"masculino"
+        },
+        "91": {
+            "nombre": "Juan Escalona Reguera",
+            "sexo":"masculino"
+        },
+        "92": {
+            "nombre": "Carlos Amat Fores",
+            "sexo":"masculino"
+        },
+        "93": {
+            "nombre": "Roberto Díaz Sotolongo",
+            "sexo":"masculino"
+        },
+        "94": {
+            "nombre": "María Esther Reus González",
+            "sexo":"femenino"
+        },
+        "95": {
+            "nombre": "Isidoro Malmierca Peoli",
+            "sexo":"masculino"
+        },
+        "96": {
+            "nombre": "Ricardo Alarcón de Quesada",
+            "sexo":"masculino"
+        },
+        "97": {
+            "nombre": "Roberto Robaina González",
+            "sexo":"masculino"
+        },
+        "98": {
+            "nombre": "Felipe Pérez Roque",
+            "sexo":"masculino"
+        },
+        "99": {
+            "nombre": "Bruno Rodríguez Parrilla",
+            "sexo":"masculino"
+        },
+        "100": {
+            "nombre": "José A. Gutiérrez Muñiz",
+            "sexo":"masculino"
+        },
+        "101": {
+            "nombre": "Julio Teja Pérez",
+            "sexo":"masculino"
+        },
+        "102": {
+            "nombre": "Carlos Dotres Martínez",
+            "sexo":"masculino"
+        },
+        "103": {
+            "nombre": "Damodar Peña Pentón",
+            "sexo":"masculino"
+        },
+        "104": {
+            "nombre": "José Ramón Balaguer Cabrera",
+            "sexo":"masculino"
+        },
+        "105": {
+            "nombre": "Roberto Tomás Morales Ojeda",
+            "sexo":"masculino"
+        },
+        "106": {
+            "nombre": "Senén Casas Regueiro",
+            "sexo":"masculino"
+        },
+        "107": {
+            "nombre": "Álvaro Pérez Morales",
+            "sexo":"masculino"
+        },
+        "108": {
+            "nombre": "Carlos Manuel Pazo Torrado",
+            "sexo":"masculino"
+        },
+        "109": {
+            "nombre": "César Ignacio Arocha Masid",
+            "sexo":"masculino"
+        },
+        "110": {
+            "nombre": "Serafín Fernández Rodríguez",
+            "sexo":"masculino"
+        },
+        "111": {
+            "nombre": "Manuel Vilá Sosa",
+            "sexo":"masculino"
+        },
+        "112": {
+            "nombre": "Bárbara Castillo Cuesta",
+            "sexo":"femenino"
+        },
+        "113": {
+            "nombre": "Jacinto Angulo Pardo",
+            "sexo":"masculino"
+        },
+        "114": {
+            "nombre": "Mary Blanca Ortega Barredo",
+            "sexo":"femenino"
+        },
+        "116": {
+            "nombre": "Zoilo Marinello Vidaurreta",
+            "sexo":"masculino"
+        },
+        "117": {
+            "nombre": "Wilfredo Torres Yribar",
+            "sexo":"masculino"
+        },
+        "118": {
+            "nombre": "Rosa Elena Simeón Negrín",
+            "sexo":"femenino"
+        },
+        "119": {
+            "nombre": "Fernando González Bermúdez",
+            "sexo":"masculino"
+        },
+        "120": {
+            "nombre": "José Manuel Miyar Barruecos",
+            "sexo":"masculino"
+        },
+        "121": {
+            "nombre": "Elba Rosa Pérez Montoya",
+            "sexo":"femenino"
+        },
+        "122": {
+            "nombre": "Armando Hart Dávalos",
+            "sexo":"masculino"
+        },
+        "123": {
+            "nombre": "Abel Prieto Jiménez",
+            "sexo":"masculino"
+        },
+        "124": {
+            "nombre": "Rafael Bernal Alemany",
+            "sexo":"masculino"
+        },
+        "125": {
+            "nombre": "Julián González Toledo",
+            "sexo":"masculino"
+        },
+        "126": {
+            "nombre": "Fernándo Vecino Alegret",
+            "sexo":"masculino"
+        },
+        "127": {
+            "nombre": "Juan Vela Valdés",
+            "sexo":"masculino"
+        },
+        "128": {
+            "nombre": "Rodolfo Alarcón Ortiz",
+            "sexo":"masculino"
+        },
+        "129": {
+            "nombre": "José Ramón Saborido Loidi",
+            "sexo":"masculino"
+        },
+        "130": {
+            "nombre": "Joaquín Góngora Suau",
+            "sexo":"masculino"
+        },
+        "131": {
+            "nombre": "Jose Padrón",
+            "sexo":"masculino"
+        },
+        "132": {
+            "nombre": "Rafael Sed Pérez",
+            "sexo":"masculino"
+        },
+        "133": {
+            "nombre": "Manuel Marrero Cruz",
+            "sexo":"masculino"
+        },
+        "134": {
+            "nombre": "Raúl León Torrás",
+            "sexo":"masculino"
+        },
+        "135": {
+            "nombre": "Hector Rodríguez Llompart",
+            "sexo":"masculino"
+        },
+        "136": {
+            "nombre": "Francisco Soberón Valdés",
+            "sexo":"masculino"
+        },
+        "137": {
+            "nombre": "Ernesto Medina Villaveirán",
+            "sexo":"masculino"
+        },
+        "138": {
+            "nombre": "Irma Margarita Martínez Castrillón",
+            "sexo":"femenino"
+        },
+        "139": {
+            "nombre": "Jorge García Bango",
+            "sexo":"masculino"
+        },
+        "140": {
+            "nombre": "Carlos Galván Vila",
+            "sexo":"masculino"
+        },
+        "141": {
+            "nombre": "Conrado Martínez Corona",
+            "sexo":"masculino"
+        },
+        "142": {
+            "nombre": "Reynaldo González López",
+            "sexo":"masculino"
+        },
+        "143": {
+            "nombre": "Humberto Rodríguez González",
+            "sexo":"masculino"
+        },
+        "144": {
+            "nombre": "Julio Christian Jiménez Molina",
+            "sexo":"masculino"
+        },
+        "145": {
+            "nombre": "Antonio Eduardo Becali Garrido",
+            "sexo":"masculino"
+        },
+        "146": {
+            "nombre": "Nivaldo Herrera",
+            "sexo":"masculino"
+        },
+        "147": {
+            "nombre": "Ismael González",
+            "sexo":"masculino"
+        },
+        "148": {
+            "nombre": "Enrique Román",
+            "sexo":"masculino"
+        },
+        "149": {
+            "nombre": "Ernesto López Domínguez",
+            "sexo":"masculino"
+        },
+        "150": {
+            "nombre": "Danylo Sirio López",
+            "sexo":"masculino"
+        },
+        "151": {
+            "nombre": "Alfonso Noya Martínez",
+            "sexo":"masculino"
+        },
+        "152": {
+            "nombre": "Jorge Luis Aspiolea Roig",
+            "sexo":"masculino"
+        },
+        "153": {
+            "nombre": "Inés María Chapman Waugh",
+            "sexo":"femenino"
+        },
+        "154": {
+            "nombre": "Jorge Lezcano Pérez",
+            "sexo":"masculino"
+        },
+        "155": {
+            "nombre": "José A. Naranjo Morales",
+            "sexo":"masculino"
+        },
+        "156": {
+            "nombre": "Wilfredo López Rodríguez",
+            "sexo":"masculino"
+        },
+        "157": {
+            "nombre": "Luis Orlando Domínguez Muñiz",
+            "sexo":"masculino"
+        },
+        "158": {
+            "nombre": "Vicente Gómez López",
+            "sexo":"masculino"
+        },
+        "159": {
+            "nombre": "Rogelio Acevedo González ",
+            "sexo":"masculino"
+        },
+        "160": {
+            "nombre": "Ramón Martínez Echevarría",
+            "sexo":"masculino"
+        },
+        "161": {
+            "nombre": "Moisés Sio Wong",
+            "sexo":"masculino"
+        },
+        "162": {
+            "nombre": "Enrique Anavitarte Losada",
+            "sexo":"masculino"
+        },
+        "163": {
+            "nombre": "Eugenio Rodríguez Balaris",
+            "sexo":"masculino"
+        },
+        "164": {
+            "nombre": "Rodrigo Fernández Monert",
+            "sexo":"masculino"
+        },
+        "165": {
+            "nombre": "Daniel Legrá López",
+            "sexo":"masculino"
+        },
+        "166": {
+            "nombre": "Samuel Savariego Capuano",
+            "sexo":"masculino"
+        },
+        "167": {
+            "nombre": "Ramón Darias Rode",
+            "sexo":"masculino"
+        },
+        "168": {
+            "nombre": "Fidel Vascos González",
+            "sexo":"masculino"
+        },
+        "169": {
+            "nombre": "Irma Sánchez Valdés",
+            "sexo":"femenino"
+        },
+        "170": {
+            "nombre": "Sonia Rodríguez Cardona",
+            "sexo":"femenino"
+        },
+        "171": {
+            "nombre": "Alejandro Roca Iglesias",
+            "sexo":"masculino"
+        },
+        "172": {
+            "nombre": "María del Carmen Concepción González",
+            "sexo":"femenino"
+        },
+        "173": {
+            "nombre": "Angel Joel Chaveco Hernández",
+            "sexo":"masculino"
+        },
+        "174": {
+            "nombre": "José Fernández Cuervo-Vinent",
+            "sexo":"masculino"
+        },
+        "175": {
+            "nombre": "Orlando Rodríguez Romay",
+            "sexo":"masculino"
+        },
+        "176": {
+            "nombre": "Alfredo López Valdés",
+            "sexo":"masculino"
+        },
+        "177": {
+            "nombre": "Léster Rodríguez Pérez",
+            "sexo":"masculino"
+        },
+        "178": {
+            "nombre": "Marcos Lage Coello",
+            "sexo":"masculino"
+        },
+        "179": {
+            "nombre": "Fernando Acosta Santana",
+            "sexo":"masculino"
+        },
+        "180": {
+            "nombre": "Salvador Pardo Cruz",
+            "sexo":"masculino"
+        },
+        "181": {
+            "nombre": "Nora Frómeta Silva",
+            "sexo":"femenino"
+        },
+        "182": {
+            "nombre": "Roberto Ogando Zas",
+            "sexo":"masculino"
+        },
+        "183": {
+            "nombre": "Eddy Fernández Boada",
+            "sexo":"masculino" 
+        },
+        "184": {
+            "nombre": "Jesús Pérez Otón",
+            "sexo":"masculino" 
+        },
+        "185": {
+            "nombre": "Estela Domínguez Ariosa",
+            "sexo":"femenino"
+        },
+        "186": {
+            "nombre": "José Silvano Hernández Bernárdez",
+            "sexo":"masculino" 
+        },
+        "187": {
+            "nombre": "Damar Maceo Cruz",
+            "sexo":"femenino"
+        },
+        "188": {
+            "nombre": "José Beltrán Hernández",
+            "sexo":"masculino" 
+        },
+        "189": {
+            "nombre": "Marcos Portal León",
+            "sexo":"masculino" 
+        },
+        "190": {
+            "nombre": "Yadira García Vera",
+            "sexo":"femenino"
+        },
+        "191": {
+            "nombre": "Tomás Benítez Hernández",
+            "sexo":"masculino"
+        },
+        "193": {
+            "nombre": "Juan Herrera Machado",
+            "sexo":"masculino"
+        },
+        "194": {
+            "nombre": "Nelson Torres Pérez",
+            "sexo":"masculino"
+        },
+        "195": {
+            "nombre": "Luis Manuel Ávila Cruz",
+            "sexo":"masculino"
+        },
+        "196": {
+            "nombre": "Celso García Ramírez",
+            "sexo":"masculino"
+        }
+        ,
+        "197": {
+            "nombre": "José Valle Roque",
+            "sexo":"masculino"
+        },
+        "198": {
+            "nombre": "Manuel Céspedes Hernández",
+            "sexo":"masculino"
+        },
+        "199": {
+            "nombre": "Electra Fernández López",
+            "sexo":"femenino"
+        },
+        "200": {
+            "nombre": "José Ponce Díaz",
+            "sexo":"masculino"
+        },
+        "201": {
+            "nombre": "sin datos",
+            "sexo":null
+        }
+
+
+ 
+    },
+    "presidentes": [
+        {
+            "id": "1",
+            "periodos": [
+                [1976,2008]
+            ]
+        },
+        {
+            "id": "2",
+            "periodos": [
+                [2008,2018]
+            ]
+        },
+        {
+            "id":"5",
+            "periodos": [
+                [2018,100000]
+            ]
+        }
+    ],
+    "primeros-vicepresidentes": [
+        {
+            "id": "2",
+            "periodos": [
+                [1976,2008]
+            ]
+        },
+        {
+            "id": "4",
+            "periodos": [
+                [2008,2013]
+            ]
+        },
+        {
+            "id":"5",
+            "periodos": [
+                [2013,2018]
+            ]
+        },
+        {
+            "id":"6",
+            "periodos": [
+                [2018,100000]
+            ]
+        }
+    ],
+    "vicepresidentes": [
+        {
+            "id":"8",
+            "periodos": [
+                [1976,1983]
+            ]
+        },
+        {
+            "id": "3",
+            "periodos": [
+                [1976,1994],[2009,100000]
+            ]
+        },
+        {
+            "id":"9",
+            "periodos": [
+                [1976,1978]
+            ]
+
+        },
+        {
+            "id":"10",
+            "periodos": [
+                [1976,1981]
+            ]
+        },
+        {
+            "id":"11",
+            "periodos": [
+                [1976,1986]
+            ]
+        },
+        {
+            "id":"12",
+            "periodos": [
+                [1976,1989]
+            ]
+        },
+        {
+            "id":"13",
+            "periodos": [
+                [1976,1987]
+            ]
+        },
+        {
+            "id":"14",
+            "periodos": [
+                [1976,1994]
+            ]
+        },
+        {
+            "id":"15",
+            "periodos": [
+                [1978,2012]
+            ]
+        },
+        {
+            "id":"16",
+            "periodos": [
+                [1979,1986]
+            ]
+        },
+        {
+            "id":"17",
+            "periodos": [
+                [1979,1988]
+            ]
+        },
+        {
+            "id":"18",
+            "periodos": [
+                [1980,1983]
+            ]
+        },
+        {
+            "id":"19",
+            "periodos": [
+                [1980,2009]
+            ]
+        },
+        {
+            "id":"20",
+            "periodos": [
+                [1981,1990]
+            ]
+        },
+        {
+            "id":"21",
+            "periodos": [
+                [1982,2009]
+            ]
+        },
+        {
+            "id":"22",
+            "periodos": [
+                [1986,1995]
+            ]
+        },
+        {
+            "id":"23",
+            "periodos": [
+                [1988,1996]
+            ]
+        },
+        {
+            "id":"24",
+            "periodos": [
+                [1990,1995]
+            ]
+        },
+        {
+            "id":"25",
+            "periodos": [
+                [1990,1993]
+            ]
+        },
+        {
+            "id":"26",
+            "periodos": [
+                [1995,2009]
+            ]
+        },
+        {
+            "id":"27",
+            "periodos": [
+                [2004,2009]
+            ]
+        },
+        {
+            "id":"28",
+            "periodos": [
+                [2008,100000]
+            ]
+        },
+        {
+            "id":"29",
+            "periodos": [
+                [2009,100000]
+            ]
+        },
+        {
+            "id":"30",
+            "periodos": [
+                [2009,2010]
+            ]
+        },
+        {
+            "id":"31",
+            "periodos": [
+                [2009,100000]
+            ]
+        },
+        {
+            "id":"32",
+            "periodos": [
+                [2010,2016]
+            ]
+        },
+        {
+            "id":"33",
+            "periodos": [
+                [2012,2014]
+            ]
+        },
+        {
+            "id":"5",
+            "periodos": [
+                [2012,2013]
+            ]
+        }
+    ],
+    "secretarios": [
+        {
+            "id":"19",
+            "periodos": [
+                [1976,1992]
+            ]
+        },
+        {
+            "id":"34",
+            "periodos": [
+                [1992,2009]
+            ]
+        },
+        {
+            "id":"35",
+            "periodos": [
+                [2009,100000]
+            ]
+        }
+    ],
+    "institutions": [
+        {
+            "id":"minagri",
+            "nombre-actual": "Ministerio de la Agricultura",
+            "short-name": "minagri",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes": [
+                {
+                    "id":"36",
+                    "periodos": [
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"18",
+                    "periodos": [
+                        [1980,1983]
+                    ]
+                },
+                {
+                    "id":"23",
+                    "periodos": [
+                        [1983,1988]
+                    ]
+                },
+                {
+                    "id":"37",
+                    "periodos": [
+                        [1988,1993]
+                    ]
+                },
+                {
+                    "id":"38",
+                    "periodos": [
+                        [1993,2003]
+                    ]
+                },
+                {
+                    "id":"39",
+                    "notas": {
+                        "0": "viceministra primera en funciones"
+                    },
+                    "periodos": [
+                        [2003,2008]
+                    ]
+                },
+                {
+                    "id":"29",
+                    "periodos": [
+                        [2008,2010]
+                    ]
+                },
+                {
+                    "id":"40",
+                    "periodos": [
+                        [2010,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minvec",
+            "nombre-actual": "Ministro para la Inversión Extranjera y la Colaboración Económica",
+            "short-name": "minvec",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Comité Estatal de Colaboración Económica",
+                    "tipo": "comité estatal",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,2009],
+            "fusiona-con":"mincex",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes": [
+                {
+                    "id":"41",
+                    "periodos": [
+                        [1976,1985]
+                    ]
+                },
+                {
+                    "id":"42",
+                    "periodos": [
+                        [1985,1996]
+                    ]
+                },
+                {
+                    "id":"43",
+                    "periodos": [
+                        [1996,1999]
+                    ]
+                },
+                {
+                    "id":"44",
+                    "periodos": [
+                        [1999,2008]
+                    ]
+                },
+                {
+                    "id":"45",
+                    "periodos": [
+                        [2008,2009]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mincex",
+            "nombre-actual": "Ministerio del Comercio Exterior y la Inversión Extranjera",
+            "short-name": "mincex",
+            "other-names":[
+                {
+                    "periodo":[1976,2009],
+                    "nombre":"Ministerio de Comercio Exterior",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"46",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"26",
+                    "periodos":[
+                        [1980,2000]
+                    ]
+                },
+                {
+                    "id":"47",
+                    "periodos":[
+                        [2000,2009]
+                    ]
+                },
+                {
+                    "id":"45",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"micons",
+            "nombre-actual": "Ministerio de la Construcción",
+            "short-name": "micons",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"48",
+                    "periodos":[
+                        [1976,1986]
+                    ]
+                },
+                {
+                    "id":"49",
+                    "periodos":[
+                        [1986,1987]
+                    ]
+                },
+                {
+                    "id":"50",
+                    "periodos":[
+                        [1987,1995]
+                    ]
+                },
+                {
+                    "id":"51",
+                    "periodos":[
+                        [1995,2002]
+                    ]
+                },
+                {
+                    "id":"52",
+                    "periodos":[
+                        [2002,2011]
+                    ]
+                },
+                {
+                    "id":"53",
+                    "periodos":[
+                        [2011,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"cedlc",
+            "nombre-actual": "Comité Estatal de la Construcción",
+            "short-name": "cedlc",
+            "vida": [1976,1980],
+            "fusiona-con":"micons",
+            "tipo": "comité estatal",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"54",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mimc",
+            "nombre-actual": "Ministerio de la Industria de Materiales de Construcción",
+            "short-name": "mimc",
+            "vida": [1976,1999],
+            "impass": [1980,1987],
+            "fusiona-con":"micons",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"197",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"54",
+                    "periodos":[
+                        [1987,1989]
+                    ]
+                },
+                {
+                    "id":"55",
+                    "periodos":[
+                        [1989,1999]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mep",
+            "nombre-actual": "Ministerio de Economía y Planificación",
+            "short-name": "mep",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Junta Central de Planificación",
+                    "tipo": "junta",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes": [
+                {
+                    "id": "16",
+                    "periodos":[
+                        [1976,1986]
+                    ]
+                },
+                {
+                    "id": "17",
+                    "periodos":[
+                        [1986,1988]
+                    ]
+                },
+                {
+                    "id": "22",
+                    "periodos":[
+                        [1988,1995]
+                    ]
+                },
+                {
+                    "id": "57",
+                    "periodos":[
+                        [1995,1995]
+                    ]
+                },
+                {
+                    "id": "58",
+                    "periodos":[
+                        [1995,2009]
+                    ]
+                },
+                {
+                    "id": "31",
+                    "periodos":[
+                        [2009,2011],[2014,2016]
+                    ]
+                },
+                {
+                    "id": "33",
+                    "periodos":[
+                        [2011,2014]
+                    ]
+                },
+                {
+                    "id": "28",
+                    "periodos":[
+                        [2016,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mac",
+            "nombre-actual": "Ministerio de Auditoría y Control",
+            "short-name": "mac",
+            "vida": [2001,2009],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes": [
+                {
+                    "id":"60",
+                    "periodos":[
+                        [2001,2006]
+                    ]
+                },
+                {
+                    "id":"61",
+                    "periodos":[
+                        [2006,2009]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mtss",
+            "nombre-actual": "Ministerio de Trabajo y Seguridad Social",
+            "short-name": "mtss",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Comité Estatal de Trabajo y Seguridad Social",
+                    "tipo": "comité estatal",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"62",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"63",
+                    "periodos":[
+                        [1980,1986]
+                    ]
+                },
+                {
+                    "id":"64",
+                    "periodos":[
+                        [1986,1995]
+                    ]
+                },
+                {
+                    "id":"6",
+                    "periodos":[
+                        [1995,1999]
+                    ]
+                },
+                {
+                    "id":"65",
+                    "periodos":[
+                        [1999,2009]
+                    ]
+                },
+                {
+                    "id":"66",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mfp",
+            "nombre-actual": "Ministerio de Finanzas y Precios",
+            "short-name": "mfp",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Comité Estatal de Finanzas",
+                    "tipo": "comité estatal",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"67",
+                    "periodos":[
+                        [1976,1985]
+                    ]
+                },
+                {
+                    "id":"68",
+                    "periodos":[
+                        [1985,1993]
+                    ]
+                },
+                {
+                    "id":"58",
+                    "periodos":[
+                        [1993,1995]
+                    ]
+                },
+                {
+                    "id":"69",
+                    "periodos":[
+                        [1995,2003]
+                    ]
+                },
+                {
+                    "id":"70",
+                    "periodos":[
+                        [2003,2009]
+                    ]
+                },
+                {
+                    "id":"60",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"cep",
+            "nombre-actual": "Comité Estatal de Precios",
+            "short-name": "cdlc",
+            "vida": [1976,1994],
+            "fusiona-con":"mfp",
+            "tipo": "comité estatal",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"71",
+                    "periodos":[
+                        [1976,1982]
+                    ]
+                },
+                {
+                    "id":"22",
+                    "periodos":[
+                        [1982,1983]
+                    ]
+                },
+                {
+                    "id":"72",
+                    "periodos":[
+                        [1983,1994]
+                    ]
+                }
+            ]
+        }, 
+        {
+            "id":"minfar",
+            "nombre-actual": "Ministerio de las Fuerzas Armadas Revolucionarias",
+            "short-name": "minfar",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"2",
+                    "periodos":[
+                        [1976,2008]
+                    ]
+                },
+                {
+                    "id":"73",
+                    "periodos":[
+                        [2008,2011]
+                    ]
+                },
+                {
+                    "id":"74",
+                    "periodos":[
+                        [2011,100000]
+                    ]
+                }
+            ]
+        },
+         {
+            "id":"mined",
+            "nombre-actual": "Ministerio de Educación",
+            "short-name": "mined",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"15",
+                    "periodos":[
+                        [1976,1978]
+                    ]
+                },
+                {
+                    "id":"75",
+                    "periodos":[
+                        [1978,1984]
+                    ]
+                },
+                {
+                    "id":"15",
+                    "periodos":[
+                        [1984,1990]
+                    ]
+                },
+                {
+                    "id":"76",
+                    "periodos":[
+                        [1990,2008]
+                    ]
+                },
+                {
+                    "id":"77",
+                    "periodos":[
+                        [2008,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minint",
+            "nombre-actual": "Ministerio del Interior",
+            "short-name": "minint",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"79",
+                    "periodos":[
+                        [1976,1979]
+                    ]
+                },
+                {
+                    "id":"3",
+                    "periodos":[
+                        [1979,1985]
+                    ]
+                },
+                {
+                    "id":"80",
+                    "periodos":[
+                        [1985,1989]
+                    ]
+                },
+                {
+                    "id":"81",
+                    "periodos":[
+                        [1989,2015]
+                    ]
+                },
+                {
+                    "id":"82",
+                    "periodos":[
+                        [2015,2017]
+                    ]
+                },
+                {
+                    "id":"83",
+                    "periodos":[
+                        [2015,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mincom",
+            "nombre-actual": "Ministerio de Comunicaciones",
+            "short-name": "mincom",
+            "other-names":[
+                {
+                    "periodo":[2000,2013],
+                    "nombre":"Ministerio de la Informática y las Comunicaciones",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"84",
+                    "periodos":[
+                        [1976,1985]
+                    ]
+                },
+                {
+                    "id":"85",
+                    "periodos":[
+                        [1985,1993]
+                    ]
+                },
+                {
+                    "id":"86",
+                    "periodos":[
+                        [1993,2000]
+                    ]
+                },
+                {
+                    "id":"87",
+                    "periodos":[
+                        [2000,2005]
+                    ]
+                },
+                {
+                    "id":"3",
+                    "periodos":[
+                        [2005,2010]
+                    ]
+                },
+                {
+                    "id":"88",
+                    "periodos":[
+                        [2010,2012]
+                    ]
+                },
+                {
+                    "id":"89",
+                    "periodos":[
+                        [2012,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minjus",
+            "nombre-actual": "Ministerio de Justicia",
+            "short-name": "minjus",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"90",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"8",
+                    "periodos":[
+                        [1980,1983]
+                    ]
+                },
+                {
+                    "id":"91",
+                    "periodos":[
+                        [1983,1990]
+                    ]
+                },
+                {
+                    "id":"92",
+                    "periodos":[
+                        [1990,1996]
+                    ]
+                },
+                {
+                    "id":"93",
+                    "periodos":[
+                        [1996,2007]
+                    ]
+                },
+                {
+                    "id":"94",
+                    "periodos":[
+                        [2007,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minrex",
+            "nombre-actual": "Ministerio de Relaciones Exteriores",
+            "short-name": "minrex",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"95",
+                    "periodos":[
+                        [1976,1992]
+                    ]
+                },
+                {
+                    "id":"96",
+                    "periodos":[
+                        [1992,1993]
+                    ]
+                },
+                {
+                    "id":"97",
+                    "periodos":[
+                        [1993,1999]
+                    ]
+                },
+                {
+                    "id":"98",
+                    "periodos":[
+                        [1999,2009]
+                    ]
+                },
+                {
+                    "id":"99",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minsap",
+            "nombre-actual": "Ministerio de Salud Pública",
+            "short-name": "minsap",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"100",
+                    "periodos":[
+                        [1976,1979]
+                    ]
+                },
+                {
+                    "id":"79",
+                    "periodos":[
+                        [1979,1986]
+                    ]
+                },
+                {
+                    "id":"101",
+                    "periodos":[
+                        [1986,1995]
+                    ]
+                },
+                {
+                    "id":"102",
+                    "periodos":[
+                        [1995,2002]
+                    ]
+                },
+                {
+                    "id":"103",
+                    "periodos":[
+                        [2002,2005]
+                    ]
+                },
+                {
+                    "id":"104",
+                    "periodos":[
+                        [2005,2010]
+                    ]
+                },
+                {
+                    "id":"105",
+                    "periodos":[
+                        [2010,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mitrans",
+            "nombre-actual": "Ministerio de Transporte",
+            "short-name": "mitrans",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"32",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"11",
+                    "periodos":[
+                        [1980,1985]
+                    ]
+                },
+                {
+                    "id":"12",
+                    "periodos":[
+                        [1985,1989]
+                    ]
+                },
+                {
+                    "id":"106",
+                    "periodos":[
+                        [1989,1996]
+                    ]
+                },
+                {
+                    "id":"201",
+                    "periodos":[
+                        [1996,1997]
+                    ]
+                },
+                {
+                    "id":"107",
+                    "periodos":[
+                        [1997,2003]
+                    ]
+                },
+                {
+                    "id":"108",
+                    "periodos":[
+                        [2003,2006]
+                    ]
+                },
+                {
+                    "id":"30",
+                    "periodos":[
+                        [2006,2010]
+                    ]
+                },
+                {
+                    "id":"109",
+                    "periodos":[
+                        [2010,2015]
+                    ]
+                },
+                {
+                    "id":"33",
+                    "periodos":[
+                        [2015,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mincin",
+            "nombre-actual": "Ministerio del Comercio Interior",
+            "short-name": "mincin",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"110",
+                    "periodos":[
+                        [1976,1981]
+                    ]
+                },
+                {
+                    "id":"111",
+                    "periodos":[
+                        [1981,1995]
+                    ]
+                },
+                {
+                    "id":"112",
+                    "periodos":[
+                        [1995,2006]
+                    ]
+                },
+                {
+                    "id":"31",
+                    "periodos":[
+                        [2006,2009]
+                    ]
+                },
+                {
+                    "id":"113",
+                    "periodos":[
+                        [2009,2011]
+                    ]
+                },
+                {
+                    "id":"114",
+                    "periodos":[
+                        [2011,100000]
+                    ]
+                }
+            ]
+        },
+         {
+            "id":"citma",
+            "nombre-actual": "Ministerio de Ciencia, Tecnología y Medio Ambiente",
+            "short-name": "citma",
+            "other-names":[
+                {
+                    "periodo":[1976,1980],
+                    "nombre":"Comité Estatal de Ciencia y Técnica",
+                    "tipo": "comité estatal",
+                    "nombre-jefe": "presidente"
+                },
+                {
+                    "periodo":[1980,1994],
+                    "nombre":"Academia de Ciencias de Cuba",
+                    "tipo": "academia de ciencias",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"116",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"117",
+                    "periodos":[
+                        [1980,1985]
+                    ]
+                },
+                {
+                    "id":"118",
+                    "periodos":[
+                        [1985,2004]
+                    ]
+                },
+                {
+                    "id":"119",
+                    "notas": {
+                        "0": "viceministro primero en funciones"
+                    },
+                    "periodos":[
+                        [2004,2009]
+                    ]
+                },
+                {
+                    "id":"120",
+                    "periodos":[
+                        [2009,2012]
+                    ]
+                },
+                {
+                    "id":"121",
+                    "periodos":[
+                        [2012,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mincult",
+            "nombre-actual": "Ministerio de Cultura",
+            "short-name": "mincult",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"122",
+                    "periodos":[
+                        [1976,1997]
+                    ]
+                },
+                {
+                    "id":"123",
+                    "notas": {
+                        "1": "interino"
+                    },
+                    "periodos":[
+                        [1997,2012],[2016,100000]
+                    ]
+                },
+                {
+                    "id":"124",
+                    "periodos":[
+                        [2012,2014]
+                    ]
+                },
+                {
+                    "id":"125",
+                    "periodos":[
+                        [2014,2016]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mes",
+            "nombre-actual": "Ministerio de Educación Superior",
+            "short-name": "mes",
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"126",
+                    "periodos":[
+                        [1976,2005]
+                    ]
+                },
+                {
+                    "id":"127",
+                    "periodos":[
+                        [2005,2009]
+                    ]
+                },
+                {
+                    "id":"5",
+                    "periodos":[
+                        [2009,2012]
+                    ]
+                },
+                {
+                    "id":"128",
+                    "periodos":[
+                        [2012,2016]
+                    ]
+                },
+                {
+                    "id":"129",
+                    "periodos":[
+                        [2016,100000]
+                    ]
+                }
+            ]
+        },
+         {
+            "id":"mintur",
+            "nombre-actual": "Ministerio de Turismo",
+            "short-name": "mintur",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Instituto Nacional de Turismo",
+                    "tipo": "instituto",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"130",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"131",
+                    "periodos":[
+                        [1980,1986]
+                    ]
+                },
+                {
+                    "id":"132",
+                    "periodos":[
+                        [1986,1994]
+                    ]
+                },
+                {
+                    "id":"19",
+                    "periodos":[
+                        [1994,1999]
+                    ]
+                },
+                {
+                    "id":"43",
+                    "periodos":[
+                        [1999,2004]
+                    ]
+                },
+                {
+                    "id":"133",
+                    "periodos":[
+                        [2004,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"bcc",
+            "nombre-actual": "Banco Central de Cuba",
+            "short-name": "bcc",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Banco Nacional de Cuba",
+                    "tipo": "banco",
+                    "nombre-jefe": "presidente"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "Banco",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"134",
+                    "periodos":[
+                        [1976,1985]
+                    ]
+                },
+                {
+                    "id":"135",
+                    "periodos":[
+                        [1985,1995]
+                    ]
+                },
+                {
+                    "id":"136",
+                    "periodos":[
+                        [1995,2009]
+                    ]
+                },
+                {
+                    "id":"137",
+                    "periodos":[
+                        [2009,2017]
+                    ]
+                },
+                {
+                    "id":"138",
+                    "periodos":[
+                        [2017,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"inder",
+            "nombre-actual": "Instituto Nacional de Deportes, Educación Física y Recreación",
+            "short-name": "inder",
+            "vida": [1976,100000],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"139",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"140",
+                    "periodos":[
+                        [1980,1985]
+                    ]
+                },
+                {
+                    "id":"141",
+                    "periodos":[
+                        [1985,1994]
+                    ]
+                },
+                {
+                    "id":"142",
+                    "periodos":[
+                        [1994,1997]
+                    ]
+                },
+                {
+                    "id":"143",
+                    "periodos":[
+                        [1997,2005]
+                    ]
+                },
+                {
+                    "id":"144",
+                    "periodos":[
+                        [2005,2014]
+                    ]
+                },
+                {
+                    "id":"145",
+                    "periodos":[
+                        [2014,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"icrt",
+            "nombre-actual": "Instituto Nacional de Deportes, Educación Física y Recreación",
+            "short-name": "icrt",
+            "vida": [1976,100000],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"146",
+                    "periodos":[
+                        [1976,1985]
+                    ]
+                },
+                {
+                    "id":"147",
+                    "periodos":[
+                        [1985,1990]
+                    ]
+                },
+                {
+                    "id":"148",
+                    "periodos":[
+                        [1990,1999]
+                    ]
+                },
+                {
+                    "id":"149",
+                    "periodos":[
+                        [1999,2009]
+                    ]
+                },
+                {
+                    "id":"150",
+                    "periodos":[
+                        [2009,2016]
+                    ]
+                },
+                {
+                    "id":"151",
+                    "periodos":[
+                        [2016,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"inrh",
+            "nombre-actual": "Instituto Nacional de Recursos Hidráulicos",
+            "short-name": "inrh",
+            "vida": [1989,100000],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"152",
+                    "periodos":[
+                        [1989,2007]
+                    ]
+                },
+                {
+                    "id":"53",
+                    "periodos":[
+                        [2007,2011]
+                    ]
+                },
+                {
+                    "id":"153",
+                    "periodos":[
+                        [2011,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"iacc",
+            "nombre-actual": "Instituto de Aeronáutica Civil de Cuba",
+            "short-name": "iacc",
+            "vida": [1985,2012],
+            "fusiona-con":"mitrans",
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"157",
+                    "periodos":[
+                        [1985,1987]
+                    ]
+                },
+                {
+                    "id":"158",
+                    "periodos":[
+                        [1987,1989]
+                    ]
+                },
+                {
+                    "id":"159",
+                    "periodos":[
+                        [1989,2010]
+                    ]
+                },
+                {
+                    "id":"160",
+                    "periodos":[
+                        [2010,2012]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"inre",
+            "nombre-actual": "Instituto Nacional de Reservas Estatales",
+            "short-name": "inre",
+            "vida": [2005,2008],
+            "fusiona-con":"minfar",
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"161",
+                    "periodos":[
+                        [2005,2008]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"inv",
+            "nombre-actual": "Instituto Nacional de la Vivienda",
+            "short-name": "inv",
+            "vida": [1984,1994],
+            "fusiona-con":"micons",
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"162",
+                    "periodos":[
+                        [1984,1994]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"iciodi",
+            "nombre-actual": "Instituto Cubano de Investigaciones y Orientación de la Demanda Interna",
+            "short-name": "iciodi",
+            "vida": [1976,1980],
+            "fusiona-con":"mep",
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"163",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"infan",
+            "nombre-actual": "Instituto de la Infancia",
+            "short-name": "infan",
+            "vida": [1976,1980],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"199",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"indaf",
+            "nombre-actual": "Instituto Nacional de Desarrollo y Aprovechamiento Forestal",
+            "short-name": "indaf",
+            "vida": [1976,1980],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"200",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"ich",
+            "nombre-actual": "Instituto Cubano de Hidrografia",
+            "short-name": "ich",
+            "vida": [1976,1980],
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"174",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"insatc",
+            "nombre-actual": "Instituto Nacional de Sistemas Automatizados y Técnicas de Computación",
+            "short-name": "insatc",
+            "vida": [1976,1994],
+            "fusiona-con":"mindus",
+            "tipo": "instituto",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"164",
+                    "periodos":[
+                        [1976,1982]
+                    ]
+                },
+                {
+                    "id":"165",
+                    "periodos":[
+                        [1982,1986]
+                    ]
+                },
+                {
+                    "id":"166",
+                    "periodos":[
+                        [1986,1994]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"cen",
+            "nombre-actual": "Comité Estatal de Normalización",
+            "short-name": "cen",
+            "vida": [1976,1994],
+            "fusiona-con":"mep",
+            "tipo": "comité estatal",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"167",
+                    "periodos":[
+                        [1976,1994]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"cee",
+            "nombre-actual": "Comité Estatal de Estadísticas",
+            "short-name": "cee",
+            "vida": [1976,1994],
+            "fusiona-con":"mep",
+            "tipo": "comité estatal",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"168",
+                    "periodos":[
+                        [1976,1994]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"ceatm",
+            "nombre-actual": "Comité Estatal de Abastecimiento Técnico Material",
+            "short-name": "ceatm",
+            "vida": [1976,1994],
+            "fusiona-con":"mep",
+            "tipo": "comité estatal",
+            "nombre-jefe": "presidente",
+            "jefes":[
+                {
+                    "id":"169",
+                    "periodos":[
+                        [1976,1984]
+                    ]
+                },
+                {
+                    "id":"170",
+                    "periodos":[
+                        [1984,1994]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minal",
+            "nombre-actual": "Ministerio de la Industria Alimentaria",
+            "short-name": "minal",
+            "vida": [1976,100000],
+            "fusiona-con":"minal",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"171",
+                    "periodos":[
+                        [1976,2009]
+                    ]
+                },
+                {
+                    "id":"172",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mip",
+            "nombre-actual": "Ministerio de la Industria Pesquera",
+            "short-name": "mip",
+            "other-names":[
+                {
+                    "periodo":[1976,1980],
+                    "nombre":"Ministerio de Marina Mercante, Puertos y Pesca",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                }
+            ],
+            "vida": [1976,2009],
+            "fusiona-con":"minal",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"173",
+                    "periodos":[
+                        [1976,1979]
+                    ]
+                },
+                {
+                    "id":"174",
+                    "periodos":[
+                        [1980,1995]
+                    ]
+                },
+                {
+                    "id":"175",
+                    "periodos":[
+                        [1995,2000]
+                    ]
+                },
+                {
+                    "id":"176",
+                    "periodos":[
+                        [2000,2009]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minaz",
+            "nombre-actual": "Ministerio del Azúcar",
+            "short-name": "minaz",
+            "vida": [1976,2011],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "fusiona-con":"minagri",
+            "jefes":[
+                 {
+                    "id":"178",
+                    "periodos":[
+                        [1976,1977]
+                    ]
+                },
+                {
+                    "id":"12",
+                    "periodos":[
+                        [1977,1985]
+                    ]
+                },
+                {
+                    "id":"22",
+                    "periodos":[
+                        [1985,1986]
+                    ]
+                },
+                {
+                    "id":"193",
+                    "periodos":[
+                        [1986,1993]
+                    ]
+                },
+                {
+                    "id":"194",
+                    "periodos":[
+                        [1993,1997]
+                    ]
+                },
+                {
+                    "id":"29",
+                    "periodos":[
+                        [1997,2008]
+                    ]
+                },
+                {
+                    "id":"195",
+                    "periodos":[
+                        [2008,2010]
+                    ]
+                },
+                {
+                    "id":"196",
+                    "periodos":[
+                        [2010,2011]
+                    ]
+                }
+            ]
+            },
+
+        {
+            "id":"mindus",
+            "nombre-actual": "Ministerio de Industrias",
+            "short-name": "mindus",
+            "other-names":[
+                {
+                    "periodo":[1976,1994],
+                    "nombre":"Ministerio de la Industria Sideromecánica",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                },
+                {
+                    "periodo":[1994,2000],
+                    "nombre":"Ministerio de la Industria Sideromecánica  y la Electrónica",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                },
+                {
+                    "periodo":[2000,2012],
+                    "nombre":"Ministerio de la Industria Sideromecánica",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                }
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"177",
+                    "periodos":[
+                        [1976,1977]
+                    ]
+                },
+                {
+                    "id":"178",
+                    "periodos":[
+                        [1977,1990]
+                    ]
+                },
+                {
+                    "id":"87",
+                    "periodos":[
+                        [1990,2000]
+                    ]
+                },
+                {
+                    "id":"179",
+                    "periodos":[
+                        [2000,2009]
+                    ]
+                },
+                {
+                    "id":"180",
+                    "periodos":[
+                        [2009,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mindul",
+            "nombre-actual": "Ministerio de la Industria Ligera",
+            "short-name": "mindul",
+            "vida": [1976,2012],
+            "fusiona-con":"mindus",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"181",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"69",
+                    "periodos":[
+                        [1980,1985]
+                    ]
+                },
+                {
+                    "id":"182",
+                    "periodos":[
+                        [1985,1986]
+                    ]
+                },
+                {
+                    "id":"20",
+                    "periodos":[
+                        [1986,1990]
+                    ]
+                },
+                {
+                    "id":"183",
+                    "periodos":[
+                        [1990,1995]
+                    ]
+                },
+                {
+                    "id":"184",
+                    "periodos":[
+                        [1995,2003]
+                    ]
+                },
+                {
+                    "id":"185",
+                    "periodos":[
+                        [2003,2005]
+                    ]
+                },
+                {
+                    "id":"186",
+                    "periodos":[
+                        [2005,2010]
+                    ]
+                },
+                {
+                    "id":"187",
+                    "periodos":[
+                        [2010,2012]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minem",
+            "nombre-actual": "Ministerio de Energía y Minas",
+            "short-name": "minem",
+            "other-names":[
+                {
+                    "periodo":[1976,1980],
+                    "nombre":"Ministerio de la Industria Eléctrica",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                },
+                {
+                    "periodo":[1980,2012],
+                    "nombre":"Ministerio de la Industria Básica",
+                    "tipo": "ministerio",
+                    "nombre-jefe": "ministro"
+                }  
+            ],
+            "vida": [1976,100000],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"188",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                },
+                {
+                    "id":"14",
+                    "periodos":[
+                        [1980,1983]
+                    ]
+                },
+                {
+                    "id":"189",
+                    "periodos":[
+                        [1983,2004]
+                    ]
+                },
+                {
+                    "id":"190",
+                    "periodos":[
+                        [2004,2010]
+                    ]
+                },
+                {
+                    "id":"191",
+                    "periodos":[
+                        [2010,2012]
+                    ]
+                },
+                {
+                    "id":"176",
+                    "periodos":[
+                        [2012,100000]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"minmig",
+            "nombre-actual": "Ministerio de Minería y Geología",
+            "short-name": "minmig",
+            "vida": [1976,1980],
+            "fusiona-con":"minem",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"198",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"miniquim",
+            "nombre-actual": "Ministerio de Industria Química",
+            "short-name": "miniquim",
+            "vida": [1976,1980],
+            "fusiona-con":"minem",
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+                    "id":"20",
+                    "periodos":[
+                        [1976,1980]
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"mingob",
+            "nombre-actual": "Ministro de Gobierno",
+            "short-name": "mingob",
+            "vida": [1976,2008],
+            "tipo": "ministerio",
+            "nombre-jefe": "ministro",
+            "jefes":[
+                {
+            "id":"20",
+            "periodos":[
+                [1980,1981]
+            ]
+        },
+        {
+            "id":"154",
+            "periodos":[
+                [1980,1981]
+            ]
+        },
+        {
+            "id":"155",
+            "periodos":[
+                [1980,1995]
+            ]
+        },
+        {
+            "id":"54",
+            "periodos":[
+                [1980,1987]
+            ]
+        },
+        {
+            "id":"22",
+            "periodos":[
+                [1983,1985]
+            ]
+        },
+        {
+            "id":"63",
+            "periodos":[
+                [1986,1991]
+            ]
+        },
+        {
+            "id":"156",
+            "periodos":[
+                [1995,2005]
+            ]
+        },
+        {
+            "id":"28",
+            "periodos":[
+                [1998,2008]
+            ]
+        }  
+            ]
+        }    
+    ]
+}

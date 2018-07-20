@@ -1,0 +1,56 @@
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+.check {
+    background-color: #461A57;     
+    color: #FFFFFF;
+}
+
+.periods {
+    margin: 3px;
+    width:100%;
+}
+
+.filltd {
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.periods>tbody>tr>td>div {
+    border: 1px solid;
+    border-color: #FFFFFF;
+}
+
+
+.mindiv:hover,
+.mindiv:focus {
+   border: 2px solid;
+   border-color: #717276;
+}
+
+.trhead {
+    font-size:12px;
+    font-weight: bold;
+}
+
+.nameintable {
+    font-size:16px;
+}
+
+.time-graph {
+    min-height: 380px;
+}
+
+.minist {
+    border: 1px solid;
+}
+
+.mtext {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.mname {
+    margin-top: 5px;
+}

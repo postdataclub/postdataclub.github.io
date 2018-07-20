@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Féminas en el ejecutivo</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="../../assets/css/tooltipster.bundle.min.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/cm.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Féminas en el ejecutivo</div>
+            <div class="article-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>  y <a href="../../equipo/yudivian.html">Yudivián Almeida</a> <span class="article-date">20/07/2018</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Un análisis de la presencia de mujeres en el Consejo de Ministros</div> 
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+ Las mujeres nunca han tenido una presencia amplia en el poder ejecutivo de Cuba, si bien el número ha ido aumentando 
+ en el tiempo. Antes del Triunfo Revolucionario de 1959, solo figura entre los ministros cubanos de la República una 
+ fémina: Mariblanca Sabas Alomá. Esta mujer, famosa en su época por su labor como periodista, poetisa y feminista -incluso 
+ fue encarcelada por sus acciones de protesta- fue nombrada Ministra sin cartera entre los años 1948 y 1952.  
+</p>
+<p>
+Pastora Núñez (Pastorita) fue la  primera mujer en ocupar un cargo en el Consejo de Ministros de Cuba luego de 
+la Revolución. Desde el año 1959 y hasta 1964, se desempeñó como Presidenta del Instituto Nacional de Ahorro y Vivienda, 
+entidad que tenía rango Ministerial 
+</p>
+<p>
+Luego, Celia Sánchez Manduley, quien había luchado junto a los Rebeldes en la Sierra Maestra, 
+asumió en el año 1962 como Secretaria del Consejo de Ministros hasta el año 1976, cuando pasó a ocupar el puesto 
+de Secretaria del Consejo de Estado. Esta labor la desempeñó hasta su muerte en 1980.
+</p>
+<p>
+Desde que quedó constituida la I Legislatura, en el año 1976, y hasta hoy, solo el 11.8% de los integrantes de los distintos Consejos 
+de Ministros han sido mujeres. Partiendo del primero de estos órganos ejecutivos, que quedó integrado por 52 sujetos, 
+de los cuales solo 3 eran mujeres y hasta el que ahora mismo se mantiene en funciones, con 9 féminas de 32 miembros, 
+las mujeres no han sido nunca mayoría. Además, desde 1976 los principales cargos de dirección del Consejo de Ministros 
+-dígase Presidente, Primer Vicepresidente, Vicepresidente y Secretario- nunca han sido ocupados por mujeres. 
+</p>
+</div>
+
+<div id="evolucion-genero" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Evolución de la distribución por género de los miembros del Consejo de Ministros (1976-2018)
+</div>
+<div style="text-align:center;" > <div class="btn-group"><button id="btn-mujeres-total" type="button" class="cursor btn check btn-evols" onclick="changeEvolutionDiv('mujeres-total','mujeres-porciento');"> Total </button><button type="button" class="cursor btn  btn-evols" onclick="changeEvolutionDiv('mujeres-porciento','mujeres-total');" id="btn-mujeres-porciento"> Porciento</button></div></div>
+<div  id="mujeres-total"></div>
+<div  id="mujeres-porciento" style="display:none;"></div>
+</div>   
+
+<div class="text-block">
+    <p>
+    A lo largo de estos años, sin embargo, ha habido algunos ministerios dirigidos más frecuentemente por mujeres que otros. 
+    El extinto Ministerio de la Industria Ligera, desde 1976 y hasta el 2012, cuando sus funciones fueron asumidas por el actual 
+    Ministerio de Industrias, fue dirigido por 3 mujeres. Cuando quedó constituida la I Legislatura en 1976, una mujer 
+    ocupaba el cargo: Nora Frómeta Silva, y allí continuó hasta 1980. Luego, en el año 2003, Estela Domínguez Ariosa ocupó 
+    la jefatura del Ministerio hasta 2005. Cuando este despareció en 2012, otra mujer lo dirigía desde 2010: Damar Maceo Cruz.
+    </p>
+    <p>
+    Otras 15 Instituciones con rango ministerial o ministerios han sido dirigidos alguna vez durante estos años por mujeres. 
+    Un par de ejemplos curiosos en estos casos son  el Comité Estatal de Aseguramiento Técnico Material y el Ministerio de Auditoría 
+    y Control. Ninguna de estas entidades existe ya y, en ambas, todas sus dirigentes (2 en cada caso) fueron mujeres. Mientras tanto,
+    Electra Férnandez López presidió el Instituto de la Infancia desde 1976 hasta 1980, año en que dejó de existir como tal.
+    </p>
+    <p>
+    Entre 1976 y 2018,  de 48 instituciones ministeriales diferentes, solo 16 han tenido a mujeres como máximas dirigentes. 
+    Lina Pedraza Rodríguez es la única mujer que ha ocupado el cargo superior en dos Ministerios diferentes: 
+    fue la Ministra de Auditoría y Control entre 2001 y 2006, y desde 2009 es la Ministra de Finanzas y Precios. 
+    En total, 23 mujeres han tenido el rango de ministras en Cuba en 42 años, mientras que, en igual período, 172 hombres han 
+    pertenecido al Consejo de Ministros.
+    </p>
+</div>
+
+<div id="ministerios-mujeres" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Composición por género de las instituciones con rango ministerial que han tenido mujeres a cargo (1976-2018)
+</div>
+<div style="text-align:center;" > <div class="btn-group"><button id="btn-ministerio-mujeres-total" type="button" class="cursor btn check btn-evols" onclick="changeEvolutionDiv('ministerio-mujeres-total','ministerio-mujeres-porciento');"> Total </button><button type="button" class="cursor btn  btn-evols" onclick="changeEvolutionDiv('ministerio-mujeres-porciento','ministerio-mujeres-total');" id="btn-ministerio-mujeres-porciento"> Porciento</button></div></div>
+<div  id="ministerio-mujeres-total"></div>
+<div  id="ministerio-mujeres-porciento" style="display:none;"></div>
+</div> 
+
+<div class="text-block">
+<p>
+Generalmente, las mujeres, ocupan el cargo de Ministra por un período promedio de 7 años, cifra similar a la media masculina. 
+Incluso, las 9 mujeres que ahora ocupan funciones de ministra, llevan en promedio 7 años y medio en sus cargos. 
+De estas, la que menos tiempo lleva ocupando esta reponsabilidad es la actual Presidenta del Banco Nacional de Cuba, 
+Irma Margarita Martínez, quien fue nombrada el pasado 2017. En su puesto, además, la que más se ha mantenido estos últimos años 
+es Maria Esther Reus González, la Ministra de Justicia actual, quien lleva las riendas de esta institución desde 2007.
+</p>
+<p>
+La mujer que más tiempo ha ocupado el cargo de Ministra es Rosa Elena Simeón Negrín, 
+quien dirigió durante 19 años los asuntos relacionados con ciencia, tecnología y Medio Ambiente en Cuba, 
+primero como Presidenta de la Academia de Ciencias desde 1985 y hasta 1994, que en ese entonces tenía rango ministerial, 
+y luego, como Ministra de Ciencia Teconología y Medio Ambiente hasta 2004, el año de su muerte.
+</p>
+</div>
+
+<div id="ministerio-mujeres-rangos" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;margin-bottom:30px;">
+    Períodos de dirección en las instituciones con rango ministerial que han tenido a mujeres a cargo (1976-2018)
+</div>
+<div id="mujeres-rangos" class="graph">
+</div>
+<div class="legend main-text" style="text-align: center;"><i class="female-text fa fa-square"></i> Mujeres &nbsp;&nbsp;<i class="male-text fa fa-square"></i> Hombres</div>
+</div>
+
+<div class="text-block">
+<p>
+Incluso ahora, cuando hay la mayor cantidad histórica de féminas al frente de ministerios cubanos, se nota que 
+este sector de la sociedad está subrepresentado en el poder ejecutivo. Desde la I Legislatura, el porciento de mujeres 
+ha sido muy bajo, y en el actual Consejo de Ministros, ellas son solo el 28% de los miembros.
+</p>
+<p>
+Esto, sumado a que, desde 1976, nunca una mujer ha formado parte de la dirección del Consejo de Ministros, y a que solo 
+algunas de las instituciones ministeriales han sido presididas por mujeres, da una imagen clara de lo mucho que queda por hacer. 
+No basta con un parlamento balanceado en cuestiones de género. Falta todavía para que sea una realidad 
+completa aquello de que el destino del país también está en manos de las mujeres cubanas. 
+</p>
+</div>
+
+<div class="media-block">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se obtuvieron los datos? <i class="fa fa-plus-square-o"></i></span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div class="text-block" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    La información relativos a los diferentes Consejos de Ministros, su miembros y las instituciones con rango ministerial
+    fue objetenida a partir de distintas fuentes de datos. La principal fuente utilizada fueron los reportes
+    de las distintas legislaturas publicadas en el sitio web de la 
+    <a href="http://www.parlamentocubano.cu/">Asamblea Nacional de Poder Popular de la República de Cuba</a>. 
+    Sin embargo, en este espacio no se pudo obtener toda la información necesaria así que también fue utilizada
+    la información disponible en el sitio <a href="http://www.wikiwand.com/es/Anexo:Cronolog%C3%ADa_del_Consejo_de_Ministros_de_Cuba">Wikiwand</a>.
+    No obstante, además de estos dos espacios, fue también necesario utilizar otras múltiples informes de prensa
+    para corroborar, rectificar y complementar datos. De esta manera se pudo construir una <a href="data/consejo-ministros.json">base de datos</a>
+    en formato JSON que fue procesada y utilizada para obtener la mayoría de los datos del artículo. 
+    </p>
+    <p>
+    El procesamiento de los datos se realizón en el lenguaje de programación Javascript utilizando la biblioteca de clases
+    JQuery. Para los gráficos que se muestran se utilizaron también las bibliotecas de clases D3.js, C3.js y Tooltipster.
+    </p>
+    </div>
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    </div>
+    </div>
+    
+ 
+  </div>
+ 
+  <div class="media-block notes">
+   <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" 
+        href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201807/feminas-en-el-ejecutivo.html"  target='_blank'><div class="cursor  facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201807/feminas-en-el-ejecutivo.html&amp;text=Un%20an%C3%A1lisis%20de%20la%20presencia%20de%20mujeres%20en%20el%20Consejo%20de%20Ministros;hashtags=#postdataclub" target='_blank'><div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Un análisis de la presencia de mujeres en el Consejo de Ministros http://www.postdata.club/issues/201803/201807/feminas-en-el-ejecutivo.html"  target='_blank'><div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div></a></div>
+    </div>
+   </div>
+  
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201807/feminas-en-el-ejecutivo.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201807-2'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+ 
+ <div class="read-more main-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-12 col-md-12 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="consejos-de-ministros.html">Consejos de Ministros</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+  
+</div>
+    
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/tooltipster.bundle.min.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    </script>
+    <script src="js/cm.js"></script>
+  </body>
+</html>
