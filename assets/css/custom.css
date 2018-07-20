@@ -881,5 +881,12 @@ a:focus {
     height:20px;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.gray-color{
+    background-color: gray;
+}
 
 
