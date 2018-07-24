@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Ministerios en Cuba</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/cm.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Ministerios en Cuba</div>
+            <div class="article-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>  y <a href="../../equipo/yudivian.html">Yudivián Almeida</a> <span class="article-date">24/07/2018</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Una historia de cambios constantes</div> 
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+<p>
+Ahora mismo en Cuba hay 26 ministerios o entidades con rango ministerial, sin embargo, en el tiempo, esta cantidad ha variado frecuentemente.
+</p>
+<p>
+Antes de 1959, y luego de la constitución del 1940, en la Isla hubo alrededor de 14 ministerios diferentes. Al frente de este poder ejecutivo 
+se encontraba el Primer Ministro, figura aparte del presidente del país y de su vicepresidente. 
+</p>
+<p>
+Al triunfar la Revolución se crearon nuevos ministerios e institutos que respondieran a las necesidades del nuevo gobierno para resolver 
+asuntos que eran propios del momento histórico. La figura del Primer Ministro se mantuvo hasta 1976 con la nueva constitución, pero los 
+ministerios cambiaron de nombres, o fueron creados desde cero. Así, el Instituto Nacional de la Reforma Agraria (INRA), asumió de 1960 a 
+1967 las funciones del Ministerio de Agricultura, a la vez que se ocupó del reparto de las tierras a los campesinos que las cultivaban y 
+el Ministerio de las leyes Revolucionarias se encargó de la legislación inicial del nuevo gobierno durante 1959.
+</p>
+<p>
+También existió entre los años 1959 y 1961 un ministerio encargado de la recuperación de los “Bienes Malversados”. Su objetivo era intervenir 
+los bienes de Fulgencio Batista y otros altos funcionarios de su gobierno, los de las personas o sociedades presuntamente responsables de 
+delitos contra la economía nacional y la hacienda pública, y contra aquellos que se hubieran enriquecido ilícitamente al amparo del poder público. 
+</p>
+<p>
+Con el objetivo de dirigir la economía cubana hacia un desarrollo planificado y socialista, en el año 1960, la JUCEPLAN, Junta Central de 
+Planificación, asume las funciones del Ministerio de Economía. Según la Ley 757, esta era la encargada de fijar, orientar, supervisar y 
+coordinar la política económica de los diferentes organismos del Estado y de las entidades autónomas, de manera que entre éstos existiera 
+unidad de criterio y acción; así como señalar las normas generales orientadoras de la acción del sector privado.
+</p>
+<p>
+El Ministerio de Obras Públicas, cambió su nombre en 1963 a Ministerio de la Construcción, pues desde 1961 había ido experimentando 
+cambios acorde a la política del país y el nuevo nombre fue el paso final para su constitución. También el Ministerio de Hacienda de Cuba 
+funcionó bajo el mismo nombre hasta 1965, momento en que pasó sus funciones al Banco Nacional de Cuba y terminaría convirtiéndose en el 
+Ministerio de Finanzas y Precios.
+</p>
+<p>
+Los Ministerios relacionados con las Industrias, son otros que a lo largo de los años han ido variando. Durante ciertos períodos algunas 
+instituciones se han ocupado de manera específica de atender sectores como la industria sideromecánica y la electrónica, la pesca, la minería, 
+la industria ligera, la industria básica, la industria eléctrica, la industria química, entre otros. Ahora mismo, asume muchas de estas 
+funciones el Ministerio de Industrias (MINDUL), mientras que el Ministerio de Energía y Minas  asume gran parte de las competencias de 
+la Industria Básica 
+</p>
+<p>
+El Banco Nacional de Cuba, actual Banco Central de Cuba, jugó un papel importante durante todos estos años. Esta institución con rango ministerial, 
+además de sus funciones, asumió las del Ministerio de Hacienda durante 11 años (1965-1976). Se trata, además, de una institución de referencia, 
+pues contó entre sus dirigentes con Ernesto “Ché” Guevara, una de las figuras más representativas del proceso revolucionario, quien luego fue 
+nombrado Ministro de Industrias.
+</p>
+<p>
+Posteriormente, cuando en 1976, bajo el amparo de una nueva constitución,  se constituye la I Legislatura fueron nombrados 43 ministros o presidentes de instituciones. Llama la atención la coexistencia de Comités Estatales, 
+Ministerios e Institutos. Esta arquitectura ejecutiva estaba influenciada por la forma de gestión de la Unión de Repúblicas Socialistas 
+Soviéticas (URSS) y aunque todos se subordinaban al Consejo de Ministros, había diferencias en su gestión. Sin embargo, no transcurrió mucho tiempo
+para que ocurrieran cambios sustanciales.
+</p>
+
+</div>
+
+<div id="evolucion-genero" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Evolución del número de instituciones con rango ministerial (1976-2018)
+</div>
+<div id='ministerios-evolution'></div>
+</div>   
+
+<div class="text-block">
+
+<p>
+El año 1980 marcó uno de los hitos más importantes en la conformación del Consejo de Ministros de Cuba. En esa fecha se extinguieron el 
+Instituto de la Infancia, el Comité Estatal de Ciencia y Técnica, el Comité Estatal de la Construción, el Instituto Nacional de Desarrollo y 
+Aprovechamiento Forestal y el Ministerio de la Industria de los Materiales de Construción. La Academia de Ciencias de Cuba adquirió en ese 
+momento el rango de ministerio en el lugar del Comité Estatal de Ciencia y Técnica. Además, en ese año el Ministerio de la Industria Eléctrica, 
+el de la Industria Química y el de la Minería, Metalúrgica y Geología, se fundieron en el Ministerio de la Industria Básica. Las funciones del 
+Instituto Cubano de Investigaciones y Orientación de la Demanda Interna fueron asumidas por la Junta Central de Planificación, posterior 
+Ministerio de Economía y Planificación. El Ministerio de Marina Mercante, Puertos y Pesca fue renombrado ese año como Ministerio de la 
+Industria Pesquera.
+</p>
+<p>
+En el período siguiente, 1980 - 1994, se incoporaron tres nuevos institutos con rango ministerial. En 1984 se creó el Insituto Nacional de Vivienda,
+en 1985 el Instituto Nacional de Aeronáutica Civil y en 1989 el Instituto Nacional de Recursos Hidráulicos.
+</p>
+<p>
+Otro momento significativo para los Consejos de Ministros en Cuba fue 1994. En esta fecha se establece mediante acuerdo del Consejo de 
+Estado que las vicepresidencias no estarán orientadas específicamente las actividades de los ministerios. Todos los Comités que sobrevivián 
+desaparecieron. Algunos, simplemente cambiaron sus nombres a Ministerio, mientras que otros se integraron a nuevos ministerio. También en 
+1994 se renombraron la Junta Central de Planificación (ahora sería el Ministerio de Economía y Planificación), 
+el Instituto Nacional de Turismo (Ministerio de Turismo) y el Banco Nacional de Cuba (Banco Central de Cuba). Además, al nombre del 
+Ministerio de la Industria Sideromecánica se le agregó: “y la Electrónica” y el Instituto Nacional de la Vivienda se subordinó al 
+Ministerio de la Construcción.
+</p>
+<p>
+Luego, en 1999, se extingue el Ministerio de la Industria de Materiales de Construcción cuyas funciones son asumidas por el Ministerio
+de la Construcción. En el 2001 surge el Ministerio de Auditoría y Control (MAC) que tuvo una vida de apenas 8 años pues dejó de existir en 2009
+y gran parte de su encargo fue a parar a la actual Contraloría General de la República que es dirigida, desde la creación de esta, por
+la última ministra del MAC: Gladys Bejerano. Asimismo, en 2005 aparece otra institución que tuvo una corta vida: Instituto Nacional de Reservas Estatales.
+Tres años depues este instituto cesó su existencia y el Ministerio de las Fuerzas Armadas se hizo cargo de sus actividades.
+</p>
+<p>
+Entre los años 2008 y 2009 acontece otra vez una gran renovación, en este caso, sobre todo, se nota en el comité ejecutivo, y todos 
+los vicepresidentes, a excepción de José Ramón Fernández Álvarez, son removidos de su puesto. En ese período, el MINFAR asume las funciones 
+del instituto Nacional de Reservas Estatales, que existía desde 1985. El Ministerio de la Inversión Extranjera y de la Colaboración económica 
+se funde con el Ministerio de Comercio Exterior, nombre que aún mantiene esa cartera, mientras que el Ministerio de Auditoría y Control, 
+con una edad relativamente corta (8 años), deja de existir y se crea la Contraloría General de la República, órgano superior del estado, 
+subordinado a la Asamblea Nacional. El Ministerio de la Industria Pesquera se extingue en 2009 y sus funciones son asumidas por el Ministerio 
+de la Industria Alimenticia. Ricardo Cabrisas fue el último Ministro de Gobierno de Cuba, pues en 2008 pasó a ser vicepresidente del gobierno 
+y desde entonces no nombran a otro ministro sin cartera. En total, desde 1976, fueron 8 los que se desempeñaron en similar situación.
+</p>
+<p>
+En los últimos años, los cambios más significativos han acontecido entre los años 2011 y 2012. El Ministerio del Azúcar, de suma relevancia 
+para la economía del país desapareció en 2011. Sus funciones fueron asumidas por otros ministerios, entre ellos el de la Agricultura. En 2012  
+surgen el Ministerio de Energía y Minas, que asume casi todas las funciones del anterior Ministerio de la Industria Básica, y el Ministerio 
+de la Industria, donde se fusionan el Ministerio de la Industria Ligera y el Ministerio de la Industria Sideromecánica. También ees en esa 
+fecha que el Instituto de la Aeronáutica Civil Cubana se integra al Ministerio de Transporte. 
+</p>
+
+<p>
+Así se llegó al número actual de entidades ministeriales en Cuba, que es la más baja desde 1976. Sin embargo, esta parece ser una de las más altas 
+de América Latina. Si la comparamos con los países de Sudamérica y con México, Cuba es el segundo país con mayor número de Ministerios, 
+solo antecedido por Venezuela. 
+</p>
+<p>
+Falta conocer qué deparará el nuevo orden constitucional cubano, pues con él podrían aparecer nuevas instituciones ministeriales, o desaparecer 
+algunas de las existentes. Lo que es seguro es que, nuevamente, habrá cambios en el diseño ejecutivo cubano.
+</p>
+</div>
+
+<div id="ministerio-mujeres-rangos" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;margin-bottom:30px;">
+    Instituciones con rango ministerial (1976-2018)
+</div>
+
+<div>
+
+<div class="graph main-text center-text">
+Seleccione una institución: <span><select width="150px;" id="instituciones" ><option value="none" selected="selected">-------</option></select></span>
+</div>
+
+<div id="m-info" style="display:none;margin-top:20px;">
+
+<!--
+<div id="m-nombre">
+<div class="main-text bd  center-text mtext">Nombre Actual</div>
+<div id="m-nombre-actual" class=" center-text"></div>
+</div>
+-->
+
+
+<div id="m-evol">
+<div class="main-text bd  center-text mtext">Evolución</div>
+<div id="m-evol-table"></div>
+</div>
+
+<div id="m-bosses">
+<div class="main-text bd  center-text mtext">Dirigentes</div>
+<div id="m-bosses-table"></div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+<div class="media-block">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se obtuvieron los datos? <i class="fa fa-plus-square-o"></i></span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div class="text-block" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    La información relativos a los diferentes Consejos de Ministros, su miembros y las instituciones con rango ministerial
+    fue objetenida a partir de distintas fuentes de datos. La principal fuente utilizada fueron los reportes
+    de las distintas legislaturas publicadas en el sitio web de la 
+    <a href="http://www.parlamentocubano.cu/">Asamblea Nacional de Poder Popular de la República de Cuba</a>. 
+    Sin embargo, en este espacio no se pudo obtener toda la información necesaria así que también fue utilizada
+    la información disponible en el sitio <a href="http://www.wikiwand.com/es/Anexo:Cronolog%C3%ADa_del_Consejo_de_Ministros_de_Cuba">Wikiwand</a>.
+    No obstante, además de estos dos espacios, fue también necesario utilizar otras múltiples informes de prensa
+    para corroborar, rectificar y complementar datos. De esta manera se pudo construir una <a href="data/consejo-ministros.json">base de datos</a>
+    en formato JSON que fue procesada y utilizada para obtener la mayoría de los datos del artículo. 
+    </p>
+    <p>
+    El procesamiento de los datos se realizó en el lenguaje de programación Javascript utilizando la biblioteca de clases
+    JQuery. Para los gráficos que se muestran se utilizaron también las bibliotecas de clases D3.js, C3.js y Tooltipster.
+    </p>
+    </div>
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+             </div>
+    </div>
+    </div>
+    
+ 
+  </div>
+ 
+  <div class="media-block notes">
+   <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" 
+        href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201807/ministerios-en-cuba.html"  target='_blank'><div class="cursor  facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/issues/201807/ministerios-en-cuba.html&amp;text=Una%20historia%20de%20cambios%20constantes;hashtags=#postdataclub" target='_blank'><div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Una historia de cambios constantes http://www.postdata.club/issues/201803/201807/ministerios-en-cuba.html"  target='_blank'><div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div></a></div>
+    </div>
+   </div>
+  
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/issues/201807/ministerios-en-cuba.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-201807-3'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+
+ <div class="read-more main-text">
+    También en este número:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-6 col-md-6 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="consejos-de-ministros.html">Consejos de Ministros</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+         
+         <div class="col-lg-6 col-md-6 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="feminas-en-el-ejecutivo.html">Féminas en el ejecutivo</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+  
+</div>
+    
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/tooltipster.bundle.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    </script>
+    <script src="js/cmmins.js"></script>
+  </body>
+</html>
