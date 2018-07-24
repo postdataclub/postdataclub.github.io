@@ -54,3 +54,30 @@
 .mname {
     margin-top: 5px;
 }
+
+.inst-info {
+    color: #FFFFFF;
+    font-size: 9px;
+    border: 1px solid;
+    padding: 1px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.l-inst{
+    font-size: 9px;
+    padding: 1px;
+    width:8%;
+    text-align: center;
+}
+.r-inst{
+    font-size: 9px;
+    padding: 1px;
+    width:8%;
+    text-align: center;
+}
+
+#m-nombre-actual {
+    font-size: 22px;
+    font-weight: bold;
+}
