@@ -1092,6 +1092,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Comité Estatal de Colaboración Económica",
+                    "short-name":"cece",
                     "tipo": "comité estatal",
                     "nombre-jefe": "presidente"
                 }
@@ -1141,6 +1142,7 @@
                 {
                     "periodo":[1976,2009],
                     "nombre":"Ministerio de Comercio Exterior",
+                    "short-name":"mce",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 }
@@ -1222,9 +1224,9 @@
             ]
         },
         {
-            "id":"cedlc",
+            "id":"cec",
             "nombre-actual": "Comité Estatal de la Construcción",
-            "short-name": "cedlc",
+            "short-name": "cec",
             "vida": [1976,1980],
             "fusiona-con":"micons",
             "tipo": "comité estatal",
@@ -1276,6 +1278,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Junta Central de Planificación",
+                    "short-name":"juceplan",
                     "tipo": "junta",
                     "nombre-jefe": "presidente"
                 }
@@ -1364,6 +1367,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Comité Estatal de Trabajo y Seguridad Social",
+                    "short-name":"cetss",
                     "tipo": "comité estatal",
                     "nombre-jefe": "presidente"
                 }
@@ -1418,6 +1422,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Comité Estatal de Finanzas",
+                    "short-name":"cef",
                     "tipo": "comité estatal",
                     "nombre-jefe": "presidente"
                 }
@@ -1615,6 +1620,7 @@
                 {
                     "periodo":[2000,2013],
                     "nombre":"Ministerio de la Informática y las Comunicaciones",
+                    "short-name":"mic",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 }
@@ -1929,12 +1935,15 @@
                 {
                     "periodo":[1976,1980],
                     "nombre":"Comité Estatal de Ciencia y Técnica",
+                    "short-name":"cect",
                     "tipo": "comité estatal",
                     "nombre-jefe": "presidente"
                 },
                 {
                     "periodo":[1980,1994],
                     "nombre":"Academia de Ciencias de Cuba",
+                    "short-name":"acc",
+                    "nota": "la ACC no dejó de existir como institución ni antes ni después de este período", 
                     "tipo": "academia de ciencias",
                     "nombre-jefe": "presidente"
                 }
@@ -2069,6 +2078,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Instituto Nacional de Turismo",
+                    "short-name": "intur",
                     "tipo": "instituto",
                     "nombre-jefe": "presidente"
                 }
@@ -2123,6 +2133,7 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Banco Nacional de Cuba",
+                    "short-name":"bnc",
                     "tipo": "banco",
                     "nombre-jefe": "presidente"
                 }
@@ -2217,7 +2228,7 @@
         },
         {
             "id":"icrt",
-            "nombre-actual": "Instituto Nacional de Deportes, Educación Física y Recreación",
+            "nombre-actual": "Instituto Cubano de Cine, Radio y Televisión",
             "short-name": "icrt",
             "vida": [1976,100000],
             "tipo": "instituto",
@@ -2540,6 +2551,7 @@
                 {
                     "periodo":[1976,1980],
                     "nombre":"Ministerio de Marina Mercante, Puertos y Pesca",
+                    "short-name":"mmmpp",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 }
@@ -2643,18 +2655,21 @@
                 {
                     "periodo":[1976,1994],
                     "nombre":"Ministerio de la Industria Sideromecánica",
+                    "short-name":"sime",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 },
                 {
                     "periodo":[1994,2000],
                     "nombre":"Ministerio de la Industria Sideromecánica  y la Electrónica",
+                    "short-name":"simeel",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 },
                 {
                     "periodo":[2000,2012],
                     "nombre":"Ministerio de la Industria Sideromecánica",
+                    "short-name":"sime",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 }
@@ -2768,12 +2783,14 @@
                 {
                     "periodo":[1976,1980],
                     "nombre":"Ministerio de la Industria Eléctrica",
+                    "short-name":"minel",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 },
                 {
                     "periodo":[1980,2012],
                     "nombre":"Ministerio de la Industria Básica",
+                    "short-name":"minbas",
                     "tipo": "ministerio",
                     "nombre-jefe": "ministro"
                 }  
