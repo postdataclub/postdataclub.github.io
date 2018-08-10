@@ -16,7 +16,7 @@
 } 
 
 .art-inciso {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 #last-art>i, #next-art>i {
@@ -37,7 +37,8 @@
 }
 
 #debate-action {
-    background-color: rgb(51,122,183);
+    /*background-color: rgb(51,122,183);*/
+    background-color: #461A57;
     color: #FFFFFF;
     padding: 5px;
 }
@@ -50,5 +51,9 @@
     font-size: 16px;
     margin-top: 20px;
     font-weight: bold;
-    color: rgb(51,122,183);
+    color: #461A57;
+}
+
+#indice {
+    height: 100%;
 }

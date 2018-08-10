@@ -128,6 +128,8 @@ $.getJSON("data/constitucion.json",function(data){
  
 var $indexTree = $('#indice').treeview({
 selectedBackColor: '#461A57',
+backColor: "#FAFAFA",
+onhoverColor: "#EDF2F5",
 showBorder:false,data: get_tree()});
 $indexTree.on('nodeSelected', function(event, data) {
      if ('tid' in data){
@@ -386,7 +388,7 @@ $indexTree.on('nodeSelected', function(event, data) {
         var keys = Object.keys(incisos);
         keys.sort();
         for(var i=0;i<keys.length;i++){
-            arttext +='<p class="art-inciso">'+incisos[keys[i]]['id']+') ';
+            arttext +='<p class="art-inciso"><span class="it">'+incisos[keys[i]]['id']+')</span> ';
             for(var j=0;j<incisos[keys[i]].texto.length;j++){
                 arttext+=incisos[keys[i]].texto[j]+'<br>';
             }
