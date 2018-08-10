@@ -1,0 +1,54 @@
+#art-content {
+    font-size: 16px;
+    margin-top: 10px;
+}
+#art-title {
+    color: #461A57;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#title-art, #chapter-art, #section-art {
+    font-size:12px;
+    font-weight: bold;
+    color: #9C9DA1;
+    margin-bottom: 2px;
+} 
+
+.art-inciso {
+    padding-left: 10px;
+}
+
+#last-art>i, #next-art>i {
+    margin-top: 100px;
+    font-size: 34px;
+    position: fixed;
+    text-align: center;
+}
+
+#next-art>i:focus, #next-art>i:hover,#last-art>i:focus, #last-art>i:hover  {
+    font-weight: bold;
+}
+
+#art-debate {
+    text-align: right;
+    padding-right: 40px;
+
+}
+
+#debate-action {
+    background-color: rgb(51,122,183);
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+#debate-actio:focus, #debate-action:hover{
+    font-weight: bold;
+}
+
+#comment-header{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(51,122,183);
+}
