@@ -96,6 +96,7 @@ function get_fuse_dict() {
     }
     $('#indexselect').append('<option value="df-1">Disp. Final 1</option>');
     $('#indexselect').append('<option value="df-2">Disp. Final 2</option>');
+    $('#indexselect').append('<option value="cg">Cuestiones generales</option>');
  }
  set_select_option();
  $('#indexselect').on('change',function(){
@@ -108,6 +109,8 @@ function get_fuse_dict() {
     }else if (val.startsWith('d')){
         var p = val.split('-');
         set_disposition(p[0],p[1]);
+    } else if (val=="cg"){
+        set_general_issues();
     }
  });
  
@@ -236,6 +239,9 @@ function get_fuse_dict() {
     }
     dispf['nodes'] = fnodes;
     tree.push(dispf);
+    count++;
+    tree.push({text: "Cuestiones Generales", tid:'cg'});
+    k_nid['cg']=count;
     return tree;
  }
  
@@ -265,6 +271,9 @@ $indexTree.on('nodeSelected', function(event, data) {
             var d = data.tid.split('-');
             set_disposition(d[0],d[1]);
          }
+         if (data.tid=='cg'){
+            set_general_issues();
+         }
      }
 });
 
@@ -272,6 +281,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     var hash = window.location.hash;
     hash = hash.replace('!','');
     var params = hash.split('#');
+    console.log(params);
     if (params.length>=2){
         var p = params[1].split("-");
         if ((p.length==2)&&(p[0]=='art')&&(p[1]>0)&&(p[1]<225)){
@@ -279,11 +289,13 @@ $indexTree.on('nodeSelected', function(event, data) {
         } else {
          if ( (p.length==2)&&( ( (p[0]=='de')&&((p[1]>0)&&(p[1]<3)) ) || ((p[0]=='dt')&&((p[1]>0)&&(p[1]<14)) )|| ( ((p[0]=='df')&&((p[1]>0)&&(p[1]<3)) ) ) )){
             set_disposition(p[0],p[1]);
+         } else if (params[1]=="cuestionesgenerales"){
+            set_general_issues();
          } else {
             set_preamble();
          }  
         }
-    } else {
+    }     else {
         set_preamble();
     }
  }
@@ -357,6 +369,33 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_id = 'PDClub-201808-1-preambulo';
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!';
     select_in_index('preambulo');
+    reset(d_id,d_url,page_title);
+ }
+ 
+ function set_general_issues(){
+    $('#debate-action').html('Debate sobre Cuestiones Generales');
+    $('#indexselect').val("cg");
+    $('#next-art').unbind('click');
+    $('#last-art').unbind('click');
+    $('#chapter-art').html('');
+    $('#section-art').html('');
+    $('#art-title').html('Cuestiones Generales');
+    $('#comment-header').html("Debate sobre Cuestiones Generales");
+    $('#next-art').html('');
+    $('#last-art').html('<i title="Disposición Final 2" class="glyphicon glyphicon-chevron-left"></i>');
+    $('#last-art').click(function(e){
+        e.preventDefault();
+        set_disposition('df',2);
+    });
+    $('#title-art').html('');
+    var preambtext = '<p class="art-texto"> Este acápite no forma parte del texto del proyecto constitucional pero es el espacio para debatir sobre cuestiones general o realizar propuestas que no esté contenidas o relacionadas con los artículos o acápites presentes en el texto del proyecto de Carta Magna.</p>';
+    var page_title = 'Debates sobre el proyecto de Constitución - Cuestiones Generales y Otras Propuestas';
+    history.replaceState('debateConstitucion',page_title,window.location.pathname+'#cuestionesgenerales');
+    document.title = page_title;
+    $('#art-content').html(preambtext);
+    var d_id = 'PDClub-201808-1-cgen';
+    var d_url = 'http://www.postdata.club'+window.location.pathname+'#!cuestionesgenerales';
+    select_in_index('cg');
     reset(d_id,d_url,page_title);
  }
  
@@ -467,7 +506,11 @@ $indexTree.on('nodeSelected', function(event, data) {
                 set_disposition('dt',13);
             });
         } else {
-            $('#next-art').html('');
+             $('#next-art').html('<i title="Cuestiones Generales" class="glyphicon glyphicon-chevron-right"></i>');
+            $('#next-art').click(function(e){
+                e.preventDefault();
+                set_general_issues();
+            });
             $('#last-art').html('<i  title="Disposición Final 1" class="glyphicon glyphicon-chevron-left"></i>');
             $('#last-art').click(function(e){
                 e.preventDefault();
