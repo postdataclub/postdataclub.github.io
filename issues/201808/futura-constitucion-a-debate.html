@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../icon.png">
 
-    <title>Postdata.club - Debates sobre el Proyecto de Constitución</title>
+    <title>Postdata.club - Futura Constitución a Debate</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
     <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
     <!-- Bootstrap core CSS -->
@@ -20,10 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../../assets/css/custom.css" rel="stylesheet">
-    <link href="css/local.css" rel="stylesheet">
-    <script src="../../assets/js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
-
+    
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -45,12 +42,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/local.css">
-    
   </head>
 
   <body>
 
-   <nav class="navbar navbar-default navbar-fixed-top">
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -96,77 +92,90 @@
       </div>
     </nav>
     
-    <div class="menu-movil-separator"></div>
-   
-    </div>
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
 
-<div class="row" style="margin-top:-12px;">
-    <div id="index-block" class="col-lg-2 col-md-2">
-        <div id="index-select" class="hidden-lg hidden-md">
-        <span>Ir a:</span><select id="indexselect"></select>
-        </div>    
-        <div id="indice" class="hidden-sm hidden-xs">
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
         </div>
-    </div>
-    <div id="main-content" class="col-lg-10 col-md-10">
-        
-        <div  id='main-block' class='row'>
-            <div id='last-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
-            <div id="central-content" class='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
-                <div id="constitucion-image"><img src="images/frigio.jpg"></div>
-                <div id="text-content">
-                    <div id="article-content">
-                        <div id='title-art'></div>
-                        <div id='chapter-art'></div>
-                        <div id='section-art'></div>
-                        <div id="art-actions" class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-title"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-debate"><span id='debate-action' class="btn cursor"></span></div>
-                        </div>
-                        <div id="art-content"></div>
-                    </div>
-                </div>
-                <div id="comment-content">
-                    <div id="comment-header"></div>
-                    <div id="disqus_thread"></div>
-                    <script type="text/javascript">
-                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                        var disqus_shortname = 'postdataclub';
-                        var disqus_identifier = 'PDClub-201808-1-preambulo';
-                        var disqus_url = 'http://www.postdata.club/issues/201808/proyecto-constitucion.html#!';
-                    </script>
-                    <script src="https://postdataclub.disqus.com/embed.js"></script>
-                    <script type="text/javascript">    
-                         /* * * Disqus Reset Function * * */
-                        var reset = function (newIdentifier, newUrl, newTitle) {
-                        DISQUS.reset({
-                            reload: true,
-                            config: function () {
-                                this.page.identifier = newIdentifier;
-                                this.page.url = newUrl;
-                                this.page.title = newTitle;
-                            }
-                        });
-                        };
-                        
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div>
-            </div>    
-            <div id='next-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
         </div>
-    </div>
-</div>
-<!--
-<div class="text-block">
-   <div id="link-bar" class="row">
-        <a class="link-out" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos-lr.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a>
-        <a class="link-out" href="https://twitter.com/share?url=http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos-lr.html&amp;text=Los%2010%20mejores%20libros%20cubanos%20por%20Lunes%20de%20Revoluci%C3%B3n&amp;hashtags=#postdataclub" target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a>
-        <a class="link-out" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Los 10 mejores libros cubanos http://www.postdata.club/issues/201706/los-diez-mejores-libros-cubanos-lr.html"  target='_blank'><div class="cursor col-lg-4 col-md-4 col-sm-4 col-xs-4 main-color"><i class="fa fa-envelope"></i> Email</div></a>
-    </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
    </div>
--->
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Futura Constitución a Debate</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a><span class="article-date">13/8/2018</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Un espacio para debatir sobre cada artículo de la propuesta de Carta Magna cubana</div> 
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+    <p>
+A partir de este 13 de agosto y hasta el 15 de noviembre de este año, acontecerá la consulta popular del proyecto de Constitución 
+de la República, el único paso en el que toda la población cubana participará antes del Referendo Final.    
+</p>
+<p>
+Desde la publicación del proyecto constitucional, muchos cubanos han planteado infinidad de opiniones en sus perfiles en redes sociales 
+y en otros espacios digitales sobre asuntos que les resultan de interés en la propuesta de Carta Magna Cubana. También han surgido en 
+estas redes grupos de discusión y foros temáticos que ayudan a los cubanos a expresar sus ideas e inquietudes. Sin embargo, este debate 
+acontece de manera desestructurada, condicionado por los espacios en los que tiene lugar.
+</p>
+<p>
+<a href="../../index.html">Postdata.club</a> propone un espacio de interacción organizado donde, por cada uno de los artículos del proyecto constitucional, 
+se pueda emitir comentarios, o plantear interrogantes y cuestiones relativas. Puede que el debate que se genere aquí
+no influya en las decisiones que finalmente se tomen al respecto. Sin embargo, nos parece un espacio necesario, en la medida 
+en que permitirá hacer un análisis posterior de la información que resulte del intercambio. Además, las discusiones y comentarios serán 
+visibles para todos, incluso para aquellos que tienen el poder constituyente, quienes podrían usarlo 
+de referencia.
+</p>
+<p>
+Este trabajo será progresivo y pretendemos actualizarlo en la medida en que el debate aumente, si es que esta herramienta resulta útil, 
+como esperamos.
+</p>
+
+
+</div>   
+ 
+ <div id="debate-btn-container"> 
+    <a href="proyecto-constitucion.html"><button id="debate-btn" class="btn">Debate sobre el Proyecto de Constitución</button></a>
+ </div>    
+ 
+  </div>
+ 
+    
+<div class="comments-block">
 </div>
+    
+    </div>   
+    
+    
     
      <div class="footer">
         <div>
@@ -185,11 +194,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
     <script src="../../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/bootstrap-treeview.min.js"></script>
-    <script src="../../assets/js/fuse.min.js"></script>
-    <script src="js/constitucion.js"></script>
+    
   </body>
 </html>

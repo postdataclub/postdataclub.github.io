@@ -1,4 +1,117 @@
 $.getJSON("data/constitucion.json",function(data){
+ $('#debate-action').click(function(e){
+    move_to_debate();
+ });
+ 
+ function get_preamble_text_dict(){
+    var d = {'id':'preambulo','title':'Preámbulo'}
+    var text = '';
+    for(var i=0;i<data.proyecto.preambulo.texto.length;i++){
+        text+=data.proyecto.preambulo.texto[i]+' ';
+    }
+    d['text'] = text;
+    return d;
+ }
+ 
+ function get_disp_text_dict(type,id){
+    var d = {};
+    if (type=='de'){
+        d['id']=type+'-'+id;
+        d['title']='Disp. Especial '+data.proyecto.disposiciones.especiales.elementos[id].nombre;
+        var text = '';
+        for(var i=0;i<data.proyecto.disposiciones.especiales.elementos[id].texto.length;i++){
+            text+=data.proyecto.disposiciones.especiales.elementos[id].texto[i]+' ';
+        }
+        d['text'] = text;
+    } else if (type=='dt'){
+        d['id']=type+'-'+id;
+        d['title']='Disp. Transitoria '+data.proyecto.disposiciones.transitorias.elementos[id].nombre;
+        var text = '';
+        for(var i=0;i<data.proyecto.disposiciones.transitorias.elementos[id].texto.length;i++){
+            text+=data.proyecto.disposiciones.transitorias.elementos[id].texto[i]+' ';
+        }
+        d['text'] = text;
+    } else if (type=='df'){
+        d['id']=type+'-'+id;
+        d['title']='Disp. Final '+data.proyecto.disposiciones.finales.elementos[id].nombre;
+        var text = '';
+        for(var i=0;i<data.proyecto.disposiciones.finales.elementos[id].texto.length;i++){
+            text+=data.proyecto.disposiciones.finales.elementos[id].texto[i]+' ';
+        }
+        d['text'] = text;
+    }
+    return d;
+ }
+ 
+ function get_art_text_dict(id){
+    var d = {"id":'art-'+id,"title":"Artículo "+id};
+    var text = '';
+    for(var i=0;i<data.proyecto.articulos[id].texto.length;i++){
+        text+= data.proyecto.articulos[id].texto[i]+' ';
+    }
+    if ('incisos' in data.proyecto.articulos[id]){
+        var incisos = Object.keys(data.proyecto.articulos[id].incisos);
+        incisos.sort();
+        for(var i=0;i<incisos.length;i++){
+            for(var j=0;j<data.proyecto.articulos[id].incisos[incisos[i]].texto.length;j++){
+                text+= data.proyecto.articulos[id].incisos[incisos[i]].texto[j]+' ';
+            }
+        }
+    }
+    if ('texto-final' in data.proyecto.articulos[id]){
+        for(var i=0;i<data.proyecto.articulos[id]['texto-final'].length;i++){
+            text+= data.proyecto.articulos[id]['texto-final'][i]+' ';
+        }
+    }
+    d['text'] = text;
+    return d;
+ }
+ 
+function get_fuse_dict() {
+    var elems = [];
+    elems.push(get_preamble_text_dict());
+    for(var i=1;i<225;i++){
+        elems.push(get_art_text_dict(1));
+    }
+    elems.push(get_disp_text_dict('de',1));
+    elems.push(get_disp_text_dict('de',2));
+    for(var i=1;i<14;i++){
+        elems.push(get_disp_text_dict('dt',i));
+    }
+    elems.push(get_disp_text_dict('df',1));
+    elems.push(get_disp_text_dict('df',2));
+    return elems;
+}
+
+ 
+ function set_select_option(){
+    $('#indexselect').append('<option value="preambulo">Preámbulo</option>');
+    for(var i=1;i<225;i++){
+        $('#indexselect').append('<option value="art-'+i+'">Artículo '+i+'</option>');
+    }
+    $('#indexselect').append('<option value="de-1">Disp. Especial 1</option>');
+    $('#indexselect').append('<option value="de-2">Disp. Especial 2</option>');
+    for(var i=1;i<14;i++){
+        $('#indexselect').append('<option value="dt-'+i+'">Disp. Transitoria '+i+'</option>');
+    }
+    $('#indexselect').append('<option value="df-1">Disp. Final 1</option>');
+    $('#indexselect').append('<option value="df-2">Disp. Final 2</option>');
+ }
+ set_select_option();
+ $('#indexselect').on('change',function(){
+    var val = $('#indexselect').val();
+    if (val=='preambulo'){
+        set_preamble();
+    }else if (val.startsWith('art')){
+        var p = val.split('-');
+        set_article(p[0],p[1]);
+    }else if (val.startsWith('d')){
+        var p = val.split('-');
+        set_disposition(p[0],p[1]);
+    }
+ });
+ 
+ 
  var count = -1;
  var k_nid = {};
  function get_tree(){
@@ -128,7 +241,7 @@ $.getJSON("data/constitucion.json",function(data){
  
 var $indexTree = $('#indice').treeview({
 selectedBackColor: '#461A57',
-backColor: "#FAFAFA",
+backColor: "#F1F1F1",
 onhoverColor: "#EDF2F5",
 showBorder:false,data: get_tree()});
 $indexTree.on('nodeSelected', function(event, data) {
@@ -218,6 +331,8 @@ $indexTree.on('nodeSelected', function(event, data) {
  }
  
  function set_preamble(){
+    $('#debate-action').html('Debate el Preámbulo');
+    $('#indexselect').val("preambulo");
     $('#next-art').unbind('click');
     $('#last-art').unbind('click');
     $('#chapter-art').html('');
@@ -243,10 +358,11 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!';
     select_in_index('preambulo');
     reset(d_id,d_url,page_title);
-    
  }
  
  function set_disposition(section,number){
+    $('#debate-action').html('Debate esta disposición');
+    $('#indexselect').val(section+'-'+number);
     select_in_index(section+'-'+number);
     $('#next-art').unbind('click');
     $('#last-art').unbind('click');
@@ -369,6 +485,8 @@ $indexTree.on('nodeSelected', function(event, data) {
  }
  
  function set_article(section,number){
+    $('#debate-action').html('Debate este artículo');
+    $('#indexselect').val(section+'-'+number);
     select_in_index(section+'-'+number);
     history.replaceState('debateConstitucion','Debates sobre el proyecto de Constitución - Artículo '+number,window.location.pathname+'#'+section+'-'+number);
     var page_title = 'Debates sobre el proyecto de Constitución - Artículo '+number;
@@ -428,7 +546,7 @@ $indexTree.on('nodeSelected', function(event, data) {
                 e.preventDefault();
                 set_disposition('de',1);
             });
-            $('#last-art').html('<i title="Artículo 223" class="glyphicon glyphicon-chevron-left"></i> Art. 223');
+            $('#last-art').html('<i title="Artículo 223" class="glyphicon glyphicon-chevron-left"></i>');
             $('#last-art').click(function(e){
                 e.preventDefault();
                 set_article(section,223);
@@ -453,8 +571,6 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('html,body').animate({'scrollTop':$('#disqus_thread').offset().top-80},'fast');
  }
  
- $('#debate-action').click(function(e){
-    move_to_debate();
- });
+ 
  
  });

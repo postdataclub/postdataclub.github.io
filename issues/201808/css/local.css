@@ -1,5 +1,5 @@
 #art-content {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 #art-title {
@@ -19,11 +19,18 @@
     padding-left: 15px;
 }
 
+#last-art {
+    text-align: center;    
+}
+#next-art {
+    text-align: center;
+    margin-left:-34px;
+}
+
 #last-art>i, #next-art>i {
     margin-top: 100px;
     font-size: 34px;
     position: fixed;
-    text-align: center;
 }
 
 #next-art>i:focus, #next-art>i:hover,#last-art>i:focus, #last-art>i:hover  {
@@ -32,28 +39,73 @@
 
 #art-debate {
     text-align: right;
-    padding-right: 40px;
+    padding-right: 20px;
 
 }
 
 #debate-action {
     /*background-color: rgb(51,122,183);*/
-    background-color: #461A57;
+    font-size: 13px;
+    background-color: rgba(70,26,87,0.85);
     color: #FFFFFF;
     padding: 5px;
 }
 
-#debate-actio:focus, #debate-action:hover{
-    font-weight: bold;
+#debate-action:focus, #debate-action:hover{
+    background-color: #461A57;
 }
 
 #comment-header{
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-weight: bold;
     color: #461A57;
 }
 
 #indice {
     height: 100%;
+}
+
+#index-select {
+    background-color: #461A57;
+    padding: 10px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+}
+
+#index-select>span {
+    color: #FFFFFF;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#debate-btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#debate-btn {
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: rgba(70,26,87,0.9);
+}
+
+#debate-btn:focus, #debate-btn:hover {
+    background-color: rgb(70,26,87);
+}
+
+@media (max-width:900px){
+#debate-btn {
+    font-size: 15px;
+    padding: 10px;
+}
+#debate-btn {
+    margin-top: 10px;
+}
+}
+
+#constitucion-image {
+    text-align:left;
 }
