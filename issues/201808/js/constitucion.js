@@ -67,19 +67,26 @@ $.getJSON("data/constitucion.json",function(data){
     return d;
  }
  
-function get_fuse_dict() {
-    var elems = [];
-    elems.push(get_preamble_text_dict());
+function get_text_dict() {
+    var elems = {};
+    var e = get_preamble_text_dict();
+    elems[e['id']]=e;
     for(var i=1;i<225;i++){
-        elems.push(get_art_text_dict(1));
+        var e = get_art_text_dict(i);
+        elems[e['id']]=e;
     }
-    elems.push(get_disp_text_dict('de',1));
-    elems.push(get_disp_text_dict('de',2));
+    var e = get_disp_text_dict('de',1);
+    elems[e['id']]=e;
+    var e = get_disp_text_dict('de',2);
+    elems[e['id']]=e;
     for(var i=1;i<14;i++){
-        elems.push(get_disp_text_dict('dt',i));
+        var e = get_disp_text_dict('dt',i);
+        elems[e['id']]=e;
     }
-    elems.push(get_disp_text_dict('df',1));
-    elems.push(get_disp_text_dict('df',2));
+    var e = get_disp_text_dict('df',1);
+    elems[e['id']]=e;
+    var e = get_disp_text_dict('df',2);
+    elems[e['id']]=e;
     return elems;
 }
 
@@ -281,7 +288,6 @@ $indexTree.on('nodeSelected', function(event, data) {
     var hash = window.location.hash;
     hash = hash.replace('!','');
     var params = hash.split('#');
-    console.log(params);
     if (params.length>=2){
         var p = params[1].split("-");
         if ((p.length==2)&&(p[0]=='art')&&(p[1]>0)&&(p[1]<225)){
@@ -350,6 +356,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('#chapter-art').html('');
     $('#section-art').html('');
     $('#art-title').html('Preámbulo');
+    $('#related-title').html('Const. Actual - Preámbulo');
     $('#comment-header').html("Debate sobre el Preámbulo");
     $('#next-art').html('<i title="Artículo 1" class="glyphicon glyphicon-chevron-right"></i>');
     $('#next-art').click(function(e){
@@ -362,10 +369,15 @@ $indexTree.on('nodeSelected', function(event, data) {
     for(var i =0;i<data.proyecto.preambulo.texto.length;i++){
         preambtext += '<p  class="art-texto">'+data.proyecto.preambulo.texto[i]+'</p>';
     }
+    var reltext = '';
+    for(var i =0;i<data.actual.preambulo.texto.length;i++){
+        reltext += '<p  class="art-texto">'+data.actual.preambulo.texto[i]+'</p>';
+    }
     var page_title = 'Debates sobre el proyecto de Constitución - Preámbulo';
     history.replaceState('debateConstitucion',page_title,window.location.pathname);
     document.title = page_title;
     $('#art-content').html(preambtext);
+    $('#art-related').html(reltext);
     var d_id = 'PDClub-201808-1-preambulo';
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!';
     select_in_index('preambulo');
@@ -396,6 +408,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_id = 'PDClub-201808-1-cgen';
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!cuestionesgenerales';
     select_in_index('cg');
+    $('#related-title').html('');
+    $('#art-related').html('<p  class="art-texto main-text bd">No hay cuestiones generales relacionadas en el texto de la constitución vigente</p>');
     reset(d_id,d_url,page_title);
  }
  
@@ -524,6 +538,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('#art-content').html(disptext);
     var d_id = 'PDClub-201808-1-'+section+'-'+number;
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!'+section+'-'+number;
+    $('#related-title').html('');
+    $('#art-related').html('<p  class="art-texto main-text bd">No existe ninguna disposición relacionada en el texto de la constitución vigente</p>');
     reset(d_id,d_url,page_title);
  }
  
@@ -563,7 +579,56 @@ $indexTree.on('nodeSelected', function(event, data) {
             arttext +='<p  class="art-texto">'+paragraphs[i]+'</p>';
         }    
     }
+    var reltext='';
+    if ('relacionado' in data.proyecto.articulos[number]){
+        if (data.proyecto.articulos[number].relacionado['1976'].length>1){
+            var t = 'Const. Actual - Artículos ';
+            for(var k=0;k<data.proyecto.articulos[number].relacionado['1976'].length;k++){
+                var l = data.proyecto.articulos[number].relacionado['1976'][k];
+                t+=l+' ';
+            }
+            $('#related-title').html(t);
+        } else {
+            $('#related-title').html('Const. Actual - Artículo '+ data.proyecto.articulos[number].relacionado['1976'][0]);
+        }
+        for(var j=0;j<data.proyecto.articulos[number].relacionado['1976'].length;j++){
+            var rnumber = data.proyecto.articulos[number].relacionado['1976'][j];
+            if (data.proyecto.articulos[number].relacionado['1976'].length>1){
+                reltext +='<p  class="art-texto bd">Artículo '+rnumber+'</p>';
+            }
+            var paragraphs = data.actual[rnumber].texto;
+            for(var i=0;i<paragraphs.length;i++){
+                reltext +='<p  class="art-texto">'+paragraphs[i]+'</p>';
+            }
+            
+            if ('incisos' in data.actual[rnumber]){
+                var incisos = data.actual[rnumber].incisos;
+                var keys = Object.keys(incisos);
+                keys.sort();
+                for(var i=0;i<keys.length;i++){
+                    reltext +='<p class="art-inciso"><span class="it">'+incisos[keys[i]]['id']+')</span> ';
+                    for(var j=0;j<incisos[keys[i]].texto.length;j++){
+                        reltext+=incisos[keys[i]].texto[j]+'<br>';
+                    }
+                    reltext +='</p>';
+                }
+            }
+            
+            if ('texto-final' in data.actual[rnumber]){
+            var paragraphs = data.actual[rnumber]['texto-final'];
+            for(var i=0;i<paragraphs.length;i++){
+                reltext +='<p  class="art-texto">'+paragraphs[i]+'</p>';
+            } 
+        }
+    }
+        
+    } else {
+        $('#related-title').html('');
+        reltext = '<p  class="art-texto main-text bd">No pudimos encontrar artículos relacionados en el texto de la constitución vigente. Si identifica alguno, comente para conocerlo e incorporarlo.</p>';
+    }
+    
     $('#art-content').html(arttext);
+    $('#art-related').html(reltext);
     var breads = get_art_heads(number);
     $('#title-art').html(breads[0]);
     $('#chapter-art').html(breads[1]);
@@ -614,6 +679,75 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('html,body').animate({'scrollTop':$('#disqus_thread').offset().top-80},'fast');
  }
  
+ $('#show-related').click(function(e){
+    show_related();
+ });
  
+ $('#close-related').click(function(e){
+    close_related();
+ });
+ 
+ function show_related(){
+    $('#project-title').addClass('col-lg-6');
+    $('#project-title').addClass('col-md-6');
+    $('#project-title').removeClass('col-lg-12');
+    $('#project-title').removeClass('col-md-12');
+    $('#project').show();
+    $('#title-related').addClass('col-lg-6');
+    $('#title-related').addClass('col-md-6');
+    $('#title-related').removeClass('hidden-lg');
+    $('#title-related').removeClass('hidden-md');
+    
+    $('#art-content').addClass('col-lg-6');
+    $('#art-content').addClass('col-md-6');
+    $('#art-content').removeClass('col-lg-12');
+    $('#art-content').removeClass('col-md-12');
+    $('#art-related').addClass('col-lg-6');
+    $('#art-related').addClass('col-md-6');
+    $('#art-related').removeClass('hidden-lg');
+    $('#art-related').removeClass('hidden-md');
+    $('#show-related').hide();
+    $('#close-related').show();
+ }
+ 
+ function close_related(){
+    $('#project-title').removeClass('col-lg-6');
+    $('#project-title').removeClass('col-md-6');
+    $('#project-title').addClass('col-lg-12');
+    $('#project-title').addClass('col-md-12');
+    $('#project').hide();
+    $('#title-related').removeClass('col-lg-6');
+    $('#title-related').removeClass('col-md-6');
+    $('#title-related').addClass('hidden-lg');
+    $('#title-related').addClass('hidden-md');
+    
+    $('#art-content').removeClass('col-lg-6');
+    $('#art-content').removeClass('col-md-6');
+    $('#art-content').addClass('col-lg-12');
+    $('#art-content').addClass('col-md-12');
+    $('#art-related').removeClass('col-lg-6');
+    $('#art-related').removeClass('col-md-6');
+    $('#art-related').addClass('hidden-lg');
+    $('#art-related').addClass('hidden-md');
+    
+    $('#close-related').hide();
+    $('#show-related').show();
+ }
+ 
+ //tdict = get_text_dict();
+ 
+ 
+ //var idx = lunr(function () {
+  //this.use(lunr.es);
+  //this.ref('id');
+  //this.field('title');
+  //this.field('text');
+  //var tkeys = Object.keys(tdict);
+  //for(var i=0;i<tkeys.length;i++){
+     //this.add(tdict[tkeys[i]]);
+  //}
+//});
+ 
+
  
  });

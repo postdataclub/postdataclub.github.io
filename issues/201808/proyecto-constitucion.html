@@ -113,22 +113,29 @@
         <div  id='main-block' class='row'>
             <div id='last-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
             <div id="central-content" class='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
-                <div id="constitucion-image"><img src="images/frigio.jpg"></div>
+                <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="constitucion-image"><img src="images/frigio.jpg"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-debate"><span id='close-related' class="btn cursor hidden-sm hidden-xs" style="display:none;"><i class="fa fa-minus-square-o"></i> Ocultar relacionado</span><span id='show-related' class="btn cursor hidden-sm hidden-xs"><i class="fa fa-plus-square-o"></i> Mostrar relacionado</span> <span id='debate-action' class="btn cursor"></span></div>
+                </div>
                 <div id="text-content">
                     <div id="article-content">
                         <div id='title-art'></div>
                         <div id='chapter-art'></div>
                         <div id='section-art'></div>
                         <div id="art-actions" class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-title"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-debate"><span id='debate-action' class="btn cursor"></span></div>
+                            <div id='project-title' class="col-lg-12 col-md-12 col-xs-12 col-sm-12" ><span class="hidden-sm hidden-xs" id='project' style="display:none;">Proyecto - </span><span id="art-title"></span></div>
+                            <div class="hidden-lg hidden-md hidden-xs hidden-sm" id="title-related"><span id="related-title"></span></div>
                         </div>
-                        <div id="art-content"></div>
+                        <div class='row' id="articles-content">
+                        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="art-content"></div>
+                        <div class="hidden-lg hidden-md hidden-xs hidden-sm" id="art-related">texto</div>
+                        </div>
                     </div>
                 </div>
                 <div id="comment-content">
                     <div id="comment-header"></div>
                     <div id="disqus_thread"></div>
+
                     <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
                         var disqus_shortname = 'postdataclub';
@@ -151,6 +158,7 @@
                         
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
                 </div>
             </div>    
             <div id='next-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
@@ -189,7 +197,9 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/bootstrap-treeview.min.js"></script>
-    <script src="../../assets/js/fuse.min.js"></script>
+    <script src="js/lunr.js"></script>
+    <script src="js/lunr.stemmer.support.js"></script>
+    <script src="js/lunr.es.js"></script>
     <script src="js/constitucion.js"></script>
   </body>
 </html>

@@ -431,26 +431,29 @@
             }
         },
         "preambulo": {
+            "relacionado": {
+                "1976": "preambulo"
+            },
             "texto": [
                 "NOSOTROS, CIUDADANOS CUBANOS,",
-                "inspirados en el heroísmo y patriotismo de los que lucharon por una Patria libre, independiente, soberana, democrática y de justicia social, forjada en el sacrificio de nuestros antecesores;",
-                "por los aborígenes que se resistieron a la sumisión;",
+                "<span class='nw'>inspirados en el heroísmo y patriotismo de los que lucharon por una Patria libre, independiente, soberana, democrática y de justicia social, forjada en el sacrificio de</span> nuestros antecesores;",
+                "por los aborígenes que <span class='ch'>se resistieron</span> a la sumisión;",
                 "por los esclavos que se rebelaron contra sus amos;",
                 "por los que despertaron la conciencia nacional y el ansia cubana de patria y libertad;",
                 "por los patriotas que en 1868 iniciaron las guerras de independencia contra el colonialismo español y los que en el último impulso de 1895 las llevaron a la victoria de 1898, que les fuera arrebatada por la intervención y ocupación militar del imperialismo yanqui;",
                 "por los que lucharon durante más de cincuenta años contra el dominio imperialista, la corrupción política, la falta de derechos y libertades populares, el desempleo y la explotación impuesta por capitalistas y terratenientes;",
-                "por los integrantes de la vanguardia de la generación del centenario denatalicio de Martí, que nutridos por su magisterio nos condujeron a la victoria revolucionaria popular de enero de 1959;",
+                "por los integrantes de la vanguardia de la generación del centenario del natalicio de Martí, que nutridos por su magisterio nos condujeron a la victoria revolucionaria popular de enero <span class='nw'>de 1959</span>;",
                 "por los que, con el sacrifico de sus vidas, defendieron la Revolución contribuyendo a su definitiva consolidación;",
                 "por los que masivamente cumplieron heroicas misiones internacionalistas;",
-                "por la resistencia épica y unidad de nuestro pueblo;",
+                "<span class='nw'>por la resistencia épica y unidad de nuestro pueblo;</span>",
                 "GUIADOS",
-                "por el ideario y el ejemplo de Martí y Fidel, y las ideas político-sociales de Marx, Engels y Lenin;",
+                "por el ideario y el ejemplo de Martí <span class='nw'>y Fidel,</span> y las ideas político-sociales de Marx, Engels y Lenin;",
                 "DECIDIDOS",
                 "a llevar adelante la Revolución triunfadora del Moncada y del Granma, de la Sierra y de Girón que, sustentada en la más estrecha unidad de todas las fuerzas revolucionarias y del pueblo, conquistó la plena independencia nacional, estableció el poder revolucionario, realizó las transformaciones democráticas e inició la construcción del socialismo;",
                 "CONSCIENTES",
-                "de que, en la edificación del socialismo, el liderazgo del Partido Comunista de Cuba, nacido de la voluntad unitaria de las organizaciones que contribuyeron decisivamente al triunfo de la Revolución, y la unidad nacional, constituyen pilares fundamentales y garantías de nuestro orden político, económico y social;",
-                " IDENTIFICADOS",
-                "con los postulados expuestos en el concepto de Revolución, expresado por el Comandante en Jefe Fidel Castro Ruz el 1ro. de mayo del año 2000;",
+                "<span class='nw'>de que, en la edificación del socialismo, el liderazgo del Partido Comunista de Cuba, nacido de la voluntad unitaria de las organizaciones que contribuyeron decisivamente al triunfo de la Revolución, y la unidad nacional, constituyen pilares fundamentales y garantías de nuestro orden político, económico y social;</span>",
+                "<span class='nw'>IDENTIFICADOS</span>",
+                "<span class='nw'>con los postulados expuestos en el concepto de Revolución, expresado por el Comandante en Jefe Fidel Castro Ruz el 1ro. de mayo del año 2000;</span>",
                 "DECLARAMOS",
                 "nuestra voluntad de que la ley de leyes de la República esté presidida por este profundo anhelo, al fin logrado, de José Martí:",
                 "“Yo quiero que la ley primera de nuestra República sea el culto de los cubanos a la dignidad plena del hombre”;",
@@ -463,13 +466,23 @@
             "1": {
                 "id": "1",
                 "numero": 1,
+                "relacionado": {
+                    "1976": [
+                        "1"
+                    ]
+                },
                 "texto": [
-                    "Cuba es un Estado socialista de derecho, democrático, independiente y soberano, organizado con todos y para el bien de todos, como república unitaria e indivisible, fundada en el trabajo, la dignidad y la ética de sus ciudadanos, que tiene como objetivos esenciales el disfrute de la libertad política, la equidad, la justicia e igualdad social, la solidaridad, el humanismo, el bienestar y la prosperidad individual y colectiva."
+                    "Cuba es un Estado socialista <span class='nw'>de derecho</span>, <span class='mv'>democrático</span>, independiente y soberano, organizado con todos y para el bien de todos, como república unitaria <span class='nw'>e indivisible, fundada en el trabajo, la dignidad y la ética de sus ciudadanos, que tiene como objetivos esenciales</span> el disfrute de la libertad política, <span class='nw'>la equidad</span>, la justicia <span class='nw'>e igualdad</span> social, <span class='mv'>la solidaridad</span>, <span class='nw'>el humanismo</span>, el bienestar <span class='nw'>y la prosperidad</span> individual y colectiva."
                 ]
             },
             "2": {
                 "id": "2",
                 "numero": 2,
+                "relacionado": {
+                    "1976": [
+                        "2"
+                    ]
+                },
                 "texto": [
                     "El nombre del Estado cubano es República de Cuba, el idioma oficial es el español y su capital es La Habana."
                 ]
@@ -477,32 +490,53 @@
             "3": {
                 "id": "3",
                 "numero": 3,
+                "relacionado": {
+                    "1976": [
+                        "65",
+                        "3"
+                    ]
+                },
                 "texto": [
-                    "La defensa de la patria socialista es el más grande honor y el deber supremo de cada cubano. La traición a la patria es el más grave de los crímenes, quien la comete está sujeto a las más severas sanciones.",
-                    "El socialismo y el sistema político y social revolucionario, establecidos por esta Constitución, son irrevocables.",
-                    "Los ciudadanos tienen el derecho de combatir por todos los medios, incluyendo la lucha armada, cuando no fuera posible otro recurso, contra cualquiera que intente derribar el orden político, social y económico establecido por esta Constitución."
+                    "<span class='nw'>La defensa de la patria socialista es el más grande honor y el deber supremo de cada cubano. La traición a la patria es el más grave de los crímenes, quien la comete está sujeto a las más severas sanciones.</span>",
+                    "<span class='mv'>El socialismo y el sistema político y social revolucionario, establecidos por esta Constitución, son irrevocables.</span>",
+                    "<span class='mv'>Los ciudadanos tienen el derecho de combatir por todos los medios, incluyendo la lucha armada, cuando no fuera posible otro recurso, contra cualquiera que intente derribar el orden político, social y económico establecido por esta Constitución.</span>"
                 ]
             },
             "4": {
                 "id": "4",
                 "numero": 4,
+                "relacionado": {
+                    "1976": [
+                        "4"
+                    ]
+                },
                 "texto": [
                     "Los símbolos nacionales son la bandera de la estrella solitaria, el himno de Bayamo y el escudo de la palma real.",
-                    "escudo de la palma real. La ley define los atributos que los identifican, sus características, uso y conservación."
+                    "<span class='nw'>La ley define los atributos que los identifican, sus características, uso y conservación.</span>"
                 ]
             },
             "5": {
                 "id": "5",
                 "numero": 5,
+                "relacionado": {
+                    "1976": [
+                        "5"
+                    ]
+                },
                 "texto": [
-                    "El Partido Comunista de Cuba, único, martiano, fidelista y marxista-leninista, vanguardia organizada de la nación cubana, sustentado en su carácter democrático y la permanente vinculación con el pueblo, es la fuerza dirigente superior de la sociedad y del Estado. Organiza y orienta los esfuerzos comunes hacia la construcción del socialismo. Trabaja por preservar y fortalecer la unidad patriótica de los cubanos y por desarrollar valores éticos, morales y cívicos."
+                    "El Partido Comunista de Cuba, <span class='nw'>único,</span> martiano, <span class='nw'>fidelista</span> y marxista-leninista, <span class='nw'>vanguardia organizada de la nación cubana, sustentado en su carácter democrático y la permanente vinculación con el pueblo,</span> es la fuerza dirigente superior de la sociedad y del Estado. Organiza y orienta los esfuerzos comunes hacia la construcción del socialismo. <span class='nw'>Trabaja por preservar y fortalecer la unidad patriótica de los cubanos y por desarrollar valores éticos, morales y cívicos.</span>"
                 ]
             },
             "6": {
                 "id": "6",
                 "numero": 6,
+                "relacionado": {
+                    "1976": [
+                        "6"
+                    ]
+                },
                 "texto": [
-                    "La Unión de Jóvenes Comunistas, organización de la juventud cubana de vanguardia, cuenta con el reconocimiento y el estímulo del Estado, contribuye a la formación en los jóvenes de los principios revolucionarios y éticos de nuestra sociedad, y promueve su participación activa en la edificación del socialismo."
+                    "La Unión de Jóvenes Comunistas, organización de la juventud cubana <span class='ch'>de vanguardia</span>, cuenta con el reconocimiento y el estímulo del Estado,<span class='nw'> contribuye a la formación en los jóvenes de los principios revolucionarios y éticos de nuestra sociedad,</span> y promueve su participación activa en la edificación del socialismo."
                 ]
             },
             "7": {
@@ -515,6 +549,11 @@
             "8": {
                 "id": "8",
                 "numero": 8,
+                "relacionado": {
+                    "1976": [
+                        "10"
+                    ]
+                },
                 "texto": [
                     "Todos los órganos del Estado, directivos, funcionarios y empleados, tienen la obligación de observar estrictamente la legalidad socialista y velar por su respeto en la vida de toda la sociedad."
                 ]
@@ -529,6 +568,9 @@
             "10": {
                 "id": "10",
                 "numero": 10,
+                "relacionado": {
+                    "1976": "3"
+                },
                 "texto": [
                     "En la República de Cuba la soberanía reside intransferiblemente en el pueblo, del cual dimana todo el poder del Estado. El pueblo la ejerce directamente o por medio de las Asambleas del Poder Popular y demás órganos del Estado que de ellas se derivan, en la forma y según las normas fijadas por la Constitución y las leyes."
                 ]
@@ -536,6 +578,11 @@
             "11": {
                 "id": "11",
                 "numero": 11,
+                "relacionado": {
+                    "1976": [
+                        "11"
+                    ]
+                },
                 "texto": [
                     "El Estado ejerce su soberanía:"
                 ],
@@ -563,6 +610,11 @@
             "12": {
                 "id": "12",
                 "numero": 12,
+                "relacionado": {
+                    "1976": [
+                        "11"
+                    ]
+                },
                 "texto": [
                     "La República de Cuba repudia y considera ilegales y nulos los tratados, pactos o concesiones concertados en condiciones de desigualdad o que desconocen o disminuyen su soberanía e integridad territorial.",
                     "Las relaciones económicas, diplomáticas y políticas con cualquier otro Estado no podrán ser jamás negociadas bajo agresión, amenaza o coerción de una potencia extranjera."
@@ -571,6 +623,11 @@
             "13": {
                 "id": "13",
                 "numero": 13,
+                "relacionado": {
+                    "1976": [
+                        "9"
+                    ]
+                },
                 "texto": [
                     "El Estado tiene como fines esenciales los siguientes:"
                 ],
@@ -634,6 +691,11 @@
             "14": {
                 "id": "14",
                 "numero": 14,
+                "relacionado": {
+                    "1976": [
+                        "7"
+                    ]
+                },
                 "texto": [
                     "El Estado socialista cubano reconoce y estimula a las organizaciones de masas y sociales, que agrupan en su seno a distintos sectores de la población, representan sus intereses específicos y los incorporan a las tareas de la edificación, consolidación y defensa de la sociedad socialista.",
                     "La ley establece los principios generales en que estas organizaciones se fundamentan y reconoce el desempeño de las demás formas asociativas."
@@ -642,6 +704,11 @@
             "15": {
                 "id": "15",
                 "numero": 15,
+                "relacionado": {
+                    "1976": [
+                        "8"
+                    ]
+                },
                 "texto": [
                     "El Estado reconoce, respeta y garantiza la libertad religiosa.",
                     "En la República de Cuba las instituciones religiosas están separadas del Estado y todas tienen los mismos derechos y deberes.",
@@ -651,6 +718,11 @@
             "16": {
                 "id": "16",
                 "numero": 16,
+                "relacionado": {
+                    "1976": [
+                        "12"
+                    ]
+                },
                 "texto": [
                     "La República de Cuba basa las relaciones internacionales en el ejercicio de su soberanía y los principios antimperialistas e internacionalistas, en función de los intereses del pueblo y, en consecuencia:"
                 ],
@@ -764,6 +836,11 @@
             "19": {
                 "id": "19",
                 "numero": 19,
+                "relacionado": {
+                    "1976": [
+                        "13"
+                    ]
+                },
                 "texto": [
                     "La República de Cuba concede asilo a los perseguidos por sus ideales o luchas por los derechos democráticos, contra el imperialismo, el fascismo, el colonialismo, el neocolonialismo y cualquier otra forma de dominación, la discriminación y el racismo; por la liberación nacional; por los derechos y reivindicaciones de los trabajadores, campesinos, mujeres, estudiantes, indígenas y ambientalistas; por sus actividades políticas, científicas, artísticas y literarias progresistas y por el socialismo y la paz."
                 ]
@@ -771,6 +848,11 @@
             "20": {
                 "id": "20",
                 "numero": 20,
+                "relacionado": {
+                    "1976": [
+                        "14"
+                    ]
+                },
                 "texto": [
                     "En la República de Cuba rige el sistema de economía basado en la propiedad socialista de todo el pueblo sobre los medios fundamentales de producción, como forma de propiedad principal, y la dirección planificada de la economía, que considera y regula el mercado, en función de los intereses de la sociedad."
                 ]
@@ -778,6 +860,16 @@
             "21": {
                 "id": "21",
                 "numero": 21,
+                "relacionado": {
+                    "1976": [
+                        "14",
+                        "19",
+                        "20",
+                        "21",
+                        "22",
+                        "23"
+                    ]
+                },
                 "texto": [
                     "Se reconocen las formas de propiedad siguientes:"
                 ],
@@ -833,6 +925,11 @@
             "23": {
                 "id": "23",
                 "numero": 23,
+                "relacionado": {
+                    "1976": [
+                        "15"
+                    ]
+                },
                 "texto": [
                     "Son de propiedad socialista de todo el pueblo: las tierras que no pertenecen a particulares o cooperativas integradas por estos, el subsuelo, las minas, los recursos naturales tanto vivos como no vivos dentro de la zona económica exclusiva de la República, los bosques, las aguas y las vías de comunicación.",
                     "Estos bienes son inalienables, imprescriptibles e inembargables, por lo que no pueden trasmitirse en propiedad a personas naturales o jurídicas.",
@@ -850,6 +947,11 @@
             "25": {
                 "id": "25",
                 "numero": 25,
+                "relacionado": {
+                    "1976": [
+                        "16"
+                    ]
+                },
                 "texto": [
                     "El Estado crea y organiza empresas con el objetivo de desarrollar actividades económicas de producción y prestación de servicios, las que ejercen los derechos que les corresponden sobre los bienes de propiedad socialista de todo el pueblo que tienen asignados.",
                     "Las empresas responden de las obligaciones contraídas con su patrimonio, en correspondencia con los límites que determine la ley.",
@@ -867,6 +969,11 @@
             "27": {
                 "id": "27",
                 "numero": 27,
+                "relacionado": {
+                    "1976": [
+                        "16"
+                    ]
+                },
                 "texto": [
                     "El Estado dirige, regula y controla la actividad económica nacional.",
                     "La planificación socialista constituye el elemento central del sistema de dirección del desarrollo económico y social. Su función esencial es proyectar el desarrollo estratégico y armonizar la actividad económica en beneficio de la sociedad, conciliando los intereses nacionales, territoriales y de los ciudadanos.",
@@ -891,6 +998,11 @@
             "30": {
                 "id": "30",
                 "numero": 30,
+                "relacionado": {
+                    "1976": [
+                        "25"
+                    ]
+                },
                 "texto": [
                     "La expropiación de bienes se autoriza únicamente atendiendo a razones de utilidad pública o interés social y con la debida indemnización.",
                     "La ley establece el procedimiento para la expropiación, las garantías debidas, las bases para determinar su utilidad y necesidad, y la forma de indemnización."
@@ -899,6 +1011,11 @@
             "31": {
                 "id": "31",
                 "numero": 31,
+                "relacionado": {
+                    "1976": [
+                        "45"
+                    ]
+                },
                 "texto": [
                     "El trabajo es un valor primordial de nuestra sociedad. Constituye un deber, un derecho y un motivo de honor de todas las personas en condiciones de trabajar. Es, además, la fuente principal de ingresos que sustenta la realización de los proyectos individuales, colectivos y sociales.",
                     "La distribución de la riqueza con arreglo al trabajo aportado, se complementa con la satisfacción equitativa de los servicios sociales universales y otros beneficios."
@@ -906,6 +1023,11 @@
             },
             "32": {
                 "id": "32",
+                "relacionado": {
+                    "1976": [
+                        "28"
+                    ]
+                },
                 "numero": 32,
                 "texto": [
                     "La ciudadanía cubana se adquiere por nacimiento o por naturalización."
@@ -914,6 +1036,11 @@
             "33": {
                 "id": "33",
                 "numero": 33,
+                "relacionado": {
+                    "1976": [
+                        "29"
+                    ]
+                },
                 "texto": [
                     "Son ciudadanos cubanos por nacimiento:"
                 ],
@@ -947,6 +1074,11 @@
             "34": {
                 "id": "34",
                 "numero": 34,
+                "relacionado": {
+                    "1976": [
+                        "30"
+                    ]
+                },
                 "texto": [
                     "Son ciudadanos cubanos por naturalización:"
                 ],
@@ -968,6 +1100,11 @@
             "35": {
                 "id": "35",
                 "numero": 35,
+                "relacionado": {
+                    "1976": [
+                        "32"
+                    ]
+                },
                 "texto": [
                     "Los ciudadanos cubanos en el territorio nacional se rigen por esa condición, en los términos establecidos en la ley, y no pueden hacer uso de una ciudadanía extranjera."
                 ]
@@ -975,6 +1112,11 @@
             "36": {
                 "id": "36",
                 "numero": 36,
+                "relacionado": {
+                    "1976": [
+                        "31"
+                    ]
+                },
                 "texto": [
                     "Ni el matrimonio ni su disolución afectan la ciudadanía de los cónyuges o de sus hijos."
                 ]
@@ -982,6 +1124,11 @@
             "37": {
                 "id": "37",
                 "numero": 37,
+                "relacionado": {
+                    "1976": [
+                        "32"
+                    ]
+                },
                 "texto": [
                     "Los cubanos no podrán ser privados de su ciudadanía, salvo por causas legalmente establecidas. Tampoco podrán ser privados del derecho a cambiarla.",
                     "La ley establece el procedimiento a seguir para la formalización de la pérdida y renuncia de la ciudadanía y las autoridades facultadas para decidirlo."
@@ -990,6 +1137,11 @@
             "38": {
                 "id": "38",
                 "numero": 38,
+                "relacionado": {
+                    "1976": [
+                        "33"
+                    ]
+                },
                 "texto": [
                     "La ciudadanía cubana podrá recobrarse en los casos y en la forma que prescribe la ley."
                 ]
@@ -1005,6 +1157,12 @@
             "40": {
                 "id": "40",
                 "numero": 40,
+                "relacionado": {
+                    "1976": [
+                        "41",
+                        "42"
+                    ]
+                },
                 "texto": [
                     "Todas las personas son iguales ante la ley, están sujetas a iguales deberes, reciben la misma protección y trato de las autoridades y gozan de los mismos derechos, libertades y oportunidades, sin ninguna discriminación por razones de sexo, género, orientación sexual, identidad de género, origen étnico, color de la piel, creencia religiosa, discapacidad, origen nacional o cualquier otra distinción lesiva a la dignidad humana.",
                     "La violación de este principio está proscrita y es sancionada por la ley."
@@ -1013,6 +1171,11 @@
             "41": {
                 "id": "41",
                 "numero": 41,
+                "relacionado": {
+                    "1976": [
+                        "42"
+                    ]
+                },
                 "texto": [
                     "El Estado trabaja por crear las condiciones necesarias que faciliten la igualdad de sus ciudadanos, y por educarlos a todos, desde la más temprana edad, en el respeto a este principio."
                 ]
@@ -1041,6 +1204,11 @@
             "45": {
                 "id": "45",
                 "numero": 45,
+                "relacionado": {
+                    "1976": [
+                        "44"
+                    ]
+                },
                 "texto": [
                     "La mujer y el hombre gozan de iguales derechos y responsabilidades en lo económico, político, cultural, social y familiar.",
                     "El Estado garantiza que se ofrezcan a ambos las mismas oportunidades y posibilidades.",
@@ -1064,6 +1232,12 @@
             "48": {
                 "id": "48",
                 "numero": 48,
+                "relacionado": {
+                    "1976": [
+                        "58",
+                        "59"
+                    ]
+                },
                 "texto": [
                     "Toda persona como garantía a su seguridad jurídica, disfruta de un debido proceso y en consecuencia goza de los derechos siguientes:"
                 ],
@@ -1133,6 +1307,11 @@
             "49": {
                 "id": "49",
                 "numero": 49,
+                "relacionado": {
+                    "1976": [
+                        "59"
+                    ]
+                },
                 "texto": [
                     "En proceso penal no se ejercerá violencia ni coacción de clase alguna sobre las personas para forzarlas a declarar.",
                     "Toda prueba obtenida con infracción de este precepto es nula de pleno derecho y los responsables se sancionan de conformidad con la ley.",
@@ -1156,6 +1335,11 @@
             "52": {
                 "id": "52",
                 "numero": 52,
+                "relacionado": {
+                    "1976": [
+                        "56"
+                    ]
+                },
                 "texto": [
                     "El domicilio es inviolable. No se puede penetrar en morada ajena sin permiso de quien la habita, salvo por orden expresa de la autoridad competente, con las formalidades legales y por motivo previamente definido en la ley."
                 ]
@@ -1163,6 +1347,11 @@
             "53": {
                 "id": "53",
                 "numero": 53,
+                "relacionado": {
+                    "1976": [
+                        "57"
+                    ]
+                },
                 "texto": [
                     "La correspondencia y demás formas de comunicación entre las personas son inviolables. Solo pueden ser interceptadas o registradas, mediante orden expresa de autoridad competente, en los casos y con las formalidades establecidas en la ley."
                 ]
@@ -1198,6 +1387,11 @@
             "58": {
                 "id": "58",
                 "numero": 58,
+                "relacionado": {
+                    "1976": [
+                        "60"
+                    ]
+                },
                 "texto": [
                     "La confiscación de bienes se aplica solo como sanción dispuesta por autoridad competente, en los casos y por los procedimientos que determina la ley.",
                     "Cuando la confiscación de bienes sea dispuesta en procedimiento administrativo, se garantiza siempre a la persona su defensa ante los tribunales competentes."
@@ -1206,6 +1400,11 @@
             "59": {
                 "id": "59",
                 "numero": 59,
+                "relacionado": {
+                    "1976": [
+                        "53"
+                    ]
+                },
                 "texto": [
                     "El Estado reconoce, respeta y garantiza la libertad de pensamiento, conciencia y expresión."
                 ]
@@ -1213,6 +1412,11 @@
             "60": {
                 "id": "60",
                 "numero": 60,
+                "relacionado": {
+                    "1976": [
+                        "53"
+                    ]
+                },
                 "texto": [
                     "Se reconoce a los ciudadanos la libertad de prensa. Este derecho se ejerce de conformidad con la ley.",
                     "Los medios fundamentales de comunicación social, en cualquiera de sus soportes, son de propiedad socialista de todo el pueblo, lo que asegura su uso al servicio de toda la sociedad.",
@@ -1222,6 +1426,11 @@
             "61": {
                 "id": "61",
                 "numero": 61,
+                "relacionado": {
+                    "1976": [
+                        "54"
+                    ]
+                },
                 "texto": [
                     "Los derechos de reunión, manifestación y asociación, con fines lícitos y pacíficos, se reconocen por el Estado siempre que se ejerzan con respeto al orden público y el acatamiento a las preceptivas establecidas en la ley."
                 ]
@@ -1229,6 +1438,11 @@
             "62": {
                 "id": "62",
                 "numero": 62,
+                "relacionado": {
+                    "1976": [
+                        "55"
+                    ]
+                },
                 "texto": [
                     "Toda persona tiene derecho a profesar o no creencias religiosas, a cambiarlas y a practicar la de su preferencia, con el debido respeto a otros credos y de conformidad con la ley."
                 ]
@@ -1236,6 +1450,11 @@
             "63": {
                 "id": "63",
                 "numero": 63,
+                "relacionado": {
+                    "1976": [
+                        "61"
+                    ]
+                },
                 "texto": [
                     "Las leyes no tienen efecto retroactivo, salvo en materia penal cuando sean favorables al encausado o sancionado, y en las demás leyes, cuando así lo dispongan expresamente, atendiendo a razones de interés social o utilidad pública, que deben explicarse en su contenido."
                 ]
@@ -1243,6 +1462,11 @@
             "64": {
                 "id": "64",
                 "numero": 64,
+                "relacionado": {
+                    "1976": [
+                        "63"
+                    ]
+                },
                 "texto": [
                     "Las personas tienen derecho a dirigir quejas y peticiones a las autoridades, las que están obligadas a tramitarlas en plazo adecuado, dando las respuestas oportunas y pertinentes de conformidad con la ley."
                 ]
@@ -1258,6 +1482,11 @@
             "66": {
                 "id": "66",
                 "numero": 66,
+                "relacionado": {
+                    "1976": [
+                        "24"
+                    ]
+                },
                 "texto": [
                     "El Estado reconoce el derecho a la sucesión por causa de muerte. La ley regula su contenido y alcance."
                 ]
@@ -1265,6 +1494,11 @@
             "67": {
                 "id": "67",
                 "numero": 67,
+                "relacionado": {
+                    "1976": [
+                        "35"
+                    ]
+                },
                 "texto": [
                     "El Estado protege a las familias, la maternidad, la paternidad y el matrimonio.",
                     "El Estado atribuye a las familias,concebidas como células básicas de la sociedad, responsabilidades y funciones esenciales en la educación y formación de las nuevas generaciones y el cuidado y atención de los adultos mayores."
@@ -1273,6 +1507,11 @@
             "68": {
                 "id": "68",
                 "numero": 68,
+                "relacionado": {
+                    "1976": [
+                        "36"
+                    ]
+                },
                 "texto": [
                     "El matrimonio es la unión voluntariamente concertada entre dos personas con aptitud legal para ello, a fin de hacer vida en común. Descansa en la igualdad absoluta de derechos y deberes de los cónyuges, los que están obligados al mantenimiento del hogar y a la formación integral de los hijos mediante el esfuerzo común, de modo que este resulte compatible con el desarrollo de sus actividades sociales.",
                     "La ley regula la formalización, reconocimiento, disolución del matrimonio y los derechos y obligaciones que de dichos actos se derivan."
@@ -1281,15 +1520,25 @@
             "69": {
                 "id": "69",
                 "numero": 69,
+                "relacionado": {
+                    "1976": [
+                        "37"
+                    ]
+                },
                 "texto": [
                     "Todos los hijos tienen iguales derechos, sean habidos dentro o fuera del matrimonio.",
-                    " Está abolida toda calificación sobre la naturaleza de la filiación.",
-                    " El Estado garantiza, mediante los procedimientos legales adecuados, la determinación y el reconocimiento de la paternidad."
+                    "Está abolida toda calificación sobre la naturaleza de la filiación.",
+                    "El Estado garantiza, mediante los procedimientos legales adecuados, la determinación y el reconocimiento de la paternidad."
                 ]
             },
             "70": {
                 "id": "70",
                 "numero": 70,
+                "relacionado": {
+                    "1976": [
+                        "38"
+                    ]
+                },
                 "texto": [
                     "Los padres tienen la obligación de dar alimentos a sus hijos, asistirlos en la defensa de sus legítimos intereses y en la realización de sus justas aspiraciones, así como contribuir activamente a su educación y formarlos integralmente como ciudadanos con valores morales, éticos y cívicos, en correspondencia con la vida en nuestra sociedad socialista.",
                     "Los hijos, a su vez, están obligados a respetar y atender a sus padres."
@@ -1326,6 +1575,11 @@
             "75": {
                 "id": "75",
                 "numero": 75,
+                "relacionado": {
+                    "1976": [
+                        "45"
+                    ]
+                },
                 "texto": [
                     "La persona en condición de trabajar tiene derecho a obtener un empleo digno, en correspondencia con su elección, calificación, aptitud y exigencias de la economía y la sociedad."
                 ]
@@ -1333,6 +1587,12 @@
             "76": {
                 "id": "76",
                 "numero": 76,
+                "relacionado": {
+                    "1976": [
+                        "14",
+                        "43"
+                    ]
+                },
                 "texto": [
                     "El trabajo se remunera en función de la cantidad, complejidad, calidad y resultados obtenidos, expresión del principio de distribución socialista “de cada cual según su capacidad, a cada cual según su trabajo”.",
                     " Todas las personas reciben el mismo salario por trabajo de igual valor."
@@ -1349,6 +1609,11 @@
             "78": {
                 "id": "78",
                 "numero": 78,
+                "relacionado": {
+                    "1976": [
+                        "46"
+                    ]
+                },
                 "texto": [
                     "El que trabaja tiene derecho al descanso, que se garantiza por la jornada de trabajo de ocho horas, el descanso semanal y las vacaciones anuales pagadas.",
                     "La ley define aquellos otros supuestos en los que excepcionalmente se pueden aprobar jornadas diferentes de trabajo, con respeto al descanso."
@@ -1357,6 +1622,11 @@
             "79": {
                 "id": "79",
                 "numero": 79,
+                "relacionado": {
+                    "1976": [
+                        "47"
+                    ]
+                },
                 "texto": [
                     "Se reconoce el derecho a la seguridad social. El Estado, mediante el sistema de seguridad social, garantiza la protección adecuada de todo trabajador impedido de laborar por su edad, maternidad, paternidad, invalidez o enfermedad.",
                     " En caso de muerte del trabajador, el Estado brinda similar protección a su familia."
@@ -1365,6 +1635,11 @@
             "80": {
                 "id": "80",
                 "numero": 80,
+                "relacionado": {
+                    "1976": [
+                        "49"
+                    ]
+                },
                 "texto": [
                     "El Estado garantiza el derecho a la protección, seguridad y salud en el trabajo mediante la adopción de medidas adecuadas para la prevención de accidentes y enfermedades profesionales."
                 ]
@@ -1372,6 +1647,11 @@
             "81": {
                 "id": "81",
                 "numero": 81,
+                "relacionado": {
+                    "1976": [
+                        "48"
+                    ]
+                },
                 "texto": [
                     "El Estado, mediante la asistencia social, protege a las personas sin recursos ni amparo, no aptas para trabajar, que carezcan de familiares en condiciones de prestarle ayuda; y a las familias que, debido a los bajos ingresos que perciben, así lo requieran, de conformidad con la ley."
                 ]
@@ -1379,6 +1659,11 @@
             "82": {
                 "id": "82",
                 "numero": 82,
+                "relacionado": {
+                    "1976": [
+                        "9"
+                    ]
+                },
                 "texto": [
                     "Se reconoce el derecho de las personas a una vivienda digna.",
                     " El Estado trabaja para hacer efectivo este derecho mediante programas de construcción de viviendas, con la participación de entidades y de la población, en correspondencia con las normas del ordenamiento territorial y urbano y las leyes."
@@ -1387,6 +1672,11 @@
             "83": {
                 "id": "83",
                 "numero": 83,
+               "relacionado": {
+                    "1976": [
+                        "50"
+                    ]
+                }, 
                 "texto": [
                     "La salud pública es un derecho de todas las personas. El Estado garantiza el acceso y la gratuidad de los servicios de atención, protección y recuperación.",
                     "La ley define el modo en que los servicios de salud se prestan."
@@ -1395,9 +1685,14 @@
             "84": {
                 "id": "84",
                 "numero": 84,
+                "relacionado": {
+                    "1976": [
+                        "51"
+                    ]
+                },
                 "texto": [
-                    "La educación es un derecho de todas las personas y una responsabilidad del Estado, la so ciedad y las familias.",
-                    " El Estado garantiza a sus ciudada nos servicios de educación gratuitos y asequibles para su formación integral, desde el preescolar hasta la enseñanza universitaria de pregrado, conforme a las exigencias sociales y a las necesidades del desarrollo económico-social del país.",
+                    "La educación es un derecho de todas las personas y una responsabilidad del Estado, la sociedad y las familias.",
+                    " El Estado garantiza a sus ciudadanos servicios de educación gratuitos y asequibles para su formación integral, desde el preescolar hasta la enseñanza universitaria de pregrado, conforme a las exigencias sociales y a las necesidades del desarrollo económico-social del país.",
                     "La ley define, entre otras cuestiones, el alcance de la obligatoriedad de estudiar y la preparación general básica que, como mínimo, debe adquirir todo ciudadano.",
                     "Se garantiza la formación posgraduada y la educación de las personas adultas, de conformidad con las regulaciones establecidas."
                 ]
@@ -1405,6 +1700,11 @@
             "85": {
                 "id": "85",
                 "numero": 85,
+                "relacionado": {
+                    "1976": [
+                        "52"
+                    ]
+                },
                 "texto": [
                     "Las personas tienen derecho a la educación física, al deporte y a la recreación como elementos esenciales de su calidad de vida.",
                     " Los planes de estudio del sistema nacional de educación garantizan la inclusión de la enseñanza y práctica de la educación física y el deporte como parte de la formación integral de la niñez, la adolescencia y la juventud.",
@@ -1414,6 +1714,11 @@
             "86": {
                 "id": "86",
                 "numero": 86,
+                "relacionado": {
+                    "1976": [
+                        "27"
+                    ]
+                },
                 "texto": [
                     "Todas las personas tienen derecho a vivir en un medio ambiente sano y equilibrado.",
                     "El Estado protege el medio ambiente y los recursos naturales del país. Reconoce su estrecha vinculación con el desarrollo sostenible de la economía y la sociedad para hacer más racional la vida humana y asegurar la supervivencia, el bienestar y la seguridad de las generaciones actuales y futuras."
@@ -1443,6 +1748,11 @@
             "90": {
                 "id": "90",
                 "numero": 90,
+                "relacionado": {
+                    "1976": [
+                        "39"
+                    ]
+                },
                 "texto": [
                     "Todas las personas tienen derecho a participar en la vida cultural y artística de la nación. El Estado promueve la cultura y las distintas manifestaciones artísticas, de conformidad con la política cultural y la ley."
                 ]
@@ -1450,6 +1760,11 @@
             "91": {
                 "id": "91",
                 "numero": 91,
+                "relacionado": {
+                    "1976": [
+                        "64"
+                    ]
+                },
                 "texto": [
                     "El ejercicio de los derechos y libertades previstos en esta Constitución implican responsabilidades. Son deberes de los ciudadanos cubanos, además de los otros establecidos en esta Constitución y las leyes:"
                 ],
@@ -1519,6 +1834,11 @@
             "92": {
                 "id": "92",
                 "numero": 92,
+                "relacionado": {
+                    "1976": [
+                        "133", "131"
+                    ]
+                },
                 "texto": [
                     "El ciudadano cubano tiene derecho a participar en la conformación, ejercicio y control del poder del Estado, en razón a esto puede, de conformidad con la Constitución y las leyes:"
                 ],
@@ -1582,6 +1902,11 @@
             "93": {
                 "id": "93",
                 "numero": 93,
+                "relacionado": {
+                    "1976": [
+                        "34"
+                    ]
+                },
                 "texto": [
                     "Los extranjeros residentes en el territorio de la República se equiparan a los cubanos:"
                 ],
@@ -1624,6 +1949,11 @@
             "94": {
                 "id": "94",
                 "numero": 94,
+                "relacionado": {
+                    "1976": [
+                        "26"
+                    ]
+                },
                 "texto": [
                     "La persona a la que se le vulneren sus derechos y sufriere daño o perjuicio por órganos del Estado, sus directivos, funcionarios y empleados, con motivo de la acción u omisión indebida de sus funciones, tiene derecho a reclamar, ante los tribunales, la restitución de los derechos y obtener, de conformidad con la ley, la correspondiente reparación o indemnización.",
                     " La ley establece la pertinencia y el procedimiento preferente, expedito y concentrado para su cumplimiento."
@@ -1632,6 +1962,11 @@
             "95": {
                 "id": "95",
                 "numero": 95,
+                "relacionado": {
+                    "1976": [
+                        "39"
+                    ]
+                },
                 "texto": [
                     "El Estado orienta, fomenta y promueve la educación, las ciencias y la cultura en todas sus manifestaciones.",
                     " En su política educativa, científica y cultural se atiene a los postulados siguientes:"
@@ -1708,6 +2043,11 @@
             "96": {
                 "id": "96",
                 "numero": 96,
+                "relacionado": {
+                    "1976": [
+                        "68"
+                    ]
+                },
                 "texto": [
                     "Los órganos del Estado se integran y desarrollan su actividad sobre la base de los principios de la democracia socialista que se expresan en las reglas siguientes:"
                 ],
@@ -1759,6 +2099,11 @@
             "97": {
                 "id": "97",
                 "numero": 97,
+                "relacionado": {
+                    "1976": [
+                        "69"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular es el órgano supremo del poder del Estado. Representa a todo el pueblo y expresa su voluntad soberana."
                 ]
@@ -1766,6 +2111,11 @@
             "98": {
                 "id": "98",
                 "numero": 98,
+                "relacionado": {
+                    "1976": [
+                        "70"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular es el único órgano con potestad constituyente y legislativa en la República."
                 ]
@@ -1773,6 +2123,11 @@
             "99": {
                 "id": "99",
                 "numero": 99,
+                "relacionado": {
+                    "1976": [
+                        "71"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular está integrada por diputados elegidos por el voto libre, igual, directo y secreto de los electores, en la proporción y según el procedimiento que determina la ley."
                 ]
@@ -1780,6 +2135,11 @@
             "100": {
                 "id": "100",
                 "numero": 100,
+                "relacionado": {
+                    "1976": [
+                        "72"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular es elegida por un término de cinco años. Este término solo podrá extenderse por la propia Asamblea mediante acuerdo adoptado por una mayoría no inferior a las dos terceras partes del número total de sus integrantes, en caso de circunstancias excepcionales que impidan la celebración normal de las elecciones y mientras subsistan tales circunstancias."
                 ]
@@ -1787,6 +2147,11 @@
             "101": {
                 "id": "101",
                 "numero": 101,
+                "relacionado": {
+                    "1976": [
+                        "73"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular, al constituirse para una nueva legislatura, elige de entre sus diputados, a su Presidente, al Vicepresidente y al Secretario.",
                     " La ley regula la forma y el procedimiento mediante los cuales se constituye la Asamblea y realiza esa elección."
@@ -1795,6 +2160,11 @@
             "102": {
                 "id": "102",
                 "numero": 102,
+                "relacionado": {
+                    "1976": [
+                        "74"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular elige, de entre sus diputados, al Consejo de Estado, órgano que la representa entre uno y otro período de sesiones, ejecuta sus acuerdos y cumple las demás funciones que la Constitución y la ley le atribuyen."
                 ]
@@ -1802,6 +2172,11 @@
             "103": {
                 "id": "103",
                 "numero": 103,
+                "relacionado": {
+                    "1976": [
+                        "75"
+                    ]
+                },
                 "texto": [
                     "Corresponde a la Asamblea Nacional del Poder Popular:"
                 ],
@@ -1961,6 +2336,11 @@
             "104": {
                 "id": "104",
                 "numero": 104,
+                "relacionado": {
+                    "1976": [
+                        "75"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular, en ejercicio de sus atribuciones:"
                 ],
@@ -2039,6 +2419,11 @@
             "105": {
                 "id": "105",
                 "numero": 105,
+                "relacionado": {
+                    "1976": [
+                        "76","78","79","80"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Nacional del Poder Popular en su funcionamiento se rige por los principios siguientes:"
                 ],
@@ -2072,6 +2457,11 @@
             "106": {
                 "id": "106",
                 "numero": 106,
+                "relacionado": {
+                    "1976": [
+                        "81"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Presidente de la Asamblea Nacional del Poder Popular:"
                 ],
@@ -2160,6 +2550,11 @@
             "108": {
                 "id": "108",
                 "numero": 108,
+                "relacionado": {
+                    "1976": [
+                        "84"
+                    ]
+                },
                 "texto": [
                     "Los diputados tienen el deber de desarrollar sus labores en beneficio de los intereses del pueblo, mantener vínculo con sus electores, atender sus planteamientos, sugerencias, críticas y explicarles la política del Estado. Asimismo, rendirán cuenta del cumplimiento de sus funciones como tal, según lo establecido en la ley.",
                     "La Asamblea Nacional del Poder Popular adopta las medidas que garanticen la adecuada vinculación de los diputados con sus electores y con los órganos locales del Poder Popular en el territorio donde fueron elegidos."
@@ -2168,6 +2563,11 @@
             "109": {
                 "id": "109",
                 "numero": 109,
+                "relacionado": {
+                    "1976": [
+                        "83"
+                    ]
+                },
                 "texto": [
                     "Ningún diputado puede ser detenido ni sometido a proceso penal sin autorización de la Asamblea Nacional del Poder Popular o del Consejo de Estado si no está reunida aquella, salvo en caso de delito flagrante."
                 ]
@@ -2175,6 +2575,11 @@
             "110": {
                 "id": "110",
                 "numero": 110,
+                "relacionado": {
+                    "1976": [
+                        "82"
+                    ]
+                },
                 "texto": [
                     "La condición de diputado no entraña privilegios personales ni beneficios económicos. Durante el tiempo que empleen en el desempeño efectivo de sus funciones, los diputados perciben la misma remuneración de su centro de trabajo y mantienen el vínculo con este, a los efectos pertinentes."
                 ]
@@ -2182,6 +2587,11 @@
             "111": {
                 "id": "111",
                 "numero": 111,
+                "relacionado": {
+                    "1976": [
+                        "85"
+                    ]
+                },
                 "texto": [
                     "A los diputados les puede ser revocado su mandato en cualquier momento, en la forma, por las causas y según los procedimientos establecidos en la ley."
                 ]
@@ -2189,6 +2599,11 @@
             "112": {
                 "id": "112",
                 "numero": 112,
+                "relacionado": {
+                    "1976": [
+                        "86"
+                    ]
+                },
                 "texto": [
                     "Los diputados, en el curso de las sesiones de la Asamblea Nacional del Poder Popular, tienen el derecho de hacer preguntas al Consejo de Estado y al Consejo de Ministros o a los miembros de uno y otro, y a que estas les sean respondidas en el curso de la misma o en la próxima sesión."
                 ]
@@ -2204,6 +2619,11 @@
             "114": {
                 "id": "114",
                 "numero": 114,
+                "relacionado": {
+                    "1976": [
+                        "87"
+                    ]
+                },
                 "texto": [
                     "Los diputados y las comisiones tienen el derecho de solicitar a los órganos o entidades la colaboración necesaria para el cumplimiento de sus funciones, y estos están en la obligación de prestarla en los términos establecidos en la ley."
                 ]
@@ -2211,9 +2631,14 @@
             "115": {
                 "id": "115",
                 "numero": 115,
+                "relacionado": {
+                    "1976": [
+                        "89"
+                    ]
+                },
                 "texto": [
                     "El Consejo de Estado tiene carácter colegiado, es responsable ante la Asamblea Nacional del Poder Popular y le rinde cuenta de todas sus actividades.",
-                    " Los decretos-leyes y acuerdos que adopte el Consejo de Estado se someten a la ratificación de la Asamblea Nacional del Poder Popular en la sesión más próxima."
+                    "Los decretos-leyes y acuerdos que adopte el Consejo de Estado se someten a la ratificación de la Asamblea Nacional del Poder Popular en la sesión más próxima."
                 ]
             },
             "116": {
@@ -2227,6 +2652,11 @@
             "117": {
                 "id": "117",
                 "numero": 117,
+                "relacionado": {
+                    "1976": [
+                        "90"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Consejo de Estado:"
                 ],
@@ -2369,6 +2799,11 @@
             "118": {
                 "id": "118",
                 "numero": 118,
+                "relacionado": {
+                    "1976": [
+                        "91"
+                    ]
+                },
                 "texto": [
                     "Todas las decisiones del Consejo de Estado son adoptadas por el voto favorable de la mayoría simple de sus integrantes."
                 ]
@@ -2376,6 +2811,11 @@
             "119": {
                 "id": "119",
                 "numero": 119,
+                "relacionado": {
+                    "1976": [
+                        "92"
+                    ]
+                },
                 "texto": [
                     "El mandato confiado al Consejo de Estado por la Asamblea Nacional del Poder Popular expira al tomar posesión el nuevo Consejo de Estado elegido en virtud de las renovaciones periódicas de aquella."
                 ]
@@ -2392,7 +2832,7 @@
                 "numero": 121,
                 "texto": [
                     "El Presidente de la República es elegido por la Asamblea Nacional del Poder Popular de entre sus diputados, por un período de cinco años, y le rinde cuenta a esta de su gestión.",
-                    " Para ser elegido Presidente de la República se requiere el voto favorable de la mayoría absoluta.",
+                    "Para ser elegido Presidente de la República se requiere el voto favorable de la mayoría absoluta.",
                     "El Presidente de la República puede ejercer su cargo hasta dos períodos consecutivos, luego de lo cual no puede desempeñarlo nuevamente."
                 ]
             },
@@ -2407,6 +2847,11 @@
             "123": {
                 "id": "123",
                 "numero": 123,
+                "relacionado": {
+                    "1976": [
+                        "93"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Presidente de la República:"
                 ],
@@ -2575,6 +3020,11 @@
             "126": {
                 "id": "126",
                 "numero": 126,
+                "relacionado": {
+                    "1976": [
+                        "94"
+                    ]
+                },
                 "texto": [
                     "En caso de ausencia, enfermedad o muerte del Presidente de la República, lo sustituye temporalmente en sus funciones el Vicepresidente hasta tanto sea elegido por la Asamblea Nacional del Poder Popular el nuevo Presidente de la República.",
                     "Cuando quede vacante el cargo de Vicepresidente de la República, la Asamblea Nacional del Poder Popular elige a su sustituto.",
@@ -2592,6 +3042,11 @@
             "128": {
                 "id": "128",
                 "numero": 128,
+                "relacionado": {
+                    "1976": [
+                        "95"
+                    ]
+                },
                 "texto": [
                     "El Consejo de Ministros es el máximo órgano ejecutivo y administrativo, constituye el Gobierno de la República."
                 ]
@@ -2599,6 +3054,11 @@
             "129": {
                 "id": "129",
                 "numero": 129,
+                "relacionado": {
+                    "1976": [
+                        "96"
+                    ]
+                },
                 "texto": [
                     "El Consejo de Ministros está integrado por el Primer Ministro, los Viceprimeros Ministros, los Ministros, el Secretario y los otros miembros que determine la ley.",
                     " En las sesiones del Consejo de Ministros participa, por derecho propio, el Secretario General de la Central de Trabajadores de Cuba."
@@ -2607,6 +3067,11 @@
             "130": {
                 "id": "130",
                 "numero": 130,
+                "relacionado": {
+                    "1976": [
+                        "97"
+                    ]
+                },
                 "texto": [
                     "El Primer Ministro, los Viceprimeros Ministros, el Secretario y otros miembros del Consejo de Ministros que determine el Presidente de la República, integran su Comité Ejecutivo.",
                     "El Comité Ejecutivo puede decidir sobre las cuestiones atribuidas al Consejo de Ministros, durante los períodos que medien entre una y otra de sus reuniones."
@@ -2615,6 +3080,11 @@
             "131": {
                 "id": "131",
                 "numero": 131,
+                "relacionado": {
+                    "1976": [
+                        "99"
+                    ]
+                },
                 "texto": [
                     "El Consejo de Ministros es responsable y periódicamente rinde cuenta de sus actividades ante la Asamblea Nacional del Poder Popular."
                 ]
@@ -2622,6 +3092,11 @@
             "132": {
                 "id": "132",
                 "numero": 132,
+                "relacionado": {
+                    "1976": [
+                        "98"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Consejo de Ministros:"
                 ],
@@ -2829,6 +3304,11 @@
             "139": {
                 "id": "139",
                 "numero": 139,
+                "relacionado": {
+                    "1976": [
+                        "93"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Primer Ministro:"
                 ],
@@ -2916,6 +3396,11 @@
             "140": {
                 "id": "140",
                 "numero": 140,
+                "relacionado": {
+                    "1976": [
+                        "100"
+                    ]
+                },
                 "texto": [
                     "Corresponde a los miembros del Consejo de Ministros:"
                 ],
@@ -2973,6 +3458,11 @@
             "141": {
                 "id": "141",
                 "numero": 141,
+                "relacionado": {
+                    "1976": [
+                        "95"
+                    ]
+                },
                 "texto": [
                     "El número, denominación, misión y funciones de los ministerios y demás organismos que forman parte de la Administración Central del Estado, son determinados por la ley."
                 ]
@@ -2980,6 +3470,11 @@
             "142": {
                 "id": "142",
                 "numero": 142,
+                "relacionado": {
+                    "1976": [
+                        "88"
+                    ]
+                },
                 "texto": [
                     "La iniciativa de las leyes compete:"
                 ],
@@ -3058,6 +3553,11 @@
             "143": {
                 "id": "143",
                 "numero": 143,
+                "relacionado": {
+                    "1976": [
+                        "77"
+                    ]
+                },
                 "texto": [
                     "Las leyes y decretos-leyes que emitan la Asamblea Nacional del Poder Popular o el Consejo de Estado, según corresponda, entran en vigor en la fecha que, en cada caso, determine la propia disposición normativa.",
                     " Las leyes, decretos-leyes, decretos presidenciales, decretos, resoluciones y demás disposiciones de interés general que se emitan por los órganos competentes, se publican en la Gaceta Oficial de la República.",
@@ -3067,6 +3567,11 @@
             "144": {
                 "id": "144",
                 "numero": 144,
+                "relacionado": {
+                    "1976": [
+                        "120"
+                    ]
+                },
                 "texto": [
                     "La función de impartir justicia dimana del pueblo y es ejercida a nombre de este por el Tribunal Supremo Popular y los demás tribunales que la ley instituye.",
                     "La ley establece los principales objetivos de la actividad judicial y regula la organización de los tribunales; la extensión de su jurisdicción y competencia; la forma en que se constituyen para los actos de impartir justicia; la participación de los jueces legos; los requisitos que deben reunir los magistrados del Tribunal Supremo Popular y demás jueces; la forma de elección de estos y las causas y procedimientos para la revocación o cese en el ejercicio de sus funciones."
@@ -3075,6 +3580,11 @@
             "145": {
                 "id": "145",
                 "numero": 145,
+                "relacionado": {
+                    "1976": [
+                        "121"
+                    ]
+                },
                 "texto": [
                     "Los tribunales constituyen un sistema de órganos estatales, estructurados con independencia funcional de cualquier otro.",
                     "El Tribunal Supremo Popular ejerce la máxima autoridad judicial y sus decisiones son definitivas.",
@@ -3086,12 +3596,17 @@
                 "numero": 146,
                 "texto": [
                     "Los magistrados y jueces legos del Tribunal Supremo Popular son elegidos por la Asamblea Nacional del Poder Popular o, en su caso, por el Consejo de Estado.",
-                    " La ley determina la elección de los demás jueces."
+                    "La ley determina la elección de los demás jueces."
                 ]
             },
             "147": {
                 "id": "147",
                 "numero": 147,
+                "relacionado": {
+                    "1976": [
+                        "122"
+                    ]
+                },
                 "texto": [
                     "Los magistrados y jueces, en su función de impartir justicia, son independientes y no deben obediencia más que a la ley.",
                     "Asimismo, son inamovibles en su condición mientras no concurran causas legales para el cese o revocación en sus funciones."
@@ -3100,6 +3615,11 @@
             "148": {
                 "id": "148",
                 "numero": 148,
+                "relacionado": {
+                    "1976": [
+                        "123"
+                    ]
+                },
                 "texto": [
                     "Las sentencias y demás resoluciones firmes de los tribunales, dictadas dentro de los límites de su competencia, son de obligatorio cumplimiento por los órganos del Estado, las entidades y los ciudadanos, tanto por los directamente afectados por ellos, como por los que no teniendo interés directo en su ejecución tengan que intervenir en esta."
                 ]
@@ -3107,6 +3627,11 @@
             "149": {
                 "id": "149",
                 "numero": 149,
+                "relacionado": {
+                    "1976": [
+                        "124"
+                    ]
+                },
                 "texto": [
                     "En los actos judiciales que participen jueces legos, estos tienen iguales derechos y deberes que los jueces profesionales. El desempeño de sus funciones judiciales, dada su importancia social, tiene prioridad con respecto a su ocupación laboral habitual."
                 ]
@@ -3121,6 +3646,11 @@
             "151": {
                 "id": "151",
                 "numero": 151,
+                "relacionado": {
+                    "1976": [
+                        "125"
+                    ]
+                },
                 "texto": [
                     "El Tribunal Supremo Popular rinde cuenta ante la Asamblea Nacional del Poder Popular de los resultados de su trabajo en la forma y con la periodicidad que establece la ley."
                 ]
@@ -3128,6 +3658,11 @@
             "152": {
                 "id": "152",
                 "numero": 152,
+                "relacionado": {
+                    "1976": [
+                        "126"
+                    ]
+                },
                 "texto": [
                     "La facultad de revocación de los magistrados y jueces corresponde al órgano que los elige."
                 ]
@@ -3135,6 +3670,11 @@
             "153": {
                 "id": "153",
                 "numero": 153,
+                "relacionado": {
+                    "1976": [
+                        "127"
+                    ]
+                },
                 "texto": [
                     "La Fiscalía General de la República es el órgano del Estado que tiene como misión fundamental ejercer el control de la investigación penal y el ejercicio de la acción penal pública en repre-sentación del Estado, así como velar por el estricto cumplimiento de la Constitución, las leyes y demás disposiciones legales por los órganos del Estado, las entidades y por los ciudadanos.",
                     "La ley determina los demás objetivos y funciones, así como la forma, extensión y oportunidad en que la Fiscalía ejerce sus facultades."
@@ -3143,6 +3683,11 @@
             "154": {
                 "id": "154",
                 "numero": 154,
+                "relacionado": {
+                    "1976": [
+                        "128"
+                    ]
+                },
                 "texto": [
                     "La Fiscalía General de la República constituye una unidad orgánica indivisible y con independencia funcional, subordinada al Presidente de la República.",
                     "Al Fiscal General de la República corresponde la dirección y reglamentación de la actividad de la Fiscalía en todo el territorio nacional.",
@@ -3152,6 +3697,11 @@
             "155": {
                 "id": "155",
                 "numero": 155,
+                "relacionado": {
+                    "1976": [
+                        "129"
+                    ]
+                },
                 "texto": [
                     "El Fiscal General de la República y los vicefiscales generales son elegidos y pueden ser revocados, según corresponda, por la Asamblea Nacional del Poder Popular, o en su caso por el Consejo de Estado."
                 ]
@@ -3159,6 +3709,11 @@
             "156": {
                 "id": "156",
                 "numero": 156,
+                "relacionado": {
+                    "1976": [
+                        "130"
+                    ]
+                },
                 "texto": [
                     "La Fiscalía General de la República rinde cuenta de su gestión ante la Asamblea Nacional del Poder Popular, en la forma y con la periodicidad que establece la ley."
                 ]
@@ -3196,6 +3751,11 @@
             "161": {
                 "id": "161",
                 "numero": 161,
+                "relacionado": {
+                    "1976": [
+                        "102"
+                    ]
+                },
                 "texto": [
                     "El territorio nacional, para los fines político-administrativos, se divide en provincias y municipios; su número, límites y denominación se establecen en la ley.",
                     " La ley podrá establecer otras divisiones y atribuir regímenes de subordinación administrativa y sistemas de regulación especiales a municipios u otras demarcaciones territoriales que se determine, atendiendo a su ubicación geográfica o importancia económica y social. En todos los casos se garantiza la representación del pueblo por medio de los órganos del Poder Popular.",
@@ -3205,6 +3765,11 @@
             "162": {
                 "id": "162",
                 "numero": 162,
+                "relacionado": {
+                    "1976": [
+                        "102"
+                    ]
+                },
                 "texto": [
                     "La provincia tiene personalidad jurídica propia a todos los efectos legales y se organiza por la ley como nivel intermedio entre el Gobierno de la República y el del municipio, con una extensión superficial equivalente a la del conjunto de municipios comprendidos en su demarcación territorial, bajo la dirección de un Gobierno Provincial."
                 ]
@@ -3212,6 +3777,11 @@
             "163": {
                 "id": "163",
                 "numero": 163,
+                "relacionado": {
+                    "1976": [
+                        "102"
+                    ]
+                },
                 "texto": [
                     "El municipio es la sociedad local, organizada por la ley, que constituye la unidad política primaria y fundamental de la organización nacional; goza de autonomía y personalidad jurídica, propias a todos los efectos legales, con una extensión territorial determinada por necesarias relaciones de vecindad, económicas y sociales de su población e intereses de la nación, con el propósito de lograr la satisfacción de las necesidades locales. Cuenta con ingresos propios y las asignaciones que recibe del Gobierno de la República, en función del progreso económico, el desarrollo social de su territorio y otros fines del Estado, bajo la dirección de una Asamblea del Poder Popular y su Consejo de la Administración."
                 ]
@@ -3415,6 +3985,11 @@
             "179": {
                 "id": "179",
                 "numero": 179,
+                "relacionado": {
+                    "1976": [
+                        "105"
+                    ]
+                },
                 "texto": [
                     "Corresponde al Consejo Provincial:"
                 ],
@@ -3490,6 +4065,11 @@
             "180": {
                 "id": "180",
                 "numero": 180,
+                "relacionado": {
+                    "1976": [
+                        "103"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Municipal del Poder Popular es el órgano superior local del poder del Estado en su demarcación y, en consecuencia, está investida de la más alta autoridad para el ejercicio de las funciones estatales en su territorio; para ello, dentro del marco de su competencia, ejerce las atribuciones que la Constitución y las leyes le asignan."
                 ]
@@ -3498,20 +4078,30 @@
                 "id": "181",
                 "numero": 181,
                 "texto": [
-                    "La Asamblea Municipal del Poder Popular está integrada por los delegados elegidos encada circunscripción en que a los efectos electorales se divide su territorio, mediante el voto libre, igual, directo y secreto de los electores."
+                    "La Asamblea Municipal del Poder Popular está integrada por los delegados elegidos en cada circunscripción en que a los efectos electorales se divide su territorio, mediante el voto libre, igual, directo y secreto de los electores."
                 ]
             },
             "182": {
                 "id": "182",
                 "numero": 182,
+                "relacionado": {
+                    "1976": [
+                        "111"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Municipal del Poder Popular se renovará cada cinco años, que es el período de duración del mandato de sus delegados.",
-                    "Dicho mandato solo podrá extenderse por decisión de la AsambleNacional del Poder Popular, en losupuestos previstos en la Constitución."
+                    "Dicho mandato solo podrá extenderse por decisión de la Asamblea Nacional del Poder Popular, en losupuestos previstos en la Constitución."
                 ]
             },
             "183": {
                 "id": "183",
                 "numero": 183,
+                "relacionado": {
+                    "1976": [
+                        "116","117"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Municipal del Poder Popular, al constituirse, elige de entre sus delegados a su Presidente y Vicepresidente, y designa a su Secretario, de conformidad con el procedimiento previsto en la ley.",
                     "El Presidente de la Asamblea Municipal del Poder Popular representa al Estado en su demarcación territorial.",
@@ -3521,6 +4111,11 @@
             "184": {
                 "id": "184",
                 "numero": 184,
+                "relacionado": {
+                    "1976": [
+                        "107"
+                    ]
+                },
                 "texto": [
                     "Las sesiones ordinarias y extraordinarias de la Asamblea Municipal del Poder Popular son públicas, salvo en el caso que esta acuerde celebrarlas a puertas cerradas, por razón de interés de Estado o porque se traten en ellas asuntos referidos al decoro de las personas."
                 ]
@@ -3528,6 +4123,11 @@
             "185": {
                 "id": "185",
                 "numero": 185,
+                "relacionado": {
+                    "1976": [
+                        "108"
+                    ]
+                },
                 "texto": [
                     "En las sesiones de la Asamblea Municipal del Poder Popular se requiere para su validez la presencia de más de la mitad del número total de sus integrantes. Sus acuerdos se adoptan por mayoría simple de votos."
                 ]
@@ -3535,6 +4135,11 @@
             "186": {
                 "id": "186",
                 "numero": 186,
+                "relacionado": {
+                    "1976": [
+                        "106"
+                    ]
+                },
                 "texto": [
                     "Corresponde a la Asamblea Municipal del Poder Popular:"
                 ],
@@ -3640,6 +4245,11 @@
             "187": {
                 "id": "187",
                 "numero": 187,
+                "relacionado": {
+                    "1976": [
+                        "103"
+                    ]
+                },
                 "texto": [
                     "La Asamblea Municipal del Poder Popular para el ejercicio de sus funciones, se apoya en los consejos populares, en la iniciativa y amplia participación de la población, y actúa en estrecha coordinación con las organizaciones de masas y sociales."
                 ]
@@ -3647,6 +4257,11 @@
             "188": {
                 "id": "188",
                 "numero": 188,
+                "relacionado": {
+                    "1976": [
+                        "113"
+                    ]
+                },
                 "texto": [
                     "Los delegados cumplen el mandato que les han conferido sus electores, en interés de toda la comunidad, para lo cual deberán compartir estas funciones, con sus responsabilidades y tareas habituales. La ley regula la forma en que se desarrollan estas funciones."
                 ]
@@ -3654,6 +4269,11 @@
             "189": {
                 "id": "189",
                 "numero": 189,
+                "relacionado": {
+                    "1976": [
+                        "115","114"
+                    ]
+                },
                 "texto": [
                     "Los delegados tienen los deberes siguientes:"
                 ],
@@ -3693,6 +4313,11 @@
             "190": {
                 "id": "190",
                 "numero": 190,
+                "relacionado": {
+                    "1976": [
+                        "114"
+                    ]
+                },
                 "texto": [
                     "Los delegados tienen los derechos siguientes:"
                 ],
@@ -3726,6 +4351,11 @@
             "191": {
                 "id": "191",
                 "numero": 191,
+                "relacionado": {
+                    "1976": [
+                        "112"
+                    ]
+                },
                 "texto": [
                     "El mandato de los delegados es revocable en todo momento. La ley determina la forma, las causas y los procedimientos para su revocación."
                 ]
@@ -3733,6 +4363,11 @@
             "192": {
                 "id": "192",
                 "numero": 192,
+                "relacionado": {
+                    "1976": [
+                        "110"
+                    ]
+                },
                 "texto": [
                     "Las comisiones permanentes de trabajo son constituidas por la Asamblea Municipal del Poder Popular atendiendo a los intereses específicos de su localidad, para que la auxilie en la realización de sus actividades y especialmente para ejercer el control a las entidades de subordinación municipal.",
                     "Del mismo modo, las comisiones pueden solicitar a entidades de otros niveles de subordinación que se encuentren radicadas en su demarcación territorial, que les informen sobre aspectos que inciden directamente en la localidad.",
@@ -3742,6 +4377,11 @@
             "193": {
                 "id": "193",
                 "numero": 193,
+                "relacionado": {
+                    "1976": [
+                        "104"
+                    ]
+                },
                 "texto": [
                     "El Consejo Popular es un órgano local del Poder Popular de carácter representativo, investido de la más alta autoridad para el desempeño de sus funciones y, sin constituir una instancia intermedia a los fines de la división político-administrativa, se organiza en ciudades, pueblos, barrios, poblados y zonas rurales, a partir de los delegados elegidos en las circunscripciones de su demarcación, los cuales deben elegir entre ellos quien lo presida.",
                     "A las reuniones del Consejo Popular pueden invitarse, según los temas y asuntos a tratar, representantes de las organizaciones de masas y sociales, y de las entidades más importantes en la demarcación, con el objetivo principal de fortalecer la coordinación y el esfuerzo colectivo en beneficio de la comunidad, siempre desde las funciones propias que a cada cual corresponden."
@@ -3750,6 +4390,11 @@
             "194": {
                 "id": "194",
                 "numero": 194,
+                "relacionado": {
+                    "1976": [
+                        "104"
+                    ]
+                },
                 "texto": [
                     "El Consejo Popular representa a la población de la demarcación donde actúa y a la vez a la Asamblea Municipal del Poder Popular. Ejerce el control sobre las entidades de producción y servicios de incidencia local, y trabaja activamente para la satisfacción de las necesidades de la economía, de salud, asistenciales, educacionales, culturales, deportivas y recreativas, así como en las tareas de prevención y atención social, promoviendo la mayor participación de la población y las iniciativas locales para su consecución.",
                     "La ley regula la organización y atribuciones del Consejo Popular."
@@ -3828,6 +4473,11 @@
             "199": {
                 "id": "199",
                 "numero": 199,
+                "relacionado": {
+                    "1976": [
+                        "131"
+                    ]
+                },
                 "texto": [
                     "Todos los ciudadanos, con capacidad legal para ello, tienen derecho a intervenir en la dirección del Estado, bien directamente o por intermedio de sus representantes elegidos para integrar los órganos del Poder Popular y a participar, con ese propósito, en la forma prevista en la ley, en elecciones periódicas, plebiscitos y referendos populares, que serán de voto libre, igual, directo y secreto. Cada elector tiene derecho a un solo voto."
                 ]
@@ -3835,6 +4485,11 @@
             "200": {
                 "id": "200",
                 "numero": 200,
+                "relacionado": {
+                    "1976": [
+                        "132"
+                    ]
+                },
                 "texto": [
                     "El voto es un derecho y un deber ciudadano. Lo ejercen voluntariamente los cubanos, hombres y mujeres, mayores de dieciséis años de edad, excepto:"
                 ],
@@ -3869,6 +4524,11 @@
             "202": {
                 "id": "202",
                 "numero": 202,
+                "relacionado": {
+                    "1976": [
+                        "133"
+                    ]
+                },
                 "texto": [
                     "Tienen derecho a ser elegidos los ciudadanos cubanos, hombres o mujeres, que se hallen en el pleno goce de sus derechos políticos y que cumplan con los demás requisitos previstos en la ley.",
                     "Si la elección es para diputados a la Asamblea Nacional del Poder Popular deben, además, ser mayores de dieciocho años de edad."
@@ -3877,6 +4537,11 @@
             "203": {
                 "id": "203",
                 "numero": 203,
+                "relacionado": {
+                    "1976": [
+                        "134"
+                    ]
+                },
                 "texto": [
                     "Los miembros de las instituciones armadas tienen derecho a elegir y a ser elegidos, igual que los demás ciudadanos."
                 ]
@@ -3884,6 +4549,11 @@
             "204": {
                 "id": "204",
                 "numero": 204,
+                "relacionado": {
+                    "1976": [
+                        "135"
+                    ]
+                },
                 "texto": [
                     "La ley determina la cantidad de diputados que integran la Asamblea Nacional del Poder Popular y de delegados que componen las asambleas municipales del Poder Popular, en proporción al número de habitantes de las respectivas demarcaciones en que, a los efectos electorales, se divide el territorio nacional.",
                     "Los diputados a la Asamblea Nacional del Poder Popular y los delegados a las asambleas municipales del Poder Popular se eligen por el voto libre, igual, directo y secreto de los electores. La ley regula el procedimiento para su elección."
@@ -3892,6 +4562,11 @@
             "205": {
                 "id": "205",
                 "numero": 205,
+                "relacionado": {
+                    "1976": [
+                        "136"
+                    ]
+                },
                 "texto": [
                     "Para que se considere elegido un diputado o un delegado es necesario que haya obtenido más de la mitad del número de votos válidos emitidos en la demarcación electoral de que se trate.",
                     "De no concurrir esta circunstancia, o en los demás casos de plazas vacantes, la ley regula la forma en que se procederá."
@@ -3953,6 +4628,11 @@
             "213": {
                 "id": "213",
                 "numero": 213,
+                "relacionado": {
+                    "1976": [
+                        "101"
+                    ]
+                },
                 "texto": [
                     "El Consejo de Defensa Nacional es el órgano superior del Estado, que tiene como misión fundamental organizar, dirigir y preparar al país, desde tiempo de paz, para su defensa, y velar por el cumplimiento de las normativas vigentes relativas a la defensa y seguridad de la nación.",
                     "Durante las situaciones excepcionales y de desastre dirige al país y asume las atribuciones que le corresponden a los órganos del Estado, con excepción de la facultad constituyente."
@@ -3992,6 +4672,11 @@
             "218": {
                 "id": "218",
                 "numero": 218,
+                "relacionado": {
+                    "1976": [
+                        "67"
+                    ]
+                },
                 "texto": [
                     "Ante la ocurrencia de desastres de origen natural, tecnológico, sanitario o de otra naturaleza, en cuyas circunstancias se afecte a la población o la infraestructura social y económica, cuya magnitud supere la capacidad habitual de respuesta y recuperación del país o del territorio afectado, se puede decretar la Situación de Desastre.",
                     "La ley regula lo concerniente al establecimiento, efectos y terminación de las situaciones de desastres."
@@ -4000,6 +4685,11 @@
             "219": {
                 "id": "219",
                 "numero": 219,
+                "relacionado": {
+                    "1976": [
+                        "67"
+                    ]
+                },
                 "texto": [
                     "Durante la vigencia de las situaciones excepcionales y de desastre, la ley determina los derechos y deberes reconocidos por la Constitución, cuyo ejercicio debe ser regulado de manera diferente."
                 ]
@@ -4014,6 +4704,11 @@
             "221": {
                 "id": "221",
                 "numero": 221,
+                "relacionado": {
+                    "1976": [
+                        "137"
+                    ]
+                },
                 "texto": [
                     "Esta Constitución solo puede ser reformada por la Asamblea Nacional del Poder Popular mediante acuerdo adoptado, en votación nominal, por una mayoría no inferior a las dos terceras partes del número total de sus integrantes."
                 ]
@@ -4021,6 +4716,11 @@
             "222": {
                 "id": "222",
                 "numero": 222,
+                "relacionado": {
+                    "1976": [
+                        "137"
+                    ]
+                },
                 "texto": [
                     "Tienen iniciativa para promover reformas a la Constitución:"
                 ],
@@ -4063,6 +4763,11 @@
             "223": {
                 "id": "223",
                 "numero": 223,
+                "relacionado": {
+                    "1976": [
+                        "137"
+                    ]
+                },
                 "texto": [
                     "Cuando la reforma se refiera a la integración y funciones de la Asamblea Nacional del Poder Popular o del Consejo de Estado, a las atribuciones o al período de mandato del Presidente de la República, a los derechos, deberes y garantías consagrados en la Constitución, se requiere, además, la ratificación por el voto favorable de la mayoría de los electores de la nación, en referendo convocado a tales efectos."
                 ]
@@ -4070,6 +4775,11 @@
             "224": {
                 "id": "224",
                 "numero": 224,
+                "relacionado": {
+                    "1976": [
+                        "137"
+                    ]
+                },
                 "texto": [
                     "En ningún caso resultan reformables los pronunciamientos sobre la irrevocabilidad del socialismo y el sistema político y social establecidos en el artículo 3, y la prohibición de negociar bajo agresión, amenaza o coerción de una potencia extranjera, tal y como se dispone en el artículo 12."
                 ]
@@ -4240,25 +4950,25 @@
             "title": "Preámbulo",
             "texto": [
                 "NOSOTROS, CIUDADANOS CUBANOS,",
-                "herederos y continuadores del trabajo creador y de las tradiciones de combatividad, firmeza, heroísmo y sacrificio forjadas por nuestros antecesores;",
-                "por los aborígenes que prefirieron muchas veces el exterminio a la sumisión;",
+                "<span class='dl'>herederos y continuadores del trabajo creador y de las tradiciones de combatividad, firmeza, heroísmo y sacrificio forjadas por</span> nuestros antecesores;",
+                "por los aborígenes que <span class='ch'> prefirieron</span> muchas veces el exterminio a la sumisión;",
                 "por los esclavos que se rebelaron contra sus amos;",
                 "por los que despertaron la conciencia nacional y el ansia cubana de patria y libertad;",
                 "por los patriotas que en 1868 iniciaron las guerras de independencia contra el colonialismo español y los que en el último impulso de 1895 las llevaron a la victoria de 1898, que les fuera arrebatada por la intervención y ocupación militar del imperialismo yanqui;",
-                "por los obreros, campesinos, estudiantes e intelectuales que lucharon durante más de cincuenta años contra el dominio imperialista, la corrupción política, la falta de derechos y libertades populares, el desempleo y la explotación impuesta por capitalistas y terratenientes;",
-                "por los que promovieron, integraron y desarrollaron las primeras organizaciones de obreros y de campesinos, difundieron las ideas socialistas y fundaron los primeros movimientos marxista y marxista-leninista;",
+                "por los <span class='dl'>obreros, campesinos, estudiantes e intelectuales</span> que lucharon durante más de cincuenta años contra el dominio imperialista, la corrupción política, la falta de derechos y libertades populares, el desempleo y la explotación impuesta por capitalistas y terratenientes;",
+                "<span class='dt'>por los que promovieron, integraron y desarrollaron las primeras organizaciones de obreros y de campesinos, difundieron las ideas socialistas y fundaron los primeros movimientos marxista y marxista-leninista;</span>",
                 "por los integrantes de la vanguardia de la generación del centenario del natalicio de Martí, que nutridos por su magisterio nos condujeron a la victoria revolucionaria popular de Enero;",
                 "por los que, con el sacrifico de sus vidas, defendieron la Revolución contribuyendo a su definitiva consolidación;",
                 "por los que masivamente cumplieron heroicas misiones internacionalistas;",
                 "GUIADOS",
                 "por el ideario de José Martí y las ideas político-sociales de Marx, Engels y Lenin;",
-                "APOYADOS",
-                "en el internacionalismo proletario, en la amistad fraternal, la ayuda, la cooperación y la solidaridad de los pueblos del mundo, especialmente los de América Latina y del Caribe;",
+                "<span class='dl'>APOYADOS</span>",
+                "<span class='dl'>en el internacionalismo proletario, en la amistad fraternal, la ayuda, la cooperación y la solidaridad de los pueblos del mundo, especialmente los de América Latina y del Caribe;</span>",
                 "DECIDIDOS",
-                "a llevar adelante la Revolución triunfadora del Moncada y del Granma, de la Sierra y de Girón encabezada por Fidel Castro que, sustentada en la más estrecha unidad de todas las fuerzas revolucionarias y del pueblo, conquistó la plena independencia nacional, estableció el poder revolucionario, realizó las transformaciones democráticas, inició la construcción del socialismo y, con el Partido Comunista al frente, la continúa con el objetivo final de edificar la sociedad comunista;",
+                "a llevar adelante la Revolución triunfadora del Moncada y del Granma, de la Sierra y de Girón encabezada por Fidel Castro que, sustentada en la más estrecha unidad de todas las fuerzas revolucionarias y del pueblo, conquistó la plena independencia nacional, estableció el poder revolucionario, realizó las transformaciones democráticas, inició la construcción del socialismo <span class='dl'>y, con el Partido Comunista al frente, la continúa con el objetivo final de edificar la sociedad comunista;</span>",
                 "CONSCIENTES",
-                "de que los regímenes sustentados en la explotación del hombre por el hombre determinan la humillación de los explotados y la degradación de la condición humana de los explotadores;",
-                "de que sólo en el socialismo y el comunismo, cuando el hombre ha sido liberado de todas las formas de explotación: de la esclavitud, de la servidumbre y del capitalismo, se alcanza la entera dignidad del ser humano; y de que nuestra Revolución elevó la dignidad de la patria y del cubano a superior altura;",
+                "<span class='dl'>de que los regímenes sustentados en la explotación del hombre por el hombre determinan la humillación de los explotados y la degradación de la condición humana de los explotadores;</span>",
+                "<span class='dl'>de que sólo en el socialismo y el comunismo, cuando el hombre ha sido liberado de todas las formas de explotación: de la esclavitud, de la servidumbre y del capitalismo, se alcanza la entera dignidad del ser humano; y de que nuestra Revolución elevó la dignidad de la patria y del cubano a superior altura;</span>",
                 "DECLARAMOS",
                 "nuestra voluntad de que la ley de leyes de la República esté presidida por este profundo anhelo, al fin logrado, de José Martí:",
                 "“Yo quiero que la ley primera de nuestra República sea el culto de los cubanos a la dignidad plena del hombre”;",
@@ -4270,27 +4980,30 @@
         "1": {
             "title": "Artículo 1",
             "texto": [
-                "Cuba es un Estado socialista de trabajadores, independiente y soberano, organizado con todos y para el bien de todos, como república unitaria y democrática, para el disfrute de la libertad política, la justicia social, el bienestar individual y colectivo y la solidaridad humana."
+                "Cuba es un Estado socialista <span class='dl'>de trabajadores</span>, independiente y soberano, organizado con todos y para el bien de todos, como república unitaria y <span class='mv'>democrática</span>, para el disfrute de la libertad política, la justicia social, el bienestar individual y colectivo y la solidaridad <span class='dl'>humana</span>."
             ]
         },
         "2": {
             "title": "Artículo 2",
             "texto": [
-                "El nombre del Estado cubano es República de Cuba, el idioma oficial es el español y su capital es la ciudad de La Habana."
+                "El nombre del Estado cubano es República de Cuba, el idioma oficial es el español y su capital es <span class='dl'>la ciudad de</span> La Habana."
             ]
         },
         "3": {
             "title": "Artículo 3",
+            "split": [
+                "3"
+            ],
             "texto": [
                 "En la República de Cuba la soberanía reside en el pueblo, del cual dimana todo el poder del Estado. Ese poder es ejercido directamente o por medio de las Asambleas del Poder Popular y demás órganos del Estado que de ellas se derivan, en la forma y según las normas fijadas por la Constitución y las leyes.",
-                "Todos los ciudadanos tienen el derecho de combatir por todos los medios, incluyendo la lucha armada, cuando no fuera posible otro recurso, contra cualquiera que intente derribar el orden político, social y económico establecido por esta Constitución.",
-                "El socialismo y el sistema político y social revolucionario establecido en esta Constitución, probado por años de heroica resistencia frente a las agresiones de todo tipo y la guerra económica de los gobiernos de la potencia imperialista más poderosa que ha existido y habiendo demostrado su capacidad de transformar el país y crear una sociedad enteramente nueva y justa, es irrevocable, y Cuba no volverá jamás al capitalismo."
+                "<span class='dl'>Todos</span> <span class='mv'>los ciudadanos tienen el derecho de combatir por todos los medios, incluyendo la lucha armada, cuando no fuera posible otro recurso, contra cualquiera que intente derribar el orden político, social y económico establecido por esta Constitución.</span>",
+                "<span class='mv'>El socialismo y el sistema político y social revolucionario establecido en esta Constitución</span><span class='dl'>, probado por años de heroica resistencia frente a las agresiones de todo tipo y la guerra económica de los gobiernos de la potencia imperialista más poderosa que ha existido y habiendo demostrado su capacidad de transformar el país y crear una sociedad enteramente nueva y justa,</span> <span class='mv'>es irrevocable</span>, <span class='dl'>y Cuba no volverá jamás al capitalismo.</span>"
             ]
         },
         "4": {
             "title": "Artículo 4",
             "texto": [
-                " Los símbolos nacionales son los que han presidido por más de cien años las luchas cubanas por la independencia, por los derechos del pueblo y por el progreso social:",
+                " Los símbolos nacionales son <span class='dl'>los que han presidido por más de cien años las luchas cubanas por la independencia, por los derechos del pueblo y por el progreso social:</span>",
                 "la bandera de la estrella solitaria;",
                 "el himno de Bayamo;",
                 "el escudo de la palma real."
@@ -4299,13 +5012,13 @@
         "5": {
             "title": "Artículo 5",
             "texto": [
-                "El Partido Comunista de Cuba, martiano y marxista-leninista, vanguardia organizada de la nación cubana, es la fuerza dirigente superior de la sociedad y del Estado, que organiza y orienta los esfuerzos comunes hacia los altos fines de la construcción del socialismo y el avance hacia la sociedad comunista."
+                "El Partido Comunista de Cuba, martiano y marxista-leninista, vanguardia organizada de la nación cubana, es la fuerza dirigente superior de la sociedad y del Estado, <span class='dl'>que</span> organiza y orienta los esfuerzos comunes hacia <span class='nw'>los altos fines de</span> la construcción del socialismo y el avance hacia la sociedad comunista."
             ]
         },
         "6": {
             "title": "Artículo 6",
             "texto": [
-                "La Unión de Jóvenes Comunistas, organización de la juventud cubana de avanzada, cuenta con el reconocimiento y el estímulo del Estado en su función primordial de promover la participación activa de las masas juveniles en las tareas de la edificación socialista y de preparar adecuadamente a los jóvenes como ciudadanos conscientes y capaces de asumir responsabilidades cada día mayores en beneficio de nuestra sociedad."
+                "La Unión de Jóvenes Comunistas, organización de la juventud cubana <span class='ch'>de avanzada</span>, cuenta con el reconocimiento y el estímulo del Estado en <span class='dl'>su función primordial de</span> promover la participación activa <span class='dl'>de las masas juveniles</span> en <span class='dl'>las tareas de</span> la edificación socialista <span class='dl'>y de preparar adecuadamente a los jóvenes como ciudadanos conscientes y capaces de asumir responsabilidades cada día mayores en beneficio de nuestra sociedad.</span>"
             ]
         },
         "7": {
@@ -4350,13 +5063,13 @@
                         "– que no haya niño que no tenga escuela, alimentación y vestido;",
                         "– que no haya joven que no tenga oportunidad de estudiar;",
                         "– que no haya persona que no tenga acceso al estudio, la cultura y el deporte;"
-                    ],
-                    "c": {
-                        "id": "c",
-                        "texto": [
-                            "trabaja por lograr que no haya familia que no tenga una vivienda confortable."
-                        ]
-                    }
+                    ]
+                },
+                "c": {
+                    "id": "c",
+                    "texto": [
+                        "trabaja por lograr que no haya familia que no tenga una vivienda confortable."
+                    ]
                 }
             }
         },

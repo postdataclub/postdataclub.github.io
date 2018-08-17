@@ -1,11 +1,15 @@
-#art-content {
+#art-content, #art-related {
     font-size: 18px;
     margin-top: 10px;
 }
-#art-title {
+#art-title, #related-title, #project {
     color: #461A57;
     font-weight: bold;
     font-size: 20px;
+}
+
+#related-title {
+    text-align: left;
 }
 
 #title-art, #chapter-art, #section-art {
@@ -43,15 +47,15 @@
 
 }
 
-#debate-action {
+#debate-action, #close-related, #show-related {
     /*background-color: rgb(51,122,183);*/
     font-size: 13px;
     background-color: rgba(70,26,87,0.85);
     color: #FFFFFF;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
-#debate-action:focus, #debate-action:hover{
+#debate-action:focus, #debate-action:hover, #close-related:hover, #close-related:focus, #show-related:hover,#show-related:focus {
     background-color: #461A57;
 }
 
@@ -108,4 +112,28 @@
 
 #constitucion-image {
     text-align:left;
+}
+
+.ch {
+    /*background-color: rgba(30,187,51,0.3);*/
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.nw {
+    /*background-color: rgba(36,79,187,0.3);&/
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.dl {
+    /*background-color: rgba(255,37,37,0.3);*/
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.mv {
+    /*background-color: rgba(139,94,45,0.3);&/
+    padding-left: 3px;
+    padding-right: 3px;
 }
