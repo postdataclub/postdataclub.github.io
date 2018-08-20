@@ -7,7 +7,14 @@ $.getJSON("data/constitucion.json",function(data){
     var d = {'id':'preambulo','title':'Preámbulo'}
     var text = '';
     for(var i=0;i<data.proyecto.preambulo.texto.length;i++){
-        text+=data.proyecto.preambulo.texto[i]+' ';
+        var l = data.proyecto.preambulo.texto[i];
+        l = l.toLowerCase();
+        l = l.replace(/á/gi,'a');
+        l = l.replace(/é/gi,'e');
+        l = l.replace(/í/gi,'i');
+        l = l.replace(/ó/gi,'o');
+        l = l.replace(/ú/gi,'u');
+        text+=l+' ';
     }
     d['text'] = text;
     return d;
@@ -20,7 +27,14 @@ $.getJSON("data/constitucion.json",function(data){
         d['title']='Disp. Especial '+data.proyecto.disposiciones.especiales.elementos[id].nombre;
         var text = '';
         for(var i=0;i<data.proyecto.disposiciones.especiales.elementos[id].texto.length;i++){
-            text+=data.proyecto.disposiciones.especiales.elementos[id].texto[i]+' ';
+            var l = data.proyecto.disposiciones.especiales.elementos[id].texto[i];
+            l = l.toLowerCase();
+            l = l.replace(/á/gi,'a');
+            l = l.replace(/é/gi,'e');
+            l = l.replace(/í/gi,'i');
+            l = l.replace(/ó/gi,'o');
+            l = l.replace(/ú/gi,'u');
+            text+=l +' ';
         }
         d['text'] = text;
     } else if (type=='dt'){
@@ -28,7 +42,14 @@ $.getJSON("data/constitucion.json",function(data){
         d['title']='Disp. Transitoria '+data.proyecto.disposiciones.transitorias.elementos[id].nombre;
         var text = '';
         for(var i=0;i<data.proyecto.disposiciones.transitorias.elementos[id].texto.length;i++){
-            text+=data.proyecto.disposiciones.transitorias.elementos[id].texto[i]+' ';
+            var l = data.proyecto.disposiciones.transitorias.elementos[id].texto[i];
+            l = l.toLowerCase();
+            l = l.replace(/á/gi,'a');
+            l = l.replace(/é/gi,'e');
+            l = l.replace(/í/gi,'i');
+            l = l.replace(/ó/gi,'o');
+            l = l.replace(/ú/gi,'u');
+            text+=l+' ';
         }
         d['text'] = text;
     } else if (type=='df'){
@@ -36,7 +57,14 @@ $.getJSON("data/constitucion.json",function(data){
         d['title']='Disp. Final '+data.proyecto.disposiciones.finales.elementos[id].nombre;
         var text = '';
         for(var i=0;i<data.proyecto.disposiciones.finales.elementos[id].texto.length;i++){
-            text+=data.proyecto.disposiciones.finales.elementos[id].texto[i]+' ';
+            var l = data.proyecto.disposiciones.finales.elementos[id].texto[i];
+            l = l.toLowerCase();
+            l = l.replace(/á/gi,'a');
+            l = l.replace(/é/gi,'e');
+            l = l.replace(/í/gi,'i');
+            l = l.replace(/ó/gi,'o');
+            l = l.replace(/ú/gi,'u');
+            text+= l +' ';
         }
         d['text'] = text;
     }
@@ -47,20 +75,41 @@ $.getJSON("data/constitucion.json",function(data){
     var d = {"id":'art-'+id,"title":"Artículo "+id};
     var text = '';
     for(var i=0;i<data.proyecto.articulos[id].texto.length;i++){
-        text+= data.proyecto.articulos[id].texto[i]+' ';
+        var l = data.proyecto.articulos[id].texto[i]; 
+        l = l.toLowerCase();
+        l = l.replace(/á/gi,'a');
+        l = l.replace(/é/gi,'e');
+        l = l.replace(/í/gi,'i');
+        l = l.replace(/ó/gi,'o');
+        l = l.replace(/ú/gi,'u');
+        text+= l +' ';
     }
     if ('incisos' in data.proyecto.articulos[id]){
         var incisos = Object.keys(data.proyecto.articulos[id].incisos);
         incisos.sort();
         for(var i=0;i<incisos.length;i++){
             for(var j=0;j<data.proyecto.articulos[id].incisos[incisos[i]].texto.length;j++){
-                text+= data.proyecto.articulos[id].incisos[incisos[i]].texto[j]+' ';
+                var l = data.proyecto.articulos[id].incisos[incisos[i]].texto[j]; 
+                l = l.toLowerCase();
+                l = l.replace(/á/gi,'a');
+                l = l.replace(/é/gi,'e');
+                l = l.replace(/í/gi,'i');
+                l = l.replace(/ó/gi,'o');
+                l = l.replace(/ú/gi,'u');
+                text+= l+' ';
             }
         }
     }
     if ('texto-final' in data.proyecto.articulos[id]){
         for(var i=0;i<data.proyecto.articulos[id]['texto-final'].length;i++){
-            text+= data.proyecto.articulos[id]['texto-final'][i]+' ';
+            var l = data.proyecto.articulos[id]['texto-final'][i]; 
+            l = l.toLowerCase();
+            l = l.replace(/á/gi,'a');
+            l = l.replace(/é/gi,'e');
+            l = l.replace(/í/gi,'i');
+            l = l.replace(/ó/gi,'o');
+            l = l.replace(/ú/gi,'u');
+            text+= l+' ';
         }
     }
     d['text'] = text;
@@ -734,20 +783,86 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('#show-related').show();
  }
  
- //tdict = get_text_dict();
+ $('#close-related').click(function(e){
+    close_related();
+ });
  
  
- //var idx = lunr(function () {
-  //this.use(lunr.es);
-  //this.ref('id');
-  //this.field('title');
-  //this.field('text');
-  //var tkeys = Object.keys(tdict);
-  //for(var i=0;i<tkeys.length;i++){
-     //this.add(tdict[tkeys[i]]);
-  //}
-//});
+//Search part
  
-
+ tdict = get_text_dict();
+ 
+ 
+ var idx = lunr(function () {
+  this.use(lunr.es);
+  this.pipeline.remove(lunr.es.stemmer);
+  this.searchPipeline.remove(lunr.es.stemmer);
+  this.ref('id');
+  this.field('text');
+  var tkeys = Object.keys(tdict);
+  for(var i=0;i<tkeys.length;i++){
+     this.add(tdict[tkeys[i]]);
+  }
+});
+ 
+ 
+ $('#hs1').click(function(e){
+    $('#searchresults').slideUp();
+ });
+ 
+ $('#hs2').click(function(e){
+    $('#searchresults').slideUp();
+ });
+ 
+ $('#searchaction').click(function(e){
+    var t = $('#searchtext').val().trim();
+    if (t!=''){
+        t = t.toLowerCase();
+        t = t.replace(/á/gi,'a');
+        t = t.replace(/é/gi,'e');
+        t = t.replace(/í/gi,'i');
+        t = t.replace(/ó/gi,'o');
+        t = t.replace(/ú/gi,'u');
+        var r = idx.search(t);
+        if (r.length!=0){
+            var text ='';
+            if (r.length==1){
+                text += '<p id="searchtotal" class="bd">1 acápite relacionado con la búsqueda</p>';
+            } else{
+                text += '<p id="searchtotal" class="bd">'+r.length+' acápites relacionados con la búsqueda</p>';
+            }
+            for(var i=0;i<r.length;i++){
+                var ref = r[i]['ref'];
+                text+='<p id="'+ref+'-s" class="cursor" >'+tdict[ref]['title']+'</p>';
+            }
+            $('#searchitems').html(text);
+            for(var j=0;j<r.length;j++){
+                var ref = r[j]['ref'];
+                if (ref.startsWith('pre')) {
+                    $('#'+ref+'-s').click(function(){set_preamble();$('#searchresults').slideUp();});
+                }
+                if (ref.startsWith('d')){
+                    $('#'+ref+'-s').click(function(){
+                        var id=$(this)[0].id; 
+                        var p = id.split('-'); 
+                        set_disposition(p[0],p[1]);
+                        $('#searchresults').slideUp();
+                    });
+                }  
+                if (ref.startsWith('art')){
+                    $('#'+ref+'-s').click(function(){
+                        var id=$(this)[0].id; 
+                        var p = id.split('-'); 
+                        set_article(p[0],p[1]); 
+                        $('#searchresults').slideUp();
+                    });
+                } 
+            }
+        } else {
+            $('#searchitems').html('<p id="nosearch" class=" bd">No hay resultados disponibles para esa búsqueda</p>');
+        }
+        $('#searchresults').slideDown();
+    }
+ });
  
  });

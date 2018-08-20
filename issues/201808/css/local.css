@@ -55,7 +55,7 @@
     /*padding: 5px;*/
 }
 
-#debate-action:focus, #debate-action:hover, #close-related:hover, #close-related:focus, #show-related:hover,#show-related:focus {
+#debate-action:focus, #debate-action:hover, #close-related:hover, #close-related:focus, #show-related:hover,#show-related:focus, #searchaction:hover, #searchaction:focus {
     background-color: #461A57;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .nw {
-    /*background-color: rgba(36,79,187,0.3);&/
+    /*background-color: rgba(36,79,187,0.3);*/
     padding-left: 3px;
     padding-right: 3px;
 }
@@ -133,7 +133,50 @@
 }
 
 .mv {
-    /*background-color: rgba(139,94,45,0.3);&/
+    /*background-color: rgba(139,94,45,0.3);*/
     padding-left: 3px;
     padding-right: 3px;
 }
+
+#searchblock {
+    text-align: right;
+    padding: 2px;
+    margin-right:4px;
+}
+
+#searchaction{
+    font-size:13px;
+    color: #FFFFFF;
+    margin-left: 4px;
+    background-color: rgba(70,26,87,0.85);
+}
+
+#searchtext{
+    font-size:13px;
+    width: 200px;
+}
+
+#searchresults {
+    background-color: #F1F1F1;
+    margin-bottom: 7px;
+    margin-top:5px;
+}
+
+#hidesearch {
+    text-align: right;
+}
+
+#searchitems {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nosearch {
+    font-size: 20px;
+}
+
+#searchtotal{
+    font-size: 20px;
+}
+
+

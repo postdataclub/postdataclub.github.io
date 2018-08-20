@@ -113,9 +113,27 @@
         <div  id='main-block' class='row'>
             <div id='last-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
             <div id="central-content" class='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
+
+
+                <div id='searchbar'>
+                    <div id='searchblock'>
+                        <input id='searchtext' type="text"><span id='searchaction' type="submit" class="btn main-color">Buscar <span class='hidden-xs hidden-sm'>en el Proyecto</span></span>
+                    </div>
+                    <div id='searchresults' style='display:none;'>
+                    <div class='row'><div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="hidesearch"><span id="hs1" class='cursor main-text bd'>Cerrar <i class='bd fa fa-minus-square-o'></i> </span>&nbsp;</div></div>
+                        <div id='searchitems'></div>
+                    <div class='row'><div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="hidesearch"><span id="hs2" class='cursor main-text bd'>Cerrar <i class='bd fa fa-minus-square-o'></i> </span>&nbsp;</div></div>
+                    </div>
+                </div>
+
+
                 <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="constitucion-image"><img src="images/frigio.jpg"></div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-debate"><span id='close-related' class="btn cursor hidden-sm hidden-xs" style="display:none;"><i class="fa fa-minus-square-o"></i> Ocultar texto vigente</span><span id='show-related' class="btn cursor hidden-sm hidden-xs"><i class="fa fa-plus-square-o"></i> Ver texto vigente</span> <span id='debate-action' class="btn cursor"></span></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="constitucion-image">
+                    <img src="images/frigio.jpg">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="art-debate">
+                
+                <span id='close-related' class="btn cursor hidden-sm hidden-xs" style="display:none;"><i class="fa fa-minus-square-o"></i> Ocultar texto vigente</span><span id='show-related' class="btn cursor hidden-sm hidden-xs"><i class="fa fa-plus-square-o"></i> Ver texto vigente</span> <span id='debate-action' class="btn cursor"></span></div>
                 </div>
                 <div id="text-content">
                     <div id="article-content">
@@ -135,6 +153,7 @@
                 <div id="comment-content">
                     <div id="comment-header"></div>
                     <div id="disqus_thread"></div>
+
 
                     <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -158,6 +177,7 @@
                         
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 
                 </div>
             </div>    
