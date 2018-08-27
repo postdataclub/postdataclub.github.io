@@ -111,13 +111,24 @@
     <div id="main-content" class="col-lg-10 col-md-10">
         
         <div  id='main-block' class='row'>
-            <div id='last-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
+            <div  class='col-lg-1 col-md-1 col-sm-1 col-xs-1'>
+                <div id='last-art' class="cursor"></div>
+                <div id="legend" style="display:none;">
+                    <div id='nw-legend' title="Contenido nuevo" >Nuevo</div>
+                    <div id='dl-legend' title="Contenido eliminado" class="hidden-xs hidden-sm" style="display:none;">Eliminado</div>
+                    <div id='ch-legend' title="Cambia el contenido o su redacción" >Modificado</div>
+                    <div id='mv-legend' title="Contenido movido dentro del artículo" >Movido</div>
+                    <div id='re-legend' title="Contenido reubicado en otro artículo" class="hidden-xs hidden-sm" style="display:none;" >Reubicado</div>
+                </div>
+            </div>
             <div id="central-content" class='col-lg-10 col-md-10 col-sm-10 col-xs-10'>
 
 
                 <div id='searchbar'>
                     <div id='searchblock'>
-                        <input id='searchtext' type="text"><span id='searchaction' type="submit" class="btn main-color">Buscar <span class='hidden-xs hidden-sm'>en el Proyecto</span></span>
+                        
+                        <span> <input id='searchtext' type="text"><span id='searchaction' type="submit" class="btn main-color">Buscar <span class='hidden-xs hidden-sm'>en el Proyecto</span></span></span>
+                        <span id="notebar"> <label class="main-text"><input id='shownote' type='checkbox'> Ver anotaciones</label></span>
                     </div>
                     <div id='searchresults' style='display:none;'>
                     <div class='row'><div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"></div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="hidesearch"><span id="hs1" class='cursor main-text bd'>Cerrar <i class='bd fa fa-minus-square-o'></i> </span>&nbsp;</div></div>
@@ -155,6 +166,7 @@
                     <div id="disqus_thread"></div>
 
 
+<!--
                     <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
                         var disqus_shortname = 'postdataclub';
@@ -178,10 +190,11 @@
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
+-->
 
                 </div>
             </div>    
-            <div id='next-art' class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'></div>
+            <div class='col-lg-1 col-md-1 col-sm-1 col-xs-1 cursor'><div id='next-art' class="cursor"></div></div>
         </div>
     </div>
 </div>

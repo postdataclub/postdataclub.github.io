@@ -1,3 +1,36 @@
+var shownotes = false;
+
+function show_notes(){
+    $('.nwid').addClass('nw');
+    $('.chid').addClass('ch');
+    $('.dlid').addClass('dl');
+    $('.mvid').addClass('mv');
+    $('.reid').addClass('re');
+    $('#legend').show();
+}
+
+function hide_notes(){
+    $('.nwid').removeClass('nw');
+    $('.chid').removeClass('ch');
+    $('.dlid').removeClass('dl');
+    $('.mvid').removeClass('mv');
+    $('.reid').removeClass('re');
+    $('#legend').hide();
+}
+
+function toggle_notes(){
+    if (shownotes){
+        show_notes();
+    } else {
+        hide_notes();
+    }
+ }
+ 
+$('#shownote').on('change',function(){
+    shownotes = !shownotes;
+    toggle_notes();
+});
+
 $.getJSON("data/constitucion.json",function(data){
  $('#debate-action').click(function(e){
     move_to_debate();
@@ -430,7 +463,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_id = 'PDClub-201808-1-preambulo';
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!';
     select_in_index('preambulo');
-    reset(d_id,d_url,page_title);
+    //reset(d_id,d_url,page_title);
+    toggle_notes();
  }
  
  function set_general_issues(){
@@ -459,7 +493,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     select_in_index('cg');
     $('#related-title').html('');
     $('#art-related').html('<p  class="art-texto main-text bd">No hay cuestiones generales relacionadas en el texto de la constitución vigente</p>');
-    reset(d_id,d_url,page_title);
+    //reset(d_id,d_url,page_title);
+    toggle_notes();
  }
  
  function set_disposition(section,number){
@@ -589,7 +624,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!'+section+'-'+number;
     $('#related-title').html('');
     $('#art-related').html('<p  class="art-texto main-text bd">No existe ninguna disposición relacionada en el texto de la constitución vigente</p>');
-    reset(d_id,d_url,page_title);
+    //reset(d_id,d_url,page_title);
+    toggle_notes();
  }
  
  function set_article(section,number){
@@ -633,15 +669,16 @@ $indexTree.on('nodeSelected', function(event, data) {
         if (data.proyecto.articulos[number].relacionado['1976'].length>1){
             var t = 'Const. Actual - Artículos ';
             for(var k=0;k<data.proyecto.articulos[number].relacionado['1976'].length;k++){
-                var l = data.proyecto.articulos[number].relacionado['1976'][k];
+                var l = data.proyecto.articulos[number].relacionado['1976'][k].split('-')[0];
                 t+=l+' ';
             }
             $('#related-title').html(t);
         } else {
-            $('#related-title').html('Const. Actual - Artículo '+ data.proyecto.articulos[number].relacionado['1976'][0]);
+            $('#related-title').html('Const. Actual - Artículo '+ data.proyecto.articulos[number].relacionado['1976'][0].split('-')[0]);
         }
         for(var j=0;j<data.proyecto.articulos[number].relacionado['1976'].length;j++){
             var rnumber = data.proyecto.articulos[number].relacionado['1976'][j];
+
             if (data.proyecto.articulos[number].relacionado['1976'].length>1){
                 reltext +='<p  class="art-texto bd">Artículo '+rnumber+'</p>';
             }
@@ -721,7 +758,8 @@ $indexTree.on('nodeSelected', function(event, data) {
             });
         }
     }
-    reset(d_id,d_url,page_title);
+    //reset(d_id,d_url,page_title);
+    toggle_notes();
  }
  
  function move_to_debate(){
@@ -735,6 +773,7 @@ $indexTree.on('nodeSelected', function(event, data) {
  $('#close-related').click(function(e){
     close_related();
  });
+ 
  
  function show_related(){
     $('#project-title').addClass('col-lg-6');
@@ -755,8 +794,11 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('#art-related').addClass('col-md-6');
     $('#art-related').removeClass('hidden-lg');
     $('#art-related').removeClass('hidden-md');
+    
     $('#show-related').hide();
     $('#close-related').show();
+    $('#dl-legend').show();
+    $('#re-legend').show();
  }
  
  function close_related(){
@@ -781,6 +823,8 @@ $indexTree.on('nodeSelected', function(event, data) {
     
     $('#close-related').hide();
     $('#show-related').show();
+    $('#dl-legend').hide();
+    $('#re-legend').hide();
  }
  
  $('#close-related').click(function(e){
@@ -814,7 +858,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     $('#searchresults').slideUp();
  });
  
- $('#searchaction').click(function(e){
+ function saction(){
     var t = $('#searchtext').val().trim();
     if (t!=''){
         t = t.toLowerCase();
@@ -863,6 +907,10 @@ $indexTree.on('nodeSelected', function(event, data) {
         }
         $('#searchresults').slideDown();
     }
+ }
+ 
+ $('#searchaction').click(function(e){
+    saction();
  });
  
  });
