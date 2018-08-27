@@ -463,7 +463,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_id = 'PDClub-201808-1-preambulo';
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!';
     select_in_index('preambulo');
-    //reset(d_id,d_url,page_title);
+    reset(d_id,d_url,page_title);
     toggle_notes();
  }
  
@@ -624,7 +624,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     var d_url = 'http://www.postdata.club'+window.location.pathname+'#!'+section+'-'+number;
     $('#related-title').html('');
     $('#art-related').html('<p  class="art-texto main-text bd">No existe ninguna disposición relacionada en el texto de la constitución vigente</p>');
-    //reset(d_id,d_url,page_title);
+    reset(d_id,d_url,page_title);
     toggle_notes();
  }
  
@@ -758,7 +758,7 @@ $indexTree.on('nodeSelected', function(event, data) {
             });
         }
     }
-    //reset(d_id,d_url,page_title);
+    reset(d_id,d_url,page_title);
     toggle_notes();
  }
  
