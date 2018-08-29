@@ -493,7 +493,7 @@ $indexTree.on('nodeSelected', function(event, data) {
     select_in_index('cg');
     $('#related-title').html('');
     $('#art-related').html('<p  class="art-texto main-text bd">No hay cuestiones generales relacionadas en el texto de la constitución vigente</p>');
-    //reset(d_id,d_url,page_title);
+    reset(d_id,d_url,page_title);
     toggle_notes();
  }
  
