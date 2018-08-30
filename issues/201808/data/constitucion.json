@@ -1351,7 +1351,8 @@
                     ]
                 },
                 "texto": [
-                    "La correspondencia <span class='nwid'> y demás formas de comunicación entre las personas </span> son inviolables. <span class='chid'>  Solo pueden ser interceptadas o registradas, mediante orden expresa de autoridad competente, en los casos y con las formalidades establecidas en la ley. </span<"
+                    "La correspondencia <span class='nwid'> y demás formas de comunicación entre las personas </span> son inviolables. <span class='chid'>  Solo pueden ser interceptadas o registradas, mediante orden expresa de autoridad competente, en los casos y con las formalidades establecidas en la ley. </span>",
+                    "<span class='nwid'> Los documentos o informaciones obtenidas con infracción de este principio no constituyen prueba en proceso alguno. </span>"
                 ]
             },
             "54": {
