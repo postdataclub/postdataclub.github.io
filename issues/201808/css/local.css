@@ -1,3 +1,15 @@
+#period-graph,#voto-graph{
+    min-height: 300px;
+}
+
+#limit-graph {
+    min-height: 320px;
+}
+
+#minage-graph, #preage-graph {
+    min-height: 320px;
+}
+
 #art-content, #art-related {
     font-size: 18px;
     margin-top: 10px;
@@ -112,6 +124,9 @@
     -webkit-transform: translateX(-53%);
     transform: translateX(-53%);
 }
+#limit-graph {
+    min-height: 400px;
+}
 }
 
 #constitucion-image {
@@ -208,6 +223,8 @@
     padding-left: 10px;
 }
 
+
+
 @media(min-width:900px){
 #legend {
     margin-top: 195px;
@@ -215,5 +232,6 @@
     -webkit-transform: translateX(53%);
     transform: translateX(53%);
 }
+
 }
 
