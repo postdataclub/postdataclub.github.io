@@ -1,0 +1,1091 @@
+{
+    "paises": [
+        {
+            "nombre": "Argentina",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2010
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2010,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Brasil",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2013
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2010,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2006,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Canadá",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2005
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 1996,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2001
+            }
+        },
+        {
+            "nombre": "Colombia",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2016
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2007,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Estados Unidos",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2015
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2016,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1997,
+                "parcial": true
+            }
+        },
+        {
+            "nombre": "Puerto Rico",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2015
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2015
+            },
+            "union-civil": {
+                "aceptado": true,
+                "parcial":true,
+                "fecha":2013
+            }
+        },
+        {
+            "nombre": "México",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2010
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2010,
+                "parcial": true
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2007,
+                "parcial": true
+            }
+        },
+        {
+            "nombre": "Uruguay",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2013
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2009,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2008,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Alemania",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2017
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2017,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2001,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Bélgica",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2003
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2006,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2000,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Dinamarca",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2012
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2010,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1989,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "España",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2005
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2005,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1998,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Finlandia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2017
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2017,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2001,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Francia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2013
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2013,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1999,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Irlanda",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2015
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2011,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Islandia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2010
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2006,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1996,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Luxemburgo",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2015
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2004,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Malta",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2017
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2014,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2014,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Noruega",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2009
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2009,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1993,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Países Bajos",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2001
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2001,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1998,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Portugal",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2010
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2016,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2001,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Reino Unido",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2014
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2005,
+                "parcial": true
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2004,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Suecia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2009
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2003,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 1995,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Australia",
+            "continente": "Oceanía",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2017
+            },
+            "adopcion": {
+                "aceptado": true,
+                "fecha": 2018,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2004,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Nueva Zelanda",
+            "continente": "Oceanía",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2013
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2013
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2005,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Sudáfrica",
+            "continente": "África",
+            "matrimonio": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2006
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2002
+            },
+            "union-civil": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 1998 
+            }
+        },
+        {
+            "nombre": "Taiwán",
+            "continente": "Asia",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Austria",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false,
+                "fecha": 2016,
+                "parcial": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2010,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Chile",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": null
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Ecuador",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha":null
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2008,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Bermudas",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2018,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Andorra",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2014
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2005,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Chipre",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Croacia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2014
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2014,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Eslovenia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2011
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2006,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Estonia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2016
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2016,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Grecia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Hungría",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2009,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Italia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": false,
+                "fecha": 2016
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2016,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Liechenstein",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2011,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "República Checa",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2006,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Suiza",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2018
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2005,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Costa Rica",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": null
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Israel",
+            "continente": "Asia",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": 2008
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2007,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Japón",
+            "continente": "Asia",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2015,
+                "parcial": true
+            }
+        },
+        {
+            "nombre": "Camboya",
+            "continente": "Asia",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": null,
+                "parcial": true
+            }
+        },
+        {
+            "nombre": "San Marino",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": false
+            },
+            "union-civil": {
+                "aceptado": true,
+                "fecha": 2012,
+                "parcial": false
+            }
+        },
+        {
+            "nombre": "Bulgaria",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": null
+            },
+            "union-civil": {
+                "aceptado": false
+            }
+        },
+        {
+            "nombre": "Eslovaquia",
+            "continente": "Europa",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": null
+            },
+            "union-civil": {
+                "aceptado": false
+            }
+        },
+        {
+            "nombre": "Bolivia",
+            "continente": "América",
+            "matrimonio": {
+                "aceptado": false
+            },
+            "adopcion": {
+                "aceptado": true,
+                "parcial": true,
+                "fecha": null
+            },
+            "union-civil": {
+                "aceptado": false
+            }
+        }
+    ],
+    "matrimonio-futuro": [
+        {
+            "nombre": "Austria",
+            "continente": "Europa",
+            "fecha": 2019
+        },
+        {
+            "nombre": "Taiwán",
+            "continente": "Asia",
+            "fecha": 2019
+        },
+        {
+            "nombre": "Costa Rica",
+            "continente": "América",
+            "fecha": 2019
+        }
+    ],
+    "debate": [
+        {
+            "nombre": "Chile",
+            "continente": "América"
+        },
+        {
+            "nombre": "Ecuador",
+            "continente": "América"
+        },
+        {
+            "nombre": "Filipinas",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "México",
+            "continente": "América"
+        },
+        {
+            "nombre": "Panamá",
+            "continente": "América"
+        },
+        {
+            "nombre": "Perú",
+            "continente": "América"
+        },
+        {
+            "nombre": "Reino Unido",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Bermudas",
+            "continente": "América"
+        },
+        {
+            "nombre": "República Checa",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Suiza",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Venezuela",
+            "continente": "América"
+        }
+    ],
+    "reconocimiento-externo": [
+        {
+            "nombre": "Armenia",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "Estonia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Israel",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "México",
+            "continente": "Europa"
+        }
+    ],
+    "prohibicion-constitucional": [
+        {
+            "nombre": "Armenia",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "Bielorrusia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Bolivia",
+            "continente": "América"
+        },
+        {
+            "nombre": "Bulgaria",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Burkina Faso",
+            "continente": "África"
+        },
+        {
+            "nombre": "Burundi",
+            "continente": "África"
+        },
+        {
+            "nombre": "Croacia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Ecuador",
+            "continente": "América"
+        },
+        {
+            "nombre": "Eslovaquia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Honduras",
+            "continente": "América"
+        },
+        {
+            "nombre": "Hungría",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Jamaica",
+            "continente": "América"
+        },
+        {
+            "nombre": "Kenya",
+            "continente": "África"
+        },
+        {
+            "nombre": "Kirguistán",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "Letonia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Lituania",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Moldavia",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "Montenegro",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Palaos",
+            "continente": "Oceanía"
+        },
+        {
+            "nombre": "Paraguay",
+            "continente": "América"
+        },
+        {
+            "nombre": "Polonia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "República Centroafricana",
+            "continente": "África"
+        },
+        {
+            "nombre": "República Democrática del Congo",
+            "continente": "África"
+        },
+        {
+            "nombre": "República Dominicana",
+            "continente": "América"
+        },
+        {
+            "nombre": "Ruanda",
+            "continente": "África"
+        },
+        {
+            "nombre": "Serbia",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Sudán del Sur",
+            "continente": "África"
+        },
+        {
+            "nombre": "Ucrania",
+            "continente": "Europa"
+        },
+        {
+            "nombre": "Uganda",
+            "continente": "África"
+        },
+        {
+            "nombre": "Zimbabwe",
+            "continente": "África"
+        },
+        {
+            "nombre": "Camboya",
+            "continente": "Asia"
+        },
+        {
+            "nombre": "Cuba",
+            "continente": "América"
+        }
+    ]
+}
