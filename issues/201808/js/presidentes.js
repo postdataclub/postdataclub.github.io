@@ -208,9 +208,5 @@ $.getJSON("data/presidentes.json",function(data){
         setMinAgeGraph(getKeyInfo('edad-minima',val));
         setPreAgeGraph(val);
     });
-    var totale = 0;
-    for(var i=0;i<data.jefes.length;i++){
-        if (data.jefes[i]['edad']>60) totale+=1;
-    }
-    console.log('mas de 60:'+totale);
+   
 });
