@@ -1,0 +1,2149 @@
+{
+    "paises": {
+        "samoa": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "japón": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2002",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "JP"
+        },
+        "kosovo": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "XK"
+        },
+        "islas caimán": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "irán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1980",
+            "escenario": [
+                "presidencial",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "IR"
+        },
+        "azerbaiján": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2000",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "AZ"
+        },
+        "uzbekistán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "UZ"
+        },
+        "djibouti": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "DJ"
+        },
+        "malta": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "MT"
+        },
+        "guinea-bissau": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "GW"
+        },
+        "hungría": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "HU"
+        },
+        "taiwán": {
+            "voto_externo": false,
+            "dominio": "TW"
+        },
+        "chipre": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2011",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "CY"
+        },
+        "barbados": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "BB"
+        },
+        "macedonia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2009",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "MK"
+        },
+        "bután": {
+            "tipos": [
+                "postal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "2008",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "BT"
+        },
+        "lituania": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "LT"
+        },
+        "mongolia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "MN"
+        },
+        "islas vírgenes británicas": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "andorra": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2015",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "AD"
+        },
+        "túnez": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "TN"
+        },
+        "ruanda": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2003",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "RW"
+        },
+        "aruba": {
+            "voto_externo": false,
+            "dominio": "AW"
+        },
+        "argentina": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1991",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "AR"
+        },
+        "noruega": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1921",
+            "escenario": [
+                "legislativo",
+                "sub-nacional"
+            ],
+            "dominio": "NO"
+        },
+        "sierra leona": {
+            "voto_externo": false,
+            "dominio": "SL"
+        },
+        "ghana": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "GH"
+        },
+        "serbia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "RS"
+        },
+        "australia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1949",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "AU"
+        },
+        "santa helena": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "cuba": {
+            "voto_externo": false,
+            "dominio": "CU"
+        },
+        "zambia": {
+            "voto_externo": false,
+            "dominio": "ZM"
+        },
+        "guatemala": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "GT"
+        },
+        "isla de man": {
+            "tipos": [
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1976",
+            "escenario": [
+                "legislativo",
+                "sub-nacional"
+            ],
+            "dominio": null
+        },
+        "bélgica": {
+            "tipos": [
+                "personal",
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1998",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "BE"
+        },
+        "haití": {
+            "voto_externo": false,
+            "dominio": "HT"
+        },
+        "kazajistán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional"
+            ],
+            "dominio": "KZ"
+        },
+        "burkina faso": {
+            "voto_externo": false,
+            "dominio": "BF"
+        },
+        "liberia": {
+            "voto_externo": false,
+            "dominio": "LR"
+        },
+        "kirgizstán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2000",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "KG"
+        },
+        "países bajos": {
+            "tipos": [
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1989",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "NL"
+        },
+        "portugal": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1975",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "PT"
+        },
+        "dinamarca": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1980",
+            "escenario": [
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "DK"
+        },
+        "filipinas": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "senado"
+            ],
+            "dominio": "PH"
+        },
+        "montserrat": {
+            "tipos": [
+                "not specifed"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "senegal": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1993",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "SN"
+        },
+        "letonia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "LV"
+        },
+        "croacia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "HR"
+        },
+        "bosnia y herzegovina": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1996",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional"
+            ],
+            "dominio": "BA"
+        },
+        "sri lanka": {
+            "voto_externo": false,
+            "dominio": "LK"
+        },
+        "bulgaria": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1990",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "BG"
+        },
+        "jamaica": {
+            "voto_externo": false,
+            "dominio": "JM"
+        },
+        "albania": {
+            "voto_externo": false,
+            "dominio": "AL"
+        },
+        "angola": {
+            "tipos": [
+                "not yet decided"
+            ],
+            "voto_externo": true,
+            "fecha": "Not conducted yet",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "AO"
+        },
+        "líbano": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2018",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "LB"
+        },
+        "malasia": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo",
+                "sub-nacional"
+            ],
+            "dominio": "MY"
+        },
+        "islas malvinas": {
+            "tipos": [
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": null
+        },
+        "mozambique": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "MZ"
+        },
+        "micronesia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": null
+        },
+        "grecia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2014",
+            "escenario": [
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "GR"
+        },
+        "nicaragua": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "NI"
+        },
+        "níger": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "NE"
+        },
+        "brasil": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1989",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "BR"
+        },
+        "afghanistan": {
+            "fecha": "2004",
+            "voto_externo": false,
+            "dominio": "AF"
+        },
+        "qatar": {
+            "voto_externo": false,
+            "dominio": "QA"
+        },
+        "palau": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1981",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "PW"
+        },
+        "turkmenistán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "TM"
+        },
+        "guinea ecuatorial": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "GQ"
+        },
+        "sudán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1986",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "SD"
+        },
+        "guinea": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1993",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "GN"
+        },
+        "panamá": {
+            "tipos": [
+                "personal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "2009 2014",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "PA"
+        },
+        "nepal": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "NP"
+        },
+        "república centroafricana": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "CF"
+        },
+        "luxemburgo": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1984",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "LU"
+        },
+        "swazilandia": {
+            "voto_externo": false,
+            "dominio": "SZ"
+        },
+        "islas cook": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1983",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "república democrática de corea": {
+            "voto_externo": false,
+            "dominio": "KP"
+        },
+        "tuvalu": {
+            "voto_externo": false,
+            "dominio": "TV"
+        },
+        "antillas holandesas": {
+            "voto_externo": false,
+            "dominio": "AH"
+        },
+        "namibia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "NA"
+        },
+        "nauru": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "NR"
+        },
+        "venezuela": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1998",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "VE"
+        },
+        "emiratos árabes unidos": {
+            "voto_externo": true,
+            "dominio": "AE"
+        },
+        "mali": {
+            "tipos": [
+                "personal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "ML"
+        },
+        "san cristobal y nieves": {
+            "voto_externo": false,
+            "dominio": "KN"
+        },
+        "suiza": {
+            "tipos": [
+                "personal",
+                "postal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "1977",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "CH"
+        },
+        "paraguay": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2013",
+            "escenario": [
+                "presidencial",
+                "senado",
+                "mercosur"
+            ],
+            "dominio": "PY"
+        },
+        "china": {
+            "voto_externo": true,
+            "dominio": "CN"
+        },
+        "armenia": {
+            "tipos": [
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "AM"
+        },
+        "república democrática del congo": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "CD"
+        },
+        "belize": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "BZ"
+        },
+        "siria": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "SY"
+        },
+        "ucrania": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "UA"
+        },
+        "libia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "LY"
+        },
+        "trinidad y tobago": {
+            "voto_externo": false,
+            "dominio": "TT"
+        },
+        "gambia": {
+            "voto_externo": false,
+            "dominio": "GM"
+        },
+        "finlandia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1958",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "FI"
+        },
+        "mauricio": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "MU"
+        },
+        "antigua y barbuda": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "AG"
+        },
+        "niue": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "estonia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "EE"
+        },
+        "república dominicana": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "DO"
+        },
+        "jersey": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "corea del sur": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "KR"
+        },
+        "pakistán": {
+            "voto_externo": false,
+            "dominio": "PK"
+        },
+        "rumania": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1990",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "RO"
+        },
+        "seychelles": {
+            "voto_externo": false,
+            "dominio": "SC"
+        },
+        "república checa": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2002 2013",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "CZ"
+        },
+        "myanmar": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2008",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "MM"
+        },
+        "egipto": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "EG"
+        },
+        "papua nueva guinea": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1997",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "PG"
+        },
+        "estados unidos": {
+            "tipos": [
+                "personal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "1942",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "US"
+        },
+        "austria": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1990",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "AT"
+        },
+        "república del congo": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "CG"
+        },
+        "colombia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994 2002",
+            "escenario": [
+                "presidencial",
+                "senado",
+                "legislativo"
+            ],
+            "dominio": "CO"
+        },
+        "kiribati": {
+            "voto_externo": false,
+            "dominio": "KI"
+        },
+        "honduras": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2001",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "HN"
+        },
+        "nueva zelanda": {
+            "tipos": [
+                "personal",
+                "postal",
+                "fax"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "NZ"
+        },
+        "fiji": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "FJ"
+        },
+        "comoros": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2016",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": null
+        },
+        "turquía": {
+            "tipos": [
+                "personal",
+                "e-voting",
+                "voting at the borders"
+            ],
+            "voto_externo": true,
+            "fecha": "2014",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "TR"
+        },
+        "reino unido": {
+            "tipos": [
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1918",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "UK"
+        },
+        "madagascar": {
+            "voto_externo": false,
+            "dominio": "MG"
+        },
+        "iraq": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2005",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "IQ"
+        },
+        "bangladesh": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "BD"
+        },
+        "mauritania": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2009",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "MR"
+        },
+        "bolivia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2009",
+            "escenario": [
+                "presidencial",
+                "referendos",
+                "recall"
+            ],
+            "dominio": "BO"
+        },
+        "uruguay": {
+            "voto_externo": false,
+            "dominio": "UY"
+        },
+        "islas pitcairn": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "2001",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "francia": {
+            "tipos": [
+                "personal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1926",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos",
+                "senado"
+            ],
+            "dominio": "FR"
+        },
+        "bahamas": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2012",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "BS"
+        },
+        "eslovaquia": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "SK"
+        },
+        "gibraltar": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1969",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "irlanda": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "IE"
+        },
+        "nigeria": {
+            "voto_externo": false,
+            "dominio": "NG"
+        },
+        "anguilla": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "malawi": {
+            "voto_externo": false,
+            "dominio": "MW"
+        },
+        "ecuador": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2006",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "EC"
+        },
+        "moldavia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1993",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "MD"
+        },
+        "israel": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "IL"
+        },
+        "perú": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1980",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "PE"
+        },
+        "argelia": {
+            "tipos": [
+                "personal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1976",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "DZ"
+        },
+        "san marino": {
+            "voto_externo": false,
+            "dominio": "SM"
+        },
+        "montenegro": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "ME"
+        },
+        "tajikistán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "TJ"
+        },
+        "togo": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "TG"
+        },
+        "jordania": {
+            "voto_externo": false,
+            "dominio": "JO"
+        },
+        "chile": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2017",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "CL"
+        },
+        "omán": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "OM"
+        },
+        "islas turcas y caicos ": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "palestina": {
+            "voto_externo": false,
+            "dominio": "PS"
+        },
+        "españa": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1985",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "ES"
+        },
+        "sao tomé y príncipe": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "ST"
+        },
+        "georgia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1995",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "GE"
+        },
+        "vietnam": {
+            "voto_externo": false,
+            "dominio": "VN"
+        },
+        "brunei darussalam": {
+            "voto_externo": true,
+            "fecha": null,
+            "dominio": "BN"
+        },
+        "marruecos": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "2011",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "MA"
+        },
+        "suecia": {
+            "tipos": [
+                "personal",
+                "postal",
+                "voto por mensajero"
+            ],
+            "voto_externo": true,
+            "fecha": "1968",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "SE"
+        },
+        "gabón": {
+            "tipos": [
+                "personal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "GA"
+        },
+        "guyana": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1993",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "GY"
+        },
+        "rusia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "RU"
+        },
+        "granada": {
+            "voto_externo": false,
+            "dominio": "GD"
+        },
+        "yemén": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "YE"
+        },
+        "barein": {
+            "tipos": [
+                "personal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "2010",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "BH"
+        },
+        "uganda": {
+            "voto_externo": false,
+            "dominio": "UG"
+        },
+        "chad": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2001",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "TD"
+        },
+        "méxico": {
+            "tipos": [
+                "postal",
+                "e-voting"
+            ],
+            "voto_externo": true,
+            "fecha": "2006",
+            "escenario": [
+                "presidencial",
+                "sub-nacional",
+                "referendos",
+                "senado"
+            ],
+            "dominio": "MX"
+        },
+        "laos": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2006",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "LA"
+        },
+        "india": {
+            "tipos": [
+                "postal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "IN"
+        },
+        "lesoto": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "LS"
+        },
+        "bielorrusia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "BY"
+        },
+        "san vicente y las granadinas": {
+            "voto_externo": false,
+            "dominio": "VC"
+        },
+        "sudán del sur": {
+            "voto_externo": true,
+            "fecha": "2011",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "SS"
+        },
+        "burundi": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2010",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "BI"
+        },
+        "kenia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2013",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "KE"
+        },
+        "botswana": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1997",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "BW"
+        },
+        "italia": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2003",
+            "escenario": [
+                "legislativo",
+                "referendos",
+                "senado"
+            ],
+            "dominio": "IT"
+        },
+        "sudáfrica": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1994",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "ZA"
+        },
+        "camboya": {
+            "voto_externo": false,
+            "dominio": "KH"
+        },
+        "costa de marfil": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1995",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "CI"
+        },
+        "tailandia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2000",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "TH"
+        },
+        "etiopía": {
+            "voto_externo": false,
+            "dominio": "ET"
+        },
+        "bermudas": {
+            "voto_externo": false,
+            "dominio": "BM"
+        },
+        "timor leste": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2017 for presidencial and Parliamentary elections",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "TL"
+        },
+        "vanuatu": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "1980",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "VU"
+        },
+        "islans marshall": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1980.",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": null
+        },
+        "camerún": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2011",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "CM"
+        },
+        "benín": {
+            "tipos": [
+                "personal",
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "BJ"
+        },
+        "canadá": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1945",
+            "escenario": [
+                "legislativo",
+                "referendos"
+            ],
+            "dominio": "CA"
+        },
+        "tanzania": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "TZ"
+        },
+        "arabia saudita": {
+            "voto_externo": true,
+            "dominio": "SA"
+        },
+        "singapur": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2006",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "islas salomon": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "islandia": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1949",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "IS"
+        },
+        "santa lucía": {
+            "fecha": null,
+            "voto_externo": false,
+            "dominio": "LC"
+        },
+        "mónaco": {
+            "tipos": [
+                "proxy"
+            ],
+            "voto_externo": true,
+            "fecha": "2007",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "MC"
+        },
+        "costa rica": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2014",
+            "escenario": [
+                "presidencial",
+                "referendos"
+            ],
+            "dominio": "CR"
+        },
+        "eslovenia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1992",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas"
+            ],
+            "dominio": "SI"
+        },
+        "alemania": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1949",
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": "DE"
+        },
+        "dominica": {
+            "voto_externo": false,
+            "dominio": null
+        },
+        "suriname": {
+            "voto_externo": false,
+            "dominio": "SR"
+        },
+        "tonga": {
+            "voto_externo": false,
+            "dominio": "TO"
+        },
+        "maldivas": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "2008",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "el salvador": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2014",
+            "escenario": [
+                "presidencial"
+            ],
+            "dominio": "SV"
+        },
+        "polonia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1990",
+            "escenario": [
+                "presidencial",
+                "legislativo",
+                "referendos",
+                "elecciones parlamentarias europeas",
+                "senado"
+            ],
+            "dominio": "PL"
+        },
+        "indonesia": {
+            "tipos": [
+                "personal",
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1955",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "ID"
+        },
+        "cabo verde": {
+            "tipos": [
+                "personal"
+            ],
+            "voto_externo": true,
+            "fecha": "1991",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "CV"
+        },
+        "liechtenstein": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "2004",
+            "escenario": [
+                "legislativo",
+                "sub-nacional",
+                "referendos"
+            ],
+            "dominio": "LI"
+        },
+        "zimbabwe": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": "1980",
+            "escenario": [
+                "presidencial",
+                "legislativo"
+            ],
+            "dominio": "ZW"
+        },
+        "guernsey": {
+            "tipos": [
+                "postal"
+            ],
+            "voto_externo": true,
+            "fecha": null,
+            "escenario": [
+                "legislativo"
+            ],
+            "dominio": null
+        },
+        "kuwait": {
+            "voto_externo": false,
+            "dominio": "KW"
+        }
+    }
+}
