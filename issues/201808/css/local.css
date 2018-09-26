@@ -133,23 +133,23 @@
     text-align:left;
 }
 
-#ch-legend, .ch {
+#vch-legend, #ch-legend, .ch {
     background-color: rgba(30,187,51,0.3);
 }
 
-#nw-legend, .nw {
+#vnw-legend, #nw-legend, .nw {
     background-color: rgba(36,79,187,0.3);
 }
 
-#dl-legend, .dl {
+#vdl-legend, #dl-legend, .dl {
     background-color: rgba(255,37,37,0.3);
 }
 
-#mv-legend, .mv {
+#vmv-legend, #mv-legend, .mv {
     background-color: rgba(139,94,45,0.3);
 }
 
-#re-legend, .re {
+#vre-legend, #re-legend, .re {
     background-color: rgba(255,197,23,0.5);
 }
 
@@ -203,6 +203,18 @@
     width: 60px;
 }
 
+#vnw-legend, #vdl-legend, #vch-legend, #vmv-legend, #vre-legend, #my-legend, #mn-legend, #mu-legend {
+    padding: 1px;
+    font-size: 11px;
+    margin: 1px;
+    text-align: center;
+    width: 60px;
+}
+
+#my-legend, #mn-legend, #mu-legend  {
+    color: #FFFFFF;
+}
+
 #dl-legend{
     margin-top:45px;
 }
@@ -230,6 +242,21 @@
     height: 415px;
 }
 
+#vlegend, #mlegend {
+    text-align: center;
+}
+
+#my-legend {
+    background-color: #461A57;
+}
+
+#mn-legend {
+    background-color: #737BA4;
+}
+
+#mu-legend {
+    background-color: #8F8F8F;
+}
 
 @media(min-width:900px){
 #legend {
