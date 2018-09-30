@@ -1,0 +1,138 @@
+.main-title {
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#intro {
+     background-color: rgba(155,20,42,0.9);
+     color: #ffffff;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+.mini-text {
+   margin-top: 20px;
+   margin-bottom: 5px;
+   text-align: left; 
+}
+
+.mini-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#edificios {
+    background-color: rgba(195,170,240,1);
+}
+
+#cigarros {
+    background-color: rgba(254,207,41,1);
+}
+
+#presidentes {
+    background-color: rgba(241,5,9,1);
+}
+
+#salario {
+    background-color: rgba(32,141,108,1);
+}
+
+#habana {
+    background-color: rgba(1,193,250,1);
+}
+
+
+.draw-block {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+@media(min-width:990px){
+.mini-title {
+    padding-top: 40px;
+    font-size: 40px;
+}
+.main-title {
+    top: 10%;
+}
+.first-title {
+ font-size: 60px;
+ font-weight: bold;
+}
+
+.second-title {
+ font-size: 40px;
+}
+
+#intro {
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     font-size: 19px;
+     padding: 35px;
+}
+
+.mini-text {
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     font-size: 20px;
+     padding-left:35px;
+     padding-right:35px;
+}
+
+.draw-block > img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+}
+
+@media(max-width:990px){
+.mini-title {
+    padding-top: 25px;
+    font-size: 26px;
+    margin-left:5%;
+    margin-right: 5%;
+}
+#intro {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.mini-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.main-title {
+    top: 10%;
+}
+
+.first-title {
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.second-title {
+ font-size: 20px;
+}
+
+.draw-block > img {
+    width: 90%;
+}
+
+.draw-block > img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}   
+
+}
+
+
