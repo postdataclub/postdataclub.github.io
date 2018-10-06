@@ -99,6 +99,7 @@
 #debate-btn-container {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #debate-btn {
@@ -106,6 +107,7 @@
     color: #FFFFFF;
     padding: 20px;
     background-color: rgba(70,26,87,0.9);
+    font-weight: bold;
 }
 
 #debate-btn:focus, #debate-btn:hover {
@@ -114,7 +116,7 @@
 
 @media(max-width:900px){
 #debate-btn {
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px;
     margin-top: 10px;
 }
