@@ -134,7 +134,6 @@ $.getJSON("data/votoexterno.json",function(data){
                     }]
                 },
              onRegionTipShow: function(e, el, code){
-                console.log(code);
                 if (cr[code]==100){
                         var c=code;
                         if (c=='GB'){
