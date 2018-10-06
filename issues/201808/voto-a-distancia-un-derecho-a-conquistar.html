@@ -359,6 +359,27 @@ sin discriminación por su lugar de residencia, estos derechos.
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="../../assets/js/jquery-jvectormap-2.0.3.min.js"></script>
     <script src="../../assets/js/jquery-jvectormap-world-mill.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
     <script src="js/voto.js"></script>
   </body>
 </html>

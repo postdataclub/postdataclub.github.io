@@ -172,7 +172,7 @@ como esperamos.
  
  <div class="text-block">
  <p>
- Además, como aporte a los elementos que se manejan dentro del debate, se proponen un conjunto de análisis sobre temas relacionados con el proyecto de Carta Magna.
+ Además, como aporte a los elementos que se manejen dentro del debate, se proponen un conjunto de análisis sobre temas relacionados con el proyecto de Carta Magna.
  </p>
  </div>
  
@@ -246,6 +246,26 @@ como esperamos.
     <script src="../../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
   </body>
 </html>
