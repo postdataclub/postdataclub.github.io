@@ -115,6 +115,7 @@
 }
 
 @media(max-width:900px){
+
 #debate-btn {
     font-size: 17px;
     padding: 10px;
@@ -128,6 +129,21 @@
 }
 #limit-graph {
     min-height: 400px;
+}
+
+.org {
+    width:25px;
+    height: 80px;
+    font-size: 6px;
+}
+
+.org-title{
+    font-size: 6px;
+    transform: rotateZ(-90deg);
+}
+
+.org-sec {
+    font-size: 8px;
 }
 }
 
@@ -268,5 +284,50 @@
     transform: translateX(53%);
 }
 
+.org {
+    width:60px;
+    height: 100px;
 }
 
+.org-title{
+    font-size: 12px;
+}
+
+.org-sec {
+    font-size: 12px;
+}
+
+}
+
+.org {
+    border: solid 10px;
+    border-color: white;
+}
+
+.org-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.org-sec {
+    color: gray;
+    transform: rotateZ(-90deg);
+}
+
+.dbackgroundcolor, .dtextcolor {
+    background-color: blue;
+    color: blue;
+}
+
+.ibackgroundcolor, .itextcolor {
+    background-color: red;
+    color: red;
+}
+
+#eleccion-organos-graph > table {
+    margin: 0 auto;
+}
+
+.legend {
+    text-align: center;
+}
