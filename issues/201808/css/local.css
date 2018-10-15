@@ -324,6 +324,11 @@
     color: red;
 }
 
+.nbackgroundcolor, .ntextcolor {
+    background-color: green;
+    color: green;
+}
+
 #eleccion-organos-graph > table {
     margin: 0 auto;
 }
