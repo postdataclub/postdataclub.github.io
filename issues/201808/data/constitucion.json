@@ -466,11 +466,6 @@
             "1": {
                 "id": "1",
                 "numero": 1,
-                "relacionado": {
-                    "1976": [
-                        "1"
-                    ]
-                },
                 "texto": [
                     "Cuba es un Estado socialista <span class='nwid'> de derecho </span>, <span class='mvid'> democrático </span>, independiente y soberano, organizado con todos y para el bien de todos, como república unitaria <span class='nwid'> e indivisible, fundada en el trabajo, la dignidad y la ética de sus ciudadanos, que tiene como objetivos esenciales </span> el disfrute de la libertad política, <span class='nwid'> la equidad</span>, la justicia <span class='nwid'> e igualdad </span> social, la solidaridad, <span class='nwid'> el humanismo </span>, el bienestar  y <span class='nwid'> la prosperidad </span> individual y colectiva."
                 ]
@@ -497,7 +492,8 @@
                     ]
                 },
                 "texto": [
-                    "La defensa de la patria socialista es el más grande honor y el deber supremo de cada cubano. La traición a la patria es el más grave de los crímenes, quien la comete está sujeto a las más severas sanciones.",
+                    "La defensa de la patria socialista es el más grande honor y el deber supremo de cada cubano.",
+                    "La traición a la patria es el más grave de los crímenes, quien la comete está sujeto a las más severas sanciones.",
                     "<span class='mvid'> El socialismo y el sistema político y social revolucionario, establecidos por esta Constitución, son irrevocables. </span>",
                     "<span class='mvid'> Los ciudadanos tienen el derecho de combatir por todos los medios, incluyendo la lucha armada, cuando no fuera posible otro recurso, contra cualquiera que intente derribar el orden político, social y económico establecido por esta Constitución. </span>"
                 ]
@@ -524,7 +520,8 @@
                     ]
                 },
                 "texto": [
-                    "El Partido Comunista de Cuba, <span class='nwid'> único, </span> martiano, <span class='nwid'> fidelista </span> y marxista-leninista, vanguardia organizada de la nación cubana, <span class='nwid'> sustentado en su carácter democrático y la permanente vinculación con el pueblo, </span> es la fuerza dirigente superior de la sociedad y del Estado. Organiza y orienta los esfuerzos comunes hacia la construcción del socialismo. <span class='nwid'> Trabaja por preservar y fortalecer la unidad patriótica de los cubanos y por desarrollar valores éticos, morales y cívicos. </span>"
+                    "El Partido Comunista de Cuba, <span class='nwid'> único, </span> martiano, <span class='nwid'> fidelista </span> y marxista-leninista, vanguardia organizada de la nación cubana, <span class='nwid'> sustentado en su carácter democrático y la permanente vinculación con el pueblo, </span> es la fuerza dirigente superior de la sociedad y del Estado.",
+                    "Organiza y orienta los esfuerzos comunes hacia la construcción del socialismo. <span class='nwid'> Trabaja por preservar y fortalecer la unidad patriótica de los cubanos y por desarrollar valores éticos, morales y cívicos. </span>"
                 ]
             },
             "6": {
@@ -917,7 +914,8 @@
                 "id": "22",
                 "numero": 22,
                 "texto": [
-                    "<span class='nwid'> El Estado regula que no exista concentración de la propiedad en personas naturales o jurídicas no estatales, a fin de preservar los límites compatibles con los valores socialistas de equidad y justicia social. </span>"
+                    "<span class='nwid'> El Estado regula que no exista concentración de la propiedad en personas naturales o jurídicas no estatales, a fin de preservar los límites compatibles con los valores socialistas de equidad y justicia social. </span>",
+                    "<span class='nwid'>La ley establece las regulaciones que garantizan su efectivo cumplimiento.</span>"
                 ]
             },
             "23": {
@@ -961,7 +959,8 @@
                 "id": "26",
                 "numero": 26,
                 "texto": [
-                    "<span class='nwid'> La empresa estatal socialista es el sujeto principal de la economía nacional. Dispone de autonomía en la administración y gestión, así como desempeña el papel principal en la producción de bienes y servicios. La ley regula los principios de organización y funcionamiento de la empresa estatal socialista. </span>"
+                    "<span class='nwid'> La empresa estatal socialista es el sujeto principal de la economía nacional. Dispone de autonomía en la administración y gestión, así como desempeña el papel principal en la producción de bienes y servicios.</span>",
+                    "<span class='nwid'>La ley regula los principios de organización y funcionamiento de la empresa estatal socialista. </span>"
                 ]
             },
             "27": {
@@ -989,8 +988,15 @@
             "29": {
                 "id": "29",
                 "numero": 29,
+                 "relacionado": {
+                    "1976": [
+                        "19"
+                    ]
+                },
                 "texto": [
-                    "<span class='nwid'> La propiedad privada sobre la tierra se regula por un régimen especial. </span>"
+                    "<span class='nwid'> La propiedad privada sobre la tierra se regula por un régimen especial. </span>",
+                    "<span class='chid'>La venta o transmisión de este bien solo podrá realizarse con las limitaciones que establece la ley, y sin perjuicio del derecho preferente del Estado a su adquisición mediante el pago de su justo precio.</span>",
+                    "Se prohíbe el arrendamiento, la aparecería, los préstamos hipotecarios y cualquier acto que implique gravamen o cesión a particulares de los derechos emanados de la propiedad sobre la tierra."
                 ]
             },
             "30": {
@@ -1690,7 +1696,7 @@
                     "<span class='chid'> La educación es un derecho de todas las personas </span> <span class='nwid'> y una responsabilidad del Estado, la sociedad y las familias. </span>",
                     "<span class='nwid'>  El Estado </span> <span class='chid'> garantiza a sus ciudadanos servicios de educación gratuitos y asequibles para su formación integral, desde el preescolar hasta la enseñanza universitaria de pregrado, conforme a </span> las exigencias sociales y a las necesidades del desarrollo económico-social del país.",
                     "<span class='nwid'> La ley define, entre otras cuestiones, el alcance de la obligatoriedad de estudiar y la preparación general básica que, como mínimo, debe adquirir todo ciudadano. </span>",
-                    "S<span class='nwid'> e garantiza la formación posgraduada y la educación de las personas adultas, de conformidad con las regulaciones establecidas. </span>"
+                    "<span class='nwid'>Se garantiza la formación posgraduada y la educación de las personas adultas, de conformidad con las regulaciones establecidas. </span>"
                 ]
             },
             "85": {
@@ -1724,7 +1730,8 @@
                 "id": "87",
                 "numero": 87,
                 "texto": [
-                    "<span class='nwid'> Todas las personas tienen derecho al agua, con la debida retribución y uso racional. </span>"
+                    "<span class='nwid'> Todas las personas tienen derecho al agua, con la debida retribución y uso racional. </span>",
+                    "<span class='nwid'> El Estado trabaja para garantizar el acceso al agua potable y a su saneamiento, en correspondencia con el desarrollo económico y social alcanzado. </span>"
                 ]
             },
             "88": {
@@ -1745,7 +1752,8 @@
                 "id": "90",
                 "numero": 90,
                 "texto": [
-                    "<span class='nwid'> Todas las personas tienen derecho a participar en la vida cultural y artística de la nación. El Estado promueve la cultura y las distintas manifestaciones artísticas, de conformidad con la política cultural y la ley. </span>"
+                    "<span class='nwid'> Todas las personas tienen derecho a participar en la vida cultural y artística de la nación.</span>",
+                    "<span class='nwid'> El Estado promueve la cultura y las distintas manifestaciones artísticas, de conformidad con la política cultural y la ley. </span>"
                 ]
             },
             "91": {
@@ -2127,7 +2135,8 @@
                     ]
                 },
                 "texto": [
-                    "La Asamblea Nacional del Poder Popular es elegida por un término de cinco años. Este término solo podrá extenderse por la propia Asamblea mediante acuerdo <span class='nwid'> adoptado por una mayoría no inferior a las dos terceras partes del número total de sus integrantes, </span> en caso de circunstancias excepcionales que impidan la celebración normal de las elecciones y mientras subsistan tales circunstancias."
+                    "La Asamblea Nacional del Poder Popular es elegida por un término de cinco años.",
+                    " Este término solo podrá extenderse por la propia Asamblea mediante acuerdo <span class='nwid'> adoptado por una mayoría no inferior a las dos terceras partes del número total de sus integrantes, </span> en caso de circunstancias excepcionales que impidan la celebración normal de las elecciones y mientras subsistan tales circunstancias."
                 ]
             },
             "101": {
@@ -5303,10 +5312,10 @@
         "19": {
             "title": "Artículo 19",
             "texto": [
-                "El Estado reconoce la propiedad de los agricultores pequeños sobre las tierras que legalmente les pertenecen y los demás bienes inmuebles y muebles que les resulten necesarios para la explotación a que se dedican, conforme a lo que establece la ley.",
-                "Los agricultores pequeños, previa autorización del organismo estatal competente y el cumplimiento de los demás requisitos legales, pueden incorporar sus tierras únicamente a cooperativas de producción agropecuaria. Además pueden venderlas, permutarlas o trasmitirlas por otro título al Estado y a cooperativas de producción agropecuaria o a agricultores pequeños en los casos, formas y condiciones que establece la ley, sin perjuicio del derecho preferente del Estado a su adquisición, mediante el pago de su justo precio.",
-                "Se prohíbe el arrendamiento, la aparcería, los préstamos hipotecarios y cualquier acto que implique gravamen o cesión a particulares de los derechos emanados de la propiedad de los agricultores pequeños sobre sus tierras.",
-                "El Estado apoya la producción individual de los agricultores pequeños que contribuyen a la economía nacional."
+                "<span class='dlid'>El Estado reconoce la propiedad de los agricultores pequeños sobre las tierras que legalmente les pertenecen y los demás bienes inmuebles y muebles que les resulten necesarios para la explotación a que se dedican, conforme a lo que establece la ley.</span>",
+                "<span class='dlid'>Los agricultores pequeños, previa autorización del organismo estatal competente y el cumplimiento de los demás requisitos legales, pueden incorporar sus tierras únicamente a cooperativas de producción agropecuaria.</span><span class='chid'> Además pueden venderlas, permutarlas o trasmitirlas por otro título al Estado y a cooperativas de producción agropecuaria o a agricultores pequeños en los casos, formas y condiciones que establece la ley, sin perjuicio del derecho preferente del Estado a su adquisición, mediante el pago de su justo precio.</span>",
+                "Se prohíbe el arrendamiento, la aparcería, los préstamos hipotecarios y cualquier acto que implique gravamen o cesión a particulares de los derechos emanados de la propiedad de <span class='dlid'>los agricultores pequeños sobre</span> sus tierras.",
+                "<span class='dlid'>El Estado apoya la producción individual de los agricultores pequeños que contribuyen a la economía nacional.</span>"
             ]
         },
         "20": {
