@@ -85,7 +85,7 @@ c3.generate({
         data: {
           x: 'País',
           columns: [['País','Palau','Bolivia','Venezuela','Filipinas','Letonia','Uruguay','Colombia','Ecuador','Cuba','Perú'],
-          ['Porciento de votantes',25,20,15,12,10,10,5,1,0.56,0.3]],
+          ['Porciento de votantes',25,20,15,12,10,10,5,1,0.58,0.3]],
           type: 'bar'
         },
         axis: {
@@ -110,8 +110,8 @@ c3.generate({
         bindto: "#voters-population",
         data: {
           x: 'País',
-          columns: [['País','Macedonia','Kirguistán','Moldavia','Armenia','Liechtenstein','Kenya','R.D.Congo','Rumanía','Lituania','Bielorrusia','Eslovenia','Serbia','Suiza','Italia','Cuba','Paraguay','Guatemala','Liberia','Burkina Faso'],
-          ['Porciento respecto a la población',7.27,6,5.61,5.05,4.18,2.88,2.63,2.48,1.55,1.55,1.47,1.4,1.3,0.83,0.44,0.43,0.38,0.29,0.24]],
+          columns: [['País','Macedonia','Moldavia','Kirguistán','Armenia','Liechtenstein','Kenya','R.D.Congo','Rumanía','Lituania','Bielorrusia','Eslovenia','Serbia','Suiza','Italia','Cuba','Paraguay','Guatemala','Liberia','Burkina Faso'],
+          ['Porciento respecto a la población',7.27,5.61,5.41,5.05,4.18,2.88,2.63,2.48,1.55,1.55,1.47,1.4,1.3,0.83,0.44,0.43,0.38,0.29,0.24]],
           type: 'bar'
         },
         axis: {
