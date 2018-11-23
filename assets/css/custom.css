@@ -892,5 +892,10 @@ a:focus {
 .gray-color{
     background-color: gray;
 }
+.container {
+    width: 100%;
+    margin-left: 2px;
+}
+
 
 
