@@ -450,9 +450,10 @@ body {
 .text-body {
     margin-top: 20px;
     margin-bottom:20px;
-    margin-right: 11.6%;
-    margin-left: 11.6%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 17px;
+    max-width: 1080px;
 }
 
 @media (min-width:990px){
