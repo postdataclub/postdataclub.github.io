@@ -336,3 +336,7 @@
 .legend {
     text-align: center;
 }
+
+.number {
+    font-size: 100px;
+}

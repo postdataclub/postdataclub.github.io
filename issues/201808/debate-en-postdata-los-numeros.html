@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Debate en Postdata: los números</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/local.css">
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Debate en Postdata.club: los números</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a> <span class="article-date">10/12/2018</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Qué nos dicen las cifras de los comentarios sobre el proyecto de Constitución</div> 
+    </div>
+    
+    <div class="text-body">
+    
+<div class="text-block">
+<p>
+Una de las contribuciones de <a href='../../index.html'>Postdata.club</a> a la discusión sobre el Proyecto de Constitución fue proponer
+un <a href="proyecto-constitucion.html">escenario de análisis y debate estructurado</a> a partir del documento propuesto. Este
+espacio digital, público desde el 13 de agosto, fecha en que oficialmente comenzaron las reuniones de discusión, funcionó tambiém,  con
+sus propias dinámicas, como otra reunión más.
+</p>
+<p> 
+De esta manera, desde la publicación hasta el 15 de noviembre, fecha en que concluyeron los debates, 
+varios de los lectores comentaron e intercambiaron entre ellos sobre los distintos artículo del texto constitucional.
+En total se emitieron 720 comentarios donde los lectores hicieron distintas acciones: relizaron propuestas sobre el proyecto,
+expresaron sus dudas, apoyaron el texto u otras propuestas, o meramente intercambiaron entre ellos. Asimismo, a veces,
+en un mismo comentario un lector realizaba más de una acción. 
+</p>
+<p>
+Para analizar como se comportó el debate, por cada comentario se identificaron, manualmente, las acciones que este comprendía.
+Las acciones a identificar fueron: adición, modificación, eliminación, ordenamiento, duda, apoyo
+e interacción. Las acciones de eliminación fueron divididas en eliminaciones parciales, relativas a suprimir una fracción de un artículo,
+y totales, que proponen eliminar integramente del artículo. Las interacciones se dividieron en apoyo, comentarios donde se daba soporte
+al contenido del artículo u otras propuestas sobre el mismo, e interacciones, que se refieren al debate entre los comentaristas.
+ De este modo, a partir de los 720 comentarios se identificaron 762 acciones.
+</p>
+</div>
+
+<div id="numbers-distribution" class=" main-text bd">
+<div class="row">
+<div class="col-lg-2 col-md-2"></div>
+<div class="col-lg-4 col-md-4" style="text-align: center;">
+<span class="number">720</span><br>
+<span>comentarios</span>
+</div>
+<div class="col-lg-4 col-md-4" style="text-align: center;">
+<span class="number">762</span><br>
+<span>acciones</span>
+</div>
+<div class="col-lg-2 col-md-2"></div>
+</div>
+<br>
+</div>
+
+<div class="text-block">
+<p>
+En general, en los comentarios primaron las propuestas concretas sobre el proyecto pues más del 60% de las acciones identificadas
+comprendían, por ese orden, a modificaciones, adiciones, eliminaciones y, en menor medida, cambios en el orden de los artículos. 
+En el caso de las eliminaciones, parece un tanto elevado el número de acciones de eliminación total de artículos.
+</p>
+<p>
+Resalta también el relativamente elevado porciento (12.5%) de dudas expresado. Ya en el caso de las interacciones entre los
+comentaristas estas siguen un patrón más habitual donde prima el intercambio entre ellos por sobre las expresiones de
+apoyo.
+</p>
+</div>
+
+<div id="actions-distribution" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Distribución de las acciones según las categorías de clasificación
+</div>
+<br>
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="bd main-text" style="text-align: center;">
+Acciones en General
+</div>
+<div id='proposals-graph' class="graph"></div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="bd main-text" style="text-align: center;">
+Eliminaciones
+</div>
+<div id='deletes-graph' class="graph"></div>
+</div>
+<div class="col-lg-6 col-md-6">
+<div class="bd main-text" style="text-align: center;">
+Interacciones
+</div>
+<div id='interactions-graph' class="graph"></div>
+</div>
+</div>
+
+</div>
+
+<div class="text-block">
+<p>
+Esta distribución da una idea demasiado amplia sobre lo que expresaron los comentarios.
+Una mejor idea quizás la puede figurar el comportamiento de las acciones por los distintos títulos del proyecto de Carta Magna.
+</p>
+<p>
+Dónde más acciones se expresaron fue en el <a href="proyecto-constitucion.html#art-1">Título I <span class="it">Fundamentos Políticos</span></a>, el 
+<a href="proyecto-constitucion.html#art-39">Título IV <span class="it">Derechos, deberes y garantías</span></a> 
+y el <a href="proyecto-constitucion.html#art-96">Título VI <span class="it">Estructura del Estado</span></a>.
+Esto da una mayor luz sobre por donde andan las preocupaciones de la ciudadanía.
+</p>
+<p>
+Ahora, entre los tres títulos mencionados, en términos de propuestas concretas sobre el texto constitucional prevaleció el que aborda los
+<a href="proyecto-constitucion.html#art-39"><span class="it">Derechos, deberes y garantías</span></a>. Aquí fundamentalmente
+se expresaron acciones de modificación y adición. O sea, que se cambiara el modo en que fueron definidos y que se adicionaran nuevos elementos.
+</p>
+<p>
+Por su parte, en el ámbito de las eliminaciones destacó el acápite de los <a href="proyecto-constitucion.html#art-1"><span class="it">Fundamentos Políticos</span></a>
+Parece ser que es en este título donde menor concenso existe entre lo redactado y lo que opinaron los comentaristas. Quizás,
+por esta misma razón, aquí también fue donde más interacciones entre los lectores se suscitaron.
+</p>
+<p>
+Respecto a las propuestas de supresión de artículos completos, además del <a href="proyecto-constitucion.html#art-1">Título I</a>,
+resaltan el <a href="proyecto-constitucion.html#art-20">Título II <span class="it">Fundamentos Económicos</span></a> y
+el <a href="proyecto-constitucion.html#art-221">Título XI <span class="it">Reforma de la Constitución</span></a>. Es en estos
+tres bloques de artículos donde se expresaron las acciones más fuertes con respecto al Proyecto de Carta Magna 
+que son las de eliminación total.
+</p>
+</div>
+
+<div id="actions-titles" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Acciones por Títulos del Proyecto de Constitución
+</div>
+<div id='titlebars-graph' class="graph"></div>
+<br>
+</div>
+
+<div class="text-block">
+<p>
+Cuando se particularizan las acciones por los distintos artículos se pueden observar algunos de los elementos
+relevantes en el debate. Así destacan en un primer grupo los artículos <a href="proyecto-constitucion.html#art-5">5</a>, <a href="proyecto-constitucion.html#art-3">3</a> y <a href="proyecto-constitucion.html#art-1">1</a>, y ya en un segundo plano
+el <a href="proyecto-constitucion.html#art-6">6</a>, <a href="proyecto-constitucion.html#art-16">16</a>, <a href="proyecto-constitucion.html#art-68">68</a>, <a href="proyecto-constitucion.html#art-54">54</a>, <a href="proyecto-constitucion.html#art-22">22</a>, <a href="proyecto-constitucion.html#art-60">60</a>, <a href="proyecto-constitucion.html#art-15">15</a> y <a href="proyecto-constitucion.html#art-215">215</a>.
+</p>
+<p>
+Aquí es notorio que, a diferencia de lo que ha sido común, el <a  href="proyecto-constitucion.html#art-68">artículo 68</a> no fue el más debatido.
+De hecho, los comentarios sobre este artículo ni siquiera se expresaron respecto al asunto del matrimonio igualitario. El grupo de artículos
+que más intención de acciones generó estan relacionados con temáticas que abordan el socialismo, su carácter irrevocable y la función del
+Partido Comunista de Cuba en la sociedad. Curiosamente, estos textos no aparecen entre los que más propuestas generaron según las estadísticas
+del debate general.
+</p>
+<p>
+Los otros artículos que también destacaron abordaron asuntos como el papel de la Unión de Jóvenes Comunistas, las relaciones internacionales 
+, la libertad de moviento y residencia, la concentración de propiedad, la libertad de prensa, , la libertad religiosa y el papel de los cuerpos
+armados.
+</p>
+<p>
+También se propone que 9 artículos tengan dentro del texto un orden diferente.
+Asimismo, 22 artículos diferentes tuvieron al menos una propuesta de eliminación total. Entre ellos, los más señalados para
+ser suprimidos fueron, por orden, el artículo <a href="proyecto-constitucion.html#art-18">18</a> y el <a href="proyecto-constitucion.html#art-5">5</a>.
+
+</p>
+</div>
+
+<div id="actions-articles" class="media-block border main-border">
+<div class="graph-text main-text" style="text-align: center;">
+    Acciones por Artículos del Proyecto de Constitución
+</div>
+<div id='bars-graph' class="graph"></div>
+<br>
+</div>
+
+
+
+<div class="text-block">
+<p>
+Será dificil saber si directamente el <a href="proyecto-constitucion.html">debate</a> generado en <a href="../../index.html">Postdata.club</a>
+fue o será tenido en cuenta en el análisis que se realizará para redactar el texto final de constitución que será sometido a referendo.
+Lo que si sabemos es que muchos de los comentaristas que participaron en el debate se retroalimentaron de mismo y expresaron sus propuestas
+por las distintas vías oficiales. 
+</p>
+<p>
+Por otra parte, este análisis sobre una pequeñísima parte del debate nacional, junto a muchos otros que se han realizado, permitirá también
+que comparemos el resultado del debate con la propuesta final de Carta Magna que podría regir, si así lo deciden sus votantes, 
+el futuro de Cuba y sus ciudadanos.
+</p>
+</div>
+
+
+
+
+
+
+<div class="comments-block">
+</div>
+    
+    </div>   
+    
+    
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+     
+    </script>
+    <script src="js/debate-postdata.js"></script>
+  </body>
+</html>
