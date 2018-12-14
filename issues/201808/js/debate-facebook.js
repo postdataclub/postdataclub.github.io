@@ -30,15 +30,20 @@ $.getJSON("data/fb-debate-stats.json",function(data){
                 label: 'Fechas',
                 type: 'categorical',
                 show: false
-              },
+                },
               y: {
-                label: 'Datos',
+                label: 'Miembros',
                 position: 'outer-middle',
                 padding: {
                     top: 110,
                 }
               }
-            }
+            },
+         grid: {
+          x: {
+            lines: [{'value':'2018-09-19','text':'19 de septiembre' },{'value':'2018-08-31','text':'31 de agosto' },{'value':'2018-11-20','text':'20 de noviembre' }]
+          }
+        }
     });
     
     c3.generate({
@@ -58,7 +63,7 @@ $.getJSON("data/fb-debate-stats.json",function(data){
                 show: false
               },
               y: {
-                label: 'Datos',
+                label: 'Número',
                 position: 'outer-middle',
                 padding: {
                     top: 110,
@@ -67,7 +72,12 @@ $.getJSON("data/fb-debate-stats.json",function(data){
               y2: {
                 show: false
               }
-            }
+            },
+         grid: {
+          x: {
+            lines: [{'value':'2018-09-19','text':'19 de septiembre' },{'value':'2018-11-20','text':'20 de noviembre' }]
+          }
+          }
     });
     cr = {}
     for(var i in data.countries){
