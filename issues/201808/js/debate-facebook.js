@@ -5,7 +5,7 @@ c3.generate({
               type: 'donut',
             },
         donut: {
-          title: (1393+996)+"  miembros",
+          title: (1393+996)+"  miembros*",
         }
 });
 
