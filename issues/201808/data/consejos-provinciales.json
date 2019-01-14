@@ -1,0 +1,109 @@
+{
+    "provincias":{
+        "pri":{
+            "poblacion":587378,
+            "asamblea":75,
+            "municipios":11,
+            "territorio":8873.74,
+            "nombre": "Pinar del Río"
+        },
+        "art":{
+            "poblacion":507347,
+            "asamblea":75,
+            "municipios":11,
+            "territorio":4003.24,
+            "nombre": "Artemisa"
+        },
+        "lha":{          
+            "poblacion":2129817,
+            "asamblea":141,
+            "municipios":15,
+            "territorio":728.26,
+            "nombre": "La Habana"
+        },
+        "may":{
+            "poblacion":382074,
+            "asamblea":75,
+            "municipios":11,
+            "territorio":3743.81,
+            "nombre": "Mayabeque"
+        },
+        "mat":{
+            "poblacion":711063,
+            "asamblea":75,
+            "municipios":13,
+            "territorio":11791.82,
+            "nombre": "Matanzas"
+        },
+        "cfg":{
+            "poblacion":407470,
+            "asamblea":75,
+            "municipios":8,
+            "territorio":4188.61,
+            "nombre": "Cienfuegos"
+        },
+        "ssp":{
+            "poblacion":466145,
+            "asamblea":76,
+            "municipios":8,
+            "territorio":6777.28,
+            "nombre": "Sancti Spíritus"
+        },
+        "vcl":{
+            "poblacion":786051,
+            "asamblea":79,
+            "municipios":13,
+            "territorio":8411.81,
+            "nombre": "Villa Clara"
+        },
+        "cav":{
+            "poblacion":435042,
+            "asamblea":76,
+            "municipios":10,
+            "territorio":6971,
+            "nombre": "Ciego de Ávila"
+        },
+        "cam":{
+            "poblacion":771037,
+            "asamblea":77,
+            "municipios":13,
+            "territorio":15386.16,
+            "nombre": "Camaguey"
+        },
+        "ltu":{
+            "poblacion":536658,
+            "asamblea":75,
+            "municipios":8,
+            "territorio":6592.66,
+            "nombre": "Las Tunas"
+        },
+        "hol":{
+            "poblacion":1032178,
+            "asamblea":103,
+            "municipios":14,
+            "territorio":9215.72,
+            "nombre": "Holguín"
+        },
+        "gra":{
+            "poblacion":829067,
+            "asamblea":83,
+            "municipios":13,
+            "territorio":8374.24,
+            "nombre": "Granma"
+        },
+        "stg":{
+            "poblacion":1052518,
+            "asamblea":105,
+            "municipios":9,
+            "territorio":6227.78,
+            "nombre": "Santiago de Cuba"
+        },
+        "gtm":{
+            "poblacion":512029,
+            "asamblea":75,
+            "municipios":10,
+            "territorio":6167.07,
+            "nombre": "Guantánamo"
+        }
+    }
+}
