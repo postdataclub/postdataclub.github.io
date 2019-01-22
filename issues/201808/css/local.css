@@ -340,3 +340,62 @@
 .number {
     font-size: 100px;
 }
+
+.total-arts {
+    border: solid 2px;
+    border-color: #461A57;
+}
+
+.title-title {
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+.chapter-title {
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-left: 25px;
+}
+.section-title {
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-left: 50px;
+}
+
+.main-total-arts {
+    font-size: 20px;
+    border: solid 3px;
+    border-color: #461A57;
+}
+
+.wordsp {
+    font-size:8px;
+    color: red;
+}
+.wordsc {
+    font-size:8px;
+    color: green;
+}
+
+.word-part{
+    text-align: right;    
+}
+
+.word-block{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.odd-line {
+    background-color: #F9F9F9;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #E7E7E7;
+}
+
+#one-world {
+    margin-top: 20px;
+}
+
+.graph-high{
+    height: 600px;
+}
