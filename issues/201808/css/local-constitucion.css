@@ -1,0 +1,78 @@
+.title-title {
+    font-weight: bold;
+    color: rgba(70,26,87,1);
+    margin-bottom: 3px;
+    font-size: 22px;
+} 
+
+.title{
+    margin-left: 20px;
+}
+
+.chapter-title {
+    font-weight: bold;
+    color: rgba(70,26,87,0.9);
+    margin-bottom: 2px;
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+.chapter{
+    margin-left: 20px;
+}
+
+.article-block {
+    margin-left: 35px;
+}
+
+.article-title{
+    color: rgba(70,26,87,0.8);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    color: rgba(70,26,87,0.8);
+    margin-bottom: 1px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.section{
+    margin-left: 20px;
+}
+
+#texto-constitucion{
+    margin-left:2px;
+}
+
+.related {
+    font-size: 13px;
+    color: grey;
+}
+
+.related > a{
+    font-weight: bold;
+    color: grey;
+}
+
+.md {
+   color: rgba(139,94,45,1)
+}
+
+.ad {
+    color: rgba(36,79,187,0.7);
+}
+
+.dl {
+    color: rgba(255,37,37,0.7);
+}
+
+.rd {
+    color: rgba(30,187,51,0.7);
+}
+
+.ru {
+    color: rgba(255,197,23,1);
+}
