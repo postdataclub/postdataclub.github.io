@@ -242,8 +242,5 @@ $.getJSON("data/matrimonio.json",function(data){
 
     }); 
     
-    console.log(total);
-    console.log(ptotal);
-    console.log(mtotal);
-    console.log(utotal);
+
 }); 
