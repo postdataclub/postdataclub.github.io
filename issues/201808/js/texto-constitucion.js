@@ -233,6 +233,9 @@ $.getJSON("data/referendo.json",function(data){
         }
     });
     
+    var hash = window.location.hash;
+    $('html,body').animate({'scrollTop':$(hash).offset().top},'fast');
+    
 });
 
 });
