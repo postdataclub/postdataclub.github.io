@@ -431,7 +431,7 @@ $.getJSON('data/tracks-110.json', function(data) {
 	    updateArrows: true,
 	    cssDisabled: 'disabled', 
 	    page: 0,
-	    size: 20,
+	    size: 15,
 	    cssGoto: '.gotoPage'
     };
 	$('#table-all-tracks').tablesorter({
@@ -723,10 +723,11 @@ $.getJSON('data/queen-reggaeton.json', function(data) {
 		grid: {
           x: {
             lines: [
-            //{
-               //value: '2018-10-23',
-               //text: 'Premiere en Londres'
-            //}
+            {
+               value: '2018-06-18',
+               text: '18 de junio',
+               class: 'xline'
+            }
             ]
           }
        }
