@@ -1,0 +1,351 @@
+.map {
+	width: 100%;
+	height: 500px;
+}
+
+.disabled {
+	opacity: 0.4;
+	cursor:not-allowed;
+}
+
+.graph-side {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.graph-side > div{
+	padding-top: 30px;
+}
+
+.contblock {
+	width: 100%;
+	margin: 0px;
+}
+
+.separador >img {
+	width: 100%;
+}
+
+.queen-class {
+	font-size: 14px;
+}
+
+.queen-reg, .queen-class {
+	font-weight: bold;
+	color: #FF7B00;
+}
+.queen-lig {
+	color: #FF7B00;
+}
+
+@media (min-width:990px){
+.main-title {
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+	margin-top: -13px;
+	height: 100%;
+}
+.block-title {
+	background-color: rgba(174,174,174,0.35);
+	padding: 30px;
+	width:80%;
+	margin-left:10%;
+}
+.first-title {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 70px;
+}
+
+.second-title {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+}
+.graph-title{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.christmas-content > p, .xxx-content > p {
+	font-size: 24px;
+	padding-left: 17%;
+	padding-right: 17%;
+}
+#christmas-title, #xxx-title {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#xxx-graph, #xxx-graph2 {
+	margin-top: 15px;
+	margin-left: 17%;
+	margin-right: 17%;
+}
+#christmas-tables {
+	margin-top: 15px;
+	margin-left: 17%;
+	margin-right: 17%;
+}
+#christmas-tables-title, .xxx-title {
+	color: #FFDD8B;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+}
+.christmas-content, .xxx-content {
+	margin-top: 20px;
+	width: 100%;
+}
+#christmas-more, #christmas-close, #christmas-more, #christmas-close {
+	font-size:15px;
+}
+}
+
+@media (max-width:990px){
+.main-title {
+	background-image: url(../images/cover-movil.jpg);
+	background-size: cover;
+	margin-top: -13px;
+	height: 100%;
+}
+.block-title {
+	background-color: rgba(174,174,174,0.45);
+	padding: 15px;
+	width:90%;
+	margin-left:5%;
+}
+.first-title {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+}
+
+.second-title {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+}
+.graph-title{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+.christmas-content > p, .xxx-content > p {
+	font-size: 20px;
+	padding-left: 9%;
+	padding-right: 9%;
+}
+#christmas-title, #xxx-title {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#xxx-graph, #xxx-graph2 {
+	margin-top: 15px;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#christmas-tables {
+	margin-top: 15px;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#christmas-tables-title, .xxx-title {
+	color: #FFDD8B;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.christmas-content, .xxx-content {
+	margin-top: 10px;
+	width: 100%;
+}
+#christmas-more, #christmas-close, #christmas-more, #christmas-close {
+	font-size:12px;
+}
+}
+.text-side >p {
+	font-size: 20px;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.par-title {
+	font-size: 26px;
+	font-weight: bold;
+	color: #919191;
+}
+
+.par-explain {
+	width: 80%;
+	transform: translateX(10%);
+}
+
+.map-container{
+	text-align: center;
+}
+
+.map-criteria{
+	font-weight: bold;
+}
+.table-artist-pager, .table-all-pager{
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+}
+#christmas, #xxx, #credits-methodology {
+	color:#FFFFFF;
+	background-color: #FF7527;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+#christmas-tables > div > div {
+	width: 100%;
+	padding-left: 15px;
+	font-weight: bold;
+	color: #FFDD8B;
+	font-size: 17px;
+}
+
+#christmas-tables > div > table {
+	color: #FFEF9E;
+}
+
+.lartist {
+	font-size: 11px;
+	color: #FFEF9E;
+}
+
+.c1 {
+	color: #78BEFF;
+}
+.c2 {
+	color: #99FF8B;
+}
+.c3 {
+	color: #B72812;
+}
+.c4 {
+	color: #FDFD39;
+}
+.c5 {
+	color: #06FD44;
+}
+.c6 {
+	color: #CD79FD;
+}
+.c7 {
+    color: #2CADFD;
+}
+
+#part-1, #part-2, #part-3, #part-4, #part-5, #part-6 {
+	margin-bottom: 20px;
+}
+#queen-2018-reggaeton {
+	min-height: 600px;
+}
+#queen-2018-line {
+	min-height: 400px;
+}
+#reggaeton-legend {
+	text-align: center;
+	font: 10px sans-serif;
+	font-size: 12px;
+}
+
+.xline {
+	stroke: #FFDD8B;
+}
+.xline line {
+	stroke: #FFDD8B;
+}
+.xline text {
+	font: 10px;
+}
+
+.c3-legend-item-XXXTENTACION text{
+	fill: #FFDD8B;
+}
+.c3-legend-item-Future text{
+	fill: #FFDD8B;
+}
+.c3-legend-item-Drake text{
+	fill: #FFDD8B;
+}
+.c3-legend-item-Logic text{
+	fill: #FFDD8B;
+}
+.c3-legend-item-Migos text{
+	fill: #FFDD8B;
+}
+.more {
+	font-size: 14px;
+}
+.closer {
+	font-size: 14px;
+}
+#xxx-close-block,#christmas-close-block{
+	text-align: center;
+}
+
+#credits-methodology {
+	padding-top: 20px;
+}
+
+#methodology, #credits {
+	padding-left: 50px;
+}
+
+.methodology-content {
+	width: 85%;
+}
+
+.methodology-title {
+	font-weight: bold;
+	font-size: 17px;
+	color: #FFDD8B;
+	margin-bottom: 10px;
+}
+.citem {
+	color: #FFDD8B;
+}
+.social {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.facebook-text-color{
+	color: #3B5998;
+}
+.twitter-text-color{
+	color: #00ACED;
+}
+.ql {
+	color: #DCDCE1;
+}
+.qq {
+	color: #8F8F93;
+}
+.ql:hover, .ql:focus, .qq:hover, .qq:focus {
+	text-decoration: none;
+}
+
+#methodology-close, #methodology-more {
+	font-size: 10px;
+	color: #FFDD8B;
+}
+#christmas-more, #christmas-close, #xxx-more, #xxx-close {
+	color: #FFDD8B;
+}
