@@ -592,7 +592,7 @@ $.getJSON('data/queen-reggaeton.json', function(data) {
 			}
 		},
         regions: [
-          {start:'2018-11-01',end:'2018-11-30',text:'Noviembre'},
+          {start:'2018-11-01',end:'2018-11-30'}
         ],
         grid: {
           x: {
