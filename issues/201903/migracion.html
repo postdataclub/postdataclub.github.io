@@ -1,0 +1,3030 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Migración interna en el país</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="../../assets/css/jquery-jvectormap-2.0.3.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/local.css"> 
+    
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <link rel="stylesheet" href="../../assets/css/leaflet.css" />
+    <link href="../../assets/css/theme.default.min.css" rel="stylesheet">
+	
+    
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator"></div>
+    
+       <div id="first-block" >
+		<div id="loading"><img src="images/load.gif"></div>
+		<div id="selection-block" style="display:none;">
+			<div id="cuban-selection">
+				<span>
+					¿Nació en Cuba?  
+					<select id="cuban-select">
+						<option value="none">--</option>
+						<option value="si">Si</option>
+						<option value="no">No</option>
+					</select>
+				</span>
+			</div>
+			<div id="province-selection" style="display:none;">
+				<span>
+					¿En cuál provincia?   
+					<select id="province-select">
+						<option value="none">--</option>
+						<option value="pri">Pinar del Río</option>
+						<option value="art">Artemisa</option>
+						<option value="lha">La Habana</option>
+						<option value="may">Mayabeque</option>
+						<option value="mat">Matanzas</option>
+						<option value="vcl">Villa Clara</option>
+						<option value="cfg">Cienfuegos</option>
+						<option value="ssp">Sancti Spíritus</option>
+						<option value="cav">Ciego de Ávila</option>
+						<option value="cam">Camagüey</option>
+						<option value="ltu">Las Tunas</option>
+						<option value="hol">Holguín</option>
+						<option value="gra">Granma</option>
+						<option value="stg">Santiago de Cuba</option>
+						<option value="gtm">Guantánamo</option>
+						<option value="ijv">Isla de la Juventud</option>
+					</select>
+				</span>
+			</div>
+	    </div>
+		
+		<div id="titles-block">
+			<div id="pri-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Pinar del Río, continuamente, ha estado perdiendo habitantes por los
+					últimos diez años.
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="pri-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+				
+			</div>
+			<div id="art-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Artemisa, desde su fundación como provincia, no ha dejado de ganar habitantes
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="art-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="ijv-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					La Isla de la Juventud no posee las posibilidades de 
+					desarrollo que sí disponen otras provincias
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="ijv-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="lha-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					La Habana es el principal destino de los migrantes del país y esto marca el movimiento migratorio interno
+					de Cuba
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="lha-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="may-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Mayabeque está influenciada, en términos migratorios, por su cercanía a La Habana
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="may-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="mat-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Matanzas es, tras La Habana, el segundo destino en preferencia por los migrantes de todo el país
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="mat-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="cfg-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Cienfuegos, como el resto de las provincias centrales, no posee 
+					cambios migratorios significativos
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="cfg-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="vcl-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Villa Clara tiene su mayor intercambio migratorio, además de La Habana, con las provincias
+					fronterizas
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="vcl-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="ssp-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Sancti Spíritus no tiene como principal destino migratorio a La Habana, sino a Villa Clara
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="ssp-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="cav-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Ciego de Ávila es, en el centro del país, la provincia que prefieren
+					aquellos que emigran
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="cav-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="cam-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Camagüey es la provincia central que posee la tasa migratorio interna más desfavorable
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="cam-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="ltu-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Las Tunas es, de la provincias orientales, la menos afectada por la emigración interna 
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="ltu-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="hol-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Holguín compite con Santiago de Cuba como la provincia que más migrantes
+					envía hacia la capital
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="hol-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="gra-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Granma es la provincia que tiene mayor porciento de población rural y eso
+					marca su dinámica migratoria
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="gra-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="stg-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Santiago de Cuba es la provincia que más migrantes ha enviado a La Habana en los últimos
+					cinco años
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="stg-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+			<div id="gtm-title" class="title-block">
+				<div class="province-remark ">
+					<p>
+					Guantánamo es, históricamente, la provincia con cifras migratorias más desfavorables
+					</p>
+					<p style="text-align:center;">
+						<span id="" class="gtm-bg cursor read-more"> Lea más <i class="fa fa-arrow-down"></i> </span> 
+					</p>
+				</div>
+			</div>
+		</div>
+		
+    </div>
+    
+    <div id="map-block">
+			<div id="top-map"></div>
+	</div>
+    
+    <div id="provinces-content">
+    <div id="pri-part" class="province-part">
+		<div class="province-text">
+			<p>
+			Javier era un niño tranquilo, de esos que se levantan temprano para ver los muñequitos y permanecen por horas delante del televisor. 
+			Memorizaba cada rostro en la pantalla y cada gesto de los presentadores de noticieros, a veces, sin entender lo que decían.  Aunque, 
+			como todo niño del municipio <span class="pri-color">Sandino</span>, en <span class="pri-color bd">Pinar del Río</span>, le gustaba 
+			jugar en el parque y escuchar las leyendas de piratas y tesoros abandonados en <span class="pri-color">María la Gorda</span>. Soñaba 
+			que de grande encontraría la cruz de oro que tanto buscaron sus vecinos del barrio.
+			</p>
+			<p>
+			Sin embargo, a los diez años tendría que abandonar las amistades y sus sueños de niño para empezar de cero en una provincia que hasta entonces 
+			le parecía distante. <span class="it">"Estaba en la clase de educación física, jugaba con uno de mis compañeros de aula cuando caí de un muro, 
+			todo el peso del cuerpo cayó sobre mi brazo izquierdo y me fracturé el hueso cúbito"</span>. 
+			</p>
+			<p>
+			Pronto vendrían hospitales, placas, yesos, hasta terminar en una cirugía.  <span class="it">"El hueso había sellado mal y era preciso una 
+			cirugía para colocarme unos tornillos. Mi madre prefirió ir a casa de unas primas en <span class="art-color bd">Artemisa</span> para estar 
+			más cerca de <span class="lha-color bd">La Habana</span> y operarme por allá"</span>. 
+			</p>
+		</div>
+		<div  class="province-graph">
+			<div class="province-graph-title pri-color">
+				Comparación por número de Médicos y Hospitales, entre <span class="pri-color">Pinar del Río</span>, 
+				<span class="art-color">Artemisa</span> y <span class="lha-color">La Habana</span> | 2017
+			</div>
+			<div id="pri-g1"></div>
+			<div class="province-graph-note ">
+				* en el caso de los médicos se refiere a la cantidad por cada 10 mil habitantes
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			La estancia en la provincia que parecía temporal se volvió definitiva, su madre conoció a quien sería su padrastro y de casa de 
+			la familia 
+			pasaron a varios alquileres, hasta establecerse definitivamente unos años después. En esa época, 2011, 
+			<span class="art-color bd">Artemisa</span> 
+			recién se había constituido como provincia y registraba una tasa de migratoria interna de 4.5, favorable en comparación 
+			con su provincia natal, 
+			<span class="pri-color bd">Pinar del Río</span>, que con -2  registraba cifras negativas. Años despúes las tendencias no 
+			han variado pues en el 2017, la tasa migratoria interna 
+			de <span class="art-color bd">Artemisa</span> es un poco mayor con 5.5 y la de <span class="pri-color bd">Pinar</span> 
+			dismininuyó hasta -2.7. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title pri-color">
+				Evolución de la Tasa Migratoria Interna de <span class="pri-color">Pinar del Río</span>, 
+				<span class="art-color">Artemisa</span> y <span class="lha-color">La Habana</span> | 2008-2017
+			</div>
+			<div id="pri-g2"></div>
+			<div class="province-graph-note ">
+				* el valor de la tasa es respecto a 1000 habitantes
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Sin embargo, el destino de Javier tampoco estaba allí. Al concluir el 12º grado comenzó a estudiar Historia, una de las 33 carreras que se 
+			cursan en la Universidad de La Habana. Como muchos estudiantes de provincia pasó los cinco años becado y al graduarse fue ubicado en un museo 
+			de <span class="art-color bd">Artemisa</span>. Pero su futuro estaba en <span class="lha-color bd">La Habana</span>, provincia que había admitido como suya, y donde se graduó como locutor, profesión que ejercería 
+			de inmediato. Ahora ocupaba, en muchas ocasiones, el lugar de aquellos presentadores que admiraba de niño. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/pri.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Muchos de los conocidos, primos y parientes lejanos de Javier, también han abandonado la más occidental de las provincias. En 2017, 
+			dejaron 
+			<span class="pri-color bd">Pinar del Río</span> rumbo a otras regiones poco más de 3 mil personas, de ellas 200 más mujeres que hombres. 
+			<span class="lha-color bd">La Habana</span> se mantiene como el principal destino de los pinareños al recibir a 1282 en ese año. 
+			<span class="art-color bd">Artemisa</span> es la segunda provincia que más los acoge, con 1079. Las posibilidades económicas
+			y la cercanía geográfica con ambas, las han marcado como destino de los habitantes de 
+			<span class="pri-color bd">Pinar del Río</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title pri-color">
+				Saldo migratorio de <span class="pri-color">Pinar del Río</span> con las restantes provincias | 2017
+			</div>
+			<div id="pri-g3"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="pri-color bd">verde</span> aparecen
+				las provincias que tienen un saldo migratorio favorable con <span class="pri-color bd">Pinar de Río</span>, en 
+				<span class="main-text bd">violeta</span> las que lo tienen desfavorable. Mientras más intenso el color mayor el valor absoluto del saldo.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			En <span class="lha-color bd">La Habana</span>, Javier transitó por varios alquileres hasta lograr cierta estabilidad 
+			en un pequeño apartamento 
+			en <span class="lha-color">Marianao</span>, uno de los municipios 
+			capitalinos con sostenido incremento poblacional en los últimos años. <span class="it">"Al principio fue difícil mantenerme 
+			en la capital, trabajaba día y noche en las emisoras de radio para poder pagar el alquiler, tenía que compartir apartamento con otros locutores 
+			y hasta dormir en el piso, pero no me arrepiento. Lo mejor de <span class="lha-color bd">La Habana</span> no es la ciudad, creo que Cuba tiene otras más hermosas y más limpias, 
+			lo mejor está en la oportunidad que te brinda como profesional"</span>.
+			</p>
+			<p>
+			Aunque la madre de Javier esté a dos horas aproximadamente de su apartamento, él anhela poder establecerse del todo en la capital para traerla. 
+			<span class="it">"No es fácil saber que la persona que más quieres está lejos de ti, a veces por compromisos de trabajo no la puedo ver. Quisiera tenerla cerca, 
+			creo que cuando lo logre me sentiré satisfecho"</span>.
+			</p>
+		</div>
+		
+		<div class="province-graph">
+			<div class="province-souncloud-text pri-color">
+			Darianna quiere desarrollar su perfil como periodista; pero un alquiler en Artemisa le costaba los mismo 
+			que uno en la capital. Escucha su historia
+			</div>
+			<div id="pri-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#pri">
+				<div class="province-sonification pri-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Pinar del Río
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="art-part" class="province-part">
+		<div class="province-text">
+			<p>
+			Cuando Esteban era niño y pasaba sus tardes en uno de los ríos de <span class="vcl-color">Caguagua</span> – pequeño pueblo que 
+			colinda con el municipio villaclareño de <span class="vcl-color">Quemado de Güines</span> – tuvo que dejar los estudios secundarios 
+			para ayudar a su padre en los trabajos del campo. <span class="vcl-color">Caguagua</span> no tenía más que una 
+			escuela rural. Esteban vio frustrado su sueño de ser marinero, pero al año siguiente su tía María Estela decidió 
+			llevarlo a la capital para 
+			encargarse de sus estudios. 
+			</p>
+			<p>
+			Era sorprendente <span class="lha-color bd">La Habana</span>, aunque en los años 70 no era tampoco la gran urbe. Pero para quien vivía en un 
+			pueblo que ni está en el mapa, <span class="lha-color bd">La Habana</span> tenía un swing tremendo. Enseguida Esteban comenzó a trabajar y fue 
+			dejando los estudios de lado. Tenía que ayudar a su tía y enviar dinero a su padre y a sus 12 hermanas en 
+			<span class="vcl-color bd">Villa Clara</span>.  
+			</p>
+			<p>
+			En <span class="lha-color">Guanabacoa</span> pasó su juventud, trabajó de albañil,  
+			plomero,  administrador en un centro escolar y luego en el puerto de la bahía habanera. Cuba vivía por esa década años de derroche y 
+			abarrotamiento; todavía hoy cuenta cómo diariamente con solo 20 centavos compraba leche condensada. 
+			</p>
+			<p>
+			Pero, con los años 90 el panorama en <span class="lha-color bd">La Habana</span> se ponía difícil, imaginaba que era peor aún en su 
+			<span class="vcl-color">Caguagua</span>, por lo que el regreso con su familia no pasaba por su mente. Si había algo que se le daba sin 
+			trabajo era mandar y organizar a la gente, característica idónea cuando encontró un trabajo de conductor de ómnibus para cubrir la ruta 
+			<span class="lha-color">Playa</span> - <span class="art-color">Artemisa</span>. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/art.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Todas las mañanas salía de <span class="lha-color">Guanabacoa</span> y con la 
+			frase que todavía hoy dice: <span class="it">"caminen que cabe otro más"</span>, llenaba el vehículo hasta abarrotarlo. Un día conoció a una muchacha que iba 
+			en la puerta y trató de ayudarla a subir, su nombre era Blanca, una artemiseña que estudiaba enfermería en 
+			<span class="lha-color bd">La Habana</span>.  
+			</p>
+			<p>
+			Esteban y Blanca se hicieron amigos y una noche decidió quedarse en <span class="art-color">Artemisa</span> para cortejarla.  Su tía no lo volvió a 
+			ver con frecuencia y cuando se enteró de la relación ya Blanca esperaba su primer hijo. Una niña llegó en 1995, el varón en el 2000. 
+			Esteban consiguió trabajo en la terminal de ómnibus del municipio y todavía hoy trabaja en esta rama.  
+			</p>
+			<p>
+			<span class="art-color">Artemisa</span> estaba muy lejos de ser la capital, pero en aquellos años pertenecía 
+			a la provincia La Habana, lo que los capitalinos llamaban <span class="it">Habana campo</span>. Para su familia 
+			en <span class="vcl-color">Caguagua</span>, <span class="art-color">Artemisa</span> era <span class="lha-color bd">La Habana</span> 
+			-y para Esteban también-, por lo que decidió no volver a <span class="lha-color">Guanabacoa</span>. 
+			</p>
+			<p>
+			A <span class="vcl-color bd">Villa Clara</span> va a menudo. Ya no le quedan su padre ni su madre, y a sus 12 hermanas apenas puede verlas 
+			cuando va a su antigua casa.  <span class="vcl-color">Caguagua</span> sigue siendo importante para él, pero 
+			<span class="art-color">Artemisa</span> le cambió la vida y le dio la nueva familia que tiene.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title art-color">
+				Saldo migratorio interno de   
+				<span class="art-color">Artemisa</span>, <span class="vcl-color">Villa Clara</span>, y <span class="lha-color">La Habana</span> | 2011-2017
+			</div>
+			<div id="art-g1"></div>
+		</div>
+		<div class="province-text">	
+			<p>
+			<span class="vcl-color bd">Villa Clara</span> es una de las provincias que suele presenta un saldo migratorio negativo. 
+			En los últimos diez años, fue mejorando su saldo migratorio interno de -1392 en 2008 hasta ubicarlo en -85 en el 2015, pero en los últimos
+			dos años reportados volvió a descender hasta llegar a -533 en 2017.
+			</p>
+			<p>
+			En ese 2017, llegaron a <span class="vcl-color bd">Las Villas</span> 3238, pero se fueron de ese territorio 3771 personas, 908 de ellas hacia la 
+			capital y solo 102 para <span class="art-color bd">Artemisa</span>.
+			De manera general, la población en <span class="vcl-color bd">Villa Clara</span> ha disminuido en los últimos cuatro años, 
+			aunque  por diversas 
+			causas que no solo incluyen la migración. 
+			</p>
+			<p>
+			<span class="art-color bd">Artemisa</span> se constituyó hace ocho años como provincia y poco a poco ha dado pasos para su desarrollo 
+			económico y social. Desde su constitución, siempre ha tenido un saldo migratorio positivo. 
+			</p>
+			<p>
+			Según datos del Anuario Estadístico, en el 2017 recibió a 6570 personas y lo dejaron 3804, mientras que su población era de 508 491 habitantes, 
+			cifra que fue
+			aumentando año tras año. En el número de  habitantes no solo inciden factores migratorios sino también otros como la natalidad, morbilidad, defunciones, etc. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title art-color">
+				Evolución de la Población de  
+				<span class="art-color">Artemisa</span>, <span class="vcl-color">Villa Clara</span>, y <span class="lha-color">La Habana</span> | 2011-2017
+			</div>
+			<div id="art-g2"></div>
+			<div class="province-graph-note ">
+				* para que se note la curva de crecimiento, por las diferencias en el número de habitantes, 
+				inicialmente se muestran los datos de <span class="art-color bd">Artemisa</span>, sin embargo el gráfico es interactivo y dando click en la leyenda se pueden mostrar o
+				ocultar las curvas de las tres provincias cuyos datos están presentes.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Aun cuando el municipio cabecera evidencia un desarrollo paulatino, sobre todo en infraestructura, 
+			no es el que más personas acoge, aunque si era el más poblado en el 2017 con 85 289 habitantes.  La mayor recepción
+			de migrantes en Artemisa ocurre en
+			<span class="art-color">San Antonio de los Baños</span>, <span class="art-color">Bauta</span> 
+			y <span class="art-color">Caimito</span>, que están más cercanos a <span class="lha-color bd">La Habana</span>. 
+			</p>
+		</div>	
+		<div class="province-graph">
+		<div class="province-graph-title art-color">
+			Saldo migratorio de <span class="art-color">Artemisa</span> con las restantes provincias | 2017
+		</div>
+		<div id="art-g3"></div>
+		<div class="province-graph-note ">
+			* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="art-color bd">rojo</span> aparecen
+			las provincias que tienen un saldo migratorio favorable con <span class="art-color bd">Artemisa</span>, en 
+			<span class="main-text bd">violeta</span> las que lo tienen desfavorable. Mientras más intenso el color mayor el valor absoluto del saldo.
+		</div>
+		</div>
+		<div class="province-text">	
+			<p>
+			Desde su fundación, el saldo migratorio interno de la provincia siempre ha sido positivo. En el 2017 recibió 6570 nuevos habitantes, 
+			la tercera mayor cifra tras <span class="lha-color bd">La Habana</span> y <span class="mat-color bd">Matanzas</span>. También aquí tiene 
+			un papel significativo la apertura en el territorio de la Zona Especial de Desarrollo del <span class="art-color">Mariel</span>. 
+			</p>
+			<p>	
+			En 2017, por ejemplo, llegaron a <span class="art-color bd">Artemisa</span> 1024 personas procedentes de 
+			<span class="lha-color bd">La Habana</span>, la mayor cifra de capitalinos que se movieron hacia otra provincia. Así, 
+			el saldo migratorio interno entre las dos provincias se ha reducido en los últimos dos años.
+			</p>
+		</div>
+		
+		<div class="province-graph">
+			<div class="province-souncloud-text art-color">
+			Yemmi estudió periodismo en La Habana, pero decidió quedarse a trabajar en su provincia: Artemisa. Escucha su historia
+			</div>
+			<div id="art-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#art">
+				<div class="province-sonification art-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Artemisa
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="ijv-part" class="province-part">
+		<div class="province-text">
+			<p>
+			<span class="it">"¿Qué es lo que más extraño de <span class="ijv-color bd">La Isla</span>? ¿Qué te puedo decir? Seguro esperas algo así 
+			como: «extraño las arenas negras de la 
+			playa <span class="ijv-color">Bibijagua</span> y la tranquilidad impasible de <span class="ijv-color">Nueva Gerona</span>». Te estaría 
+			mintiendo, ¿sabes? A decir verdad, lo único que extraño de <span class="ijv-color bd">La Isla</span> es mi familia, sobre todo a mi mamá"</span>.
+			</p>
+			<p>
+			Aunque apenas lleva dos años viviendo en <span class="lha-color bd">La Habana</span>, Yanela se conoce la capital tan bien como cualquiera. 
+			<span class="it">"Imagínate, con tantos lugares para ir, ¿quién no se aprende <span class="lha-color bd">La Habana</span> de memoria?"</span>, 
+			cuenta, mientras saborea un barquillo de helado a la espera de un P-11 fantasma. <span class="it">"¡Ah, mira!"</span>, dice de pronto, como si recordara algo, 
+			<span class="it">"otra cosa que extraño de <span class="ijv-color bd">La Isla</span> es el helado. En verano, cada vez que salía de la escuela, 
+			siempre me compraba uno o dos barquillos. ¡Qué helados aquellos! 
+			El día que vayas y te tomes uno, seguro te acuerdas de mí"</span>. 
+			</p>
+			<p>
+			<span class="it">"¿Y qué es lo que menos 
+			te gusta de <span class="lha-color bd">La Habana</span>?"</span>, 
+			pregunto. La respuesta es instantánea: <span class="it">"¡Las guaguas!"</span>
+			</p>
+			<p>
+			Sin embargo, para tormento de Yanela, son veintidós las paradas de autobús que la separan de su apartamento en <span class="lha-color">Alamar</span>, 
+			una localidad del Este de la capital que duplica la población de su natal <span class="ijv-color">Nueva Gerona</span>. 
+			<span class="it">"Mi papá vive allá desde hace seis años, y me incluyó en el registro de dirección antes de empezar la universidad"</span>, explica. 
+			</p>
+		
+			<p>
+			Psicología, la especialidad que estudia, no figura entre las carreras que se imparten en la Universidad Jesús Montané Oropesa 
+			del <span class="ijv-color bd">Municipio Especial</span>, por lo que Yanela —como ocurre con estudiantes de Periodismo, Geografía 
+			o Ciencias Técnicas, entre otras carreras— 
+			debió migrar hacia la capital. Aunque tenía garantizada una residencia estudiantil, decidió que lo más factible era un traslado de dirección 
+			debido a la garantía de realizar, luego de graduada, el servicio social en <span class="lha-color bd">La Habana</span>.
+			</p>
+			<p>  
+			<span class="it">"Si vives aquí, tienes muchas más oportunidades al graduarte que en otras provincias, y mejores salarios también"</span>, afirma Yanela, 
+			y no se equivoca. Según el Anuario Estadístico de Cuba de 2017, el salario medio en entidades estatales y mixtas en 
+			<span class="lha-color bd">La Habana</span> ascendía a 
+			848 CUP mensuales, en tanto, el de la anteriormente llamada <span class="ijv-color bd">Isla de Pinos</span> era de 683 CUP, 
+			inferior al salario medio del país (787 CUP) y 
+			uno de los más bajos de una lista que cierra <span class="gtm-color bd">Guantánamo</span> (624 CUP).
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ijv-color">
+				Salario medio por provincias | 2017
+			</div>
+			<div id="ijv-g1"></div>
+			
+		</div>
+		<div class="province-text">
+			<p>
+			Para otro pinero, Humberto, las causas migratorias fueron de tipo familiar. Igualmente nacido en <span class="ijv-color">Nueva Gerona</span>, 
+			llegó a la capital con 22 años, en 1983, cuando sus padres consiguieron una permuta hacia <span class="lha-color">Alamar</span>. 
+			<span class="it">"Lo que más me impresionó de <span class="lha-color bd">La Habana</span> fue el movimiento y la vitalidad de tantas personas en un mismo lugar. 
+			Yo estaba adaptado a <span class="ijv-color bd">La Isla</span>, y allá éramos poquita gente"</span>, recuerda.
+			</p>
+			<p>
+			Aficionado a las pesas, y con 58 años cumplidos, para <span class="it">El Padrino</span> — como le llaman los del gimnasio — 
+			es una rutina diaria hablar de deportes, hacer cuentos sobre Período Especial, o gritar un quejumbroso <span class="it">"¡HOSTIA!"</span> 
+			cada vez que termina una serie de ejercicios. Su pasatiempo favorito es, sin embargo, meterse con un holguinero que también 
+			migró hacia <span class="lha-color bd">La Habana</span>, recalcando, a toda hora, que él también se quedó aquí, pero <span class="it">
+			"a quienes más les gusta la capital es a los orientales"</span>, 
+			y que los pineros <span class="it">"no salen tanto de <span class="ijv-color bd">La Isla</span>"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/ijv.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Sin embargo, a pesar de lo que piensa Humberto, la otrora <span class="ijv-color bd">Isla de Pinos</span> fue abandonada 
+			por 1.351 personas en 2017. Esta cifra, si bien es pequeña en comparación con otros territorios, equivale al 1.6% de su 
+			población, que continúa con un saldo migratorio negativo: por cada 10 personas que migran hacia 
+			<span class="ijv-color bd">La Isla</span>, emigran 15. 
+			</p>
+			<p>
+			No son pocas las regiones que tienen un saldo migratorio negativo con <span class="ijv-color bd">La Isla</span>. 
+			De hecho, desde <span class="cav-color bd">Ciego de Ávila</span> hacia el oriente, todas las provincias envían más habitantes
+			hacia la segunda isla en extensión de Cuba que los que reciben de esta. A estas también se suma, con igual comportamiento, 
+			<span class="pri-color bd">Pinar del Río</span>. De todas estas, la que más personas envió fue 
+			<span class="gra-color bd">Granma</span> con 93,
+			que fue superada por <span class="lha-color bd">La Habana</span> con 196.
+			</p>
+			<p>
+			Lo que marca la diferencia, entonces, son las provincias que más reciben a los de la 
+			<span class="ijv-color bd">Isla de la Juventud</span>.
+			El primer destino de los pineros es, como habitualmente ha sido, <span class="lha-color bd">La Habana</span>, 
+			que recibió en el año mencionado a más de 601 migrantes, de los cuales la mayoría eran mujeres. En tanto, 
+			<span class="art-color bd">Artemisa</span> 
+			y <span class="may-color bd">Mayabeque</span> se posicionaron como segundo y tercer destinos respectivamente, 
+			con números más discretos: 125
+			y 111 respectivamente. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ijv-color">
+				Mapa de las preferencias migratorias de los habitantes de la <span class="ijv-color bd">Isla de la Juventud</span> | 2017
+			</div>
+			<div id="ijv-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. El número encima del marcador representa
+				el orden de prefencia migratoria de los habitantes de <span class="ijv-color bd">La Isla</span>.
+				Mientras más intenso el color es mayor el número de habitantes que se movieron a esa provincia.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Curiosamente, la mayor cantidad de migrantes que recibe el <span class="ijv-color bd">Municipio Especial</span> procede de 
+			<span class="lha-color bd">La Habana</span>, con 196 en 2017. 
+			<span class="it">"Me imagino que haya pineros que vuelvan a <span class="ijv-color bd">La Isla</span> porque las cosas 
+			aquí no le funcionen, 
+			o gente que busca la tranquilidad de allá. 
+			También tengo amigos que han ido vivir a <span class="ijv-color bd">La Isla</span> 
+			para encargarse de algún pariente con edad avanzada"</span>, 
+			opina Humberto. 
+			</p>
+			<p>
+			En el territorio pinero —que no escapa al acelerado envejecimiento poblacional al que se enfrenta Cuba— el 18.1% de 
+			los habitantes (más de 15 000 personas) supera la franja de los 60 años. 
+			<span class="it">"No sé que será de <span class="ijv-color bd">La Isla</span> 
+			en un futuro si esto sigue igual"</span>, 
+			comenta preocupado <span class="it">El Padrino</span>, <span class="it">"entre los jóvenes que van a estudiar o trabajar a 
+			otras provincias, la gente que se va del país y las personas que mueren por edad... vaya, no sé que pensar"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ijv-color">
+				Tasas de movimiento natural de la población de la <span class="ijv-color bd">Isla de la Juventud</span> | 2011-2017
+			</div>
+			<div id="ijv-g3"></div>
+			<div class="province-graph-note ">
+				* el valor de estas tasas es respecto a 1000 habitantes
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Mientras tanto, las historias no terminan. El sueño de Yanela es traer a su mamá a la capital, aunque para ello tengan que 
+			vivir alquiladas. <span class="it">"Irme sin ella es la decisión más difícil que he tomado. Espero que, si 
+			<span class="lha-color bd">La Habana</span> nos separó, nos vuelva a 
+			unir de nuevo en un futuro"</span>. 
+			</p>
+			<p>
+			Para algunos, la migración ha representado el alejamiento entre familiares, para otros, el anhelado 
+			reencuentro; para muchos, es el inicio del éxito, para otros, un túnel sin mucha luz. Como dice Humberto de vez en 
+			cuando: <span class="it">"<span class="lha-color bd">La Habana</span> se las trae"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text ijv-color">
+			Humberto extraña de La Isla su naturaleza. Escucha su historia
+			</div>
+			<div id="ijv-soundcloud"></div>			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#ijv">
+				<div class="province-sonification ijv-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Isla de la Juventud
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="lha-part" class="province-part">
+		<div class="province-text">
+			<p>
+			<span class="it">"Como eres extranjera y no sabes, te tenemos que decir que no te enamores de un oriental ni dejes 
+			que te engañen. La Habana ya está llena de inmigrantes de Oriente"</span>, es un comentario prejuicioso que siempre me 
+			han dicho los amigos cubanos desde que llegué hace cuatro años al <span class="lha-color bd">Vedado</span>, 
+			zona céntrica de la capital cubana.
+			</p>
+			<p>
+			En Cuba, la migración interna se ha convertido en un problema muy complejo y multicausal que se 
+			presenta cada vez más intenso, y lo cierto es que conlleva a desigualdades territoriales en el crecimiento 
+			de la población, tal como responde a uno de los procesos demográficos de mayor ocurrencia e importancia.
+			</p>
+			<p>
+			Así como la emigración hacia otros países, estos movimientos dentro del archipiélago se tratan como 
+			un fenómeno natural. Miles de cubanos cambian cada año su lugar de residencia hacia otros territorios 
+			por diferentes motivos, y el destino principal es <span class="lha-color bd">La Habana</span>. Además, 
+			muchos no cuentan con una residencia 
+			fija y otros no tienen un estatus legal dentro de la región donde residen. Todo esto les limita las 
+			opciones de empleo y el acceso a otros servicios sociales.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title lha-color">
+				Saldo migratorio por provincia  | 2013 - 2017
+			</div>
+			<div id="lha-g1"></div>
+			<div class="province-graph-note ">
+				* la tabla es interactiva y puede ordenarse por cada columna que posee un ícono. La columna total se refiere
+				a la suma de los 5 años presentados.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			La mayoría de mis compañeros de la carrera de Periodismo tampoco pretende volver a su provincia original 
+			para colaborar en los medios de comunicación. Entonces, se me ocurren algunas preguntas: ¿Por qué migra 
+			la gente? ¿No les es difícil vivir en una provincia distinta a la suya, la que los vio nacer?
+			</p>
+			<p>
+			Resulta preciso reconocer que Cuba no ha sido ni será el único país en esta situación. Poco a poco, 
+			voy dándome cuenta de que no es cuestión de <span class="it">“dificultades”</span> o <span class="it">“facilidades”</span>, 
+			sino de <span class="it">“necesidades”</span> y 
+			<span class="it">“oportunidades”</span>. No me parece tan extraño este fenómeno, pues es de naturaleza socio-psicológica, 
+			relacionada a la estructura de los proyectos personales de vida. Es obvio que aumenta la cantidad de 
+			migrantes hacia los centros urbanos si un país se encuentra con una distribución desigual de la riqueza, 
+			superestructura y condiciones laborales.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/lha.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			En el 2017, la población cubana ascendía a 11 221 060 habitantes. Cinco años atrás,
+			según elreporte sobre la Movilidad territorial de la población, del Censo 2012, del Centro de Estudios 
+			de Población y Desarrollo, el 88.8% de la población cubana residía en la misma provincia de la cual es oriunda, 
+			el resto, 11.2%, eran migrantes interprovinciales absolutos, es decir, migrantes de toda la vida. En ese entonces, 
+			más del 90% de los migrantes trabajaba en su municipio de residencia, con excepción de <span class="lha-color bd">La Habana</span> 
+			donde la cercanía y poca extensión territorial de los municipios hace que el indicador solo llegue al 66%.
+			</p>
+			<p>
+			El mismo Censo también revela que en 2012 hubo 68 407 personas en el país que cambiaron de provincia de 
+			residencia. En el 2017, cambiaron de provincia 76 300 habitantes.  
+			Las regiones que presentan la mayor cantidad de emigrantes absolutos, son las de la región 
+			oriental y el principal destino la occidental, exceptuando a <span class="pri-color bd">Pinar del Río</span> 
+			y la <span class="ijv-color bd">Isla de la Juventud</span>.
+			</p>
+			<p>
+			El Censo de 2012 registró una magnitud de migrantes absolutos de 584 561 personas de población masculina 
+			y 661 558 de población femenina. Curiosamente, en los años transcurridos desde esa fecha ha sido ligeramente mayor
+			el número de hombres migrantes que el de mujeres. No obstante, este comportamiento no es homogéneo por provincias.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title lha-color">
+				Evolución de la migración interna por hombres y mujeres  | 2013 - 2017
+			</div>
+			<div id="lha-g2"></div>
+		</div>
+		<div class="province-text">	
+			<p>
+			Según la revista <span class="bd">Novedades en Población</span>, en conjunto con la fecundidad y la mortalidad, 
+			la migración es la tercera variable que ejerce un efecto 
+			en la estructura demográfica de la población, así como en sus cantidades de efectivos. Su contribución 
+			al cambio de la población puede ser pequeña, pero esta varía en la medida en que los análisis toman 
+			unidades administrativas menores. Mientras que un nacimiento y una muerte son, en gran medida, inequívocos, 
+			la migración depende de unidades espaciales geográficamente definidas y de la intención o comportamiento 
+			que sigue el sujeto
+			</p>
+			<p>
+			Entonces, la movilidad de la población entre límites político-administrativos en Cuba es el resultado de 
+			muchos movimientos en el país, -tal como diferentes situaciones espaciales y horizontes temporales-, vinculada 
+			con una estrecha interrelación con las circunstancias económicas y sociales. Su influencia provoca directamente 
+			el cambio demográfico y el tamaño de la población.
+			</p>
+			<p>
+			El desigual desarrollo relativo de las fuerzas productivas, las desproporciones territoriales en materia 
+			de condiciones de vida y trabajo, la disponibilidad de los servicios sociales, y las condiciones de trabajo 
+			y vida de la población, entre muchos otros factores, constituyen detonantes de la migración. En ello 
+			<span class="lha-color bd">La Habana</span> tiene ventaja, un ejemplo de ello es que la capital, siendo 
+			la provincia más pequeña y con cerca de un quinto de la población cubana, recibe
+			más o menos la mitad del volumen de la inversión que se realiza en el país.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title lha-color">
+				Evolución del volumen de inversión del país y <span class="lha-color bd">La Habana</span> | 2009 - 2017
+			</div>
+			<div id="lha-g3"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Además, según <a href="http://www.granma.cu/cuba/2014-04-04/ni-de-aqui-ni-de-alla?page=2">Granma</a>, 
+			en el caso del movimiento laboral, una de las causas fundamentales, más allá del salario, radica en 
+			que muchas personas, de acuerdo con la carrera estudiada, no tienen posibilidades de ejercerla en su territorio 
+			o prefieren hacerlo en lugares donde consideran puede ser mayor su desarrollo profesional.
+			</p>
+			<p>
+			A pesar de los muchos obstáculos que presenta el proceso de mudarse y cambiarse la dirección en el 
+			Carnet de Identidad, las personas se trasladan de un lugar a otro en busca de las oportunidades y la 
+			satisfacción de sus necesidades, así como hay quienes migran por cuestiones familiares.
+			</p>
+			<p>
+			Desde los años 60, el gobierno cubano ha intentado aplicar varias políticas con el objetivo de reducir 
+			las causas de la migración interna, intentando priorizar el desarrollo de los territorios rurales y, 
+			con ello, atenuar las diferencias entre el campo y la ciudad. Sin embargo, no me parece eficiente este 
+			esfuerzo, pues dichos problemas siguen siendo los principales motivos de este fenómeno migratorio.
+			</p>
+			<p>
+			Todo apunta a un cambio, o hacia una necesidad de cambio, en cuanto a la estrategia del desarrollo 
+			económico-social. El desarrollo equilibrado de los diferentes territorios jamás se llevará a cabo 
+			solo en base al acceso equitativo y pleno de los servicios esenciales.
+			</p>
+			<p>
+			Concuerdo con que todos tenemos el derecho de escoger dónde vivir, pero también debemos sentir un 
+			compromiso y un deber por nuestra tierra original. Creo que todos quisieran permanecer en el lugar donde 
+			empezaron sus vidas. A veces es la mejor opción pero, la verdad, es que a menudo no tenemos más alternativa 
+			que irnos. Y quizás, muchos migrantes, sobre todo orientales residentes en la capital, se sientan 
+			más habaneros que un capitalino.
+			</p>
+			<p>
+			En la ciudad maravilla, -capital de todos los cubanos-, lo cierto es que los <span class="it">“puramente habaneros”</span> 
+			ya no abundan. Al explicarme esta situación, algunos cubanos dicen que <span class="it">"los capitalinos originales se van para afuera, 
+			y los orientales ocupan <span class="lha-color bd">La Habana</span>"</span>. Sin embargo, no solamente la ocupan, sino también la trabajan, 
+			la mantienen y la quieren.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title lha-color">
+				Tasas de migración interna y externa por provincias del país | 2013-2017
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title lha-color">Interna</div>
+					<div id="lha-g4"></div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title lha-color">Externa</div>
+					<div id="lha-g5"></div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="province-text">
+			<p>
+			Finalmente, las corrientes migratorias, -no importa si es por esta u otra causa, hacia este u otro destino-, 
+			deben interpretarse como una variable condicionada sujeta a las potencialidades y la estrategia del desarrollo en cada región. 
+			En 1966, y todavía con vigencia, Fidel Castro manifestó : <span class="it">"si nosotros no nos ocupamos de desarrollar el interior del país, si nosotros 
+			no llevamos a cabo una política de crear condiciones que hagan agradable la vida en el interior del país, 
+			el fenómeno de querer mudarse para La Habana seguirá manteniéndose y el problema de la capital será cada vez peor"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title lha-color">
+				Mapa de las tasas migratorias internas por municipios | 2016
+			</div>
+			<div id="lha-g6"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en los municipios se obtiene más información. 
+				En <span class="bd" style="color:#E92327;">rojo</span> aparecen
+				los municipios con tasa migratorio negativa,  en 
+				<span class="main-text bd">violeta</span> los que la tienen positiva.
+				Mientras más intenso el color es mayor el valor absoluto de la tasa.  Los datos son de 2016 porque 
+				no se han publicado todos los anuarios de 2017. Para Holguín se realizó el cálculo pues las tasas
+				no se publicaron.
+			</div>
+		</div>
+		<div class="province-graph">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#lha">
+				<div class="province-sonification lha-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de La Habana
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="may-part" class="province-part">
+		
+		<div class="province-text it">
+			<p>
+			"Nací en un pequeño consejo popular —<span class="may-color">Guara</span>― que 
+			pertenece al municipio <span class="may-color bd">Melena del Sur</span>, pero 
+			desde pequeño me incliné por la medicina que me apasionaba y casi era una tradición familiar. 
+			En aquella época (década de los 80) la carrera solo se estudiaba en <span class="lha-color bd">La Habana</span> y hasta allá me fui. 
+			Cursé toda la carrera en el Hospital Salvador Allende."
+			</p>
+			<p>
+			 "Todo ese tiempo estuve becado y regresaba a la casa los fines de semana y para <span class="lha-color bd">La Habana</span> los domingos 
+			 por la tarde. La capital me fue cautivando, pues era donde pasaba casi toda la semana. Así, cuando me 
+			 gradué como médico, me quedé trabajando en este hospital, en el que permanezco hasta hoy".
+			</p>
+			<p>
+			"Si me hubiera quedado en <span class="may-color">Guara</span>, posiblemente no hubiera alcanzado la plenitud profesional de la 
+			que hoy disfruto porque allá no existe el desarrollo ni las posibilidades que hay aquí en La Habana. 
+			Yo no reniego de mi tierra, al contrario, me siento muy orgulloso de haber nacido en ella, además, creo 
+			que en los hospitales mayabequenses existen excelentes profesionales en todos los sectores".
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/may.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			"Al principio dormía junto a otro compañero en un cuarto pequeño dentro del mismo hospital y 
+			después conocí a una pareja de ancianos, a los que ayudaba mucho y me permitieron irme a vivir con 
+			ellos a su casa del <span class="lha-color">Vedado</span>. Al poco tiempo, los viejitos se marcharon de Cuba dejando la casa a mi 
+			nombre y desde entonces ahí vivo".
+			</p>
+			<p>
+			"El comienzo no resultó fácil, porque en esa época ―te estoy hablando de los años 80, aunque creo que 
+			ahora también— los muchachos recién graduados cobraban salarios muy bajos que no alcanzaban para nada, 
+			aunque los productos y servicios eran mucho más baratos de lo que son hoy. A pesar de eso, era bastante 
+			difícil porque a veces tenía que comprar las cosas en <span class="may-color bd">Mayabeque</span> 
+			y traerlas para acá. Allá los precios 
+			eran más bajos. Te reitero, al comienzo fue compleja la situación, pero todo logro implica una gran 
+			dosis de sacrificio".
+			</p>
+			<p>
+			"Soy orgullosamente de la Provincia La Habana (actual <span class="may-color bd">Mayabeque</span>). 
+			No creo que el haberme ido hace tantos 
+			años sea un impedimento para sentirme profundamente ligado a mis raíces. Cada vez que puedo regreso, pues 
+			mis padres viven allá y cuando recorro sus calles siento como si nunca me hubiera marchado".
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title may-color">
+				Mapa de la Tasa Migratoria interna por municipios de <span class="may-color bd">Mayabeque</span> | 2017
+			</div>
+			<div id="may-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="may-color bd">rojo</span> aparecen
+				los municipio que tienen una tasa migratorio positiva,  en 
+				<span class="main-text bd">violeta</span> las que la tienen negativa. Mientras más intenso el color mayor el valor absoluto de la tasa que 
+				es respecto a 1000 habitantes.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Esta es la historia de vida de Mario García, uno de los tantos profesionales que ha emigrado hacia 
+			<span class="lha-color bd">La Habana</span> en busca de mejores oportunidades de trabajo y para elevar su calidad de vida. En la década 
+			del 80, cuando emigró, la entonces <span class="lha-color bd">Ciudad de La Habana</span> era el único lugar para estudiar medicina, ya 
+			que no existía, a nivel provincial, una Facultad de Ciencias Médicas. Esta Facultad se instituyó cuando, 
+			en 2011, el Consejo de Estado decidió la división de la otrora Provincia de La Habana en las actuales 
+			<span class="art-color bd">Artemisa</span> y <span class="may-color bd">Mayabeque</span>. 
+			</p>
+			<p>
+			En 1980, según datos del 2017 del Anuario Estadístico de Salud, la cantidad de médicos del país era de 15 247 
+			profesionales, mientras que en 1990, cuando Mario ya tenía cuatro años de graduado y ejercía como galeno, 
+			la cantidad de médicos era de 38 690; es decir, más del doble que existían cuando Mario comenzó la carrera.
+			En 2017, la cifra ascendió a 92 084.
+			</p>
+			<p>
+			En ese mismo 2017, <span class="may-color bd">Mayabeque</span> 
+			es la provincia con menor número de médicos 
+			y estomatólogos en activo del país con 1807 y 500 profesionales respectivamente, solo antecedida por el 
+			municipio especial <span class="ijv-color bd">Isla de la Juventud</span> con 508 y 190 en cada una de las dos especialidades. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title may-color">
+				Número de médicos y estomatólogos por 10 mil habitantes por cada provincia | 2017
+			</div>
+			<div id="may-g1"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Se podría pensar que esa cifra está relacionada con el número de habitantes de esas regiones pues 
+			<span class="ijv-color bd">La Isla</span> y <span class="may-color bd">Mayabeque</span> son, 
+			en ese orden, las dos demarcaciones menos pobladas del país. Sin embargo,
+			en la <span class="ijv-color bd">Isla de la Juventud</span> hay 60.2 médicos y 22.5 estomatólogos por cada 10 000 habitantes. En tanto,
+			los mayabequenses tienen 47.3 galenos y 13.1 dentistas, siendo, respectivamente los últimos y penúltimos
+			entre todas las provincias alejados de la cifras del país: 81.9 doctores y 16.6 estomatólogos por cada 10 000 habitantes.
+			</p>
+			<p>
+			Una de las principales causas de esta pequeña cantidad de médicos y estomatólogos es el elevado número de 
+			personas que emigran desde <span class="may-color bd">Mayabeque</span> hasta distintos lugares del país. En este sentido 
+			<span class="may-color bd">Mayabeque</span> ocupó en 
+			2017 el noveno lugar en cantidad de emigrantes con 3691 personas que se mudaron de allí, 
+			mientras ingresaron al territorio unas 5422 personas. 
+			</p>
+		</div>	
+		<div class="province-graph">
+			<div class="province-graph-title may-color">
+				Tasas migratorias de <span class="may-color bd">Mayabeque</span>, <span class="art-color bd">Artemisa</span> 
+				y <span class="lha-color bd">La Habana</span> | 2008-2017
+			</div>
+			<div id="may-g3"></div>
+		</div>
+		<div class="province-text">	
+			<p>
+			Sin dudas, <span class="may-color bd">Mayabeque</span> es una provincia demasiado nueva para aventurarse a predecir si las cifras de sus movimientos 
+			migratorios cambiarán. Sin embargo, su cercanía con <span class="lha-color bd">La Habana</span> 
+			le asegura ser uno de los principales destinos de 
+			los migrantes. Siempre fue así con la antigua provincia de <span class="lha-color bd">La Habana</span> 
+			y coincide con <span class="art-color bd">Artemisa</span>, su hermana occidental.
+			</p>
+		</div>
+		
+		<div class="province-graph">
+			<div class="province-souncloud-text may-color">
+			Lázaro tiene a su natal Madruga como última opción de retorno. Escucha su historia
+			</div>
+			<div id="may-soundcloud"></div>
+			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#may">
+				<div class="province-sonification may-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Mayabeque
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="mat-part" class="province-part">
+		<div class="province-text it" >
+			<p>
+			La última vez que me tomé una taza de café del de las lomas de mi tío Rogelio fue hace más de cinco o seis meses. 
+			Perdí la cuenta. Traje para la casa unas cuantas onzas envueltas en papel periódico, pero se me acabaron demasiado 
+			rápido; hacía como tres o cuatro coladas al día. Yo soy muy adicta al café y, sinceramente, creo que ninguno tiene 
+			el sabor del que cuela mi madre cuando mi tío se lo regala. Es una de las cosas que más añoro. La gente puede 
+			decir lo que quiera, pero no hay tierra como la de uno. 
+			</p>
+			<p>
+			Mi nombre es Irma y desde hace siete años vivo en <span class="lha-color bd">La Habana</span>, 
+			cuando me mudé para <span class="lha-color">La Lisa</span> junto a mi esposo. Para 
+			que digan que el matrimonio es la perdición. A mí me llevó a la capital, aunque, debo reconocerlo, siento mucha añoranza 
+			de mi barrio, de los puentes que te tropiezas en cada esquina, del olor del mar en la bahía. Es que yo nací en 
+			<span class="mat-color bd">Matanzas</span>, y por muy capitalina que me haga ahora, matancera me voy a morir.
+			</p>
+			<p>
+			Cuando me gradué en la Facultad de Ciencias Médicas, el regalo de mi padrino que vive en el norte fueron cinco días en 
+			<span class="mat-color">Varadero</span>. Allí, en el Hotel Playa Caleta conocí a Emilio, mi marido, y hasta hoy no nos 
+			hemos separado. Por eso me fui de <span class="mat-color bd">Matanzas</span>, 
+			no por otra cosa, jamás me interesó la vida en la capital, me parece excesivamente ajetreada. Pero no pude convencerlo 
+			a él de irse de <span class="lha-color bd">La Habana</span>, y me tuve que sacrificar.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/mat.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Ahora trabajo en un policlínico que me queda cerca de la casa. Incluso, si algo me hace sentir feliz es que allí 
+			trabajan casi tantos matanceros como habaneros. Somos como una familia, a decir verdad. 
+			</p>
+			<p>
+			Cuando vivía allá, siempre me decían que no me fuera, que si estaba loca, que yo lo tenía todo. Las estadísticas 
+			tampoco me respaldaban. <span class="mat-color bd">Matanzas</span> es una de las pocas 
+			provincias del país con saldo positivo en migraciones, más de 3000 mil personas de diferencia entre los que entraban 
+			y los que salían el año que me fui. Mi barrio, de hecho, era una especie de ajiaco con gente de 
+			<span class="stg-color bd">Santiago</span>, de <span class="gra-color bd">Granma</span> u 
+			<span class="hol-color bd">Holguín</span>. Mucha gente buena del Oriente que vino en busca de mejor suerte para el Occidente.
+			</p>
+			<p>
+			Incluso, es sabido que los dos municipios con más inmigrantes que emigrantes son 
+			<span class="mat-color">Matanzas</span> y <span class="mat-color">Cárdenas</span>, lo cual 
+			no es una casualidad, debido a que están más cerca de <span class="mat-color">Varadero</span>. No es difícil imaginarse, entonces, que son dos 
+			ciudades con un elevado nivel de vida, donde residen los trabajadores del sector turístico. Todo lo contrario de 
+			<span class="mat-color">Calimete</span> o <span class="mat-color">Los Arabos</span>, 
+			allí la cosa es más dura, aunque no se compara con el Oriente del país.
+			</p>
+			<p>
+			Sin embargo, no creo que mi marcha, afortunadamente, haya afectado tanto la situación de los médicos en 
+			<span class="mat-color bd">Matanzas</span>. El otro día lo leí en la prensa. En 2011, cuando me fui, habían poco más de 4000 médicos en toda 
+			la provincia, no recuerdo el dato específico; este año que pasó, la cifra era de 4089, me lo dijo una amiga 
+			ayer mismo. O sea, ha incrementado, no me necesitan.
+			</p>
+			<p>
+			Voy a confesar algo: por las noches, antes de dormir, de vez en cuando se me escapa una lágrima. Yo sé que 
+			suena un poco cursi o qué se yo, inverosímil. Pero es cierto, mi mayor pecado siempre ha sido ser demasiado matancera. A mí 
+			<span class="lha-color bd">La Habana</span> no me gusta, pero el amor, y díganmelo a mí, es más fuerte que todo.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title mat-color">
+				Evolución del número de Médicos y Estomatólogos en <span class="mat-color bd">Matanzas</span> | 2008-2017
+			</div>
+			<div id="mat-g3"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			La nostalgia es un sentimiento repetido entre los tantos matanceros que residen en 
+			<span class="lha-color bd">La Habana</span>. Sin embargo, está comprobado que la Atenas representa también una atracción para las personas 
+			del resto del país, tanto que su saldo migratorio en 2016 fue de 4017, atendiendo a los datos ofrecidos por el 
+			Anuario Estadístico de ese año.
+			</p>
+			<p>
+			Hacia la capital del país marchan aproximadamente mil personas, ampliamente el lugar de destino más repetido de 
+			muchos matanceros, con una paridad notable entre hombres y mujeres.
+			</p>
+			<p>
+			En este sentido, las provincias de las cuales llegan más personas a 
+			<span class="mat-color bd">Matanzas</span> son las del Oriente del país, con 
+			<span class="stg-color bd">Santiago de Cuba</span> y <span class="gra-color bd">Granma</span> a la cabeza, ambas con más de mil migrantes al año, 
+			mientras <span class="hol-color bd">Holguín</span> y <span class="gtm-color bd">Guantánamo</span>, aun un poco por debajo de estas cifras, 
+			también sufren la marcha hacia la Atenas de alrededor de 800 de sus pobladores.
+			</p>
+			<p>
+			Ciertamente es esta una provincia receptora -más que emisora- de migrantes internos. Una de 
+			las tantas historias de su capacidad de recibir es la de Yudenis, quien, como tantos otros, decidió moverse 
+			hacia la zona cuya fama de paraíso turístico trasciende las fronteras nacionales.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title mat-color">
+				Clasificación de las provincias según su saldo migratorio | 2017
+			</div>
+			<div id="mat-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span style="color:red;">rojo</span>
+				aparecen las provincias con saldo migratorio negativo (emisoras), en <span style="color:blue;">azul</span> aquellas que lo
+				tienen positivo (receptoras).
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="it">Mi nombre es Yudenis y vivo en Varadero. Esta provincia es lo máximo. Me mudé para acá por 
+			cuestiones de trabajo. Soy una especie de correcaminos de todo el país. Nací en 
+			<span class="gtm-color bd">Guantánamo</span>, pero con un año 
+			me llevaron para <span class="hol-color">Moa</span>, en <span class="hol-color bd">Holguín</span>, 
+			donde pasé mis estudios. El servicio militar fue en <span class="lha-color">La Habana</span>, pero en 
+			definitiva terminé aquí, en <span class="mat-color bd">Matanzas</span>. </span>                                        
+			</p>
+			<p>
+			<span class="it">Un día decidí irme de Oriente, donde me crie y residí por mucho tiempo. La causa es que ya no me sentía 
+			cómodo, sabes, no me veía posibilidades de progresar. En <span class="mat-color">Varadero</span> 
+			me han dado la posibilidad de trabajar con un buen cobro y albergue. Es algo que valoramos todos los integrantes de mi contingente.</span>
+			</p>
+			<p>
+			<span class="it">Nosotros hacemos de todo en cada área de la construcción y la remuneración es bastante buena, algunas veces mejor, 
+			otras peor, pero siempre aceptable. Imagínate si nos vamos a ir de aquí, con todas las facilidades, y una ciudad tan bonita 
+			y desarrollada.</span>
+			</p>
+			<p>
+			<span class="it">De Oriente echo de menos algunas cosas, es cierto, pero en sentido general me siento muy feliz de estar en 
+			<span class="mat-color bd">Matanzas</span>. 
+			No por gusto hay tantos de mi zona viviendo por acá  ahora. Como decimos los guajiros: ¡pa' atrás, ni para coger impulso!</span>
+			</p>
+		
+			<p>
+			Justo cuando se ha comentado en las noticias que Cuba alcanzó el millón de visitantes cinco días antes que el año pasado, 
+			Destaca en esta cifra el número de turistas que eligen a <span class="mat-color bd">Matanzas</span> como su destino.
+			</p>
+			<p>
+			En los datos sobre las <span class="bd">Capacidades de alojamiento del sistema de turismo en los polos turísticos</span>, 
+			que se incluye en el Anuario Nacional Estadístico, se menciona a <span class="mat-color">Varadero</span> junto a otros seis polos 
+			y la suma de los restantes del país. Resulta curioso como este destino no solo compite con provincias completas, 
+			sino que, también, presenta el número más alto de plazas y el segundo más alto de habitaciones, solo superado por 
+			la suma de otros polos que no se enlistan y que se mencionan únicamente como “otros”. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title mat-color">
+				Capacidades de alojamiento del turismo por polos turísticos | 2017
+			</div>
+			<div id="mat-g1"></div>
+			<div class="province-graph-note ">
+				* la cifra de Establecimiento es pequeña en comparación con el número de Habitaciones y Plazas por eso, a pesar
+				de estar presente, no se muestra en el gráfico. Para observarla oculte, dando click en 
+				la leyenda, a las Habitaciones y Plazas.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Pero, además de contar con el polo turístico más importante del país, según han informado -una de las principales 
+			fuentes de ingresos de la economía nacional-, <span class="mat-color bd">Matanzas</span> ha sido promovida como destino turístico
+			y no solo por la playa más famosa de Cuba. En esta provincia se encuentran otras locaciones relevantes para los visitantes, 
+			como son <span class="mat-color">Playa Larga</span>, <span class="mat-color">Guamá</span> o la propia 
+			ciudad que da nombre a la provincia.
+			</p>
+			<p>
+			Este auge ha sido responsable de que tantos cubanos se muevan hacia la provincia, siendo una 
+			de las principales receptoras de la migración interna. <span class="mat-color bd">Matanzas</span> 
+			ocupa el segundo lugar en la lista, nada despreciable.
+			</p>
+			<p>
+			En cuanto a salarios, los referidos a los sectores que normalmente se asocian al turismo 
+			–empleos en hoteles, restaurantes, etc.- son bastante bajos según lo reportado en el Anuario Estadístico, 
+			pero es sabido que hay otros ingresos asociados a remuneraciones por gratificaciones o propinas, 
+			entre otras posibles garantías económicas y reconocimiento social relacionado con estas profesiones.
+			</p>
+			<p>
+			Así que, en cuanto a turismo se refiere, no extrañará que la población de Matanzas se siga incrementando 
+			en la medida en que siga creciendo su infraestructura turística.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text mat-color">
+			No se sentía cómodo en La Habana, así que migró a Varadero donde gana mejor por su trabajo. Escucha su historia
+			</div>
+			<div id="mat-soundcloud"></div>
+			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#may">
+				<div class="province-sonification mat-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Mayanzas
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="vcl-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			Inicios de los 2000. Terminal de ómnibus de <span class="vcl-color bd">Villa Clara</span>. Destino: <span class="lha-color bd">La Habana</span>. 
+			En más de un verano, 
+			Wendy ya había recorrido igual ruta a pesar de su corta edad. Bien conocía la algarabía y la 
+			agitación de sus calles aunque no fuera su provincia natal. Sin embargo, esta vez sería distinto. Después 
+			de varios años, tanto ella como su familia habían decidido cambiar en el carnet de identidad el nombre 
+			de <span class="vcl-color">Sagua La Grande</span> por el de <span class="lha-color">Centro Habana</span>, como lugar de residencia. 
+			</p>
+			<p>
+			Las visitas a la capital y los vínculos ya creados con la urbe le bastaron a la pequeña de entonces 
+			10 años para saber que su vida docente y profesional no estaría en <span class="vcl-color">Sagua</span>. A no pocos les resultaría 
+			lógico cuestionar la reflexión de aquella niña que apenas cursaba quinto grado, mas, ella ni sus padres 
+			titubearon ante la posibilidad de mejores oportunidades. Su afición por el idioma francés y el deseo de 
+			ser partícipe del ocio y esparcimiento joven en la ciudad habanera le valieron para apostar por esta tierra.
+			</p>
+			<p>
+			Así, llena de perspectivas, fundamentalmente académicas llegó a <span class="lha-color bd">La Habana</span>. La Alianza Francesa le abrió 
+			las puertas al aprendizaje de la lengua romance. Diez años después, la principal Casa de Altos Estudios capitalina le daría 
+			la posibilidad de hacerse comunicadora. Adoptaba para siempre el gentilicio de habanera.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/vcl.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Pero la experiencia de Wendy es tan solo una entre las miles de historias de villaclareños que han 
+			emigrado hacia la capital a lo largo de más de 50 años. Ellos al igual que otros tantos migrantes de todo el país han dejado su suerte 
+			en manos de la ciudad de la Giraldilla. 
+			</p>
+			<p>
+			Hoy, cuando el  11,2% de la población cubana vive en una región diferente a la de su nacimiento y 
+			el porcentaje de inmigrantes en <span class="lha-color bd">La Habana</span> asciende a casi el 25% de su población total, es evidente 
+			la presencia de esta problemática en la actualidad.
+			</p>
+			<p>
+			El fenómeno de las migraciones internas representa un aspecto intrínseco de cualquier nación, especialmente, 
+			si se trata del traslado hacia las capitales. Las disparidades en la urbanización y en las dinámicas 
+			socio-económicas entre las provincias del interior del país respecto a las grandes metrópolis resultan 
+			realidades que, con frecuencia, acarrean desplazamientos en busca de las zonas más favorables. 
+			</p>
+			<p>
+			En el contexto cubano, resulta común tener <span class="it">“un pariente en el campo”</span>  tal como reza 
+			la popular letra de Adalberto Álvarez. Foco de ocurrencias, prejuicios y estereotipos, 
+			no cabe duda de que en el imaginario popular la percepción de las 
+			migraciones en el país mantiene un vínculo infalible con el traslado de quienes habitan en las áreas rurales 
+			del Oriente a territorios más urbanizados. 
+			</p>
+			<p>
+			Y es que, en efecto, los registros históricos indican un notable predominio de las migraciones orientales 
+			hacia el Occidente, más del 50% de los inmigrantes de la capital provienen de esta región, según datos del 
+			anuario estadístico de 2017 de la Oficina Nacional de Estadística e Información (ONEI). Sin embargo, aun cuando 
+			las provincias centrales son las que menos migrantes tributan a <span class="lha-color">La Habana</span>,
+			 el tránsito de las provincias centrales hacia esta zona sigue siendo significativo.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title vcl-color">
+				Porciento de la migración hacia <span class="lha-color">La Habana</span> por regiones del país
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title vcl-color">2017</div>
+					<div id="vcl-g1"></div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title vcl-color">Ultimos 5 años</div>
+					<div id="vcl-g2"></div>
+				</div>
+			</div>
+			<div class="province-graph-note ">
+				* el acumulado de los último 5 años reportados (2013-2017) se corresponde con la suma de los migrantes hacia 
+				<span class="lha-color bd">La Habana</span> en cada año, por cada pronvincia de las respectivas regiones
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Los movimientos de <span class="vcl-color bd">Villa Clara</span> hacia <span class="lha-color bd">La Habana</span> 
+			se constituyeron –según el documento oficial del Censo cubano 
+			de Población y Vivienda de 2002–  en una de las principales corrientes migratorias del país. Por esa misma 
+			época la otrora <span class="vcl-color bd">Las Villas</span> se convirtió en una de las cinco provincias 
+			con mayor saldo migratorio de carácter negativo. Todavía conserva ese rasgo negativo, pero con mucha menos fuerza.
+			</p>
+			<p>
+			Aunque a partir del 2010 el flujo proveniente de esta localidad disminuyó, vale destacar que la emigración de 
+			los nacidos en tierra villaclareña no cesa. Actualmente, resulta la segunda provincia de la región central –luego de 
+			<span class="cam-color bd">Camagüey­­</span>–  
+			que mayor cantidad de migrantes provee a <span class="lha-color bd">La Habana</span>, pues, a diferencia de sus regiones 
+			aledañas, cuenta con un menor desarrollo 
+			del turismo, uno de los primeros rubros económicos a nivel de país. De hecho, en el 2017, 
+			<span class="cam-color bd">Camagüey­­</span> y <span class="vcl-color bd">Villa Clara</span> fueron las dos únicas
+			provincias centrales con salgo migratorio negativo.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title vcl-color">
+				Evolución de la tasa migratorio interna de las provincias centrales | 2008-2017
+			</div>
+			<div id="vcl-g3"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Asimismo, al igual que en otros territorios, <span class="vcl-color bd">Villa Clara</span> mantiene 
+			un intercambio constante con sus ciudades contiguas 
+			y con las provincias occidentales. Una revisión de las principales rutas de emigración de 
+			<span class="vcl-color bd">Villa Clara</span> revela que sus 
+			pobladores se dirigen más hacia 
+			<span class="mat-color bd">Matanzas</span> y <span class="cfg-color bd">Sancti Spíritus</span> 
+			como segundo y tercer destinos preferidos después de <span class="lha-color bd">La Habana</span>. 
+			Justamente, de <span class="ssp-color bd">Sancti Spíritus</span> también recibe la mayoría de sus residentes adoptivos.
+			</p>
+			<p>
+			Los desplazamientos de los habitantes de <span class="vcl-color bd">Villa Clara</span> se realizan, 
+			fundamentalmente, entre las provincias cercanas.
+			Otros, como los que se realizan hacia <span class="art-color bd">Artemisa</span> y <span class="may-color bd">Mayabeque</span>,
+			que tienen un saldo positivo con <span class="vcl-color bd">Las Villas</span>, están viciados por la cercanía de estas a 
+			<span class="lha-color bd">La Habana</span>
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title vcl-color">
+				Mapa de las preferencias migratorias de los habitantes de la <span class="vcl-color bd">Villa Clara</span> | 2017
+			</div>
+			<div id="vcl-g4"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. El número encima del marcador representa
+				el orden de prefencia migratoria de los habitantes de <span class="vcl-color bd">Villa Clara</span>.
+				Mientras más intenso el color es mayor el número de habitantes que se movieron a esa provincia.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			No obstante, los cambios de residencia llevan implícitas condicionantes económicas, educacionales y profesionales. 
+			Similar al caso de Wendy, cientos de migrantes cubanos optan por viajar a la capital ante la disparidad de servicios 
+			básicos, ofertas vocacionales, centros de superación  y espacios recreativos. De acuerdo con el informe de migración 
+			publicado por la ONEI en 2012, las insatisfacciones en este sentido, unidas a la búsqueda de mejor recompensa salarial, 
+			figuran entre las causas más comunes de las  migraciones internas. 
+			</p>
+			<p>
+			El hecho de que las principales estructuras, sedes e instituciones de muchos sectores a nivel nacional radiquen en 
+			<span class="lha-color bd">La Habana</span>, así como el auge del sector no estatal y de las cooperativas 
+			en esta provincia, han sido el germen de 
+			la construcción de una suerte de <span class="it">“ideal capitalino”</span>, donde desembocan proyectos de vida y aspiraciones académicas 
+			y profesionales sin distinción de regiones,  al representar el referente por excelencia del progreso citadino.
+			</p>
+			<p>
+			Así,  tras casi 15 años del arribo de Wendy a la capital, su historia todavía parece ser la 
+			de muchos que continúan apostando por seguir esa ruta que anuncia <span class="lha-color bd">La Habana</span> a poco más de 250 kilómetros. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text vcl-color">
+			Norlan tampoco vió su futuro en Villa Clara. Escucha su historia
+			</div>
+			<div id="vcl-soundcloud"></div>			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#vcl">
+				<div class="province-sonification vcl-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Villa Clara
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="cfg-part" class="province-part">
+		<div class="province-text">
+			<p>
+			Las oportunidades para los jóvenes no siempre son buenas si vives a 64 kilómetros 
+			de la cabecera provincial. Más aún si eres profesional, periodista, y la mayoría de 
+			los medios de prensa que conoces están en <span class="lha-color bd">La Habana</span>.
+			</p>
+			<p>
+			Es por ello que Iviani no encontró su espacio en <span class="cfg-color bd">Cienfuegos</span> y se movió a la capital, 
+			y ahora trabaja en Juventud Rebelde. Ante la pregunta de si echa de menos sus raíces, 
+			replica que ella vive en Cuba, así que sigue pegada a ellas y si le cuestionan si desea regresar, 
+			su respuesta es también negativa. No, no regresará a no ser que sea esa su última opción. 
+			Su vida está en <span class="lha-color vd">La Habana</span>. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/cfg.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="cfg-color bd">Cienfuegos</span> es la ciudad que más le gustaba al Benny y una de las 
+			más limpias y hermosas de toda Cuba. La Perla del Sur, regularmente posee una tasa migratoria ligeramente positiva.  
+			Sin embargo, según las cifras de la Oficina Nacional de Estadísticas e Información (ONEI) en el Anuario Estadístico de 2017, 
+			los saldos migratorios de los municipios 
+			cienfuegueros son negativos, excepto por el municipio cabecera, cuyos números hacen 
+			que la provincia muestra números positivos.
+			</p>
+			<p>
+			El documento <span class="bd">Encuesta Nacional de Migraciones-Migraciones a nivel de estratos de asentamientos: 
+			Resultados principales</span>, publicado por la ONEI, 
+			indica que la situación demográfica actual de Cuba, 
+			muestra saldos migratorios externos sostenidamente negativos. Además, las corrientes migratorias internas no se desarrollan 
+			siempre en direcciones favorables al desarrollo social y económico y a la disponibilidad de la población 
+			apta para el trabajo.
+			</p>
+			<p>
+			Si bien en los últimos años (2012-2017) la población de <span class="cfg-color bd">Cienfuegos</span> ha crecido, 
+			mostrando un saldo positivo de alrededor de 2900 personas, el crecimiento no ha sido constante. 
+			En este movimiento poblacional parece que el saldo migratorio interno no es lo determinante pues, 
+			en el mismo período, en la Perla del Sur este siempre fue positivo. Sin embargo, si parece más relacionado 
+			con el saldo migratorio externo, pues este ha fluctuado sus valores en el intervalo de manera similar a la variación 
+			en el número de habitantes.
+			</p>
+			<p>
+			De hecho, la última cifra de población 
+			reportada por la ONEI en el Anuario Estadístico de 2017 es menor a su correspondiente de 2016. Por su parte,
+			los números asociados al movimiento migratorio interno de la provincia, 
+			muestran que 2027 personas se movieron de esta hacia otras en 2017, mientras
+			que llegaron 2328, dejando un saldo migratorio a favor de 311 habitantes. También en ese mismo año,
+			992 residentes en <span class="cfg-color bd">Cienfuegos</span> dejaron el país.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title cfg-color">
+				Variación del Saldo Poblacional y el Saldo Migratorio Interno y Externo de 
+				<span class="cfg-color bd">Cienfuegos</span> | 2017
+			</div>
+			<div id="cfg-g2"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Los números más o menos significativos de movimientos desde <span class="cfg-color bd">Cienfuegos</span> parecen 
+			concentrados en solo tres provincias: 
+			<span class="lha-color bd">La Habana</span>, <span class="vcl-color bd">Villa Clara</span> y 
+			<span class="mat-color bd">Matanzas</span>. La capital, por descontado, es siempre la que recibe más migrantes. 
+			Sin embargo, lo curioso en este caso es que las otras dos son provincias fronterizas. Al resto del país apenas 
+			hacen movimientos los cienfuegueros. De hecho, muy pocas veces, según las cifras del Anuario Estadístico, el 
+			número supera la centena de personas.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title cfg-color">
+				Mapa de las preferencias migratorias de los habitantes de <span class="cfg-color bd">Cienfuegos</span> | 2017
+			</div>
+			<div id="cgf-g3"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. El número encima del marcador representa
+				el orden de prefencia migratoria de los habitantes de <span class="cfg-color bd">Cienfuegos</span>.
+				Mientras más intenso el color es mayor el número de habitantes que se movieron a esa provincia.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="vcl-color bd">Villa Clara</span>, por mucho, es la provincias desde la que más traslados ocurren hacia 
+			<span class="cfg-color bd">Cienfuegos</span>. 
+			Estos dos territorios centrales, además de por la cercanía, parecen tener muchas cosas en común en temas estadísticos. 
+			</p>
+			<p>
+			Por lo que se ha reportado, las mujeres cienfuegueras son un poco menos propensas a migrar, 
+			pero la cifra reportada no es significativamente diferente: 1002 de estas se han ido, en tanto 
+			los hombres son 1025. Iviani considera que el género no es realmente el indicador más relevante en temas 
+			de migración: para ella hay cosas que son básicas, y la posibilidad de acceder a una mejor formación profesional, 
+			a un mejor empleo, a una vida cultural y social más adecuada para la gente joven, esas oportunidades, 
+			solo están en <span class="lha-color bd">La Habana</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text cfg-color">
+			Escucha a Iviani en su propia voz
+			</div>
+			<div id="cfg-soundcloud"></div>
+			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#cfg">
+				<div class="province-sonification cfg-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Cienfuegos
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="ssp-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			Apenas 50 años de vida y tres provincias han permeado con sus costumbres, idiosincrasia e historia la personalidad 
+			de Enrique. Su infancia transcurrió en <span class="ssp-color bd">Sancti Spíritus</span>, la adolescencia y la juventud 
+			en <span class="vcl-color bd">Villa Clara</span>, mientras la adultez en <span class="lha-color bd">La Habana</span>.
+			</p>
+			<p>
+			<span class="it">"La migración por razones laborales ha sido el motivo por el que he tenido que abandonar los territorios anteriores"</span>, 
+			según dijo Quiqui -como se les conoce en Cuba a los Enriques-, quien ahora reside en la capital.
+			</p>
+			<p>
+			<span class="it">"Apenas nacido, mis padres se divorciaron y la vida en casa transcurrió sin anomalías, pues no se vaticinaba ninguna 
+			salida de nuestro territorio natal. Pero el fallecimiento de mi madre, suceso que sorprendió a todos, en particular a mí, 
+			que era el de menos edad en casa, no dejó otra salida que irme a vivir a casa de mi padre junto a mis hermanos del nuevo matrimonio."</span>
+			</p>
+			<p>
+			Según reporta el Anuario Estadístico correspondiente al año 2017, 2709 personas se han movido desde 
+			Sancti Spíritus hacia el resto del país. La mayoría, a diferencia de lo habitual, no se ha movido 
+			a la capital, sino hacia <span class="vcl-color bd">Villa Clara</span>. Esto podría explicarse por la cercanía geográfica,
+			pues <span class="cav-color bd">Ciego de Ávila</span>, también fronteriza, ocupa el tercer lugar.
+			<span class="cfg-color bd">Cienfuegos</span>, en una posición más o menos similar, es superado 
+			por <span class="mat-color bd">Matanzas</span> en las preferencias para los migrantes espirituanos.  
+			</p>
+			<p>
+			El relato de Quiqui lo muestra dentro de esa estadística habitual de espirituanos moviéndose a Villa Clara.	
+			<span class="it">"Luego, cuando apenas comenzaba mis estudios primarios y por razones laborales de mi padre, tuvimos que 
+			mudarnos hacia <span class="vcl-color bd">Villa Clara</span>; allí continué los estudios hasta que me gradué como Licenciado en Derecho en 
+			la Universidad Central Martha Abreu de Las Villas y posteriormente comencé a ejercer mi profesión".</span>
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ssp-color">
+				Mapa de las preferencias migratorias de los habitantes de la <span class="ssp-color bd">Sancti Spíritus</span> | 2017
+			</div>
+			<div id="ssp-g1"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. El número encima del marcador representa
+				el orden de prefencia migratoria de los habitantes de <span class="ssp-color bd">Sancti Spíritus</span>.
+				Mientras más intenso el color es mayor el número de habitantes que se movieron a esa provincia.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="it">"Un día, una llamada telefónica desde <span class="lha-color bd">La Habana</span> me tomó por sorpresa  
+			mientras veía el noticiero, 
+			desde ese momento 
+			mi vida dio un cambio radical. Al colgar me quedé sin habla por unos segundos; mientras a mí alrededor todos preguntaban 
+			el por qué de mi silencio. Esa noche no pronuncié ni una palabra al respecto en casa"</span>. 
+			</p>
+			<p>
+			<span class="it">"Después de una noche en vela pensando en la propuesta, en la mañana, cuando desayunábamos, 
+			hice pública la noticia de que me solicitaban con urgencia para trabajar en la capital. 
+			Al instante miradas de añoranza y tristeza se apoderaron de los rostros de todos en el comedor. 
+			Tony, mi hermano menor, de inmediato se paró de la mesa, mi esposa solo dijo: piensa bien tu respuesta, 
+			mientras mi padre me ofreció su apoyo ante la decisión que adoptase".</span>
+            </p>
+            <p>
+            <span class="it">"No hubo excusa que me librase y confesé que la oferta era irrechazable. 
+            Era en medio del Período Especial, año 1993, cuando apenas había algo y lo que aparecía estaba caro. 
+            La oferta de trabajo incluía un apartamento matrimonial en el municipio habanero del <span class="lha-color">Cerro</span>, 
+            además de buen salario y muchas otras garantías."</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/ssp.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Desde entonces, Enrique, aún prendido a sus raíces, comenzó una nueva travesía camino a la urbe metropolitana. 
+			Quiqui aún no se ha acostumbrado a la agitada vida que envuelve a esta ciudad. Sin embargo, en ella concibió 
+			a sus hijas, y se desarrolló aún más en el campo profesional convirtiéndose en fiscal. Ahora no solo migraba él,
+			sino su familia completa.
+			</p>
+			<p>
+			Enrique proviene de una provincia, <span class="ssp-color bd">Sancti Spíritus</span>, en la que hay una paridad entre hombres y mujeres en cuanto a traslados, 
+			sobre todo en el caso de la capital; así lo evidencian los datos ofrecidos en el anuario estadístico de la 
+			ONEI en 2017, año en el que, de 441 espirituanos que migraron hacia 
+			<span class="lha-color bd">La Habana</span>, 222 eran hombres, 
+			en tanto 219 mujeres, cifras casi idénticas. De manera general, salieron rumbo al resto del país 1344 hombres
+			y 1365 hombres.
+			</p>
+			<p>En tanto, la provincia donde se formó profesionalmente, <span class="vcl-color bd">Villa Clara</span>, tuvo un
+			patrón proporcionalmente similar aunque invertido. De <span class="vcl-color bd">Las Villas</span> hacia 
+			<span class="lha-color bd">La Habana</span> fueron 457 hombres y 451 mujeres. Contando todas las otras provincias,
+			emigraron 1917 hombres y 1854 mujeres.</p> 
+			<p>
+			La capital, si bien no es la preferida de los que se van, es la segunda receptora de migrantes espirituanos. 
+			Desde <span class="vcl-color bd">Villa Clara</span> hacia <span class="lha-color bd">La Habana</span> se mueven más personas, 
+			el doble, de hecho, y también a Enrique se le puede pensar como villaclareño, al menos de formación. 
+			Otro aspecto a considerar es que el flujo natural de los migrantes podría indicar un primer traslado
+		    desde <span class="ssp-color bd">Sancti Spíritus</span> hacia <span class="vcl-color bd">Las Villas</span> 
+		    y de ahí a la capital. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ssp-color">
+				Comportamineto de los movimientos migratorios VCL a LHA, SSP a VCL
+				y SSP a LHA | 2013-2017
+			</div>
+			<div id="ssp-g2"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			No obstante, influye más en 
+			su saldo migratorio que las provincias a su Este prefieran moverse hacia el Occidente y escojan a 
+			<span class="ssp-color bd">Sancti Spíritus</span> como uno de sus destinos probables. Ello ha garantizado que,
+			por los últimos 8 años, la provincia no tenga un salgo migratorio negativo.
+			Aun así, la ruta migratoria <span class="ssp-color bd">Sancti Spíritus</span>-<span class="vcl-color bd">Villa Clara</span>-<span class="lha-color bd">La Habana</span>
+			parece ser importante en la realidad demográfica espirituana. Esto es difícil de afirmar, 
+			pero, al menos en el caso de Quiqui, así resultaron las cosas.  
+			</p>
+			<p>
+			Hoy, Enrique, es un abogado de gran prestigio a nivel nacional, sus éxitos 
+			son conocidos en todo el país y le han permitido conocer todas las provincias de Cuba y hasta 
+			realizar algunos viajes al extranjero. Para él, sin embargo, su corazón sigue al centro. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text ssp-color">
+			Ivette Cepeda: donde quiera que vayas te acompañarán las mismas bendiciones y las mismas pruebas. Escucha su historia
+			</div>
+			<div id="ssp-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#ssp">
+				<div class="province-sonification ssp-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Sancti Spíritus
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="cav-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			Benigno se ha ido de su ciudad desde hace años, pero su corazón sigue ahí. El suyo es un caso 
+			poco habitual: no es un guajiro que quería conquistar <span class="lha-color bd">La Habana</span>. 
+			Su esposa había conseguido un 
+			buen trabajo en la capital, pero el decidió quedarse en su zona.
+			</p>
+			<p>
+			Sin embargo, los hijos, que acompañaban a la mujer, decidieron emigrar, dejándola sola. 
+			Ese fue el detonante del viaje que definió su actual dirección. <span class="it">"De todas maneras, 
+			el salario de ella en <span class="lha-color bd">La Habana</span> era superior al mío, 
+			así que era la mejor decisión"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/cav.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Los datos de movimientos migratorios de la provincia de <span class="cav-color bd">Ciego de Ávila</span> 
+			parecen coincidir con el sentir de Benigno. El saldo migratorio de esta es positivo, un indicador que resulta 
+			poco habitual en el resto del país. 
+			</p>
+			<p>
+			Además, desde el año 2012 la población de la provincia ha ido creciendo constantemente. En cada uno de los 
+			últimos cinco años la cifra ha aumentado con respecto a la fecha anterior, y hoy su población es de alrededor 
+			de 10 mil personas más que la reportada durante el Censo de Población y Vivienda, de 2012. Este crecimiento constante 
+			solo es apreciable en otras tres provincias, todas occidentales: 
+			<span class="art-color bd">Artemisa</span>, <span class="may-color bd">Mayabeque</span> y 
+			<span class="mat-color bd">Matanzas</span>.
+			</p>
+		</div>
+		<div  class="province-graph">
+			<div class="province-graph-title cav-color">
+				Porciento de variación de la población por provincias 
+				| 2013-2017
+			</div>
+			<div id="cav-g1"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Hay varias razones por las que las personas parecen preferir vivir en esta provincia. Una de ellas 
+			puede ser que la mayoría de sus pobladores son citadinos. <span class="cav-color bd">Ciego de Ávila</span> 
+			presenta una población rural 
+			muy pequeña, la tercera en orden si no contamos a <span class="lha-color bd">La Habana</span> 
+			que, siendo la capital, no reconoce 
+			asentamientos rurales. Así, los habitantes de <span class="cav-color bd">Ciego</span> 
+			están casi todos agrupados en áreas urbanas, 
+			y el número de habitantes de las zonas rurales es solo superior al de la <span class="ijv-color bd">Isla de la Juventud</span>, 
+			cuya población es muy pequeña, y al de <span class="cfg-color bd">Cienfuegos</span>, otra provincia central. 
+			</p>
+			<p>
+			Como en todas las provincias del país, la población mayor de 65 años supera las cifras de las personas en 
+			los otros rangos etarios.  En el caso de <span class="cav-color bd">Ciego de Ávila</span>, 
+			los ancianos doblan a los sujetos de entre 25 y 29 años, 
+			y superan por casi 21 000 personas la cifra que le sigue en cuanto cantidad, o sea: los habitantes que cuentan entre 
+			45 y 49 años. Estas cifras aumentadas hacia el final de la tabla –en los datos de aquellos 
+			mayores de 65– demuestran el envejecimiento poblacional acelerado al que se enfrenta el país y denotan que, 
+			aunque el saldo migratorio resulte positivo, esta, como otras provincias, sigue necesitando un incremento 
+			significativo en la población en edad laboral. 
+			</p>
+			<p>
+			Si vamos a lo interno de los municipios, según cifras del 2016 -las últimas reportadas para la provincia-, 
+			el saldo migratorio solo resulta positivo en 
+			tres de los diez con que cuenta la provincia, destacando los dos primeros. La cabecera provincincial es la que tiene la cifra más alta 
+			y le sigue <span class="cav-color">Morón</span>. La situación geográfica de este municipio 
+			puede ser el factor determinante. El terraplén 
+			que parte hacia la cayería norte comienza en este lugar y, posiblemente, sea <span class="cav-color">Morón</span> 
+			una de las localidades 
+			donde habitan los trabajadores de las zonas turísticas. Además, <span class="cav-color">Ciro Redondo</span> se ubica tercero, pues permite 
+			el paso entre la capital provincial y el acceso a los cayos: <span class="cav-color">Morón</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title cav-color">
+				Mapa por municipios de <span class="cav-color bd">Ciego de Ávila</span> de la Tasa Migratoria interna  | 2016
+			</div>
+			<div id="cav-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="cav-color bd">azul</span> aparecen
+				los municipio que tienen una tasa migratorio positiva,  en 
+				<span class="main-text bd">violeta</span> las que la tienen negativa. Mientras más intenso el color mayor el valor absoluto de la tasa que 
+				es respecto a 1000 habitantes.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Las cifras de movimientos desde la provincia hacia el resto del país son similares en hombres y mujeres. 
+			<span class="lha-color bd">La Habana</span>, <span class="cam-color bd">Camagüey</span> y 
+			<span class="ssp-color">Sancti Spíritus</span> 
+			son los principales destinos de aquellos que se mueven de <span class="cav-color bd">Ciego</span>. 
+			La primera, predecible, las otras, fácil de suponer por la cercanía geográfica. 
+			No sorprende, que se muevan menos, por mucho, hacia el Oriente o la <span class="ijv-color bd">Isla de la Juventud</span>.
+			</p>
+			<p>
+			<span class="cam-color bd">Camagüey</span>, <span class="gra-color bd">Granma</span> y <span class="hol-color bd">Holguín</span>, 
+			por su parte, son las provincias que más personas envían hacia <span class="cav-color bd">Ciego</span>.
+			</p>
+			<p>
+			Sin embargo, cuando se migra desde <span class="lha-color bd">La Habana</span> -que sucede habitualmente, 
+			aunque su saldo migratorio resulte positivo-, los capitalinos no eligen esta provincia para establecer su residencia definitiva. 
+			Las cifras oficiales resultan muy bajas, solo superadas por los movimientos hacia 
+			<span class="cfg-color bd">Cienfuegos</span> y hacia la pequeña <span class="ijv-color bd">Isla de la Juventud</span>.
+			</p>
+			<p>
+			Benigno, por su parte, espera volver a ser estadística. Esta vez, pretende ser 
+			contado entre aquellos que van desde <span class="lha-color bd">La Habana</span> hacia <span class="cav-color bd">Ciego</span>. 
+			Mientras, visita cada mes su zona: <span class="it">"Cada vez que puedo, me doy una vueltecita -como decimos los guajiros. 
+			Mi sueño es morirme allá"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text cav-color">
+			Escucha a Benigno en su propia voz.
+			</div>
+			<div id="cav-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#cav">
+				<div class="province-sonification cav-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Ciego de Ávila
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="cam-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			<span class="it">"Tengo 32 años y hace 10 que vivo en <span class="lha-color bd">La Habana</span>. 
+			Nací en <span class="cam-color">Sibanicú</span>, 
+			en <span class="cam-color bd">Camagüey</span>. La verdad que aquel pueblo no se extraña mucho cuando vives 
+			en una ciudad tan atractiva como <span class="lha-color bd">La Habana</span>, pero llegar a donde estoy hoy no ha sido fácil, 
+			es un camino largo, lleno de discriminaciones"</span>
+			</p>
+			<p>
+			<span class="it">"Las personas se trasladan de un lugar a otro en busca de la satisfacción de 
+			sus necesidades, ya sean sociales, económicas o de otro tipo, lo cual incluye vivienda, 
+			trabajo y mejor calidad de vida. El desarrollo que se genera en diferentes provincias, ciudades 
+			y municipios, acorde con sus potencialidades, constituye uno de los motivos que impulsan a las personas 
+			a acudir a uno u otro sitio. Mi motivo estuvo en busca de la prosperidad."</span>
+			</p>
+			<p>
+			<span class="it">"Estudié solo hasta la secundaria, pero siempre tuve claro que no quería quedarme 
+			a vivir en <span class="cam-color bd">Camagüey</span>. Trabaje en varias cosas, nada definitivo, pa’ echar pa’ lante. 
+			Entonces, a los 21 años, luego de terminar el Servicio Militar Obligatorio, me presenté 
+			para un curso de Policía que eventualmente me llevaría a trabajar para <span class="lha-color bd">La Habana</span>. 
+			No era mi sueño exactamente, pero fue mi vía de escape".</span>
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/cam.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Yunier Pasos Fernández es uno de los tantos habitantes de esa localidad camagüeyana que 
+			cada año deciden moverse hacia otros destinos con el fin de prosperar económicamente. 
+			</p>
+			<p>
+			En 2017, según el Anuario Nacional Estadístico, la población del municipio de <span class="cam-color">Sibanicú</span> 
+			era de 30 470 personas. Esta es la cifra más pequeña reportada en los últimos años, y el decrecimiento preocupa, 
+			pues desde 2013 esta no ha parado de disminuir. 
+			Este mismo patrón de decrecimiento poblacional lo siguen todos los municipios de la provincia excepto el municipio capital, 
+			<span class="cam-color">Camagüey</span>. El crecimiento de este último no ha podido compensar la disminución de los
+			habitantes del resto y, por tanto, la población de la provincia ha disminuido constantemente desde 2014.
+			</p>
+		</div>
+		<div  class="province-graph">
+			<div class="province-graph-title cam-color">
+				Porciento de variación de la población de los municipios de <span class="cam-color bd">Camagüey</span> 
+				| 2013-2017
+			</div>
+			<div id="cam-g1"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="it">"Trabajé como suboficial de la Policía Nacional Revolucionaria en <span class="lha-color bd">La Habana</span> 
+			por 7 años. La verdad que no tengo un adjetivo exacto para describir esa etapa que, a pesar de cómo la gente la imagina, 
+			no fue tan dura, aunque tampoco fue lo que yo esperaba."</span> 
+			</p>
+			<p>
+			<span class="it">"La vida como policía en <span class="lha-color bd">La Habana</span> es difícil y más siendo “oriental” como 
+			nos llaman aquí, pero bueno, tenía donde dormir, comida y un salario. Lo que más me chocó fue 
+			tener renunciar a estar cerca de mi familia, pero algunas veces para prosperar debemos renunciar 
+			a algo que nos importa, o así pienso yo. Los visito dos veces al año más o menos, los pasajes están 
+			carísimos para estar viajando todos los meses, aquí la vida esta dura".</span>
+			</p>
+		</div>
+		<div  class="province-graph">
+			<div class="province-graph-title cam-color">
+				Salario medio mensual en entidades estatales de los municipios  de <span class="cam-color bd">Camagüey</span> 
+				| 2017
+			</div>
+			<div id="cam-g2"></div>
+			<div class="province-graph-note ">
+				* no se mostró el dato del municipio Esmeralda que aparecía en el Anuario Provincial para 2017, 1344 pesos, pues era
+				sustancialmente diferente de las cifras de los 5 años anteriores (445, 448, 512, 547 y 565). Por tanto, hasta que 
+				no se pueda verificar con otra fuente no se incorporará a la gráfica.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Precisamente, en la provincia de <span class="cam-color bd">Camagüey</span>, <span class="cam-color">Sibanicú</span> es 
+			el que reporta el menor salario medio mensual en entidades estatales por municipios. 556 CUP es la media 
+			que reciben los trabajadores estatales en esa localidad, seguidos de cerca por los empleados en el sector 
+			en los municipios de <span class="cam-color">Esmeralda</span> y <span class="cam-color">Najasa</span>. 
+			Esta cantidad es inferior al promedio que reporta la provincia (680 CUP), uno de los más bajos del país, 
+			según el Anuario Estadístico de Cuba 2017.
+			</p>
+		</div>
+		<div  class="province-graph">
+			<div class="province-graph-title cam-color">
+				Mapa del saldo migratorio de <span class="cam-color bd">Camagüey</span> 
+				con el resto de las provincias | 2017
+			</div>
+			<div id="cam-g3"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="main-text bd">violeta</span> aparecen
+				las provincias que tienen un saldo migratorio favorable con <span class="cam-color bd">Camagüey</span>, en 
+				<span class="cam-color bd">rojo</span> las que lo tienen desfavorable. Mientras más intenso el color mayor el valor absoluto del saldo.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Por supuesto, <span class="lha-color bd">La Habana</span> está a la delantera en ese aspecto, por lo que 
+			no es sorprendente que las personas que emigran no solo lo hacen para ejercer el trabajo por cuentapropia, 
+			sino que también prefieren dedicarse a actividades posiblemente similares a las que realizaban en sus provincias 
+			en el sector estatal, pero por una mejor remuneración.
+			</p>
+			<p>
+			<span class="it">"Mi trabajo de policía lo dejé hace como cuatro años, me case con una habanera y conseguí 
+			la dirección de <span class="lha-color bd">La Habana</span>. Ahora trabajo como plomero. Me va bien, seguro 
+			mejor que si me hubiera quedado en Sibanicú, pero sobreviviendo, como todos, supongo".</span>
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text cam-color">
+			<span class="it">Yo me adapté al otro día de estar en la Habana</span>, nos contó esta abogada. Escucha su historia
+			</div>
+			<div id="cam-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#cam">
+				<div class="province-sonification cam-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Camagüey
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="ltu-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			Cada mañana era lo mismo en el pequeño poblado de <span class="ltu-color">Amancio</span>, <span class="ltu-color bd">Las Tunas</span>. 
+			Desde los 17 años, el día de Miguel 
+			comenzaba mucho antes de que despuntara el alba, incluso antes del cantar de los gallos. Luego de terminar 
+			la secundaria básica decidió dejar de estudiar. <span class="it">"La escuela no era lo mío"</span>, decía y su futuro inmediato no era 
+			otro que trabajar en la finca de su abuelo, cortando caña, sembrado arroz y sacando boniato. 
+			</p>
+			<p>
+			Miguel era el mayor de cinco hermanos. Sus padres se separaron, y él se quedó con sus abuelos maternos en 
+			el pequeño batey de la familia. Desde pequeño aprendió el trabajo con la tierra, una noble y útil profesión, 
+			pero, como todo joven, tenía sueños y aspiraciones. <span class="it">"Llegó el momento en que la casa se me quedaba chiquita, 
+			quería conocer las cosas que mis abuelos no me podían enseñar, quería tener una mejor posición económica 
+			para ayudar a la familia"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/ltu.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="ltu-color bd">Las Tunas</span>, en cifras de 2017, tenía como tenentes de tierra a 540 personas jurídicas y 
+			a 25 931 personas naturales entre usufructuarios, propietarios y campesinos dispersos. 
+			Estos últimos sumaban 5601, cantidad que ubica a la provincia como la tercera del país 
+			detrás de <span class="hol-color bd">Holguín</span> y <span class="gra-color bd">Granma</span>. 
+			</p>
+			<p>
+			Sin embargo,  en la provincia no se cultivan 297 900 hectáreas, y de estas 124 300  están ociosas.
+			Esto representa poco más del 26% de la superficie agrícola del territorio, que es el tercer porciento más
+			alto del país luego de la Isla de La Juventud (37%) y Camagüey (31%).
+			</p>
+			<p>
+			Aún así, en el 2017 los campesinos privados aportaron un aproximado de 
+			427.5 millones de pesos, cifra de ingresos entre la población tunera 
+			que superaron, por ejemplo, los ingresos combinados de los coperativistas (30.2 millones), las UBPC (121.1 millones) 
+			y el sector privado (119.2 millones). Los ingresos de los campesinos independientes representaron el 15%
+			de total de los ingresos de <span class="ltu-color bd">Las Tunas</span> en el año,
+			por lo que el trabajo campesino resulta uno de los principales  eslabones en la economía provincial. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ltu-color">
+				Mapa por provincia de los porcientos de tierra agrícola ociosa  | 2017
+			</div>
+			<div id="ltu-g1"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene 
+				más información. La tierra agrícola ociosa está reflejada en el mapa a partir de la intensidad del <span class="main-text bd">violeta</span> 
+				y sus valores son porcentuales. Mientras mayor es la intensidad del color mayor es el porciento. 
+			</div>
+		</div>
+		<div class="province-text">
+			<p>Pero Miguel tenía sus propias ideas.
+			 <span class="it">"Estudiar y superarme era una de las opciones que se tiene en una provincia como <span class="ltu-color bd">Las Tunas</span> 
+			 para mejorar, 
+			 pero ese no era mi camino. Por lo tanto, la otra alternativa era viajar a <span class="lha-color bd">La Habana</span>"</span>. 
+			</p>
+			<p>
+			El padre de Miguel, luego de la separación, había viajado con su nueva familia hacia la capital y aunque no 
+			le molestó la idea de recibir a su hijo, ambos eran completos desconocidos. 
+			<span class="it">"Hacía ya 8 años que 
+			yo no tenía ningún contacto con mi padre, en verdad la convivencia no fue fácil, él tenía una nueva vida y yo tuve 
+			que adaptarme a esta nueva situación"</span>.
+			</p>
+			<p>
+			El cumpleaños 18 de Miguel lo celebró solo, en una guagua con destino a <span class="lha-color bd">La Habana</span>, 
+			657 km por delante estaban sus sueños y atrás dejan seres tupidos en canas, cuyas caras estaban surcadas por las arrugas y 
+			con las manos callosas por los años de trabajo en el campo.
+			</p>
+			<p>
+			Según el reporte Movilidad Territorial de la Población, Censo 2012, "la mayor preferencia [...] por residir en la capital, 
+			la existencia de redes de apoyo más sólidas, que conllevan a que sean mayores tanto las posibilidades de llegar al destino, 
+			como de tener éxito en el mismo, o bien por dificultades para emprender el regreso una vez en el destino", son algunos 
+			de los elementos que provocan que los migrantes procedentes del Oriente del país sean mayoría entre todos los 
+			que han decidido establecerse en <span class="lha-color bd">La Habana</span>. 
+			</p>
+			<p>
+			Sin embargo, 
+			de las cinco provincias orientales, <span class="ltu-color bd">Las Tunas</span>
+			es la que, proporcionalmente y no solo hacia la capital, menos desfavorable movimiento migratorio interno ha tenido.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title ltu-color">
+				Tasas de migración interna de las cinco provincias orientales  | 2008-2017
+			</div>
+			<div id="ltu-g2"></div>
+			<div class="province-graph-note ">
+				* el valor de estas tasas es respecto a 1000 habitantes
+			</div>
+		</div>
+		<div class="province-text">
+			
+			<p>
+			<span class="it">"Llevo casi dos años viviendo en <span class="lha-color bd">La Habana</span>, 
+			ya no estoy en la casa de mi padre, conseguí un trabajo de albañil y 
+			con eso he logrado ganarme la vida. Aunque no me arrepiento de lo que hice, extraño a mis abuelos, Son muchas 
+			las noches en las que me desvelo pensando en ellos, en lo poco que los llamo, en que debería ir a visitarlos, 
+			pero a la mañana siguiente tengo un nuevo trabajo que hacer y se me olvida"</span>.
+			</p>
+			<p>
+			En los dos años que Miguel lleva en la capital ha mejorado su situación económica  aunque ahora otro es el miedo. 
+			Él todavía tiene la dirección de sus pueblito natal de <span class="ltu-color">Amancio</span>, 
+			<span class="ltu-color bd">Las Tunas</span>.  
+			</p>
+		</div>
+<!--
+		<div class="province-graph">
+			<div class="province-souncloud-text ltu-color">
+			Texto de ltu (este falta)
+			</div>
+			<iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/587178708&color=%23ff0600d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		</div>
+-->
+		<div class="province-graph ">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#ltu">
+				<div class="province-sonification ltu-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Las Tunas
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="hol-part" class="province-part">
+		
+		<div class="province-text">
+			<p class="it">
+			"Vengo de <span class="hol-color bd">Holguín</span>, de la misma ciudad. Sí, esa que es conocida por la Loma de la Cruz, las Romerías de Mayo y 
+			su gran cantidad de parques, uno en cada esquina.
+			</p>
+			<p class="it">
+			"¿Cómo llegué a <span class="lha-color bd">La Habana</span>? Bueno, la historia no es tan larga. Vaya, que antes de llegar a “la capital 
+			de todos los cubanos” hice escala en <span class="stg-color bd">Santiago de Cuba</span>. Allí en la tierra caliente estudié 
+			Ingeniería Química y conocí 
+			a una persona muy especial para mí."
+			</p>
+			<p class="it">
+			"Cuando me gradué decidí venir a vivir para acá, vaya, que no era solo por el Malecón o los espectáculos de ballet, 
+			también por razones profesionales. Entonces, llegué como maestro. Sí, maestro de química en una escuela secundaria básica, 
+			de ingeniero a maestro, de la fábrica al aula."
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/hol.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Según datos publicados en <a href="http://www.juventudrebelde.cu/cuba/2017-06-26/el-maestro-fuera-del-area-de-cobertura">la prensa</a>, 
+			en el pasado curso 2017-2018  hubo un déficit de cobertura docente de casi un seis por ciento 
+			y se tuvieron que contratar, además de jubilados, a profesionales de otras áreas del saber. Incluso, en las vacaciones en 
+			la radio de 
+			<a href="http://www.radioangulo.cu/holguin/18889-lista-holguin-para-empezar-el-curso-escolar"><span class="hol-color bd">Holguín</span></a> 
+			se especificó que en ese territorio el completamiento estaba a un 95%. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title hol-color">
+				Evolución del personal docente de la secundaria básica en Cuba  | 2009/2010 - 2017/2018
+			</div>
+			<div id="hol-g1"></div>
+		</div>
+		<div class="province-text">
+			
+			<p>
+			En el <a href="http://www.sierramaestra.cu/index.php/titulares/15635-ultiman-detalles-para-iniciar-curso-escolar-2017-2018">semanario Sierra Maestra</a> 
+			informaron que en <span class="stg-color bd">Santiago de Cuba</span> 
+			<span class="">“las necesidades se solucionan con contratos por hora en los niveles educativos de Adultos y Primaria, además de que 
+			se prevé contratar a 350 jubilados reincorporados”</span>. Sin embargo, <span class="">“hay 1400 maestros que prestan servicios en otras 
+			provincias del país”</span>. Mientras que  en 
+			<a href="http://www.telecubanacan.icrt.cu/provinciales/3757-constata-ministra-de-educacion-preparativos-para-el-inicio-curso-escolar-2017-2018"><span class="vcl-color bd">Villa Clara</span></a> 
+			<span class="">“la cobertura laboral continúa siendo un problema, situación que 
+			tendrá respuesta con las más de mil 500 alternativas previstas”</span>. Como dice el dicho, visten un santo para desvestir otro.
+			</p>
+			<p>
+			<span class="it">"Dicen que los orientales tenemos fama de venir mucho para <span class="lha-color bd">La Habana</span>, que se llena esto de santiagueros, 
+			granmenses y holguineros. Oye, ellos vienen más que nosotros, pero no estamos tan lejos. Para acá se mudan, 
+			lo mismo los hombres que las mujeres, las cantidades son parejas".</span>
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title hol-color">
+				Número de migrantes por provincia hacia <span class="lha-color bd">La Habana</span>  | 2013 - 2015
+			</div>
+			<div id="hol-g3"></div>
+			<div class="province-graph-note ">
+				* la tabla es interactiva y puede ordenarse por cada columna que posee un ícono. La columna total se refiere
+				a la suma de los 5 años presentados.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			El número de habitantes que deja <span class="hol-color bd">Holguín</span> ha aumentado, si en el 2016 fueron bajas alrededor de 4887 personas, 
+			en el 2017 llegaron a superar los 5500. Después de <span class="lha-color bd">La Habana</span>,  las provincias para donde más se mudan son 
+			<span class="ltu-color bd">Las Tunas</span>, <span class="mat-color bd">Matanzas</span> y <span class="art-color bd">Artemisa</span>.
+			</p>
+			<p>
+			Por su parte, la ciudad de <span class="hol-color">Holguín</span> destaca en cuanto 
+			a la evolución que ha tenido en los últimos años 
+			ya que tuvo un período del 2012-2014 con saldos negativos pero, a partir del año 2015, se ha revertido 
+			la situación y ha comenzado a tener un saldo migratorio positiva y ya en 2017 ganó 1148 habitantes.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title hol-color">
+				Mapa por municipios de Holguín de la Tasa Migratoria interna  | 2017
+			</div>
+			<div id="hol-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="hol-color bd">azul</span> aparecen
+				los municipio que tienen una tasa migratorio positiva,  en 
+				<span class="main-text bd">violeta</span> las que la tienen negativa. Mientras más intenso el color mayor el valor absoluto de la tasa que 
+				es respecto a 1000 habitantes.
+			</div>
+		</div>
+		<div class="province-text it">
+			<p>
+			"Soy de la cabecera provincial y me he dado cuenta de que muchos migran para allí no solo desde los mismos 
+			municipios, sino de otras provincias orientales, por lo que el resultado migratorio debe ser positivo. Sin 
+			embargo, en municipios montañosos o lejanos como 
+			<span class="hol-color">Mayarí</span> o <span class="hol-color">Moa</span>, la cosa es distinta y los números son negativos."
+			</p>
+			<p>
+			"Ya dejé de dar clases en la escuela. Tengo casa donde vivir y no es alquilada. Pronto me pondré en función de 
+			buscar trabajo, alguno que me garantice el sustento, porque aquí las cosas cuestan caras. En 
+			<span class="hol-color bd">Holguín</span> la vida no 
+			es mala, pero <span class="lha-color bd">La Habana</span> es..."
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text hol-color">
+			 José Luis abandonó Holguín porque hay más oportunidades para un ingeniero químico en La Habana. Escucha su historia
+			</div>
+			<div id="hol-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#hol">
+				<div class="province-sonification hol-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Holguín
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="gra-part" class="province-part">
+		
+		<div class="province-text">
+			<p>
+			<span class="it">"Llegué a La Habana con tan solo 18 años, yo no quería irme de mi casa, ni lejos de mis amigos y del resto de mi familia, 
+			pero mi abuela y mi madre habían decidido que la vida en la capital nos depararía un mejor futuro para mí y mi 
+			hermana"</span>, comenta Zunilda Hernández, de 48 años y oriunda del poblado de <span class="gra-color">Jiguaní</span>, 
+			<span class="gra-color bd">Granma</span>.
+			</p>
+			<p>
+			La búsqueda de un futuro mejor es una premisa para la mayoría de los seres humanos de este planeta. Miles de métodos y 
+			prácticas son utilizados para lograr esta voluntad, imprescindible para el desarrollo de la vida. 
+			</p>
+			<p>
+			La emigración del campo hacia la ciudad es un fenómeno mundial del que Cuba no está exento; por las oportunidades que 
+			la vida citadina ofrece a sus ciudadanos, en su generalidad con mejor campo de estudio y trabajo, y una vida 
+			cultural más animada. Ello se ha reflejado en los movimientos poblacionales entre provincias.
+			</p>
+			<p>
+			<span class="gra-color bd">Granma</span>, con datos del 2017, es la provincia con mayor porcentaje de población rural del país 
+			con casi un 39% superando a 
+			<span class="gtm-color bd">Guantánamo</span> que tiene un 36%.
+			Estas dos provincias son también, según el informe <span class="bd">Movilidad Territorial
+			de la Población, Censo 2012</span> de la ONEI, las que menos retienen a su población nativa con 82.5% 
+			<span class="gra-color bd">Granma</span> 
+			y un 79.1% <span class="gtm-color bd">Guantánamo</span>, cuando el valor para la mayor de las Antillas es de 88.8%.
+			</p>
+			
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gra-color">
+				Mapa de la retención de la población nativa por provincias | 2012
+			</div>
+			<div id="gra-g2"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene 
+				más información. La retencion está reflejada en el mapa a partir de la intensidad del <span class="main-text bd">violeta</span> y sus valores son porcentuales.
+				Mientras mayor es la intensidad del color mayor es el porciento. 
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			 Entre los años 2013 y 2017 la población rural de Cuba -poco más del 23% 
+			de la población en 2017- disminuyó en 14291 personas, según 
+			datos del Anuario Estadístico de Cuba en su edición del 2018. Esta disminución de habitantes rurales no puede
+			considerarse excesiva, pero si constante. 
+			</p>
+			<p>
+			No obstante, este comportamiento no es el mismo cuando se analizan todas las provincias, pues en este período siete de ellas tuvieron
+			recuperación de habitantes para sus zonas rurales. Esto puede obedecer a que en los últimos años el estado ha promovido políticas 
+			para incentivar el trabajo de la tierra. 
+			</p>
+			<p>
+			Ello no se ha reflejado del mismo modo en todas las regiones del país. Así, 
+			<span class="art-color bd">Artemisa</span> y <span class="may-color bd">Mayabeque</span>, las únicas fronterizas con 
+			<span class="lha-color bd">La Habana</span> que es el principal mercado de bienes agrícolas del país, crecen
+			en habitantes en sus campos. Por otra parte, la mayoría de las provincias orientales, incluida <span class="gra-color bd">Granma</span>,
+			mostró tendencia a que sus habitantes se desplazaran hacia las ciudades. En el occidente, 
+			<span class="pri-color bd">Pinar de Río</span>, eminentemente agrícola, también manifestó un decrecimiento de su población rural.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gra-color">
+				Porcientos por provincias de la Variación de la Población Rural  | 2013-2017
+			</div>
+			<div id="gra-g1"></div>
+			<div class="province-graph-note ">
+				* entre las provincias no se incluye a <span class="lha-color bd">La Habana</span> porque esta no tiene población rural
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="it">"Era muy complejo el cambio, yo iba a estudiar en la universidad de Oriente la carrera de derecho, tenía creada todas 
+			mis expectativas y mi futuro entorno a mi ciudad, mi gente, en fin era todo lo que conocía, esa era mi vida"</span>, agregó Zunilda.
+			</p>
+			<p>
+			Las posibilidades que ofrecen el estudio y el trabajo en la ciudad son innegables, existen mayores competencias profesionales 
+			y capacidades para la superación, pero esto no siempre ocurre.
+			</p>
+			<p>
+			Esta granmense de pura cepa, como le gusta definirse, es hija adoptiva de la ciudad capital hace más de 30 años, 
+			metrópolis que, al principio de su nueva vida, le negó las oportunidades que brindan el interior de sus simbólicas murallas.
+			</p>
+		</div>	
+		<div class="province-graph">
+			<div class="province-graph-title gra-color">
+				Tres primeras provincias en número de emigrantes hacia <span class="lha-color bd">La Habana</span>  | 2013-2017
+			</div>
+			<div id="gra-g3"></div>
+			<div class="province-graph-note ">
+				* el diámetro de cada círculo representa, proporcionalmente, el número de emigrados. El gráfico es interactivo e interactuando
+				con él muestra más información.
+			</div>
+		</div>
+		<div class="province-text">	
+			<p>
+			<span class="it">"El comienzo en la capital fue difícil. Para empezar, la universidad de La Habana por motivos que hasta el sol 
+			de hoy desconozco, 
+			no quiso acoger mi traslado desde la Universidad de Oriente. Ese fue el declive de mis sueños, la profesión de 
+			mi vida me era negada"</span>.
+			</p>
+			<p>
+			No todo fue negativo en el cambio que enfrentaba esta granmense, <span class="it">" 
+			No tenía de otra. Si esto era lo que el destino me tenía preparado para mi paso por la vida, había que aprovecharlo; comencé a 
+			estudiar economía por las noches e inglés los fines de semana. A la par trabajaba en una textilera en donde me querían 
+			y me ayudaban muchísimo. Imagínate, era la más jovencita, una niña todavía, con tan solo 18 años"</span>.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/gra.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Esta mujer, después de cinco años de estudios, comenzó a trabajar en la Empresa de Economía del municipio 
+			<span class="lha-color">Playa</span>, 
+			y años más tarde pasó a ser jefa económica de la zona 8 del mismo municipio.
+			</p>
+			<p>
+			Después de un tiempo comenzó a saborear lo bueno que la ciudad le tenía preparado; <span class="it">"A 
+			los 27 años me casé y tuve a mi niña, la mejor del mundo, 
+			continúo casada después de 22 años, ahora soy cuentapropista y me va muy bien en la vida ¡ah!, y lo más importante, 
+			soy feliz, muy feliz"</span>.  
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text gra-color">
+			Escucha a Zunilda en su propia voz
+			</div>
+			<div id="gra-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#gra">
+				<div class="province-sonification gra-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Granma
+				</div>
+			</a>
+		</div>
+    </div>
+    <div id="stg-part" class="province-part">
+		<div class="province-text">
+			<p>
+			Eloína Martínez tenía poco más de 20 abriles cuando llegó a la capital. Corría el año 1961 y el país se encontraba inmerso en 
+			una Revolución que había movido al mundo. Las oportunidades de trabajar y obtener un sexto grado de manera simultánea eran dos 
+			cartas fundamentales a la hora de apostar por el traslado de su natal <span class="stg-color bd">Santiago de Cuba</span> a la tierra del Apóstol. 
+			</p>
+			<p>
+			Con un maletín pequeño donde solo llevaba unos pocos objetos personales, la joven emprendió un viaje de casi 24 horas en tren. 
+			Al arribar a <span class="lha-color bd">La Habana</span> descubriría que en lugar de zapote, a su fruta preferida le decían mamey, 
+			que los habaneros hablaban con un acento diferente, preferían el café más oscuro y cambiaban las rancheras mexicanas 
+			por el rock and roll.
+			</p>
+			<p>
+			Los primeros años los recuerda como una odisea. Había llegado sola a una ciudad que le parecía inmensa. 
+			En <span class="stg-color bd">Santiago</span> 
+			quedaron sus padres, amigos y sueños de adolescente. Pese a las diferencias culturales, con el tiempo, 
+			Eloína se enamoró del Prado, del Coppelia 
+			e, incluso, aun con la rivalidad entre las avispas y los leones en el béisbol, sentía cierta admiración por los Industriales. 
+			</p>
+			<p>
+			Con muy poco tiempo libre entre las jornadas de trabajo en el puerto y los cursos de superación, la muchacha de piel morena y pelo 
+			lacio encontró la manera de traer consigo a sus padres y hermanos y se casó con un militar con quien tuvo cinco hijos. A sus casi 
+			80 años, solo visita <span class="stg-color bd">Santiago</span> en pocas ocasiones y siente su corazón dividido entre el pueblo de 
+			su infancia y la ciudad que la vio madurar.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/stg.jpg">
+		</div>
+		<div class="province-text">
+			<p>
+			Más de medio siglo después de que Eloína se aventurara a probar suerte en la capital, la migración interna todavía resulta un 
+			fenómeno bastante común en gran parte del mundo, particularmente en Latinoamérica y el Caribe, de acuerdo con un informe sobre el 
+			Censo del año 2012, publicado por la Oficina Nacional de Estadística e Información (ONEI).
+			</p>
+			<p>
+			En el documento resalta el hecho de que las naciones subdesarrolladas muestran índices menores con respecto a países de proyecciones 
+			económicas más favorables. Aunque los estudios demográficos de la ONEI revelan que a partir de los años noventa se produjo una reducción 
+			de los movimientos internos, la capital suele ser el destino más recurrente.
+			</p>
+		
+			<p>
+			Las estadísticas ofrecen un esbozo que ayuda a comprender el multicausal fenómeno. Sin embargo, 
+			lo cierto es que las cifras de la ONEI no contabilizan los migrantes que de manera ilegal permanecen en una provincia 
+			diferente a la de origen.
+			</p>
+			<p>
+			Según el último Censo de Población y Vivienda realizado en el país, correspondiente al año 2012, el 88.8% de los cubanos 
+			residen en la misma provincia en la cual nacieron, mientras que los inmigrantes constituyen la cuarta parte de quienes habitan en la capital,
+			en tanto apenas son el 3.6% de quienes residen en <span class="stg-color bd">Santiago</span>.
+			</p>
+			</div>
+		<div class="province-graph">
+			<div class="province-graph-title stg-color">
+				Mapa del porciento de la población inmigrante por cada provincia | 2012
+			</div>
+			<div id="stg-g1"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene 
+				más información. La población inmigrante está reflejada en el mapa a partir de la intensidad del <span class="main-text bd">violeta</span> y sus valores son porcentuales.
+				Mientras mayor es la intensidad del color mayor es el porciento. 
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Las políticas estatales para regular los desplazamientos remiten a dos regulaciones migratorias, con énfasis en los flujos hacia 
+			<span class="lha-color bd">La Habana</span>. El primero de ellos corresponde al Decreto Ley 217, que redujo la entrada de personas 
+			a la capital en la segunda mitad de la década de 1990. 
+			</p>
+			<p>
+			En el año 2012, el Estado cubano aprobó un nuevo marco legal a través del Decreto 293, mediante el cual fijó nuevas condiciones para 
+			migrar a esa ciudad. En este caso, se priorizó a personas declaradas jurídicamente incapaces, así como los familiares de residentes 
+			de la ciudad.
+			</p>
+			<p>
+			<span class="stg-color bd">Santiago de Cuba</span> constituye el territorio con mayor cantidad de habitantes en la Isla, 
+			superado únicamente por <span class="lha-color bd">La Habana</span>. Al mismo tiempo, es la provincia que mayor número de migrantes 
+			aporta hacia la urbe capitalina y la que mayor cifra de éxodo presenta de modo general.
+			</p>
+			<p>
+			Los datos más recientes, relativos al 2017, arrojan que durante ese año, a la ciudad maravilla arribaron cerca de 22 000 personas. 
+			Alrededor del 13.5% provenían de la también llamada cuna del son y del bolero.
+			</p>
+			</div>
+		<div class="province-graph">
+			<div class="province-graph-title stg-color">
+				Incidencia de <span class="stg-color bf">Santiago de Cuba</span> en la migración hacia <span class="lha-color bd">La Habana</span> 
+				| 2013-2017
+			</div>
+			<div id="stg-g2"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			Aunque las diferencias territoriales en cuanto a la situación del empleo y los salarios no constituyan en sí mismos indicadores 
+			para estipular las causas de los flujos migratorios, por lo general suelen considerarse como factores determinantes en este fenómeno. 
+			De hecho, <span class="stg-color bd">Santiago de Cuba</span> cuenta con la segunda mayor población en edad laboral en zonas urbanas. 
+			</p>
+			<p>
+			Debido a la reapertura del sector no estatal, a partir de la puesta en marcha de la nueva política económica aprobada en el 
+			año 2011, el contexto capitalino también presenta mejores oportunidades en el sector de los servicios, así como la posibilidad 
+			de conseguir empleo en los negocios privados. A ello se suma el hecho de que las urbes capitalinas comúnmente aglutinan los centros 
+			de estudio, ocio, deportivos e instituciones culturales más importantes del país.
+			</p>
+		</div>	
+		<div class="province-graph">
+			<div class="province-graph-title stg-color">
+				Distribución de las instalaciones culturales y deportivas entre <span class="stg-color bd">Santiago de Cuba</span>, 
+				<span class="lha-color bd">La Habana</span> y el resto de las provincias 
+				| 2017
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title stg-color">Instalaciones Culturales</div>
+					<div id="stg-g3"></div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="pie-title stg-color">Instalaciones Deportivas</div>
+					<div id="stg-g4"></div>
+				</div>
+			</div>
+		</div>
+		<div class="province-text">	
+			<p>
+			Al hablar de migración interna en la Mayor de las Antillas cobra fuerza una popular frase que reafirma a <span class="lha-color bd">La Habana</span> 
+			como la capital de todos los cubanos. Y es que, sin espacio para coloquialismos ni para lugares comunes, son muchos los nacidos en esta Isla 
+			que aspiran a llegar a ella en busca de mejores oportunidades. 
+			</p>
+			<p>
+			Si bien el Estado cubano ha desarrollado estrategias para reducir las diferencias económicas entre las regiones,la problemática de 
+			la migración interna todavía representa una cuenta no saldada y tras más de cincuenta años la historia de Eloína es también la de 
+			miles de personas que maleta en mano y rumbo a <span class="lha-color bd">La Habana</span>, deciden empezar de nuevo. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text stg-color">
+			Yenier alimenta su espíritu con el ballet, pero en su natal Santiago de Cuba no encontró una propuesta cultural 
+			tan amplia como en La Habana. Escucha su historia.
+			</div>
+			<div id="stg-soundcloud"></div>			
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#stg">
+				<div class="province-sonification stg-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Santiago de Cuba
+				</div>
+			</a>
+		</div>
+	</div>		
+    <div id="gtm-part" class="province-part">
+		
+		<div class="province-text it">
+			<p>
+			Desde que supe que Marian iba a dar a luz fui corriendo para el hospital a esperar la ambulancia. Las primerizas 
+			siempre se adelantan. Decidió venir para el hospital de <span class="gtm-color bd">Guantánamo</span> porque es más grande y es el provincial. Gracias 
+			a Dios no entró en parto en el camino, ese viaje desde <span class="gtm-color">Maisí</span> tiene la cara fea, además, Diosito sabe que ella no tiene 
+			valor para parir en una ambulancia; aunque a decir verdad no sería a la primera que le pasa. No pude verla cuando llegó, 
+			la llevaron directo al salón. Marian solo tiene cerca a su esposo Nani, a su abuelita de 90 años que no pudo acompañarla 
+			y a nosotras, sus amigas; yo no me iba a mover de allí. 
+			</p>
+			<p>
+			En unas pocas horas ya estaba amamantando por primera vez a Dilan. Nació igualito al padre y con un chichón en 
+			la cabeza por una mala manipulación. A Marian no le dieron el alta en el tiempo esperado porque comenzó a hacer fiebres. Las 
+			fiebres eran por unos restos que le dejaron en el parto. A Marian la volvieron a meter en el salón para legrarle los restos, 
+			y mala la hora en que lo hicieron porque le zafaron todos los puntos de la herida. 
+			</p>
+			<p>
+			Después de eso la pasaron a Perinatología y allí Nani, su único familiar acompañándola, no podía estar. Dijeron en el hospital
+			 que porque es una sala de mujeres en un estado en el que no pueden llevar ropa y los hombres siempre, aunque no lo quieran, 
+			 están mirando lo que no deben. Marian tenía que quedarse sola mientras yo iba a clases y Nani, también solo, aunque en la 
+			 puerta, esperando a que alguien entrara o saliera, para poder ver a Marian por un refilón. Solo le dejaban acompañarla en 
+			 las curas que no voy a describir, y eso porque ella decía que ni muerta se las hacía sin él.
+			</p>
+			<p>
+			Mientras le pasaban antibióticos no podía amamantar, así que veía a Dilan con suerte una sola vez al día por detrás del cristal, 
+			eso cuando alguna enfermera indisciplinada la dejaba levantarse de la cama.
+			</p>
+			<p>
+			Así estuvieron un mes. 
+			</p>
+			<p>
+			Dice que el próximo va a tenerlo a <span class="cam-color bd">Camagüey</span>, con su mamá. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Comparación entre <span class="cam-color bd">Camagüey</span> y <span class="gtm-color bd">Guantánamo</span> respecto a algunos criterios
+				médicos
+				| 2017
+			</div>
+			<div id="gtm-g1"></div>
+		</div>
+		<div class="province-text">
+			<p>
+			De los 150 hospitales que tiene Cuba, en <span class="gtm-color bd">Guantánamo</span> se ubican solo cuatro. 
+			Dos generales en los municipios 
+			<span class="gtm-color">Baracoa</span> y <span class="gtm-color">Guantánamo</span> 
+			y dos especializados, un pediátrico y un psiquiátrico, también en la cabecera provincial. 
+			</p>
+			<p>
+			La tasa de mortalidad materna en <span class="gtm-color bd">Guantánamo</span> registrada en 2017 fue de 60.5 por cada 100 mil nacidos 
+			vivos, un número considerablemente 
+			alto entre todas provincias; un año antes fue de 103.4, la peor de todas. En el
+			<span class="gtm-color bd">Guaso</span>, con 9 municipios montañosos de difícil acceso, 8 de ellos sin servicio de Hospital, 
+			alejados en su mayoría de la cabecera provincial, se ubican solo 3 hogares maternos de los 131 que existen en el país, para ser la provincia 
+			de Cuba con menor cantidad de estos. Además, el número de estos locales ha decrecido considerablemente en los últimos 4 años pues en el 
+			2013 existían 9. 
+			</p>
+			<p>
+			Para el 2017 la tasa de mortalidad infantil fue de 4.7 y la tasa de mortalidad de los niños menores de 5 años de 5.9 (por cada mil 
+			nacidos vivos), aún siendo bajas estas cifras están entre las peores del país. No obstante, estas preocupan un poco más 
+			cuando se analizan de manera individual los municipios, como el caso de 
+			<span class="gtm-color">Yateras</span>, con 10 de 
+			 mortalidad infantil y 13.3 de mortalidad de niños menores de 5 años. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Evolución de la Mortalidad Infantil de <span class="gtm-color bd">Guantánamo</span> y Cuba
+				| 2007-2017
+			</div>
+			<div id="gtm-g2"></div>
+		</div>
+		<div class="province-text it">
+			<p>
+			Mi hermanita es una vedette. A ella le gusta bailar, actuar, y por supuesto disfruta mucho de la música. La mejor parte es 
+			que se le dan muy bien. Pero lo que acabó sorprendiéndonos no fue eso, sino su afición empírica a los idiomas. Desde pequeñita 
+			habla muy bien el inglés y se atreve con dos o tres oraciones en el ruso, el francés y el alemán. Con el tiempo los cursos de 
+			inglés de la FMC para mayores de 16 años, en los que me matriculaba para poder llevarla, se tornaron insuficientes. Un televisor 
+			Atec-Panda, Multivisión, las clases de Universidad para Todos y las teleseries americanas fueron sus profesores. La separan de la 
+			posibilidad de una escuela de verdad para perfeccionar sus habilidades 150 km y 4 horas de camino a la cabecera provincial. 
+			</p>
+			<p>
+			Hoy tiene 13 años y es una adolescente preciosa, avezada y responsable. Tengo miedo de que termine estudiando algo que no le gusta 
+			por no desprenderse de nosotras. En el fondo no puedo dejar de sentir que desperdiciamos sus mejores años para su inicio en el 
+			arte y después para su destreza multilingüe. Pero, ¿cómo?, si en dónde vivimos no hay casi nada. Aunque nos guste esto aquí, 
+			debimos haber decidido hace mucho a vender la casa y a comprarnos con eso algo en cualquier lado, donde ella pudiera aprovechar sus
+			condiciones.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Porciento de representación de <span class="gtm-color bd">Guantánamo</span> en Escuelas de Idioma, Arte y Deportes del país | 2017
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Escuelas de Idioma</div>
+					<div id="gtm-g3"></div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Escuelas de Arte</div>
+					<div id="gtm-g7"></div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Escuelas de Deporte</div>
+					<div id="gtm-g8"></div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			<span class="gtm-color bd">Guantánamo</span> está entre las provincias con menor cantidad de grupos culturales, 
+			esto condiciona el acceso a la práctica y el consumo artístico por parte de la población. Asimismo, de 204 grupos de teatro en el país solo 5 son 
+			guantanameros y de 66 danzarios solo 4 pertenecen a la provincia, aún cuando de un total de 37 en la Isla son 2 las escuelas de arte 
+			en el territorio. Lo contradictorio es que, como provincia, <span class="gtm-color bd">Guantánamo</span> es una ciudad con una gran historia 
+			cultural; Regino Eladio Botti, 
+			Joseíto Fernández, la Guantanamera y el Changüí, por solo citar algunos, forman parte del espectro que caracteriza la tradición 
+			cultural cubana.  
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Porciento de representación de <span class="gtm-color bd">Guantánamo</span> en los Grupos de Música, Teatro y Danza del país | 2017
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Grupos de Música</div>
+					<div id="gtm-g4"></div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Grupos de Teatro</div>
+					<div id="gtm-g5"></div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="pie-title gtm-color">Grupos de Danza</div>
+					<div id="gtm-g6"></div>
+				</div>
+			</div>
+		</div>
+		<div class="province-text it">
+			<p>
+			A mí me tocó nacer en <span class="gtm-color">Baracoa</span>, un pueblo pequeño, cultivado, hermosísimo, pero desigual, 
+			desfavorecido y lejano. Soy estudiante 
+			de Periodismo, vine a vivir a <span class="lha-color bd">La Habana</span> por una decisión personal, pero mi decisión 
+			estuvo precipitada por las oportunidades 
+			profesionales y de superación, las condiciones de trabajo, la economía personal, y otras ventajas que trae vivir en la capital. 
+			</p>
+			<p>
+			Hace un año decidí hacer lo que fuera para venir a estudiar a La Habana, que no es tan fácil como cambiarse la dirección y pedir 
+			un traslado.  Específicamente, la Universidad de La Habana exige que seas propietario de un inmueble o compartir la 
+			dirección con un familiar de primera generación, -mamá, papá, hermanos o cónyuge-, para solicitar un traslado. Yo me traje 
+			simbólicamente a mi papá para <span class="art-color bd">Artemisa</span> y subí 19 veces la escalinata en gestiones 
+			buro-prescindibles para conseguir la matrícula. 
+			El curso para mí comenzó en octubre desde mayo que inicié los trámites. No pregunté por qué existen estos requisitos particulares 
+			para el Alma Mater, aunque especulo que regulen el flujo constante de universitarios que buscan migrar para estudiar en la universidad 
+			más prestigiosa del país.
+			</p>
+			<p>
+			Aquí en <span class="lha-color bd">La Habana</span> he descubierto mi vocación gitana: en mis primeros seis meses dormí en 
+			6 lugares distintos y me mudé en 
+			5 ocasiones. Llegué con mi novio el 27 de agosto. Estábamos llenos de paquetes, con <span class="lha-color bd">La Habana</span> 
+			en carnavales y sin idea de 
+			dónde íbamos a quedarnos. Esa noche dormimos en la glorieta de un parque por I y 19. El segundo día pedimos a unos amigos 
+			el favor de bañarnos y dejar los maletines para comenzar los trámites en la universidad. Ahí estuvimos 10 días durmiendo en el 
+			comedor. Después salimos en busca de una tía, a la que nunca habíamos conocido, y su bondad nos permitió quedarnos con ella un mes. 
+			Para esa fecha ya había peinado en internet todas las ofertas de empleo y estaba trabajando en <span class="lha-color">La Habana Vieja</span>, 
+			también había 
+			comenzado mis clases por la tarde en la universidad. Una semana escondidos en la residencia estudiantil F y 3ra y 15 días en 
+			<span class="lha-color">Los Pocitos</span> de <span class="lha-color">Marianao</span>, en casa de otro amigo, completaron el ciclo.
+			</p>
+			<p>
+			Nos llevó más de dos meses encontrar un alquiler que pudiéramos pagar, y para eso tuve que convencer a una compañera de aula y 
+			ella, a la vez, a alguien más para que se rentaran con nosotros y así aminorar los gastos.
+			</p>
+		
+			<p>
+			Trabajé varios meses para costearme la comida necesaria y el alquiler, todo lo demás es un lujo. Dos meses hice desayunos 
+			en una casa de renta, tres meses repartí por los hoteles volantes promocionales de una compañía danzaría y luego estuve sin empleo 
+			por problemas de salud. Mis padres se quitaron casi todo lo que tenían para costearme esta vida cara y difícil. Ellos me entienden, 
+			creen, al igual que yo, que el sacrificio vale la pena. Y sí que lo vale.
+			</p>
+		</div>
+		<div class="province-graph">
+			<img class="province-img" src="images/gtm.jpg">
+		</div>
+		<div class="province-text it">
+			<p>
+			Las diferencias tecnológicas, infraestructurales y humanas, al menos en la educación universitaria, son notables. El acceso a 
+			proyectos, investigaciones, teóricos reconocidos, cursos complementarios, al conocimiento de manera general, es mucho más diverso. 
+			Sin contar la posibilidad de ocio y divertimento, insumos, consultas médicas especializadas, trámites nacionales o de embajadas, 
+			es como si todo lo que necesites estuviera cerca, a tu alcance. Además, <span class="lha-color bd">La Habana</span> es preciosa.
+			</p>
+			<p>
+			A veces me ablando y pienso que en el lugar de donde vine tengo más condiciones para estar, pero hasta la fecha no se me ha 
+			ocurrido retornar, aunque falta mucho, hay que ver el alcance de mi voluntad. No dudo que haya gente que encuentre en Guantánamo 
+			todo lo que necesita, pero creo que cada quien tiene derecho a escoger en dónde quiere vivir. Y si no hay espacio, pues que 
+			comiencen a crecer las ciudades hacia arriba. Toda migración tiene detrás un fenómeno arraigado, unos huyen del terrorismo, 
+			otros de políticas demagógicas, algunos buscan una vida diferente, propia, sin las consecuencias de las condiciones 
+			socioeconómicas del lugar geográfico al que te tocó pertenecer. 
+			</p>
+			<p>
+			Es verdad que aún soy un ser alienado, que estudiar, trabajar, y sacar un chance para hacer periodismo de vez en cuando es 
+			mucho más complejo en mis condiciones; es verdad que solo tengo y vivo con los bienes que puedo cargar, porque en los alquileres 
+			solo tienes seguro el mes que pagas, y las mudanzas tienen un precio que no puedo pagar; es verdad que la creatividad no me alcanza 
+			para imaginarme cómo voy a poder comprarme una casa y mi corazón no resiste la idea latente de morirme sin un hogar; pero también 
+			es verdad que en mi situación conozco a muchas personas más, que sin ser deshonestos han salido adelante, y heme aquí, orgullosa 
+			de mi tierra y mi idiosincrasia, pero extranjera.
+			</p>
+			<p>
+			Lo triste es que se ama al lugar en el que uno nace como a tu madre, y además de lidiar con los problemas que devienen de la 
+			decisión de irte o quedarte, tienes que sufrir la nostalgia de querer tener allí todo lo que necesitas conseguir en otro lado. 
+			Es como si el corazón no tuviese tranquilidad.
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Mapa por municipios de <span class="gtm-color bd">Guantánamo</span> de la Tasa Migratoria interna  | 2017
+			</div>
+			<div id="gtm-g9"></div>
+			<div class="province-graph-note ">
+				* el mapa es interactivo y dando click en la provincias se obtiene más información. En <span class="gtm-color bd">amarillo</span> aparecen
+				los municipio que tienen una tasa migratorio positiva,  en 
+				<span class="main-text bd">violeta</span> los que la tienen negativa. Mientras más intenso el color mayor el valor absoluto de la tasa que 
+				es respecto a 1000 habitantes.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Desde 1989, <span class="gtm-color bd">Guantánamo</span> presenta cada año la peor tasa migratorio interna del país. En el 2017,  
+			todos sus municipios tenían migratorio negativo. En cifras totales, es los últimos 5 años 
+			solo es superada en orden por <span class="gra-color bd">Granma</span> 
+			y <span class="stg-color bd">Santiago de Cuba</span>, ambas con mucha más población que el <span class="gtm-color bd">Guaso</span>. 
+			Ello según los datos oficiales registrados por el Anuario estadístico 
+			más actualizado (2017 publicado en 2018), donde no se tiene en cuenta la migración ilegal. 
+			</p>
+			<p>
+			Desde <span class="gtm-color bd">Guantánamo</span>, como era previsible, el destino migratorio 
+			preferido es <span class="lha-color bd">La Habana</span>. Le continúan, en orden,
+			<span class="mat-color bd">Matanzas</span>, <span class="may-color bd">Mayabeque</span> y <span class="art-color bd">Artemisa</span>, 
+			todas en el Occidente y cercanas a la capital. Por otro lado, es <span class="stg-color bd">Santiago de Cuba</span> la provincia 
+			que más migrantes le aporta.
+			</p>
+			<p>
+			Cuba es un país que envejece aceleradamente. 
+			La tasa de dependencia de la edad, que no es más que una aproximación de la carga o presión sobre los recursos laborales de un 
+			territorio (relación entre población dependiente -niños y ancianos- y población productiva), tiene proyecciones a crecer 
+			para 2030, mucho más de lo que ha crecido en los últimos 3 quinquenios. 
+			</p>
+			<p>
+			<span class="gtm-color bd">Guantánamo</span> 
+			
+			tuvo en el 2017 la tasa de crecimiento natural de la población más alta de Cuba, 5.6 en la región más oriental por 0.72 en el país. 
+			Así, proporcionalmente, el <span class="gtm-color bd">Guaso</span> es 
+			la provincia en la que menos personas mueren y más niños nacen. Esto constituye una ventaja en un país envejecido como la Isla. 
+			</p>
+			<p>
+			Sin embargo, en gran parte producto a la migración, la tasa de crecimiento total de la población de la provincia es negativa
+			y mucho menor que la de Cuba que presenta un -1.6 por -3.65 <span class="gtm-color bd">Guantánamo</span>. 
+			Entonces, aunque la sustitución natural sea positiva, la salida de personas fuera de la 
+			provincia provoca un decrecimiento de la población que los nacimientos no logran reemplazar. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-graph-title gtm-color">
+				Tasas de crecimiento natural, crecimiento total y saldo migratorio total de <span class="gtm-color bd">Guantánamo</span> | 2013 - 2017
+			</div>
+			<div id="gtm-g11"></div>
+			<div class="province-graph-note ">
+				* la tabla es interactiva y puede ordenarse por cada columna que posee un ícono. La columna total se refiere
+				a la suma de los 5 años presentados.
+			</div>
+		</div>
+		<div class="province-text">
+			<p>
+			Otro elemento es que, como la población migrante tiende a estar conformadad fundamentalmente por jóvenes en edad laboral, 
+			se afecta la tasa de dependencia de la edad, lo que condiciona que menor cantidad de personas tengan que 
+			trabajar para mantener a una mayor cantidad de personas inactivas (ancianos mayores de 65 años y niños menores de 14). 
+			En 2017, Cuba tuvo una relación de dependencia de 567, <span class="gtm-color bd">Guantánamo</span> de 580. 
+			</p>
+		
+			<p>
+			Por su parte, el contexto económico de <span class="gtm-color bd">Guantánamo</span> no ayuda en revertir
+			el panorama migratorio de la provincia.
+			</p>
+			<p>
+			El <span class="gtm-color bd">Guaso</span>  es de las provincias que menos financiamientos recibe en inversiones y
+			sus pobladores, habitualmente, tienen uno de los salarios medios más bajo de Cuba. De hecho, en 2016 y 2017 
+			estuvieron al fondo de la lista.
+			</p>
+			<p>
+			En la provincia, todos los municipios -excepto <span class="gtm-color">Guantánamo</span>-, están incluidos parcial o 
+			totalmente en el Plan Turquino. <span class="gtm-color">Baracoa</span>, <span class="gtm-color">Maisí</span>, 
+			<span class="gtm-color">Imías</span>, <span class="gtm-color">San Antonio del Sur</span> y <span class="gtm-color">Yateras</span> 
+			pertenecen de forma completa a este plan. A través del programa Plan Turquino 
+			se aplican un conjunto de medidas encaminadas a impulsar el desarrollo económico y social en estas regiones 
+			del país, así como a fortalecer la repoblación forestal en interés de la defensa, la flora y la fauna, creando para 
+			ello las condiciones básicas para el asentamiento de la población en estas zonas. Pero todavía falta mucho por hacer. 
+			</p>
+			<p>
+			En 2016, de los 370 asentamientos que se ubican en estos municipios, 253 tiene fluido eléctrico un 68% del total, 
+			lo que sigifica más de 63 mil viviendas favorecidas; 204 comunidades están conectadas telefónicamente para un 55% de cobertura; y 
+			187 localidades se ven beneficiadas con servicio de agua por acueducto, que
+			representa poco más del 50% del total de asentamientos. 
+			</p>
+			<p>
+			En el caso particular de los municipios involucrados, la situación no es homogénea. 
+		    <span class="gtm-color">Manuel Tames</span>, por ejemplo, de 62 asentamientos 
+			solo tiene 15 electrificados, 2 con acceso 
+			a telefonía y 3 que acceden al agua por vía de acueductos. Asimismo, <span class="gtm-color">Niceto Pérez</span> 
+			de 20 localidades tiene con luz eléctrica 
+			solo a 2 y con telefonía fija y acueducto solamente a 1. En caso parecido está <span class="gtm-color">El Salvador</span>, 
+			con un total de 63 comunidades, 
+			13 de ellas electrificadas, 16 telefónicamente conectadas y 17 con servicios de acueductos.
+			</p>
+			<p>
+			Las desproporciones territoriales en materia de condiciones de vida y trabajo, producto de un desigual desarrollo, 
+			constituyen los factores que inciden en la migración interna. Los distintos niveles de 
+			satisfacción, resultado de los indicadores de vida, provoca el movimiento interno de miles de personas todos los años en Cuba. 
+			Las estadísticas de <span class="gtm-color bd">Guantánamo</span> muestran a la provincia como una de las más desfavorecidas. Si se 
+			pretende equilibrar su población, migración y tasa de dependencia, será necesario, con intención, estimular 
+			su desarrollo integral. 
+			</p>
+		</div>
+		<div class="province-graph">
+			<div class="province-souncloud-text gtm-color">
+			Darío se considera un <span class="it">animal</span> de tres lugares: Guantánamo, la Isla y La Habana. Escucha su historia
+			</div>
+			<div id="gtm-soundcloud"></div>
+		</div>
+		<div class="province-graph sonification-link">
+			<a class="province-sonification-link cursor" href="sonificando-las-tasas-de-migracion.html#gtm">
+				<div class="province-sonification gtm-bg">
+					<i class="fa fa-music"></i> Escucha la sonificación migratoria de Guantánamo
+				</div>
+			</a>
+		</div>
+    </div>
+	</div>
+	
+	<div id="province-menu-block">
+	<div id="province-menu-header" class="">
+		Explora otras provincias:
+	</div>
+	<div id="provinces-menu" class="row">
+		<div id="pri-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="pri-linker" class="pri-bg linker cursor">
+				Pinar del Río
+			</div>
+		</div>
+		<div id="art-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="art-linker" class="art-bg linker cursor">
+				Artemisa
+			</div>
+		</div>
+		
+		<div id="lha-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="lha-linker" class="lha-bg linker cursor">
+				La Habana
+			</div>
+		</div>
+		<div id="may-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="may-linker" class="may-bg linker cursor">
+				Mayabeque
+			</div>
+		</div>
+		
+		<div id="mat-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="mat-linker" class="mat-bg linker cursor">
+				Matanzas
+			</div>
+		</div>
+		<div id="cfg-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="cfg-linker" class="cfg-bg linker cursor">
+				Cienfuegos
+			</div>
+		</div>
+		<div id="vcl-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="vcl-linker" class="vcl-bg linker cursor">
+				Villa Clara
+			</div>
+		</div>
+		
+		<div id="ssp-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="ssp-linker" class="ssp-bg linker cursor">
+				Sancti Spíritus
+			</div>
+		</div>
+		<div id="cav-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="cav-linker" class="cav-bg linker cursor">
+				Ciego de Ávila
+			</div>
+		</div>
+		<div id="cam-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="cam-linker" class="cam-bg linker cursor">
+				Camagüey
+			</div>
+		</div>
+		<div id="ltu-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="ltu-linker" class="ltu-bg linker cursor">
+				Las Tunas
+			</div>
+		</div>
+		<div id="hol-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="hol-linker" class="hol-bg linker cursor">
+				Holguín
+			</div>
+		</div>
+		<div id="gra-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="gra-linker" class="gra-bg linker cursor">
+				Granma
+			</div>
+		</div>
+		<div id="stg-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="stg-linker" class="stg-bg linker cursor">
+				Santiago de Cuba
+			</div>
+		</div>
+		<div id="gtm-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="gtm-linker" class="gtm-bg linker cursor">
+				Guantánamo
+			</div>
+		</div>
+		<div id="ijv-link" class="province-link col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div id="ijv-linker" class="ijv-bg linker cursor">
+				Isla de la Juventud
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<div id="methodology-credits" class="row main-color" style="display:none">
+		<div id="methodology-block"  class="col-lg-7 col-md-7">
+			<div id="methodology-title">
+				Datos y Metodología
+			</div>
+			<div id="methodology-content">
+				<p>
+				Este número es el resultado del segundo curso de Periodismo de Datos que
+				impartimos a estudiantes de periodismo de la Facultad de
+				Comunicación de la Universidad de La Habana. En el trabajo participaron por igual los 
+				estudiantes y los miembros de Postdata.club.
+				</p>
+				<p>
+				Los datos utilizados en los distintos trabajos provienen de los Anuarios Estadísticos publicados
+				por la <a href="www.one.cu">Oficina Nacional de Estadística e Información</a>. Asimismo, se utilizaron datos, 
+				información y reportes relacionados con los Censos del 2002 y el 2012.
+				</p>
+				<p>
+				En el caso de los anuarios, se utilizaron tanto los nacionales como los provinciales. En el caso de los 
+				nacionales se utilizaron los correspondientes al período 2014 - 2017. En el caso de los provinciales corresponden 
+				a los años 2016 y 2017. El último Anuario Nacional es el del 2017, publicado en 2018. Los Anuarios Provinciales
+				de 2017 no han sido publicados para todas las provincias. 
+				</p>
+				<p>
+				Igualmente, fueron utilizados los datos de los Anuarios Estadísticos de Salud que publica la 
+				<a href="http://www.sld.cu/sitios/dne">Dirección de Registros Médicos y Salud</a>
+				del Ministerio de Salud Pública de Cuba.  Se consultaron los datos de los Anuarios del 2009 hasta el 2017, que es el último
+				año reportado. También se trabajó con reportes de prensa y la consulta a otros medios según se menciona en los distintos textos.
+				</p>
+				<p>
+				Para el la visualización y composición del número fueron utilizadas distintas herramientas. Para el trabajo con los mapas
+				se utilizó <a href="https://leafletjs.com/">Leaflet</a> y los ficheros geojson de Cuba fueron creados a partir de los
+				datos publicados por el 
+				<a href="https://geo.nyu.edu/catalog?f%5Bdc_creator_sm%5D%5B%5D=Oficional+Nacional+de+Hidrografia+y+Geodesia+%28ONHG%29&bbox=-110.742187%20-26.115986%20-36.386719%2049.61071">Spatial Data Repositoy de New York University</a>.
+				Para los gráficos interactivos se utilizó <a href="https://c3js.org/">C3js</a> y <a href="https://ecomfe.github.io/echarts-examples/public/index.html">Echarts</a>.
+				Las tablas interactivas se crearon con <a href="https://mottie.github.io/tablesorter/">tablesorter</a>. El resto de las interacciones
+				y visualizaciones fueron programadas en javascript utilizando <a href="https://jquery.com">jquery</a>.
+				</p>
+			</div>
+		</div>
+		<div id="credits-block"  class="col-lg-5 col-md-5">
+			<div id="credits-title">
+				Créditos
+			</div>
+			<div id="credits-content">
+				<p>Fecha de publicación: <span class="bd">12/3/2019</span></p>
+				<p>Coordinación, edición y textos complementarios: <span class="bd">Yudivián Almeida</span>, <span class="bd">Saimi Reyes</span> y <span class="bd">Ernesto Guerra</span></p>
+				<p>Ilustraciones: <span class="bd">Carolina Holguín</span></p>
+				<p>Visualizaciones y programación: <span class="bd">Yudivián Almeida</span></p>
+				<p>Textos:<br> 
+				&nbsp;&nbsp; Pinar del Río - <span class="bd">Sheila Noda</span><br> 
+				&nbsp;&nbsp; Artemisa - <span class="bd">Erika Alfonso</span><br> 
+				&nbsp;&nbsp; La Habana - <span class="bd">Cu Thi Thanh Tu</span><br> 
+				&nbsp;&nbsp; Mayabeque - <span class="bd">Darián Bárcena</span><br> 
+				&nbsp;&nbsp; Matanzas - <span class="bd">Eduardo Grenier</span><br>
+				&nbsp;&nbsp; Villa Clara - <span class="bd">Gabriela Sánchez</span><br> 
+				&nbsp;&nbsp; Cienfuegos - <span class="bd">Saimi Reyes</span><br> 
+				&nbsp;&nbsp; Sancti Spíritus - <span class="bd">Wilfredo C. López</span><br> 
+				&nbsp;&nbsp; Ciego de Ávila - <span class="bd">Saimi Reyes</span><br> 
+				&nbsp;&nbsp; Camagüey - <span class="bd">Dianelis Remedios</span> y <span class="bd">Saimi Reyes</span><br>
+				&nbsp;&nbsp; Las Tunas - <span class="bd">Karina Rodríguez</span><br> 
+				&nbsp;&nbsp; Holguín - <span class="bd">Yasmani Pérez</span><br>
+				&nbsp;&nbsp; Granma - <span class="bd">Lisset Chavez</span><br>
+				&nbsp;&nbsp; Santiago de Cuba - <span class="bd">Mabel Sánchez</span><br>
+				&nbsp;&nbsp; Guantánamo - <span class="bd">Claudia R. Ortiz</span><br>
+				&nbsp;&nbsp; Isla de la Juventud - <span class="bd">Junior Hernández</span><br>
+				</p>
+			</div>
+		</div>
+    </div>
+
+
+         <div id="content-comments" class="comments-block"  style="display:none">
+        <div id="disqus_thread"></div>
+        <script>
+        
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+        
+        var disqus_config = function () {
+            this.page.url = 'http://postdata.club/issues/201902/migracion.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'PDClub-201810-I3-1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//postdataclub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>   
+    
+    </div>
+    
+    
+ 
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+<!--
+    <script src="../../assets/js/bootstrap.min.js"></script>
+-->
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/jquery.peity.min.js"></script>
+    <script src="../../assets/js/leaflet.js"></script>
+    <script src="../../assets/js/jquery.tablesorter.min.js"></script>
+    <script src="../../assets/js/echarts.min.js"></script>
+    <script src="js/migracion.js"></script>
+    
+  </body>
+</html>
