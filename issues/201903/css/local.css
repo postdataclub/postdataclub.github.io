@@ -168,6 +168,10 @@
 	margin: 0 auto;
 }
 
+#methodology-content>p {
+	width: 90%;
+}
+
 }
 
 @media (max-width:990px){
@@ -524,11 +528,6 @@
 	text-decoration: none;
 }
 
-
-
-#methodology-content>p {
-	width: 90%;
-}
 
 .social {
 	color: #FFFFFF;
