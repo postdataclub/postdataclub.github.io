@@ -117,11 +117,7 @@ var colors = {
 $.getJSON("data/municipalities.json",function(muns){
 $.getJSON("data/data-with-single.json",function(data){
 	
-$('#gray-out').click(function(e){
-		$('.cintroduction').hide();
-		$('#gray-out').hide();
-			
-});
+
 	
 	var idx = null;
 	var kind = 'all';
@@ -1095,11 +1091,11 @@ $('#gray-out').click(function(e){
 		widget.pause();
 	});
 	
-	$('#gray-out').click(function(e){
-		$('.cintroduction').hide();
-		$('#gray-out').hide();
-		widget.play();	
-	});
+	//$('#gray-out').click(function(e){
+		//$('.cintroduction').hide();
+		//$('#gray-out').hide();
+		//widget.play();	
+	//});
 	
 	$('#listen').click(function(e){
 		$('.cintroduction').hide();
