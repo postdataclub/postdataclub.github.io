@@ -1,0 +1,194 @@
+#gray-out {
+    position: absolute;
+    z-index:5000;
+    width:100%;
+    opacity:0.8;
+    background-color: gray;
+    top:-10px;
+    height: 100%;
+}
+
+.cintroduction {
+    z-index:10000;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 14%;
+    left: 18%;
+    width:64%;
+    background-color: rgba(245,245,245,0.9);
+}
+
+#introduction-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-left:6%;
+    padding-right:6%;
+}
+
+#introduction-text{
+    padding-left:6%;
+    padding-right:6%;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#introduction-credit {
+    font-size: 11px;
+    margin-top:0px;
+}
+#introduction-date{
+    text-align: right;
+}
+#introduction-author>a {
+    color: #FFFFFF;
+}
+
+#introduction-author>a:hover, #introduction-author>a:focus, .link-out:hover, .link-out:focus { 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.help{
+    text-align:right;
+    padding-bottom:20px;
+    padding-right: 6%;
+    font-size: 17px;    
+}
+.help-link {
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.help-link:hover, .help-link:focus {
+    font-weight: bold;
+}
+
+
+#soundcloud-container {
+        padding-left:10px;
+	padding-right:10px;	
+	margin-bottom: 10px;
+}
+
+#maps-container  {
+	margin-top: -10px;
+	width: 100%%;
+	opacity: 1;
+} 
+
+#map-selection {
+	text-align: center;
+}
+
+#map-item {
+	height: 50%;
+	background-color: #FFFFFF;
+}
+
+#map-graphs {
+	height: 30%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#map-pie {
+	height: 150px;
+	text-align: center;
+}
+
+#map-scatter {
+	height: 150px;
+	text-align: center;
+}
+
+.graph-caption {
+	text-align: center;
+	display: none;
+}
+
+#methodology {
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+#methodology-content>p {
+	font-size: 22px;
+}
+
+#methodology-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+@media (max-width:990px) {
+
+#methodology {
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#methodology-title {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+#methodology-content>p {
+	font-size: 16px;
+}
+	
+.cintroduction {
+	    top: 2%;
+	    left: 4%;
+	    width:93%;
+}
+
+#introduction-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 19px;
+    color: #FFFFFF;
+    padding-left:6%;
+    padding-right:6%;
+}
+#introduction-text{
+    padding-left:6%;
+    padding-right:6%;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#introduction-credit {
+    font-size: 10px;
+    margin-top:0px;
+}
+
+.help{
+    text-align:center;
+    padding-bottom:10px;
+    padding-right: 6%;
+    font-size: 14px;    
+}
+
+#map-selection {
+	    font-size: 10px;
+	    text-align: left;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding: 2px;
+}	
+#map-item {
+	height: 60%;
+}
+
+#soundcloud-container {
+	padding: 5px;
+}
+
+}
+
