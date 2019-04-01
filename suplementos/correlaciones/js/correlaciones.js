@@ -1,7 +1,9 @@
 var sound = '<iframe id="sc-frame" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597548130&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>';
+var _height = window.innerHeight-65;
 
 function setSizes(){
 	var height = window.innerHeight-65;
+	_height  = height;
 	$('#maps-container').css('height',height);
 	$('#gray-out').css('height',$('body').height()+10);
 }
@@ -25,9 +27,18 @@ $('#discover-now').click(function(e){
 	$('#gray-out').hide();
 	$('#soundcloud-container').hide();
 	$('#explore-action').hide();
+	$('#methodology-action').show();
 	$('#listen-action').show();
 	$('#methodology').show();
 	$('#content-comments').show();		
+});
+
+$('#methodology-action').click(function(e){
+	$('html,body').animate({'scrollTop':_height},'slow');	
+});
+
+$('#explore-again').click(function(e){
+	$('html,body').animate({'scrollTop':0},'slow');	
 });
 
 
@@ -563,7 +574,7 @@ $.getJSON("data/data-with-single.json",function(data){
 					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
 				}
 				if (idx=='b') {
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'% blanca, '+(Math.round((100-data['provinces'][provinces[_pro]][_mun]['blanca'])*100)/100)+'% mulata y negra<br>';
 				}
 				if (idx=='d') {
 					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
@@ -580,7 +591,7 @@ $.getJSON("data/data-with-single.json",function(data){
 				}
 				if (idx=='ib') {
 					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'% blanca, '+(Math.round((100-data['provinces'][provinces[_pro]][_mun]['blanca'])*100)/100)+'% mulata y negra<br>';
 				}
 				if (idx=='id') {
 					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
@@ -592,7 +603,7 @@ $.getJSON("data/data-with-single.json",function(data){
 				}
 				if (idx=='sb') {
 					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'% blanca, '+(Math.round((100-data['provinces'][provinces[_pro]][_mun]['blanca'])*100)/100)+'% mulata y negra<br>';
 				}
 				if (idx=='sd') {
 					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
@@ -604,14 +615,14 @@ $.getJSON("data/data-with-single.json",function(data){
 				}
 				if (idx=='rb') {
 					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'% blanca, '+(Math.round((100-data['provinces'][provinces[_pro]][_mun]['blanca'])*100)/100)+'% mulata y negra<br>';
 				}
 				if (idx=='rd') {
 					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
 					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
 				}
 				if (idx=='bd') {
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'% blanca, '+(Math.round((100-data['provinces'][provinces[_pro]][_mun]['blanca'])*100)/100)+'% mulata y negra<br>';
 					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
 				}
 				return text;
@@ -642,64 +653,64 @@ $.getJSON("data/data-with-single.json",function(data){
 		setIdx();
 	});
 	 
-	$('#map-selector').on('change',function(e){
-		var val = $('#map-selector').val();
-		geojson.closePopup();
-		if (val=='none'){ 
-			idx = null;
-			geojson.unbindPopup();
-		}
-		else {
-			idx = val;
-			geojson.bindPopup(function(layer){
-				var _pro =  layer.feature.properties.nam;
-				var _mun =  layer.feature.properties.laa.toLowerCase();
-				var text = '<span class="bd" style="color:'+cols2[_pro]+';">'+_pro+'</span> - '+layer.feature.properties.laa+'<br><br>';
-				if (idx=='is') {
-					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
-					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
-				}
-				if (idx=='ib') {
-					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
-				}
-				if (idx=='id') {
-					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
-					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
-				}
-				if (idx=='ir') {
-					text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
-					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
-				}
-				if (idx=='sb') {
-					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
-				}
-				if (idx=='sd') {
-					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
-					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
-				}
-				if (idx=='sr') {
-					text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
-					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
-				}
-				if (idx=='rb') {
-					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
-				}
-				if (idx=='rd') {
-					text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
-					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
-				}
-				if (idx=='bd') {
-					text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
-					text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
-				}
-				return text;
-			});
-		}
-		geojson.setStyle(style);
-	});
+	//$('#map-selector').on('change',function(e){
+		//var val = $('#map-selector').val();
+		//geojson.closePopup();
+		//if (val=='none'){ 
+			//idx = null;
+			//geojson.unbindPopup();
+		//}
+		//else {
+			//idx = val;
+			//geojson.bindPopup(function(layer){
+				//var _pro =  layer.feature.properties.nam;
+				//var _mun =  layer.feature.properties.laa.toLowerCase();
+				//var text = '<span class="bd" style="color:'+cols2[_pro]+';">'+_pro+'</span> - '+layer.feature.properties.laa+'<br><br>';
+				//if (idx=='is') {
+					//text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
+					//text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
+				//}
+				//if (idx=='ib') {
+					//text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
+					//text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+				//}
+				//if (idx=='id') {
+					//text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
+					//text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
+				//}
+				//if (idx=='ir') {
+					//text += '<span class="bd">Tasa de Migración Interna</span>: '+data['provinces'][provinces[_pro]][_mun]['interna']+'<br>';
+					//text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
+				//}
+				//if (idx=='sb') {
+					//text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
+					//text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+				//}
+				//if (idx=='sd') {
+					//text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
+					//text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
+				//}
+				//if (idx=='sr') {
+					//text += '<span class="bd">Salario Medio</span>: '+data['provinces'][provinces[_pro]][_mun]['salario']+' CUP<br>';
+					//text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
+				//}
+				//if (idx=='rb') {
+					//text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
+					//text += '<span class="bd">Población blanca</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+				//}
+				//if (idx=='rd') {
+					//text += '<span class="bd">Población Rural</span>: '+data['provinces'][provinces[_pro]][_mun]['rural']+'%<br>';
+					//text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
+				//}
+				//if (idx=='bd') {
+					//text += '<span class="bd">Color de la piel</span>: '+data['provinces'][provinces[_pro]][_mun]['blanca']+'%<br>';
+					//text += '<span class="bd">Relación de Dependencia de la Edad</span>: '+data['provinces'][provinces[_pro]][_mun]['dependencia']+'<br>';
+				//}
+				//return text;
+			//});
+		//}
+		//geojson.setStyle(style);
+	//});
 	
 	$('#algorithm').on('change',function(e){
 		alg = $('#algorithm').val();
@@ -724,8 +735,6 @@ $.getJSON("data/data-with-single.json",function(data){
 			var pro = provinces[ids[0]];
 			var mun = ids[1].toLowerCase();
 			var item = data['provinces'][pro][mun]['clusters'][kind][alg][idx];
-			
-			//setCentroids(centroids);
 			if (item==null){return 'gray';}
 			return colors[item];
 		}
@@ -792,9 +801,10 @@ $.getJSON("data/data-with-single.json",function(data){
 	    scrollWheelZoom: false,
 	    tap: true,
 	    touchZoom: true,
-	    zoomSnap: 0.25
+	    zoomSnap: 0.15
 	});
 	map.fitBounds(geojson.getBounds());
+	
 	
 	
 	var markers = L.featureGroup();
@@ -1101,6 +1111,7 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('.cintroduction').hide();
 		$('#gray-out').hide();
 		$('#explore-action').show();
+		$('#methodology-action').hide();
 		$('#listen-action').hide();
 		$('#methodology').hide();
 		$('#content-comments').hide();		
@@ -1111,6 +1122,7 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('.cintroduction').hide();
 		$('#gray-out').hide();
 		$('#explore-action').show();
+		$('#methodology-action').hide();
 		$('#listen-action').hide();
 		$('#methodology').hide();
 		$('#content-comments').hide();		
@@ -1121,6 +1133,7 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('.cintroduction').hide();
 		$('#gray-out').hide();
 		$('#explore-action').show();
+		$('#methodology-action').hide();
 		$('#listen-action').hide();
 		$('#soundcloud-container').show();
 		$('#methodology').hide();
@@ -1134,6 +1147,7 @@ $.getJSON("data/data-with-single.json",function(data){
 		widget.seekTo(0);
 		$('#soundcloud-container').hide();
 		$('#explore-action').hide();
+		$('#methodology-action').show();
 		$('#listen-action').show();
 		$('#methodology').show();
 		$('#content-comments').show();			

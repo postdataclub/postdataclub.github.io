@@ -116,15 +116,16 @@
     </div>
     <div id="introduction-text">
     <p><span class="bd">Postdata.club</span> propone una herramienta para visualizar las diferencias 
-    entre los municipios cubanos a partir de varios criterios. Estas diferencias no fueron establecidas y delimitadas 
+    entre los municipios cubanos a partir de varios criterios. Estas diferencias no fueron delimitadas 
     por los autores sino por algoritmos que, dado un conjunto de elementos, los dividen en grupos.  
-    De esta manera, al utilizar uno o dos criterios, aparecen en el mapa grupos definidos.
+    Así, al definir uno o dos criterios, aparecen en el mapa grupos definidos.
     Los que puede explorar según los indicadores que elegimos:
-    salario medio, color de la piel, dependencia de la edad, población rural y migración interna.
+    <span class="it main-text">salario medio</span>, <span class="it main-text">color de la piel</span>, 
+    <span class="it main-text">dependencia de la edad</span>, <span class="it main-text">población rural</span> y <span class="it main-text">migración interna</span>.
     </p>
      <p>
      También, a través del sonido e interactivamente, comentamos algunos hechos 
-     que nos resultaron interesantes cuando exploramos los datos. En todo momento, durante el audio, 
+     que nos resultaron interesantes cuando exploramos los datos de los grupos identificados automáticamente. Mientras se escucha el audio, 
      se puede interactuar con el mapa. En ese instante se pausará el audio y cuando se dé <span class="it">play</span> se reanudará la historia.
      </p>
     </div>
@@ -137,7 +138,7 @@
     </div>
     <div id="introduction-text">
     <p>
-		Para explorar usted puede seleccionar cómo clasificar los grupos. Si desea o no que se tenga en cuenta a La Habana a la hora de agrupar,
+		Para explorar usted puede seleccionar cómo clasificar los grupos, si desea o no que se tenga en cuenta a La Habana a la hora de agrupar,
 		así como los distintos indicadores utilizados por los algoritmos para separar en grupos. De estos, puede seleccionar uno o dos.
     </p>
     <p>
@@ -147,8 +148,8 @@
 		Note que siendo distintos los algoritmos estos obtienen agrupamientos diferentes, aún cuando el número de grupos coincida.
     </p>
      <p>
-		El mapa es interactivo y dando click en él se obtiene más información. Además, existen otras gráficas interactivas que arrojan información
-		sobre los grupos.
+		El mapa es interactivo y dando click en él se obtiene más información. <span class="hidden-sm hidden-xs">Además, existen otras gráficas interactivas que arrojan información
+		sobre los grupos.</span> En la metodología se comenta la naturaleza de los datos usados y las ideas seguidas para desarrollar la herramienta.
      </p>
     </div>
     <div class="help main-text" ><span id="listen-now" class="help-link cursor"> Escuchar <i class="fa fa-soundcloud"></i></span> |<span id="discover-now" class="help-link cursor "> Explora ya <i class="fa fa-search"></i> </span></div>
@@ -167,23 +168,19 @@
 			 	<span><span class="bd main-text">Criterios: </span>
 				<select id="first-criteria">
 					<option value="none">---</option>
-					<option id="fs" value="s">Salario Medio</option>
 					<option id="fb" value="b">Color de Piel</option>
 					<option id="fd" value="d">Dependencia de la Edad</option>
-					<option id="fr" value="r">Población Rural</option>
-
 					<option id="fi" value="i">Migración Interna</option>
-
+					<option id="fr" value="r">Población Rural</option>
+					<option id="fs" value="s">Salario Medio</option>
 				</select>
 				<select id="second-criteria">
 					<option value="none">---</option>
-					<option id="ss" value="s">Salario Medio</option>
 					<option id="sb" value="b">Color de Piel</option>
 					<option id="sd" value="d">Dependencia de la Edad</option>
-					<option id="sr" value="r">Población Rural</option>
-
 					<option id="si" value="i">Migración Interna</option>
-
+					<option id="sr" value="r">Población Rural</option>
+					<option id="ss" value="s">Salario Medio</option>
 				</select>
 				</span>
 			</div>
@@ -208,7 +205,11 @@
 					<div id="map-centroids"></div>
 				</div>
 			</div>
-		<div id="actions-container" class="help main-text"><span id="listen-action" class="help-link cursor" style="display:none;">Mejor escuchar <i class="fa fa-soundcloud"></i></span> <span id="explore-action" class="help-link cursor" style="display:none;">Mejor explorar <i class="fa fa-search"></i></span></div>
+		<div id="actions-container" class="help main-text">
+			<span id="listen-action" class="help-link cursor" style="display:none;">Mejor escuchar <i class="fa fa-soundcloud"></i></span> 
+			<span id="explore-action" class="help-link cursor" style="display:none;">Mejor explorar <i class="fa fa-search"></i></span>
+			<span id="methodology-action" class="help-link cursor" style="display:none;">Lee la metodología <i class="fa fa-book"></i></span>
+		</div>
 		<div id="soundcloud-container">			
 			<iframe id="sc-frame" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597548130&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
   		</div>	
@@ -221,18 +222,35 @@
 			<div id="methodology-content">
 			<p>
 			Los datos utilizados provienen todos de documentos de la Oficina Nacional de Estadísticas e Información de Cuba (ONEI). 
-			Las cifras por provincia relativas al color de la piel se obtuvieron del reporte <span class="bd">El Color de la Piel según
-			el Censo de Población y Vivienda de 2012</span>. Los datos relativos a la población rural fueron obtenidos del 
-			<span class="bd">Anuario Estadístico de Cuba 2017</span> publicado en 2018. Los números por provincia sobre salario medio, migración interna
-			y relación de dependencia por la edad se obtuvieron de los Anuarios Provinciales de 2016. En el caso de la dependencia por la edad, para 
-			Holguín y Granma fue preciso calcularlos porque no aparecían en los repespectivos anuarios de cada provincia. 
+			Las cifras por provincia relativas al <span class="it main-text">color de la piel</span> se obtuvieron del reporte <span class="bd">El Color de la Piel según
+			el Censo de Población y Vivienda de 2012</span>. Los datos relativos a la <span class="it main-text">población rural</span> fueron obtenidos del 
+			<span class="bd">Anuario Estadístico de Cuba 2017</span> publicado en 2018. Los números por provincia sobre <span class="it main-text">salario medio</span>, 
+			<span class="it main-text">migración interna</span>
+			y <span class="it main-text">relación de dependencia por la edad</span> se obtuvieron de los distintos Anuarios Provinciales de 2016. 
 			</p>
 			<p>
-			Para determinar los grupos se utilizaron dos algoritmos de agrupamiento. <span class="it">MeanShift</span> para clasificar en grupos automáticamente y <span class="it">KMeans</span>
+			La <span class="it main-text">relación de dependencia por la edad</span> indica, aproximadamente,  la carga o presión sobre los recursos laborales de un territorio
+			o dado y su tendencia está asociada al proceso de envejecimiento poblacional. Esta se calcular, para una región, dividiendo el número de habitantes 
+			de 0 a 14 años más los de 60 años o más entre los de 15 a 59. Con está fórmula se calcularon los valores de <span class="it main-text">dependencia por la edad</span> para
+			Holguín y Granma pues no aparecían en sus repespectivos anuarios provinciales. 
+			</p>
+			<p>
+			Se añadió como criterio, a la hora de determinar los grupos, si se incluía o no a los municipios de La Habana. Esto se decidió por las
+			diferencias obvias que posee la capital con respecto al resto del país. De esta manera, se pueden hacer los análisis teniendo en cuenta o no
+			 a los municipios capitalinos.
+			</p>
+			<p>
+			Para determinar los grupos de municipios, según los criterios especificados, se utilizaron dos algoritmos de clasificación no supervisada. 
+			<span class="it">MeanShift</span> para clasificar en grupos automáticamente y <span class="it">KMeans</span>
 			para segmentar en tres grupos. Los grupos, para cada combinación posible, fueron precalculados y estructurados en un fichero <span class="it">JSON</span>. Para
 			precalcularlos se utilizó <span class="it">Python</span> y las implementaciones de los algoritmos mencionados que provee <span class="bd">Scikit-Learn</span>. Asímismo, como existían
 			diferencias de escalas entre los distintos indicadores, cuando se determinaron grupos en base a dos de ellos fue necesario, para obtener
 			mejores resultados, llevarlos a una misma escala. Para ello se utilizó la implementación de <span class="it">RobustScaler</span> también presente en <span class="bd">Scikit-Learn</span>.
+			</p>
+			<p>
+			Con <span class="bd">Scikit-Learn</span>, también fueron calculados los <span class="it">centroides</span> de los grupos  obtenidos en los distintos
+			agrupamientos. Estos <span class="it">centroides</span> se pueden considerar como el valor o conjunto de valores centrales o característicos de 
+			cada grupo.
 			</p>
 			<p>
 			En la implementación de la herramienta se utilizó <span class="bd">Leaflet</span> para el trabajo con los mapas, <span class="bd">C3JS</span> para las gráficas  y <span class="bd">Tablesorter</span> para
@@ -241,6 +259,9 @@
 			<p>
 			Para la historia sonora se utilizó <span class="bd">Soundcloud</span> para la reproducción del audio y su <span class="bd">Widget API</span> para realizar las interacciones con la herramienta
 			en funcion del contenido del audio. Todo ello también fue programado en directamente en <span class="it">Javascript</span> utilizando <span class="bd">JQuery</span>.
+			</p>
+			<p class="help main-text">
+				<span id="explore-again" class="help-link cursor" >Volver a explorar <i class="fa fa-search"></i></span>
 			</p>
 			</div>
 		</div>
