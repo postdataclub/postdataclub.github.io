@@ -120,6 +120,10 @@
 	font-size: 22px;
 }
 
+#methodology-content>p>a {
+	text-decoration: none;
+}
+
 #methodology-title {
 	font-size: 24px;
 	margin-bottom: 10px;

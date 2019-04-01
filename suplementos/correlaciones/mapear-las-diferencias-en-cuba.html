@@ -221,12 +221,12 @@
 			<div id="methodology-title" class="main-text bd">Datos y Metodología</div>
 			<div id="methodology-content">
 			<p>
-			Los datos utilizados provienen todos de documentos de la Oficina Nacional de Estadísticas e Información de Cuba (ONEI). 
-			Las cifras por provincia relativas al <span class="it main-text">color de la piel</span> se obtuvieron del reporte <span class="bd">El Color de la Piel según
-			el Censo de Población y Vivienda de 2012</span>. Los datos relativos a la <span class="it main-text">población rural</span> fueron obtenidos del 
-			<span class="bd">Anuario Estadístico de Cuba 2017</span> publicado en 2018. Los números por provincia sobre <span class="it main-text">salario medio</span>, 
+			Los datos utilizados provienen todos de documentos de la <a href="http://www.one.cu/">Oficina Nacional de Estadísticas e Información de Cuba (ONEI)</a>. 
+			Las cifras por provincia relativas al <span class="it main-text">color de la piel</span> se obtuvieron del reporte <a href="http://www.one.cu/publicaciones/cepde/cpv2012/elcolordelapielcenso2012/PUBLICACI%C3%93N%20%20COMPLETA%20color%20de%20la%20piel%20.pdf"><span class="bd">El Color de la Piel según
+			el Censo de Población y Vivienda de 2012</span></a>. Los datos relativos a la <span class="it main-text">población rural</span> fueron obtenidos del 
+			<a href="http://www.one.cu/aec2017.htm"><span class="bd">Anuario Estadístico de Cuba 2017</span></a> publicado en 2018. Los números por provincia sobre <span class="it main-text">salario medio</span>, 
 			<span class="it main-text">migración interna</span>
-			y <span class="it main-text">relación de dependencia por la edad</span> se obtuvieron de los distintos Anuarios Provinciales de 2016. 
+			y <span class="it main-text">relación de dependencia por la edad</span> se obtuvieron de los distintos <a href="http://www.one.cu/aed2016.htm">Anuarios Provinciales de 2016</a>. 
 			</p>
 			<p>
 			La <span class="it main-text">relación de dependencia por la edad</span> indica, aproximadamente,  la carga o presión sobre los recursos laborales de un territorio
@@ -241,24 +241,26 @@
 			</p>
 			<p>
 			Para determinar los grupos de municipios, según los criterios especificados, se utilizaron dos algoritmos de clasificación no supervisada. 
-			<span class="it">MeanShift</span> para clasificar en grupos automáticamente y <span class="it">KMeans</span>
+			<a href="https://en.wikipedia.org/wiki/Mean_shift"><span class="it">MeanShift</span></a> para clasificar en grupos automáticamente y 
+			<a href="https://es.wikipedia.org/wiki/K-medias"><span class="it">KMeans</span></a>
 			para segmentar en tres grupos. Los grupos, para cada combinación posible, fueron precalculados y estructurados en un fichero <span class="it">JSON</span>. Para
-			precalcularlos se utilizó <span class="it">Python</span> y las implementaciones de los algoritmos mencionados que provee <span class="bd">Scikit-Learn</span>. Asímismo, como existían
+			precalcularlos se utilizó <span class="it">Python</span> y las implementaciones de los algoritmos mencionados que provee <a href="https://scikit-learn.org/stable/"><span class="bd">Scikit-Learn</span></a>. Asímismo, como existían
 			diferencias de escalas entre los distintos indicadores, cuando se determinaron grupos en base a dos de ellos fue necesario, para obtener
-			mejores resultados, llevarlos a una misma escala. Para ello se utilizó la implementación de <span class="it">RobustScaler</span> también presente en <span class="bd">Scikit-Learn</span>.
+			mejores resultados, llevarlos a una misma escala. Para ello se utilizó la implementación de <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html"><span class="it">RobustScaler</span></a> también presente en <a href="https://scikit-learn.org/stable/"><span class="bd">Scikit-Learn</span></a>.
 			</p>
 			<p>
-			Con <span class="bd">Scikit-Learn</span>, también fueron calculados los <span class="it">centroides</span> de los grupos  obtenidos en los distintos
-			agrupamientos. Estos <span class="it">centroides</span> se pueden considerar como el valor o conjunto de valores centrales o característicos de 
+			Con <a href="https://scikit-learn.org/stable/"><span class="bd">Scikit-Learn</span></a>, también fueron calculados los <span class="it">centroides</span> de los grupos  obtenidos en los distintos
+			agrupamientos. Estos <a href="https://es.wikipedia.org/wiki/Centroide"><span class="it">centroides</span></a> se pueden considerar como el valor o conjunto de valores centrales o característicos de 
 			cada grupo.
 			</p>
 			<p>
-			En la implementación de la herramienta se utilizó <span class="bd">Leaflet</span> para el trabajo con los mapas, <span class="bd">C3JS</span> para las gráficas  y <span class="bd">Tablesorter</span> para
+			En la implementación de la herramienta se utilizó <a href="leafletjs.com"><span class="bd">Leaflet</span></a> para el trabajo con los mapas, 
+			<a href="https://c3js.org/"><span class="bd">C3JS</span></a> para las gráficas  y <a href="https://mottie.github.io/tablesorter/docs/"><span class="bd">Tablesorter</span></a> para
 			las tablas interactivas. Esto fue programado en directamente en <span class="it">Javascript</span> utilizando <span class="bd">JQuery</span>. 
 			</p>
 			<p>
-			Para la historia sonora se utilizó <span class="bd">Soundcloud</span> para la reproducción del audio y su <span class="bd">Widget API</span> para realizar las interacciones con la herramienta
-			en funcion del contenido del audio. Todo ello también fue programado en directamente en <span class="it">Javascript</span> utilizando <span class="bd">JQuery</span>.
+			Para la historia sonora se utilizó <a href="https://soundcloud.com/"><span class="bd">Soundcloud</span></a> para la reproducción del audio y su <a href="https://developers.soundcloud.com/docs/api/html5-widget"><span class="bd">Widget API</span></a> para realizar las interacciones con la herramienta
+			en funcion del contenido del audio. Todo ello también fue programado en directamente en <span class="it">Javascript</span> utilizando <a href="https://jquery.com/"><span class="bd">JQuery</span></a>.
 			</p>
 			<p class="help main-text">
 				<span id="explore-again" class="help-link cursor" >Volver a explorar <i class="fa fa-search"></i></span>
