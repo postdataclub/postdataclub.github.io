@@ -714,7 +714,6 @@ $.getJSON("data/data-with-single.json",function(data){
 	
 	$('#algorithm').on('change',function(e){
 		alg = $('#algorithm').val();
-		console.log(alg);
 		setIdx();
 	});
 	
@@ -1155,7 +1154,7 @@ $.getJSON("data/data-with-single.json",function(data){
 
     widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
       var time = e.currentPosition;
-      console.log(time);
+      //console.log(time);
       if ((time>=22000)&&(time<23000)){
 		  if (!transitions[5]){
 			transition5();	
