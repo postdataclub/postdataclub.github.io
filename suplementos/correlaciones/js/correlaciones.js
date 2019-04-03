@@ -1279,6 +1279,7 @@ $.getJSON("data/data-with-single.json",function(data){
 	  } else if (time>=204000){
 		  $('#gray-out').show();
 		  $('#exploring').show();
+		  $('#play-buttons').hide();
 	  }
 	  else {
 		if (!transitions[0]){
