@@ -1,3 +1,26 @@
+#play-buttons {
+	z-index:20000;
+    position: fixed;	
+    top: 20%;
+    left: 90%;
+    font-size: 30px;
+}
+
+.player-button {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #461A57;
+  padding: 0.5em 0.6em;
+  border-color: #461A57;
+  background-color:	#461A57;
+  color: #FFFFFF;
+}
+
+.player-button:hover,
+.player-button:focus {
+	color: #CCCCCC;
+}
+
 #gray-out {
     position: absolute;
     z-index:5000;
@@ -138,12 +161,12 @@
 }
 
 #methodology-title {
-	font-size: 20px;
+	font-size: 18px;
 	margin-bottom: 8px;
 }
 
 #methodology-content>p {
-	font-size: 16px;
+	font-size: 14px;
 }
 	
 .cintroduction {
@@ -187,12 +210,23 @@
 	padding: 2px;
 }	
 #map-item {
-	height: 60%;
+	height: 41%;
+}
+
+#map-graphs {
+	height: auto;
+	font-size: 12px;
+	min-height: 0%;
 }
 
 #soundcloud-container {
 	padding: 5px;
 }
 
+#play-buttons  {
+	font-size: 18px;
+	left: 88%;
+	top: 18%;
+}
 }
 

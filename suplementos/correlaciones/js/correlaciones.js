@@ -30,7 +30,8 @@ $('#discover-now').click(function(e){
 	$('#methodology-action').show();
 	$('#listen-action').show();
 	$('#methodology').show();
-	$('#content-comments').show();		
+	$('#content-comments').show();
+	$('#play-buttons').hide();		
 });
 
 $('#methodology-action').click(function(e){
@@ -1113,7 +1114,10 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('#methodology-action').hide();
 		$('#listen-action').hide();
 		$('#methodology').hide();
-		$('#content-comments').hide();		
+		$('#content-comments').hide();
+		$('#play-buttons').show();
+		$('#pause').show();
+		$('#play').hide();				
 		widget.play();	
 	});
 	
@@ -1124,7 +1128,10 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('#methodology-action').hide();
 		$('#listen-action').hide();
 		$('#methodology').hide();
-		$('#content-comments').hide();		
+		$('#content-comments').hide();
+		$('#play-buttons').show();
+		$('#pause').show();
+		$('#play').hide();		
 		widget.play();	
 	});
 	
@@ -1136,9 +1143,34 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('#listen-action').hide();
 		$('#soundcloud-container').show();
 		$('#methodology').hide();
-		$('#content-comments').hide();		
+		$('#content-comments').hide();
+		$('#play-buttons').show();
+		$('#pause').show();
+		$('#play').hide();				
 		widget.seekTo(0);
 		widget.play();	
+	});
+	
+	$('#play').click(function(e){
+		$('#play').hide();
+		$('#pause').show();
+		widget.play();	
+	});
+	
+	widget.bind(SC.Widget.Events.PLAY, function(e) {
+		$('#play').hide();
+		$('#pause').show();
+	});
+	
+	$('#pause').click(function(e){
+		$('#pause').hide();
+		$('#play').show();
+		widget.pause();	
+	});
+	
+	widget.bind(SC.Widget.Events.PAUSE, function(e) {
+		$('#pause').hide();
+		$('#play').show();
 	});
 	
 	$('#explore-action').click(function(e){
@@ -1149,7 +1181,8 @@ $.getJSON("data/data-with-single.json",function(data){
 		$('#methodology-action').show();
 		$('#listen-action').show();
 		$('#methodology').show();
-		$('#content-comments').show();			
+		$('#content-comments').show();
+		$('#play-buttons').hide();			
 	});
 
     widget.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {

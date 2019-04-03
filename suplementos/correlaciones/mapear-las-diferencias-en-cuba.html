@@ -105,7 +105,7 @@
     </nav>
     
     <div class="menu-movil-separator"></div>
-		
+	<div id="play-buttons" class="main-text" style="display:none;"><span id="play" class="cursor"><i class="player-button fa fa-play"></i></span> <span id="pause" class="cursor"><i class="player-button fa fa-pause"></i></span></div>	
 		<div id="introduction" class="cintroduction" >
     <div id="introduction-title" class="main-color">
     <div class="bd">Mapear las diferencias en Cuba</div>
@@ -185,21 +185,21 @@
 				</span>
 			</div>
 			<div id="map-item"></div>
-			<div id="map-graphs" class="row hidden-xs hidden-sm">
-				<div  class="col-lg-4 col-md-4 " >
+			<div id="map-graphs" class="row">
+				<div  class="col-lg-4 col-md-4  hidden-xs hidden-sm" >
 					<div class="graph-caption main-text bd">
 						Distribución espacial por municipios
 					</div>
 					<div id="map-scatter"></div>
 				</div>
-				<div  class="col-lg-4 col-md-4">
+				<div  class="col-lg-4 col-md-4  hidden-xs hidden-sm">
 					<div class="graph-caption main-text bd">
 						Distribución por grupos
 					</div>
 					<div id="map-pie"></div>
 				</div>
-				<div  class="col-lg-4 col-md-4" >
-					<div class="graph-caption main-text bd">
+				<div id="centroids-block" class="col-lg-4 col-md-4" >
+					<div  class="graph-caption main-text bd">
 						Centroides de los grupos
 					</div>
 					<div id="map-centroids"></div>
