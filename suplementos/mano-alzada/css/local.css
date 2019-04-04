@@ -17,6 +17,11 @@
    text-align: left; 
 }
 
+#tauthors>a {
+	text-decoration: none;
+	color: rgba(155,20,42,1);
+}
+
 .mini-title {
     color: #ffffff;
     font-weight: bold;
