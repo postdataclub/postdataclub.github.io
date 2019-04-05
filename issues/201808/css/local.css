@@ -1,3 +1,11 @@
+.block-mov {
+	margin-bottom: 0px;
+}
+
+#proposals-graph2, #interactions-graph2 {
+	height: 220px;
+}
+
 #period-graph,#voto-graph{
     min-height: 300px;
 }
@@ -102,6 +110,10 @@
     margin-bottom: 20px;
 }
 
+#debate-btn-container2 {
+    text-align: center;
+}
+
 #debate-btn {
     font-size: 24px;
     color: #FFFFFF;
@@ -110,9 +122,23 @@
     font-weight: bold;
 }
 
+#debate-btn2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: rgba(70,26,87,0.9);
+    font-weight: bold;
+    width: 70%;
+}
+
 #debate-btn:focus, #debate-btn:hover {
     background-color: rgb(70,26,87);
 }
+
+#debate-btn2:focus, #debate-btn2:hover {
+    background-color: rgb(70,26,87);
+}
+
 
 @media(max-width:900px){
 
@@ -121,6 +147,11 @@
     padding: 10px;
     margin-top: 10px;
 }
+
+#debate-btn2 {
+    font-size: 17px;
+}
+
 #legend {
     margin-top: 220px;
     -moz-transform: translateX(-53%);
@@ -277,6 +308,11 @@
 }
 
 @media(min-width:900px){
+
+.block-mov {
+	margin-bottom: -80px;
+}
+
 #legend {
     margin-top: 195px;
     -moz-transform: translateX(53%);
@@ -398,4 +434,8 @@
 
 .graph-high{
     height: 600px;
+}
+
+#election-stats {
+	width: 100%;
 }
