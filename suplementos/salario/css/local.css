@@ -1,0 +1,151 @@
+#select-men-women, #select-all {
+	text-align:center;
+	margin-bottom:20px;
+} 
+
+.check {
+    background-color: #461A57;     
+    color: #FFFFFF;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+
+.bar-name-graph {
+	height: 150px;
+}
+
+.bar-name {
+	text-align: center;
+	font-size: 9px;
+	padding-bottom: 2px;
+	margin-top: -8px;
+}
+
+.bar-graph {
+	height: 180px;
+}
+
+#metrics-container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.uncheck {
+	opacity: 0.2;
+}
+
+.id-block {
+	text-align: center;
+	font-size: 11px;
+	padding: 5px;
+}
+
+.id-block > img {
+	width: 40px;
+	padding: 4px;
+}
+
+.id-block>img:hover, .id-block>img:focus {
+	border:2px solid;
+	border-color: #461A57;
+	border-radius: 50%;
+}
+
+.iconsmall {
+	width: 16px;
+}
+#women-salary {
+	text-align: left;
+}
+
+#men-salary {
+	text-align: right;
+}
+
+#women-salary>i, #men-salary>i {
+	font-size:70px;
+}
+
+#women-salary>i {
+	color: rgb(177,7,47);
+}
+
+#men-salary>i {
+	color: rgb(8,47,154);
+}
+.bsalary {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.cup {
+	font-size: 12px;
+}
+
+#td-woman {
+	background-color: rgb(177,7,47);
+	width: 50%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 10px;
+	opacity:0.9;
+}
+#td-men {
+	background-color: rgb(8,47,154);
+	width: 50%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 10px;
+	opacity:0.9;
+}
+
+#td-woman:hover, #td-woman:focus,
+#td-men:hover, #td-men:focus {
+	opacity: 1;
+}
+
+#total-salary-text {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#table-salary {
+	width: 100%;
+}
+
+#total-salary {
+	margin-bottom: 10px;
+}
+
+#all-marks {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+#markall, #unmarkall {
+	color: #FFFFFF;
+	padding: 7px;
+}
+
+#markall:hover, #markall:focus, #unmarkall:hover, #unmarkall:focus {
+	opacity: 0.8;
+}
+
+@media (max-width:900px){ 
+	.bsalary {
+		font-size: 20px;
+	}
+	#women-salary>i, #men-salary>i {
+		font-size:70px;
+	}
+	.cup {
+		font-size: 8px;
+	}
+}
