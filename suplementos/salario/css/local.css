@@ -85,6 +85,10 @@
 	font-size: 12px;
 }
 
+
+.female-text {
+	color: rgb(177,7,47);
+}
 #td-woman {
 	background-color: rgb(177,7,47);
 	width: 50%;
@@ -93,6 +97,10 @@
 	text-align: left;
 	padding-left: 10px;
 	opacity:0.9;
+}
+
+.male-text {
+	color: rgb(8,47,154);
 }
 #td-men {
 	background-color: rgb(8,47,154);
@@ -148,4 +156,10 @@
 	.cup {
 		font-size: 8px;
 	}
+}
+
+.legend {
+	margin-top: -10px;
+	font-size: 12px;
+	font: sans-serif;
 }

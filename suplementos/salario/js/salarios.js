@@ -292,14 +292,14 @@ $.getJSON("data/salario.json",function(data){
 			x: 'Salario',
           columns: [
 			['Salario',salary],
-            ['Mujeres', muj],
-            ['Hombre', hom]
+            ['Mujeres ocupadas', muj],
+            ['Hombre ocupados', hom]
 
           ],
           type: 'bar',
           colors: {
-			'Mujeres': cols['m-ocup'],
-			'Hombres': cols['h-ocup'],
+			'Mujeres ocupadas': cols['m-ocup'],
+			'Hombres ocupados': cols['h-ocup'],
 		  },
         },
         legend: {
@@ -443,6 +443,15 @@ $.getJSON("data/salario.json",function(data){
 		"ciencia":true
 	};
 	
+	function checkAllFalse(){
+		for(var i in ids){
+			if (ids[i]){
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	function setDBSalary (){
 		var muj = 0;
 		var mujS = 0;
@@ -489,6 +498,14 @@ $.getJSON("data/salario.json",function(data){
 				$('#'+id).removeClass('uncheck');
 			}
 			setDBSalary();
+			if (checkAllFalse()){
+				$('#td-woman').css('width','0%');
+				$('#td-woman').html('');
+				$('#td-woman').attr('title','precise los datos');
+				$('#td-men').css('width','0%');
+				$('#td-men').html('');
+				$('#td-men').attr('title','precise los datos');
+			}
 		});
 	}
 	
