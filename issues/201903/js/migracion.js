@@ -188,7 +188,7 @@ function moveDown(){
 }
 
 function moveTop(){
-    $('html,body').animate({'scrollTop':0},'fast');
+    $('html,body').animate({'scrollTop':0},'slow');
 }
 
 function setProvinceContent(prov){
