@@ -1,0 +1,37 @@
+.curve-img > img {
+	width: 100%;
+}
+
+.pre-info {
+	padding: 0px;
+}
+
+.medal-can {
+	text-align: center;
+}
+
+#curvas-graph{
+	margin-top: 20px;
+}
+
+.game-selector {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.tops, #selectors {
+	text-align: center;
+}
+
+.cuba {
+	background-color: #C7E4FF;
+}
+
+.history {
+    background-color: #FFE5CE;
+    font-weight: bold;
+}
+
+
+
