@@ -475,7 +475,7 @@
 	a cualquiera de los países seleccionados.
 	</p>
 	<p>
-	Para realizar la predicción utilizamos un método basado en Regresión Múltiple. Se valoraron distintos métodos de regresión y se identificaron
+	Para realizar la predicción utilizamos un método basado en <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal#Regresi%C3%B3n_lineal_m%C3%BAltiple">Regresión Múltiple</a>. Se valoraron distintos métodos de regresión y se identificaron
 	aquellos dos que menor error de predicción tuvieran en base a los resultados de los Panamericanos anteriores. Estos dos métodos tenían como 
 	característica que, generalmente, en los datos, uno predecía valores por encima y el otro por debajo. Para establecer una compensación se tomó
 	como predicción final el valor medio de la predicción de ambos métodos por separado.
@@ -699,15 +699,15 @@
 	<p>
 		En el caso de Cuba, ambas predicciones coinciden en el quinto lugar en el medallero, una disminución de un lugar respecto a los Juegos 
 		previos. Del mismo modo, es coindicidente que se disminuye el número en todas las medallas. Ello es el un reflejo del patrón
-		descente en los resultados de Cuba tanto en Juegos Panamericanos como en citas Olímpicos.
+		descente en los resultados de Cuba tanto en Juegos Panamericanos como en citas Olímpicas.
 	</p>
 	<p>
-		Incluso, las ausencias tan notables y desafortundas como las de Manrique Larduet o la de Marlies Mejías, ganadores de varias medallas en la edición previa
-		parecen coincidir con este pronóstico. Aún así nos queda la esperanza de que nuestros algoritmos se equivoquen totalmente y que Cuba gane muchas más medallas.
+		Incluso, las ausencias tan notables y desafortundas como las de Manrique Larduet o la de Marlies Mejías, ganadores de varias medallas en la edición previa,
+		parecen coincidir con este pronóstico. Aún así, nos queda la esperanza de que nuestros algoritmos se equivoquen totalmente y que Cuba gane muchas más medallas.
 	</p>
 	<p>
-		Lo que si no deseamos es que, no importa el lugar o el número de medallas que alcance nuestro país, no se piense el modo en que funciona y se gestiona 
-		el movimiento deportivo cubano y su proyección en el deporte de alto rendimiento. Si esto no se hace ya se corre el riesgo de perder ya a corto plazo 
+		Lo que si no deseamos es que, sin importar el lugar o el número de medallas que alcance nuestro país, no se piense el modo en que funciona y se gestiona 
+		el movimiento deportivo cubano y su proyección en el deporte de alto rendimiento. Si esto no se hace ya se corre el riesgo de perder a corto plazo 
 		el lugar de privilegio que ocupa Cuba en el escenario deportivo mundial.
 	</p>
 </div>
@@ -716,7 +716,7 @@
 
 <div class="media-block">
              <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
-             <span >Cómo lo hicimos y otra predicción más <i class="fa fa-plus-square-o"></i></span>
+             <span >Cómo lo hicimos y otra predicción <i class="fa fa-plus-square-o"></i></span>
              </div>
              <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
              <span >Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
@@ -726,21 +726,23 @@
     <p>
     Para realizar las predicciones primero se obtuvieron los datos de los resultados (cantidad de medallas de oro, plata y bronce, así como si el país fue 
     sede o no) en Juegos Panamericanos, Olímpicos y Centroamericanos (aunque estos últimos no se utilizaron). Los países fueron representados por sus respectivos
-    dominios. Del mismo modo cada edición de los distintos juegos se representó por el número de la edición efectiva de cada cita. 
+    dominios. Del mismo modo, cada edición de los distintos juegos se representó por el número de la edición efectiva de cada cita. 
     Cuando un país no estuvo presente en alguna cita se puso el valor nulo. Los datos se representaron  en un archivo <a href="data/data.json">JSON</a>.
     </p>
     <p>
     Muchos de los países se ausentaron a alguna cita multideportiva y para poder realizar una predicción estos valores necesitaron ser representados. Como
     estrategia entonces se utilizó tomar el menor valor en el intervalo donde ocurrió la ausencia. Además, fue necesario definir las equivalencias entre
-    los distintos juegos, o sea identificar para una cita panamericana cual eran los Juegos Olímpicos así como los Centroamericanos del Caribe más cercanos.
+    los distintos juegos, o sea: identificar para una cita panamericana cual eran los Juegos Olímpicos así como los Centroamericanos del Caribe más cercanos.
     Estos datos igualmente se representaron en un archivo <a href="data/data-fill.json">JSON</a>.
     </p>
     <p>
-    Para realizar la inferencia se analizaron la mayoría de los métodos de Regresión Múltiple presentes en la biblioteca de clases implementada en python scikit-learn.
+    Para realizar la inferencia se analizaron la mayoría de los métodos de <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal#Regresi%C3%B3n_lineal_m%C3%BAltiple">Regresión Múltiple</a> 
+    presentes en la biblioteca de clases implementada en python <a href="https://scikit-learn.org">scikit-learn</a>.
     La predicción se realizó utilizando en el vector de entrenamiento las medallas de Oro, Plata y Bronce de las tres citas previas (Panamericanas para un modelo
     y Panamericanas y Olímpicas para el otro), y como vector de predicción el número de medallas de un tipo de medalla particular para la cita que se predice.
     En todos los casos se analizó el error medio y absoluto y se observaron las curvas de predicción respecto a la variable de predicción. De todos los métodos
-    los que mejores resultados alcanzaron fueron ElasticNet y el método ensemble GradientBoostingRegressor.
+    los que mejores resultados alcanzaron fueron <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html">ElasticNet</a>
+     y el método ensemble <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html">GradientBoostingRegressor</a>.
     </p>
     <p>
     Estos dos métodos tenían como  característica que, generalmente, en los datos, uno predecía valores por encima y el otro por debajo. 
@@ -755,12 +757,13 @@
     </p>
     <p>
     Los estudiantes de primer año del Grupo de Investigación en Inteligencia Artificial de la Facultad de Matemática y Computación de la Universidad
-    de La Habana también se atrevieron a realizar un pronóstico y lo compartieron. En este caso, los estudiantes se basaron también en los resultados 
+    de La Habana también se atrevieron a realizar un pronóstico y lo compartieron. En este caso, los estudiantes se basaron igualmente en los resultados 
     de los Juegos Panamericanos previos. Así, para predecir el valor de la cantidad de un tipo de de medalla para una cita, utilizaban el valor de la misma
     en la cita previa.
     </p>
     <p>
-    Como método de regresión utilizaron LinearRegression en su implementación de scikit-learn. Asimismo valoraron dos variantes de este método, una utilizando
+    Como método de regresión utilizaron <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">LinearRegression</a> 
+    en su implementación de scikit-learn. Asimismo valoraron dos variantes de este método, una utilizando
     un polinomio de grado 2 y otra con un polinomio de grado 4.
     </p>
     <div id="curvas-prediccion" class="media-block main-border border">
@@ -858,21 +861,21 @@
     </div>
 </div>
 	<p>
-	En el pronóstico resalta el bajo número de medallas que se predice para Estados Unidos y estos es que al ser uno modelo
-	de regresión simple donde solo tiene información de una variable no puede tratar de inferir información temporal y por tanto, 
+	En el pronóstico resalta el bajo número de medallas que se predice para Estados Unidos y estos es debido a que, al ser un modelo
+	de regresión simple donde solo tiene información de una variable, no consigue inferir información temporal y, por tanto, 
 	para valores en intervalos no conocidos suele generar valore menores.
 	</p>
 	<p>
-	Del mismo modo, para Cuba, predice un menor número de medallas de Oro y valores similare de Plata y Bronce respecto a Toronto 2015.
+	Del mismo modo, para Cuba, predice un menor número de medallas de Oro y valores similares de Plata y Bronce respecto a Toronto 2015.
 	Aquí predice un quinto lugar en el medallero donde Colombia superaría a Cuba.
 	</p>	
 	<p>
-	Por otra parte, coincide tambien con los mismo 10 países del medallero con respecto a los otros pronósticos. La otra diferencia acá
-	es que Ecuador superaría a Venezuela en cuanto a medallas de Oro. También destaca el elevado número de medallas de Oro que
+	Por otra parte, coincide tambiín con los mismos 10 países del medallero con respecto a los otros pronósticos. La otra diferencia acá
+	es que Ecuador superaría a Venezuela en cuanto a medallas de Oro. De manera similar, destaca el elevado número de medallas de Oro que
 	otorga tanto a Canadá como a Brasil.
 	</p>
 	<p>
-	Cómo se comportó cada modelo de predicción con respecto a la realidad solo lo podremos saber el 11 de agosto cuando concluyan en Lima
+	Cómo se comportó cada modelo de predicción con respecto a la realidad solo lo sabremos el 11 de agosto cuando concluyan en Lima
 	los XVIII Juegos Panamericanos.
 	</p>
     </div>
