@@ -1,0 +1,2040 @@
+    {
+    "atletas": {
+        "lmd": {
+            "nombre": "Luis Mariano Delís",
+            "nombre-corto": "Luis Mariano Delís",
+            "sexo": "masculino",
+            "nacimiento": 1957
+        },
+        "jmb": {
+            "nombre": "Juan Martínez Brito",
+            "nombre-corto": "Juan Martínez Brito",
+            "sexo": "masculino",
+            "nacimiento": 1958
+        },
+        "mes": {
+            "nombre": "María Elena Sarría Díaz",
+            "nombre-corto": "María Elena Sarría",
+            "sexo": "femenino",
+            "nacimiento": 1954
+        },
+        "mcc": {
+            "nombre": "María Caridad Colón",
+            "nombre-corto": "María Caridad Colón",
+            "sexo": "femenino",
+            "nacimiento": 1958
+        },
+        "lpg": {
+            "nombre": "Leandro Santiago Peñalver González",
+            "nombre-corto": "Leandro Peñalver",
+            "sexo": "masculino",
+            "nacimiento": 1961
+        },
+        "lma": {
+            "nombre": "Lázaro Martínez Despaigne",
+            "nombre-corto": "Lázaro Martínez",
+            "sexo": "masculino",
+            "nacimiento": 1962
+        },
+        "apa": {
+            "nombre": "Agustín Pavó",
+            "nombre-corto": "Agustín Pavó",
+            "sexo": "masculino",
+            "nacimiento": 1962
+        },
+        "hho": {
+            "nombre": "Héctor Herrera Ortíz",
+            "nombre-corto": "Héctor Herrera",
+            "sexo": "masculino",
+            "nacimiento": 1959
+        },
+        "jva": {
+            "nombre": "Jorge Valentín",
+            "nombre-corto": "Jorge Valentín",
+            "sexo": "masculino",
+            "nacimiento": 1964
+        },
+        "rhp": {
+            "nombre": "Roberto Hernández Prendes",
+            "nombre-corto": "Roberto Hernández",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "afq": {
+            "nombre": "Ana Fidelia Quirot Moret",
+            "nombre-corto": "Ana Fidelia Quirot",
+            "sexo": "femenino",
+            "nacimiento": 1963
+        },
+        "sca": {
+            "nombre": "Silvia Costa Acosta",
+            "nombre-corto": "Silvia Costa",
+            "sexo": "femenino",
+            "nacimiento": 1964
+        },
+        "jjg": {
+            "nombre": "Jaime Jefferson Guilarte",
+            "nombre-corto": "Jaime Jefferson",
+            "sexo": "masculino",
+            "nacimiento": 1964
+        },
+        "ile": {
+            "nombre": "Ivonne Leal",
+            "nombre-corto": "Ivonne Leal",
+            "sexo": "femenino",
+            "nacimiento": 1966
+        },
+        "jss": {
+            "nombre": "Javier Sotomator Sanabria",
+            "nombre-corto": "Javier Sotomator",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "mdr": {
+            "nombre": "Marino Rafael Drake Rodríguez",
+            "nombre-corto": "Marino Drake",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "yqf": {
+            "nombre": "Yoelbi Quesada Fernández",
+            "nombre-corto": "Yoelbi Quesada",
+            "sexo": "masculino",
+            "nacimiento": 1973
+        },
+        "alp": {
+            "nombre": "Aliuska Yanira López Pedroso",
+            "nombre-corto": "Aliuska López",
+            "sexo": "femenino",
+            "nacimiento": 1969
+        },
+        "dmg": {
+            "nombre": "Dulce Margarita García Gil",
+            "nombre-corto": "Dulce M. García",
+            "sexo": "femenino",
+            "nacimiento": 1969
+        },
+        "rms": {
+            "nombre": "Roberto Saturnino Moya Sandoval",
+            "nombre-corto": "Roberto Moya",
+            "sexo": "masculino",
+            "nacimiento": 1965
+        },
+        "iqu": {
+            "nombre": "Ioamnet Quintero",
+            "nombre-corto": "Ioamnet Quintero",
+            "sexo": "femenino",
+            "nacimiento": 1972
+        },
+        "ema": {
+            "nombre": "Emilio Valle Álvarez",
+            "nombre-corto": "Emilio Valle",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "nma": {
+            "nombre": "Niurka Montalvo Amaro",
+            "nombre-corto": "Niurka Montalvo",
+            "sexo": "femenino",
+            "nacimiento": 1968
+        },
+        "mmg": {
+            "nombre": "Maritza Martén García",
+            "nombre-corto": "Maritza Martén",
+            "sexo": "femenino",
+            "nacimiento": 1963
+        },
+        "bha": {
+            "nombre": "Bárbara Hechavarría Aponte",
+            "nombre-corto": "Bárbara Hechavarría",
+            "sexo": "femenino",
+            "nacimiento": 1966
+        },
+        "lad": {
+            "nombre": "Liliana Allen Doll",
+            "nombre-corto": "Liliana Allen",
+            "sexo": "femenino",
+            "nacimiento": 1970
+        },
+        "blm": {
+            "nombre": "Belsy Laza Muñoz",
+            "nombre-corto": "Belsy Laza",
+            "sexo": "femenino",
+            "nacimiento": 1967
+        },
+        "ips": {
+            "nombre": "Iván Pedroso Soler",
+            "nombre-corto": "Iván Pedroso",
+            "sexo": "masculino",
+            "nacimiento": 1972
+        },
+        "ygl": {
+            "nombre": "Yoel García Luis",
+            "nombre-corto": "Yoel García",
+            "sexo": "masculino",
+            "nacimiento": 1973
+        },
+        "ebh": {
+            "nombre": "Erick Batte Herrera",
+            "nombre-corto": "Erick Batte",
+            "sexo": "masculino",
+            "nacimiento": 1974
+        },
+        "ale": {
+            "nombre": "Alexis Elizalde",
+            "nombre-corto": "Alexis Elizalde",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "ilr": {
+            "nombre": "Isel López Rodríguez",
+            "nombre-corto": "Isel López",
+            "sexo": "femenino",
+            "nacimiento": 1970
+        },
+        "iga": {
+            "nombre": "Iván García",
+            "nombre-corto": "Iván García",
+            "sexo": "masculino",
+            "nacimiento": 1969
+        },
+        "nts": {
+            "nombre": "Norberto Téllez Santana",
+            "nombre-corto": "Norberto Téllez",
+            "sexo": "masculino",
+            "nacimiento": 1972
+        },
+        "alu": {
+            "nombre": "Aliecer Urrutia",
+            "nombre-corto": "Aliecer Urrutia",
+            "sexo": "masculino",
+            "nacimiento": 1974
+        },
+        "sbi": {
+            "nombre": "Sonia Bisset Poll",
+            "nombre-corto": "Sonia Bisset",
+            "sexo": "femenino",
+            "nacimiento": 1971
+        },
+        "egs": {
+            "nombre": "Emeterio González Silva",
+            "nombre-corto": "Emeterio González",
+            "sexo": "masculino",
+            "nacimiento": 1973
+        },
+        "oms": {
+            "nombre": "Olisdeilys Menéndez Sáez",
+            "nombre-corto": "Olisdeilys Menéndez",
+            "sexo": "femenino",
+            "nacimiento": 1979
+        },
+        "dpf": {
+            "nombre": "Daimí Pernía Figueroa",
+            "nombre-corto": "Daimí Pernía",
+            "sexo": "femenino",
+            "nacimiento": 1976
+        },
+        "ago": {
+            "nombre": "Anier García Ortíz",
+            "nombre-corto": "Anier García",
+            "sexo": "masculino",
+            "nacimiento": 1976
+        },
+        "yal": {
+            "nombre": "Yamilé Aldama",
+            "nombre-corto": "Yamilé Aldama",
+            "sexo": "femenino",
+            "nacimiento": 1972
+        },
+        "yhr": {
+            "nombre": "Yoel Hernández Reyes",
+            "nombre-corto": "Yoel Hernández",
+            "sexo": "masculino",
+            "nacimiento": 1977
+        },
+        "ycu": {
+            "nombre": "Yumisleidis Cumbá",
+            "nombre-corto": "Yumisleidis Cumbá",
+            "sexo": "femenino",
+            "nacimiento": 1975
+        },
+        "ymo": {
+            "nombre": "Yipsi Moreno",
+            "nombre-corto": "Yipsi Moreno",
+            "sexo": "femenino",
+            "nacimiento": 1980
+        },
+        "xri": {
+            "nombre": "Xiomara Rivero Azcuy",
+            "nombre-corto": "Xiomara Rivero",
+            "sexo": "femenino",
+            "nacimiento": 1968
+        },
+        "ybe": {
+            "nombre": "Yoandris Betanzos Francis",
+            "nombre-corto": "Yoandris Betanzos",
+            "sexo": "masculino",
+            "nacimiento": 1982
+        },
+        "adg": {
+            "nombre": "Arnie David Giralt Rivero",
+            "nombre-corto": "Arnie David Giralt",
+            "sexo": "masculino",
+            "nacimiento": 1984
+        },
+        "mga": {
+            "nombre": "Mabel Gay Tamayo",
+            "nombre-corto": "Mabel Gay",
+            "sexo": "femenino",
+            "nacimiento": 1983
+        },
+        "zca": {
+            "nombre": "Zulia Inés Calatayud Torres",
+            "nombre-corto": "Zulia Calatayud",
+            "sexo": "femenino",
+            "nacimiento": 1979
+        },
+        "vmo": {
+            "nombre": "Víctor Moya Carvajal",
+            "nombre-corto": "Víctor Moya",
+            "sexo": "masculino",
+            "nacimiento": 1982
+        },
+        "ysa": {
+            "nombre": "Yargeris Savigne Herrera",
+            "nombre-corto": "Yargeris Savigne",
+            "sexo": "femenino",
+            "nacimiento": 1984
+        },
+        "mgo": {
+            "nombre": "Misleydis González Tamayo",
+            "nombre-corto": "Misleydis González",
+            "sexo": "femenino",
+            "nacimiento": 1978
+        },
+        "yba": {
+            "nombre": "Yarelis Barrios Castañeda",
+            "nombre-corto": "Yarelis Barrios",
+            "sexo": "femenino",
+            "nacimiento": 1983
+        },
+        "dro": {
+            "nombre": "Dayron Robles",
+            "nombre-corto": "Dayron Robles",
+            "sexo": "masculino",
+            "nacimiento": 1986
+        },
+        "oto": {
+            "nombre": "Osniel Tosca",
+            "nombre-corto": "Osniel Tosca",
+            "sexo": "masculino",
+            "nacimiento": null
+        },
+        "yga": {
+            "nombre": "Yordani García Barrizonte",
+            "nombre-corto": "Yordani García",
+            "sexo": "masculino",
+            "nacimiento": 1986
+        },
+        "lsu": {
+            "nombre": "Leonel Suárez Fajardo",
+            "nombre-corto": "Leonel Suárez",
+            "sexo": "masculino",
+            "nacimiento": 1987
+        },
+        "gma": {
+            "nombre": "Guillermo Martínez López",
+            "nombre-corto": "Guillermo Martínez",
+            "sexo": "masculino",
+            "nacimiento": 1981
+        },
+        "aco": {
+            "nombre": "Alexis Copello Sánchez",
+            "nombre-corto": "Alexis Copello",
+            "sexo": "masculino",
+            "nacimiento": 1985
+        },
+        "ydi": {
+            "nombre": "Yunior Díaz Zayas",
+            "nombre-corto": "Yunior Díaz",
+            "sexo": "masculino",
+            "nacimiento": 1987
+        },
+        "mva": {
+            "nombre": "Mailín Vargas Escalona",
+            "nombre-corto": "Mailín Vargas",
+            "sexo": "femenino",
+            "nacimiento": 1983
+        },
+        "lbo": {
+            "nombre": "Lázaro Eduardo Borges",
+            "nombre-corto": "Lázaro Borges",
+            "sexo": "masculino",
+            "nacimiento": 1986
+        },
+        "ysi": {
+            "nombre": "Yarisley Silva Rodríguez",
+            "nombre-corto": "Yarisley Silva",
+            "sexo": "femenino",
+            "nacimiento": 1987
+        },
+        "jyf": {
+            "nombre": "Jorge Yedián Fernández",
+            "nombre-corto": "Jorge Fernández",
+            "sexo": "masculino",
+            "nacimiento": 1987
+        },
+        "ppp": {
+            "nombre": "Pedro Pablo Pichardo Peralta",
+            "nombre-corto": "Pedro Pablo Pichardo",
+            "sexo": "masculino",
+            "nacimiento": 1993
+        },
+        "oci": {
+            "nombre": "Omar Cisneros Bonora",
+            "nombre-corto": "Omar Cisneros",
+            "sexo": "masculino",
+            "nacimiento": 1989
+        },
+        "ype": {
+            "nombre": "Yaimé Pérez Téllez",
+            "nombre-corto": "Yaimé Pérez",
+            "sexo": "femenino",
+            "nacimiento": 1991
+        },
+        "yro": {
+            "nombre": "Yorgelis Rodríguez García",
+            "nombre-corto": "Yorgelis Rodríguez",
+            "sexo": "femenino",
+            "nacimiento": 1995
+        },
+        "cna": {
+            "nombre": "Cristian Nápoles",
+            "nombre-corto": "Cristian Nápoles",
+            "sexo": "masculino",
+            "nacimiento": 1998
+        },
+        "mma": {
+            "nombre": "Maykel Demetrio Massó",
+            "nombre-corto": "Maykel Massó",
+            "sexo": "masculino",
+            "nacimiento": 1999
+        },
+        "adi": {
+            "nombre": "Andy Díaz",
+            "nombre-corto": "Andy Díaz",
+            "sexo": "masculino",
+            "nacimiento": 1995
+        },
+        "ylo": {
+            "nombre": "Yaniuvis López Sago",
+            "nombre-corto": "Yaniuvis López",
+            "sexo": "femenino",
+            "nacimiento": 1986
+        },
+        "sua": {
+            "nombre": "Susana Armenteros",
+            "nombre-corto": "Susana Armenteros",
+            "sexo": "femenino",
+            "nacimiento": 1961
+        },
+        "eri": {
+            "nombre": "Eusebia Riquelme",
+            "nombre-corto": "Eusebia Riquelme",
+            "sexo": "femenino",
+            "nacimiento": 1969
+        },
+        "jdu": {
+            "nombre": "Esther Julia Duporthy",
+            "nombre-corto": "Julia Duporthy",
+            "sexo": "femenino",
+            "nacimiento": 1971
+        },
+        "asi": {
+            "nombre": "Andrés Simón Gómez",
+            "nombre-corto": "Andrés Simón",
+            "sexo": "masculino",
+            "nacimiento": 1961
+        },
+        "jig": {
+            "nombre": "Joel Isasi González",
+            "nombre-corto": "Joel Isasi",
+            "sexo": "masculino",
+            "nacimiento": 1967
+        },
+        "jla": {
+            "nombre": "Jorge Luis Aguilera Ruiz",
+            "nombre-corto": "Jorge Luis Aguilera",
+            "sexo": "masculino",
+            "nacimiento": 1966
+        },
+        "mfe": {
+            "nombre": "Miriam Ferrer",
+            "nombre-corto": "Miriam Ferrer",
+            "sexo": "femenino",
+            "nacimiento": 1963
+        },
+        "jro": {
+            "nombre": "José Roque Pérez",
+            "nombre-corto": "José Roque",
+            "sexo": "masculino",
+            "nacimiento": 1971
+        },
+        "jlc": {
+            "nombre": "Jorge Luis Crusellas Álvarez",
+            "nombre-corto": "Jorge Luis Crusellas",
+            "sexo": "masculino",
+            "nacimiento": 1966
+        },
+        "oma": {
+            "nombre": "Omar Mena Abreu",
+            "nombre-corto": "Omar Mena",
+            "sexo": "masculino",
+            "nacimiento": 1966
+        },
+        "ibo": {
+            "nombre": "Idalmis Bonne Rousseaux",
+            "nombre-corto": "Idalmis Bonne",
+            "sexo": "femenino",
+            "nacimiento": 1971
+        },
+        "nmc": {
+            "nombre": "Nancy McLeón",
+            "nombre-corto": "Nancy McLeón",
+            "sexo": "femenino",
+            "nacimiento": 1971
+        },
+        "agb": {
+            "nombre": "Alfredo García-Baró",
+            "nombre-corto": "Alfredo García-Baró",
+            "sexo": "masculino",
+            "nacimiento": 1972
+        },
+        "mor": {
+            "nombre": "Misael Ortíz",
+            "nombre-corto": "Misael Ortíz",
+            "sexo": "masculino",
+            "nacimiento": 1978
+        },
+        "lap": {
+            "nombre": "Luis Alberto Pérez-Rionda",
+            "nombre-corto": "Luis Alberto Pérez-Rionda",
+            "sexo": "masculino",
+            "nacimiento": 1978
+        },
+        "yud": {
+            "nombre": "Yudalis Díaz",
+            "nombre-corto": "Yudalis Díaz",
+            "sexo": "femenino",
+            "nacimiento": 1979
+        },
+        "ama": {
+            "nombre": "Aymée Martínez Viart",
+            "nombre-corto": "Aymée Martínez",
+            "sexo": "femenino",
+            "nacimiento": 1988
+        },
+        "ite": {
+            "nombre": "Indira Terrero Letuce",
+            "nombre-corto": "Indira Terrero",
+            "sexo": "femenino",
+            "nacimiento": 1985
+        },
+        "dpe": {
+            "nombre": "Diosmely Peña Contreras",
+            "nombre-corto": "Diosmely Peña",
+            "sexo": "femenino",
+            "nacimiento": 1985
+        },
+        "dbo": {
+            "nombre": "Daisurami Bonne Rousseau",
+            "nombre-corto": "Daisurami Bonne",
+            "sexo": "femenino",
+            "nacimiento": 1988
+        },
+        "wco": {
+            "nombre": "William Collazo Gutiérrez",
+            "nombre-corto": "William Collazo",
+            "sexo": "masculino",
+            "nacimiento": 1986
+        },
+        "ram": {
+            "nombre": "Raidel Acea Morales",
+            "nombre-corto": "Raidel Acea",
+            "sexo": "masculino",
+            "nacimiento": 1990
+        },
+        "ach": {
+            "nombre": "Adrian Chacón Muñoz",
+            "nombre-corto": "Adrian Chacón",
+            "sexo": "masculino",
+            "nacimiento": 1988
+        },
+        "yol": {
+            "nombre": "Yoandys Alberto Lescay Pardo",
+            "nombre-corto": "Yoandys Lescay",
+            "sexo": "masculino",
+            "nacimiento": 1994
+        },
+        "ope": {
+            "nombre": "Osmaidel Pellicier",
+            "nombre-corto": "Osmaidel Pellicier",
+            "sexo": "masculino",
+            "nacimiento": 1992
+        },
+        "dca": {
+            "nombre": "Denia Caballero Ponce",
+            "nombre-corto": "Denia Caballero",
+            "sexo": "femenino",
+            "nacimiento": 1990
+        }
+    },
+    "especialidades": {
+        "disco": {
+            "nombre": "Lanzamiento del Disco",
+            "medida": "metros"
+        },
+        "bala": {
+            "nombre": "Lanzamiento de la Bala",
+            "medida": "metros"
+        },
+        "jabalina": {
+            "nombre": "Lanzamiento de la Jabalina",
+            "medida": "metros"
+        },
+        "martillo": {
+            "nombre": "Lanzamiento del Martillo",
+            "medida": "metros"
+        },
+        "4x400": {
+            "nombre": "Relevo 4x400 metros",
+            "medida": "minutos"
+        },
+        "4x100": {
+            "nombre": "Relevo 4x100 metros",
+            "medida": "segundos"
+        },
+        "400": {
+            "nombre": "400 metros planos",
+            "medida": "segundos"
+        },
+        "800": {
+            "nombre": "800 metros planos",
+            "medida": "minutos"
+        },
+        "100": {
+            "nombre": "100 metros planos",
+            "medida": "segundos"
+        },
+        "200": {
+            "nombre": "200 metros planos",
+            "medida": "segundos"
+        },
+        "alto": {
+            "nombre": "Salto Alto",
+            "medida": "metros"
+        },
+        "largo": {
+            "nombre": "Salto Largo",
+            "medida": "metros"
+        },
+        "triple": {
+            "nombre": "Triple Salto",
+            "medida": "metros"
+        },
+        "pertiga": {
+            "nombre": "Salto con Pértiga",
+            "medida": "metros"
+        },
+        "100v": {
+            "nombre": "100 metros con vallas",
+            "medida": "segundos"
+        },
+        "110v": {
+            "nombre": "110 metros con vallas",
+            "medida": "segundos"
+        },
+        "400v": {
+            "nombre": "400 metros con vallas",
+            "medida": "segundos"
+        },
+        "decatlon": {
+            "nombre": "Decatlón",
+            "medida": "puntos"
+        },
+        "heptatlon": {
+            "nombre": "Heptatlón",
+            "medida": "puntos"
+        }
+    },
+    "mundiales": {
+        "1983": {
+            "edicion": "I",
+            "ciudad": "Helsinki",
+            "pais": "Finlandia",
+            "dominio": "fi",
+            "lugar-puntos": 22,
+            "lugar-medallas": 15,
+            "resultados": {
+                "individual": {
+                    "lmd": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 2,
+                            "marca": "67.36"
+                        }
+                    ],
+                    "jmb": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 7,
+                            "marca": "64.26"
+                        }
+                    ],
+                    "mes": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ],
+                    "mcc": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                }
+            }
+        },
+        "1987": {
+            "edicion": "II",
+            "ciudad": "Roma",
+            "pais": "Italia",
+            "dominio": "it",
+            "lugar-puntos": 12,
+            "lugar-medallas": 26,
+            "resultados": {
+                "individual": {
+                    "lmd": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 3,
+                            "marca": "66.02"
+                        }
+                    ],
+                    "rhp": [
+                        {
+                            "especialidad": "400",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "afq": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "sca": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "jjg": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 6,
+                            "marca": "8.51"
+                        }
+                    ],
+                    "ile": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 3,
+                        "sexo": "masculino",
+                        "marca": "2:59:16",
+                        "miembros": [
+                            "lpg",
+                            "lma",
+                            "apa",
+                            "rhp"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 7,
+                        "sexo": "masculino",
+                        "marca": "43.66",
+                        "miembros": [
+                            "lad",
+                            "alp",
+                            "sua",
+                            "eri"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1991": {
+            "edicion": "III",
+            "ciudad": "Tokio",
+            "pais": "Japón",
+            "dominio": "jp",
+            "lugar-puntos": 17,
+            "lugar-medallas": 11,
+            "resultados": {
+                "individual": {
+                    "jss": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 2,
+                            "marca": "2.36"
+                        }
+                    ],
+                    "afq": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 2,
+                            "marca": "1:57.55"
+                        }
+                    ],
+                    "rhp": [
+                        {
+                            "especialidad": "400",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "mdr": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 5,
+                            "marca": "2.34"
+                        }
+                    ],
+                    "yqf": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "alp": [
+                        {
+                            "especialidad": "100v",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "dmg": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "rms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 8,
+                            "marca": "61.44"
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 6,
+                        "sexo": "femenino",
+                        "marca": "43.75",
+                        "miembros": [
+                            "lad",
+                            "alp",
+                            "eri",
+                            "jdu"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 8,
+                        "sexo": "masculino",
+                        "marca": "3:05.33",
+                        "miembros": [
+                            "apa",
+                            "lma",
+                            "hho",
+                            "jva"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1993": {
+            "edicion": "IV",
+            "ciudad": "Stuttgart",
+            "pais": "Alemania",
+            "dominio": "de",
+            "lugar-puntos": 7,
+            "lugar-medallas": 8,
+            "resultados": {
+                "individual": {
+                    "jss": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 1,
+                            "marca": "2.40"
+                        }
+                    ],
+                    "iqu": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 1,
+                            "marca": "1.99"
+                        }
+                    ],
+                    "sca": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 2,
+                            "marca": "1.97"
+                        }
+                    ],
+                    "ema": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "alp": [
+                        {
+                            "especialidad": "100v",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "nma": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "mmg": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "bha": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "lad": [
+                        {
+                            "especialidad": "100",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ],
+                    "blm": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 4,
+                        "sexo": "masculino",
+                        "marca": "38.39",
+                        "miembros": [
+                            "asi",
+                            "iga",
+                            "jig",
+                            "jla"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 6,
+                        "sexo": "masculino",
+                        "marca": "3:00.46",
+                        "miembros": [
+                            "iga",
+                            "hho",
+                            "nts",
+                            "rhp"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 6,
+                        "sexo": "femenino",
+                        "marca": "42.89",
+                        "miembros": [
+                            "mfe",
+                            "alp",
+                            "jdu",
+                            "lad"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1995": {
+            "edicion": "V",
+            "ciudad": "Gotemburgo",
+            "pais": "Suecia",
+            "dominio": "se",
+            "lugar-puntos": 8,
+            "lugar-medallas": 5,
+            "resultados": {
+                "individual": {
+                    "ips": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 1,
+                            "marca": "8.70"
+                        }
+                    ],
+                    "afq": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 1,
+                            "marca": "1:56.11"
+                        }
+                    ],
+                    "jss": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 2,
+                            "marca": "2.37"
+                        }
+                    ],
+                    "nma": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 2,
+                            "marca": "6.86"
+                        }
+                    ],
+                    "yqf": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "mmg": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "ygl": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 5,
+                            "marca": null
+                        }
+                    ],
+                    "ebh": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "ale": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "ilr": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": "60.80"
+                        }
+                    ],
+                    "iga": [
+                        {
+                            "especialidad": "200",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ],
+                    "ema": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 6,
+                        "sexo": "masculino",
+                        "marca": "3:07.65",
+                        "miembros": [
+                            "jro",
+                            "jlc",
+                            "oma",
+                            "nts"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 7,
+                        "sexo": "femenino",
+                        "marca": "3:29.27",
+                        "miembros": [
+                            "ibo",
+                            "afq",
+                            "nmc",
+                            "jdu"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1997": {
+            "edicion": "VI",
+            "ciudad": "Atenas",
+            "pais": "Grecia",
+            "dominio": "gr",
+            "lugar-puntos": 8,
+            "lugar-medallas": 3,
+            "resultados": {
+                "individual": {
+                    "jss": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 1,
+                            "marca": "2.37"
+                        }
+                    ],
+                    "ips": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 1,
+                            "marca": "8.42"
+                        }
+                    ],
+                    "yqf": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 1,
+                            "marca": "17.85"
+                        }
+                    ],
+                    "afq": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 1,
+                            "marca": "1:57.14"
+                        }
+                    ],
+                    "nts": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 2,
+                            "marca": "1:44.00"
+                        }
+                    ],
+                    "alu": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 3,
+                            "marca": "17.64"
+                        }
+                    ],
+                    "iga": [
+                        {
+                            "especialidad": "200",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "egs": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": "63.76"
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 4,
+                        "sexo": "masculino",
+                        "marca": "38.15",
+                        "miembros": [
+                            "agb",
+                            "mor",
+                            "lap",
+                            "iga"
+                        ]
+                    }
+                ]
+            }
+        },
+        "1999": {
+            "edicion": "VII",
+            "ciudad": "Sevilla",
+            "pais": "España",
+            "dominio": "es",
+            "lugar-puntos": 7,
+            "lugar-medallas": 6,
+            "resultados": {
+                "individual": {
+                    "ips": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 1,
+                            "marca": "8.56"
+                        }
+                    ],
+                    "dpf": [
+                        {
+                            "especialidad": "400v",
+                            "lugar": 1,
+                            "marca": "52.89"
+                        }
+                    ],
+                    "ago": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 2,
+                            "marca": "13.07"
+                        }
+                    ],
+                    "yal": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "14.61"
+                        }
+                    ],
+                    "nts": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "yhr": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "ycu": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "egs": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x100",
+                        "lugar": 4,
+                        "sexo": "masculino",
+                        "marca": "38.63",
+                        "miembros": [
+                            "agb",
+                            "iga",
+                            "lap",
+                            "yhr"
+                        ]
+                    },
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 7,
+                        "sexo": "femenino",
+                        "marca": "3:29.19",
+                        "miembros": [
+                            "jdu",
+                            "zca",
+                            "yud",
+                            "ibo"
+                        ]
+                    }
+                ]
+            }
+        },
+        "2001": {
+            "edicion": "VIII",
+            "ciudad": "Edmonton",
+            "pais": "Canadá",
+            "dominio": "ca",
+            "lugar-puntos": 9,
+            "lugar-medallas": 5,
+            "resultados": {
+                "individual": {
+                    "ips": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 1,
+                            "marca": "8.40"
+                        }
+                    ],
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 1,
+                            "marca": "70.65"
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 1,
+                            "marca": "69.53"
+                        }
+                    ],
+                    "ago": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 2,
+                            "marca": "13.07"
+                        }
+                    ],
+                    "dpf": [
+                        {
+                            "especialidad": "400v",
+                            "lugar": 3,
+                            "marca": "54.51"
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 3,
+                            "marca": "64.69"
+                        }
+                    ],
+                    "yhr": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "ygl": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "xri": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "ycu": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                }
+            }
+        },
+        "2003": {
+            "edicion": "IX",
+            "ciudad": "París",
+            "pais": "Francia",
+            "dominio": "fr",
+            "lugar-puntos": 18,
+            "lugar-medallas": 11,
+            "resultados": {
+                "individual": {
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 1,
+                            "marca": "73.33"
+                        }
+                    ],
+                    "ybe": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "17.28"
+                        }
+                    ],
+                    "adg": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "mga": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 5,
+                            "marca": null
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 5,
+                            "marca": null
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "yhr": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ]
+                }
+            }
+        },
+        "2005": {
+            "edicion": "X",
+            "ciudad": "Helsinki",
+            "pais": "Finlandia",
+            "dominio": "fi",
+            "lugar-puntos": 8,
+            "lugar-medallas": 4,
+            "resultados": {
+                "individual": {
+                    "zca": [
+                        {
+                            "especialidad": "800",
+                            "lugar": 1,
+                            "marca": "1:58.82"
+                        }
+                    ],
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 1,
+                            "marca": "73.08"
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 1,
+                            "marca": "73.70"
+                        }
+                    ],
+                    "vmo": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 2,
+                            "marca": "2.29"
+                        }
+                    ],
+                    "ybe": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "17.42"
+                        }
+                    ],
+                    "ysa": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "14.82"
+                        },
+                        {
+                            "especialidad": "largo",
+                            "lugar": 3,
+                            "marca": "6.69"
+                        }
+                    ],
+                    "ycu": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "adg": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ],
+                    "mgo": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                }
+            }
+        },
+        "2007": {
+            "edicion": "XI",
+            "ciudad": "Osaka",
+            "pais": "Japón",
+            "dominio": "jp",
+            "lugar-puntos": 10,
+            "lugar-medallas": 9,
+            "resultados": {
+                "individual": {
+                    "ysa": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 1,
+                            "marca": "15.28"
+                        }
+                    ],
+                    "yba": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 2,
+                            "marca": "63.90"
+                        }
+                    ],
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 2,
+                            "marca": "74.74"
+                        }
+                    ],
+                    "dro": [
+                        {
+                            "especialidad": "110v",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "oto": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "vmo": [
+                        {
+                            "especialidad": "alto",
+                            "lugar": 5,
+                            "marca": null
+                        }
+                    ],
+                    "sbi": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "adg": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "yga": [
+                        {
+                            "especialidad": "decatlon",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 7,
+                        "sexo": "femenino",
+                        "marca": "3:27.05",
+                        "miembros": [
+                            "ama",
+                            "ite",
+                            "dpf",
+                            "zca"
+                        ]
+                    }
+                ]
+            }
+        },
+        "2009": {
+            "edicion": "XII",
+            "ciudad": "Berlín",
+            "pais": "Alemania",
+            "dominio": "de",
+            "lugar-puntos": 9,
+            "lugar-medallas": 14,
+            "resultados": {
+                "individual": {
+                    "ysa": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 1,
+                            "marca": "14.95"
+                        }
+                    ],
+                    "lsu": [
+                        {
+                            "especialidad": "decatlon",
+                            "lugar": 2,
+                            "marca": "8640"
+                        }
+                    ],
+                    "gma": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 2,
+                            "marca": "86.41"
+                        }
+                    ],
+                    "mga": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "14.61"
+                        }
+                    ],
+                    "yba": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 2,
+                            "marca": "65.31"
+                        }
+                    ],
+                    "aco": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 3,
+                            "marca": "17.36"
+                        }
+                    ],
+                    "adg": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 5,
+                            "marca": "17.26"
+                        }
+                    ],
+                    "oms": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 6,
+                            "marca": null
+                        }
+                    ],
+                    "yga": [
+                        {
+                            "especialidad": "decatlon",
+                            "lugar": 7,
+                            "marca": "8387"
+                        }
+                    ],
+                    "mgo": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 7,
+                            "marca": null
+                        }
+                    ],
+                    "ydi": [
+                        {
+                            "especialidad": "decatlon",
+                            "lugar": 8,
+                            "marca": "8357"
+                        }
+                    ],
+                    "mva": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 8,
+                            "marca": null
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 7,
+                        "sexo": "femenino",
+                        "marca": "3:36.99",
+                        "miembros": [
+                            "dpe",
+                            "dbo",
+                            "zca",
+                            "ite"
+                        ]
+                    }
+                ]
+            }
+        },
+        "2011": {
+            "edicion": "XIII",
+            "ciudad": "Daegou",
+            "pais": "Corea del Sur",
+            "dominio": "cs",
+            "lugar-puntos": 9,
+            "lugar-medallas": 21,
+            "resultados": {
+                "individual": {
+                    "lbo": [
+                        {
+                            "especialidad": "pertiga",
+                            "lugar": 2,
+                            "marca": "5.90"
+                        }
+                    ],
+                    "lsu": [
+                        {
+                            "especialidad": "decatlon",
+                            "lugar": 3,
+                            "marca": "8501"
+                        }
+                    ],
+                    "gma": [
+                        {
+                            "especialidad": "jabalina",
+                            "lugar": 3,
+                            "marca": "84.30"
+                        }
+                    ],
+                    "yba": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 3,
+                            "marca": "65.73"
+                        }
+                    ],
+                    "aco": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": "17.47"
+                        }
+                    ],
+                    "mga": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": "14.67"
+                        }
+                    ],
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 4,
+                            "marca": "74.48"
+                        }
+                    ],
+                    "ysi": [
+                        {
+                            "especialidad": "pertiga",
+                            "lugar": 5,
+                            "marca": "4.70"
+                        }
+                    ],
+                    "ysa": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 6,
+                            "marca": "14.43"
+                        }
+                    ],
+                    "jyf": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 8,
+                            "marca": "63.54"
+                        }
+                    ]
+                }
+            }
+        },  
+        "2013": {
+            "edicion": "XIV",
+            "ciudad": "Moscú",
+            "pais": "Rusia",
+            "dominio": "ru",
+            "lugar-puntos": 14,
+            "lugar-medallas": 23,
+            "resultados": {
+                "individual": {
+                    "ysi": [
+                        {
+                            "especialidad": "pertiga",
+                            "lugar": 3,
+                            "marca": "4.82"
+                        }
+                    ],
+                    "ppp": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "17.68"
+                        }
+                    ],
+                    "yba": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 3,
+                            "marca": "64.96"
+                        }
+                    ],
+                    "oci": [
+                        {
+                            "especialidad": "400v",
+                            "lugar": 4,
+                            "marca": "48.12"
+                        }
+                    ],
+                    "ymo": [
+                        {
+                            "especialidad": "martillo",
+                            "lugar": 4,
+                            "marca": null
+                        }
+                    ],
+                    "mga": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 5,
+                            "marca": "14.45"
+                        }
+                    ],
+                    "dca": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 8,
+                            "marca": "62.80"
+                        }
+                    ]
+                }
+            }
+        },
+        "2015": {
+            "edicion": "XV",
+            "ciudad": "Beijing",
+            "pais": "China",
+            "dominio": "cn",
+            "lugar-puntos": 12,
+            "lugar-medallas": 14,
+            "resultados": {
+                "individual": {
+                    "ysi": [
+                        {
+                            "especialidad": "pertiga",
+                            "lugar": 1,
+                            "marca": "4.90"
+                        }
+                    ],
+                    "dca": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 1,
+                            "marca": "69.28"
+                        }
+                    ],
+                    "ppp": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 2,
+                            "marca": "17.73"
+                        }
+                    ],
+                    "ype": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 4,
+                            "marca": "65.46"
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 7,
+                        "sexo": "masculino",
+                        "marca": "3:03.05",
+                        "miembros": [
+                            "wco",
+                            "ram",
+                            "ach",
+                            "yol"
+                        ]
+                    }
+                ]
+            }
+        },
+        "2017": {
+            "edicion": "XVI",
+            "ciudad": "Londres",
+            "pais": "Reino Unido",
+            "dominio": "uk",
+            "lugar-puntos": 13,
+            "lugar-medallas": 37,
+            "resultados": {
+                "individual": {
+                    "ysi": [
+                        {
+                            "especialidad": "pertiga",
+                            "lugar": 3,
+                            "marca": "4.65"
+                        }
+                    ],
+                    "yro": [
+                        {
+                            "especialidad": "heptatlon",
+                            "lugar": 4,
+                            "marca": "6594"
+                        }
+                    ],
+                    "cna": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 4,
+                            "marca": "17.16"
+                        }
+                    ],
+                    "ype": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 4,
+                            "marca": "64.82"
+                        }
+                    ],
+                    "mma": [
+                        {
+                            "especialidad": "largo",
+                            "lugar": 5,
+                            "marca": "8.26"
+                        }
+                    ],
+                    "dca": [
+                        {
+                            "especialidad": "disco",
+                            "lugar": 5,
+                            "marca": "64.37"
+                        }
+                    ],
+                    "adi": [
+                        {
+                            "especialidad": "triple",
+                            "lugar": 7,
+                            "marca": "17.13"
+                        }
+                    ],
+                    "ylo": [
+                        {
+                            "especialidad": "bala",
+                            "lugar": 8,
+                            "marca": "18.03"
+                        }
+                    ]
+                },
+                "colectivo": [
+                    {
+                        "especialidad": "4x400",
+                        "lugar": 6,
+                        "sexo": "masculino",
+                        "marca": "3:01.10",
+                        "miembros": [
+                            "wco",
+                            "ach",
+                            "ope",
+                            "yol"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
