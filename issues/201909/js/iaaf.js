@@ -1282,12 +1282,12 @@ $.getJSON("data/iaaf.json",function(data){
 		                var pf = 0;
 		                var pm = 0;
 		                if (et=="vallas cortas") {
-							pf = getMedalsByEventYear(value,"100v",'femenino');
+							pf = getMedalsByEventYear(value,"100v",'masculino');
 						} else if (et=="pruebas múltiples") {
-							pf = getMedalsByEventYear(value,"heptatlon",'femenino');
+							pf = getMedalsByEventYear(value,"heptatlon",'mascilino');
 						}
 		                else {
-			                pf = getMedalsByEventYear(value,et,'femenino');
+			                pf = getMedalsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf;
 		                var points = 'puntos';
@@ -1608,12 +1608,12 @@ $.getJSON("data/iaaf.json",function(data){
 		                var pf = 0;
 		                var pm = 0;
 		                if (et=="vallas cortas") {
-							pf = getGoldsByEventYear(value,"100v",'femenino');
+							pf = getGoldsByEventYear(value,"100v",'masculino');
 						} else if (et=="pruebas múltiples") {
-							pf = getGoldsByEventYear(value,"heptatlon",'femenino');
+							pf = getGoldsByEventYear(value,"heptatlon",'masculino');
 						}
 		                else {
-			                pf = getGoldsByEventYear(value,et,'femenino');
+			                pf = getGoldsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf;
 		                var points = 'puntos';
