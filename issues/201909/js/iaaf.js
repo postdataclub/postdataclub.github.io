@@ -951,12 +951,12 @@ $.getJSON("data/iaaf.json",function(data){
 		                var pf = 0;
 		                var pm = 0;
 		                if (et=="vallas cortas") {
-							pf = getPointsByEventYear(value,"100v",'femenino');
+							pf = getPointsByEventYear(value,"100v",'masculino');
 						} else if (et=="pruebas múltiples") {
-							pf = getPointsByEventYear(value,"heptatlon",'femenino');
+							pf = getPointsByEventYear(value,"heptatlon",'masculino');
 						}
 		                else {
-			                pf = getPointsByEventYear(value,et,'femenino');
+			                pf = getPointsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf;
 		                var points = 'puntos';
@@ -1284,14 +1284,14 @@ $.getJSON("data/iaaf.json",function(data){
 		                if (et=="vallas cortas") {
 							pf = getMedalsByEventYear(value,"100v",'masculino');
 						} else if (et=="pruebas múltiples") {
-							pf = getMedalsByEventYear(value,"heptatlon",'mascilino');
+							pf = getMedalsByEventYear(value,"heptatlon",'masculino');
 						}
 		                else {
 			                pf = getMedalsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf;
-		                var points = 'puntos';
-		                if (ps ==1 ) {points = 'punto'}
+		                var points = 'medallas';
+		                if (ps ==1 ) {points = 'medalla'}
 		                return ps+' '+points;
 		            }, 
 		         }
@@ -1404,8 +1404,8 @@ $.getJSON("data/iaaf.json",function(data){
 			                pm = getGoldsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf + pm;
-		                var points = 'medallas';
-		                if (ps ==1 ) {points = 'medalla'}
+		                var points = 'títulos';
+		                if (ps ==1 ) {points = 'título'}
 		                return ps+' '+points+' ('+pf+' femenino, '+pm+' masculino)';
 		            }, 
 		         }
@@ -1509,8 +1509,8 @@ $.getJSON("data/iaaf.json",function(data){
 			                pf = getGoldsByEventYear(value,et,'femenino');
 		                }
 		                ps = pf;
-		                var points = 'puntos';
-		                if (ps ==1 ) {points = 'punto'}
+		                var points = 'títulos';
+		                if (ps ==1 ) {points = 'título'}
 		                return ps+' '+points;
 		            }, 
 		         }
@@ -1616,8 +1616,8 @@ $.getJSON("data/iaaf.json",function(data){
 			                pf = getGoldsByEventYear(value,et,'masculino');
 		                }
 		                ps = pf;
-		                var points = 'puntos';
-		                if (ps ==1 ) {points = 'punto'}
+		                var points = 'títulos';
+		                if (ps ==1 ) {points = 'título'}
 		                return ps+' '+points;
 		            }, 
 		         }
