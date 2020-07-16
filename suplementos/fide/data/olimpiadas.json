@@ -1,0 +1,697 @@
+{
+    "cubanos": {
+        "nog": {
+            "id": "nog",
+            "nombre": "Jesús Nogueiras",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500020"
+        },
+        "ver": {
+            "id": "ver",
+            "nombre": "Reynaldo Vera",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500055"
+        },
+        "are": {
+            "id": "are",
+            "nombre": "Walter Arencibia",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500012"
+        },
+        "bru": {
+            "id": "bru",
+            "nombre": "Lázaro Bruzón",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503739"
+        },
+        "dom": {
+            "id": "dom",
+            "nombre": "Leinier Domínguez",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503240"
+        },
+        "per": {
+            "id": "per",
+            "nombre": "Rodney Pérez",
+            "titulo": "IM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500918"
+        },
+        "arr": {
+            "id": "arr",
+            "nombre": "Maritza Arribas",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501418"
+        },
+        "ram": {
+            "id": "ram",
+            "nombre": "Vivian Ramón",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501280"
+        },
+        "del": {
+            "id": "del",
+            "nombre": "Mairelys Delgado",
+            "titulo": "WGM",
+            "federacion": "ESP",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501868"
+        },
+        "sul": {
+            "id": "sul",
+            "nombre": "Sulennis Piña",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503151"
+        },
+        "neu": {
+            "id": "neu",
+            "nombre": "Neuris Delgado",
+            "titulo": "GM",
+            "federacion": "PAR",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503631"
+        },
+        "fro": {
+            "id": "fro",
+            "nombre": "Zirka Frómeta",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501434"
+        },
+        "que": {
+            "id": "que",
+            "nombre": "Yuniesky Quesada",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3504409"
+        },
+        "mar": {
+            "id": "mar",
+            "nombre": "Yaniet Marrero",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503950"
+        },
+        "jen": {
+            "id": "jen",
+            "nombre": "Jennifer Pérez",
+            "titulo": "WIM",
+            "federacion": "PAR",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3507831"
+        },
+        "hol": {
+            "id": "hol",
+            "nombre": "Holden Hernández",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3504387"
+        },
+        "ord": {
+            "id": "ord",
+            "nombre": "Lisandra Ordaz",
+            "titulo": "IM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3506940"
+        },
+        "lin": {
+            "id": "lin",
+            "nombre": "Oleiny Linares",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3504794"
+        },
+        "cor": {
+            "id": "cor",
+            "nombre": "Fidel Corrales",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3506690"
+        },
+        "bac": {
+            "id": "bac",
+            "nombre": "Yusnel Bacallao",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3507416"
+        },
+        "ort": {
+            "id": "ort",
+            "nombre": "Isan Ortiz",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3507165"
+        },
+        "lla": {
+            "id": "lla",
+            "nombre": "Lisandra Llaudy",
+            "titulo": "WIM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3506487"
+        },
+        "gon": {
+            "id": "gon",
+            "nombre": "Yuri González",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503321"
+        },
+        "vig": {
+            "id": "vig",
+            "nombre": "Yanira Vigoa",
+            "titulo": "WGM",
+            "federacion": "USA",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3507041"
+        },
+        "her": {
+            "id": "her",
+            "nombre": "Yuleisy Hernández",
+            "titulo": "WGM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3511685"
+        },
+        "alm": {
+            "id": "alm",
+            "nombre": "Omar Almeida",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3503313"
+        },
+        "yas": {
+            "id": "yas",
+            "nombre": "Yasser Quesada",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3509362"
+        },
+        "mir": {
+            "id": "mir",
+            "nombre": "Yerisbel Miranda",
+            "titulo": "WIM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3507700"
+        },
+        "ama": {
+            "id": "ama",
+            "nombre": "Amador Rodríguez",
+            "titulo": "GM",
+            "federacion": "ESP",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500039"
+        },
+        "rom": {
+            "id": "rom",
+            "nombre": "Román Hernández",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500063"
+        },
+        "joa": {
+            "id": "joa",
+            "nombre": "Joaquín Carlos Díaz",
+            "titulo": "IM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://www.chessgames.com/perl/chessplayer?pid=86618"
+        },
+        "ase": {
+            "id": "ase",
+            "nombre": "Asela de Armas",
+            "titulo": "WIM",
+            "federacion": "CUB",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501400"
+        },
+        "bec": {
+            "id": "bec",
+            "nombre": "Julio Becerra",
+            "titulo": "GM",
+            "federacion": "USA",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501728"
+        },
+        "arm": {
+            "id": "arm",
+            "nombre": "Jorge Armas",
+            "titulo": "IM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500101"
+        },
+        "yud": {
+            "id": "yud",
+            "nombre": "Yudania Hernández",
+            "titulo": "WIM",
+            "federacion": "ESP",
+            "sexo": "mujer",
+            "perfil": "http://ratings.fide.com/card.phtml?event=2219344"
+        },
+        "tan": {
+            "id": "tan",
+            "nombre": "Tania Hernández",
+            "titulo": "WIM",
+            "federacion": "CRC",
+            "sexo": "mujer",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501442"
+        },
+        "iri": {
+            "id": "iri",
+            "nombre": "Irisberto Herrera",
+            "titulo": "GM",
+            "federacion": "ESP",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500373"
+        },
+        "bor": {
+            "id": "bor",
+            "nombre": "Juan Borges",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3500160"
+        },
+        "paz": {
+            "id": "paz",
+            "nombre": "Frank de la Paz",
+            "titulo": "GM",
+            "federacion": "CUB",
+            "sexo": "hombre",
+            "perfil": "https://ratings.fide.com/card.phtml?event=3501833"
+        }
+    },
+    "olimpiadas": {
+        "1990": {
+            "ciudad": "Novi Sad",
+            "pais": "Yugoeslavia",
+            "edicion": 29,
+            "hombres": {
+                "lugar": 7,
+                "puntos": 33,
+                "equipo": [
+                    "nog",
+                    "ama",
+                    "are",
+                    "ver",
+                    "rom",
+                    "joa"
+                ]
+            },
+            "mujeres": {
+                "lugar": 16,
+                "puntos": 23,
+                "equipo": [
+                    "ram",
+                    "ase",
+                    "arr",
+                    "fro"
+                ]
+            }
+        },
+        "1992": null,
+        "1994": {
+            "ciudad": "Moscú",
+            "pais": "Rusia",
+            "edicion": 31,
+            "hombres": {
+                "lugar": 20,
+                "puntos": 32,
+                "equipo": [
+                    "nog",
+                    "ama",
+                    "ver",
+                    "are",
+                    "bec",
+                    "arm"
+                ]
+            },
+            "mujeres": {
+                "lugar": 25,
+                "puntos": 22.5,
+                "equipo": [
+                    "yud",
+                    "arr",
+                    "fro",
+                    "tan"
+                ]
+            }
+        },
+        "1996": {
+            "ciudad": "Yerevan",
+            "pais": "Armenia",
+            "edicion": 32,
+            "hombres": {
+                "lugar": 21,
+                "puntos": 31.5,
+                "equipo": [
+                    "nog",
+                    "are",
+                    "bec",
+                    "ama",
+                    "ver",
+                    "iri"
+                ]
+            },
+            "mujeres": {
+                "lugar": 19,
+                "puntos": 23.5,
+                "equipo": [
+                    "arr",
+                    "ram",
+                    "tan",
+                    "del"
+                ]
+            }
+        },
+        "1998": {
+            "ciudad": "Elista",
+            "pais": "Rusia",
+            "edicion": 33,
+            "hombres": {
+                "lugar": 21,
+                "puntos": 31.5,
+                "equipo": [
+                    "are",
+                    "nog",
+                    "ver",
+                    "bec",
+                    "bor",
+                    "paz"
+                ]
+            },
+            "mujeres": {
+                "lugar": 28,
+                "puntos": 20.5,
+                "equipo": [
+                    "ram",
+                    "tan",
+                    "arr",
+                    "del"
+                ]
+            }
+        },
+        "2000": {
+            "ciudad": "Estambul",
+            "pais": "Turquía",
+            "edicion": 34,
+            "hombres": {
+                "lugar": 22,
+                "puntos": 32,
+                "equipo": [
+                     "nog",
+                     "ver",
+                     "are",
+                     "bru",
+                     "dom",
+                     "per"
+                ]
+            },
+            "mujeres": {
+                "lugar": 17,
+                "puntos": 23.5,
+                "equipo": [
+                    "arr",
+                    "ram",
+                    "del",
+                    "sul"
+                ]
+            }
+        },
+        "2002": {
+            "ciudad": "Bled",
+            "pais": "Eslovenia",
+            "edicion": 35,
+            "hombres": {
+                "lugar": 27,
+                "puntos": 30.5 ,
+                "equipo": [
+                    "bru",
+                    "dom",
+                    "ver",
+                    "neu",
+                    "nog",
+                    "are"
+                ]
+            },
+            "mujeres": {
+                "lugar": 30,
+                "puntos": 22.5,
+                "equipo": [
+                    "arr",
+                    "sul",
+                    "fro",
+                    "ram"
+                ]
+            }
+        },
+        "2004": {
+            "ciudad": "Calvia",
+            "pais": "España",
+            "edicion": 36,
+            "hombres":{
+                "lugar": 7,
+                "puntos": 33.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "neu",
+                    "nog",
+                    "are",
+                    "que"
+                ]
+            },
+            "mujeres": {
+                "lugar": 24,
+                "puntos": 23,
+                "equipo": [
+                    "arr",
+                    "sul",
+                    "mar",
+                    "ram"
+                ]
+            }
+        },
+        "2006": {
+            "ciudad": "Turín",
+            "pais": "Italia",
+            "edicion": 37,
+            "hombres": {
+                "lugar": 16,
+                "puntos": 30.5,
+                "equipo": [
+                    "bru",
+                    "dom",
+                    "nog",
+                    "are",
+                    "neu",
+                    "que"
+                ]
+            },
+            "mujeres": {
+                "lugar": 16,
+                "puntos": 23,
+                "equipo": [
+                    "sul",
+                    "mar",
+                    "jen",
+                    "arr"
+                ]
+            }
+        },
+        "2008": {
+            "ciudad": "Desden",
+            "pais": "Alemania",
+            "edicion": 38,
+            "hombres": {
+                "lugar": 23,
+                "puntos": 25.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "que",
+                    "hol",
+                    "nog"
+                ]
+            },
+            "mujeres": {
+                "lugar": 23,
+                "puntos": 28,
+                "equipo": [
+                    "arr",
+                    "ord",
+                    "sul",
+                    "lin",
+                    "mar"
+                ]
+            }
+        },
+        "2010": {
+            "ciudad": "Khanty-Mansiysk",
+            "pais": "Rusia",
+            "edicion": 39,
+            "hombres":  {
+                "lugar": 23,
+                "puntos": 26.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "que",
+                    "cor",
+                    "hol"
+                ] 
+            },
+            "mujeres": {
+                "lugar": 4,
+                "puntos": 30,
+                "equipo": [
+                    "ord",
+                    "lin",
+                    "mar",
+                    "sul",
+                    "arr"
+                ]
+            }
+        },
+        "2012": {
+            "ciudad": "Estambul",
+            "pais": "Turquía",
+            "edicion": 40,
+            "hombres": {
+                "lugar": 11,
+                "puntos": 30.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "que",
+                    "bac",
+                    "ort"
+                ]
+            },
+            "mujeres": {
+                "lugar": 19,
+                "puntos": 25.5,
+                "equipo": [
+                    "ord",
+                    "sul",
+                    "lin",
+                    "arr",
+                    "lla"
+                ]
+            }
+        },
+        "2014": {
+            "ciudad": "Tromsø",
+            "pais": "Noruega",
+            "edicion": 41,
+            "hombres": {
+                "lugar": 7,
+                "puntos": 29.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "que",
+                    "ort",
+                    "gon"
+                ]
+            },
+            "mujeres": {
+                "lugar": 30,
+                "puntos": 25.5,
+                "equipo": [
+                    "ord",
+                    "mar",
+                    "sul",
+                    "vig",
+                    "arr"
+                ]
+            }
+        },
+        "2016": {
+            "ciudad": "Bakú",
+            "pais": "Azerbaiyán",
+            "edicion": 42,
+            "hombres": {
+                "lugar": 25,
+                "puntos": 27.5,
+                "equipo": [
+                    "dom",
+                    "bru",
+                    "que",
+                    "ort",
+                    "gon"
+                ]
+            },
+            "mujeres": {
+                "lugar": 18,
+                "puntos": 25.5,
+                "equipo": [
+                    "arr",
+                    "mar",
+                    "lin",
+                    "lla",
+                    "her"
+                ]
+            }
+        },
+        "2018": {
+            "ciudad": "Batumi",
+            "pais": "Georgia",
+            "edicion": 43,
+            "hombres": {
+                "lugar": 61,
+                "puntos": 27,
+                "equipo": [
+                    "bac",
+                    "gon",
+                    "ort",
+                    "alm",
+                    "yas"
+                ]
+            },
+            "mujeres": {
+                "lugar": 27,
+                "puntos": 27,
+                "equipo": [
+                    "ord",
+                    "mar",
+                    "arr",
+                    "lla",
+                    "mir"
+                ]
+            }
+        }
+    }
+} 

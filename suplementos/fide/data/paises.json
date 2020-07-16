@@ -1,0 +1,534 @@
+{
+    "LIE": {
+        "pais": "Liechtenstein",
+        "dominio": "li"
+    },
+    "PAR": {
+        "pais": "Paraguay",
+        "dominio": "py"
+    },
+    "QAT": {
+        "pais": "Qatar",
+        "dominio": "qa"
+    },
+    "SOM": {
+        "pais": "Somalia",
+        "dominio": "so"
+    },
+    "WLS": {
+        "pais": "Gales",
+        "dominio": "wl"
+    },
+    "EGY": {
+        "pais": "Egipto",
+        "dominio": "eg"
+    },
+    "SIN": {
+        "pais": "Singapur",
+        "dominio": "sg"
+    },
+    "YUG": {
+        "pais": "Yugoeslavia",
+        "dominio": "yu"
+    },
+    "JOR": {
+        "pais": "Jordania",
+        "dominio": "jo"
+    },
+    "LBA": {
+        "pais": "Libia",
+        "dominio": "ly"
+    },
+    "MYA": {
+        "pais": "Myammar",
+        "dominio": "mm"
+    },
+    "HKG": {
+        "pais": "Hong Kong",
+        "dominio": "hk"
+    },
+    "LBN": {
+        "pais": "Líbano",
+        "dominio": "lb"
+    },
+    "TPE": {
+        "pais": "Taiwán",
+        "dominio": "tw"
+    },
+    "SVK": {
+        "pais": "Eslovaquia",
+        "dominio": "sk"
+    },
+    "CHI": {
+        "pais": "Chile",
+        "dominio": "cl"
+    },
+    "CPV": {
+        "pais": "Cabo Verde",
+        "dominio": "cv"
+    },
+    "MAS": {
+        "pais": "Malasia",
+        "dominio": "my"
+    },
+    "CHN": {
+        "pais": "China",
+        "dominio": "cn"
+    },
+    "ISV": {
+        "pais": "Islas Vírgenes",
+        "dominio": "vi"
+    },
+    "URU": {
+        "pais": "Uruguay",
+        "dominio": "uy"
+    },
+    "ZAM": {
+        "pais": "Zambia",
+        "dominio": "zm"
+    },
+    "PER": {
+        "pais": "Perú",
+        "dominio": "pe"
+    },
+    "FID": {
+        "pais": "FIDE",
+        "dominio": "fd"
+    },
+    "ZIM": {
+        "pais": "Zimbabwe",
+        "dominio": "zw"
+    },
+    "FIN": {
+        "pais": "Finlandia",
+        "dominio": "fi"
+    },
+    "PHI": {
+        "pais": "Filipinas",
+        "dominio": "ph"
+    },
+    "MAR": {
+        "pais": "Marruecos",
+        "dominio": "ma"
+    },
+    "VIE": {
+        "pais": "Vietnam",
+        "dominio": "vn"
+    },
+    "AHO": {
+        "pais": "Antillas Holandesas",
+        "dominio": "ah"
+    },
+    "MNE": {
+        "pais": "Montenegro",
+        "dominio": "me"
+    },
+    "SYR": {
+        "pais": "Siria",
+        "dominio": "sy"
+    },
+    "MAC": {
+        "pais": "Macao",
+        "dominio": "mo"
+    },
+    "MAD": {
+        "pais": "Madagascar",
+        "dominio": "mg"
+    },
+    "LAT": {
+        "pais": "Letonia",
+        "dominio": "lv"
+    },
+    "KAZ": {
+        "pais": "Kazajastán",
+        "dominio": "kz"
+    },
+    "GUA": {
+        "pais": "Guatemala",
+        "dominio": "gt"
+    },
+    "BEL": {
+        "pais": "Bélgica",
+        "dominio": "be"
+    },
+    "CRC": {
+        "pais": "Costa Rica",
+        "dominio": "cr"
+    },
+    "DEN": {
+        "pais": "Dinamarca",
+        "dominio": "dk"
+    },
+    "BER": {
+        "pais": "Bermudas",
+        "dominio": "bm"
+    },
+    "GUY": {
+        "pais": "Guyana",
+        "dominio": "gy"
+    },
+    "CRO": {
+        "pais": "Croacia",
+        "dominio": "hr"
+    },
+    "GER": {
+        "pais": "Alemania",
+        "dominio": "de"
+    },
+    "SCO": {
+        "pais": "Escocia",
+        "dominio": "sc"
+    },
+    "ROU": {
+        "pais": "Rumanía",
+        "dominio": "ro"
+    },
+    "SCG": {
+        "pais": "Serbia y Montenegro",
+        "dominio": "cs"
+    },
+    "TKM": {
+        "pais": "Turkmenistán",
+        "dominio": "tm"
+    },
+    "TTO": {
+        "pais": "Trinidad y Tobago",
+        "dominio": "tt"
+    },
+    "PAN": {
+        "pais": "Panamá",
+        "dominio": "pa"
+    },
+    "BUL": {
+        "pais": "Bulgaria",
+        "dominio": "bg"
+    },
+    "MNC": {
+        "pais": "Monaco",
+        "dominio": "mc"
+    },
+    "GEO": {
+        "pais": "Georgia",
+        "dominio": "ge"
+    },
+    "ENG": {
+        "pais": "Inglaterra",
+        "dominio": "en"
+    },
+    "GCI": {
+        "pais": "Guernsey",
+        "dominio": "gc"
+    },
+    "BLR": {
+        "pais": "Bielorusia",
+        "dominio": "by"
+    },
+    "GRE": {
+        "pais": "Grecia",
+        "dominio": "gt"
+    },
+    "AND": {
+        "pais": "Andorra",
+        "dominio": "ad"
+    },
+    "TJK": {
+        "pais": "Tajikistán",
+        "dominio": "tj"
+    },
+    "MGL": {
+        "pais": "Mongolia",
+        "dominio": "mn"
+    },
+    "BRA": {
+        "pais": "Brasil",
+        "dominio": "br"
+    },
+    "LCA": {
+        "pais": "Santa Lucía",
+        "dominio": "lc"
+    },
+    "IND": {
+        "pais": "India",
+        "dominio": "in"
+    },
+    "NOR": {
+        "pais": "Noruega",
+        "dominio": "no"
+    },
+    "CZE": {
+        "pais": "República Checa",
+        "dominio": "cz"
+    },
+    "ESA": {
+        "pais": "El Salvador",
+        "dominio": "sv"
+    },
+    "DOM": {
+        "pais": "República Dominicana",
+        "dominio": "do"
+    },
+    "LUX": {
+        "pais": "Luxemburgo",
+        "dominio": "lu"
+    },
+    "ISR": {
+        "pais": "Israel",
+        "dominio": "il"
+    },
+    "NED": {
+        "pais": "Países Bajos",
+        "dominio": "nl"
+    },
+    "SMR": {
+        "pais": "San Marino",
+        "dominio": "sm"
+    },
+    "SUI": {
+        "pais": "Suiza",
+        "dominio": "ch"
+    },
+    "ISL": {
+        "pais": "Islandia",
+        "dominio": "is"
+    },
+    "COL": {
+        "pais": "Colombia",
+        "dominio": "co"
+    },
+    "MDA": {
+        "pais": "Moldavia",
+        "dominio": "md"
+    },
+    "SEY": {
+        "pais": "Seychelles",
+        "dominio": "sc"
+    },
+    "ECU": {
+        "pais": "Ecuador",
+        "dominio": "ec"
+    },
+    "SEN": {
+        "pais": "Senegal",
+        "dominio": "sn"
+    },
+    "SRB": {
+        "pais": "Serbia",
+        "dominio": "rs"
+    },
+    "FRA": {
+        "pais": "Francia",
+        "dominio": "fr"
+    },
+    "LTU": {
+        "pais": "Lituania",
+        "dominio": "lt"
+    },
+    "SRI": {
+        "pais": "Sri Lanka",
+        "dominio": "lk"
+    },
+    "UKR": {
+        "pais": "Ucrania",
+        "dominio": "ua"
+    },
+    "AUS": {
+        "pais": "Australia",
+        "dominio": "au"
+    },
+    "AUT": {
+        "pais": "Austria",
+        "dominio": "at"
+    },
+    "VEN": {
+        "pais": "Venezuela",
+        "dominio": "ve"
+    },
+    "KEN": {
+        "pais": "Kenia",
+        "dominio": "ke"
+    },
+    "ALG": {
+        "pais": "Argelia",
+        "dominio": "dz"
+    },
+    "TUR": {
+        "pais": "Turquía",
+        "dominio": "tr"
+    },
+    "ALB": {
+        "pais": "Albania",
+        "dominio": "al"
+    },
+    "ITA": {
+        "pais": "Italia",
+        "dominio": "it"
+    },
+    "BRN": {
+        "pais": "Brunei",
+        "dominio": "bn"
+    },
+    "PLE": {
+        "pais": "Palestina",
+        "dominio": "ps"
+    },
+    "TUN": {
+        "pais": "Túnez",
+        "dominio": "tn"
+    },
+    "RUS": {
+        "pais": "Rusia",
+        "dominio": "ru"
+    },
+    "MEX": {
+        "pais": "México",
+        "dominio": "mx"
+    },
+    "PUR": {
+        "pais": "Puerto Rico",
+        "dominio": "pr"
+    },
+    "CIV": {
+        "pais": "Costa de Marfil",
+        "dominio": "ci"
+    },
+    "MKD": {
+        "pais": "Macedonia",
+        "dominio": "mk"
+    },
+    "BAR": {
+        "pais": "Barbados",
+        "dominio": "bb"
+    },
+    "USA": {
+        "pais": "Estados Unidos",
+        "dominio": "us"
+    },
+    "SWE": {
+        "pais": "Suecia",
+        "dominio": "se"
+    },
+    "AZE": {
+        "pais": "Azerbaiyán",
+        "dominio": "az"
+    },
+    "CAN": {
+        "pais": "Canadá",
+        "dominio": "ca"
+    },
+    "CAM": {
+        "pais": "Cambodia",
+        "dominio": "kh"
+    },
+    "BAN": {
+        "pais": "Bangladesh",
+        "dominio": "bf"
+    },
+    "KOS": {
+        "pais": "Kosovo",
+        "dominio": "ks"
+    },
+    "KOR": {
+        "pais": "Corea del Sur",
+        "dominio": "kr"
+    },
+    "TOG": {
+        "pais": "Togo",
+        "dominio": "tg"
+    },
+    "CYP": {
+        "pais": "Chipre",
+        "dominio": "cy"
+    },
+    "BIH": {
+        "pais": "Bosnia y Herzegovina",
+        "dominio": "ba"
+    },
+    "POR": {
+        "pais": "Portugal",
+        "dominio": "pt"
+    },
+    "UZB": {
+        "pais": "Uzbekistán",
+        "dominio": "uz"
+    },
+    "POL": {
+        "pais": "Polonia",
+        "dominio": "pl"
+    },
+    "FAI": {
+        "pais": "Islas Faroe",
+        "dominio": "fo"
+    },
+    "EST": {
+        "pais": "Estonia",
+        "dominio": "ee"
+    },
+    "ESP": {
+        "pais": "España",
+        "dominio": "es"
+    },
+    "HON": {
+        "pais": "Honduras",
+        "dominio": "hn"
+    },
+    "IRQ": {
+        "pais": "Iraq",
+        "dominio": "iq"
+    },
+    "IRI": {
+        "pais": "Irán",
+        "dominio": "ir"
+    },
+    "SLO": {
+        "pais": "Eslovenia",
+        "dominio": "si"
+    },
+    "IRL": {
+        "pais": "Irlanda",
+        "dominio": "ie"
+    },
+    "JAP": {
+        "pais": "Japón",
+        "dominio": "jp"
+    },
+    "MLT": {
+        "pais": "Malta",
+        "dominio": "mt"
+    },
+    "JCI": {
+        "pais": "Jersey",
+        "dominio": "jc"
+    },
+    "NZL": {
+        "pais": "Nueva Zelanda",
+        "dominio": "nz"
+    },
+    "ARU": {
+        "pais": "Aruba",
+        "dominio": "aw"
+    },
+    "RSA": {
+        "pais": "Sudáfrica",
+        "dominio": "za"
+    },
+    "ARM": {
+        "pais": "Armenia",
+        "dominio": "am"
+    },
+    "ARG": {
+        "pais": "Argentina",
+        "dominio": "ar"
+    },
+    "NCA": {
+        "pais": "Nicaragua",
+        "dominio": "ni"
+    },
+    "HUN": {
+        "pais": "Hungría",
+        "dominio": "hu"
+    },
+    "CUB": {
+        "pais": "Cuba",
+        "dominio": "cu"
+    }
+}

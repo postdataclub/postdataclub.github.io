@@ -1,0 +1,61 @@
+#regions {
+    height: 400px;
+}
+
+#country-data {
+    padding-top:20px;
+}
+
+#country-name {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+#country-name {
+    margin-bottom: 10px;
+}
+
+#awins-block {
+    margin-bottom: 10px;
+}
+
+.flag-mini {
+    vertical-align: baseline;
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #EBE2EC;
+    width: 35px;
+    height: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+#olimpic-teams {
+	margin-top: 15px;
+}
+
+.bold {
+	font-weight: bold;	
+}
+
+#more-less {
+	margin-top: 10px;
+}
+
+#country-info-block {
+	margin-top: 20px;
+}
+
+#select-more-less {
+	margin-top: 20px;	
+}
+
+.right {
+	text-align: right;
+}
+

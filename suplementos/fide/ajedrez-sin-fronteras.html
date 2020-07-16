@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - Ajedrez ¿sin fronteras?</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Ajedrez ¿sin fronteras?</div>
+            <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">6/07/2020</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">El tablero de los cambios de federación en los últimos años</div> 
+             <div class="article-news-image">
+                 <img src="images/bruzon.jpg">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Foto: websterjournal.com</div>
+                </div>
+
+            </div>           
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+	    <p>
+	    El ajedrez cubano de este siglo ha estado protagonizado, principalmente, por dos jugadores: Leinier Domínguez y Lázaro Bruzón.
+	    Sin embargo, ya ninguno de los dos representa a Cuba en competencias oficiales. Bruzón fue el último en dejar oficialmente 
+	    la Federación Cubana de Ajedrez y desde el pasado 27 de junio ya puede representar a su nueva Federación, la de Estados Unidos.
+	    Leinier, desde diciembre de 2019,  también representa al país norteamericano y ya es subcampeón nacional de este país. 
+	    Un campeonato nacional de los Estados Unidos donde, de 12 contendientes, 5 representaron previamente a otra federación nacional.
+	    </p>
+		<p>
+		La transferencia de deportista entre federaciones nacionales no es un fenómeno reciente y no siempre obedece, aunque pueda ser la
+		motivación predominante, a intereses económicos. Tampoco es algo característico del Ajedrez, afecta casi a todos los deportes
+		en mayor medida y no es dificil encontrar <a href="../iaaf/las-patrias-del-atletismo.html">ejemplos notables</a>.
+		</p>
+		
+		<p>
+		En el caso del Ajedrez, los <span class="it">transfers</span>, que se rigen por la sección <a href="https://handbook.fide.com/chapter/B042018">B.04</a> 
+		del <a href="https://handbook.fide.com">Handbook</a> de la <a href="https://www.fide.com/">FIDE</a>, se han ido incrementando en el tiempo. 
+		Según datos de la <a href="https://ratings.fide.com/fedchange.phtml">Federación Internacional de Ajedrez (FIDE)</a>, en el año 2000 ocurrieron
+		6 cambios mientras que en el 2019 fueron al menos 117, por su parte, en lo transcurrido de este año, ya se suman 37 incluyendo a 3
+		cubanos. 
+		</p>
+	</div>
+	
+   
+      <div id="transfer-evolution" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+        Evolución de las transferencias entre federaciones 2000-2020
+        </div>
+        <div id="transfer-evols" class="graph"></div>
+    </div> 
+   
+   <div class="text-block">
+	    <p>
+	    Los cambios de bandera han involucrado a todo tipo de jugadores, desde aquellos con una carrera poco notable hasta estrellas
+	    de la historia del ajedrez. Alexander Alekhine, nació en Rusia y recibió la nacionalidad francesa en 1927 mientras disputaba 
+	    el título mundial, que consiguió, frente a José Raúl Capablanca en Argentina. Otro campeón mundial, Boris Spassky, que fue titular
+	    entre 1969-1972 bajo los colores de la URSS, se convirtió en ciudadano francés en 1978 y en 2012 retornó a Rusia
+	    </p>
+	    <p>
+			Más recientemente, entre los primeros del ranking mundial por su ELO en vivo, se pueden encontrar varios ajedrecistas que
+			han cambiado de federación. Estrellas del ajedrez actual como Fabiano Caruana, Levon Aronian, Wesley So o Anish Giri, entre
+			otros, en algún momento de sus carreras representaron a un país diferente del actual.
+	    </p>
+	    </div>
+	    
+	    <div class="image-block" style="text-align: center;">
+                <img src="images/alekhine-capablanca.jpg" style="width:100%;">
+                <div class = "image-info row">
+                <div class="image-caption col-lg-9 col-md-9">Alekhine, a la izquierda, comenzó como soviético y retador el match por el título mundial 
+                frente a Capablanca, a la derecha,y al concluir era campeón y francés</div>
+                <div class="image-author col-lg-3 col-md-3">Tomada de: Lavanguardia.com</div>
+                </div>
+       </div>
+         
+	    <div class="text-block">
+	    <p>
+	    Por otra parte, los países que más ajedrecistas han perdido de sus filas son, por lo general, países con historia y tradición ajedrecística. 
+	    Así no resulta extraño para nadie que el país que más pérdidas haya tenido sea Rusia, como tampoco extraña que Estados Unidos
+	    sea el principal destino de los jugadores que cambian de federación siendo la nación con mayor saldo postivo. Por su parte,
+	    Cuba es el tercer país, tras Rusia y Ucrania, con mayor balance negativo que es el saldo de 37 deportistas que, entre 2000 y 2020, 
+	    abandonaron la federación antillana.
+	    </p>
+    
+	</div>
+	
+	<div id="countries-info" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+        Top 10 de países con <select id="select-top">
+            <option value="lose-table">más pérdidas</option>
+            <option value="wins-table">más adquisiciones</option> 
+            <option value="negative-table">balance negativo</option>
+            <option value="positive-table">balance positivo</option>
+        </select>
+         2000-2020
+        </div>
+        
+        <div class="graph">
+        <div id="change-table" class="top-table">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Pos.</td><td>Federación</td><td id="change-text">Total de pérdidas</td></tr></thead>
+            <tbody id="change-body">
+            </tbody>
+        </table>
+    </div> 
+  </div>
+  </div>
+  
+  <div class="text-block">
+	    <p>
+	    Los movimientos más comunes entre las transferencias hablan de cómo son multiples las razones para los cambios de Federaciones.
+	    Por ejempo, el cambio más común es que ajedrecistas inicialmente bajo la federación francesa pasen a competir con la monegasca.
+	    Estos son países fronterizos con relaciones muy estrechas, uno pequeño, Mónaco, con una alta dependencia en muchas razones respecto
+	    a Francia. Un caso análogo es el de España y Andorra.
+	    </p>
+		<p>
+		Otro de los cambios más comunes son aquellos que se dan entre naciones actuales que resultaron del desmembramiento de un país que hoy no
+		existe. En estos casos están Serbia y Bosnia y Herzegovina que formaban parte de la antigua Yugoslavia, Ucrania y Rusia que integraban
+		la URSS o Eslovaquia y la República Checa que conformaban previamente Checoslovaquia.
+		</p>
+		<p>
+		Por otra parte, también entre los cambios más frecuentes, están Alemania y Estados Unidos naciones desarrolladas y económicamente poderosas como destino 
+		de jugadores provenientes de Rusia, Ucrania, la India y Cuba. Países estos con tradición ajedrecística, al punto que todos han tenido al menos
+		un campeón mundial de ajedrez en sus filas.
+		</p>
+	</div>
+	
+	<div id="pair-info" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+       Transferencias más frecuentes de ajedrecistas 2000-2020
+        </div>
+        
+        <div class="graph">
+        <div class="top-table">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Pos.</td><td>Federación origen</td><td>Federación destino</td><td>No. de transferencias</td></tr></thead>
+            <tbody id="pair-body">
+            </tbody>
+        </table>
+    </div> 
+  </div>
+  </div>
+  
+  <div class="text-block">
+	    <p>
+	    Estados Unidos no es el único destino de los jugadores cubanos, España y México le siguen en una lista que llega hasta 10 países. 
+	    En total, entre 2000 y 2020 y sin contar a aquellos que jugando bajo la FIDE recalaron en otros país, 37 cubanos abandonaron la federación cubana. 
+	    La mayoría de ellos, 30, son hombres y 34 tienes títulos FIDE incluyendo a 15 GM y 2 WGM.
+	    </p>
+		<p>
+		Todos estos cambios no han tenido igual repercusión. Ante las transferencias de de Leinier y Bruzón hacia la Federación de Estados Unidos,
+		la Federación Cubana emitió declarariones (<a href="http://www.cubadebate.cu/noticias/2018/12/20/leinier-dominguez-se-nacionaliza-por-estados-unidos-federacion-cubana-expresa-desacuerdo/comentarios/pagina-6/">I</a>,<a href="http://www.cubadebate.cu/noticias/2020/07/01/federacion-cubana-de-ajedrez-informa-sobre-cambio-de-membrecia-de-lazaro-bruzon/">II</a>)
+		condenando el asunto sin embargo, ante otros cambios hacia países menos notorios, no se tiene conocimiento de notas públicas refiriéndose
+		al tema. Quizás porque es díficil hablar de robo de atletas cuando estos deciden representar a Cabo Verde o a Paraguay, o tal vez porque
+		cuando no los ajedrecistas no son de élite sus transferencias no tienen la misma repercusión entre los federativos antillanos.
+		
+		</p>
+	</div>
+ 
+ <div id="cuba-info" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+        País destino de las transferencias desde Cuba 2000-2020
+        </div>
+        
+        <div class="graph">
+        <div class="top-table">
+            <table  class="table table-striped table-condensed table-hover main-text">
+            <thead><tr class="bd"><td >Pos.</td><td>Federación</td><td>No. de transferencias</td></tr></thead>
+            <tbody id="cuba-body">
+            </tbody>
+        </table>
+    </div> 
+  </div>
+  </div>
+ 
+ <div class="text-block">
+	    <p>
+	    No obstante, algo es claro, estas transferencias han provocado cambios importantes en el panorama del ajedrez nacional, sobre
+	    todo en el escenario masculino. Basta con analizar los campeonatos cubanos de las últimas tres décadas, en ese período
+	    18 de las 29 campeonatos absolutos tuvieron entre los ganadores a jugadores que no compiten por la Isla, por
+	    3 de las 30 ediciones femeninas. En total, 14 hombres y 12 mujeres se repartieron los primados nacionales y de ellos 6 
+	    representantes masculinos y 2 femeninas ya no juegan por Cuba. 
+	    </p>
+		<p>
+		
+		</p>
+	</div>	
+ 
+ 
+  <div id="champion-info" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+       <select id="select-champ">
+            <option value="male-champ">Campeones masculinos</option>
+            <option value="female-champ">Campeonas femeninas</option> 
+        </select> de Cuba 1990-2020
+        </div>
+        
+        <div id="national-champs" class="graph">
+        <div  id="male-champ" class="row champ">
+			<div class="col-lg-6 col-md-6">
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td>Año</td><td></td><td>Jugador</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody>
+					<tr><td>1990</td><td>GM</td><td><a href="http://ratings.fide.com/card.phtml?event=3500012">Walter Arencibia</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1991</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500020">Jesús Nogueiras</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1993</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500160">Juan Borges</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1995</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501728">Julio Becerra</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td></td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500160">Juan Borges</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1996</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500373">Irisberto Herrera</a></td><td class="center"><img class="flag-mini" alt="España" title="España" src="../../assets/images/flags-mini/es.png"></td></tr>
+					<tr><td></td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501728">Julio Becerra</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>1997</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500055">Reynaldo Vera</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td></td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500039">Amador Rodríguez</a></td><td class="center"><img class="flag-mini" alt="España" title="España" src="../../assets/images/flags-mini/es.png"></td></tr>
+					<tr><td>1998</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501728">Julio Becerra</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>1999</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500918">Rodney Pérez</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2000</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500020">Jesús Nogueiras</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2001</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3500055">Reynaldo Vera</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2002</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503240">Leinier Domínguez</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2003</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503240">Leinier Domínguez</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2004</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>					
+	            </tbody>
+		        </table>
+		   </div>
+		   <div class="col-lg-6 col-md-6">
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td>Año</td><td></td><td>Jugadora</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody >
+					<tr><td>2005</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>					
+					<tr><td>2006</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503240">Leinier Domínguez</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2007</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2008</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3504409">Yuniesky Quesada</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2009</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2010</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2011</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3504409">Yuniesky Quesada</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2012</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503240">Leinier Domínguez</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2013</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3507165">Isan Ortiz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2014</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3507165">Isan Ortiz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2015</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3507165">Isan Ortiz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2016</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503240">Leinier Domínguez</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2017</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Lázaro Bruzón</a></td><td class="center"><img class="flag-mini" alt="Estados Unidos" title="Estados Unidos" src="../../assets/images/flags-mini/us.png"></td></tr>
+					<tr><td>2018</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503321">Yuri González</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2019</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3518736">Carlos Daniel Albornoz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2020</td><td>GM</td><td><a href="https://ratings.fide.com/card.phtml?event=3518736">Carlos Daniel Albornoz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+	            </tbody>
+		        </table>
+		   </div>
+	    </div> 
+	    
+	    <div id="female-champ" class="row  champ" style="display:none;">
+			<div class="col-lg-6 col-md-6">
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td>Año</td><td></td><td>Jugador</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody>
+					<tr><td>1990</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501280">Vivian Ramón</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1991</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501280">Vivian Ramón</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1992</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1993</td><td>WGM</td><td><a href="http://ratings.fide.com/card.phtml?event=3501426">Roquelina Fandiño</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1994</td><td>WIM</td><td><a href="http://ratings.fide.com/card.phtml?event=2219344">Yudania Hernández</a></td><td class="center"><img class="flag-mini" alt="España" title="España" src="../../assets/images/flags-mini/es.png"></td></tr>
+					<tr><td>1995</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501868">Mayrelis Delgado</a></td><td class="center"><img class="flag-mini" alt="España" title="España" src="../../assets/images/flags-mini/es.png"></td></tr>
+					<tr><td>1997</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1998</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501280">Vivian Ramón</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>1999</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501868">Mayrelis Delgado</a></td><td class="center"><img class="flag-mini" alt="España" title="España" src="../../assets/images/flags-mini/es.png"></td></tr>
+					<tr><td>2000</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501280">Vivian Ramón</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2001</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2002</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2003</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2004</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2005</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Sulennis Piña</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>					
+	            </tbody>
+		        </table>
+		   </div>
+		   <div class="col-lg-6 col-md-6">
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td>Año</td><td></td><td>Jugadora</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody >					
+					<tr><td>2006</td><td>WIM</td><td><a href="http://ratings.fide.com/card.phtml?event=3501558">Milena Campos</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>					
+					<tr><td>2007</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2008</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2009</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2010</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3504794">Oleiny Linares</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2011</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503950">Yaniet Marrero</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2012</td><td>WIM</td><td><a href="https://ratings.fide.com/card.phtml?event=3506487">Lisandra Llaudy</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2013</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2014</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3503739">Sulennis Piña</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>					
+					<tr><td>2015</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3501418">Maritza Arribas</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2016</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3504794">Oleiny Linares</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2017</td><td>WIM</td><td><a href="https://ratings.fide.com/card.phtml?event=3507700">Yerisbel Miranda</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2018</td><td>WIM</td><td><a href="https://ratings.fide.com/card.phtml?event=3506487">Lisandra Llaudy</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2019</td><td>WGM</td><td><a href="https://ratings.fide.com/card.phtml?event=3504794">Oleiny Linares</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+					<tr><td>2020</td><td>IM</td><td><a href="https://ratings.fide.com/card.phtml?event=3506940">Lisandra Ordaz</a></td><td class="center"><img class="flag-mini" alt="Cuba" title="Cuba" src="../../assets/images/flags-mini/cu.png"></td></tr>
+	            </tbody>
+		        </table>
+		   </div>
+	    </div>
+  
+		
+  </div>
+  </div>
+  
+  
+   <div class="text-block">
+	    <p>
+		Estos 8 ajedrecistas no solo resultaron campeones nacionales sino que también conformaron equipos cubanos en distintas competencias.
+		Otros integrantes de esos equipos tampoco compiten hoy por Cuba la mayor de las Antillas.
+		</p>
+	    <p>
+	    Cuando se revisan los equipos nacionales a las últimas 14 Olimpiadas mundiales en las que Cuba participó, solo los de la última edición 
+	    -incluyendo a hombres y mujeres-, Batumi 2018, son los que aún no sufren de la pérdida por transferencia de federación de alguno de sus 
+	    representantes. Pero ello pudiera cambiar en el futuro próximo.
+	    </p>
+		<p>
+		La situación de los equipos masculinos resalta. De las 14 equipos masculinos que Cuba presentó en las Olimpiadas de 1990 a la fecha, sin incluir la
+		de Manila 1992 a la que no se asistió, en 13 de ellos al menos un integrante ya no juega por la federación local. 
+		</p>
+		<p>
+		El caso más crítico es el de la formación que nos representó en Khanty-Mansiysk. En aquella ocasión el equipo estuvo integrado
+		por Leinier Dominguez, Lázaro Bruzón, Yuniesky Quesada, Fidel Corrales y Holden Hernández, actualmente todos ellos
+		representan a la Federación de Estados Unidos.
+		</p>
+		<p>
+		Lo notorio es que también los resultados de los equipos nacionales se resienten. En Batumi 2018, el equipo masculino
+		obtuvo la posición 61, que es la peor ubicación de la Isla en las Olimpiadas Mundiales de Ajedrez. Y si nos guiamos por el ranking
+		mundial por equipos, donde se dominaba en Latinoamérica, Cuba hoy -julio de 2020- se ubica en la posición 33 superados por Argentina (20), 
+		Perú (27) y Brasil (29).
+		</p>
+	</div>
+  
+ 
+  
+  <div id="olimpic-info" class="media-block main-border border">
+        <div class="graph-text main-text center" >
+       Equipos Cuba a las Olimpiadas de Ajedrez 1990-2020
+        </div>
+        <div class="main-text center" >
+        Seleccione la Olimpiada <select id="olimpiad">
+        </select>
+        </div>
+        <div id="olimpic-teams" class="graph">
+        <div  class="row">
+			<div class="col-lg-6 col-md-6">
+				<p class="main-text center"><span class="bold">Equipo Masculino</span> - Lugar: <span id="mplace"></span> / Puntos: <span id="mpoint"></span></p>
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td></td><td>Jugador</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody id="male-body">
+	            </tbody>
+		        </table>
+		   </div>
+		   <div class="col-lg-6 col-md-6">
+				<p class="main-text center"><span class="bold">Equipo Femenino</span> - Lugar: <span id="fplace"></span> / Puntos: <span id="fpoint"></span></p>
+	            <table  class="table table-striped table-condensed table-hover main-text">
+	            <thead><tr class="bd"><td></td><td>Jugadora</td><td class="center">Fed. Actual</td></tr></thead>
+	            <tbody id="female-body">
+	            </tbody>
+		        </table>
+		   </div>
+	    </div> 
+  </div>
+  </div>
+  
+
+  
+  
+  
+  <div class="text-block">
+	    <p>
+	    La dinámica de transferencias entre federaciones en el Ajedrez no parece que vaya a cambiar en el futuro inmediato. Los jugadores, 
+	    aún los más talentosos, cambiarán de equipo por distintas razones. Cuba, con tradición ajedrecística reconocida, seguirá insertada,
+	    probablemente con protagonismo, dentro de ese fenómeno.
+	    </p>
+		<p>
+		Los federativos y directivos del ajedrez y el deporte cubano deberían plantearse una estrategia práctica para enfrentar este asunto. Pero
+		ello debería tener un enfoque basado en una realidad deportiva, migratoria, económica y social que no tiene nada que ver con la de
+		años atrás. La mala noticia es que esto no parece que ocurrirá pronto. La reciente disputa, sin considerar quien tiene la razón, con 
+		el joven GM Roberto García Pantoja es un vívido ejemplo de ello.
+		</p>
+		<p>
+		Entonces, si no se reacciona pronto, no será nada extraño que del <a href="http://www.jit.cu/NewsDetails.aspx?idnoticia=148773">equipo</a> 
+		que nos representará en la Olimpiada Mundial Online que comienza el día 22 de julio, con talentososo ajedrecistas como Carlos Daniel Albornoz 
+		e Ineymig Hernández, varios no representen a Cuba en el futuro. 
+		</p>
+	</div>
+    
+  
+    
+    
+    
+   
+  
+    
+     <div id="countries-info" class="media-block main-border border">
+        <div class="graph-text main-text center">
+        Explore las transferencias entre las distintas federaciones 2000-2020
+        </div>
+        <div class="graph">
+        <div class="main-text center">
+        Seleccione un país: <span><select  id="countries" ><option value="none" selected="selected">-------</option></select></span>
+        </div>
+        <div id="country-info-block" class="main-text" style="display:none;">
+	         <div  class="main-text bold center"><span id="country-flag"></span> <span id="country-name"></span> </div>
+	         <div id="more-less">
+		         <div id="more-trans" class="center"><span id="more-trans-num" class="bold"></span> desde <span id="more-trans-country"  class="bold"></span> con destino a <span id="more-trans-countries" class="bold"></span> </div>
+		         <div id="less-trans" class="center"><span id="less-trans-num" class="bold"></span> desde <span id="less-trans-countries" class="bold"></span> con destino a <span id="less-trans-country"  class="bold"></span> </div>
+	         </div>
+	         <div id="select-more-less" class="center">
+				Transferencias <select id="trans-type"></select> <span id="country-base" class="bold"></span> respecto a <select id="trans-countries-action"></select>
+	         </div>
+	         <div id="transfer-table">
+	            <table  class="table table-striped table-condensed table-hover main-text">
+			        <thead><tr class="bd"><td >Ajedrecista</td><td>Año</td><td></td></tr></thead>
+			        <tbody id="players"></tbody>
+		        </table>
+	        </div>
+        </div>
+        </div>
+    </div>
+    
+  
+
+<div class="media-block">
+             <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >¿Cómo se hizo?</span>
+             </div>
+             <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología</span>
+             </div>
+    <div id="metodology" style="display:none">
+    <div class="text-block" style="padding-top:20px;padding-bottom:20px;">
+    <p>
+    El artículo está hecho en base a losr <a href="https://ratings.fide.com/fedchange.phtml">reportes de transferencia</a> publicados por la <a href="http://www.fide.com">FIDE</a>
+    donde se listan los <span class="it">transfers</span> desde 2000 hasta lo transcurrido de 2020. Estos documentos fueron procesados para obtener los datos
+    reflejados en el artículo.   
+    </p>
+    <p>
+		Para obtener estos documentos se descargaron, usando <span class="it">wget</span>, todos los documentos <span class="it">whtml</span> con la
+		información relativa a los <span class="it">transfers</span> por cada año desde 2000 hasta 2020. Posteriormente, usando <span class="it">python</span>,
+		se creo un programa que <span class="it">parsea</span> los <span class="it">html</span> y crea un  <a href="data/transferencias.json">documento json</a> 
+		con la información de los distintos <span class="it">transfers</span>.
+    </p>
+    
+    <p>
+	Luego este documento se revisó manualmente. En este chequeo manual de las transferencias se detectaron algunas inconsistencias de los datos, las cuales, 
+    luego de la verificación utilizando otras fuentes, fueron subsanadas. Otras, que no se pudieron certificar como errores fueron dejadas tal 
+    como se obtuvieron de las fuentes originales. 
+    </p>
+    
+    <p>
+    Como inconsistencia principal se detectó que existían transferencias repetidas así como otras donde
+    no estaban correctamente especificados las federaciones involucradas en las transferencias. También fueron homogenizados algunos datos 
+    relativos a las siglas de los países. Igualmente, se matuvieron las transferencias de países que compiten ahora bajo la <a href="http://www.fide.com">FIDE</a>.
+    </p>
+    
+   <p>
+    Asimismo, se estructuraron en un <a href="data/olimpiadas.json">documento json</a> los datos relativos a los ajedrecistas y equipos cubanos, tanto masculino
+    como femenino, en las Olimpiadas Mundiales de Ajedrez desde 1990 hasta 2018. En este caso se tomó como referencia principal los datos obtenidos de
+    <a href="http://www.olimpbase.org/">olimpbase</a>.
+   </p>
+    
+    <p>Para las visualizaciones se utilizó <a href="http://c3js.org/">C3.js</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://https://getbootstrap.com//">Bootstrap</a>.
+    </p>
+    </div>
+    <div id="winner-more">
+             <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)" style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+             <span >Cerrar la metodología</span>
+             </div>
+    </div>
+    </div>
+    
+ 
+  </div>
+ 
+ <div class="media-block notes">
+   <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html"  target='_blank'><div class="cursor  facebook-color"><i class="fa fa-facebook" ></i> Facebook</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="https://twitter.com/share?url=http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html&amp;text=Las%20patrias%20del%20atletismo&amp;hashtags=#postdataclub" target='_blank'><div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div></a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;" href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Las patrias del atletismo http://www.postdata.club/suplementos/iaaf/las-patrias-del-atletismo.html"  target='_blank'><div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div></a></div>
+    </div>
+   </div> 
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/suplementos/fide/ajedrez-sin-fronteras.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-202008-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+   <div class="read-more main-text">
+    Lea también:
+    </div>
+    
+    <div class="other-news row">
+    
+         <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../iaaf/las-patrias-del-atletismo.html">Las patrias del atletismo</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block main-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/cuba-en-las-mayores.html">Cuba en las mayores</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+            </div>
+            </div>
+        </div>	
+    
+        <div class="col-lg-4 col-md-4 container" >
+         <div class="news-block article-color  ">
+            <div class="title-author-block">
+            <div class="front-news-title"><a href="../../issues/201611/mlb-un-juego-de-ninos.html">MLB: ¿un juego de niños?</a></div>
+            <div class="front-news-author">Por <a href="../../equipo/julio.html">Julio Batista</a></div>
+            </div>
+            </div>
+        </div>
+  
+    </div>
+     
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="../../assets/js/c3.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/sankey.js"></script>
+    <script src="js/fide.js"></script>
+    <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+   <script>
+    function show_profile(idp,open) {
+        opening = '#open-'+idp;
+        closing = '#close-'+idp;
+        if (open) {
+            $(opening).hide();
+            $(closing).show();
+            $('#'+idp).show();
+        } else {
+            $('#'+idp).hide();
+            $(opening).show();
+            $(closing).hide();
+        }
+    }
+    </script>
+
+  </body>
+</html>
