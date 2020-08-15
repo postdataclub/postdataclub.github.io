@@ -144,69 +144,75 @@
     
     <div class="text-block">
         <p>
-		La generación automática de noticias comienza a ser ya una realidad en muchas redacciones del mundo. Son varios los sistemas
-		computacionales que, en determinados dominios, generan informaciones o textos noticiosos que luego, pasando o no por un proceso
-		de edición, llega a las portadas de varios sitios informativos. Existen preocupaciones al respecto: ¿cómo influirá esto
-		en las dinámicas de empleo en el sector? ¿no podrían generar información incorrecta? ¿deben los textos ser creados automáticamente 
-		sin una edición o supervisión humana?  Lo que es un hecho es que este fenómeno es una realidad cada vez más latente. Además,
-		es innegable su utilidad en muchos escenarios donde se debe cubrir un gran número de hechos a la misma vez. 
+		La generación automática de noticias es ya una realidad en muchas redacciones del mundo. Son varios los sistemas 
+		computacionales que, en determinados dominios, generan informaciones o textos noticiosos que luego, pasando o no por 
+		un proceso de edición, llega a las portadas de varios sitios informativos. Existen preocupaciones al respecto: 
+		¿cómo influirá esto en las dinámicas de empleo en el sector? ¿podrían generar información incorrecta? 
+		¿deben los textos ser creados automáticamente sin una edición o supervisión humana? Lo que si es un hecho es 
+		que este fenómeno es una realidad cada vez más latente. Además, es innegable su utilidad en muchos escenarios 
+		donde se debe cubrir un gran número de hechos a la misma vez.	
+        </p>
+        
+        <p>
+		En este contexto, en <a href="../index.html">Postadata.club</a>, quisimos explorar la factibilidad de la 
+		generación automática de noticias para poder valorar, de primera mano, sus posibilidades y problemáticas. 
+		Así, con la colaboración protagónica del Grupo de Inteligencia Artificial de la Facultad de Matemática y 
+		Computación de la Universidad de La Habana, nos lanzamos a experimentar.	
         </p>
         <p>
-        En este contexto, en <a href="../index.html">Postadata.club</a>, quisimos explorar la factibilidad de la generación automática
-        de noticias para poder valorar, de primera mano, sus posibilidades y problemáticas. Así, con la colaboración protagónica del
-        Grupo de Inteligencia Artificial de la Facultad de Matemática y Computación de la Universidad de La Habana, nos lanzamos a 
-        experimentar.
+		Como punto de partida, definimos un dominio en el cuál existieran datos frecuentes que se tomaran para generar 
+		las informaciones y que, además, necesitaran una cobertura periódica. En este caso optamos por el béisbol. 
+		Es nuestro deporte nacional, se cubren temporadas completas y los partidos generan datos suficientes. 
+		Como primera aproximación, nos centramos en la temporada de 2020 de las <a href="https://www.mlb.com">Grandes Ligas (MLB)</a> que será, además, 
+		una temporada corta por la incidencia de la Covid-19, lo que nos ofrece un escenario de experimentación interesante 
+		para la valoración del experimento. Por supuesto, dentro de la MLB decidimos enfocarnos en reportar la actuación de los jugadores cubanos.	
         </p>
         <p>
-        Como punto de partida, definimos un dominio en el cuál existieran datos frecuentes que se tomaran para generar las informaciones
-        y que, además, necesitara un cobertura periódica. En este caso optamos por el béisbol. Es nuestro deporte nacional, se cubren temporadas
-        completas y los partidos generan datos suficientes. Como primera aproximación, nos centramos en la temporada de 2020 de las 
-        <a href="https://www.mlb.com">Grandes Ligas (MLB)</a> que, además, por la pandemia de la Covid-19, será un temporada corta, 
-        lo que nos daría un escenario de experimentación interesante para la valoración del experimento. Por supuesto, dentro de 
-        la MLB nos enfocaríamos en reportar la actuación de los jugadores cubanos.
+		El enfoque de las informaciones a generar fue simple: un reporte diario. Así, en cada jornada se identifican 
+		los peloteros cubanos que intervinieron en cada partido celebrado y, luego, se describe su actuación e incidencia 
+		en los resultado de los equipos para los que juegan. Para ello en cada nota se toma como patrón el énfasis en aquellos 
+		jugadores que destacaron sobre el resto y posteriormente se relata resumidamente la actuación del resto de los peloteros cubanos.
         </p>
         <p>
-        El enfoque de los informaciones a generar sería simple: un reporte diario. Así, en cada jornada, habría que identificar en los partidos
-        celebrados a los peloteros cubanos que intervinieron en estos y, luego, describir la actuación de ellos en resultado de los equipos para
-        los que juegan. Para ello se tomó como patrón que se haría énfasis en aquellos jugadores que destacaron sobre el resto y posteriormente
-        se relataría resumidamente la actuación del resto de los peloteros cubanos.
+		Como fuente de datos del sistema se utilizó el sitio <a href="https://www.baseball-reference.com/">Baseball-Reference</a>, que reporta 
+		las estadísticas de los partidos de cada jornada y tiene una amplia base de datos de los jugadores de la MLB. En cada jornada 
+		se obtienen y se estructuran los datos de los partidos celebrados y los jugadores cubanos que participaron en ellos.	
         </p>
         <p>
-        Como fuente de datos del sistema se tomó el sitio <a href="https://www.baseball-reference.com/">Baseball-Reference</a>, que reporta
-        las estadísticas de los partidos de cada jornada y tiene una amplia base de datos de los jugadores de la MLB. Así, en cada jornada
-        se obtendrían, y se estructurarían, los datos de los partidos celebrados y los jugadores cubanos que participaron en ellos.
+		Con los datos de cada partido y lo hecho por los cubanos, lo siguiente será determinar qué jugadores fueron relevantes en el día. 
+		Para ello se colectó del sitio de noticias <a href="https://www.espn.com">ESPN</a> información de los jugadores destacados 
+		por jornada en temporadas anteriores. Con esta información, complementada con las estadísticas de 
+		<a href="https://www.baseball-reference.com/">Baseball-Reference</a> se construyó un conjunto de entrenamiento 
+		que permite la creación de un modelo de aprendizaje de máquina para clasificar la actuación de los jugadores en cada jornada. 
+		Como modelo de aprendizaje se utilizó una <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_log%C3%ADstica">Regresión Logística</a>. 
+		El código se puede consultar en <a href="https://github.com/Roberbg97/outstandings_players_classifier">Github</a>.	
         </p>
         <p>
-        Con los datos de cada partido y lo hecho por los cubanos, lo siguiente era determinar qué jugadores fueron relevantes en el día. Para ello se colectó
-        del sitio de noticias <a href="https://www.espn.com">ESPN</a> información de los jugadores destacados por jornada en temporadas 
-        anteriores. Con esta información, complementada con las estadísticas de <a href="https://www.baseball-reference.com/">Baseball-Reference</a>
-        se construyó un conjunto de entrenamiento que permitiera la creación de un modelo de aprendizaje de máquina para clasificar la actuación
-        de los jugadores en cada jornada. Como modelo de aprendizaje se utilizó una <a href="">Regresión Logístico<a>. El código se puede consultar en 
-        <a href="https://github.com/Roberbg97/outstandings_players_classifier">Github</a>.
+		Teniendo los datos de cada partido de la jornada y los jugadores más destacados, se puede generar el texto del reporte. 
+		Para ello, en esta primera versión, se adoptó una estrategia basada en reglas. Se definieron un conjunto de reglas 
+		para las distintas situaciones posibles y con plantillas de oraciones y partes de ellas, se obtiene el texto final. 
+		Por cada posible oración o partes de ellas, se redactaron varias alternativas que podían ser seleccionadas indistintamente. 
+		Un esquema similar se adoptó con los títulos. Para el resumen de la noticia se utilizó el algoritmo que provee 
+		<a href="https://radimrehurek.com/gensim/">Gensim</a>. De esta manera, se genera, por cada jornada, la información 
+		a publicar: título, resumen y contenido del reporte. La primera versión del código que realiza este proceso se puede 
+		consultar en <a href="https://github.com/gia-uh/baseball_cubans_news_generation">Github</a>.	
         </p>
         <p>
-        Teniendo los datos de cada partido dela jornada y los jugadores más destacados, tocaba generar el texto del reporte. Para ello, en esta
-        primera versión, se adoptó una estrategia basada en reglas. Se definieron un conjunto de reglas para las distintas situaciones posibles
-        y con plantillas de oraciones y partes de ellas, se obtiene el texto final. Por cada posible oración o partes de ellas, se redactaron
-        varias alternativas qeu podían ser seleccionadas indistintamente. Un esquema similar se adoptó con los títulos. Para el resumen de la noticia
-        se utilizó el algoritmo que porvee <a href="https://radimrehurek.com/gensim/">Gensim</a>. De esta manera, se genera, por cada jornada, la información a publicar: título,
-        resumen y contenido del reporte. La primera versión del código que realiza este proceso se puede consultar en 
-        <a href="https://github.com/gia-uh/baseball_cubans_news_generation">Github</a>.
+		Para la publicación de las noticias diarias se utilizó el modelo que propone 
+		<a href="https://pages.github.com/">Github Pages</a> y los <a href="https://github.com/features/actions">Actions</a> de Github. 
+		Diariamente se ejecuta desde el <a href="https://github.com/postdataclub/cubanos_en_mlb/">repositorio</a> del sitio de noticias 
+		una tarea programada que genera la noticia y la adiciona a un archivo en formato <span class="it">JSON</span>. 
+		Con este archivo, utilizando <span class="it">HTML5</span>, <span class="it">Javascript</span> y <span class="it">JQuery</span>, 
+		es que se visualizan en cada navegador las noticias que diariamente nos <span class="it">redacta</span>  <span class="bd">Armanbot</span>.	
         </p>
         <p>
-        Para la publicación de las noticias diariamente se utilizó el modelo que propone <a href="https://pages.github.com/">Github Pages</a> y 
-        los <a href="https://github.com/features/actions">Actions</a> de Github. Diariamente
-        se ejecuta desde el <a href="https://github.com/postdataclub/cubanos_en_mlb/">repositorio</a> del sitio de noticia 
-        una tarea programada que genera la noticia y la adiciona a un archivo en formato
-        <span class="it">JSON</span>. Con este archivo, utilizando <span class="it">HTML5</span>, <span class="it">Javascript</span> y <span class="it">JQuery</span>, 
-        es que se visualizan en cada navegador las noticias que diariamente nos <span class="it">redacta</span> <span class="bd">Armanbot</span>.
+		Por cierto, <span class="bd">Armanbot</span>, en pequeño homenaje a 
+		<a href="https://www.ecured.cu/Armandito_el_Tintorero">Armandito <span class="it">El tintorero</span></a>, 
+		es el nombre que le hemos dado al sistema que reporta la actuación diaria de los cubanos en las Grandes Ligas. 
+		Ahora solo queda que visiten diariamente nuestro sitio <a href="http://www.postdata.club/cubanos_en_mlb">Cubanos en MLB</a> 
+		y nos den sus opiniones, críticas y valoraciones sobre este primer experimento que hacemos en el área de la generación automática de noticias.	
         </p>
-        <p>
-		<span class="bd">Armanbot</span>, en pequeño homenaje a <a href="https://www.ecured.cu/Armandito_el_Tintorero">Armandito <span class="it">El tintorero</span></a>, 
-		es el nombre que le hemos dado al <span class="it">bot</span> que reporta la actuación diaria de los cubanos en las Grandes Ligas. 
-		Ahora solo queda que visiten diariamente nuestro sitio <a href="http://www.postdata.club/cubanos_en_mlb">Cubanos en MLB</a> y nos 
-		den sus opiniones, críticas y valoraciones sobre este primer experimento que hacemos en el área de la generación automática de noticias.
-        </p>
+        <a href="https://www.postdata.club/cubanos_en_mlb/"><img style="width:100%;" src="images/banner-short.jpg"></a>
         </div>
         
         
