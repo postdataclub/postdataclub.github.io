@@ -1,0 +1,579 @@
+{   
+    "source": "https://es.globalpetrolprices.com/electricity_prices/",
+    "ave-price-kw": 0.141,
+    "date": "03/2020",
+    "countries-price-kw": [
+        {
+            "country": "Burkina Faso",
+            "price-kw": 0.228
+        },
+        {
+            "country": "Belize",
+            "price-kw": 0.227
+        },
+        {
+            "country": "Suiza",
+            "price-kw": 0.232
+        },
+        {
+            "country": "España",
+            "price-kw": 0.242
+        },
+        {
+            "country": "Nueva Zelanda",
+            "price-kw": 0.239
+        },
+        {
+            "country": "Mali",
+            "price-kw": 0.238
+        },
+        {
+            "country": "Guatemala",
+            "price-kw": 0.242
+        },
+        {
+            "country": "Jamaica",
+            "price-kw": 0.249
+        },
+        {
+            "country": "Rep. Checa",
+            "price-kw": 0.248
+        },
+        {
+            "country": "Australia",
+            "price-kw": 0.251
+        },
+        {
+            "country": "Austria",
+            "price-kw": 0.251
+        },
+        {
+            "country": "Rwanda",
+            "price-kw": 0.259
+        },
+        {
+            "country": "Luxemburgo",
+            "price-kw": 0.257
+        },
+        {
+            "country": "Liechtenstein",
+            "price-kw": 0.273
+        },
+        {
+            "country": "Reino Unido",
+            "price-kw": 0.267
+        },
+        {
+            "country": "Italia",
+            "price-kw": 0.269
+        },
+        {
+            "country": "Barbados",
+            "price-kw": 0.275
+        },
+        {
+            "country": "Chipre",
+            "price-kw": 0.282
+        },
+        {
+            "country": "Japón",
+            "price-kw": 0.289
+        },
+        {
+            "country": "Irlanda",
+            "price-kw": 0.287
+        },
+        {
+            "country": "Cabo verde",
+            "price-kw": 0.301
+        },
+        {
+            "country": "Bahamas",
+            "price-kw": 0.312
+        },
+        {
+            "country": "Islas Caimán",
+            "price-kw": 0.312
+        },
+        {
+            "country": "Bélgica",
+            "price-kw": 0.322
+        },
+        {
+            "country": "Portugal",
+            "price-kw": 0.320
+        },
+        {
+            "country": "Dinamarca",
+            "price-kw": 0.337
+        },
+        {
+            "country": "Bermudas",
+            "price-kw": 0.373
+        },
+        {
+            "country": "Alemania",
+            "price-kw": 0.389
+        },
+        {
+            "country": "Gabón",
+            "price-kw": 0.227
+        },
+        {
+            "country": "Grecia",
+            "price-kw": 0.225
+        },
+        {
+            "country": "Nicaragua",
+            "price-kw": 0.218
+        },
+        {
+            "country": "Francia",
+            "price-kw": 0.218
+        },
+        {
+            "country": "Eslovaquia",
+            "price-kw": 0.211
+        },
+        {
+            "country": "Togo",
+            "price-kw": 0.214
+        },
+        {
+            "country": "Eslovenia",
+            "price-kw": 0.212
+        },
+        {
+            "country": "El Salvador",
+            "price-kw": 0.206
+        },
+        {
+            "country": "Honduras",
+            "price-kw": 0.208
+        },
+        {
+            "country": "Países Bajos",
+            "price-kw": 0.195
+        },
+        {
+            "country": "Polonia",
+            "price-kw": 0.200
+        },
+        {
+            "country": "Letonia",
+            "price-kw": 0.196
+        },
+        {
+            "country": "Perú",
+            "price-kw": 0.196
+        },
+        {
+            "country": "Kenya",
+            "price-kw": 0.201
+        },
+        {
+            "country": "Rumanía",
+            "price-kw": 0.186
+        },
+        {
+            "country": "Uruguay",
+            "price-kw": 0.185
+        },
+        {
+            "country": "Singapur",
+            "price-kw": 0.194
+        },
+        {
+            "country": "Finlandia",
+            "price-kw": 0.187
+        },
+        {
+            "country": "Chile",
+            "price-kw": 0.190
+        },
+        {
+            "country": "Senegal",
+            "price-kw": 0.191
+        },
+        {
+            "country": "Aruba",
+            "price-kw": 0.185
+        },
+        {
+            "country": "Estonia",
+            "price-kw": 0.178
+        },
+        {
+            "country": "Filipinas",
+            "price-kw": 0.185
+        },
+        {
+            "country": "Suecia",
+            "price-kw": 0.184
+        },
+        {
+            "country": "Lituania",
+            "price-kw": 0.181
+        },
+        {
+            "country": "Uganda",
+            "price-kw": 0.184
+        },
+        {
+            "country": "Croacia",
+            "price-kw": 0.165
+        },
+        {
+            "country": "Panamá",
+            "price-kw": 0.169
+        },
+        {
+            "country": "Israel",
+            "price-kw": 0.174
+        },
+        {
+            "country": "Sierra Leona",
+            "price-kw": 0.160
+        },
+        {
+            "country": "Colombia",
+            "price-kw": 0.159
+        },
+        {
+            "country": "Malta",
+            "price-kw": 0.161
+        },
+        {
+            "country": "Brasil",
+            "price-kw": 0.155
+        },
+        {
+            "country": "Macao",
+            "price-kw": 0.151
+        },
+        {
+            "country": "Estados Unidos",
+            "price-kw": 0.147
+        },
+        {
+            "country": "Hong Kong",
+            "price-kw": 0.150
+        },
+        {
+            "country": "Mauricio",
+            "price-kw": 0.151
+        },
+        {
+            "country": "Costa Rica",
+            "price-kw": 0.155
+        },
+        {
+            "country": "Camboya",
+            "price-kw": 0.149
+        },
+        {
+            "country": "Bulgaria",
+            "price-kw": 0.138
+        },
+        {
+            "country": "Islandia",
+            "price-kw": 0.139
+        },
+        {
+            "country": "Costa de Marfil",
+            "price-kw": 0.134
+        },
+        {
+            "country": "Tailandia",
+            "price-kw": 0.127
+        },
+        {
+            "country": "Marruecos",
+            "price-kw": 0.130
+        },
+        {
+            "country": "Hungría",
+            "price-kw": 0.126
+        },
+        {
+            "country": "Namibia",
+            "price-kw": 0.131
+        },
+        {
+            "country": "Sudáfrica",
+            "price-kw": 0.134
+        },
+        {
+            "country": "Bolivia",
+            "price-kw": 0.118
+        },
+        {
+            "country": "Mozambique",
+            "price-kw": 0.121
+        },
+        {
+            "country": "Malawi",
+            "price-kw": 0.125
+        },
+        {
+            "country": "Madagascar",
+            "price-kw": 0.121
+        },
+        {
+            "country": "Albania",
+            "price-kw": 0.111
+        },
+        {
+            "country": "Corea del sur",
+            "price-kw": 0.113
+        },
+        {
+            "country": "Jordania",
+            "price-kw": 0.111
+        },
+        {
+            "country": "Canadá",
+            "price-kw": 0.110
+        },
+        {
+            "country": "Swazilandia",
+            "price-kw": 0.115
+        },
+        {
+            "country": "Moldavia",
+            "price-kw": 0.109
+        },
+        {
+            "country": "Bosnia y Herzegovina",
+            "price-kw": 0.108
+        },
+        {
+            "country": "Lesotho",
+            "price-kw": 0.102
+        },
+        {
+            "country": "Serbia",
+            "price-kw": 0.097
+        },
+        {
+            "country": "Ecuador",
+            "price-kw": 0.096
+        },
+        {
+            "country": "Noruega",
+            "price-kw": 0.101
+        },
+        {
+            "country": "Tanzania",
+            "price-kw": 0.099
+        },
+        {
+            "country": "Indonesia",
+            "price-kw": 0.104
+        },
+        {
+            "country": "Taiwan",
+            "price-kw": 0.100
+        },
+        {
+            "country": "Camerún",
+            "price-kw": 0.092
+        },
+        {
+            "country": "Sri Lanka",
+            "price-kw": 0.085
+        },
+        {
+            "country": "Macedonia",
+            "price-kw": 0.087
+        },
+        {
+            "country": "Rep. Dominicana",
+            "price-kw": 0.088
+        },
+        {
+            "country": "Turquía",
+            "price-kw": 0.091
+        },
+        {
+            "country": "Botswana",
+            "price-kw": 0.090
+        },
+        {
+            "country": "México",
+            "price-kw": 0.084
+        },
+        {
+            "country": "Túnez",
+            "price-kw": 0.078
+        },
+        {
+            "country": "Armenia",
+            "price-kw": 0.083
+        },
+        {
+            "country": "China",
+            "price-kw": 0.083
+        },
+        {
+            "country": "Emiratos Árabes Unidos",
+            "price-kw": 0.081
+        },
+        {
+            "country": "India",
+            "price-kw": 0.082
+        },
+        {
+            "country": "Líbano",
+            "price-kw": 0.077
+        },
+        {
+            "country": "Viet Nam",
+            "price-kw": 0.081
+        },
+        {
+            "country": "Nigeria",
+            "price-kw": 0.067
+        },
+        {
+            "country": "Bielorrusia",
+            "price-kw": 0.074
+        },
+        {
+            "country": "Bangladesh",
+            "price-kw": 0.066
+        },
+        {
+            "country": "Argentina",
+            "price-kw": 0.072
+        },
+        {
+            "country": "Nepal",
+            "price-kw": 0.074
+        },
+        {
+            "country": "Georgia",
+            "price-kw": 0.056
+        },
+        {
+            "country": "Rusia",
+            "price-kw": 0.060
+        },
+        {
+            "country": "Congo Democrático",
+            "price-kw": 0.062
+        },
+        {
+            "country": "Pakistán",
+            "price-kw": 0.059
+        },
+        {
+            "country": "Laos",
+            "price-kw": 0.063
+        },
+        {
+            "country": "Paraguay",
+            "price-kw": 0.067
+        },
+        {
+            "country": "Ghana",
+            "price-kw": 0.062
+        },
+        {
+            "country": "Arabia Saudita",
+            "price-kw": 0.048
+        },
+        {
+            "country": "Bahrein",
+            "price-kw": 0.048
+        },
+        {
+            "country": "Ucrania",
+            "price-kw": 0.046
+        },
+        {
+            "country": "Afganistán",
+            "price-kw": 0.049
+        },
+        {
+            "country": "Myanmar",
+            "price-kw": 0.046
+        },
+        {
+            "country": "Trinidad y Tobago",
+            "price-kw": 0.052
+        },
+        {
+            "country": "Argelia",
+            "price-kw": 0.041
+        },
+        {
+            "country": "Kazajstán",
+            "price-kw": 0.041
+        },
+        {
+            "country": "Azerbaiyán",
+            "price-kw": 0.041
+        },
+        {
+            "country": "Egipto",
+            "price-kw": 0.036
+        },
+        {
+            "country": "Omán",
+            "price-kw": 0.026
+        },
+        {
+            "country": "Qatar",
+            "price-kw": 0.032
+        },
+        {
+            "country": "Kuwait",
+            "price-kw": 0.030
+        },
+        {
+            "country": "Iraq",
+            "price-kw": 0.029
+        },
+        {
+            "country": "Uzbekistán",
+            "price-kw": 0.028
+        },
+        {
+            "country": "Zambia",
+            "price-kw": 0.031
+        },
+        {
+            "country": "Suriname",
+            "price-kw": 0.023
+        },
+        {
+            "country": "Bhután",
+            "price-kw": 0.017
+        },
+        {
+            "country": "Angola",
+            "price-kw": 0.018
+        },
+        {
+            "country": "Etiopía",
+            "price-kw": 0.009
+        },
+        {
+            "country": "Kirguistán",
+            "price-kw": 0.010
+        },
+        {
+            "country": "Zimbabwe",
+            "price-kw": 0.013
+        },
+        {
+            "country": "Libia",
+            "price-kw": 0.015
+        },
+        {
+            "country": "Irán",
+            "price-kw": 0.004
+        }
+    ]
+}

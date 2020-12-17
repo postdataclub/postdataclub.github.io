@@ -1,0 +1,176 @@
+{
+    "source-household-kw-consumption": "https://www.odyssee-mure.eu/publications/efficiency-by-sector/households/electricity-consumption-dwelling.html",
+    "date-kw-year": 2017,
+    "source-real-gdp-percapita": "https://ec.europa.eu/eurostat/databrowser/view/sdg_08_10/default/table?lang=en",
+    "date-real-gdp-percapita": 2019,
+    "countries": [
+        {
+            "country": "Rumanía",
+            "kw-year": 1639,
+            "real-gdp-percapita": 9120,
+            "rate": 0.186
+        },
+        {
+            "country": "Lituania",
+            "kw-year": 1963,
+            "real-gdp-percapita": 14010,
+            "rate": 0.181
+        },
+        {
+            "country": "Letonia",
+            "kw-year": 2022,
+            "real-gdp-percapita": 12510,
+            "rate": 0.196
+        },
+        {
+            "country": "Polonia",
+            "kw-year": 2124,
+            "real-gdp-percapita": 13000,
+            "rate": 0.2
+        },
+        {
+            "country": "Italia",
+            "kw-year": 2651,
+            "real-gdp-percapita": 26920,
+            "rate": 0.269
+        },
+        {
+            "country": "Eslovaquia",
+            "kw-year": 2797,
+            "real-gdp-percapita": 15860,
+            "rate": 0.211
+        },
+        {
+            "country": "Hungría",
+            "kw-year": 2993,
+            "real-gdp-percapita": 13260,
+            "rate": 0.126
+        },
+        {
+            "country": "Países Bajos",
+            "kw-year": 3063,
+            "real-gdp-percapita": 41870,
+            "rate": 0.195
+        },
+        {
+            "country": "Portugal",
+            "kw-year": 3114,
+            "real-gdp-percapita": 18590,
+            "rate": 0.32
+        },
+        {
+            "country": "Alemania",
+            "kw-year": 3334,
+            "real-gdp-percapita": 35840,
+            "rate": 0.389
+        },
+        {
+            "country": "República Checa",
+            "kw-year": 3495,
+            "real-gdp-percapita": 18330,
+            "rate": 0.248
+        },
+        {
+            "country": "Dinamarca",
+            "kw-year": 3535,
+            "real-gdp-percapita": 49720,
+            "rate": 0.337
+        },
+        {
+            "country": "Reino Unido",
+            "kw-year": 3666,
+            "real-gdp-percapita": 32870,
+            "rate": 0.267
+        },
+        {
+            "country": "Bulgaria",
+            "kw-year": 3698,
+            "real-gdp-percapita": 6840,
+            "rate": 0.138
+        },
+        {
+            "country": "Bélgica",
+            "kw-year": 3760,
+            "real-gdp-percapita": 35950,
+            "rate": 0.322
+        },
+        {
+            "country": "España",
+            "kw-year": 3790,
+            "real-gdp-percapita": 25200,
+            "rate": 0.242
+        },
+        {
+            "country": "Luxemburgo",
+            "kw-year": 3876,
+            "real-gdp-percapita": 83640,
+            "rate": 0.257
+        },
+        {
+            "country": "Croacia",
+            "kw-year": 4138,
+            "real-gdp-percapita": 12450,
+            "rate": 0.165
+        },
+        {
+            "country": "Eslovenia",
+            "kw-year": 4280,
+            "real-gdp-percapita": 20700,
+            "rate": 0.212
+        },
+        {
+            "country": "Grecia",
+            "kw-year": 4471,
+            "real-gdp-percapita": 17740,
+            "rate": 0.225
+        },
+        {
+            "country": "Irlanda",
+            "kw-year": 4500,
+            "real-gdp-percapita": 60170,
+            "rate": 0.287
+        },
+        {
+            "country": "Malta",
+            "kw-year": 4555,
+            "real-gdp-percapita": 21800,
+            "rate": 0.161
+        },
+        {
+            "country": "Austria",
+            "kw-year": 4620,
+            "real-gdp-percapita": 38170,
+            "rate": 0.251
+        },
+        {
+            "country": "Chipre",
+            "kw-year": 4624,
+            "real-gdp-percapita": 24570,
+            "rate": 0.282
+        },
+        {
+            "country": "Francia",
+            "kw-year": 5425,
+            "real-gdp-percapita": 33270,
+            "rate": 0.218
+        },
+        {
+            "country": "Finlandia",
+            "kw-year": 7848,
+            "real-gdp-percapita": 37290,
+            "rate": 0.187
+        },
+        {
+            "country": "Suecia",
+            "kw-year": 9601,
+            "real-gdp-percapita": 43900,
+            "rate": 0.184
+        },
+        {
+            "country": "Noruega",
+            "kw-year": 16834,
+            "real-gdp-percapita": 69890,
+            "rate": 0.101
+        }
+    ]
+}

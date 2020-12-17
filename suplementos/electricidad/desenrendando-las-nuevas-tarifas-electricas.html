@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../icon.png">
+
+  <title>Postdata.club - Ajedrez ¿sin fronteras?</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+  <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+  <link href="css/local.css" rel="stylesheet">
+
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   
+     ga('create', 'UA-84667443-1', 'auto');
+     ga('send', 'pageview');
+
+  </script>
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class="logo logo-responsive" src="../../assets/images/logo.png">
+
+
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Autores <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+              <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+              <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+              <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Géneros <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../generos/principales.html">Principales</a></li>
+              <li><a href="../../generos/articulos.html">Artículos</a></li>
+              <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+              <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+              <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+              <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+  <div class="header-pc hidden-xs hidden-sm row">
+    <div class="header-logo col-lg-6 col-md-6">
+      <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+    </div>
+    <div class="header-menu col-lg-3 col-md-3">
+      <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+      </div>
+    </div>
+    <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
+      <div id="generos" style="display:none" class="submenu">
+        <div class="submenu-header">Por géneros:</div>
+        <div><a href="../../generos/principales.html">Principales</a></div>
+        <div><a href="../../generos/articulos.html">Artículos</a></div>
+        <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+        <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+        <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+        <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+      </div>
+      <div id="authors" style="display:none" class="submenu">
+        <div class="submenu-header">Por autores:</div>
+        <div><a href="../../equipo/jessica.html">Jessica Dominguez</a></div>
+        <div><a href="../../equipo/ernesto.html">Ernesto Guerra</a></div>
+        <div><a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+        <div><a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-header row  main-color">
+    <div class="article-news-title">(Des)enredando las nuevas tarifas eléctricas</div>
+    <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span
+        class="article-date">17/12/2020</span></div>
+    <div class="article-new-hr"><img src="../../assets/images/rule.png"></div>
+    <div class="article-news-lead">Un análisis desde un contexto amplio </div>
+    <div class="article-news-image">
+      <img src="images/reloj.jpeg">
+      <div class="image-info row">
+        <div class="image-caption col-lg-9 col-md-9"></div>
+        <div class="image-author col-lg-3 col-md-3">Foto: Ernesto Guerra</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-body">
+
+    <div class="text-block">
+      <p>
+        El proceso del Ordenamiento Monetario y Cambiario en Cuba será una realidad a partir del próximo primero de enero.
+        Esto fue anunciado en una breve intervención, televisada en cadena nacional, por el Presidente de la República, Miguel Díaz Canel, acompañado
+        presencialmente del Primer Secretario del Comité Central del Partido Comunista de Cuba, Raúl Castro Ruz. 
+      </p>
+      <p>
+        Así, desde el primer instante del 2021, regirá en la Isla una tasa de cambio única de 24 CUP (pesos cubanos) por un dólar y cesará la circulación del CUC en un periodo 
+        de 180 días. Sin embargo, con la existencia y la ampliación de las tiendas en Moneda Libremente Convertible (MLC), aún no se puede hablar de unificación monetaria.
+      </p>
+      <p>
+        Este proceso no consiste únicamente en la unificación cambiaria sino que es una modificación mayor que involucra un gran conjunto de medidas: transformaciones salariales,
+        eliminación de subsidios y gratuidades, cambios de tarifas y precios, reajustes fiscales, entre otras. El conjunto de esas medidas se ha publicado en varias Ediciones
+        Extraordinarios de la Gaceta Oficial de la República de Cuba (
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex68.pdf">68</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex69.pdf">69</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex70_0.pdf">70</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex71.pdf">71</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex72_0.pdf">72</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex73_0.pdf">73</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex74.pdf">74</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex75_0.pdf">75</a>,
+          <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex76.pdf">76</a>
+        )
+      </p>
+      <p>
+        Todo este cúmulo de cambios ha suscitado un gran número de comentarios, críticas y preocupaciones. Dentro del grupo de medidas, destaca sobremanera, por el volumen
+        de cuestionamientos, el aumento que sufrirá la tarificación de la electricidad 
+        (<a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex68.pdf">Gaceta Extraordinaria 68 Anexo I</a>).
+      </p>
+    </div>
+
+    <div id="olimpic-info" class="media-block main-border border">
+      <div class="graph">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <table class="table">
+              <thead>
+                <tr class="tm main-text">
+                  <th>Tramo de consumo</th><th>Tarifa antigua</th><th>Tarifa actual</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="ta ta1">
+                  <td>1-100 kWh</td><td>0.09</td><td>0.40</td>
+                </tr>
+                <tr class="ta ta2">
+                  <td>101-150 kWh</td><td>0.30</td><td>1.30</td>
+                </tr>
+                <tr class="ta ta3">
+                  <td>151-200 kWh</td><td>0.40</td><td>1.75</td>
+                </tr>
+                <tr class="ta ta4">
+                  <td>201-250 kWh</td><td>0.60</td><td>3.00</td>
+                </tr>
+                <tr class="ta ta5">
+                  <td>251-300 kWh</td><td>0.80</td><td>4.00</td>
+                </tr>
+                <tr class="ta ta6">
+                  <td>301-350 kWh</td><td>1.50</td><td>7.50</td>
+                </tr>
+                <tr class="ta ta7">
+                  <td>351-500 kWh</td><td>1.80</td><td>9.00</td>
+                </tr>
+                <tr class="ta ta8">
+                  <td>501-1000 kWh</td><td>2.00</td><td>10.00</td>
+                </tr>
+                <tr class="ta ta9">
+                  <td>1000-5000 kWh</td><td>3.00</td><td>15.00</td>
+                </tr>
+                <tr class="ta ta10">
+                  <td>+5000 kWh</td><td>5.00</td><td>25.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="pie-text main-text center">
+              Distribución de los clientes por tramos de consumo
+            </div>
+            <div id="blocks-distribution"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        La nueva tarificación eléctrica aumenta considerablemente y se mantiene con una escala incremental por tramos de consumo. 
+        En en el tramo de menor costo, el gasto por consumo eléctrico en un mes se incrementó, respecto a la tarifa anterior, 
+        4.44 veces  hasta llegar a 5 veces a partir de un consumo igual o superior a los 2347 kWh. Estos incrementos deberían
+        ser asumidos, supuestamente, por los incrementos salariales, sin embargo, no pocos salarios sufrieron incrementos inferiores
+        al número de veces que aumenta el costo mensual de la electricidad.
+      </p>
+      <p>
+        La mayoría de los hogares en el país mantendrá un subsidio al pago que realizan por energía electricida. Este tipo de subsidio no es único de Cuba, sino que es también una práctica, 
+        a distintos niveles, en otros países.
+      </p>
+      <p>  
+        Si se tiene en cuenta 
+        que el costo de generación en Cuba de un kWh, bajo la nueva tasa de cambio, es de <a href="http://www.juventudrebelde.cu/cuba/2020-12-13/programa-especial-sobre-la-tarea-ordenamiento">3.61 CUP</a>
+        ello significa que todo aquel hogar con consumo superior a los 414 kWh no estará recibiendo subsidio alguno al pago. Por tanto, como mínimo, y según la 
+        <a href="http://www.cubadebate.cu/noticias/2020/12/13/ordenamiento-monetario-tarifas-consumos-y-el-nuevo-calculo-de-la-electricidad/">distribución actual de consumo residencial</a> 
+        de la Unión eléctrica (UNE), el 89.2% de los clientes de la UNE recibirán algún tipo de subsidio. 
+      </p>
+      <p>
+        Sin embargo, esto también significa que una parte que hasta un 10.8% del sector residencial podría pagar la electricidad 
+        a un precio superior al costo de generación. De esta manera, a modo de ejemplo, los clientes que tienen un consumo mensual entre 500 y 1000 kWh estarían pagando
+        de media por kWh entre 4.54 y 7.29 CUP, o sea entre un 26% y 101% por encima del costo de generación. Ello, teniendo la UNE cerca de <a href="http://www.juventudrebelde.cu/cuba/2020-12-13/electricidad-en-cuba-entre-el-costo-y-la-tarifa">4 millones de clientes</a>, 
+        involucraría a alrededor de 116 mil hogares, lo que no es un número pequeño.
+      </p>
+      <p>
+        Otro problema con las tarifas para los tramos de mayor consumo es que esto no necesariamente afecta solo a los hogares con un gran consumo eléctrico. Muchos trabajadores no estatales son grandes consumidores de electricidad. 
+      </p>
+      <p> 
+        Con este aumento en las tarifas superiores se incrementarán considerablemente sus gastos en energía  
+        electricida, aun cuando varíen las disposiciones fiscales y se pueda deducir por costos, esto hará que el costo de un servicio o producto sea mayor y, por tanto, para tener ganancias
+        deberán aumentar los precios de estos. Pensado en ello, se ha dispuesto como medida de control un límite de hasta 3 veces a este posible aumento. Sin embargo, los costos de operación 
+        pueden aumentar en más de esa proporción y ya de este modo pueden dejar de ser rentables. Entonces, ya sea por aumento de precio o por el cierre de negocios privados tendremos todos 
+        una afectación.
+      </p>
+    </div>
+
+    <div id="cost-comparison" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Cálculo y comparación por tarifas del costo del consumo eléctrico
+        <br>
+        <span style="font-size:12px;">Puede variar el consumo según su valor de interés</span>
+        <br>
+      </div>
+      <div class="graph main-text">
+        <div class="center">
+          <label for="kwh-consumption">Ingrese el total de kWh consumidos</label>
+          <input id="kwh-consumption" class="center" type="number" min="0" value="185">
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <p class="center bd">Tarifa antigua</p>
+            <div  id="cost-block-old" class="cost-block">
+              <p>Costo en CUP: <span id="old-cup-cost">0</span></p>
+              <p>Costo en CUP por kWh: <span id="old-cup-rate">0</span></p>
+              <p>Costo en Dólar: <span id="old-dolar-cost">0</span></p>
+              <p>Costo en Dólar por kWh: <span id="old-dolar-rate">0</span></p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <p class="center bd">Tarifa nueva</p>
+            <div id="cost-block-new" class="cost-block">
+              <p>Costo en CUP: <span id="new-cup-cost">0</span> </p>
+              <p>Costo en CUP por kWh: <span id="new-cup-rate">0</span></p>
+              <p>Costo en Dólar: <span id="new-dolar-cost">0</span></p>
+              <p>Costo en Dólar por kWh: <span id="new-dolar-rate">0</span></p>
+            </div>
+          </div>
+        </div>
+      <p class="center bd" id="cost-times">
+      </p>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Otro elemento a tener en cuenta es cuán diferente es el costo de la electricidad con respecto a otras naciones. Ahora, con la existencia
+        de una tasa cambiaria única es más sencillo hacer esa comparación. 
+      </p>
+      <p>
+        Según <a href="https://es.globalpetrolprices.com/electricity_prices/">GlobalPetrolPrices.com</a>, en marzo del 2021 el precio medio de la 
+        electricidad en el sector residencial en el mundo era de 0.141 USD por kWh. En Cuba el consumo medio de electricidad en lo que va de año es <a href="http://www.juventudrebelde.cu/cuba/2020-12-13/electricidad-en-cuba-entre-el-costo-y-la-tarifa">185 kWh</a>,
+        lo que da un promedio de 0.037 USD por kWh. En el 2019 el promedio mensual en la Isla fue de <a href="http://www.onei.gob.cu/sites/default/files/10_mineria_y_energia_2019.pdf">191 kWh</a> para 0.039 USD por kWh. 
+        Estos precios son inferiores a la media mundial.
+      </p>
+      <p>
+        De hecho, todo consumo inferior a los 395 kWh mensual sería inferior al costo medio por kWh tomado como referencia.
+        Mientras que los 414 kWh de consumo, que es cuando a partir de las tarifas nuevas se comienza a superar el precio de producción de la energía eléctrica en el país, equivale a una media de 
+        0.150 por kWh.
+      </p>
+    </div>
+
+    <div id="us-kwh-evolution" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Evolución del costo promedio (en dólar) del kWh hasta 5000
+      </div>
+      
+      <div id="us-kwh-evols" class="graph" style="height: 500px;"></div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Tomando como referencia un consumo medio mensual de 185 kWh, Cuba estaría ubicada en el lugar 16 de un listado de 144 países ordenados ascendentemente
+        según el precio medio por kWh, acorde a los datos de <a href="https://es.globalpetrolprices.com/electricity_prices/">GlobalPetrolPrices.com</a>. No obstante,
+        según las nuevas tarifas, un incremento en el consumo medio por hogar en Cuba, que no es descabellado que ocurra en tanto mejoren las condiciones de vida en el país,
+        podría provocar ubicaciones diferentes respecto a ese ordenamiento.
+      </p>
+      <p>
+        Por ejemplo, un consumo medio de 350 kWh que se pagaría a 0.109 por kWh se ubicaría en una posición 59. Por otra parte un consumo de 1369 kWh o más, que sería
+        un consumo elevado, lo ubicaría al final del listado de países por detrás de Alemania que presenta un precio medio por kWh hora de 0.389 USD.
+      </p>
+    </div>
+
+    <div id="cuba-info" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Comparación del precio del kWh (en USD) por países
+        <br>
+        <span style="font-size:12px;">Puede variar el consumo según su valor de interés</span>
+        <br>
+      </div>
+
+      <div class="graph">
+        <div class="center main-text">
+          <label for="kwh-dolar">Consumo en kWh en Cuba</label>
+          <input id="kwh-dolar" class="center" type="number" min="1" value="185">
+        </div>
+        <br>
+        <ol>          
+        <div class="row">
+          <div  class="col-lg-4 col-md-4">
+            <div id="countries1" class="cost-block"></div>
+          </div>
+          <div  class="col-lg-4 col-md-4">
+            <div id="countries2" class="cost-block"></div>
+          </div>
+          <div  class="col-lg-4 col-md-4">
+            <div id="countries3" class="cost-block"></div>
+          </div>
+        </div>
+      </ol>
+      </div>
+    </div>
+
+    <div class="text-block" >
+      <p >
+        Asimismo, es interesante ver el consumo medio mensual de la Isla en referencia a otras naciones. Para ello, a partir de diferentes fuentes, 
+        se tomaron datos de consumo de electricidad por hogar en el 2017 de varios <a href="https://www.odyssee-mure.eu/publications/efficiency-by-sector/households/electricity-consumption-dwelling.html">países europeos</a>, 
+        así como de <a href="https://www.eia.gov/tools/faqs/faq.php?id=97&t=3#:~:text=In%202019%2C%20the%20average%20annual,about%20877%20kWh%20per%20month.">Estados Unidos</a> y 
+        <a href="https://www.nacion.com/el-pais/servicios/hogares-tienden-a-bajar-consumo-electrico-en-medio/VNPKTF74Y5ADXCI6CHG2LQHTZM/story/">Costa Rica</a> en el 2019. En total se analizaron
+        30 países además de Cuba. 
+      </p>
+      <p>
+        Cuba, es uno de los de menor consumo mensual ocupando el 5to lugar del listado. Los cuatro países con menor consumo son ex repúblicas socialistas.
+        Costa Rica, el otro país latinoamericano analizado, con un clima similar al de la Isla, es 7ma con un consumo de medio mensual de 232 kWh.   
+      </p>
+      <p>
+        Es de notar que en un rango de consumo entre 221 y 385 kWh se ubica el 66.6% de los países analizados (20 de 30). Ello podría indicar que este es el rango de consumo medio
+        hacia el que deberían moverse los hogares cubanos y, en ese sentido, las tarifas deberían considerarlo. Hoy, bajo las nuevas tarifas, en el rango de 221 y 385 kWh 
+        se pagaría respectivamente entre 255.50 y 1232.50 CUP (10.65 y 51.35 USD).
+      </p>
+    </div>
+
+    <div id="consumption-info" class="media-block main-border border" >
+      <div class="graph-text main-text center">
+        Consumo medio mensual de electricidad por hogar en varios países
+      </div>
+
+      <div class="graph">
+        <div id="countries-consumption"  class="country-block"></div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Entre estos 31 países Cuba es, por diferencia, el que menos paga por su consumo medio de manera total. Serían apenas 6.93 USD. Incluso, si un hogar cubano
+        tuviera el consumo medio de cada país analizado y lo pagara a la nueva tarifa de Cuba pagaría menos que el 86.6% de los países analizados (26 de 30).
+      </p>
+      <p>
+        Los cuatro países a los cuales Cuba superaría en gastos si tuviera el mismo consumo medio son precisamente aquellos que más consumen y que, coincidentemente,
+        son también los que más gastan. Incluso, las diferencias entre el gasto del país y el que tuviera un hogar nacional para ese consumo son significativas. Ello
+        nuevamente alerta de una tarifa excesiva para los tramos de consumo más altos.
+      </p>
+    </div>
+
+    <div id="countries-info" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Gasto medio mensual (en USD) de electricidad por hogar en varios países
+      </div>
+      <div class="graph">
+        <div id="countries-spent" class="country-block"></div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        El gasto total que se realice mensualmente en cada país no es suficiente para determinar como incide realmente el costo de la electricidad en la economía familiar.
+        Para ello es necesario conocer que porciento representa ese gasto en la economía del hogar.
+      </p>
+      <p>
+        En una casa suelen convivir varias personas y, por tanto, pueden haber varios ingresos para sustentar los gastos del hogar. No obstante, si uno toma como
+        referencia los ingresos de una persona con respecto a un determinado gasto ello puede dar una medida relativa de como incide ese gasto respecto al total
+        de ingresos.
+      </p>
+      <p>
+        Una práctica común para este tipo de cuestiones es tomar como referencia el ingreso promedio per cápita en años previos. Sin embargo, para el caso de Cuba
+        que a partir del próximo enero cambiará de manera sustancial los salarios y pensiones en todo el país no tiene ningún sentido tomar como el referente 
+        el salario medio del año previo, <a href="http://www.onei.gob.cu/sites/default/files/salario_medio_2019_completa.pdf">879</a>, cuando el menor ingreso
+        que se tendrá a partir del año próximo será de <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex69.pdf">1528</a> (la pensión mínima).
+      </p>
+      <p>
+        Para tener un referente de salario entonces tomamos un salario bruto de 4810 CUP, que se corresponde con el <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex69.pdf">Grupo de Complejidad XVIII</a> para 44 horas semanales, 
+        esto en un rango de 32 posibles valores que van desde el salario mínimo de 2100 hasta 9510 CUP. Este salario es el que devengara, sin otros incrementos, por 
+        ejemplo, un profesor instructor, un estomatólogo residente, un bailarín del ballet de la Televisión Cubana, o un entrenador, entre otros.
+      </p>
+      <p>
+        Pero para los valores porcentuales no se tomará este valor del salario bruto pues este no es el ingreso que llega finalmente al bolsillo del trabajador.
+        Primero se debe <a href="https://www.gacetaoficial.gob.cu/sites/default/files/goc-2020-ex70_0.pdf">descontar</a> la Contribución Especial a la Seguridad Social (5%)
+        y el Impuesto sobre los Ingresos Personales (3% del exceso de 3260 hasta 9510), luego de esto la persona recibe finalmente 4523 CUP. 
+      </p>
+      <p>
+        Para este ingreso, el gasto que se tiene para el consumo medio mensual de electricidad, 185 kWh, representa el 3.68%. Este mismo gasto por consumo, para el
+        ingreso tras impuestos que se percibe por un salario mínimo, 1995 CUP, representa el 8.33%. Para el ingreso final tras impuestos y sin otro incremento 
+        del mayor Grupo de Complejidad (XXXII), que es 8847 CUP, el consumo medio representa el 1.88%.
+      </p>
+    </div>
+
+
+    <div id="pair-info" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Porciento del costo del consumo eléctrico respecto al salario
+        <br>
+        <span style="font-size:12px;">Puede variar el consumo y el salario según sus valores de interés</span>
+        <br>
+      </div>
+      
+
+      <div class="graph">
+        <div class="center main-text">
+          <label for="kwh-consump">Consumo en kWh</label>
+          <input id="kwh-consump" class="center" type="number" min="0" value="185">
+          <label for="salary">Salario o pensión</label>
+          <input id="salary" class="center" type="number" min="1528" value="4523">
+        </div>
+        <br>
+        <div id="percent-block" class="center main-text">
+          <p>El costo del consumo eléctrico es <span class="bd" id="cost-salary">0</span> CUP y respecto al salario es el</p>
+          <p class="bd percentual"><span id="percent-salary">0.00</span>%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Para comparar este porciento respecto a otros países se estimó el ingreso medio per cápita de los mismos 30 países
+        sobre los cuales se obtuvo la información del consumo eléctrico mensual. En todos los casos, los datos se refieren
+        a datos del 2019.
+      </p>
+      <p>
+        Comparado con estos países, 3.68% que representa el gasto (166.25 CUP) del consumo medio de electricidad en el hogar (185 kWh) respecto al ingreso personal que se tomó 
+        como referencia media (4523 CUP), ubica a Cuba en el lugar 25 en un listado ascendente de 31 países. 
+      </p>
+      <p>
+        En este caso, aunque la Isla se ubica en la parte trasera del listado, 
+        las diferencias porcentuales entre los que le anteceden no parecen tan grandes. 
+        Sin embargo, lo que si llama la atención es cómo puede variar el porcentaje de gasto en electricidad en Cuba respecto al salario de referencia
+        ante incrementos del consumo de electricidad en el hogar.
+      </p>
+      <p>
+        Por ejemplo, un incremento de 30 kWh sobre el consumo medio haría que el por ciento respecto al salario subiera hasta 5.25% y en ese 
+        caso Cuba sería penúltimo en el listado de porcentaje por país presentado. Si se sube hasta 230 kWh, que serían otros 15 kWh más,
+        ya la Isla sería la última del listado con un 6.25%. Mientras que con un consumo de 278 kWh ya se estaría hablando del 10% del salario de referencia.
+      </p>
+    </div>
+
+   
+
+    <div id="consumption-info" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Porciento del gasto medio mensual de electricidad por hogar respecto al salario medio en varios países
+      </div>
+
+      <div class="graph">
+        <div id="countries-percent" class="country-block"></div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+       El pequeño conjunto de análisis realizados muestra que la nueva tarificación de electricidad, que estará vigente con el Proceso de Ordenamiento 
+       Monetario y Cambiario que entra en la práctica a partir del primero de enero próximo, muestra valores elevados para tramos de consumos 
+       en los que todavía es afectada un número significativo de hogares cubanos, así como puede impactar negativamente en un segmento de los
+       trabajadores no estatales. 
+      </p>
+      <p> 
+       Del mismo modo, a partir de los 414 kWh, que no es un consumo excesivamente grande ya no existe subsidio
+       al pago de la electricidad, y el costo puede crecer hasta varias veces el costo de producción. 
+      </p>
+      <p> 
+        También, la tarificación no tiene en cuenta que, según su actual escala progresiva, ante incrementos razonables, en busca de mejores condiciones de vida, 
+        del consumo medio de energía eléctrica en el hogar existe cambios sustanciales en el precio medio que se pagaría por kWh y, por tanto,
+        en el gasto final que incurre la familia.  Asimismo, la relación entre el gasto por electricidad y un posible salario medio no es de las mejores del mundo. 
+        Esta relación, además, se deteriora rápido ante incrementos no necesariamente altos del consumo medio en el sector residencial. 
+      </p>
+      <p>
+        Todo ello nos alerta de la necesidad de una revisión, con mayor profundidad de la nueva tarificación de la electricidad así como su relación con 
+        los ingresos que tendrán las personas a partir de la nueva política salarial.
+      </p>
+    </div>
+
+
+
+    <div class="media-block">
+      <div id="open-metodology" class="main-color cursor reading-more" onclick="show_profile('metodology',true)"
+        style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+        <span>Metodología <i class="fa fa-plus-square-o"></i></span>
+      </div>
+      <div id="close-metodology" class="main-color cursor reading-less" onclick="show_profile('metodology',false)"
+        style="display:none;color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+        <span>Cerrar la metodología <i class="fa fa-minus-square-o"></i></span>
+      </div>
+      <div id="metodology" style="display:none">
+        <div class="text-block" style="padding-top:20px;padding-bottom:20px;">
+         <p>
+           Para el trabajo se utilizaron datos de distintas fuentes. Las de datos nacionales se refieren a los datos publicados en las Gacetas
+           Oficiales así como distintos reportes de prensa. En todos los casos citados en el texto.
+         </p>
+          <p>
+            Para los datos del resto de países también se utilizaron distintas fuentes. La información relativa al precio medio por kwh de todos los países
+            se obtuvo del sitio <a href="https://es.globalpetrolprices.com/electricity_prices/">GlobalPetrolPrices.com</a> y tienen por fecha a marzo de 2020.
+            Los datos se estucturaron en un documento <a href="data/countries.json">json</a>
+          </p>
+          <p>
+            Para los datos relativos al consumo medio de electricidad, en el caso de los países europeos se utilizó el sitio 
+            <a href="https://www.odyssee-mure.eu/publications/efficiency-by-sector/households/electricity-consumption-dwelling.html">Odyssee-Mure</a> que lo reporta para el
+            año 2017. En este caso la cifra reportada para cada país es anual y para su estimación mensual se dividió por 12. 
+            Los datos se estucturaron en un documento <a href="data/countries-eu.json">json</a>
+          </p>
+          <p>  
+            En el caso de Estados Unidos se obtuvo de un reporte de la <a href="https://www.eia.gov/tools/faqs/faq.php?id=97&t=3#:~:text=In%202019%2C%20the%20average%20annual,about%20877%20kWh%20per%20month.">US Energy 
+              Information Administration</a> y en el caso de Costa Rica a partir de un artículo de la 
+              <a href="https://www.nacion.com/el-pais/servicios/hogares-tienden-a-bajar-consumo-electrico-en-medio/VNPKTF74Y5ADXCI6CHG2LQHTZM/story/">La Nación</a>.
+              En ambos casos los datos son del año 2019. Los datos se estucturaron en un documento <a href="data/countries-eu.json">json</a>
+          </p>
+          <p>
+            Para el caso de los ingresos percápita, en el caso de los países europeos, cuyo valor se expresa en euros, se tomó el ingreso real percápita del 2019 a partir de los datos que provee 
+            <a href="https://ec.europa.eu/eurostat/databrowser/view/sdg_08_10/default/table?lang=en"></a>.  En el caso de Estados Unidos y Costa Rica, que se expresa en dólares, se tomó
+            el ingreso percápita también del año 2019, para Estados Unidos el dato se tomó de 
+            <a href="https://www.macrotrends.net/countries/USA/united-states/gdp-per-capita#:~:text=Data%20are%20in%20current%20U.S.,a%203.5%25%20increase%20from%202016">Macrotrends</a> 
+            y para Costa Rica de <a href="https://countryeconomy.com/gdp/costa-rica#:~:text=The%20GDP%20per%20capita%20of,in%202018%2C%20it%20was%20%2412%2C039">CountryEconomy</a>. 
+            En todos los casos el dato se refiere al ingreso anual y para su estimación mensual se dividió por 12. Los datos están presentes en los documentos json ya mencionados.
+          </p>
+          <p>
+            Para la estimación del gasto medio mensual de electricidad se multiplicó el consumo medio de electricidad por la tarifa media por kWh.
+          </p>
+          <p>
+            Para el cálculo del porciento que representa el gasto mensual respecto al salario medio mensual se convirtieron los ingresos expresados en euros a dólares.
+            Para ello se utilizó una tasa de cambio de 1.21544. 
+          </p>
+
+          <p>
+            Para las visualizaciones se utilizó <a href="http://c3js.org/">C3.js</a>, <a  href="http://jquery.com/">jQuery</a> y <a href="http://https://getbootstrap.com//">Bootstrap</a>.
+          </p>
+        </div>
+        <div id="winner-more">
+          <div class="main-color cursor reading-less" onclick="show_profile('metodology',false)"
+            style="color:#FFFFFF;text-align:center;padding:4px;font-size:18px;">
+            <span>Cerrar la metodología</span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="media-block notes">
+      <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/suplementos/electricidad/desenrendando-las-nuevas-tarifas-electricas.html"
+            target='_blank'>
+            <div class="cursor  facebook-color"><i class="fa fa-facebook"></i> Facebook</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="https://twitter.com/share?url=http://www.postdata.club/suplementos/electricidad/desenrendando-las-nuevas-tarifas-electricas.html&amp;text=(Des)enredando%20las%20nuevas%20tarifas%20el%C3%A9ctricas&amp;hashtags=#postdataclub"
+            target='_blank'>
+            <div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=(Des)enredando las nuevas tarifas eléctricas http://www.postdata.club/suplementos/electricidad/desenrendando-las-nuevas-tarifas-electricas.html"
+            target='_blank'>
+            <div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div>
+          </a></div>
+      </div>
+    </div>
+
+    <div class="comments-block">
+      <div id="disqus_thread"></div>
+      <script>
+
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+         var disqus_config = function () {
+            this.page.url = 'http://postdata.club/suplementos/electricidad/desenrendando-las-nuevas-tarifas-electricas.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'PDClub-202012-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//postdataclub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })(); 
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
+    </div>
+
+  </div>
+
+  <div class="read-more main-text">
+    Lea también:
+  </div>
+
+  <div class="other-news row">
+
+    <div class="col-lg-6 col-md-6 container">
+      <div class="news-block main-color  ">
+        <div class="title-author-block">
+          <div class="front-news-title"><a href="../../suplementos/salario/salario-mujeres.html">¿En Cuba, quiénes cobran más, las mujeres o los hombres?</a>
+          </div>
+          <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 container">
+      <div class="news-block main-color  ">
+        <div class="title-author-block">
+          <div class="front-news-title"><a href="../issues/201712/en-dos-ruedas-y-con-electricidad.html">En dos ruedas y con electricidad</a>
+          </div>
+          <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y Jessica Domínguez</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="footer">
+    <div>
+      <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+      <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a>
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+      </span>
+    </div>
+
+    <div class="copyright">Copyright
+      <script>document.write(new Date().getFullYear());</script>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+  <script src="../../assets/js/c3.js"></script>
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="js/electricidad.js"></script>
+  <script>
+    $(document).on('click', function (e) {
+      submenu = $('#header-submenu');
+      if (!submenu.is(e.target)) {
+        $('.submenu').hide();
+      }
+    });
+    $("#genero").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#generos').show();
+    });
+    $("#author").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#authors').show();
+    });
+    $("#header-submenu").click(function (event) {
+      event.stopPropagation();
+    });
+  </script>
+  <script>
+    function show_profile(idp, open) {
+      opening = '#open-' + idp;
+      closing = '#close-' + idp;
+      if (open) {
+        $(opening).hide();
+        $(closing).show();
+        $('#' + idp).show();
+      } else {
+        $('#' + idp).hide();
+        $(opening).show();
+        $(closing).hide();
+      }
+    }
+  </script>
+
+</body>
+
+</html>

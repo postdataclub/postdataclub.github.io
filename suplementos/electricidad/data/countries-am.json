@@ -1,0 +1,20 @@
+{
+    "countries": {
+        "Estados Unidos": {
+            "kw-year": 877,
+            "real-gdp-percapita": 0,
+            "source-household-kw-consumption": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3#:~:text=In%202019%2C%20the%20average%20annual,about%20877%20kWh%20per%20month.",
+            "source-real-gdp-percapita": "https://www.macrotrends.net/countries/USA/united-states/gdp-per-capita#:~:text=Data%20are%20in%20current%20U.S.,a%203.5%25%20increase%20from%202016",
+            "date-kw-year": 2019,
+            "date-real-gdp-percapita": 65281
+        },
+        "Costa Rica": {
+            "kw-year": 232,
+            "real-gdp-percapita": 0,
+            "source-household-kw-consumption": "https://www.nacion.com/el-pais/servicios/hogares-tienden-a-bajar-consumo-electrico-en-medio/VNPKTF74Y5ADXCI6CHG2LQHTZM/story/",
+            "source-real-gdp-percapita": "https://countryeconomy.com/gdp/costa-rica#:~:text=The%20GDP%20per%20capita%20of,in%202018%2C%20it%20was%20%2412%2C039",
+            "date-kw-year": 2019,
+            "date-real-gdp-percapita": 12301
+        }
+    }
+}
