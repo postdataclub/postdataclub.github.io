@@ -384,7 +384,7 @@ $.getJSON("data/countries-eu.json", function (countries_eu) {
 		grid: {
 			x: {
 				lines: [
-					{ value: "Cuba", text: 'Cuba' }
+					{ value: "Cuba", text: '' }
 				]
 			}
 		}
@@ -424,7 +424,7 @@ $.getJSON("data/countries-eu.json", function (countries_eu) {
 		grid: {
 			x: {
 				lines: [
-					{ value: "Cuba", text: 'Cuba' }
+					{ value: "Cuba", text: '' }
 				]
 			}
 		}
@@ -462,7 +462,7 @@ $.getJSON("data/countries-eu.json", function (countries_eu) {
 		grid: {
 			x: {
 				lines: [
-					{ value: "Cuba", text: 'Cuba' }
+					{ value: "Cuba", text: '' }
 				]
 			}
 		}
