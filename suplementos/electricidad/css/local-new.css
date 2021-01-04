@@ -1,0 +1,129 @@
+.cost-block {
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.percentual {
+    font-size: 80px;
+}
+
+.countryp {
+    font-size: 12px;
+    margin: 0 0 5px;
+}
+
+.country-name {
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.country-less {
+    background-color: green;
+}
+
+.country-middle {
+    background-color: blue;
+}
+
+.country-more {
+   background-color: orange;
+}
+
+.country-cuba {
+    background-color: red;
+}
+
+.tm {
+    text-align: left;
+}
+
+.ta {
+    color: white;
+    font-size: 14px;
+}
+
+.ta1 {
+    background-color: #1f77b4;
+}
+
+.ta2 {
+    background-color: #ff7f0e;
+}
+
+.ta3 {
+    background-color: #2ca02c;
+}
+
+.ta4 {
+    background-color: #d62728;
+}
+
+.ta5 {
+    background-color: #9467bd;
+}
+
+.ta6 {
+    background-color: #8c564b;
+}
+
+.ta7 {
+    background-color: #e377c2;
+}
+
+.ta8 {
+    background-color: #7f7f7f;
+}
+
+.ta9 {
+    background-color: #bcbd22;
+}
+
+.ta10 {
+    background-color: #17becf;
+}
+
+.pie-text {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#cost-block-old {
+    background-color: lightgreen;
+}
+
+#cost-block-new, #percent-block {
+    background-color: lightskyblue;
+}
+
+#cost-block-mod, #percent-block-mod {
+    background-color: orange;
+}
+
+#percent-block, #percent-block-mod {
+    padding: 10px;
+}
+
+#cost-times {
+    margin-top: 20px;
+}
+
+#cost-times-mod {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.country-block {
+    height: 500px;
+}
+
+#countries-spent {
+    height: 750px;
+}
