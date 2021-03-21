@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,17 +21,19 @@
 
     <!-- Custom styles for this template -->
     <link href="../assets/css/custom.css" rel="stylesheet">
-    
+
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-84667443-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-84667443-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -41,684 +44,922 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
     <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg ">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../index.html">
-          <img id="myLogo" class = "logo logo-responsive" src="../assets/images/logo.png" >
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img id="myLogo" class="logo logo-responsive" src="../assets/images/logo.png">
 
 
-          </a>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                    <li class="active" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Autores <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ernesto.html">Ernesto Guerra</a></li>
+                            <li><a href="jessica.html">Jessica Domínguez</a></li>
+                            <li><a href="saimi.html">Saimi Reyes</a></li>
+                            <li class="active"><a href="yudivian.html">Yudivián Almeida</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Géneros <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../generos/principales.html">Principales</a></li>
+                            <li><a href="../generos/articulos.html">Artículos</a></li>
+                            <li><a href="../generos/reportajes.html">Reportajes</a></li>
+                            <li><a href="../generos/comentarios.html">Comentarios</a></li>
+                            <li><a href="../generos/investigaciones.html">Investigaciones</a></li>
+                            <li><a href="../generos/visualizaciones.html">Visualizaciones</a></li>
+                            <li><a href="../generos/perfiles.html">Perfiles</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
-             <li class="active" class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li ><a href="ernesto.html">Ernesto Guerra</a></li>
-                <li><a href="jessica.html">Jessica Domínguez</a></li>
-                <li ><a href="saimi.html">Saimi Reyes</a></li>
-                <li class="active"><a href="yudivian.html">Yudivián Almeida</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="../generos/principales.html">Principales</a></li>
-                <li ><a href="../generos/articulos.html">Artículos</a></li>
-                <li><a href="../generos/reportajes.html">Reportajes</a></li>
-                <li><a href="../generos/comentarios.html">Comentarios</a></li>
-                <li><a href="../generos/investigaciones.html">Investigaciones</a></li>
-                <li><a href="../generos/visualizaciones.html">Visualizaciones</a></li>
-                <li><a href="../generos/perfiles.html">Perfiles</a></li>
-              </ul>
-            </li>
-             
-          </ul>
-        </div>
-      </div>
     </nav>
-    
+
     <div class="menu-movil-separator hidden-md hidden-lg"></div>
-    <div  class="header-pc hidden-xs hidden-sm row">
+    <div class="header-pc hidden-xs hidden-sm row">
 
-      <div class="header-logo col-lg-6 col-md-6">
-       <a href="../index.html"><img class="logo-header" src="../assets/images/logo.png"></a>
-      </div>
-      <div class="header-menu col-lg-3 col-md-3">
-        <div>
-        <div><span><a href="../index.html">Inicio</a></span></div>
-        <div><span><a href="quienes-somos.html">¿Quiénes somos?</a></span></div>
-        <div><span><a id="author" class="selected" href="#">Autores</a></span></div>
-        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        <div class="header-logo col-lg-6 col-md-6">
+            <a href="../index.html"><img class="logo-header" src="../assets/images/logo.png"></a>
         </div>
-      </div>
-      <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
-        <div id="generos" style="display:none" class="submenu">
-            <div class="submenu-header">Por géneros:</div>
-             <div><a href="../generos/principales.html">Principales</a></div>
-            <div><a href="../generos/articulos.html">Artículos</a></div>
-            <div><a href="../generos/comentarios.html">Comentarios</a></div>
-            <div><a href="../generos/reportajes.html">Reportajes</a></div>
-            <div><a href="../generos/investigaciones.html">Investigaciones</a></div>
-            <div><a href="../generos/visualizaciones.html">Visualizaciones</a></div>
-            <div><a href="../generos/perfiles.html">Perfiles</a></div>
+        <div class="header-menu col-lg-3 col-md-3">
+            <div>
+                <div><span><a href="../index.html">Inicio</a></span></div>
+                <div><span><a href="quienes-somos.html">¿Quiénes somos?</a></span></div>
+                <div><span><a id="author" class="selected" href="#">Autores</a></span></div>
+                <div><span><a id="genero" href="#">Géneros</a></span></div>
+            </div>
         </div>
-        <div id="authors"  class="submenu">
-            <div class="submenu-header">Por autores:</div>
-            <div><a href="jessica.html">Jessica Dominguez</a></div>
-            <div><a href="ernesto.html">Ernesto Guerra</a></div>
-            <div><a href="saimi.html">Saimi Reyes</a></div>
-            <div><a href="yudivian.html" class="selected">Yudivian Almeida</a></div>
-        </div>
-      </div>
-   </div>
-
-     <div class="article-header row  main-color ">
-        <div class="simple-header">Yudivián Almeida        
-        <span class="header-icons hidden-xs hidden-sm">
-        <a href="mailto://yudivian@postdata.club"><i class="fa fa-envelope"></i></a> 
-        <a href="http://twitter.com/yudivian"><i class="fa fa-twitter"></i></a> 
-        </span>
+        <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
+            <div id="generos" style="display:none" class="submenu">
+                <div class="submenu-header">Por géneros:</div>
+                <div><a href="../generos/principales.html">Principales</a></div>
+                <div><a href="../generos/articulos.html">Artículos</a></div>
+                <div><a href="../generos/comentarios.html">Comentarios</a></div>
+                <div><a href="../generos/reportajes.html">Reportajes</a></div>
+                <div><a href="../generos/investigaciones.html">Investigaciones</a></div>
+                <div><a href="../generos/visualizaciones.html">Visualizaciones</a></div>
+                <div><a href="../generos/perfiles.html">Perfiles</a></div>
+            </div>
+            <div id="authors" class="submenu">
+                <div class="submenu-header">Por autores:</div>
+                <div><a href="jessica.html">Jessica Dominguez</a></div>
+                <div><a href="ernesto.html">Ernesto Guerra</a></div>
+                <div><a href="saimi.html">Saimi Reyes</a></div>
+                <div><a href="yudivian.html" class="selected">Yudivian Almeida</a></div>
+            </div>
         </div>
     </div>
-    
+
+    <div class="article-header row  main-color ">
+        <div class="simple-header">Yudivián Almeida
+            <span class="header-icons hidden-xs hidden-sm">
+                <a href="mailto://yudivian@postdata.club"><i class="fa fa-envelope"></i></a>
+                <a href="http://twitter.com/yudivian"><i class="fa fa-twitter"></i></a>
+            </span>
+        </div>
+    </div>
+
 
     <div class="other-news row">
-		
-	<div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="https://covid19cubadata.github.io/">Covid19 Cuba Data</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a>,
-                <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="#" title="Facultad de Matemática y Computación de la Universidad de La Habana" alt="Facultad de Matemática y Computación de la Universidad de La Habana">MATCOM</a> 
-                <a href="https://medium.com/juventud-t%C3%A9cnica" title="Revista Juventud Técnica">Juventud Técnica</a> 
-                y <a href="https://covid19cubadata.github.io/info.html">colaboradores</a>.
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Herramienta de información y análisis, basada en código y datos abiertos, para el estudio de la covid19 en Cuba </div>
-        </div>
-    </div>	
-		
-	<div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/elecciones/consejo-de-estado-bajo-la-nueva-constitucion.html">El Consejo de Estado bajo la nueva Constitución</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Adivinando sus posibles miembros</div>
-        </div>
-    </div>	
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201909/cuba-en-los-mundiales-de-atletismo.html">Cuba en los mundiales de atletismo al aire libre</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">La historia contada desde los datos</div>
-        </div>
-    </div>	
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block viz-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201907/lima-vs-toronto.html">Cuba: Lima vs Toronto</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una breve comparativa de la actuación cubana en los panamericanos de 2019</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201907/el-medallero-de-lima-2019-que-se-puede-esperar.html">El medallero de Lima 2019 ¿qué podemos esperar?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a>
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Otra de tantas predicciones</div>
-        </div>
-    </div>	
-		
-	<div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/salario/salario-mujeres.html">¿En Cuba, quiénes cobran más las mujeres o los hombres?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a> y <a href="../equipo/saimi.html">Saimi Reyes</a>
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Qué nos dicen los datos oficiales</div>
-        </div>
-    </div>	
-		
-	<div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201903/migracion.html">Contar la migración interna</a></div>
-                <div class="front-news-author">Por <a href="yudivian.html">Yudivián <span class="hidden-md hidden-lg">Almeida</span></a>, 
-                <a href="saimi.html">Saimi <span class="hidden-md hidden-lg">Reyes</span></a>,
-                <a href="ernesto.html">Ernesto <span class="hidden-md hidden-lg">Guerra</span></a><span class="hidden-md hidden-lg"> y estudiantes de Periodismo</span><span class="hidden-sm hidden-xs">, Sheila, Erika, Tu, Darián, Eduardo, Gabriela,
-                 Wilfredo, Dianelis, Karina, Yasmani, Lisset, Mabel, Claudia, Junior y Carolina</span>
-                
-                </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una aproximación a cada provincia</div>
-        </div>
-    </div>	
-   
-   <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block viz-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201903/sonificando-las-tasas-de-migracion.html">Sonificando las tasas de migración</a></div>
-                <div class="front-news-author">Por <a href="ernesto.html">Ernesto Guerra</a>, <a href="yudivian.html">Yudivián Almeida</a>
-                y <a href="saimi.html">Saimi Reyes</a> 
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">¿Cómo se escucharían los datos migratorios de cada provincia si fueran música?</div>
-            </div>
-    </div>
-   
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/queen/bohemian-rhapsody-effect.html">El efecto Bohemian Rhapsody</a></div>
-                <div class="front-news-author">Por <a href="yudivian.html">Yudivian Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Qué nos muestran las listas de reproducciones de Spotify</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/futura-constitucion-a-debate.html">El Proceso Constitucional</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivian Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un resumen integral de nuestra cobertura</div>
-        </div>
-    </div>
-    
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/constitucion-a-referendo.html">Constitución a Referendo</a></div>
-                <div class="front-news-author">Por <a href="saimi.html">Saimi Reyes</a> y <a href="yudivian.html">Yudivian Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un análisis sobre los cambios tras la consulta popular</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/consejos-provinciales.html">Consejos Provinciales: ¿menos es más?</a></div>
-                <div class="front-news-author">Por <a href="saimi.html">Saimi Reyes</a>, <a href="ernesto.html">Ernesto Guerra</a> y <a href="yudivian.html">Yudivian Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un mirada breve a la integración de los consejos provinciales</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/debate-en-facebook-los-numeros.html">Debate en Facebook: los números</a></div>
-                <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Qué nos dicen las estadísticas de un Grupo de Facebook sobre la Reforma Constitucional</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/debate-en-postdata-los-numeros.html">Debate en Postdata.club: los números</a></div>
-                <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Qué nos dicen las cifras de los comentarios sobre el proyecto de Constitución</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block article-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/como-se-reforman-la-constituciones.html">Cómo se reforman las constituciones</a></div>
-                <div class="front-news-author">Por  <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">¿Quiénes las inician? ¿Quiénes las aprueban?</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block comment-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/participacion-directa-en-deuda.html">Participación directa de los ciudadanos, una deuda</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">La constitución debería empoderar aún más la participación ciudadana directa</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block viz-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/mano-alzada/a-mano-alzada.html">A mano alzada</a></div>
-                <div class="front-news-author">Por <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Cinco bocetos que, hasta hoy, no fueron historias</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block article-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/voto-a-distancia-un-derecho-a-conquistar.html">Voto a distancia: un derecho a conquistar</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Más de 150 países permiten el sufragio desde el exterior, Cuba aún no</div>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block article-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/matrimonio-igualitario-no-es-novedad-en-el-mundo.html">El matrimonio igualitario no es novedad en el mundo</a></div>
-                <div class="front-news-author">Por  <a href="../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Geografía del matrimonio igualitario, la unión civil y la adopción homoparental</div>
-        </div>
-    </div>    
-    
-        <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block article-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/presidente-mandatos-y-elegibilidad.html">Presidente, mandatos y elegibilidad</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../equipo/saimi.html">Saimi Reyes</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una comparación entre países</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201808/proyecto-constitucion.html">Proyecto de Constitución a Debate</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un espacio para debatir sobre cada artículo de la propuesta de Carta Magna cubana</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201807/ministerios-en-cuba.html">Ministerios en Cuba</a></div>
-                <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una historia de cambios constantes</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201807/consejos-de-ministros.html">Consejos de Ministros</a></div>
-                <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">¿Cómo han sido integrados?</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201807/feminas-en-el-ejecutivo.html">Féminas en el ejecutivo</a></div>
-                <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un análisis de la presencia de mujeres en el Consejo de Ministros</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/mundial/el-mundial-de-los-pronosticos.html">El mundial de los prónosticos</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">¿Qué pasaría si los pronosticos compitieran entre ellos?</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block comment-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201803/el-nuevo-consejo-de-estado.html">El nuevo Consejo de Estado de la República de Cuba</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una caracterización de la candidatura</div>
-            </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201803/predice-el-consejo-de-estado.html">¿Se puede predecir el Consejo de Estado?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Amanda lo intenta</div>
-            </div>
-    </div>
-    
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201803/consejo-de-estado.html">Consejo de Estado de Cuba</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">El camino hasta la IX legislatura</div>
-            </div>
-    </div>
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block viz-color">
-            <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201803/explora-la-candidatura.html">Explora la candidatura al parlamento</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> y <a href="equipo/saimi.html">Saimi Reyes</a>
-            </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una herramienta para analizar la composición de la candidatura a diputados</div>
-            </div>
-    </div>
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                 <div class="front-news-title"><a href="../issues/201803/se-parecera-el-parlamento-a-cuba.html">¿Se parecerá el parlamento a Cuba?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una comparación entre la candidatura a diputados y datos estadísticos del país</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                 <div class="front-news-title"><a href="../issues/201802/los-numeros-de-leyes-sobre-cuba-en-el-congreso-de-estados-unidos.html">De Watergate a Trump: legislaciones sobre Cuba</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, 
-                <a href="../equipo/saimi.html">Saimi Reyes</a> y  <a href="../equipo/ernesto.html">Ernesto Guerra</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">45 años de propuestas en el Congreso de USA</div>
-        </div>
-        </div>
-    
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201712/en-dos-ruedas-y-con-electricidad.html">En dos ruedas y con electricidad</a></div>
-                <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a>, <a href="ernesto.html">Ernesto Guerra</a>, 
-                <a href="saimi.html">Saimi Reyes</a> y  <a href="jessica.html">Jessica Dominguez</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">La ruta cubana de las motos eléctricas</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/iaaf/las-patrias-del-atletismo.html">Las patrias del atletismo</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">20 años de transfers of allegiance</div>
-        </div>
-        </div>
-        
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201708/un-negocio-en-cada-cuadra.html">Un negocio en cada cuadra</a></div>
-                <div class="front-news-author">Por Dailene Doval, Daniella Pérez, <a href="../equipo/jessica.html">Jessica Dominguez</a>, <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Panorámica de los últimos siete años del cuentapropismo en Cuba</div>
-        </div>
-        </div>
-    
-     <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block article-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201708/nuevas-medidas-para-el-cuentapropismo-un-retroceso.html">Nuevas medidas en el Cuentapropismo ¿un retroceso?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Acercamiento a las recientes decisiones sobre la gestión no estatal en Cuba</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201706/los-diez-mejores-libros-cubanos.html">Los 10 mejores libros cubanos por Postdata.club</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a>, <a href="../equipo/jessica.html">Jessica Dominguez</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a>   </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un listado de los libros más influyentes de la literatura cubana</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container" >
-    <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/bhr/medicosdecubaparaelmundo.html">Médicos de Cuba para el mundo</a></div>
-                <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un seguimiento con datos de la brigada Henry Reeve y de la cooperación médica cubana</div>
-        </div>
-    </div>
-    
-     <div class="col-lg-4 col-md-4  container" >
-        <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/premios/el-sexo-de-los-premios-nacionales.html">Premios Nacionales: mujeres a la sombra</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, ... , <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una mirada con enfoque de género a los Premios Nacionales de Cuba</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container" >
-        <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/geografia/geografia-en-la-prensa-cubana.html">Geografía en la prensa cubana</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> y <a href="../equipo/saimi.html">Saimi Reyes</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Las menciones de países en los periodicos nacionales</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container" >
-        <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/ecured/ecured-es-la-enciclopedia-que-necesitamos.html">Ecured ¿es la enciclopedia que necesitamos?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="#">Suilan Estévez</a> y <a href="#">Alejandro Piad</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un análisis comparativo de Ecured</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container" >
-        <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/2016/que-fue-noticia-en-cuba-en-2016.html">¿Qué fue noticia en Cuba en 2016?</a></div>
-                <div class="front-news-author">por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/saimi.html">Saimi Reyes</a>, <a href="../equipo/ernesto.html">Ernesto Guerra</a> y  <a href="../equipo/jessica.html">Jessica Dominguez</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un resumen de 2016 según Granma y las búsquedas en Internet desde la Isla</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4 container" >
-        <div class="news-block main-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201612/seis-grados-de-separacion-en-el-cine-cubano.html">Seis grados de separación en el cine cubano</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una búsqueda de la figura central en las relaciones de actuación</div>
-        </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-4  container " >
-           <div class="news-block viz-color">
-           <div class="title-author-block">
-                <div class="front-news-title"><a href="../issues/201612/reconoces-la-pelicula.html">¿Reconoces la película?</a></div>
-                <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../equipo/jesica.html">Jessica Dominguez</a> y <a href="../equipo/saimi.html">Saimi Reyes</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Trivia sobre películas y carteles del cine cubano</div> 
-            </div>
-            </div>
-    
-    <div class="col-lg-4 col-md-4 container" >
-           <div class="news-block main-color">
-              <div class="title-author-block">
-                <div class="front-news-title"><a href="../../suplementos/fidel/que-preocupaba-a-fidel.html">¿Qué preocupaba a Fidel?</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a> y <a href="../../equipo/saimi.html">Saimi Reyes</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un resumen de los términos más utilizados en sus alocuciones</div>
-        </div>
-        </div> 
-    
-        <div class="col-lg-4 col-md-4 container" >
-           <div class="news-block main-color">
-              <div class="title-author-block">
-                <div class="front-news-title"><a href="../../issues/201611/cuba-en-las-mayores.html">Cuba en las mayores</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a> </div>
-            </div>
-            <div class="front-new-hr"><img  src="../../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una fuerza que se retoma</div>
-        </div>
-        </div> 
 
-        <div class="col-lg-4 col-md-4 container" >
-           <div class="news-block prof-color">
-              <div class="title-author-block">
-                <div class="front-news-title"><a href="../../issues/201611/estrellas-entre-los-grandes.html">Estrellas entre los grandes</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a href="../../equipo/aymara.html">Aymara Vigil</a>, <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../../equipo/yudivian.html">Yudivián Almeida</a> </div>
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="https://covid19cubadata.github.io/12-meses-de-covid19">Covid-19: un año después</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="https://covid19cubadata.github.io/info.html">Covid19CubaData</a>,  
+                        <a href="https://medium.com/juventud-t%C3%A9cnica" title="Revista Juventud Técnica">Juventud Técnica</a> y <a href="#" title="Facultad de Matemática y Computación de la Universidad de La Habana" alt="Facultad de Matemática y Computación de la Universidad de La Habana">MATCOM</a></div>
+                </div>
+                <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">12 meses de la epidemia de Covid-19 en Cuba</div>
             </div>
-            <div class="front-new-hr"><img  src="../../assets/images/rule.png"></div>
-            <div class="front-news-lead">Una selección de los mejores jugadores cubanos en Grandes Ligas</div>
         </div>
-        </div>    
-    
-       <div class="col-lg-4 col-md-4 container" >
-           <div class="news-block viz-color">
-              <div class="title-author-block">
-                <div class="front-news-title"><a href="../../issues/201611/historia-de-cuba-en-grandes-ligas.html">Breve historia de Cuba en las Grandes Ligas</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                    <div class="title-author-block">
+                      <div class="front-news-title"><a href="../suplementos/electricidad/revisitando-las-nuevas-tarifas-electricas.html">Revisitando las nuevas tarifas eléctricas</a></div>
+                       <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                       </div>
+                   </div>
+                   <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
+                   <div class="front-news-lead">Un cambio que parece insuficiente</div>
             </div>
-            <div class="front-new-hr"><img  src="../../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un timeline desde 1871 hasta la actualidad</div>
         </div>
-        </div>
-      
-         <div class="col-lg-4 col-md-4 container" >
-           <div class="news-block main-color">
-             <div class="title-author-block">
-                <div class="front-news-title"><a href="../suplementos/huracanes/cuba-entre-ciclones.html">Cuba entre ciclones</a></div>
-                <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a href="../../equipo/jessica.html">Jessica Dominguez</a>, 
-                <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y  <a href="../../equipo/yudivian.html">Yudivián Almeida</a></div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/electricidad/desenrendando-las-nuevas-tarifas-electricas.html">(Des)enredando las nuevas tarifas eléctricas</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un análisis desde un contexto amplio</div>
             </div>
-            <div class="front-new-hr"><img  src="../../assets/images/rule.png"></div>
-            <div class="front-news-lead">Un resumen del Siglo XXI</div>
         </div>
-        </div>
-      
-        <div class="col-lg-4 col-md-4  container" >
-        <div class="news-block comment-color">
-            <div class="title-author-block">
-            <div class="front-news-title"><a href="../issues/201609/millennials-con-y.html"> Millennials con Y</a></div>
-            <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/armanbot/es-posible-que-un-bot-cubra-la-actuacion-de-los-peloteros-en-la-mlb.html">¿Es
+                            posible que un bot cubra la actuación de los peloteros en la MLB?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="#">Roberto Balboa</a>, <a href="#">Frank Saddan Naranajo</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un experimento para generar automáticamente noticias sobre los cubanos en
+                    las Grandes Ligas</div>
             </div>
-            <div class="front-new-hr"><img  src="../assets/images/rule.png"></div>
-            <div class="front-news-lead">Las iniciales de los nombres en Cuba</div> 
-         </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/fide/ajedrez-sin-fronteras.html">Ajedrez
+                            ¿sin
+                            fronteras?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">El tablero de los cambios de federación en los últimos años</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="https://covid19cubadata.github.io/">Covid19 Cuba Data</a>
+                    </div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a>,
+                        <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="#"
+                            title="Facultad de Matemática y Computación de la Universidad de La Habana"
+                            alt="Facultad de Matemática y Computación de la Universidad de La Habana">MATCOM</a>
+                        <a href="https://medium.com/juventud-t%C3%A9cnica" title="Revista Juventud Técnica">Juventud
+                            Técnica</a>
+                        y <a href="https://covid19cubadata.github.io/info.html">colaboradores</a>.
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Herramienta de información y análisis, basada en código y datos
+                    abiertos,
+                    para el estudio de la covid19 en Cuba </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/elecciones/consejo-de-estado-bajo-la-nueva-constitucion.html">El
+                            Consejo de Estado bajo la nueva Constitución</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Adivinando sus posibles miembros</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201909/cuba-en-los-mundiales-de-atletismo.html">Cuba en los mundiales de
+                            atletismo al aire libre</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">La historia contada desde los datos</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201907/lima-vs-toronto.html">Cuba: Lima vs
+                            Toronto</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una breve comparativa de la actuación cubana en los panamericanos de
+                    2019
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201907/el-medallero-de-lima-2019-que-se-puede-esperar.html">El medallero
+                            de
+                            Lima 2019 ¿qué podemos esperar?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Otra de tantas predicciones</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/salario/salario-mujeres.html">¿En Cuba,
+                            quiénes cobran más las mujeres o los hombres?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almedia</a> y <a
+                            href="../equipo/saimi.html">Saimi Reyes</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Qué nos dicen los datos oficiales</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201903/migracion.html">Contar la migración
+                            interna</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivián <span
+                                class="hidden-md hidden-lg">Almeida</span></a>,
+                        <a href="saimi.html">Saimi <span class="hidden-md hidden-lg">Reyes</span></a>,
+                        <a href="ernesto.html">Ernesto <span class="hidden-md hidden-lg">Guerra</span></a><span
+                            class="hidden-md hidden-lg"> y estudiantes de Periodismo</span><span
+                            class="hidden-sm hidden-xs">, Sheila, Erika, Tu, Darián, Eduardo, Gabriela,
+                            Wilfredo, Dianelis, Karina, Yasmani, Lisset, Mabel, Claudia, Junior y Carolina</span>
+
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una aproximación a cada provincia</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201903/sonificando-las-tasas-de-migracion.html">Sonificando las tasas de
+                            migración</a></div>
+                    <div class="front-news-author">Por <a href="ernesto.html">Ernesto Guerra</a>, <a
+                            href="yudivian.html">Yudivián Almeida</a>
+                        y <a href="saimi.html">Saimi Reyes</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">¿Cómo se escucharían los datos migratorios de cada provincia si fueran
+                    música?</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/queen/bohemian-rhapsody-effect.html">El
+                            efecto
+                            Bohemian Rhapsody</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivian Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Qué nos muestran las listas de reproducciones de Spotify</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/futura-constitucion-a-debate.html">El
+                            Proceso Constitucional</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivian Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un resumen integral de nuestra cobertura</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/constitucion-a-referendo.html">Constitución
+                            a Referendo</a></div>
+                    <div class="front-news-author">Por <a href="saimi.html">Saimi Reyes</a> y <a
+                            href="yudivian.html">Yudivian Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un análisis sobre los cambios tras la consulta popular</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/consejos-provinciales.html">Consejos
+                            Provinciales: ¿menos es más?</a></div>
+                    <div class="front-news-author">Por <a href="saimi.html">Saimi Reyes</a>, <a
+                            href="ernesto.html">Ernesto Guerra</a> y <a href="yudivian.html">Yudivian Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un mirada breve a la integración de los consejos provinciales</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/debate-en-facebook-los-numeros.html">Debate
+                            en Facebook: los números</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Qué nos dicen las estadísticas de un Grupo de Facebook sobre la Reforma
+                    Constitucional</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/debate-en-postdata-los-numeros.html">Debate
+                            en Postdata.club: los números</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Qué nos dicen las cifras de los comentarios sobre el proyecto de
+                    Constitución</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block article-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201808/como-se-reforman-la-constituciones.html">Cómo se reforman las
+                            constituciones</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">¿Quiénes las inician? ¿Quiénes las aprueban?</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block comment-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201808/participacion-directa-en-deuda.html">Participación directa de los
+                            ciudadanos, una deuda</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">La constitución debería empoderar aún más la participación ciudadana
+                    directa</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/mano-alzada/a-mano-alzada.html">A mano
+                            alzada</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/ernesto.html">Ernesto Guerra</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/yudivian.html">Yudivián
+                            Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Cinco bocetos que, hasta hoy, no fueron historias</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block article-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201808/voto-a-distancia-un-derecho-a-conquistar.html">Voto a distancia:
+                            un
+                            derecho a conquistar</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Más de 150 países permiten el sufragio desde el exterior, Cuba aún no
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block article-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201808/matrimonio-igualitario-no-es-novedad-en-el-mundo.html">El
+                            matrimonio
+                            igualitario no es novedad en el mundo</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/ernesto.html">Ernesto Guerra</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Geografía del matrimonio igualitario, la unión civil y la adopción
+                    homoparental</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block article-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201808/presidente-mandatos-y-elegibilidad.html">Presidente, mandatos y
+                            elegibilidad</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/ernesto.html">Ernesto Guerra</a> y <a href="../equipo/saimi.html">Saimi
+                            Reyes</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una comparación entre países</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201808/proyecto-constitucion.html">Proyecto de
+                            Constitución a Debate</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un espacio para debatir sobre cada artículo de la propuesta de Carta
+                    Magna
+                    cubana</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201807/ministerios-en-cuba.html">Ministerios en
+                            Cuba</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una historia de cambios constantes</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201807/consejos-de-ministros.html">Consejos de
+                            Ministros</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">¿Cómo han sido integrados?</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201807/feminas-en-el-ejecutivo.html">Féminas en
+                            el
+                            ejecutivo</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un análisis de la presencia de mujeres en el Consejo de Ministros</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/mundial/el-mundial-de-los-pronosticos.html">El
+                            mundial de los prónosticos</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">¿Qué pasaría si los pronosticos compitieran entre ellos?</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block comment-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201803/el-nuevo-consejo-de-estado.html">El
+                            nuevo
+                            Consejo de Estado de la República de Cuba</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una caracterización de la candidatura</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201803/predice-el-consejo-de-estado.html">¿Se
+                            puede
+                            predecir el Consejo de Estado?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Amanda lo intenta</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201803/consejo-de-estado.html">Consejo de
+                            Estado de
+                            Cuba</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">El camino hasta la IX legislatura</div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201803/explora-la-candidatura.html">Explora la
+                            candidatura al parlamento</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> y <a
+                            href="equipo/saimi.html">Saimi Reyes</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una herramienta para analizar la composición de la candidatura a
+                    diputados
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201803/se-parecera-el-parlamento-a-cuba.html">¿Se
+                            parecerá el parlamento a Cuba?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una comparación entre la candidatura a diputados y datos estadísticos
+                    del
+                    país</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201802/los-numeros-de-leyes-sobre-cuba-en-el-congreso-de-estados-unidos.html">De
+                            Watergate a Trump: legislaciones sobre Cuba</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>,
+                        <a href="../equipo/saimi.html">Saimi Reyes</a> y <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">45 años de propuestas en el Congreso de USA</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201712/en-dos-ruedas-y-con-electricidad.html">En
+                            dos ruedas y con electricidad</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a>, <a
+                            href="ernesto.html">Ernesto Guerra</a>,
+                        <a href="saimi.html">Saimi Reyes</a> y <a href="jessica.html">Jessica Dominguez</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">La ruta cubana de las motos eléctricas</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/iaaf/las-patrias-del-atletismo.html">Las
+                            patrias del atletismo</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">20 años de transfers of allegiance</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201708/un-negocio-en-cada-cuadra.html">Un
+                            negocio
+                            en cada cuadra</a></div>
+                    <div class="front-news-author">Por Dailene Doval, Daniella Pérez, <a
+                            href="../equipo/jessica.html">Jessica Dominguez</a>, <a href="../equipo/saimi.html">Saimi
+                            Reyes</a> y <a href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Panorámica de los últimos siete años del cuentapropismo en Cuba</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block article-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201708/nuevas-medidas-para-el-cuentapropismo-un-retroceso.html">Nuevas
+                            medidas en el Cuentapropismo ¿un retroceso?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Acercamiento a las recientes decisiones sobre la gestión no estatal en
+                    Cuba
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201706/los-diez-mejores-libros-cubanos.html">Los 10
+                            mejores libros cubanos por Postdata.club</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a>, <a href="../equipo/jessica.html">Jessica
+                            Dominguez</a> y <a href="../equipo/ernesto.html">Ernesto Guerra</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un listado de los libros más influyentes de la literatura cubana</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/bhr/medicosdecubaparaelmundo.html">Médicos
+                            de
+                            Cuba para el mundo</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/saimi.html">Saimi Reyes</a> y <a
+                            href="../equipo/yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un seguimiento con datos de la brigada Henry Reeve y de la cooperación
+                    médica cubana</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/premios/el-sexo-de-los-premios-nacionales.html">Premios Nacionales:
+                            mujeres a la sombra</a></div>
+                    <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a
+                            href="../../equipo/yudivian.html">Yudivián Almeida</a>, ... , <a
+                            href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a
+                            href="../../equipo/jessica.html">Jessica Dominguez</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una mirada con enfoque de género a los Premios Nacionales de Cuba</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/geografia/geografia-en-la-prensa-cubana.html">Geografía en la
+                            prensa
+                            cubana</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> y <a
+                            href="../equipo/saimi.html">Saimi Reyes</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Las menciones de países en los periodicos nacionales</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/ecured/ecured-es-la-enciclopedia-que-necesitamos.html">Ecured ¿es
+                            la
+                            enciclopedia que necesitamos?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="#">Suilan Estévez</a> y <a href="#">Alejandro Piad</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un análisis comparativo de Ecured</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../suplementos/2016/que-fue-noticia-en-cuba-en-2016.html">¿Qué fue noticia en Cuba
+                            en
+                            2016?</a></div>
+                    <div class="front-news-author">por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/saimi.html">Saimi Reyes</a>, <a href="../equipo/ernesto.html">Ernesto
+                            Guerra</a> y <a href="../equipo/jessica.html">Jessica Dominguez</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un resumen de 2016 según Granma y las búsquedas en Internet desde la
+                    Isla
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../issues/201612/seis-grados-de-separacion-en-el-cine-cubano.html">Seis grados de
+                            separación en el cine cubano</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una búsqueda de la figura central en las relaciones de actuación</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container ">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201612/reconoces-la-pelicula.html">¿Reconoces
+                            la
+                            película?</a></div>
+                    <div class="front-news-author">Por <a href="../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../equipo/ernesto.html">Ernesto Guerra</a>, <a href="../equipo/jesica.html">Jessica
+                            Dominguez</a> y <a href="../equipo/saimi.html">Saimi Reyes</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Trivia sobre películas y carteles del cine cubano</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../../suplementos/fidel/que-preocupaba-a-fidel.html">¿Qué
+                            preocupaba a Fidel?</a></div>
+                    <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a> y
+                        <a href="../../equipo/saimi.html">Saimi Reyes</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un resumen de los términos más utilizados en sus alocuciones</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../../issues/201611/cuba-en-las-mayores.html">Cuba en las
+                            mayores</a></div>
+                    <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una fuerza que se retoma</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block prof-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../../issues/201611/estrellas-entre-los-grandes.html">Estrellas entre los
+                            grandes</a>
+                    </div>
+                    <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a
+                            href="../../equipo/aymara.html">Aymara Vigil</a>, <a
+                            href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a
+                            href="../../equipo/yudivian.html">Yudivián Almeida</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../../assets/images/rule.png"></div>
+                <div class="front-news-lead">Una selección de los mejores jugadores cubanos en Grandes Ligas</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block viz-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a
+                            href="../../issues/201611/historia-de-cuba-en-grandes-ligas.html">Breve historia de Cuba
+                            en
+                            las Grandes Ligas</a></div>
+                    <div class="front-news-author">Por <a href="../../equipo/yudivian.html">Yudivián Almeida</a>, <a
+                            href="../../equipo/saimi.html">Saimi Reyes</a> y <a href="../../equipo/jessica.html">Jessica
+                            Dominguez</a> </div>
+                </div>
+                <div class="front-new-hr"><img src="../../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un timeline desde 1871 hasta la actualidad</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 container">
+            <div class="news-block main-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../suplementos/huracanes/cuba-entre-ciclones.html">Cuba
+                            entre
+                            ciclones</a></div>
+                    <div class="front-news-author">Por <a href="../../equipo/saimi.html">Saimi Reyes</a>, <a
+                            href="../../equipo/jessica.html">Jessica Dominguez</a>,
+                        <a href="../../equipo/ernesto.html">Ernesto Guerra</a> y <a
+                            href="../../equipo/yudivian.html">Yudivián Almeida</a>
+                    </div>
+                </div>
+                <div class="front-new-hr"><img src="../../assets/images/rule.png"></div>
+                <div class="front-news-lead">Un resumen del Siglo XXI</div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4  container">
+            <div class="news-block comment-color">
+                <div class="title-author-block">
+                    <div class="front-news-title"><a href="../issues/201609/millennials-con-y.html"> Millennials con
+                            Y</a></div>
+                    <div class="front-news-author">Por <a href="yudivian.html">Yudivián Almeida</a></div>
+                </div>
+                <div class="front-new-hr"><img src="../assets/images/rule.png"></div>
+                <div class="front-news-lead">Las iniciales de los nombres en Cuba</div>
+            </div>
+        </div>
+
     </div>
-        
-    </div>
-    
-   <div class="footer">
+
+    <div class="footer">
         <div>
-        <span><a href="../index.html"><img class="logo-footer" src="../assets/images/logo-white.png"></a></span>
-        <span class="footer-icons">
-        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
-        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
-        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
-        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
-        </span>
+            <span><a href="../index.html"><img class="logo-footer" src="../assets/images/logo-white.png"></a></span>
+            <span class="footer-icons">
+                <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a>
+                <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a>
+                <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+            </span>
         </div>
 
-        <div class="copyright">Copyright <script>document.write(new Date().getFullYear());</script></div>
+        <div class="copyright">Copyright
+            <script>document.write(new Date().getFullYear());</script>
+        </div>
     </div>
 
 
@@ -732,28 +973,29 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script>
-    $(document).on('click',function (e) {
-        submenu = $('#header-submenu');
-        if (!submenu.is(e.target)){
+        $(document).on('click', function (e) {
+            submenu = $('#header-submenu');
+            if (!submenu.is(e.target)) {
+                $('.submenu').hide();
+                $('#authors').show();
+            }
+        });
+        $("#genero").click(function (event) {
+            event.stopPropagation();
+            $('.submenu').hide();
+            $('#generos').show();
+        });
+        $("#author").click(function (event) {
+            event.stopPropagation();
             $('.submenu').hide();
             $('#authors').show();
-        }
-    });
-    $( "#genero" ).click(function( event ) {
-        event.stopPropagation();
-        $('.submenu').hide();
-        $('#generos').show();
-    });
-    $( "#author" ).click(function( event ) {
-        event.stopPropagation();
-        $('.submenu').hide();
-        $('#authors').show();
-    });
-    $( "#header-submenu" ).click(function( event ) {
-        event.stopPropagation();
-        $('.submenu').hide();
-        $('#authors').show();
-    });
+        });
+        $("#header-submenu").click(function (event) {
+            event.stopPropagation();
+            $('.submenu').hide();
+            $('#authors').show();
+        });
     </script>
-  </body>
+</body>
+
 </html>
