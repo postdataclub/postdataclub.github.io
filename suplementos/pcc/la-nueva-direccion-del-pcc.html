@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../icon.png">
+
+  <title>Postdata.club - ¿Es posible que un bot cubra la actuación de los peloteros en la MLB?</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+  <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+  <link href="css/local.css" rel="stylesheet">
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-84667443-1', 'auto');
+      ga('send', 'pageview'); 
+
+  </script>
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class="logo logo-responsive" src="../../assets/images/logo.png">
+
+
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Autores <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+              <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+              <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+              <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Géneros <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../generos/principales.html">Principales</a></li>
+              <li><a href="../../generos/articulos.html">Artículos</a></li>
+              <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+              <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+              <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+              <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+  <div class="header-pc hidden-xs hidden-sm row">
+    <div class="header-logo col-lg-6 col-md-6">
+      <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+    </div>
+    <div class="header-menu col-lg-3 col-md-3">
+      <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+      </div>
+    </div>
+    <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
+      <div id="generos" style="display:none" class="submenu">
+        <div class="submenu-header">Por géneros:</div>
+        <div><a href="../../generos/principales.html">Principales</a></div>
+        <div><a href="../../generos/articulos.html">Artículos</a></div>
+        <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+        <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+        <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+        <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+      </div>
+      <div id="authors" style="display:none" class="submenu">
+        <div class="submenu-header">Por autores:</div>
+        <div><a href="../../equipo/jessica.html">Jessica Dominguez</a></div>
+        <div><a href="../../equipo/ernesto.html">Ernesto Guerra</a></div>
+        <div><a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+        <div><a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-header row  main-color">
+    <div class="article-news-title">La nueva dirección del Partido Comunista de Cuba</div>
+    <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">21/4/2021</span></div>
+    <div class="article-new-hr"><img src="../../assets/images/rule.png"></div>
+    <div class="article-news-lead">Un breve análisis de la composición del Comité Central y del Buró Político</div>
+    <div class="article-news-image">
+      <img src="images/congreso.jpg">
+      <div class="image-info row">
+        <div class="image-caption col-lg-9 col-md-9"></div>
+        <div class="image-author col-lg-3 col-md-3">Foto: ACN</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-body">
+
+    <div class="text-block">
+      <p>
+        El pasado 19 de abril concluó el VIII Congreso del Partido Comunista de Cuba (PCC). En esa fecha se anunció el resultado de la elección
+        del nuevo Comité Central del Partido (CC), el Buró Político (BP), el Secretariado así como la primera figura del partido: el Primer Secretario 
+        del Comité Central. Como todos esperaban, Miguel Díaz Canel, Presidente de la República de Cuba, fue electo como máxima autoridad
+        de la única organización partidista del país. Sin embargo, en un congreso que marcó el fin de un tránsito generacional, hay varios
+        elementos en la nueva composición de la cúpula directiva del PCC que se destacan.
+      </p>
+      <p>
+        Este congreso, en cuanto a participantes, fue reducido debido a la coyuntura relacionada con la epidemia de la COVID-19. 
+        En esta ocasión se contó con 300 delegados, que son el  30% del número de participantes en el VII congreso cuando hubo cerca 
+        de un millar. Así mismo disminuyó, respecto al cónclave anterior, el número de miembros elegidos tanto en el CC como en el BP.
+        Ahora el CC cuenta con 114 miembros por 142 en la edición anterior, mientras que el BP tiene 14 integrantes por 17 previamente.
+        El Secretariado mantuvo en 6 su número de miembros.
+      </p>
+      <p>
+        En general, el CC tuvo una gran renovación pues el 48% de sus integrantes son de nueva incorporación. En el caso, del BP y el 
+        Secretariado la renovación tiene una connotación diferentes. Solo dos integrantes de estos dos cuerpos de dirección no pertenecían
+        al anterior CC: el Primer Ministro, Manuel Marrero, y el Ministro del Interior, Lázaro A. Álvarez Casas. Sin embargo, son cinco 
+        los nuevos integrantes del BP, incluyendo a los dos ya mencionados. En el caso del Secretariado este varió el 100% de su composición.
+      </p>
+    
+    </div>
+
+    <div id="bp-members" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Miembros del Buró Político
+      </div>
+      <div class="graph">
+        <div id="bp-head">
+          <div><img class="circle-image normal-border" src="images/1.jpg" title="Miguel M. Díaz Canel">
+            <p>Miguel M. Díaz Canel</p>
+          </div>
+        </div>
+        <br>
+        <div id="bp-head">
+          <div><img class="circle-image new-border" src="images/2.jpg" title="Miguel M. Díaz Canel">
+            <p>Lázaro A. Álvarez</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/3.jpg" title="Teresa M. Amarelle Boué">
+            <p>Teresa M. Amarelle</p>          
+          </div>
+          <div><img class="circle-image normal-border" src="images/4.jpg" title="Marta Ayala Ávila">
+            <p>Marta Ayala</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/5.jpg" title="Ulises Guilarte de Nacimiento">
+            <p>Ulises Guilarte</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/6.jpg" title="Juan Esteban Lazo Hernández">
+            <p>Esteban Lazo</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/7.jpg" title="Álvaro López Miera">
+            <p>Álvaro López Miera</p>
+          </div>
+          <div><img class="circle-image new-border" src="images/8.jpg" title="Manuel Marrero Cruz">
+            <p>Manuel Marrero</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/9.jpg" title="Gladys Martínez Verdecia">
+            <p>Gladys Martínez</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/10.jpg" title="Roberto T. Morales Ojeda">
+            <p>Roberto Morales</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/11.jpg" title="José Amado Ricardo Guerra">
+            <p>José Amado</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/12.jpg" title=" Luis Alberto Rodríguez López-Calleja">
+            <p> Luis A. Rodríguez</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/13.jpg" title="Bruno E. Rodríguez Parrilla">
+            <p>Bruno Rodríguez</p>
+          </div>
+          <div><img class="circle-image normal-border" src="images/14.jpg" title="Salvador Valdés Mesa">
+            <p>Salvador Valdés</p>
+          </div>
+        </div>
+      </div>
+      <div id="legend">
+        <p>
+          <span><i class="fa fa-square new-text"></i> Nuevos miembros en el CC y el BP</span> 
+          <span><i class="fa fa-square normal-text"></i> Miembros que se mantienen en el BP</span></p>
+          <span><i class="fa fa-square move-text"></i> Nuevos miembros en el BP</span></p>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Ahora dejan el BP, y también el CC, un grupo de figuras históricas de la Revolución Cubana encabezadas por el General de Ejército
+        Raúl Castro Ruz, quien hasta ese momento era el máximo lider del PCC. Junto con Raúl, abandonan la dirección partidista el que fuera 
+        Segundo Secretario del Partido, José R. Machado Ventura, el Comandante de la Revolución Ramiro Valdés, el General de Cuerpo de Ejército 
+        Leopoldo Cintra  quien en días previos también abandonó su cargo de Ministro de las FAR y el General de Cuerpo de Ejército Ramón 
+        Espinosa Martín, Viceministro Primero de las FAR. 
+      </p>
+      <p>
+        Además de estas figuras históricas, se retiran también del BP Mercedes López Acea,
+        Marino Murillo y Miriam Nicado, Rectora de la Universidad de La Habana y miembro del Consejo de Estado. Esta última es la única que
+        se mantiene en integrando el CC. Resalta que Murillo, que ha sido la figura más notable de la Comisión de Implementación de los 
+        Líneamientos, no solo abandona el BP sino que ni siquiera se mantiene como parte del CC.
+      </p>
+      <p>
+        En el caso del Secretariado, todos sus miembros si bien ya pertenecían al CC son nuevos en este cuerpo de dirección. Los anteriores
+        miembros también dejaron de integrar el  CC. 
+      </p>
+      <p>
+        En el nuevo Secretariado destaca Roberto Morales Ojeda, quien es el único de los integrantes que forma parte del BP. 
+        tal como lo hacía Machado Ventura, en la dirección partidista anterios. Ahora, cuando a todas luces se decidió prescindir 
+        del cargo de Segundo Secretario, parece ser que Morales Ojeda será la segunda figura del partido pues a su cargo estará
+        la Organización y Política de Cuadros del PCC. Además, al día siguiente de la elección partidista se anunció
+        su liberación como Viceprimer Ministro para enfocarse en su trabajo profesional en el PCC.
+      </p>
+      <p>
+        Otro movimiento relacionado con el trabajo profesional en el Secretariado del CC fue la liberación de Rogelio Polanco
+        como Rector del Instituto Superior de Relaciones Internacionales (ISRI). Polanco asumirá la jefatura del departamento
+        ideológico del PCC.
+      </p>
+    </div>
+
+    <div id="sec-members" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Miembros del Secretariado
+      </div>
+      <div class="graph">
+        <div id="bp-head">
+          <div><img class="circle-image move-border" src="images/10.jpg" title="Roberto T. Morales Ojeda">
+            <p>Roberto Morales</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/15.jpg" title="José Ramón Monteagudo Ruiz">
+            <p>José R. Monteagudo</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/16.jpg" title=" Félix Duarte Ortega">
+            <p> Félix Duarte</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/17.jpg" title="Rogelio Polanco Fuentes">
+            <p>Rogelio Polanco</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/18.jpg" title="Jorge Luis Broche Lorenzo">
+            <p>Jorge L. Broche</p>
+          </div>
+          <div><img class="circle-image move-border" src="images/19.jpg" title="Joel Queipo Ruiz">
+            <p>Joel Queipo</p>
+          </div>
+        </div>
+      </div>
+      <div id="legend">
+        <p>
+          <span><i class="fa fa-square new-text"></i> Nuevos miembros en el CC y el Secretariado</span> 
+          <span><i class="fa fa-square normal-text"></i> Miembros que se mantienen en el Secretariado</span></p>
+          <span><i class="fa fa-square move-text"></i> Nuevos miembros en el Secretariado</span></p>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Las distintas estructuras de dirección del país, así como de sus principales organizaciones de masas, 
+        están bien representadas en la dirección partidista. El Presidente y Vicepresidente de la República, el Presidente
+        de la Asamblea Nacional del Poder Popular (ANPP) y del Consejo de Estado (CE), el Primer Ministro, así como el Secretario General de la 
+        Central de Trabajadores de Cuba (CTC) y la Secretaria General de la Federación de Mujeres Cubanas (FMC) 
+        forman parte del BP. Del mismo modo, otros cuatro miembros del Consejo de Ministros integran este cuerpo de dirección.
+      </p>
+      <p>
+        En general, en el CC tienen representación 11 miembros del CE, incluyendo a su Presidente, Vicepresidente
+        y Secretario. Por su parte, 15 integrantes del CM forman parte de este órgano del partido. Entre estos están
+        el Primer Ministro, 4 Viceprimeros Ministros, el Secretario y 9 Ministros.
+      </p>
+      <p>
+        También destaca la presencia de otros cargos relevantes como son la Contralora General y la Primera Vicecontralora de la República
+        así como la Fiscal General de la Fiscalía General de la República.
+      </p>
+    </div>
+
+    <div id="sec-members" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Distribución de miembros del CE/CM según su integración en el CC/BP
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="graph-text main-text center">
+            11 miembros del CE integran el CC/BP
+          </div>
+          <div id="ce-pie"></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="graph-text main-text center">
+            15 miembros del CM integran el CC/BP
+          </div>
+          <div id="cm-pie"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Por su parte relacionado con las principales organizaciones políticas, profesionales y de masas, además de los máximos dirigentes de la CTC y 
+        la FMC con presencia en el Buró Político, están presentes en el CC  el Coordinador Nacional de los Comité de Defensa de la
+         Revolución (CDR) y el Presidente de la Asociación Nacional de Agricultores Pequeños (ANAP). La Unión de Jóvenes Comunistas (UJC)
+         tiene presencia con la Segunda Secretaria de su Comité Nacional, aunque resulta curioso que no integre este órgano el máximo
+         dirigente de esta organización, Diosvany Acosta. Más notorio resulta la ausencia de alguno de los directivos de la Unión Nacional
+         de Escritores y Artistas de Cuba (UNEAC), que es la prinicipal organización intelectual del país.
+      </p>
+      <p>
+        El balance de género en el CC tiene cierto equilibrio, pues cerca del 46% de los integrantes son mujeres. Sin embargo,
+        este equilibrio ya no se muestra en las principales estructuras de dirección del CC. En el BP hay apenas tres mujeres entre
+        sus 14 miembros, y en el Secretariado no hay ninguna mujer. En total, contando los 19 miembros de ambos cuerpos, hay
+        apenas un 15.8% de representación femenina. Ello es una disminución con respecto a la dirección anterior cuando, con un 22.7%
+        de representación, cinco mujeres -4 en el BP y 1 en el Secretariado- eran parte de los 22 integrantes del BP y el Secretariado.
+      </p>
+      <p>
+        El sector más representado es el de los representantes del Gobierno, el Estado y la Administración pública seguido por el de los
+        funcionarios de PCC a los distintos niveles. En un segundo escalón se encuentra aquellos que representan a instituciones militares,
+        el empresariado así como profesionales relacionados con la educación universitaria o centros vinculados a la investigación. Si son 
+        notables las ausencias de miembros relacionados con el sector de la cultura, el deporte o de trabajadores por cuenta propia.
+      </p>
+    </div>
+
+    <div id="sec-members" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Miembros del CC por Sector
+      </div>
+      <div class="graph">
+        <div id="sector-bar"></div>
+        <div class="note-text main-text center">
+          *un miembro puede representar a más de un sector
+        </div>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        Otro elemento que resalta en la conformación del CC es la cantidad de miembros que son directivos.
+        Casi el 87% de los integrantes de este cuerpo realizan labores de dirección en algún nivel. 
+        Ello implica que hay una baja representación de profesionales y trabajadores vinculados directamente
+        a labores económicas o sociales.
+      </p>
+      <p>
+        Por otra parte, también es notable el número de miembros que poseen altos grados militares. 
+        Al menos 13 integrantes del CC, 10 de ellos de nuevo ingreso, poseen el grado de General.
+        Esto representa más del 11% del total de miembros del CC. Entres estos destacan el Secretario
+        del Consejo de Ministros, el Ministro de las FAR, el Ministro del Interior, 
+        el Presidente Ejecutivo del Grupo de Administración Empresarial y los tres Jefes de Ejército.
+      </p>
+      <p>
+        De manera general, se puede notar que estamos en presencia de un Comité Central mucho más compacto.
+        En el mismo se nota que existe una gran participación de los máximos dirigentes del país. Esta
+        representación de directivos no se queda solo al nivel de dirigentes del estado y el gobierno, lo que hace 
+        que los profesionales y trabajadores de base parezcan estar subrepresentados. Asimismo, destaca
+        el porciento de militares de alto grado, muchos de ellos de nuevo ingreso. Además, es imposible
+        no señalar la baja presencia de determinados sectores de la sociedad cubana entre los que destacan,
+        de manera mayúscula, la cultura y los trabajadores por cuenta propia.
+      </p>
+    </div>
+
+    <div id="explorer-members" class="media-block main-border border">
+      <div class="graph-text main-text center">
+        Explora a los miembros del Comité Central
+      </div>
+
+      <div class="graph">
+        <div id="explore-filters" class="main-text">
+          <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <label for="cc">Comité Central/Buró Político:</label><br>
+            <select id="cc" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="cc-new">Nuevos miembros del CC</option>
+            <option value="cc-old">Miembros que se mantienen en el CC</option>
+            <option value="bp">Miembros del BP</option>
+            <option value="bp-new">Nuevos miembros del BP</option>
+            <option value="bp-old">Miembros que se mantienen en el BP</option>
+            <option value="sec">Miembros del Secretariado</option>
+            </select><br>
+
+            <label for="anpp">Asamblea Nacional:</label><br>
+            <select id="anpp" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="anpp-yes">Diputados</option>
+            <option value="anpp-no">No diputados</option>
+            <option value="ce">Consejo de Estado</option>
+            </select><br>
+
+            <label for="cm">Consejo de Ministros:</label><br>
+            <select id="cm" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="cm-yes">Miembros del CM</option>
+            <option value="cm-no">No miembros del CM</option>
+            </select><br>
+
+            <label for="sector">Sector:</label><br>
+            <select id="sector" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="partido">PCC</option>
+            <option value="publico">Gobierno/Estado/Administración Pública</option>
+            <option value="organizaciones">Org. de Masas/Sindicales/Políticas</option>
+            <option value="militar">Militar</option>
+            <option value="empresarial">Empresarial</option>
+            <option value="salud">Salud</option>
+            <option value="ciencia">Ciencia/Educación</option>
+            <option value="comunicacion">Prensa/Televisión</option>
+            <option value="agricultura">Agricultura</option>
+            </select><br>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <label for="sex">Sexo:</label><br>
+            <select id="sex" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="f">Femenino</option>
+            <option value="m">Masculino</option>
+            </select><br>
+
+            <label for="dir">Directivos:</label><br>
+            <select id="dir" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="dir-yes">Directivos</option>
+            <option value="dir-no">No directivos</option>
+            </select><br>
+
+            <label for="otros">Otros:</label><br>
+            <select id="otros" class="filter-item">
+            <option value="none" selected>Cualquiera</option>
+            <option value="general">Generales</option>
+            <option value="org">Dir. de Org de Masas/Sind./Polit.</option>
+            </select><br>
+
+            <br>
+            <p><span id="delete-filters" class="cursor">Elimina todo los filtros</span></p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      
+      <div id="explore-content">
+        <div id="explore-stats">
+          <p> 
+            Se identificaron <span id="pfilter">141</span> miembros, lo que representan el <span id="ppercent">100</span>%  <span id="ppie" data-peity='{ "fill": ["#461A57", "#eeeeee"]}' class="pie">114/114</span> del total.<br>
+            De los identificados, <span id="pnfilter">141</span> son nuevos miembros, lo que representa el <span id="pnpercent">100</span>% <span id="pnpie" data-peity='{ "fill": ["red", "#eeeeee"]}' class="pie">114/114</span> de estos
+          </p>
+        </div>
+        <div id="explore-results">
+        </div>
+    </div>
+    <div id="explore-profile" style="display: none;">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2">
+          <div>
+            <img id="profile-image" src="images/1.jpg">
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+          <p>
+            <span id="profile-name-label">Nombre:</span> <span id="profile-name">El Nombre</span>
+          </p>
+          <p>
+            <span id="profile-desc-label">Descripción:</span> <span id="profile-desc">La descripción</span>
+          </p>
+          <p>
+            <span id="profile-bp" class="membership">Buró Político</span>
+            <span id="profile-sec" class="membership new">Secretariado</span>
+            <span id="profile-dip" class="membership">Diputado</span> 
+            <span id="profile-ce" class="membership">Consejo de Estado</span>
+            <span id="profile-cm" class="membership">Consejo de Ministros</span>
+          </p>
+          <p>
+            <span id="sector-label">Sector(es):</span><br>
+            <span id="partido" class="membership-sector">PCC</span>
+            <span id="publico" class="membership-sector">Gobierno/Estado/Administración Pública</span>
+            <span id="organizaciones" class="membership-sector">Org. de Masas/Sindicales/Políticas</span>
+            <span id="militar" class="membership-sector">Militar</span>
+            <span id="empresarial" class="membership-sector">Empresarial</span>
+            <span id="salud" class="membership-sector">Salud</span>
+            <span id="ciencia" class="membership-sector">Ciencia/Educación</span>
+            <span id="comunicacion" class="membership-sector">Prensa/Televisión</span>
+            <span id="agricultura" class="membership-sector">Agricultura</span>
+          </p>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <p id="close-profile" class="cursor" title="Cerrar">
+            X
+          </p>
+        </div>
+      </div>
+      </div>
+      <div id="legend">
+        <p><span><i class="fa fa-square new-text"></i> Nuevos miembros</span> <span><i class="fa fa-square normal-text"></i> Miembros que se mantienen</span></p>
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+       <span class="bold">Notas Metodógicas:</span> Para realizar el trabajo se conformó manualmente una <a href="data/cc.json">base de datos</a> 
+       en formato JSON. Esta base de datos se realizó a partir de la publicación de los miembros electos del Comité Central publicada por
+       <a href="http://www.granma.cu/octavo-congreso-pcc/2021-04-19/buro-politico-secretariado-y-miembros-del-comite-central-del-partido-comunista-de-cuba-19-04-2021-10-04-36">Granma</a>.
+       Para los datos relacionados con la integración del Comité Central previo se tomó como referencia este 
+       <a href="http://www.granma.cu/septimo-congreso-del-pcc/2016-04-19/presentan-nuevo-comite-central-del-partido-19-04-2016-12-04-45">artículo previo</a> 
+       publicado también por Granma. Para la información relacionada con los diputados se tomó como referencia un 
+       <a href="../../issues/201803/explora-la-candidatura.html">trabajo previo</a> de Postada.club así commo información de la 
+       <a href="https://www.parlamentocubano.gob.cu/index.php/diputados/">Asamblea Nacional del Poder Popular</a>, de aquí también se 
+       tomó la <a href="https://www.parlamentocubano.gob.cu/index.php/consejo-de-estado">información</a> relacionada con el Consejo de Estado. 
+       Los datos relacionados con el Consejo de Ministros se tomaron del sitio de la <a href="https://www.presidencia.gob.cu/es/gobierno/">Presidencia de Cuba</a>.
+       Para los gráficos y las interacciones programada con HTML, CSS y Javascript se utilizaron las bibliotecas Bootstrap, jQuery, Peity y C3.js.
+      </p>
+    
+    </div>
+
+
+
+
+
+    <div class="media-block notes">
+      <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/suplementos/armanbot/es-posible-que-un-bot-cubra-la-actuacion-de-los-peloteros-en-la-mlb.html"
+            target='_blank'>
+            <div class="cursor  facebook-color"><i class="fa fa-facebook"></i> Facebook</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="https://twitter.com/share?url=http://www.postdata.club/suplementos/armanbot/es-posible-que-un-bot-cubra-la-actuacion-de-los-peloteros-en-la-mlb.html&amp;text=%C2%BFEs%20posible%20que%20un%20bot%20cubra%20la%20actuaci%C3%B3n%20de%20los%20peloteros%20en%20la%20MLB%3F&amp;hashtags=#postdataclub"
+            target='_blank'>
+            <div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=¿Es posible que un bot cubra la actuación de los peloteros en la MLB? http://www.postdata.club/suplementos/armanbot/es-posible-que-un-bot-cubra-la-actuacion-de-los-peloteros-en-la-mlb.html"
+            target='_blank'>
+            <div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div>
+          </a></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="comments-block">
+      <div id="disqus_thread"></div>
+      <script>
+
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+        var disqus_config = function () {
+            this.page.url = 'http://postdata.club/suplementos/pcc/la-nueva-direccion-del-pcc.html.html';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'PDClub-202104-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//postdataclub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
+    </div>
+
+  </div>
+
+
+
+  <div class="footer">
+    <div>
+      <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+      <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a>
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+      </span>
+    </div>
+
+    <div class="copyright">Copyright
+      <script>document.write(new Date().getFullYear());</script>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+  <script src="../../assets/js/c3.js"></script>
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="../../assets/js/jquery.peity.min.js"></script>
+  <script src="js/cc.js"></script>
+  <script>
+    $(document).on('click', function (e) {
+      submenu = $('#header-submenu');
+      if (!submenu.is(e.target)) {
+        $('.submenu').hide();
+      }
+    });
+    $("#genero").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#generos').show();
+    });
+    $("#author").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#authors').show();
+    });
+    $("#header-submenu").click(function (event) {
+      event.stopPropagation();
+    });
+  </script>
+
+
+</body>
+
+</html>

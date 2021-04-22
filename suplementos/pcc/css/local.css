@@ -1,0 +1,142 @@
+.center  {
+    text-align: center;
+}
+
+
+.circle-image {
+    border-radius: 50%;
+    width: 77px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#explore-results {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.normal-border {
+    padding: 1px;
+    border: 2px solid blue;
+}
+
+.new-border {
+    padding: 1px;
+    border: 2px solid red;
+}
+
+.move-border {
+    padding: 1px;
+    border: 2px solid green;
+}
+
+#explore-profile {
+    background-color: lightgray;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#profile-image {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+#close-profile {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#profile-name {
+    font-size: 20px;
+}
+
+#profile-name-label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#profile-desc {
+    font-size: 18px;
+}
+
+#profile-desc-label, #sector-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.membership, .membership-sector  {
+    color: whitesmoke;
+    background-color: gray;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.new {
+    background-color: red;
+}
+
+.normal {
+    background-color: blue;
+}
+
+.new-text {
+    color: red;
+}
+
+.normal-text {
+    color: blue;
+}
+
+.move-text {
+    color: green;
+}
+
+#delete-filters {
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 5px;
+    padding:10px;
+}
+
+#delete-filters:hover,
+#delete-filters:focus { 
+    background-color: lightslategray;
+}
+
+#legend {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#explore-stats {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#bp-head {
+    text-align: center;
+}
+
+#bp-head>div {
+    display: inline-block;
+    min-width: 100px;
+}
+
+#bp-head>div>p {
+    font-size: 12px;
+}
+
+.normal-text {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
