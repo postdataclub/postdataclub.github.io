@@ -190,7 +190,7 @@ $.getJSON("data/cc.json", function (cc) {
         persons = filterBySector(sector, persons);
         var otros = $('#otros').val();
         persons = filterByOtros(otros, persons);
-        printItems(persons);
+        showItems(persons);
         printStats(persons);
     }
 
@@ -217,6 +217,15 @@ $.getJSON("data/cc.json", function (cc) {
         $('#pnpie').change();
     }
 
+    function showItems(items) {
+        $(".member-item").hide();
+        $('#explore-profile').fadeOut();
+        for (var i = 0; i < items.length; i++) {
+            $("#member-"+items[i].order).show();            
+        }
+        $('#explore-content').slideDown();
+    }
+
     function printItems(items) {
         var fragment = "";
         for (var i = 0; i < items.length; i++) {
@@ -228,8 +237,8 @@ $.getJSON("data/cc.json", function (cc) {
             fragment += text;
         }
         $('#explore-results').html(fragment);
-        $('#explore-profile').fadeOut();
-        $('#explore-content').slideDown();
+        //$('#explore-profile').fadeOut();
+        //$('#explore-content').slideDown();
 
 
         $('.member-item').click(function (e) {
@@ -291,7 +300,9 @@ $.getJSON("data/cc.json", function (cc) {
         filter();
     });
 
-    filter();
+    printItems(members);
+
+    //filter();
 
     function setSectorBar() {
         var names = ["Público", "PCC", "Ciencia/Educación", "Empresarial", "Militar", "Organizaciones", "Agricultura", "Salud", "Prensa/TV"];
