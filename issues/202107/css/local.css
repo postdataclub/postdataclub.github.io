@@ -1,0 +1,91 @@
+.curve-img > img {
+	width: 100%;
+}
+
+.pre-info {
+	padding: 0px;
+}
+
+.medal-can {
+	text-align: center;
+}
+
+#curvas-graph{
+	margin-top: 20px;
+}
+
+.game-selector {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.tops, #selectors {
+	text-align: center;
+}
+
+.cuba {
+	background-color: #C7E4FF;
+}
+
+.history {
+    background-color: #FFE5CE;
+    font-weight: bold;
+}
+
+.sport-table {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.li1 {
+	color: #EC1833;
+}
+
+.li2 {
+	color: #3692D5;
+}
+
+.to1 {
+	color: #F03C1F;
+}
+
+.to2 {
+	color: #808080;
+}
+
+.sport-icon >img {
+	width: 40px;
+	height: 40px;
+}
+
+.sport-res, .sport-name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.sport-title {
+	text-align: center;
+}
+
+.up {
+	color: blue;
+}
+
+.down {
+	color: red;
+}
+
+.equal {
+	color: gray;
+	font-size: 24px;
+}
+
+
+
+#taekwondo {
+	margint-top: 80px;
+}
+
+
+
