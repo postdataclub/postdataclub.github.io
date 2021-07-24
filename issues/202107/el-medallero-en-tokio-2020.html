@@ -161,18 +161,18 @@
 
     <div class="text-block">
       <p>
-        Los Juegos de la XXXII Olimpiada estuvieron a punto de no ocurrir. La pandemia de la Covid-19 los puso en real
-        peligro. Planificados para efectuarse un año atrás, finalmente, fueron inaugurados en Tokio este 23 de julio.
+        Los Juegos de la XXXII Olimpiada estuvieron a punto de no ocurrir debido a  la pandemia de la Covid-19. 
+        Planificados para efectuarse un año atrás, finalmente, fueron inaugurados en Tokio este 23 de julio.
       </p>
       <p>
         Como en cada edición olímpica, millones de personas en el mundo estarán al tanto del medallero. Seguirán, jornada
-        a jornada, las medallas que gana su pais, o la nación de su preferencia. Mientras que no pocos harán sus predicciones
+        a jornada, las preseas que gana su país, o la nación de su preferencia. Mientras, no pocos harán sus predicciones
         precompetencia. Realizar un pronóstico certero es complicado, pero hacerlo luego de que el mundo, incluido el deporte, estuvo detenido por
-        casi en año lo hace  mucho más dificil. 
+        casi en año lo hace  mucho más difícil. 
       </p>
       <p>
         Si se observa los 10 primeros países del medalleros en las últimas 5 olimpiadas se podrá notar que este varía de edición en edición.
-        Y cambian no solo las posiciones, sino también el número de medallas que obtiene cada país. Un ejemplo es Cuba, que en Sidney 2000
+        Cambian no solo las posiciones, sino también el número de medallas que obtiene cada nación. Un ejemplo es Cuba, que en Sidney 2000
         fue 9na en el medallero y en Río 2016 concluyó en el lugar 18, con menos de la mitad de medallas que alcanzó en la urbe australiana.
       </p>
       <p>
@@ -729,13 +729,13 @@
         mundiales en los años entre olimpiadas, permiten predecir los resultados en la siguiente cita olímpica. 
       </p>
       <p>
-        Para ello colectamos toda la información relativa a los deportes convocados para Japón. Los datos los compilamos desde la edición de Sideny 2000
+        Para ello colectamos toda la información relativa a los deportes convocados para Japón. Los datos los compilamos desde la edición de Sidney 2000
         en adelante. Seguimos este enfoque porque en los años 80 hubo muchos países que, por un motivo u otro, no asistieron a las citas de 1980, 1984 y 1988.
         Mientras tanto, en los 90 ocurrió una modificación significativa de la geopolítica de distintas naciones. Es entonces que a partir del año 2000
         que comienza a existir cierta estabilidad relativa que no incorpora grandes ruidos a un esquema predictivo.
       </p>
       <p>
-        Para realizar el pronóstico se decidión construir un modelo predictivo para cada tipo de medalla. Este modelo debe recibir como entrada para poder predecir
+        Para realizar el pronóstico se decidió construir un modelo predictivo para cada tipo de medalla. Este modelo debe recibir como entrada para poder predecir
         las medallas de oro, plata y bronce que obtuvo cada país en la olimpiada anterior, así como una aproximación normalizada de la cantidad de medallas de oro,
         plata y bronce que obtuvo en los eventos mundiales, o de un calibre similar, del período. Asimismo, para tener una visión de sus posibilidades más recientes,
         se adicionó el número de medallas de cada color que obtuvo cada nación en el último evento en cada deporte.
@@ -747,17 +747,17 @@
       </p>
       <p>
         Para realizar las predicciones por cada medalla se optó por utilizar un modelo de regresión. Se consideraron tres alternativas: Ridge, Lasso y ElasticNet. Con todos
-        los datos compilados se construyó el modelo para las medallas de oro, así como uno para la plata y otro para el bronce. Ya con los datos de cada país en el peŕiodo
+        los datos compilados se construyó el modelo para las medallas de oro, así como uno para la plata y otro para el bronce. Ya con los datos de cada país en el período
         2017-2021 y sus resultados en Río 2016 se podía obtener su posible resultado en Tokio.
       </p>
       <p>
-        Sin embargo, los resultados de estos modelos no significaban algo que ocurre habitualmente: los países tienen una actuación significativamente mejor cuando son sede.
+        Sin embargo, lo arrojado por estos modelos no mostraba algo que ocurre habitualmente: los países tienen una actuación significativamente mejor cuando son sede.
         Por este motivo se añadió al vector de características si el país era sede o no. Esto solo haría que existieran, para entrenar el modelo, solo 4 vectores con esa característica:
         los que reflejaban a Grecia en el 2004, China en el 2008, Reino Unido en el 2012 y Brasil en el 2016. 
       </p>
       <p> 
         Con esto la diferencia se hizo notar. Para Japón, en el modelo que usa Ridge
-        como regresor, si no se consideraban el factor sede se predecían 13 medallas de oro, 11 de plata y 15 de bronce para el lugar 7 del medallero, sin embargo cuando se consideró que
+        como regresor, si no se consideraban el factor sede se predecían 13 medallas de oro, 11 de plata y 15 de bronce para el lugar 7 del medallero. Sin embargo, cuando se consideró que
         sería la sede ya se predijeron 19 títulos, 12 subtítulos y 16 metales bronceados que llevarían a los nipones hasta el 4to lugar del medallero.
       </p>
       <p>
@@ -838,7 +838,12 @@
       </div>
     </div>
 
-    
+    <div class="it">
+      <p>
+        Este trabajo es el resultado de una colaboración con el Grupo de Inteligencia Artificial 
+        de la Facultad de Matemática y Computación de la Universidad de La Habana.
+      </p>
+    </div>
 
     <div class="media-block notes">
       <div id="link-bar" class="row">
