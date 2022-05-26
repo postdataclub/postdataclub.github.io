@@ -1,0 +1,138 @@
+.main-title {
+    text-align: center;
+    text-align: center;
+    color: #100c2a;
+}
+
+#intro {
+     background-color: #100c2a;
+     color: #8d8ba3;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+.mini-text {
+   margin-top: 20px;
+   margin-bottom: 5px;
+   text-align: left; 
+}
+
+#tauthors>a {
+	text-decoration: none;
+	color: #100c2a;
+}
+
+.mini-title {
+    font-weight: bold;
+}
+
+.black-block {
+    background-color: #100c2a;
+    color: #8d8ba3;
+}
+
+.white-block {
+    background-color: white;
+    color: #100c2a;
+}
+
+
+.draw-block {
+    text-align: center;
+}
+
+.onei-chart {
+    left:5%;
+    width: 90%;
+    min-height: 600px;
+    padding-bottom: 80px;
+}
+
+
+@media(min-width:990px){
+.mini-title {
+    padding-top: 40px;
+    font-size: 40px;
+}
+.main-title {
+    top: 10%;
+}
+.first-title {
+ font-size: 60px;
+ font-weight: bold;
+}
+
+.second-title {
+ font-size: 40px;
+}
+
+#intro {
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     font-size: 19px;
+     padding: 35px;
+}
+
+.mini-text {
+     margin-left: 16.5%;
+     margin-right: 16.5%;
+     font-size: 20px;
+     padding-left:35px;
+     padding-right:35px;
+}
+
+.draw-block > img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+}
+
+@media(max-width:990px){
+.mini-title {
+    padding-top: 25px;
+    font-size: 26px;
+    margin-left:5%;
+    margin-right: 5%;
+}
+#intro {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    padding: 14px;
+}
+
+.mini-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.main-title {
+    top: 10%;
+}
+
+.first-title {
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.second-title {
+ font-size: 20px;
+}
+
+.draw-block > img {
+    width: 90%;
+}
+
+.draw-block > img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}   
+
+}
+
+

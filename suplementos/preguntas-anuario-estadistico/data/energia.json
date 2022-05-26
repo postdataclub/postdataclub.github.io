@@ -1,0 +1,46 @@
+{
+    "dispositivos": {
+        "2016": {
+            "paneles-fotovoltaicos": 3934,
+            "aerogeneradores": 18,
+            "parques-eolicos": 4
+        },
+        "2017": {
+            "paneles-fotovoltaicos": 4608,
+            "aerogeneradores": 8,
+            "parques-eolicos": 5
+        },
+        "2018": {
+            "paneles-fotovoltaicos": 4270,
+            "aerogeneradores": 8,
+            "parques-eolicos": 4
+        },
+        "2019": {
+            "paneles-fotovoltaicos": 4017,
+            "aerogeneradores": 5,
+            "parques-eolicos": 4
+        },
+        "2020": {
+            "paneles-fotovoltaicos": 3756,
+            "aerogeneradores": 1,
+            "parques-eolicos": 4
+        }
+    },
+    "generacion": {
+        "2016": {
+            "eolica-fotovoltaica": 60.1
+        },
+        "2017": {
+            "eolica-fotovoltaica": 81.3
+        },
+        "2018": {
+            "eolica-fotovoltaica": 167.8
+        },
+        "2019": {
+            "eolica-fotovoltaica": 250.5
+        },
+        "2020": {
+            "eolica-fotovoltaica": 260.8
+        }
+    }
+}
