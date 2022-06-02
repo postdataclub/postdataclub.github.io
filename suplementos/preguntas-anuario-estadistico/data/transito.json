@@ -1,0 +1,103 @@
+{
+    "accidentes": {
+        "Pinar del Río": 289,
+        "Artemisa": 287,
+        "La Habana": 2659,
+        "Mayabeque": 257,
+        "Matanzas": 387,
+        "Villa Clara": 659,
+        "Cienfuegos": 272,
+        "Sancti Spíritus": 300,
+        "Ciego de Ávila": 167,
+        "Camagüey": 417,
+        "Las Tunas": 310,
+        "Holguín": 578,
+        "Granma": 304,
+        "Santiago de Cuba": 531,
+        "Guantánamo": 262,
+        "Isla de la Juventud": 33
+    },
+    "poblacion": {
+        "Pinar del Río": {
+            "Total":583037,
+            "Urbana":380796,
+            "Rural":202241
+        },
+        "Artemisa": {
+           "Total":514332,
+           "Urbana":354967,
+           "Rural":159365 
+        },
+        "La Habana": {
+            "Total":2132183,
+            "Urbana":2132183,
+            "Rural":0
+        },
+        "Mayabeque": {
+            "Total":384389,
+            "Urbana":278030,
+            "Rural":106359
+        },
+        "Matanzas": {
+            "Total":716320,
+            "Urbana":597918,
+            "Rural":118402
+        },
+        "Villa Clara": {
+            "Total":775091,
+            "Urbana":604422,
+            "Rural":170669
+        },  
+        "Cienfuegos": {
+            "Total":406244,
+            "Urbana":334970,
+            "Rural":71274
+        },
+        "Sancti Spíritus": {
+            "Total":463844,
+            "Urbana":332427,
+            "Rural":126417
+        },
+        "Ciego de Ávila": {
+            "Total":435326,
+            "Urbana":321209,
+            "Rural":114117
+        },
+        "Camagüey": {
+            "Total":763389,
+            "Urbana":600789,
+            "Rural":162600
+        },
+        "Las Tunas": {
+            "Total":533224,
+            "Urbana":360809,
+            "Rural":172415
+        },
+        "Holguín": {
+            "Total":1021591,
+            "Urbana":686592,
+            "Rural":334999
+        },
+        "Granma": {
+            "Total":817763,
+            "Urbana":501174,
+            "Rural":316589
+        },
+        "Santiago de Cuba": {
+            "Total":1045631,
+            "Urbana":74113,
+            "Rural":304518
+        },
+        "Guantánamo": {
+            "Total":505606,
+            "Urbana":321656,
+            "Rural":183950
+        },
+        "Isla de la Juventud": {
+            "Total":83625,
+            "Urbana":68449,
+            "Rural":15176
+        },
+        "Total":100
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "Cerdos": {
+        "2016": {
+            "Nacimientos": 5859.4,
+            "Sacrificios": 3600.8
+        },
+        "2017": {
+            "Nacimientos": 5808.8,
+            "Sacrificios": 3995.2
+        },
+        "2018": {
+            "Nacimientos": 5085.2,
+            "Sacrificios": 4068.3
+        },
+        "2019": {
+            "Nacimientos": 5295.1,
+            "Sacrificios": 3946.8
+        },
+        "2020": {
+            "Nacimientos": 2114.7,
+            "Sacrificios": 2166.0
+        }
+    }
+}

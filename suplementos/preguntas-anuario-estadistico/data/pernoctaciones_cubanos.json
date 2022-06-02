@@ -1,0 +1,39 @@
+{
+    "establecimientos" : {
+        "2016" : {
+            "Hotel 5E":769032,
+            "Hotel 4E":814907,
+            "Hotel 3E":1300140,
+            "Hotel 2E":853583,
+            "Hotel 1E":186080
+        },
+        "2017":{
+            "Hotel 5E":604880,
+            "Hotel 4E":504952,
+            "Hotel 3E":1034248,
+            "Hotel 2E":899853,
+            "Hotel 1E":84410
+        },
+        "2018":{
+            "Hotel 5E":599093,
+            "Hotel 4E":566573,
+            "Hotel 3E":943196,
+            "Hotel 2E":727586,
+            "Hotel 1E":84287
+        },
+        "2019":{
+            "Hotel 5E":1340092,
+            "Hotel 4E":804303,
+            "Hotel 3E":916195,
+            "Hotel 2E":757851,
+            "Hotel 1E":150707
+        },
+        "2020":{
+            "Hotel 5E":646541,
+            "Hotel 4E":553822,
+            "Hotel 3E":253639,
+            "Hotel 2E":315373,
+            "Hotel 1E":105956
+        }
+    }
+}

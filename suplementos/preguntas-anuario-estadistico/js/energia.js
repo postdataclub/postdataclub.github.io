@@ -7,9 +7,6 @@ $.getJSON("data/energia.json", function (data) {
   var aerogens = [];
   var aeroparks = [];
 
-  console.log(data);
-  console.log(data.dispositivos["2016"]["aerogeneradores"]);
-
   for (let index = 0; index < years.length; index++) {
     const element = years[index];
     panels.push(data.dispositivos[element]["paneles-fotovoltaicos"]);
@@ -24,6 +21,10 @@ $.getJSON("data/energia.json", function (data) {
 
   // Specify the configuration items and data for the chart
   option = {
+    title: {
+      text: 'Generación Eólica y Fotovoltáica vs Dispositos de Generación',
+      left: "center"
+    },
     grid: {
       bottom: 100
     },

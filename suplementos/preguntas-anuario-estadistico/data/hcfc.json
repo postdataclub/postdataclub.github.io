@@ -1,0 +1,8 @@
+{
+        "2016": { "hcfc": 229.18, "critical": true}, 
+        "2017": { "hcfc": 173.80, "critical": true}, 
+        "2018": { "hcfc": 172.22, "critical": true}, 
+        "2019": { "hcfc": 128.30, "critical": false}, 
+        "2020": { "hcfc": 20.00, "critical": false}
+        
+    }
