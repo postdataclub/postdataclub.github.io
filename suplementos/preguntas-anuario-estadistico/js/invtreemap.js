@@ -44,7 +44,41 @@ function plotTree(data, div, y) {
 
 function createOption(data, year) {
 	var option;
-	var series = [{ type: 'treemap', data: [] }];
+	var series = [{ type: 'treemap',
+	label:{
+        fontWeight: "bold",
+        fontFamily: "arial", //insertar la de la página
+        fontSize: 14
+      },
+      roam: false,
+      levels: [
+        {
+          itemStyle: {
+            borderColor: '#555',
+            borderWidth: 4,
+            gapWidth: 4
+          }
+        },
+        {
+          colorSaturation: [0.3, 0.6],
+          itemStyle: {
+            borderColorSaturation: 0.7,
+            gapWidth: 2,
+            borderWidth: 2
+          }
+        },
+        {
+          colorSaturation: [0.3, 0.5],
+          itemStyle: {
+            borderColorSaturation: 0.6,
+            gapWidth: 1
+          }
+        },
+        {
+          colorSaturation: [0.3, 0.5]
+        }
+      ], 
+	data: [] }];
 	Object.entries(data).forEach(([k, v]) => {
 		if (k != "total") {
 			series[0].data.push(
