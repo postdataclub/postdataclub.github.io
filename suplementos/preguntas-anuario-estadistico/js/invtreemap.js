@@ -10,7 +10,7 @@ const activityNames = {
 	"comercio": "Comercio y reparación de efectos personal",
 	"hoteles": "Hoteles y restaurantes",
 	"transporte": "Transporte, almacenamiento y comunicaciones",
-	"empresariales": "Servicio empresariales y actividades inmoviliarias",
+	"empresariales": "Servicio empresariales y actividades inmobiliarias",
 	"administracion": "Administración pública",
 	"ciencia": "Ciencia e Innovación",
 	"educacion": "Educación",
