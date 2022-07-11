@@ -161,7 +161,29 @@ a {
 }
 
 @media(max-width:990px){
+    .contents-block {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 
+    #intro {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 19px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .first-title {
+        color: rgba(70,26,78,1);
+        font-size: 40px;
+        font-weight: bold;
+    }
+       
+    .second-title {
+        color: #6b4771;
+        font-size: 20px;
+    }
 }
 
 
