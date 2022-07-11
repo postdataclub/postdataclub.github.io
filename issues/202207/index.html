@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../icon.png">
+
+  <title>Postdata.club - Pronosticando Oregon</title>
+  <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="css/local.css">
+
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84667443-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class="logo logo-responsive" src="../../assets/images/logo.png">
+
+
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Autores <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+              <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+              <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+              <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Géneros <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../generos/principales.html">Principales</a></li>
+              <li><a href="../../generos/articulos.html">Artículos</a></li>
+              <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+              <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+              <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+              <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu-movil-separator"></div>
+
+  <div class="main-title">
+    <div class="first-title ">
+      Pronosticando Oregon
+    </div>
+    <div class="second-title ">
+      Predicciones basadas en datos
+    </div>
+  </div>
+  <div id="intro">
+    <div class="o-navbar">
+      <span id="span-m-daily" class="o-menu-item o-selected-item"><a id="m-daily" class="o-menu" href="#">Por Día</a></span>
+      <span id="span-m-all" class="o-menu-item"><a id="m-all" class="o-menu" href="#">Todos</a></span>
+      <span id="span-m-medals" class="o-menu-item"><a id="m-medals" class="o-menu" href="#">Medallero</a></span>
+      <span id="span-m-points" class="o-menu-item"><a id="m-points" class="o-menu" href="#">Puntos</a></span>
+      <span id="span-m-methodology" class="o-menu-item"><a id="m-methodology" class="o-menu" href="#">Metodología</a></span>
+      <span id="span-m-team" class="o-menu-item"><a id="m-team" class="o-menu" href="#">Equipo</a></span>
+   </div>
+  </div>
+
+   <div id="events-m-daily" class="contents-block">
+   <div class="o-navbar">
+    <span id="day-15-span" class="o-day-span o-menu-item o-selected-item"><a id="day-15" class="o-day" href="#">15</a></span>
+    <span id="day-16-span" class="o-day-span o-menu-item"><a id="day-16" class="o-day" href="#">16</a></span>
+    <span id="day-17-span" class="o-day-span o-menu-item"><a id="day-17" class="o-day" href="#">17</a></span>
+    <span id="day-18-span" class="o-day-span o-menu-item"><a id="day-18" class="o-day" href="#">18</a></span>
+    <span id="day-19-span" class="o-day-span o-menu-item"><a id="day-19" class="o-day" href="#">19</a></span>
+    <span id="day-20-span" class="o-day-span o-menu-item"><a id="day-20" class="o-day" href="#">20</a></span>
+    <span id="day-21-span" class="o-day-span o-menu-item"><a id="day-21" class="o-day" href="#">21</a></span>
+    <span id="day-22-span" class="o-day-span o-menu-item"><a id="day-22" class="o-day" href="#">22</a></span>
+    <span id="day-23-span" class="o-day-span o-menu-item"><a id="day-23" class="o-day" href="#">23</a></span>
+    <span id="day-24-span" class="o-day-span o-menu-item"><a id="day-24" class="o-day" href="#">24</a></span>
+ </div>
+  
+  <div id="day-15-content" class="draw-block">
+    <div class="mini-title">15 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-16-content" class="draw-block" style="display: none;">
+    <div class="mini-title">16 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-17-content" class="draw-block" style="display: none;">
+    <div class="mini-title">17 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-18-content" class="draw-block" style="display: none;">
+    <div class="mini-title">18 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-19-content" class="draw-block" style="display: none;">
+    <div class="mini-title">19 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-20-content" class="draw-block" style="display: none;">
+    <div class="mini-title">20 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-21-content" class="draw-block" style="display: none;">
+    <div class="mini-title">21 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-22-content" class="draw-block" style="display: none;">
+    <div class="mini-title">22 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-23-content" class="draw-block" style="display: none;">
+    <div class="mini-title">23 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-24-content" class="draw-block" style="display: none;">
+    <div class="mini-title">24 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+
+  <div id="day-18-content" class="draw-block" style="display: none;">
+    <div class="mini-title">18 de julio de 2022</div>
+    <div class="pronosticos">
+    </div>
+  </div>
+</div>
+
+<div id="events-m-all" class="contents-block" style="display: none;">
+    <div id="all-events-block"></div>
+</div>
+
+<div id="events-m-medals" class="contents-block" style="display: none;">
+  <div id="medal-table" class="pred-table" >
+    <table id="medal-table-sorter" class="table table-striped table-condensed table-hover main-text tablesorter  ">
+      <thead>
+        <tr class="bd" >
+          <td> País</td>
+          <td> <img src="images/gold.png"> Oro </td>
+          <td><img src="images/silver.png"> Plata </td>
+          <td> <img src="images/bronze.png"> Bronce</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+      <tbody id="medal-table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<div id="events-m-points" class="contents-block" style="display: none;">
+  <div id="medal-table" class="pred-table" >
+    <table id="points-table-sorter" class="table table-striped table-condensed table-hover main-text tablesorter  ">
+      <thead>
+        <tr class="bd" >
+          <td> País</td>
+          <td> 1ro</td>
+          <td> 2do</td>
+          <td> 3ro</td>
+          <td> 4to</td>
+          <td> 5to</td>
+          <td> 6to</td>
+          <td> 7mo</td>
+          <td> 8vo</td>
+          <td> Puntos</td>
+        </tr>
+      </thead>
+      <tbody id="points-table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<div id="events-m-methodology" class="contents-block" style="display: none;">
+  <p>
+    Las predicciones para el Mundial de  Atletismo se realizaron siguiendo un enfoque basado en simulaciones que permiten obtener un resultado por cada
+    uno de los eventos que se pronosticaron. Una vez realizadas las simulaciones de los distintos eventos, estas fueron analizadas y fueron reajustadas
+    en base a criterio experto. En los eventos de relevos no se utilizó la metodologia de simulaciones y solo se usó el criterio de experto a partir de resultados
+    individuales de quienes conforman el relevo así como las actuaciones de los relevos en otras competiciones importantes (mundiales, olimpiadas y campeonatos
+    de relevos).
+</p>
+<p>
+    Los datos relativos a cada uno de los atletas fueron extraídos del sitio de <a
+        href="http://www.worldathletics.org">World Athletics</a>.
+    De allí se obtuvo la
+    información de las marcas o tiempos de los atletas en las competencias reportadas desde el año 2020 hasta el
+    2021.
+    Se tuvieron en cuenta las competencias bajo techo para eventos en los que existe una relativa igualdad de
+    condiciones (los eventos de saltos y la impulsión de la bala).
+</p>
+<p>
+    Posteriormente, se realizó un trabajo de preprocesamiento con el vector de resultados para cada atleta, en el cual se ponderan
+    las marcas más recientes. Se eligió una ponderación lineal definida como [4,2,1], lo que significa que las
+    marcas realizadas en el 2021 aparecerán cuatro veces, las del 2020 se repetirán dos veces en el vector y
+    así sucesivamente. En determinados eventos, debido a las pocas marcas o competiciones, motivadas por la
+    Pandemia que afecta al mundo se variaron los años tenidos en cuenta así como la ponderación.
+    Se agregó, además, un parámetro alpha a la ponderación que altera las marcas de la siguiente manera:
+</p>
+<ul>
+    <li>pond_val = (1 + alpha/cant_marcas) </li>
+    <li>marca_i = marca_i * pond_val</li>
+</ul>
+<p>
+    De esta forma, mientras menos marcas tiene un atleta mayor será el valor resultante de cada marca (para
+    eventos donde se busca maximizar el valor de la marca se toma alpha negativo). Consecuentemente, esto hace
+    que los atletas con mayor cantidad de marcas tengan mejores resultados (se puede interpretar como un factor
+    de experiencia).
+</p>
+<p>
+    Para estimar las marcas que harán los atletas en cada evento se utiliza un modelo Kernel Distribution
+    Estimation (KDE) para estimar la función de densidad de probabilidad de las marcas o tiempos.
+</p>
+<p>
+    Posteriormente, se realizaron como mínimo 5000 simulaciones para cada uno de los eventos y se obtiene un
+    pronóstico atendiendo a los valores que más se repiten. Es decir, para seleccionar el orden los
+    participantes en la competencia, se calcula la moda de los lugares en los que quedó cada atleta. Es
+    seleccionado el atleta que más se repite el primer lugar, luego el que más repite el segundo lugar sin ser
+    el primero y así sucesivamente.
+</p>
+</div>
+
+<div id="events-m-team" class="contents-block" style="display: none;">
+  <p>
+    Este proyecto resultado de una colaboración entre <a href="https://www.postdataclub">Postdata.club</a>, el Grupo de Inteligencia Artificial (GIA) 
+    y el Curso optativo de Periodismo de Datos, ambos de la 
+    Facultad de Matemática y Computación de la <a href="http://www.uh.cu">Universidad de La Habana</a>. 
+</p>
+<p class="mlabel">Coordinación general:</p>
+<p class="member">Yudivián Almeida</p>
+
+<p class="mlabel">Pronósticos:</p>
+<p class="member">Yudivián Almeida</p>
+<p class="member">Karla Olivera</p>
+<p class="member">Jorge Junio Morgado</p>
+<p class="member">Omar Alejandro Hernández</p>
+<p class="member">Dafne García</p>
+
+<p class="mlabel">Desarrollo web, Textos y Redes sociales:</p>
+<p class="member">Yudivián Almeida</p>
+
+</div>
+
+  <div class="image-block">
+    <div id="link-bar" class="row">
+      <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 facebook-color"><a class="link-out"
+          style="text-decoration:none;"
+          href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/preguntas-anuario-estadistico/preguntas-anuario-estadistico.html"
+          target='_blank'>
+          <div><i class="fa fa-facebook"></i> Facebook</div>
+        </a></div>
+      <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 twitter-color"><a class="link-out"
+          style="text-decoration:none;"
+          href="https://twitter.com/share?url=http://www.postdata.club/preguntas-anuario-estadistico/preguntas-anuario-estadistico.html&amp;text=10%20preguntas%20desde%20el%20Anuario&amp;hashtags=#postdataclub"
+          target='_blank'>
+          <div><i class="fa fa-twitter"></i> Twitter</div>
+        </a></div>
+      <div class="cursor col-lg-4 col-md-4 col-sm-12 col-xs-12 main-color"><a class="link-out"
+          style="text-decoration:none;"
+          href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=10 preguntas desde el Anuario Estadístico - Datos que se encuentran http://www.postdata.club/preguntas-anuario-estadistico/preguntas-anuario-estadistico.html"
+          target='_blank'>
+          <div><i class="fa fa-envelope"></i> Email</div>
+        </a></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="comments-block">
+    <div id="disqus_thread"></div>
+    <script>
+
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+      var disqus_config = function () {
+        this.page.url = 'http://postdata.club/issues/202207/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'PDClub-202207-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+
+      (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//postdataclub.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+  </div>
+
+  </div>
+
+  <div class="footer">
+    <div>
+      <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+      <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a>
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+      </span>
+    </div>
+
+    <div class="copyright">Copyright
+      <script>document.write(new Date().getFullYear());</script>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script src="js/days.js"></script>
+</body>
+
+</html>

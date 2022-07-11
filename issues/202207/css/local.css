@@ -1,0 +1,167 @@
+a {
+    text-decoration: none;
+}
+
+.main-title {
+    text-align: center;
+    text-align: center;
+    color: #100c2a;
+}
+
+.first-title {
+    color: rgba(70,26,78,1);
+    font-size: 60px;
+    font-weight: bold;
+}
+   
+.second-title {
+    color: #6b4771;
+    font-size: 40px;
+}
+
+.contents-block {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+}
+.o-navbar {
+    background-color: rgba(70,26,78,1);
+    color: white;
+    margin-bottom: 15px;   
+    padding-top: 3px;  
+    padding-bottom: 3px;
+}
+
+.o-menu-item {
+    background-color: rgba(70,26,78,1);
+    font-size: 20px;
+    margin: 0px;
+    padding-left: 5px; 
+    padding-top: 3px;  
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+
+.o-menu-item > a{
+    color: white;
+    text-decoration: none; 
+}
+
+.o-selected-item {
+    background-color: #6b4771;      
+}
+
+.o-menu-item:hover {
+    background-color: #6b4771;      
+}
+
+#intro {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    font-size: 19px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.main-title {
+    text-align: center;
+    text-align: center;
+    color: #100c2a;
+}
+
+
+
+.pred-block {
+    background-color: #ebebebda;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.pred-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.flag {
+    width: 38px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.country {
+    padding-left: 2px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.mini-title {
+    color: #6b4771;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.event-title {
+    color: #6b4771;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.event-block {
+    margin-top: 10px;
+}
+
+.pronostico-title {
+    color: #6b4771;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.no-result {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.athlete {
+    font-size: 18px;
+}
+
+.contents-block {
+    font-size: 20px;
+}
+
+.mlabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.member {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.contents-block>p>a {
+    color:rgba(70,26,78,1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contents-block>p>a:hover {
+    color:rgba(70,26,78,0.5);
+    text-decoration: none;
+}
+
+@media(min-width:990px){
+}
+
+@media(max-width:990px){
+
+}
+
+
