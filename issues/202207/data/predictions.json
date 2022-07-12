@@ -442,6 +442,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Jamaica es la favorita del modelo para copar el podio. Hace menos de un año Jamaica también ocupó los tres primeros lugares en Tokio. El trio medallista en ese entonces es el mismo que propone nuestro algoritmo, aunque en diferente orden. Para Oregon la predicción es  Shelly-Ann Fraser-Pryce campeona, Elaine Thompson-Herah subcampeona y Shericka Jackson bronce. Shelly-Ann tiene las tres mejores marcas del año (10.67, 10.67 y 10.70), la 4ta es de Shericka (10.77) y la 5ta es de Elaine (10.79). Esas cinco marcas son las únicas por debajo de 10.80",
+                        "Las estadounidenses Aleia Hobbs y Twanisha Terry así como Julien Alfred, de Santa Lucía, tienen también excelentes marcas. Melissa Jefferson, que ganó el campeonato de Estados Unidos seguida de Hobss y Terry, es otra gran contendiente aunque el modelo la ubica en el lugar 11. En esta carrera las tres corredoras estuvieron por debajo de 10.75 pero con viento no permitido."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Shelly-Ann Fraser-Pryce",
@@ -967,6 +971,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "En los 10 mil metros existe una gran rivalidad y cualquiera de los pronosticados como finalista pudiera titularse. El modelo da como favorito al ugandés Joshua Cheptegei a quien, sin marcas este año, no le faltan créditos: es el campeón mundial, subcampeón olímpico y recordista mundial de la distancia. Como segundo lugar aparece el canadiense Mohammed Ahmed que tiene en su haber la segunda mejor marca del año. El bronce se pronostica para el también ugandés Jacob Kiplimo, quien fue bronce en Tokio.",
+                        "Otros grandes contenientes a medallas son el estadounidense Grant Fisher, que posee la mejor marca del año, y el etiope Selemon Barega, que es el actual campeón olímpico. Barega, tiener la 3ra mejor marca del año en una carrera que ganó y donde sus compatriotas Tadese Worku y Berihu Aregawi completaron el podio con el 4to y 5to merjor tiempo del año."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Joshua Cheptegei",
@@ -1010,6 +1018,10 @@
             "sex": {
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El modelo da como pronóstico un podio totalmente estadounidense. Grant Holloway, Devon Allen y Trey Cunningham serían los tres primeros por ese orden. Holloway es el actual campeoón del mundo y subcampeón olímpico. Allen es el líder de la temporada con la única marca (12.84) por debajo de 13 segundos. Cunningham tiene la segunda marca del año con 13 flat.",
+                        "Otros dos candidatos de fuerza a las medallas son el jamaicano Hansle Parchment, que es el vigente campeón olímpico, y el norteño Daniel Roberts, que posee, en compañía de Holloway la 3ra marca del año (13.03)."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Grant Holloway",
@@ -1537,6 +1549,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Las estadounidenses Sandi Morris y Katie Nageotte son, por ese orden, las pertiguistas que el modelo da como campeona y subcampeona. Morris, que es la actual subcampeona mundial, tiene dos mejores brincos de la temporada y es la única que ha estado sobre los 4.80. En la temporada bajo techo Sandi se titulo por segunda vez consecutiva campeona mundial bajo techo, en esa competencia la subcampeona fue Nageotte quien es la primera del ranking mundial. Katie no ha tenido una buena temporada al aire libre y ha estado afectada por molestias. Su mejor salto del año es un 4.65. La británica Holly Bradshaw, que se llevó el bronce olímpico, no ha saltado al aire libre más allá de los 4.60 pero el modelo la ve en el tercer lugar en Oregon.",
+                        "Podrían entrar con facilidad en el podio la estadounidense Emily Grove, la eslovena Tina Šutej y la australiana Nina Kennedy, las tres han saltado sobre los 4.70. Fuera del pronóstico de las 8 primeras que da el algoritmo, habría que estar atentos a la italiana Roberta Bruni y la francesa Margot Chevrier quienes también han saltado 4.71 y 4.70 respectivamente."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Sandi Morris",
@@ -1822,6 +1838,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "En la bala masculina el gran favorito que el estadounidense Ryan Crouser, y el modelo lo confirma. El norteño es el actual campeón olímpico y tiene las dos mejores marcas de la temporada que son, además, las únicas sobre los 23 metros. El segundo lugar según el modelo sería el también estadounidense Joe Kovacs, quien ganó el título mundial en Doha y sigue a Crouser con la 3ra mejor marca del año. El neozelandés Tom Walsh quien ha sido bronce, tras los estadounidenses, tanto en Doha como en Tokio, es el que se pronostica como tercer lugar en Oregon. Walsh posee el 7mo tiro del año. Tras los 10 mejores marcas de la temporada solo están los nombres Crouser, Kovacs y Walsh.",
+                        "Un contiendiente de fuerza es el brasileño Darlan Romani quien ha estado lanzando con fuerza y constancia en los últimos años. Esta temporada también ha lanzado con consistencia el italiano Nick Ponzio a quien el modelo ubica como el 9no favorito."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Ryan Crouser",
@@ -1945,6 +1965,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Ausentes, por distintas razones, la campeonta olímpica Anita Wlodarczyk y la campeona mundial Deanna Price, en el martillo femenino se pronostica oro y plata para Estados Unidos. Brooke Andersen, quien tiene la mejor marca del año, y seis de las diez primeras, es la favorita al título. Janee' Kassanavoid, la probable subcampeona, tiene la tercera mejor marca del año solo detrás de Andersen y Wlodarczyk. La canadiense Camryn Rogers tiene el 6to lanzamiento de la temporada y solo han tirado más que ellas las favoritas al oro y la plata.",
+                        "Otra a tener en cuenta es la polaca Kopron que es la actual medallista de bronce olímpica y también sabe que es ser medallista mundial. La italiana Sara Fantini, a la que el modelo ubicó en la posición nueve, puede ser también una contendiente de fuera por como ha estado lanzando en el año."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Brooke Andersen",
@@ -1959,24 +1983,24 @@
                             "country": "CAN"
                         },
                         "4": {
-                            "name": "Deanna Price",
-                            "country": "USA"
-                        },
-                        "5": {
                             "name": "Malwina Kopron",
                             "country": "POL"
                         },
-                        "6": {
+                        "5": {
                             "name": "Hanna Skydan",
                             "country": "AZE"
                         },
-                        "7": {
+                        "6": {
                             "name": "Annette Nneka Echikunwoke",
                             "country": "USA"
                         },
-                        "8": {
+                        "7": {
                             "name": "Na Luo",
                             "country": "CHN"
+                        },
+                        "8": {
+                            "name": "Julia Ratcliffe",
+                            "country": "NZL"
                         }
                     }
                 },
@@ -2314,6 +2338,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Las pruebas de maratón son de las más difíciles de pronosticar y pocas veces los atletas repiten podio. Lo que es bastante probable es que el podio sea africano. En esta ocasión el modelo propone como campeón al etiope Tamirat Tola que tiene la mejor marca de la temporada entre los inscritos. Le sigue, como subcampeón, el belga Bashir Abdi que se llevó el bronce olímpico en Tokio y es el actual recordista europeo de la especialidad. El pronóstico de tercer lugar es el también etiope Mosinet Geremew que tiene el 5to mejor tiempo en el año",
+                        "Entre los candidatos a romper la hegemonía africana está el brasileño Daniel Do Nascimento que posee la 9na marca del año y fue tercero en la maratón de Seoul así como el japonés Kengo Suzuki o el estadounidense Galen Rupp. Estos dos últimos son ubicados por el algoritmo en las posiciones 10 y 16 respectivamente."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Tamirat Tola",
