@@ -96,6 +96,7 @@ a {
     padding-left: 2px;
     padding-right: 5px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .mini-title {
@@ -157,6 +158,21 @@ a {
     text-decoration: none;
 }
 
+.previa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.previa-title {
+    color:rgba(70,26,78,0.7);
+    font-weight: bold;
+}
+
+.previa>hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 @media(min-width:990px){
 }
 
@@ -183,6 +199,29 @@ a {
     .second-title {
         color: #6b4771;
         font-size: 20px;
+    }
+
+    .mini-title {
+        font-size: 28px;
+    }
+
+    .event-title {
+        font-size: 20px;
+    }
+
+    .pronostico-title {
+        font-size: 18px;
+    }
+
+    .country {
+        font-size: 14px;
+    }
+
+    .flag {
+        width: 30px;
+        height: 16px;
+        padding-left: 5px;
+        padding-right: 2px;
     }
 }
 
