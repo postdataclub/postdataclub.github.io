@@ -479,6 +479,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "En la prueba reina del atletismo el pronóstico de podio es un pleno estadounidense. Según el modelo, Kerley, Brommel y Bracy serían, en ese orden, los medallistas. Y no parece tan desacertado, Kerley, subcampeón olímpico, es el líder de la temporada (1ra, 2da y 4ta mejor marca), Brommel tiene la 3ra mejor marca y Bracy tiene la 5ta. Pero aquí todo puede pasar: Azamati, Seville y Coleman, que es el actual campeón mundial, tienen marcas en el año de 9.90 o menos. De Grasse, bronce olímpicoy mundial, y Su no han tenido grandes marcas en el año pero su historial es tenido en cuenta en el pronóstico.",
+                        "Pero también hay que tener en cuenta otras figuras importantes: el italiano y actual campeón olímpico Marcell Jacobs, el keniano Ferdinand Omanyala el histórico jamaicano Yohan Blake, estos dos últimos tienen ambos un 9.85 en la temporada. A estos tres velocistas el algoritmos los ubica en los lugares 9, 11 y 12 respectivamente."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Fred Kerley",
@@ -922,6 +926,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Sifan Hassan prácticamente no ha corrido este año pero su historia da para que el algoritmo la sitúe como la gran favorita. Ser la actual campeona olímpica y mundia de los 10 mil metros es un buen aval. En su contra está que correrá las 1500m, 5000m y los 10000m, pero esto ya lo hizo en Tokio y ganó bronce, oro y oro respetivamente. La etiope Gidey está pronosticada como subcampeona, ella es la vigente subcampeona mundial y bronce olímpico además, esta temporada rompió el récord del mundo de la media maratón. La británica Mccolgan, que tiene la segunda mejor marca de la temporada es quien tiene el pronóstico de bronce.",
+                        "Como en toda competencia de fondo, cualquiera de las atletas africanas puede ser favorita al podio más si esos nombres son Taye, Niyonsaba u Obiri. La estadounidense Schweizer trae como crédito, para entrar entre las primeras, la novena marca de la temporada."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Sifan Hassan",
@@ -1646,6 +1654,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "El salto largo de Oregon estará marcado por la ausencia de uno de los grandes protagonistas del salto largo en los últimos años, el cubano Juan Miguel Echevarria. En su ausencia, el griego Miltiadis Tentoglou es el gran favorito. Tentoglou es el actual campeón olimpico cuando venció al cubano cuando en un último salto igualó la mejor marca del cubano y ganó por una segunda mejor marca que Echevarría no pudo rebatir por una lesión. El griego, además, tiene custro de las diez mejores marcas del año. El sueco Montler es el favorito del modelo al segundo lugar. Tobías es actualmente el segundo del ranking mundial de la disciplina y ganó el subtítulo en el mundial bajo techo de este año. Dendy es la predicción del modelo para medalla de bronce. El  estadounidense no ha tenido marcas relevantes al aire libre este año, descontando un 8.41 con aire a favor,  pero tiene en su haber la medalla de bronce en el campeonato mundial bajo techo de Beograd 2022.",
+                        "No extrañaría nada que estuvieran entre los medallistas el suizo Ehammer o el indio Sreeshankar. Ellos tienen, junto con Tentoglou, las tres mejores marcas del año al aire libre. El jamaicano Gayle, actual campeón mundial, no ha tenido una buena temporada al aire libre aunque el modelo lo sitúa como cuarto favorito. Otros, fuera de los pronosticados como los ocho primeros, que pudieran sorprender son el cubano Maykel Massó y el portugues Eusebio Cáceres, bronce y cuarto lugar en Tokio , aunque el modelo los sitúa en los lugares 13 y 14 respectivamente."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Miltiadis Tentoglou",
@@ -1668,8 +1680,8 @@
                             "country": "SUI"
                         },
                         "6": {
-                            "name": "Juvaughn Harrison",
-                            "country": "USA"
+                            "name": "Sreeshankar",
+                            "country": "IND"
                         },
                         "7": {
                             "name": "Steffin Mccarter",
@@ -1769,6 +1781,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "Las balistas chinas está pronosticadas a ganar título y subtítulo en Oregón. Lijiao Gong es la actual campeona olímpica y mundial, y si gana en esta edición estaría logrando su séptima medalla mundial consecutiva. Gong apenas ha competido este año pero su historial la respalda. Jiayuan Song posee la tercera marca de la temporada y ya fue quinta en Tokio, ahora el pronóstico del modelo es que entrará al podio como subcampeona. Una que podría romper los pronósticos es la  estadounidense Chase Ealey que posee las dos mejores marcas de la temporada y cinco de las diez primeras. El modelo la situa en un tercer lugar pero a nadie asombraría que se suba a lo más alto del podio.",
+                        "Otras contendientes de fuerza son la portuguesa Dongmo y la candiense Mitton, ellas dos, sumadas a Ealey y Jiayuan, son las poseedoeras de los doces mejores disparos del año."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Lijiao Gong",
@@ -1966,6 +1982,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Polonia está pronosticada para hacer el uno-dos del lanzamiento del martillo masculino. Entre Wojciech Nowicki y Paweł Fajdek tienen 7 de los mejores 10 lanzamientos de la temporada. Nowicki, a quien pronosticamos como campeón, posee las tres mejores marcas del año, es el actual campeón olímpico y fue bronce en Doha. Fadjed, el probable subcampeón en Oregón, fue bronce olímpico en Tokio y ganó su cuarto título mundial en el 2019.",
+                        "Como medallista de bronce, el modelo de pronóstico se decanta por el estadounidense Winkler y le siguen en orden el francés Bigot y el también norteño Haugh. La realidad es que cualquiera de los tres podría ser medallista. Bigot tiene la tercera mejor marca del año entre los inscritos  y es el actual subcampeón mundial. Haugh, por su parte, tiene la cuarta mejor marca de los inscritos y ganó recientemente el campeonato de su país donde Winlker fue segundo. Los siguientes en el orden pronosticado: Halász, Henriksen y Kokhan, son también grandes candidatos. Kokhan ya sabe lo que es triunfar sobre los polacos, Henriksen es el subcampeón olímpico y Halász fue medallista de bronce en el mundial de Qatar. Esta será un evento con una gran rivalidad."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Wojciech Nowicki",
