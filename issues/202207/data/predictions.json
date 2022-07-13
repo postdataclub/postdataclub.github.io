@@ -770,6 +770,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El modelo da como favorita a la keniana Faith Kipyegon y si gana repertiría su título del 2017. Ella es bicampeona olímpica en la especialidad y la actual subcampeona mundial. Posee también el mejor tiempo del año. El pronóstico de medallista de plata en la etiope Gudaf Tsegay que fue bronce en Doha y tiene la segunda marca de la temporada. El tercer lugar se predice para la excepcional holandesa Sifan Hassan, que ya sabe lo que es ganar un título mundial pues es la campeona de Catar 2019.",
+                        "Contendientes al podio también ser la británica Laura Muir quien fue segunda en Tokio, la etiope Hirut Meshesha que posee la 3ra marca del año o su compatriota Freweyni Hailu que tiene en su haber el 4to tiempo de la temporada."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Faith Kipyegon",
@@ -807,6 +811,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El noruego Jakob Ingebrigtsen es el campeón olímpico de Tokio y este año hizo el mejor tiempo histórico de la distancia bajo techo. Al aire libre tiene la 8va marca de la temporada. El modelo lo pronostica como campeón en Oregon. El keniano Timothy Cheruiyot, que se predice como subcampeón este año, fue el campeón en Doha 2019 y subcampeón en la olimpiada en Japón, además tiene la 7ma marca al aire libre del año. El pronóstico de bronce para el australiano Stewart Mcsweyn es un poco sorprendente, pues el de Oceanía no tiene resultados destacados más allá de su 7mo lugar en Tokio y ser recordista de la distancia de Oceanía.",
+                        "Extraña que el keniano Abel Kipsang esté ubicando por el algoritmo como 7mo favorito. Kipsang tiene la 1ra y 4ta mejor marca al aire libre de la temporada. El británico Jake Wightman le sigue a Kipsang con el segundo tiempo al aire libre del año. Mientras que su compatriota Josh Kerr fue bronce en Tokio. El etiope Samuel Tefera fue el sublíder de la temporada bajo techo donde ganó el título mundial en pista cubierta superando a Ingebrigtsen y a Kipsang que fueron plata y bronce respectivamente."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Jakob Ingebrigtsen",
@@ -1145,6 +1153,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El noruego Karsten Warholm es el actual campeón mundial y el vigente campeón olímpico en una carrera, la mejor de todos los tiempos, donde destrozó el record del mundo que ya había roto ese mismo a!no. Esos argumentos son suficientes para que el modelo lo tenga como campeón en Oregon. Sin embargo, su estado de forma luego de una lesión de hace unas semanas pone en duda que pueda lograr su tercer ccetro mundial consecutivo. El brasileño Alison Dos Santos, que es líder de la temporada al aire libre está pronosticado como subcampeón. El estadounidense Rai Benjamin, con la segunda marca del año es la predicción para bronce. Benjamin y Dos Santos fueron 2do y 3ro en la finanl de Tokio.",
+                        "Otros posibles candidatos a entrar en medallas son el norteño Trevor Bassitt que tiene el 6to tiempo del año tras las marcas de Dos Santos y Benjamín, así como los ya establecidos: el cubano nacionalizado turco Yasmani Copello y Kyron Mcmaster de islas Vírgenes Británicas."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Karsten Warholm",
@@ -1225,6 +1237,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Lamecha Girma es el favorito al título por el algoritmo. El etiope es el actual subcampeón mundial y olímpico, además tiene la 2da, 3ra y 4ta marca de la temporada. Sin embargo, lo que no nos convence del modelo en el caso de los 3000 metros con obstáculos es que haya ubicado al marroquí Soufiane El Bakkali como 6to favorito. El Bakkali posee la mejor marca del año, es el vigente campeón olímpico y bronce del pasado campeonato mundial. Por encima del marroquí, ubica en medallas a los kenianos Abraham Kibiwot y Benjamin Kigen. Kibiwot tiene la 6ta marca del año y Kigen es el actual medallista de bronce olímpico.",
+                        "Otra sorpresa que da el modelo es que no da un lugar de privilegio al también keniano Conseslus Kipruto, que es el vigente campeón mundial y tiene el 10mo tiempo del año."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Lamecha Girma",
@@ -1469,6 +1485,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "La ucraniana Yaroslava Mahuchikh es la clara favorita de todos, incluido nuestro algoritmo. Mahuchikh es la única que ha rebasado los dos metros este año al aire libre (2.03) y también bajo techo con 2.02 cuando se coronó en el Mundial bajo techo de Belgrado. La ucrania, además es la vigente subcampeona mundial al aire libre y bronce olímpico. Las otras dos medallas del podio se pronostican con bandera australiana: plata para Nicola Olyslagers y bronce para Eleanor Patterson. Olyslagers es la actual subcampeona olímpica y es 5ta al aire libre en el año con salto de 1.96. Patterson ganó el subtítulo bajo techo con salto de 2 metros y también tiene en el año 1.96 al aire libre.",
+                        "Otra candidasta es la estadounidense Vashti Cunningham, actual bronce mundial, que llegó hasta los 1.98 bajo techo y hasta 1.96 al aire libre. La kazaja Nadezhda Dubovitskaya es también una rival de fuerza, ella con 1.98 ganó el bronce en el mundial bajo techo. La ucraniana Iryna Gerashchenko y italiana Elena Vallortiga tienen la 2da marca al aire libre con 1.98. Por su parte, la jamaicana Lamara Distin, a quien el modelo ve en el lugar 12, es la que tiene la 3ra marca al aire libre con 1.97."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Yaroslava Mahuchikh",
@@ -1506,6 +1526,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "En el salto alto el pronóstico de campeón del modelo es el sudcoreano Sanghyeok Woo, quien colidera a los inscritos con brinco de 2.33, además tiene saltos de 2.32 y 2.30. El coreano también se coronó en el Campeonato Mundial en Pista Cubierta en Belgrado con salto de 2.34. Los siguientes en el modelo, como 2do y 3ro, son el catarí Mutaz Essa Barshim y el italiano Gianmarco Tamberi, los que compartieron en Tokio el título olímpico. ambos este año han llegado al aire libre hasta los 2.30.",
+                        "Otros contendientes de fuerza son los norteamericanos Shelby Mcewen y Juvaughn Harrison. Mcewen es el otro colíder de la temporada al aire libre. Harrison tiene salto de 2.30 al aire libre y 2.32 bajo techo."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Sanghyeok Woo",
@@ -1717,6 +1741,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "En el triple salto solo existe una favorita, la venezolana Yulimar Rojas. Cada vez que la venezolana salta uno piensa que de nuevo puede romper el récord del mundo. Es campeona mundial y olímpica. Este aǹo quería retarse a si misma saltando largo también pero su marca clasificaotia fue invalidada por usar un calzado no válido para esta especialidad. Maryna Bekh-Romanchuk, a quien pronosticamo como subcampeona en Oregon, no tiene saltos triples registrados al aire libre, pero ganó el subtítulo mundial bajo techo en Belgrado con brinco de 14.74. El pronóstico de bronce es la jamaicana Shanieka Ricketts. La jamicana es la vigente subcampeona mundial y posee la 5ta mejor marca de la temporada al aire libre.",
+                        "Otra que puede irrumpir en el podio es la estadounidense Keturah Orji que posee la 2da y 3ra marca al aire libre. También con saltos relevantes están la jamaicana Kimberly Williams, la cubana Liadagmis Povea, Thea Lafond de Dominica o la portuguesa Patricia Mamona, que es la vigente subcampeona olímpica. Una agradable sorpresa podría dar la jovencita cubana Leyanis Pérez, con la 5ta marca al aire libre, y pronosticada 9na según el algoritmo."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Yulimar Rojas",
@@ -1885,6 +1913,9 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        ""
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Valarie Allman",
@@ -1922,6 +1953,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El sueco Daniel Ståhl es el pronóstico del modelo como campeón en Oregon. El sueco es el el campeón olímpico y mundial, además posee la mejor marca del año. El esloveno Kristjan Čeh tiene la 2da marca de la temporada. Él y Ståhl son los únicos que han superado los 71 y 70 metros en el año. El lituano Mykolas Alekna, para quien se pronostica bronce, con 69.81 posee la 7ma marca del año. Las seis primeras marcas se las reparten el sueco y el esloveno.",
+                        "El lituano Andrius Gudžius y el austriaco Lukas Weißhaidinger son los otros dos que han lanzado este año por encima de los 69 metros. Gudžius ya conoce la gloria mundial pues fue campeón en Londre y Weißhaidinger el actual medallista de bronce tanto mundial como olímpico. Otros a tener en cuenta son el sueco Petterson, vigente subcampeón olímpico, y el jamaicano Fedrick Dacres que ganó la plata en Doha."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Daniel Ståhl",
@@ -2301,6 +2336,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "En la maratón femenina el modelo predice que este año Etiopía pondrá fin al dominio de Kenia en los últimos dos grandes campeonatos. Esta es una predicción arriesgada por parte del algoritmo pues si vamos a los tiempos del año las dos mejores marcas son Kenia: Brigid Kosgei, que no está inscrita, y Ruth Chepngetich, actual campeona del mundo, a quien el modelo da como subcampeona. Para primer lugar se da a Ashete Bekere quien tiene la 3ra marca de la temporada. el bronce lo pronostica para la también etiope Gotytom Gebreslase que posee el 6to tiempo del año. Estas marcas de Kogei, Bekere y Gebreslase fueron en la Maratón de Tokio donde coparon el podio.",
+                        "Otra candidata es la keniana Angela Tanui que posee la 8va marca del año y fue 4ta en la mencionada competencia en Japón. Resalta que el modelo ubica a la keniana Peres Jepchirchir, vigente campeona olímpica aunque sin marca este año, como novena."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Ashete Bekere",
@@ -2385,6 +2424,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "La belga Nafissatou Thiam es la favorita al título del modelo de pronósticos. Thiam es dos veces campeona olímpica y ha ganado plata y oro, por ese orden en los dos últimos campeonatos mundiales. Este año no ha competido en el heptatlón este año pero sus marcas previas del 2020 y 2021 la mantienen en el tope de los pronósticos. La holandesa Anouk Vetter tiene la mejor puntuación del año con 6693 en Götzis. La holandesa ya ganó la plata olímpica en Tokio. La estadounidense Kendell Williams tampoco tiene marca este año pero es la 4ta del ranking mundial.",
+                        "La estadounidense Anna Hall tiene la 2da, 5ta y 7ma marca del año. Por su parte, polaca Adrianna Sulek, a quien el algoritmo ve 9na, posee la 3ra, 4ta y 10 marca de la temporada. Hay una hepatatleta que, aunque no ha tenido un buen año, nunca se puede desccartar: la británica Katarina Johnson-Thompson que es la actual campeona mundial del Doha 2019 cuando hizo, con 6981, la mejor puntuación para un campeonato mundial."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Nafissatou Thiam",
