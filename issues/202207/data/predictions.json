@@ -530,6 +530,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "La jamaicana Shericka Jackson hace apenas unos días corrió los 200 metros en 21.55, esa es la 3ra marca de la historia y la mejor de la temporada. Ese tiempo por si solo bastaría para ubicarla como principal favorita al oro,  lo que nuestro algoritmo hace. En segundo lugar se pronostica a Abby steiner. La estadounidense tiene el segundo y tercer mejor tiempo del año con 21.77 y 21.80, este último conseguido por dos veces. El tercer lugar el modelo lo otorga a la jamaicana Elaine Thompson-Herah que es la campeona de Tokio en la distancia.",
+                        "Otra que el algoritmo predice entre las primeras es la jamaicana Shelly-Ann Fraser-Pryce y ella es una que nunca descontaria para un podio en pruebas de velocidad. También entre las primeras estaría la vigente campeona mundial, la británica Dina Asher Smith."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Shericka Jackson",
@@ -567,6 +571,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "En los 200 metros planos el modelo dice que los cuatro primeros lugares serán para Estados Unidos. El orden sería Noah Lyles, Kenneth Bednarek, Fred Kerley y Erriyon Knighton. Lyles es el campeón mundial de Doha y fue bronce en Tokio y tiene la 2da mejor marca del año con 19.61. Bednarek ganó el subtítulo en Tokio y en el año tiene un 19.87. Kerley tiene un 19.80 como mejor marca del año. Knighton es el líder de la temporada con un impresionante 19.49 que lo ubica como el 4to corredor más rapido  de todos los tiempos el los 200 metros, además este año tiene también un 19.69. Con esas marcas a nadie sorprendería que asus 18 años se coronara como campeón del mundo.",
+                        "El candiense André de Grasse es el 5to favorito, aunque este año no ha bajado de los 20 segundos, pero es un corredor de competencia, no por gusto es el vigente campeón olímpicao en Tokio y subcampeón mundial en Doha. En Oregon se echará en falta la sorpresa de la temporada en 200 metros planos, el cubano Reynier Mena, que hace unos días marcón 19.63 bajando en 0.41 segundos su mejor marca personal hasta ese momento."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Noah Lyles",
@@ -1200,6 +1208,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "La kazaja Norah Jeruto posee la 2da mejor marca del aǹo y es la que el modelo de pronóstico da como principal favorita. Winfred Mutile Yavi, quien compite por Brunei y es la líder de la temporada, es la que el algoritmo ubica como plateada. La etiope Mekides Abebe el pronóstico bronceado. Abebe posee la 3ra mejor marca de la temporada.",
+                        "Peruth Chemutai, de Uganda, es la campeona olimpica y posee la 4ta marca de la temporada y en esa misma posición es el pronóstico para Oregon, pero con tales credenciales puede entrar entre las tres primeras y a nadie asombraría. La keniana Beatrice Chepkoech y  estadounidense Emma Coburn, campeona y subcampeona mundial en Doha, respectivamente, también podrían asaltar el podio. "
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Norah Jeruto",
@@ -1914,7 +1926,8 @@
                 "female": {
                     "date": "2022/07/11",
                     "previa":[
-                        ""
+                        "Valarie Allman es el pronóstico del modelo para lograr el título en Oregon. No podía ser de otra manera cuando la estadounidense es la actual campeona olimpica y posee las cuatro mejors marcas del aǹo y su tiro de 71.46 es lo mejor que se ha lanzado en los últimos aǹos. La croata Sandra Perković, pronosticada como plata, es doble campeona mundial y es quien sigue a Allman en cuanto a marcas este año. Si alguien puede derrotar a la norteña es la croata. La alemana Kristin Pudenz, que damos como medalla de bronce, es la subcampeona olímpica de Tokio y posee el 9no y 10mo tiro del año. Estas tres discóbolas son las que poseen las 15 mejores marcas del año:",
+                        "Entre las que pudieran llegar al podio está la cubana Yaime Pérez, que es la actual campeona mundial y medallista de bronce olímpica en Japón, esta temporada no ha estado en competencias de gran nivel y sus mejores lanzamientos han estado sobre los 64 metros. Otras candidata de fuerza es la china Bin Feng que posee la 16ta marca del año, con 66 metros exactos. Nadie más que Allman, Perković,  Pudenz y Feng han superado los 65.50 en el año."
                     ],
                     "prediction": {
                         "1": {
