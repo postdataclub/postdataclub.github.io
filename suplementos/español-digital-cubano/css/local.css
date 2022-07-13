@@ -142,6 +142,36 @@ input:hover {
 
   }
 
+
+
+select {
+    background-color: transparent;
+    text-align: center;
+    border-bottom: 1px solid #d7d5e8;;
+    border-top: #4a0505;;
+    border-left: #4a0505;;
+    border-right: #4a0505;;
+    margin-left: 10px;
+    /* width: 140px; */
+}
+
+select:focus {
+    border-bottom: 1px solid #d7d5e8;
+    border-top: #4a0505;
+    border-left: #4a0505;
+    border-right: #4a0505;
+    outline: none;
+  }
+
+select:hover {
+    border-bottom: 1px solid #d7d5e8;
+    border-top: #4a0505;
+    border-left: #4a0505;
+    border-right: #4a0505;
+    outline: none;
+
+  }
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #d7d5e8;
     opacity: 1; /* Firefox */

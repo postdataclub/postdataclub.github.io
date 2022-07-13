@@ -67,56 +67,36 @@ function filter(data, filter) {
   ];
 }
 
-function read(f) {
-  let obj = {};
-  return $.getJSON("data/words0.json", function (data) {
-    obj = Object.assign(obj, data);
-    $.getJSON("data/words1.json", function (data) {
-      obj = Object.assign(obj, data);
-      $.getJSON("data/words2.json", function (data) {
-        obj = Object.assign(obj, data);
-        $.getJSON("data/words3.json", function (data) {
-          obj = Object.assign(obj, data);
-          $.getJSON("data/words4.json", function (data) {
-            obj = Object.assign(obj, data);
-            $.getJSON("data/words5.json", function (data) {
-              obj = Object.assign(obj, data);
-              $.getJSON("data/words6.json", function (data) {
-                obj = Object.assign(obj, data);
-                $.getJSON("data/words7.json", function (data) {
-                  obj = Object.assign(obj, data);
-                  $.getJSON("data/words8.json", function (data) {
-                    obj = Object.assign(obj, data);
-                    $.getJSON("data/words9.json", function (data) {
-                      obj = Object.assign(obj, data);
-                      $.getJSON("data/words10.json", function (data) {
-                        obj = Object.assign(obj, data);
-                        return f(obj);
-                      });
-                    });
-                  });
-                });
-              });
-            });
-          });
-        });
-      });
-    });
-  });
-}
+function bestSelect(data) {
+  const totalData = Object.keys(data)
+    .map((key) => {
+      const result = data[key];
+      result.text = key;
+      return result;
+    })
+    .filter((x) => x.origin_key);
 
-read(function (data) {
-  const totalData = Object.keys(data).map((key) => {
-    const result = data[key];
-    result.text = key;
-    return result;
-  });
+  const list = Array.from(new Set(totalData.map((x) => x.origin_key)));
+  var listDom = document.getElementById("e-select");
+  listDom.innerHTML = list
+    .map(
+      (x, i) =>
+        `<option value="${i}" ${
+          x === "Del jap. (japonés)" ? "selected" : ""
+        }>${x}</option>`
+    )
+    .join("");
 
   mark(
-    "most-japanese",
-    filter(
-      totalData,
-      (x) => x.origin_key && x.origin_key === "Del jap. (japonés)"
-    )
+    "most-select",
+    filter(totalData, (x) => x.origin_key === "Del jap. (japonés)")
   );
-});
+
+  listDom.onchange = function (e) {
+    var value = $("#e-select").val();
+    mark(
+      "most-select",
+      filter(totalData, (x) => x.origin_key === list[value])
+    );
+  };
+}

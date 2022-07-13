@@ -21,5 +21,13 @@ $.getScript("js/read-data.js", () => {
     $.getScript("js/daily-frequency.js", () => {
       return daily(data);
     });
+
+    $.getScript("js/ethnology.js", () => {
+      return ethnology(data);
+    });
+
+    $.getScript("js/best-words.js", () => {
+      return bestSelect(data);
+    });
   });
 });

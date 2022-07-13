@@ -470,12 +470,18 @@
         <div id="black-div" class="margin-top"></div>
         <div id="ethnology-chart" class="onei-chart"></div>
         <div id="black-div"></div>
-        <div class="flex flex-center margin-bottom">
+        <div class="flex flex-column flex-center margin-bottom">
           <label class="word-1" >Palabras más usadas con origen en: </label>
-          <input id="super-word" class="word-1" value="japonés" type="text"></input>
+          <select id="e-select" >
+            <option value="0">2016</option>
+            <option value="1">2017</option>
+            <option value="2">2018</option>
+            <option value="3">2019</option>
+            <option value="4" selected>2020</option>
+          </select>
         </div>
         <div id="black-div"></div>
-        <div id="most-japanese" class="top-box"></div>
+        <div id="most-select" class="top-box"></div>
         <div id="black-div" class="margin-bottom"></div>
 
         <!-- <div id="black-div" class="margin-top"></div>
@@ -502,68 +508,28 @@
           ¿Cómo se hizo?
         </div>
         <div class="mini-text">
-          Este trabajo es el resultado de un ejercicio de clases del Curso
+          Este trabajo es el resultado de un ejercicio planteado en el Curso
           Optativo de Periodismo de Datos que se imparte a estudiantes de
           5to,4to y 3er año de Ciencia de la Computación en la Facultad de
-          Matemática y Computación de la Universidad de La Habana. A los
-          estudiantes, incluyendo a los profesores, se les pidió que analizaran
-          la última edición del
-          <a href="http://www.onei.gob.cu/node/16275"
-            >Anuario Estadístico de Cuba</a
-          >
-          y que encontraran allí algunos datos e ideas para discutir en clase.
-          En el siguiente turno todos presentaron sus ideas y entre todos
-          escogimos 10 de esas ideas para con ellas armar este trabajo
-          colectivo. Para estructurar el trabajo se decidió realizarlo en
-          bloques diferentes, encabezados por la pregunta que les motivó los
-          datos que encontraron, un párrafo introduciendo la idea y una gráfica,
-          utilizando
-          <a href="https://echarts.apache.org/en/index.html">Echarts</a>, que
-          ejemplificara los distintos cuestionamientos.
-        </div>
-        <div id="spacer" class="mini-text">
-          Del Anuario Estadístico del 2020, edición 2021, se utilizaron los
-          siguientes datos:
-          <ul>
-            <li>
-              Tabla 18.7 - Personal docente frente al aula por tipo de educación
-            </li>
-            <li>Tabla 11.4 - Producciones industriales seleccionadas</li>
-            <li>
-              Tabla 10.16 - Generación bruta de electricidad por tipo de planta
-              productora
-            </li>
-            <li>
-              Tabla 2.15 - Dispositivos generadores de energía renovable en uso
-              y biomasa empleada como combustible
-            </li>
-            <li>Tabla 3.19 - Divorcios según la duración del matrimonio</li>
-            <li>
-              Tabla 12.7 - Volumen de inversiones por clase de actividad
-              económica
-            </li>
-            <li>Tabla 12.8 - Volumen de inversiones por provincias</li>
-            <li>
-              Tabla 2.12 - Consumo de sustancias agotadoras de la capa de ozono
-            </li>
-            <li>
-              Tabla 15.9 - Pernoctaciones de turistas nacionales en el conjunto
-              total de los medios de alojamiento porestablecimiento
-            </li>
-            <li>
-              Tabla 9.20 - Existencia en diciembre 31, nacimientos y muertes del
-              ganado porcino
-            </li>
-            <li>Tabla 9.21 - Entregas a sacrificio de ganado porcino</li>
-            <li>
-              Tabla 23.1 - Accidentes, fallecidos y lesionados por accidentes
-              del tránsito y por provincias
-            </li>
-            <li>
-              Tabla 3.7 - Población residente y densidad de población por
-              provincias, según zonas urbana y rural
-            </li>
-          </ul>
+          Matemática y Computación de la Universidad de La Habana. Para el 
+          análisis del Español Digital Cubano se les utilizaron varios scrapers
+          para obtener los distintos textos escritos en la isla. Se escogieron
+          para este análisis las plataformas CubaDebate, Facebook, Telegram,
+          Twitter y Youtube, para cada una de ellas se reutilizaron scrapers
+          implementados por terceros y publicados en GitHub. A partir de dichos 
+          textos, apoyados en las bibliotecas  
+          <a href="https://spacy.io">spacy</a> (procesamiento de lenguaje natural),
+          <a href="https://pypi.org/project/pyrae/">pyrae</a> (scraper del sitio 
+          oficial de la RAE) y <a href="https://pypi.org/project/emoji/">emoji</a>
+          (para reconocer emojis), se realizaron los distintos cómputos y conteos que 
+          posibilitaron los resultados presentados. Entre las principales técnicas 
+          utilizadas se encuentra el empleo de expresiones regulares (para detectar 
+          entidades como hashtags, usertags o errores ortográficos por repetición de caracteres) 
+          y la detección de entidades nombradas (para detectar cuales de las palabras 
+          no reconocidas por la RAE son nombres propios). Todas las gráficas presentadas
+          son frutos de la union de todos los cómputos realizados más la versatilidad
+          de la biblioteca <a href="https://echarts.apache.org/en/index.html">Echarts</a>
+          para definir múltiples gráficas 
         </div>
       </div>
 
