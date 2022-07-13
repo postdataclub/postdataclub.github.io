@@ -1,38 +1,13 @@
-export function read(f) {
-  let obj = {};
-  $.getJSON("data/words0.json", function (data) {
-    obj = Object.assign(obj, data);
+function read() {
+  return Promise.all(
+    Array(11)
+      .fill(1)
+      .map((_, i) =>
+        $.getJSON(`data/words${i}.json`, function (data) {
+          return data;
+        })
+      )
+  ).then((objs) => {
+    return objs.reduce((a, b) => Object.assign(a, b), {});
   });
-  $.getJSON("data/words1.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words2.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words3.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words4.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words5.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words6.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words7.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words8.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words9.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-  $.getJSON("data/words10.json", function (data) {
-    obj = Object.assign(obj, data);
-  });
-
-  return f(obj);
 }

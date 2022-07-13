@@ -1,109 +1,3 @@
-/* <div class="word-list">
-<div class="total-tag">Total</div>
-${list_words[0]
-  .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-  .join(" ")}
-</div> */
-
-// function mark(key, list_words) {
-//   var listDom = document.getElementById(most-frequency-word);
-//   listDom.innerHTML = `
-//     <div class="flex">
-//       <div class="word-list">
-//         <div class="total-tag">CubaDebate</div>
-//         ${list_words[1]
-//           .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-//           .join(" ")}
-//       </div>
-//       <div class="word-list">
-//         <div class="total-tag">Facebook</div>
-//         ${list_words[2]
-//           .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-//           .join(" ")}
-//       </div>
-//       <div class="word-list">
-//         <div class="total-tag">Telegram</div>
-//         ${list_words[3]
-//           .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-//           .join(" ")}
-//       </div>
-//       <div class="word-list">
-//         <div class="total-tag">Twitter</div>
-//         ${list_words[4]
-//           .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-//           .join(" ")}
-//       </div>
-//       <div class="word-list">
-//         <div class="total-tag">Youtube</div>
-//         ${list_words[5]
-//           .map((x, i) => `<div class="word-${i + 1}">${x}</div>`)
-//           .join(" ")}
-//       </div>
-
-//     </div>`;
-// }
-
-function read(f) {
-  let obj = {};
-  return $.getJSON("data/words0.json", function (data) {
-    obj = Object.assign(obj, data);
-    $.getJSON("data/words1.json", function (data) {
-      obj = Object.assign(obj, data);
-      $.getJSON("data/words2.json", function (data) {
-        obj = Object.assign(obj, data);
-        $.getJSON("data/words3.json", function (data) {
-          obj = Object.assign(obj, data);
-          $.getJSON("data/words4.json", function (data) {
-            obj = Object.assign(obj, data);
-            $.getJSON("data/words5.json", function (data) {
-              obj = Object.assign(obj, data);
-              $.getJSON("data/words6.json", function (data) {
-                obj = Object.assign(obj, data);
-                $.getJSON("data/words7.json", function (data) {
-                  obj = Object.assign(obj, data);
-                  $.getJSON("data/words8.json", function (data) {
-                    obj = Object.assign(obj, data);
-                    $.getJSON("data/words9.json", function (data) {
-                      obj = Object.assign(obj, data);
-                      $.getJSON("data/words10.json", function (data) {
-                        obj = Object.assign(obj, data);
-                        return f(obj);
-                      });
-                    });
-                  });
-                });
-              });
-            });
-          });
-        });
-      });
-    });
-  });
-}
-
-function getTen(data, filter) {
-  const result = data.filter((x) => filter(x)).map((x) => x.text);
-
-  if (result.length > 10) return result.slice(0, 10);
-
-  return result.concat(Array(10 - result.length).fill("-"));
-}
-
-function filter(data, filter) {
-  const realData = data
-    .filter((x) => filter(x))
-    .sort((a, b) => (a.frequency < b.frequency ? 1 : -1));
-
-  return [
-    getTen(realData, (x) => true),
-    getTen(realData, (x) => x.social_network.includes("CubaDebate")),
-    getTen(realData, (x) => x.social_network.includes("Facebook")),
-    getTen(realData, (x) => x.social_network.includes("Telegram")),
-    getTen(realData, (x) => x.social_network.includes("Twitter")),
-    getTen(realData, (x) => x.social_network.includes("Youtube")),
-  ];
-}
-
 function listFormation(data, index, func) {
   let mask = 0;
   const cu = [],
@@ -245,7 +139,7 @@ function change(data, item) {
   };
 }
 
-read(function (data) {
+function ranking(data) {
   const totalData = Object.keys(data)
     .map((key) => {
       const result = data[key];
@@ -261,29 +155,8 @@ read(function (data) {
     )
     .sort((a, b) => (a.globalRanking < b.globalRanking ? -1 : 1));
 
-  console.log("Init Word Ranking");
   var input = document.getElementById("super-word");
 
   change(totalData, input)();
   input.onchange = change(totalData, input);
-
-  // mark(
-  //   "most-frequency-not-eth-word",
-  //   filter(totalData, (x) => x.is_natural_word && !x.origin_key)
-  // );
-
-  // mark(
-  //   "most-frequency-emojis",
-  //   filter(totalData, (x) => x.is_emoji)
-  // );
-
-  // mark(
-  //   "most-frequency-users",
-  //   filter(totalData, (x) => x.is_user)
-  // );
-
-  // mark(
-  //   "most-frequency-hastags",
-  //   filter(totalData, (x) => x.is_hashtag)
-  // );
-});
+}
