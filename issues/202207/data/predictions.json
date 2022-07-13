@@ -706,6 +706,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "El modelo pronostica que se repetirá exactamente el mismo podio de los Juegos olímpicos de Tokio: la estadounidense Athing Mu, oro, la británica Keely Hodgkinson, plata y la también estadounidense Raevyn Rogers, bronce. Mu es la lider de la temporada con las dos mejores marcas del aǹo. Hodgkinson posee la 7ma y la 8va, Rogers la 9na. Todas estas marcas están entre 1.57:00 y 1.58.00.",
+                        "Fuera de las 8 primeras queda la estadounidense Ajee Wilson que tiene la 3ra marca del año y el modelo la sitúa como la 10ma favorita. Asimismo está la keniana Mary Moraa a quien el modelo ve 14ta pero ella ha corrido el 4to y 6to mejor tiempo del año. Estás marcas también está por debajo de 1.58.00. Por debajo de 1.59.00 han corrido, entre las probables finalistas del pronóstico, la etiope Diribe Welteji, la cubana Rose Mary Almanza y la británica Jemma Reekie."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Athing Mu",
@@ -743,6 +747,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "El modelo ofrece un inesperado candidato para el primer lugar. El británico Elliot Giles entraría en las cábalas de pocos cuando tiene un registro de 1.44.05 como mejor marca personal y un 1.45.94 como mejor marca del año. Más sentido tiene el segundo lugar en que se propone a Peter Bol quien terminó en 4to lugar en Tokio y este año ha hecho lo mejor de su vida con 1.44.00. En el tercer lugar está propuesto el francés Gabriel Tual. El francés ya fue finalista en Tokio y este año también hizo su mejor marca personal con 1.44.43",
+                        "El 4to favorito es el también francés Benjamin Robert que es uno de los 6 corredores que esta temporada han bajado del 1.44.00. Robert hizo su mejor marca de por vida en Paris cuando corrió para el primer lugar con marca de 1.43.75, en esta misma carrera fue donde Bol y Tual hicieron sus marcas personales quedando en 2do y 3er lugar respectivamente. El canadiense Marcom Arop, finalista en Doha, es tercero del listado del año y puede sorprender. El marroqui Moad Zahafi que se pronostica 8vo y tiene la 4ta marca del año  también podría estar en el podio. Hay un grupo de otros corredores que no fueron favorecidos por el algoritmo de pronósticos pero que no sería sopresa verlos entre los finalistas o en el podio: el británico Max Burgin que tiene la mejor marca del año, el keniano Wyclife Kinyamal Kisasy que sigue a Burgin con la segunda marca de la temporada,  el argelino Djamel Sedjati o el keniano Emmanuel Waayonyi todos en el Top10 del año."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Elliot Giles",
@@ -874,6 +882,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Nada asombre que el modelo de pronóstico proponga un podio africano para los 5000 metros femeninos. La que da favorita para el oro es la etiope Gudaf Tsegay. La etipe es la medallista de bronce de Tokio y tiene la 4ta marca del año. En segundo lugar se propone a la keniana Beatrice Chebet que este año ganó el campeonato africano. La también etiope Ejgayehu Taye es el pronóstico para el 3er lugar. Taye tiene la mejor marca del año.",
+                        "Hay tres corredoras que no fueron pronosticadas entre las 8 primera pero que pueden ser fácilmente las campeonas. En primer lugar, la holandesa Sifan Hassan  que es la campeona olímpica actual, aunque este año solo tiene una carrera registrada. A la holandesa el algoritmo la ubica en un lugar 13. La etiope Letesenbet Gidey tiene la 2da marca de la temporada pero el modelo la da como 9na favorita. La keniana Margaret Chelimo Kipkemboi es la actual subcampeona del mundo, el modelo la sitúa como 14ta favorita. Además de estás tres corredoras, hay que observar a la noruega Karoline Bjerkeli Grøvdal como una que puede romper la hegemonía africana. Grøvdal es situada como 5ta favorita por el algoritmo y posee el 6to mejor tiempo del aǹo."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Gudaf Tsegay",
@@ -911,6 +923,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "Los 5000 metros serán otra batalla africana donde, según nuestro modelo, solo el noruego Jakob Ingebrigtsen y el canadiense Mohammed Ahmed podrían decir algo fuera de los corredores de África. Acorde al pronóstico, el etiope Berihu Aregawi se llevaría el oro. Aregawi es el recordista mundial de los 5 kilómetros en carretera y tiene este año la 3ra marca del año. El noruego Ingebrigtsen es visto como el medallista de plata, este año tiene una sola carrera cuyo tiempo, 13:02.03, la ubica en el lugar 14 del año. El año pasado lideró el listado mundial con 12:48.45.  El tercer lugar se pronostica para el etiope Yomif Kejelcha que tiene la 4ta marca del año.",
+                        "Fuera del pronóstico de medallas hay un grupo de ilustres corredores de los cuales cualquiera puede cambiar el resultado predicho. El estadounidense Joshua Cheptegei es el actual campeón olímpico. El etiope Selemon Barega es el subcampeón mundial de Doha y tiene el 5to tiempo del año. El canadiense Mohammeda Ahmed es el subcampeón olímpico y bronce mundial de Doha y tiene el 6to tiempo del año. El keniano Nicholas Kipkorir es el líder de la temporada."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Berihu Aregawi",
@@ -1089,6 +1105,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "El trío que se pronostica como medallistas es el que posee, en diferente orden, las tres mejores marcas del año. La puertoriqueña Jasmine Camacho-Quinn tiene el 3er tiempo del año y se cree que será la campeona, la estadounidense Kendra Harrison es la que mejor ha corrido en el aǹo y se piensa que será plata, mientras que su compatriota Alaysha Johnson tiene la 2da marca de la temporada y se predice como medallista de bronce. Jasmine es la actual campeona olímpica. Kendra Harriso es la recordista mundial y subcampeona olímpica de Tokio y subcampeona mundial de Doha. ",
+                        "Entre las restanstes destaca la estadounidense Nia Ali que es la vigente campeona mundial y fue subcampeona olímpica en Río. También destaca la nigeriana Tobi Amusan que se quedó a las puertas de las medallas tanto en Doha como en Tokio pues en ambas lides concluyó en la cuarta posición."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Jasmine Camacho-Quinn",
@@ -1308,6 +1328,10 @@
             "sex": {
                 "female": {
                     "date": "2021/07/26",
+                    "previa":[
+                        "Cuando se pronostica que Jamaica barrerá con las medallas en los 100 metros planos, la única manera de ser consistentes es que también se le considere como la probable granadora del relevo 4x100 metros femenino. En esa misma línea, siguiendo las predicciones en 100 y 200 metros, el candidato a la plata es el relevo estadounidense. Asimismo, la candidata al bronce es la cuarteta del Reino Unido. Estos tres países dominaron los relevos en Doha y Tokio. Jamaica ganó en ambas ocasiones. Las británicas fueron segundas en Doha y las norteamericanas en Tokio.",
+                        "Otros relevos que suelen presentar fuerza habitualmente son los de Nigeria, Polonia y Alemania."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Jamaica",
@@ -1345,18 +1369,22 @@
                 },
                 "male": {
                     "date": "2021/07/26",
+                    "previa":[
+                        "Para Estados Unidos se predijo que ocuparía los tres primeros lugares de los 100 metros planos y los cuatro primeros lugares de los 200 metros planos, entonces sería de locos no predecir que ganarán el 4x100 m etros masculino. Detrás de los estadouniddense es dificil decidirse entre Canadá y Jamaica. Los canadienses tienen un relevo más establecido y sus corredores encabezados por Andre De Grasse y Aaron Brown tienen buenos pronósticos para 100 y 200. Además, los canadienses son los actuales subcampeones olímpicos de hace un año. Para Jamaica, que siempre corre bien queda el pronóstico del bronce. La fuerza de los caribeños debe estar en Oblique Seville y Yohan Blake.",
+                        "Otros relevos a tener en cuenta son Italia y China. los italianos ganaron la olimpiada y tendrán de nuevo al campeón olímpico de los 100 metros, Marcell Jacobs a la cabeza. Por su parte china, que ganó el bronce en Tokio, tendrá de principal figura a Bingtian Su. "
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
                             "country": "USA"
                         },
                         "2": {
-                            "name": "Jamaica",
-                            "country": "JAM"
-                        },
-                        "3": {
                             "name": "Canadá",
                             "country": "CAN"
+                        },
+                        "3": {
+                            "name": "Jamaica",
+                            "country": "JAM"
                         },
                         "4": {
                             "name": "Nigeria",
@@ -1388,14 +1416,18 @@
             "sex": {
                 "female": {
                     "date": "2021/07/26",
+                    "previa":[
+                        "Siguiendo el pronostico de los 400 metros planos y los 400 metros con vallas, los dos primeros lugares del relevo masculino 4x400 metros deben estar entre Jamaica y Estados Unidos. Las norteamericanas han ganado las últimas dos grandes competencias el mundial y la olimpiada, por eso pronosticamos que ellas se llevarán el oro. Jamaica fue 3ra tanto en Doha como en Tokio pero esta vez creemos que incluso puede llegar a poner en apuros a Estados Unidos. Las caribeñas son el pronóstico para subtítulo. Polonia es el otro país que ha acompañado a estadounidenses y jamicanas en los podios de Japón y Catar. En ambas ocasiones fueron subcampeonas pero creemos que esta ocasión solo les alcanzará para llegar hasta el bronce.",
+                        "Otros contendientes que pueden presentar fuerza son los relevos de Reino Unido, Bahamas y Países Bajos."
+                    ],
                     "prediction": {
                         "1": {
-                            "name": "Jamaica",
-                            "country": "JAM"
-                        },
-                        "2": {
                             "name": "Estados Unidos",
                             "country": "USA"
+                        },
+                        "2": {
+                            "name": "Jamaica",
+                            "country": "JAM"
                         },
                         "3": {
                             "name": "Polonia",
@@ -1425,6 +1457,10 @@
                 },
                 "male": {
                     "date": "2021/07/26",
+                    "previa": [
+                        "El gran favorito para el 4x400 metros masculino es Estados Unidos, basta mirar los pronósticos en las carreras de 400 metros para darse cuenta de ello. El pronóstico para el segundo lugar es mucho más abierto. La predicción de República dominicana es arriesgada, pero es un relevo que puede correr bien y dar esa sorpresa de plata que le pronosticamos. Botswana como bronce es otra apuesta. Creemos que los africanos pueden repetir esa misma medalla que ganaron en Tokio.",
+                        "Jamaica es uno de los relevos que puede revertir estos pronosticos que consideramos atrevidos. Los jamaicanos siempre tienen el potencial de ser medallistas en cualquier competencia, de hecho son los vigentes subcampeones mundiales. En el caso de los Países Bajos, que son los actuales subcampeones olímpicos, no creemos que puedan repetir una gesta como esa, incluso será complicado que puedan llegar a la final. Por su parte Bélgica, una vez más dependerá de los Borlée y también tendrá dificil repetir el bronce que ganaron en Doha."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
@@ -1638,6 +1674,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Armand Duplantis lo ha ganado todo, excepto el título mundial. En Doha, el sueco quedó segundo tras el estadounidense Sam Kendricks, ambos con 5.97. Este año nadie cree que pueda ocurrir de nuevo. Duplantis es el único que ha saltado más de 6 metros, incluyendo el mejor salto de la historia al aire libre, 6.16. Es el favorito del pronóstico para colgarse el oro. El candidato a llevarse la plata es el estadounidense Christopher Nilsen que llegado hasta los 6 metros y tiene otros brincos de 5.93 y 5.92. Nilsen es el subcampeón olímpico y fue bronce en el campeonato mundial de pista cubierta de Belgrado. El brasileño Thiago Braz es el pronóstico para el bronce. Este año ha llegado hasta 5.93 y es el tercero que más ha saltado luego de Duplantis y Nilsen. Braz ganó la olimpiada de Río, fue bronce en Tokio y fue subtitular mundial bajo techo en Belgrado. El brasileño aún no ha ganado una medalla mundial al aire libre.",
+                        "Entre los otros candidatos a medallas están el filipino Ernest John Obiena y el alemán Bo Kanda Lita Baehre que son los otros dos pertiguistas que han saltado 4.90 o más. Por supuesto, nadie nunca descontaría lo que puede hacer Renaud Lavillenie que siendo multimedallista olímpico y mundial, no ha podido ganar el título de campeón del mundo y, siendo realistas, parace que esta vez tampoco será. "
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Armand Duplantis",
@@ -1681,6 +1721,10 @@
             "sex": {
                 "female": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "La alemana Malaika Mihambo es la actual campeona del mundo y olímpica, además tiene la segunda marca de la temporada con 7.09. Ella está pronosticada para repetir en Oregon el título que alcanzó en Doha. La nigeriana Ese Brume es la segunda favorita según el modelo de pronósticos. Tiene la 6ta marca de la temporada con 6.92. Brume se llevó las medallas de bronce en Doha y Tokio, y fue segunda en el mundial bajo techo de Belgrado este año.. La serbia Ivana Vuleta es el pronóstico de bronce.  Vuleta en la temporada bajo techo fuen la única que llegó más allá de los 7 metros, 7.06, y se coronó por segunda vez campeona mundial en pista cubierta en Belgrado. La serbia ya sabe lo que es ser bronceada al aire libre pues ganó ese metal en los mundiales del 2015 y 2013.",
+                        "Este año la escuadra estadounidense de salto largo se resentirá la ausencia de la histórica del salto largo Brittney Reese, tampoco está inscrita Tara Davis que es una de las tres saltadoras que ha ido más allá de los 7 metros al aire libre en el año,  Monae' Nicholls que tiene el 4to salto al aire libre tampoco fue anunciada, así que las principales posibilidades del equipo norteño caerán sobre Jasmine Moore (6.82) aunque el modelo ve mejores opciones en Quanesha Burks (6.77 aunque tiene un 7.06 con aire a favor). La ucraniana Maryna Bekh-Romanchuk es otra contendiente de fuerza, es la subcampeona mundial de Doha y ha llegado hasta los 6.86 en la temporada. A tener en cuenta también  están la sueca Khaddi Sagnia que ha llegado hasta los 6.95 y la australiana Brooke Buschkuehl que es la líder de la temporada pues hace apenas unos días saltó 7.13. Buschkuehl solo ha saltado dos veces en su vida sobre los 7 metros, la anterior vez fue en el 2016, este año su segundo mejor salto es de 6.61."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Malaika Mihambo",
@@ -1806,6 +1850,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "En el triple salto los dos mejores saltadores del año, el cubano ahora nacionalizado español Jordan Díaz y el también cubano Andy Díaz, no estarán presentes en el mundial. Esto abre la puerta para que el cubano nacionalizado portugués Pedro Pablo Pichardo pueda intentar ganar su primer título mundial. Pichardo, compitiendo dos subtítulos mundiales al aire libre y uno bajo techo, compitiendo por Portugal ganó este aǹo también el subitulo en pista cubierta. Lo que si logró el año pasado, también bajo bandera portuguesa fue el título olímpico. Nuestros pronósticos dicen que este año podría lograrlo. Otro cubano es el favorito para el tercer lugar en Oregon, Lázaro Martínez, que si representará a Cuba, ganó el título bajo techo superando a Pichardo y tiene la 10ma marca del año al aire libre con 17.30 y lideró la temporada bajo techo con 17.64. Entre estos/ cuatro cubanos están las 12 mejores marcas al aire libre. El único que, según el modelo, se interpondrá entre Pichardo y Martínez será Hugues Fabrice Zango, de Burundi. Zango es bronce olímpico y mundial y tiene el 15to brinco de la temporada con 17.25.",
+                        "Otro que va teniendo una buena temporada son el italiano Andrea Dallavalle que tiene la 13ra (17.28) y 15ta (17.25) marcas del año. El chino Yaming Zhu fue el subcampeón de Tokio y este año brincó hasta 17.22. Por otra parte nunca se puede dejar fuera al equipo estadounidense, sobre todo a Will Claye, que es el actual subcampeón mundial y a Christian Taylor que es el vigente campeón mundial, un título que ha ganado 4 veces a los que suma otros dos títulos olímpicos. "
+                    ],                
                     "prediction": {
                         "1": {
                             "name": "Pedro Pichardo",
@@ -2154,6 +2202,10 @@
                 },
                 "male": {
                     "date": "2022/07/11",
+                    "previa":[
+                        "Neeraj Chopra es el actual olímpico y es el que se pronostica como gandaro de la medalla de oro. El indio tiene el 5to disparo de la temporada quedando a apenas 6 centímetros de la barrera de los 90 metros. El granadino Anderson Peters, que es el vigente campeón mundial, es el amlio dominador de la temporada donde ha llegado hasta los 93.07 metros. Peters es el pronóstico de segundo lugar. Para el bronce se pronostica a Julian Weber. El alemán hace poco más de un mes lanzó su mejor disparo de por vida, 89,54, con que ancla 7mo en el listado del año.",
+                        "Uno que tratará de revertir el pronóstico es el checo Jakub Vadlejch, que es el otro javalinista que ha superado los 90 metros este año. Vadlejch lanzó el dardo hasta los 90.88 quedando segundo en la misma competencia en que Perters tiró 93.07. Otros dos candidatos a tener en cuenta son el finés Oliver Helander y el trinitario Keshorn Walcott que son los otros dos jabalinistas que han llegado más allá de los 89 metros. Walcott ya conoce lo que es ser medallita olímpico, cogió oro en el 2012 y bronce en 2016, pero aún anda en búsqueda de un metal mundial."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Neeraj Chopra",
@@ -2504,6 +2556,10 @@
             "sex": {
                 "male": {
                     "date": "2022/07/11",
+                    "previa": [
+                        "Damian Warner ganó el año pasado el título olímpico y superó la barrera de los 9000 puntos, este año ganó el heptatlón en el campeonato mundial bajo techo de Belgrado y tiene el 2do mejor decatlón del año. El candiense nunca ha ganado el título mundial y este año quiere lograrlos, nuestro modelo de proonóstico confía en que lo logrará. El francés Kevin Mayer será su gran rival. Mayer es el recordista del mundo y en Tokio, regresando de una lesión, fue subcampeón olímpico por segunda vez.Kevin ya sabe lo que es ser campeón mundial tanto al aire libre como en el heptatlon en pista cubierta. Este año hará su primer decatlón en Oregon, el modelo dice que no le alcanzará para superar a Warner pero si para la medalla de plata. El canadiense Pierce Lepage no ha logrado medallas en un evento importante, terminó 5to tanto en Doha como en Tokio, esta vez dice el modelo que lo conseguirá. Este es un pronóstico arriesgado pues Lepage no ha hecho ningún decatlón en el aǹo.",
+                        "Fuera de los pronosticados como medallistas hay que notar al australiano Ashley Moloney que fue el medallista de bronce en Tokio y al alemán Niklas Kaul que es el vigente campeón mundial, aunque el modelo lo pronostica ahora en el lugar 12. Además de ellos, hay que considerar a los estadounidenses Zachery Ziemek y Kyle Garland (10mo favorito según el pronóstico) que tienen el 3er y 4to mejor decatlón del año. El líder de la temporada, el también estadounidense Garrett Scantling no aparece entre los inscritos por Estados Unidos."  
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Damian Warner",
