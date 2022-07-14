@@ -116,7 +116,7 @@ a {
 }
 
 .pronostico-title {
-    color: #6b4771;
+    color:rgba(70,26,78,0.7);
     font-weight: bold;
     font-size: 20px;
 }
@@ -171,6 +171,10 @@ a {
 .previa>hr {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.ending-block {
+    margin-top: 10px;;
 }
 
 @media(min-width:990px){

@@ -214,6 +214,7 @@
 
 <div id="events-m-medals" class="contents-block" style="display: none;">
   <div id="medal-table" class="pred-table" >
+    <div id="medal-table-title" class="event-title">Pronóstico de Tabla de Medallas</div>
     <table id="medal-table-sorter" class="table table-striped table-condensed table-hover main-text tablesorter  ">
       <thead>
         <tr class="bd" >
@@ -231,6 +232,7 @@
 
 <div id="events-m-points" class="contents-block" style="display: none;">
   <div id="medal-table" class="pred-table" >
+    <div id="points-table-title" class="event-title">Pronóstico de Tabla de Puntos</div>
     <table id="points-table-sorter" class="table table-striped table-condensed table-hover main-text tablesorter  ">
       <thead>
         <tr class="bd" >
@@ -264,7 +266,7 @@
         href="http://www.worldathletics.org">World Athletics</a>.
     De allí se obtuvo la
     información de las marcas o tiempos de los atletas en las competencias reportadas desde el año 2020 hasta el
-    2021.
+    2022 (hasta el 11 de julio).
     Se tuvieron en cuenta las competencias bajo techo para eventos en los que existe una relativa igualdad de
     condiciones (los eventos de saltos y la impulsión de la bala).
 </p>
@@ -296,6 +298,10 @@
     participantes en la competencia, se calcula la moda de los lugares en los que quedó cada atleta. Es
     seleccionado el atleta que más se repite el primer lugar, luego el que más repite el segundo lugar sin ser
     el primero y así sucesivamente.
+</p>
+<p>Las tablas de medallas y de puntos se computaron a partir de los pronósticos generados.</p>
+<p>
+  Para descargar los datos se utilizó Python con las bibliotecas Requests y Selenium. Los datos obtenidos y procesados se guardaron en formato CSV. Para generar los pronósticos se utilizaron las biblioteca SKLearn, Numpy, Pandas y Matploblib. Los pronosticos generados se guardaron en formato JSON. Este JSON fue utilizado para la visualización final. Esta se desarrolló directamente utilizando HTML5, CSS y Javascript como herramientas auxiliares se usó Bootstrap, Jquery y JqueryTablesorter.
 </p>
 </div>
 

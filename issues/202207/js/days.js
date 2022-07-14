@@ -94,6 +94,7 @@ $.getJSON("data/predictions.json", function (data) {
         text+= '</div>';
         text+= '</div>';
         text+= "</div>";
+        text+= "<hr class='ending-block'>";
         return text;
     }
 
