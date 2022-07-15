@@ -31,8 +31,18 @@ $.getJSON("data/predictions.json", function (data) {
         let text = '<div class="pred-block">';
         for(var i=1;i<=8;i++){
             let prediction = data.events[even].sex[sex].prediction[i];
+            clas ="";
+            if ("status" in prediction) {
+                if (prediction.status==-1){
+                    clas = "wrong";
+                } else if (prediction.status==1){
+                    clas = "good"
+                } else {
+                    clas = "excellent"
+                }
+            }
             text+= '<div class="pred-item">';
-            text+= '<p>';
+            text+= '<p class="'+clas+'">';
             text+= '<span class="medal">'+i+'</span>';
             text+= '<span>'+'<img class="flag" src="images/flags-mini/'+domains[prediction.country.toLowerCase()]+'.png">'+'</span>';
             text+= '<span class="country">'+prediction.country+'</span>';
@@ -64,11 +74,25 @@ $.getJSON("data/predictions.json", function (data) {
         return '<div class="pred-block"><p class="no-result">Sin resultados aún</p></div>';
     }
 
+    function generateEventAnalysis(even,sex){
+        if ("analysis" in data.events[even].sex[sex]) {
+            let analysis = data.events[even].sex[sex].analysis;
+            let text = "<div id='analysis-"+even+"-"+sex+"' class='previa'>";
+            text+= "<div class='previa-title'>El resultado</div><hr>"
+            for(var i=0;i<analysis.length;i++){
+                text+="<p>"+analysis[i]+"</p>";
+            }
+            text+="</div>";
+            return text;
+        }
+        return "";
+    }
+
     function generateEventPrevia(even,sex){
         if ("previa" in data.events[even].sex[sex]) {
             let previa = data.events[even].sex[sex].previa;
             let text = "<div id='previa-"+even+"-"+sex+"' class='previa'>";
-            text+= "<div class='previa-title'>Previa</div><hr>"
+            text+= "<div class='previa-title'>La previa</div><hr>"
             for(var i=0;i<previa.length;i++){
                 text+="<p>"+previa[i]+"</p>";
             }
@@ -94,6 +118,10 @@ $.getJSON("data/predictions.json", function (data) {
         text+= '</div>';
         text+= '</div>';
         text+= "</div>";
+        if ("result" in data.events[even].sex[sex]) {
+            text+= '<div class="leg"><span class="excellent">Pronóstico exacto</span> &nbsp;&nbsp; <span class="good">Pronóstico en otra posición</span> &nbsp;&nbsp; <span class="wrong">Pronóstico incorrecto</span></div>';
+        }
+        text+= generateEventAnalysis(even,sex);
         text+= "<hr class='ending-block'>";
         return text;
     }

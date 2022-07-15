@@ -2250,41 +2250,87 @@
                 "female": {
                     "date": "2022/07/11",
                     "previa": [
-                        "El pronóstico un podio totalmente chino. Entre las tres medallistas pronosticadas, esta vez como subcampeona, destaca Hong Liu, que es tres veces campeona mundial y bronce en los Juegos Olímpicos de Tokio. Liu no tiene marcas este año pero por sus actuaciones previas el algoritmo la sigue situando entre las medallistas. Por su parte, Shijie Qieyang que fue subcampeona en Doha 2019 y ahora es pronosticada como campeona, está en un excelente estado de forma. Zhenxia Ma, por su parte este año ganó el Campeonato Mundial de Marcha en Muscat.",
+                        "El pronóstico es un podio totalmente chino. Entre las tres medallistas pronosticadas, esta vez como subcampeona, destaca Hong Liu, que es tres veces campeona mundial y bronce en los Juegos Olímpicos de Tokio. Liu no tiene marcas este año pero por sus actuaciones previas el algoritmo la sigue situando entre las medallistas. Por su parte, Shijie Qieyang que fue subcampeona en Doha 2019 y ahora es pronosticada como campeona, está en un excelente estado de forma. Zhenxia Ma, por su parte este año ganó el Campeonato Mundial de Marcha en Muscat.",
                         "Otras marchistas finalistas que no sorprenderían en el podio serían la española María Pérez con varias de las mejores marcas del año, la peruana Kimberly García que fue tercera en Muscat o la australiana Jemima Montag que tiene la mejor marca del año entre las inscritas en Oregón."
+                    ],
+                    "analysis": [
+                        "Kimberly García hizo su mejor marca personal y no dejó posibilidades a más nadie dando a Perú su primera medalla, y de oro, en mundiales de atletismo. La polaca Katarzyna Zdziebło también hizo marca personal y se quedó con la plata. Los tiempos de Kimberly y Katarzyna fueron récord nacional de Perú y Polonia respectivamente. La china Shijie Qieyang volvió a ser ser medallista mundial, aunque en esta ocasión solo le alcanzó para el bronce. La carrera fue excepcional pues seis de las ocho primera hicieron su mejor marca del año.",
+                        "En cuanto al pronóstico, de las medallistas, solo se predijo una, Shijie Qieyang, que estaba pronosticada como campeona y terminó tercera. Del pronóstico de las ocho primeras se acertó con cuatro de ellas, aunque todas en posiciones diferentes. Fuera de los pronosticado quedaron la china Zhenxia Ma que se pensaba como 3ra y terminón en el 10mo lugar, Meryem Bekmez fue el lugar 18 mientras que María Pérez y Lyudmila Olyanovska resultaron descalificadas. "
                     ],
                     "prediction": {
                         "1": {
                             "name": "Shijie Qieyang",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status": 1
                         },
                         "2": {
                             "name": "Hong Liu",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status": 1
                         },
                         "3": {
                             "name": "Zhenxia Ma",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status": -1
                         },
                         "4": {
                             "name": "María Pérez",
-                            "country": "ESP"
+                            "country": "ESP",
+                            "status": -1
                         },
                         "5": {
                             "name": "Jemima Montag",
-                            "country": "AUS"
+                            "country": "AUS",
+                            "status": 1
                         },
                         "6": {
                             "name": "Kimberly García León",
-                            "country": "PER"
+                            "country": "PER",
+                            "status": 1
                         },
                         "7": {
                             "name": "Meryem Bekmez",
-                            "country": "TUR"
+                            "country": "TUR",
+                            "status": -1
                         },
                         "8": {
                             "name": "Lyudmila Olyanovska",
-                            "country": "UKR"
+                            "country": "UKR",
+                            "status": -1
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Kimberly García León",
+                            "country": "PER"
+                        },
+                        "2": {
+                            "name": "Katarzyna Zdziebło",
+                            "country": "POL"
+                        },
+                        "3": {
+                            "name": "Shijie Qieyang",
+                            "country": "CHN"
+                        },
+                        "4": {
+                            "name": "Jemima Montag",
+                            "country": "AUS"
+                        },
+                        "5": {
+                            "name": "Hong Liu",
+                            "country": "CHN"
+                        },
+                        "6": {
+                            "name": "Nanako Fujii",
+                            "country": "JPN"
+                        },
+                        "7": {
+                            "name": "Alegna González",
+                            "country": "MEX"
+                        },
+                        "8": {
+                            "name": "Valentina Trapletti",
+                            "country": "ITA"
                         }
                     }
                 },

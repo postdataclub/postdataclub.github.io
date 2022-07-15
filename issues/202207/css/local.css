@@ -177,6 +177,33 @@ a {
     margin-top: 10px;;
 }
 
+.wrong {
+    text-decoration: line-through;
+    background-color: white;
+} 
+
+.good {
+    background-color: rgba(0, 255, 255, 0.25);
+}
+
+.excellent {
+    background-color: rgba(170, 0, 255, 0.25);
+}
+
+.i-excellent {
+    color: rgba(170, 0, 255, 0.25);
+}
+
+.i-good {
+    color: rgba(0, 255, 255, 0.25);
+}
+
+.leg {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
 @media(min-width:990px){
 }
 
