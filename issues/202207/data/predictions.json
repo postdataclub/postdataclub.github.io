@@ -1616,12 +1616,12 @@
                             "country": "CAN"
                         },
                         "7": {
-                            "name": "Brandon Starc",
-                            "country": "AUS"
-                        },
-                        "8": {
                             "name": "Andriy Protsenko",
                             "country": "UKR"
+                        },
+                        "8": {
+                            "name": "Tomohiro Shinno",
+                            "country": "JAP"
                         }
                     }
                 }
