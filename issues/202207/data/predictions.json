@@ -660,8 +660,8 @@
                 "male": {
                     "date": "2022/07/11",
                     "previa":[
-                        "Michael Norman posee las dos mejores marcas de la temporada. El estadounidense es el favorito al oro en nuestro pronóstico. Le sigue a él, en segundo lugar, el bahamés Steven Gardiner que es el actual campeón olímpico y mundial que tiene el 7mo y 8vo tiempos del año. En 3er lugar se pronostica que estará el granadino Kirani James que fue bronce en Tokio, campeón en Londres 2012 y subcampeón en Río 2016 mientras que en mundiales fue bronce en Beijing 2015 y campeón en Daegu 2011. Este año posee la 4ta mejor marca al aire libre.",
-                        "Los estadounidenses Champion Allison, Randolph Ross y Michael Cherry están también entre los grandes candidatos a medallas. Allison tiene el 3er tiempo del año, Ross el 5to y Cherry la 10ma. Entre los cuatro estadounidenses y James y Gardiner están las 12 mejores marcas de la temporada. Otro que no se puede dejar fuera de las posibilidades es el sudafricano Wayde Van Niekerk, que es el actual recordista mundial pero lleva un tiempo luchando por retronar luego de una lesión de hace algunos años."
+                        "Michael Norman posee las dos mejores marcas de la temporada. El estadounidense es el favorito al oro en nuestro pronóstico.  En 2do lugar se pronostica que estará el granadino Kirani James que fue bronce en Tokio, campeón en Londres 2012 y subcampeón en Río 2016 mientras que en mundiales fue bronce en Beijing 2015 y campeón en Daegu 2011. Este año posee la 4ta mejor marca al aire libre. Para el 3er lugar se vaticina al también norteamerica Michael Cherry que viene con la 10ma marca del año.",
+                        "Los estadounidenses Champion Allison y Randolph Rossestán también entre los grandes candidatos a medallas. Allison tiene el 3er tiempo del año y Ross el 5to. Entre los cuatro estadounidenses y James y el bahamés Steven Gardiner están las 12 mejores marcas de la temporada. Otro que no se puede dejar fuera de las posibilidades es el sudafricano Wayde Van Niekerk, que es el actual recordista mundial pero lleva un tiempo luchando por retronar luego de una lesión de hace algunos años. Se sentirá la ausencia del mencionado Gardiner, que es el actual campeón olímpico y mundial y que tiene el 7mo y 8vo tiempos del año. Una lesión en los últimos días le impedirá luchar por revalidar su título. Inicialmente, en nuestro pronostico, era el 2do favorito. "
                     ],
                     "prediction": {
                         "1": {
@@ -669,32 +669,32 @@
                             "country": "USA"
                         },
                         "2": {
-                            "name": "Steven Gardiner",
-                            "country": "BAH"
-                        },
-                        "3": {
                             "name": "Kirani James",
                             "country": "GRN"
                         },
-                        "4": {
+                        "3": {
                             "name": "Michael Cherry",
                             "country": "USA"
                         },
-                        "5": {
+                        "4": {
                             "name": "Randolph Ross",
                             "country": "USA"
                         },
-                        "6": {
+                        "5": {
                             "name": "Wayde Van Niekerk",
                             "country": "RSA"
                         },
-                        "7": {
+                        "6": {
                             "name": "Champion Allison",
                             "country": "USA"
                         },
-                        "8": {
+                        "7": {
                             "name": "Matthew Hudson-Smith",
                             "country": "GBR"
+                        },
+                        "8": {
+                            "name": "Lidio Andres Feliz",
+                            "country": "DOM"
                         }
                     }
                 }
@@ -2565,7 +2565,7 @@
                     "date": "2022/07/11",
                     "previa": [
                         "En la maratón femenina el modelo predice que este año Etiopía pondrá fin al dominio de Kenia en los últimos dos grandes campeonatos. Esta es una predicción arriesgada por parte del algoritmo pues si vamos a los tiempos del año las dos mejores marcas son de Kenia: Brigid Kosgei, que no está inscrita, y Ruth Chepngetich, actual campeona del mundo, a quien el modelo da como subcampeona. Para primer lugar se da a Ashete Bekere quien tiene la 3ra marca de la temporada. El bronce lo pronostica para la también etíope Gotytom Gebreslase que posee el 6to tiempo del año. Estas marcas de Kogei, Bekere y Gebreslase fueron en la Maratón de Tokio donde coparon el podio.",
-                        "Otra candidata es la keniana Angela Tanui que posee la 8va marca del año y fue 4ta en la mencionada competencia en Japón. Resalta que el modelo ubica a la keniana Peres Jepchirchir, vigente campeona olímpica aunque sin marca este año, como novena."
+                        "Otra candidata es la keniana Angela Tanui que posee la 8va marca del año y fue 4ta en la mencionada competencia en Japón. Por su parte, la israelí Lonah Chemtai Salpeter, la estadounidense Keira D'Amato, las japonesas Mizuki Matsuda y Hitomi Niiya tratarán de cercar el dominio de etíopes y kenianas."
                     ],
                     "prediction": {
                         "1": {
