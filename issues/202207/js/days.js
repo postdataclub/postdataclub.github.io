@@ -170,13 +170,37 @@ $.getJSON("data/predictions.json", function (data) {
         console.log("Eventos",totalEvents,"Pronosticados",predictedEvents,"Finalistas",finalists,"Medallistas",medalWinners, "Medallistas exacto",exactMedalWinners,"Exactos",exactPositions,"Campeones",champs);
         text = '<div class="stats">';
         text+= '<div class="stats-item stats-item-title">'+title+'</div>';
-        text+= '<div class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
+        if (predictedEvents!=1) {
+            text+= '<div class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
+        } else {
+            text+= '<div class="stats-item">'+predictedEvents+' evento concluido de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
+        }
         if (predictedEvents!=0) {
-            text+= '<div class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-            text+= '<div class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-            text+= '<div class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-            text+= '<div class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-            text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+            if (finalists!=1){
+                text+= '<div class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            } else {
+                text+= '<div class="stats-item">'+finalists+' finalista pronosticado de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            }
+            if (exactPositions!=1) {
+                text+= '<div class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            } else {
+                text+= '<div class="stats-item">'+exactPositions+' finalista pronosticado en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            }
+            if (medalWinners!=1) {
+                text+= '<div class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            } else {
+                text+= '<div class="stats-item">'+medalWinners+' medallista pronosticado de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            }
+            if  (exactMedalWinners!=1) {
+                text+= '<div class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            } else {
+                text+= '<div class="stats-item">'+exactMedalWinners+' medallista pronosticado  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            }
+            if (champs!=1) {
+                text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+            } else {
+                text+= '<div class="stats-item">'+champs+' campeón pronosticado de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+            }   
         }
         text+= '</div>';
         return text;
