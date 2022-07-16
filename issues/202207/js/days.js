@@ -1,7 +1,7 @@
 $('.o-day').click(function (e) {
     let id = e.target.id;
-    $(".o-day-span").removeClass("o-selected-item");
-    $("#"+id+"-span").addClass("o-selected-item");
+    $(".o-day-span").removeClass("d-selected-item");
+    $("#"+id+"-span").addClass("d-selected-item");
     $(".draw-block").hide();
     $("#"+id+"-content").show();
 }) 
@@ -103,7 +103,11 @@ $.getJSON("data/predictions.json", function (data) {
     }
     
     function generateEventBlock(even,sex){
-        let title = data.events[even].name + " - " + getSexLabel(sex);
+        let finished = "<span class='not-finished'>[pendiente]</span>";
+        if ("result" in data.events[even].sex[sex]) {
+            finished = "<span class='finished'>[concluido]</span>";
+        }
+        let title = data.events[even].name + " - " + getSexLabel(sex) + " "+finished;
         let text = '<div id="'+even+'-'+sex+'" class="event-block">'
         text+= '<div class="event-title">'+title+"</div>";
         text+= generateEventPrevia(even,sex);
@@ -137,8 +141,58 @@ $.getJSON("data/predictions.json", function (data) {
     }
 
 
+    function setStatsBlock(){
+        let totalEvents = data.ordering.length;
+        let predictedEvents = 0;
+        let exactPositions = 0;
+        let finalists = 0;
+        let medalWinners = 0;
+        let exactMedalWinners = 0;
+        let champs = 0;
 
-    let all_content = "";
+        for(let j=0;j<data.ordering.length;j++){
+            let c_event = data.ordering[j].event;
+            let c_sex = data.ordering[j].sex;
+            if ("result" in data.events[c_event].sex[c_sex]) {
+                predictedEvents++;
+                for(var i=1;i<=8;i++){
+                    let prediction = data.events[c_event].sex[c_sex].prediction[i];
+                    if (prediction.status>0) {
+                        finalists++;
+                        if ((i>=1)&&(i<=3)) {
+                            if (prediction.medal){
+                                medalWinners++;
+                                if (prediction.status==2) {        
+                                    exactMedalWinners++;
+                                }
+                            }
+                        }
+                        if (prediction.status==2) {
+                            exactPositions++;
+                            if (i==1) {
+                                champs++;
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+
+        console.log("Eventos",totalEvents,"Pronosticados",predictedEvents,"Finalistas",finalists,"Medallistas",medalWinners, "Medallistas exacto",exactMedalWinners,"Exactos",exactPositions,"Campeones",champs);
+        text = '<div id="stats">';
+        text+= '<div id="stats-total" class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
+        text+= '<div id="stats-finalists" class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+        text+= '<div id="stats-exact-finalists" class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+        text+= '<div id="stats-medal-winners" class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+        text+= '<div id="stats-exact-medal-winners" class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+        text+= '<div id="stats-champs" class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+        text+= '</div>';
+        return text;
+    }
+
+
+
+    let all_content = setStatsBlock();
     let all_results = {};
 
     function setResultsForEvent(revent,rsex){

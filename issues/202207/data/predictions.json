@@ -1510,42 +1510,50 @@
                         "1": {
                             "name": "Estados Unidos",
                             "country": "USA",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "República Dominicana",
                             "country": "DOM",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "3": {
                             "name": "Polonia",
                             "country": "POL",
-                            "status": 1
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Jamaica",
                             "country": "JAM",
-                            "status": 1
+                            "status": 1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Reino Unido",
                             "country": "GBR",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Bélgica",
                             "country": "BEL",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Bahamas",
                             "country": "BAH",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Alemania",
                             "country": "GER",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -2307,42 +2315,50 @@
                         "1": {
                             "name": "Shijie Qieyang",
                             "country": "CHN",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Hong Liu",
                             "country": "CHN",
-                            "status": 1
+                            "status": 1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Zhenxia Ma",
                             "country": "CHN",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "4": {
                             "name": "María Pérez",
                             "country": "ESP",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Jemima Montag",
                             "country": "AUS",
-                            "status": 1
+                            "status": 1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Kimberly García León",
                             "country": "PER",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "7": {
                             "name": "Meryem Bekmez",
                             "country": "TUR",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Lyudmila Olyanovska",
                             "country": "UKR",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -2394,42 +2410,50 @@
                         "1": {
                             "name": "Toshikazu Yamanishi",
                             "country": "JPN",
-                            "status": 2
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "Eiki Takahashi",
                             "country": "JPN",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Koki Ikeda",
                             "country": "JPN",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "4": {
                             "name": "Perseus Karlström",
                             "country": "SWE",
-                            "status": 1
+                            "status": 1,
+                            "medal": true
                         },
                         "5": {
                             "name": "Álvaro Martín",
                             "country": "ESP",
-                            "status": 1
+                            "status": 1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Salih Korkmaz",
                             "country": "TUR",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Kaihua Wang",
                             "country": "CHN",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Lihong Cui",
                             "country": "CHN",
-                            "status": -1
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
