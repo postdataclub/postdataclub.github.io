@@ -2340,38 +2340,84 @@
                         "En los 20 km marcha masculinos también se pronostica un podio con una sola bandera: la de Japón. Toshikazu Yamanishi, que ganó en Doha 2019, fue bronce en la Olimpiada de Tokio 2020 y ganó el Campeonato Mundial de Marcha de Muscat este año, es pronosticado para revalidar el título. Eiki Takahashi ha sido uno de los mejores corredores de marcha de los últimos años, sin embargo aún tiene la deuda de un gran resultado, el modelo de pronóstico dice que esta será la ocasión. Koki Ikeda, quien es visto como medallista de bronce, tiene como crédito el mejor tiempo del año entre los inscritos además es el actual subcampeón olímpico y también fue segundo en Muscat.",
                         "Otros a tener a tener en cuenta son el sueco Karlstrom y el español Martín. También, aunque el algoritmo no los dio entre los 8 primeros pero que pueden sorprender están los españoles Diego García y Alberto Amezcua, el brasileño Caio Bonfim y el ecuatoriano Brian Pintado, todos con buenas marcas y a quienes el algoritmo dio en los lugares, 9, 12 y 15 respectivamente. "
                     ],
+                    "analysis":[
+                        "Japón cumplió con su favoritismo en esta prueba. No pudo hacer el podio completo, pero hizo el uno-dos. Toshikazu Yamanishi repitió su título mundial y Koki Ikeda confirmó que no por gusto tenía la mejor marca del año. El sueco Perseus Karlström, bronceado ahora, se ratifica como uno de los mejores marchistas de la actualidad. Cindo de los seis primeros lugares hicieron su mejor marca del año, incluyendo al ecuatoriano Brian Daniel Pintado que hizo lo mejor de su vida.",
+                        "El pronóstico acertó correctamente con el campeón y dio con otro de los medallistas, Koki Ikeda, aunque con una medalla de otro color: plata en vez de bronce. Karlström que se preveía 4to terminó en 3ro. Por su parte Martín se pensaba 5to y terminó 7mo. Eiki Takahashi sigue debiendo un gran resultado en mundiales, se le pronosticaba plata y terminó en el lugar 29. Los chinos Kaihua Wang y Lihong Cui concluyeron  en los lugares 13 y 14. El turco Salih Korkmaz finalmente no corrió."
+                    ],
                     "prediction": {
+                        "1": {
+                            "name": "Toshikazu Yamanishi",
+                            "country": "JPN",
+                            "status": 2
+                        },
+                        "2": {
+                            "name": "Eiki Takahashi",
+                            "country": "JPN",
+                            "status": -1
+                        },
+                        "3": {
+                            "name": "Koki Ikeda",
+                            "country": "JPN",
+                            "status": 1
+                        },
+                        "4": {
+                            "name": "Perseus Karlström",
+                            "country": "SWE",
+                            "status": 1
+                        },
+                        "5": {
+                            "name": "Álvaro Martín",
+                            "country": "ESP",
+                            "status": 1
+                        },
+                        "6": {
+                            "name": "Salih Korkmaz",
+                            "country": "TUR",
+                            "status": -1
+                        },
+                        "7": {
+                            "name": "Kaihua Wang",
+                            "country": "CHN",
+                            "status": -1
+                        },
+                        "8": {
+                            "name": "Lihong Cui",
+                            "country": "CHN",
+                            "status": -1
+                        }
+                    },
+                    "result": {
                         "1": {
                             "name": "Toshikazu Yamanishi",
                             "country": "JPN"
                         },
                         "2": {
-                            "name": "Eiki Takahashi",
-                            "country": "JPN"
-                        },
-                        "3": {
                             "name": "Koki Ikeda",
                             "country": "JPN"
                         },
-                        "4": {
+                        "3": {
                             "name": "Perseus Karlström",
                             "country": "SWE"
                         },
+                        "4": {
+                            "name": "Samuel Kireri Gathimba",
+                            "country": "KEN"
+                        },
                         "5": {
+                            "name": "Brian Daniel Pintado",
+                            "country": "ECU"
+                        },
+                        "6": {
+                            "name": "Caio Bonfim",
+                            "country": "BRA"
+                        },
+                        "7": {
                             "name": "Álvaro Martín",
                             "country": "ESP"
                         },
-                        "6": {
-                            "name": "Salih Korkmaz",
-                            "country": "TUR"
-                        },
-                        "7": {
-                            "name": "Kaihua Wang",
-                            "country": "CHN"
-                        },
                         "8": {
-                            "name": "Lihong Cui",
-                            "country": "CHN"
+                            "name": "Hiroto Jusho",
+                            "country": "JPN"
                         }
                     }
                 }
