@@ -206,12 +206,18 @@ a {
     font-size: 12px;
 }
 
-#stats {
+.stats {
     font-size: 1.8rem;
     color: white;
     background-color:  rgba(70,26,78,0.65);
     padding: 15px;
     text-align: right;
+    border-radius: 15px;
+}
+
+.stats-item-title {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .stats-item {

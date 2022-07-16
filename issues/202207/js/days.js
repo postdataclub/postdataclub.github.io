@@ -130,19 +130,8 @@ $.getJSON("data/predictions.json", function (data) {
         return text;
     }
 
-    for(let j=15;j<=24;j++){
-        let did = "day-"+j;
-        let content = '';
-        let devents = data.schedule[did].events;
-        for (var index = 0; index < devents.length; index++) {
-            content+= generateEventBlock(devents[index].event,devents[index].sex);
-        }
-        $("#"+did+"-content>.pronosticos").html(content);
-    }
-
-
-    function setStatsBlock(){
-        let totalEvents = data.ordering.length;
+    function setStatsBlock(order,title){
+        let totalEvents = order.length;
         let predictedEvents = 0;
         let exactPositions = 0;
         let finalists = 0;
@@ -150,9 +139,9 @@ $.getJSON("data/predictions.json", function (data) {
         let exactMedalWinners = 0;
         let champs = 0;
 
-        for(let j=0;j<data.ordering.length;j++){
-            let c_event = data.ordering[j].event;
-            let c_sex = data.ordering[j].sex;
+        for(let j=0;j<order.length;j++){
+            let c_event = order[j].event;
+            let c_sex = order[j].sex;
             if ("result" in data.events[c_event].sex[c_sex]) {
                 predictedEvents++;
                 for(var i=1;i<=8;i++){
@@ -179,20 +168,32 @@ $.getJSON("data/predictions.json", function (data) {
         }
 
         console.log("Eventos",totalEvents,"Pronosticados",predictedEvents,"Finalistas",finalists,"Medallistas",medalWinners, "Medallistas exacto",exactMedalWinners,"Exactos",exactPositions,"Campeones",champs);
-        text = '<div id="stats">';
-        text+= '<div id="stats-total" class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
-        text+= '<div id="stats-finalists" class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-        text+= '<div id="stats-exact-finalists" class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-        text+= '<div id="stats-medal-winners" class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-        text+= '<div id="stats-exact-medal-winners" class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-        text+= '<div id="stats-champs" class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+        text = '<div class="stats">';
+        text+= '<div class="stats-item stats-item-title">'+title+'</div>';
+        text+= '<div class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
+        text+= '<div class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+        text+= '<div class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+        text+= '<div class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+        text+= '<div class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+        text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
         text+= '</div>';
         return text;
     }
 
+    for(let j=15;j<=24;j++){
+        let did = "day-"+j;
+        let content = '';
+        let devents = data.schedule[did].events;
+        if (data.schedule[did].stats) {
+            content+= setStatsBlock(devents,"Estadísticas del Día");
+        }
+        for (var index = 0; index < devents.length; index++) {
+            content+= generateEventBlock(devents[index].event,devents[index].sex);
+        }
+        $("#"+did+"-content>.pronosticos").html(content);
+    }
 
-
-    let all_content = setStatsBlock();
+    let all_content = setStatsBlock(data.ordering,"Estadísticas Generales");
     let all_results = {};
 
     function setResultsForEvent(revent,rsex){

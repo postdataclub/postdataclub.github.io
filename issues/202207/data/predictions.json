@@ -199,6 +199,7 @@
     ],
     "schedule": {
         "day-15": {
+            "stats": true,
             "events": [
                 {
                     "event": "atl_20km",
@@ -215,6 +216,7 @@
             ]
         },
         "day-16": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_mar",
@@ -239,6 +241,7 @@
             ]
         },
         "day-17": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_mar",
@@ -271,6 +274,7 @@
             ]
         },
         "day-18": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_alt",
@@ -299,6 +303,7 @@
             ]
         },
         "day-19": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_alt",
@@ -319,6 +324,7 @@
             ]
         },
         "day-20": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_dis",
@@ -331,6 +337,7 @@
             ]
         },
         "day-21": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_200m",
@@ -343,6 +350,7 @@
             ]
         },
         "day-22": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_jab",
@@ -367,6 +375,7 @@
             ]
         },
         "day-23": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_tri",
@@ -395,6 +404,7 @@
             ]
         },
         "day-24": {
+            "stats": false,
             "events": [
                 {
                     "event": "atl_per",
