@@ -171,11 +171,13 @@ $.getJSON("data/predictions.json", function (data) {
         text = '<div class="stats">';
         text+= '<div class="stats-item stats-item-title">'+title+'</div>';
         text+= '<div class="stats-item">'+predictedEvents+' eventos concluidos de '+totalEvents+' ('+(predictedEvents*100/totalEvents).toFixed(2)+'%)</div>';
-        text+= '<div class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-        text+= '<div class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
-        text+= '<div class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-        text+= '<div class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
-        text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+        if (predictedEvents!=0) {
+            text+= '<div class="stats-item">'+finalists+' finalistas pronosticados de '+(predictedEvents*8)+' ('+(finalists*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            text+= '<div class="stats-item">'+exactPositions+' finalistas pronosticados en su posición de '+(predictedEvents*8)+' ('+(exactPositions*100/(predictedEvents*8)).toFixed(2)+'%)</div>';
+            text+= '<div class="stats-item">'+medalWinners+' medallistas pronosticados de '+(predictedEvents*3)+' ('+(medalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            text+= '<div class="stats-item">'+exactMedalWinners+' medallistas pronosticados  en su posición de '+(predictedEvents*3)+' ('+(exactMedalWinners*100/(predictedEvents*3)).toFixed(2)+'%)</div>';
+            text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
+        }
         text+= '</div>';
         return text;
     }
@@ -184,9 +186,7 @@ $.getJSON("data/predictions.json", function (data) {
         let did = "day-"+j;
         let content = '';
         let devents = data.schedule[did].events;
-        if (data.schedule[did].stats) {
-            content+= setStatsBlock(devents,"Estadísticas del Día");
-        }
+        content+= setStatsBlock(devents,"Estadísticas del Día");
         for (var index = 0; index < devents.length; index++) {
             content+= generateEventBlock(devents[index].event,devents[index].sex);
         }
