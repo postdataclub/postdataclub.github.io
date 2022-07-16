@@ -1502,38 +1502,84 @@
                         "Los relevos son los eventos más difíciles de pronosticar, las marcas del año no son necesariamente las de los relevos que correrán en los campeonatos importantes, ni se sabe a priori la composición final de los que correrán. El caso de los relevo mixtos es todavía más complicado aún.  Por esta razón, en los relevos, no usamos un algoritmo para predecir y nos basamos en nuestras opiniones. El relevo de Estados Unidos es casi siempre el favorito en cualquier relevo. Sus corredores de 400 metros, hombres y mujeres, están entre los que poseen las mejores marcas del año, esto lo hace el favorito al título. República Dominicana ya sorprendió en Tokio con su subtítulo y sus cuatrocentistas siguen en excelente estado de forma. Repetir ahora el subtítulo de hace un año ya no sería sorpresa. Polonia sabe correr los relevos, su reciente título olímpico es una gran credencial. En esta ocasión apostamos por los polacos para cerrar el podio.",
                         "Que el relevo mixto tenga su final el primer día hace posible que quizás corran los mejores corredores de 400 metros de cada país, por ello no sorprendería  nada ver que entren al podio Jamaica o el Reino Unido."
                     ],
+                    "analysis":[
+                        "República Dominicana mostró que su subtítulo en Tokio no fue casual, que apuesta en serio al relevo mixto. El resultado fue un oro merecido. Países Bajos también vino a competir en serio, Femke Bol cerrando el relevo fue su apuesta. Resultado: plata! Para Estados Unidos el bronce no es buen resultado. Nos hubiera encantado que Allyson Félix cerrara su trayectoria mundia con un título, pero se va con una medalla. Una medalla más para su larga colección de metales mundiales",
+                        "En el pronóstico acertamos, no en su orden, en dos de los medallistas: República Dominicana y Estados Unidos. Polonia, 4to ,y Jamaica, 5to, fueron los otros dos relevos que se dieron como finalistas, aunque tampoco coincidieron en la posición pronosticada. En total, dos medallistas de 3 posibles y cuatro finalistas de ocho,"
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": 1
                         },
                         "2": {
                             "name": "República Dominicana",
-                            "country": "DOM"
+                            "country": "DOM",
+                            "status": 1
                         },
                         "3": {
                             "name": "Polonia",
-                            "country": "POL"
+                            "country": "POL",
+                            "status": 1
                         },
                         "4": {
                             "name": "Jamaica",
-                            "country": "JAM"
+                            "country": "JAM",
+                            "status": 1
                         },
                         "5": {
                             "name": "Reino Unido",
-                            "country": "GBR"
+                            "country": "GBR",
+                            "status": -1
                         },
                         "6": {
                             "name": "Bélgica",
-                            "country": "BEL"
+                            "country": "BEL",
+                            "status": -1
                         },
                         "7": {
                             "name": "Bahamas",
-                            "country": "BAH"
+                            "country": "BAH",
+                            "status": -1
                         },
                         "8": {
                             "name": "Alemania",
-                            "country": "GER"
+                            "country": "GER",
+                            "status": -1
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "República Dominicana",
+                            "country": "DOM"
+                        },
+                        "2": {
+                            "name": "Países Bajos",
+                            "country": "NED"
+                        },
+                        "3": {
+                            "name": "Estados Unidos",
+                            "country": "USA"
+                        },
+                        "4": {
+                            "name": "Polonia",
+                            "country": "POL"
+                        },
+                        "5": {
+                            "name": "Jamaica",
+                            "country": "JAM"
+                        },
+                        "6": {
+                            "name": "Nigeria",
+                            "country": "NIG"
+                        },
+                        "7": {
+                            "name": "Italia",
+                            "country": "ITA"
+                        },
+                        "8": {
+                            "name": "Irlanda",
+                            "country": "IRL"
                         }
                     }
                 }
