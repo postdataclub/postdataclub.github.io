@@ -795,8 +795,8 @@
                 "female": {
                     "date": "2022/07/11",
                     "previa": [
-                        "El modelo da como favorita a la keniana Faith Kipyegon y si gana repertiría su título del 2017. Ella es bicampeona olímpica en la especialidad y la actual subcampeona mundial. Posee también el mejor tiempo del año. El pronóstico de medallista de plata en la etíope Gudaf Tsegay que fue bronce en Doha y tiene la segunda marca de la temporada. El tercer lugar se predice para la excepcional holandesa Sifan Hassan, que ya sabe lo que es ganar un título mundial pues es la campeona de Catar 2019.",
-                        "Contendientes al podio también son la británica Laura Muir quien fue segunda en Tokio, la etíope Hirut Meshesha que posee la 3ra marca del año o su compatriota Freweyni Hailu que tiene en su haber el 4to tiempo de la temporada."
+                        "El modelo da como favorita a la keniana Faith Kipyegon y si gana repertiría su título del 2017. Ella es bicampeona olímpica en la especialidad y la actual subcampeona mundial. Posee también el mejor tiempo del año. El pronóstico de medallista de plata en la etíope Gudaf Tsegay que fue bronce en Doha y tiene la segunda marca de la temporada. A continuación el modelo predice a la excepcional holandesa Sifan Hassan. Pero esta no se presentará porque la final de los 10000 metros se correrá el mismo día que los heats de 1500 metros y la holandesa prefiere correr la mayor distancia. Entonces el bronce se pronostica para la también etíope Freweyni Hailu que tiene en su haber el 4to tiempo de la temporada",
+                        "Contendientes al podio también son la británica Laura Muir quien fue segunda en Tokio y la etíope Hirut Meshesha que posee la 3ra marca del año o su compatriota. Las australianas Jessica Hull y Jessica Hull también pueden hacerse sentir."
                     ],
                     "prediction": {
                         "1": {
@@ -808,28 +808,28 @@
                             "country": "ETH"
                         },
                         "3": {
-                            "name": "Sifan Hassan",
-                            "country": "NED"
-                        },
-                        "4": {
                             "name": "Freweyni Hailu",
                             "country": "ETH"
                         },
-                        "5": {
+                        "4": {
                             "name": "Laura Muir",
                             "country": "GBR"
                         },
-                        "6": {
+                        "5": {
                             "name": "Hirut Meshesha",
                             "country": "ETH"
                         },
-                        "7": {
+                        "6": {
                             "name": "Jessica Hull",
                             "country": "AUS"
                         },
-                        "8": {
+                        "7": {
                             "name": "Linden Hall",
                             "country": "AUS"
+                        },
+                        "8": {
+                            "name": "Winnie Nanyondo",
+                            "country": "UGA"
                         }
                     }
                 },
@@ -971,12 +971,12 @@
                 "female": {
                     "date": "2022/07/11",
                     "previa": [
-                        "Sifan Hassan prácticamente no ha corrido este año pero su historia da para que el algoritmo la sitúe como la gran favorita. Ser la actual campeona olímpica y mundial de los 10 mil metros es un buen aval. En su contra está que correrá las 1500m, 5000m y los 10000m, pero esto ya lo hizo en Tokio y ganó bronce, oro y oro respectivamente. La etíope Gidey está pronosticada como subcampeona. Ella es la vigente subcampeona mundial y bronce olímpico además, esta temporada rompió el récord del mundo de la media maratón. La británica Mccolgan, que tiene la segunda mejor marca de la temporada es quien tiene el pronóstico de bronce.",
+                        "Sifan Hassan prácticamente no ha corrido este año pero su historia da para que el algoritmo la sitúe como la gran favorita. Ser la actual campeona olímpica y mundial de los 10 mil metros es un buen aval. En su contra está que correrá varias distancias, pero esto ya lo hizo en Tokio fue medallista en todas las que corrió. La etíope Gidey está pronosticada como subcampeona. Ella es la vigente subcampeona mundial y bronce olímpico además, esta temporada rompió el récord del mundo de la media maratón. La británica Mccolgan, que tiene la segunda mejor marca de la temporada es quien tiene el pronóstico de bronce.",
                         "Como en toda competencia de fondo, cualquiera de las atletas africanas puede ser favorita al podio más si esos nombres son Taye, Niyonsaba u Obiri. La estadounidense Schweizer trae como crédito, para entrar entre las primeras, la novena marca de la temporada."
                     ],
                     "analysis": [
-                        "La etiope Letesenbet Gidey se superó y esta vez si se superó y pudo lograr el título mundial. La keniana Obiri era una de las que se podía tener en cuenta para las medallas y alcanzó la medalla plateada. Como habíamos mencionado cualquier atleta africana podría esntrar en medallas y así fue. Margaret Chelimo Kipkemboi era la 12na favorita según el pronóstico y fue al final la medallista de bronce.",
-                        "Sifan Hassan esta vez no pudo pero quedó bien cerca de las medallas, en 4to lugar. Eilish Mccolgan, que venía con el 2do tiempo del año fue 10ma. Taye, por su parte, tenía pronóstico de 4ta y fue 6ta. Schweizer finalmente quedó 9na, Niyonsaba finalmente no corrió. Bosena Mulatié que concluyó 8va el pronóstico la daba como 9na."
+                        "La etíope Letesenbet Gidey se superó y esta vez sí spudo lograr el título mundial. La keniana Obiri era una de las que se podía tener en cuenta para las medallas y alcanzó la medalla plateada. Como habíamos mencionado, cualquier atleta africana podría entrar en medallas y así fue. Margaret Chelimo Kipkemboi era la 12na favorita según el pronóstico y fue al final la medallista de bronce.",
+                        "Sifan Hassan esta vez no pudo, pero quedó bien cerca de las medallas, en 4to lugar. Eilish Mccolgan, que venía con el 2do tiempo del año, fue 10ma. Taye, por su parte, tenía pronóstico de 4ta y fue 6ta. Schweizer quedó 9na y Niyonsaba finalmente no corrió. Bosena Mulatie, que concluyó 8va, el pronóstico la daba como 9na."
                     ],
                     "prediction": {
                         "1": {
@@ -1471,7 +1471,7 @@
                 "female": {
                     "date": "2021/07/26",
                     "previa": [
-                        "Siguiendo el pronóstico de los 400 metros planos y los 400 metros con vallas, los dos primeros lugares del relevo masculino 4x400 metros deben estar entre Jamaica y Estados Unidos. Las norteamericanas han ganado las últimas dos grandes competencias el mundial y la olimpiada, por eso pronosticamos que ellas se llevarán el oro. Jamaica fue 3ra tanto en Doha como en Tokio pero esta vez creemos que incluso puede llegar a poner en apuros a Estados Unidos. Las caribeñas son el pronóstico para subtítulo. Polonia es el otro país que ha acompañado a estadounidenses y jamaicanas en los podios de Japón y Catar. En ambas ocasiones fueron subcampeonas pero creemos que esta ocasión solo les alcanzará para llegar hasta el bronce.",
+                        "Siguiendo el pronóstico de los 400 metros planos y los 400 metros con vallas, los dos primeros lugares del relevo masculino 4x400 metros deben estar entre Jamaica y Estados Unidos. Las norteamericanas han ganado las últimas dos grandes competencias: el mundial y la olimpiada, por eso pronosticamos que ellas se llevarán el oro. Jamaica fue 3ra tanto en Doha como en Tokio, pero esta vez creemos que incluso puede llegar a poner en apuros a Estados Unidos. Las caribeñas son el pronóstico para subtítulo. Polonia es el otro país que ha acompañado a estadounidenses y jamaicanas en los podios de Japón y Catar. En ambas ocasiones fueron subcampeonas pero creemos que esta ocasión solo les alcanzará para llegar hasta el bronce.",
                         "Otros contendientes que pueden presentar fuerza son los relevos de Reino Unido, Bahamas y Países Bajos."
                     ],
                     "prediction": {
@@ -1553,12 +1553,12 @@
                 "mixed": {
                     "date": "2021/07/26",
                     "previa": [
-                        "Los relevos son los eventos más difíciles de pronosticar, las marcas del año no son necesariamente las de los relevos que correrán en los campeonatos importantes, ni se sabe a priori la composición final de los que correrán. El caso de los relevo mixtos es todavía más complicado aún.  Por esta razón, en los relevos, no usamos un algoritmo para predecir y nos basamos en nuestras opiniones. El relevo de Estados Unidos es casi siempre el favorito en cualquier relevo. Sus corredores de 400 metros, hombres y mujeres, están entre los que poseen las mejores marcas del año, esto lo hace el favorito al título. República Dominicana ya sorprendió en Tokio con su subtítulo y sus cuatrocentistas siguen en excelente estado de forma. Repetir ahora el subtítulo de hace un año ya no sería sorpresa. Polonia sabe correr los relevos, su reciente título olímpico es una gran credencial. En esta ocasión apostamos por los polacos para cerrar el podio.",
+                        "Los relevos son los eventos más difíciles de pronosticar. Las marcas del año no son necesariamente las de los relevos que correrán en los campeonatos importantes, ni se sabe a priori la composición final de los que correrán. El caso de los relevos mixtos es todavía más complicado aún.  Por esta razón, en los relevos, no usamos un algoritmo para predecir y nos basamos en nuestras opiniones. El relevo de Estados Unidos es casi siempre el favorito en cualquier relevo. Sus corredores de 400 metros, hombres y mujeres, están entre los que poseen las mejores marcas del año, esto lo hace el favorito al título. República Dominicana ya sorprendió en Tokio con su subtítulo y sus cuatrocentistas siguen en excelente estado de forma. Repetir ahora el subtítulo de hace un año ya no sería sorpresa. Polonia sabe correr los relevos, su reciente título olímpico es una gran credencial. En esta ocasión apostamos por los polacos para cerrar el podio.",
                         "Que el relevo mixto tenga su final el primer día hace posible que quizás corran los mejores corredores de 400 metros de cada país, por ello no sorprendería  nada ver que entren al podio Jamaica o el Reino Unido."
                     ],
                     "analysis": [
-                        "República Dominicana mostró que su subtítulo en Tokio no fue casual, que apuesta en serio al relevo mixto. El resultado fue un oro merecido. Países Bajos también vino a competir en serio, Femke Bol cerrando el relevo fue su apuesta. Resultado: plata! Para Estados Unidos el bronce no es buen resultado. Nos hubiera encantado que Allyson Félix cerrara su trayectoria mundia con un título, pero se va con una medalla. Una medalla más para su larga colección de metales mundiales",
-                        "En el pronóstico acertamos, no en su orden, en dos de los medallistas: República Dominicana y Estados Unidos. Polonia, 4to ,y Jamaica, 5to, fueron los otros dos relevos que se dieron como finalistas, aunque tampoco coincidieron en la posición pronosticada. En total, dos medallistas de 3 posibles y cuatro finalistas de ocho,"
+                        "República Dominicana mostró que su subtítulo en Tokio no fue casual y que apuesta en serio al relevo mixto. El resultado fue un oro merecido. Países Bajos también vino a competir en serio; Femke Bol, cerrando el relevo ,fue su apuesta. Resultado: plata para Estados Unidos. El bronce no es buen resultado. Nos hubiera encantado que Allyson Félix cerrara su trayectoria mundial con un título, pero se va con una medalla. Una medalla más para su larga colección de metales mundiales.",
+                        "En el pronóstico acertamos, no en su orden, en dos de los medallistas: República Dominicana y Estados Unidos. Polonia, 4to ,y Jamaica, 5to, fueron los otros dos relevos que se dieron como finalistas, aunque tampoco coincidieron en la posición pronosticada. En total, dos medallistas de 3 posibles y cuatro finalistas de ocho."
                     ],
                     "prediction": {
                         "1": {
@@ -2227,8 +2227,8 @@
                         "Como medallista de bronce, el modelo de pronóstico se decanta por el estadounidense Winkler y le siguen en orden el francés Bigot y el también norteño Haugh. La realidad es que cualquiera de los tres podría ser medallista. Bigot tiene la tercera mejor marca del año entre los inscritos  y es el actual subcampeón mundial. Haugh, por su parte, tiene la cuarta mejor marca de los inscritos y ganó recientemente el campeonato de su país donde Winlker fue segundo. Los siguientes en el orden pronosticado: Halász, Henriksen y Kokhan, son también grandes candidatos. Kokhan ya sabe lo que es triunfar sobre los polacos, Henriksen es el subcampeón olímpico y Halász fue medallista de bronce en el mundial de Qatar. Esta será un evento con una gran rivalidad."
                     ],
                     "analysis":[
-                        "Se pronosticaba oro y plata para Polonia y así fue. Sin embargo el orden fue diferente. Paweł Fajdek se ratificó como el hombre grande del martillo en los mundiales. Wojciech Nowicki ahora no pudo repetir su título olímpico pero mejoró el metal respecto a Doha. Ahora fue plata, aunque lo pronosticábamos como campeón. El noruego Henriksen, quien es el actual subcampeón olímpico, se mantuvo en la élite y ahora terminó en bronce.",
-                        "En el pronóstico acertamos con los 8 que finalmente concluyeron como los mejores martillistas en Oregon. En el orden solo vaticinamos correctamente al francés Bigot que terminó 4to. La rivalidad, como mencionamos, fue grande."
+                        "Se pronosticaba oro y plata para Polonia y así fue. Sin embargo, el orden fue diferente. Paweł Fajdek se ratificó como el hombre grande del martillo en los mundiales. Wojciech Nowicki ahora no pudo repetir su título olímpico pero mejoró el metal respecto a Doha. Ahora fue plata, aunque lo pronosticábamos como campeón. El noruego Henriksen, quien es el actual subcampeón olímpico, se mantuvo en la élite y ahora terminó en bronce.",
+                        "En el pronóstico acertamos con los 8 que finalmente concluyeron como los mejores martillistas en Oregón. En el orden solo vaticinamos correctamente al francés Bigot que terminó 4to. La rivalidad, como mencionamos, fue grande."
                     ],
                     "prediction": {
                         "1": {
@@ -2416,8 +2416,8 @@
                         "Otras marchistas finalistas que no sorprenderían en el podio serían la española María Pérez con varias de las mejores marcas del año, la peruana Kimberly García que fue tercera en Muscat o la australiana Jemima Montag que tiene la mejor marca del año entre las inscritas en Oregón."
                     ],
                     "analysis": [
-                        "Kimberly García hizo su mejor marca personal, no dejó posibilidades a más nadie y dio a Perú su primera medalla, y de oro, en mundiales de atletismo. La polaca Katarzyna Zdziebło también hizo marca personal y se quedó con la plata. Los tiempos de Kimberly y Katarzyna fueron récord nacional de Perú y Polonia respectivamente. La china Shijie Qieyang volvió a ser medallista mundial, aunque en esta ocasión solo le alcanzó para el bronce. La carrera fue excepcional pues seis de las ocho primeras hicieron su mejor marca del año.",
-                        "En cuanto al pronóstico, de las medallistas, solo se predijo una, Shijie Qieyang, que estaba prevista como campeona y terminó tercera. Del vaticinio de las ocho primeras se acertó con cuatro de ellas, aunque todas en posiciones diferentes. Fuera de los pronosticados quedaron la china Zhenxia Ma que se pensaba como 3ra y terminó en el 10mo lugar, Meryem Bekmez fue el lugar 18 mientras que María Pérez y Lyudmila Olyanovska resultaron descalificadas. "
+                        "Kimberly García hizo su mejor marca personal, no dejó posibilidades a más nadie y dio a Perú su primera medalla, y de oro, en mundiales de atletismo. La polaca Katarzyna Zdziebło también hizo marca personal y se quedó con la plata. Los tiempos de Kimberly y Katarzyna fueron récord nacional de Perú y Polonia, respectivamente. La china Shijie Qieyang volvió a ser medallista mundial, aunque en esta ocasión solo le alcanzó para el bronce. La carrera fue excepcional pues seis de las ocho primeras hicieron su mejor marca del año.",
+                        "En cuanto al pronóstico, de las medallistas solo se predijo una, Shijie Qieyang, que estaba prevista como campeona y terminó tercera. Del vaticinio de las ocho primeras se acertó con cuatro de ellas, aunque todas en posiciones diferentes. Fuera de los pronosticados quedaron la china Zhenxia Ma que se pensaba como 3ra y terminó en el 10mo lugar, Meryem Bekmez fue el lugar 18, mientras que María Pérez y Lyudmila Olyanovska resultaron descalificadas. "
                     ],
                     "prediction": {
                         "1": {
