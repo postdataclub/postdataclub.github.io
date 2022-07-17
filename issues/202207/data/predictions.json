@@ -490,6 +490,56 @@
                     "prediction": {
                         "1": {
                             "name": "Fred Kerley",
+                            "country": "USA",
+                            "status":2,
+                            "medal":true
+                        },
+                        "2": {
+                            "name": "Trayvon Bromell",
+                            "country": "USA",
+                            "status":2,
+                            "medal":true
+                        },
+                        "3": {
+                            "name": "Marvin Bracy",
+                            "country": "USA",
+                            "status":2,
+                            "medal":true
+                        },
+                        "4": {
+                            "name": "Benjamin Azamati",
+                            "country": "GHA",
+                            "status":-1,
+                            "medal":false
+                        },
+                        "5": {
+                            "name": "Christian Coleman",
+                            "country": "USA",
+                            "status":2,
+                            "medal":false
+                        },
+                        "6": {
+                            "name": "Andre De Grasse",
+                            "country": "CAN",
+                            "status":-1,
+                            "medal":false
+                        },
+                        "7": {
+                            "name": "Bingtian Su",
+                            "country": "CHN",
+                            "status":-1,
+                            "medal":false
+                        },
+                        "8": {
+                            "name": "Oblique Seville",
+                            "country": "JAM",
+                            "status":1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Fred Kerley",
                             "country": "USA"
                         },
                         "2": {
@@ -501,24 +551,24 @@
                             "country": "USA"
                         },
                         "4": {
-                            "name": "Benjamin Azamati",
-                            "country": "GHA"
+                            "name": "Oblique Seville",
+                            "country": "JAM"
                         },
                         "5": {
+                            "name": "Akani Simbine",
+                            "country": "RSA"
+                        },
+                        "6": {
                             "name": "Christian Coleman",
                             "country": "USA"
                         },
-                        "6": {
-                            "name": "Andre De Grasse",
-                            "country": "CAN"
-                        },
                         "7": {
-                            "name": "Bingtian Su",
-                            "country": "CHN"
+                            "name": "Abdul Hakim Sani Brown",
+                            "country": "JPN"
                         },
                         "8": {
-                            "name": "Oblique Seville",
-                            "country": "JAM"
+                            "name": "Aaron Brown",
+                            "country": "CAN"
                         }
                     }
                 }
@@ -1877,35 +1927,85 @@
                     "prediction": {
                         "1": {
                             "name": "Miltiadis Tentoglou",
-                            "country": "GRE"
+                            "country": "GRE",
+                            "status":1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Thobias Montler",
-                            "country": "SWE"
+                            "country": "SWE",
+                            "status": 1,
+                            "medal":false
                         },
                         "3": {
                             "name": "Marquis Dendy",
-                            "country": "USA"
+                            "country": "USA",
+                            "status":1,
+                            "medal":false
                         },
                         "4": {
                             "name": "Tajay Gayle",
-                            "country": "JAM"
+                            "country": "JAM",
+                            "status":-1,
+                            "medal":false
                         },
                         "5": {
                             "name": "Simon Ehammer",
-                            "country": "SUI"
+                            "country": "SUI",
+                            "status":1,
+                            "medal":true
                         },
                         "6": {
                             "name": "Sreeshankar",
-                            "country": "IND"
+                            "country": "IND",
+                            "status":1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Steffin Mccarter",
-                            "country": "USA"
+                            "country": "USA",
+                            "status":1,
+                            "medal":false
                         },
                         "8": {
                             "name": "Emiliano Lasa",
-                            "country": "URU"
+                            "country": "URU",
+                            "status":-1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Jianan Wang",
+                            "country": "CHN"
+                        },
+                        "2": {
+                            "name": "Miltiadis Tentoglou",
+                            "country": "GRE"
+                        },
+                        "3": {
+                            "name": "Simon Ehammer",
+                            "country": "SUI"
+                        },
+                        "4": {
+                            "name": "Maykel Massó",
+                            "country": "CUB"
+                        },
+                        "5": {
+                            "name": "Steffin Mccarter",
+                            "country": "USA"
+                        },
+                        "6": {
+                            "name": "Marquis Dendy",
+                            "country": "USA"
+                        },
+                        "7": {
+                            "name": "Thobias Montler",
+                            "country": "SWE"
+                        },
+                        "8": {
+                            "name": "Sreeshankar",
+                            "country": "IND"
                         }
                     }
                 }
@@ -2012,35 +2112,85 @@
                     "prediction": {
                         "1": {
                             "name": "Lijiao Gong",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Jiayuan Song",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status": 1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Chase Ealey",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": 1,
+                            "medal": true
                         },
                         "4": {
                             "name": "Auriol Dongmo",
-                            "country": "POR"
+                            "country": "POR",
+                            "status": 1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Maggie Ewen",
-                            "country": "USA"
+                            "country": "USA",
+                            "status":-1,
+                            "medal":false
                         },
                         "6": {
                             "name": "Sarah Mitton",
-                            "country": "CAN"
+                            "country": "CAN",
+                            "status":1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Jessica Schilder",
-                            "country": "NED"
+                            "country": "NED",
+                            "status":1,
+                            "medal":true
                         },
                         "8": {
                             "name": "Danniel Thomas Dodd",
-                            "country": "JAM"
+                            "country": "JAM",
+                            "status":-1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Chase Ealey",
+                            "country": "USA"
+                        },
+                        "2": {
+                            "name": "Lijiao Gong",
+                            "country": "CHN"
+                        },
+                        "3": {
+                            "name": "Jessica Schilder",
+                            "country": "NED"
+                        },
+                        "4": {
+                            "name": "Sarah Mitton",
+                            "country": "CAN"
+                        },
+                        "5": {
+                            "name": "Auriol Dongmo",
+                            "country": "POR"
+                        },
+                        "6": {
+                            "name": "Jiayuan Song",
+                            "country": "CHN"
+                        },
+                        "7": {
+                            "name": "Maddison-Lee Wesche",
+                            "country": "NZL"
+                        },
+                        "8": {
+                            "name": "Jessica Woodard",
+                            "country": "USA"
                         }
                     }
                 },
@@ -2226,7 +2376,7 @@
                         "Polonia está pronosticada para hacer el uno-dos del lanzamiento del martillo masculino. Entre Wojciech Nowicki y Paweł Fajdek tienen 7 de los mejores 10 lanzamientos de la temporada. Nowicki, a quien pronosticamos como campeón, posee las tres mejores marcas del año, es el actual campeón olímpico y fue bronce en Doha. Fadjed, el probable subcampeón en Oregón, fue bronce olímpico en Tokio y ganó su cuarto título mundial en el 2019.",
                         "Como medallista de bronce, el modelo de pronóstico se decanta por el estadounidense Winkler y le siguen en orden el francés Bigot y el también norteño Haugh. La realidad es que cualquiera de los tres podría ser medallista. Bigot tiene la tercera mejor marca del año entre los inscritos  y es el actual subcampeón mundial. Haugh, por su parte, tiene la cuarta mejor marca de los inscritos y ganó recientemente el campeonato de su país donde Winlker fue segundo. Los siguientes en el orden pronosticado: Halász, Henriksen y Kokhan, son también grandes candidatos. Kokhan ya sabe lo que es triunfar sobre los polacos, Henriksen es el subcampeón olímpico y Halász fue medallista de bronce en el mundial de Qatar. Esta será un evento con una gran rivalidad."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "Se pronosticaba oro y plata para Polonia y así fue. Sin embargo, el orden fue diferente. Paweł Fajdek se ratificó como el hombre grande del martillo en los mundiales. Wojciech Nowicki ahora no pudo repetir su título olímpico pero mejoró el metal respecto a Doha. Ahora fue plata, aunque lo pronosticábamos como campeón. El noruego Henriksen, quien es el actual subcampeón olímpico, se mantuvo en la élite y ahora terminó en bronce.",
                         "En el pronóstico acertamos con los 8 que finalmente concluyeron como los mejores martillistas en Oregón. En el orden solo vaticinamos correctamente al francés Bigot que terminó 4to. La rivalidad, como mencionamos, fue grande."
                     ],
