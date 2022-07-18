@@ -235,6 +235,10 @@ a {
     font-size: 15px;
 }
 
+.note {
+    font-size: 1.4rem;
+}
+
 @media(min-width:990px){
 }
 

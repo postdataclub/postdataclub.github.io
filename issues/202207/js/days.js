@@ -200,7 +200,8 @@ $.getJSON("data/predictions.json", function (data) {
                 text+= '<div class="stats-item">'+champs+' campeones pronosticados de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
             } else {
                 text+= '<div class="stats-item">'+champs+' campeón pronosticado de '+(predictedEvents)+' ('+(champs*100/(predictedEvents)).toFixed(2)+'%)</div>';
-            }   
+            }
+            text+= '<div class="stats-item note">*finalistas se refiere a los 8 primeros lugares</div>';   
         }
         text+= '</div>';
         return text;
