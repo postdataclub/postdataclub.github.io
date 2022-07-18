@@ -537,6 +537,10 @@
                         "En la prueba reina del atletismo el pronóstico de podio es un pleno estadounidense. Según el modelo, Kerley, Brommel y Bracy serían, en ese orden, los medallistas. Y no parece tan desacertado, Kerley, subcampeón olímpico, es el líder de la temporada (1ra, 2da y 4ta mejor marca), Brommel tiene la 3ra mejor marca y Bracy tiene la 5ta. Pero aquí todo puede pasar: Azamati, Seville y Coleman, quien es el actual campeón mundial, tienen marcas en el año de 9.90 o menos. El canadiense Andre De Grasse, bronce olímpico y mundial, y el chino Bingtian Su no han tenido grandes marcas en el año pero su historial es tenido en cuenta en el pronóstico.",
                         "Pero también hay que tener en cuenta otras figuras importantes: el italiano y actual campeón olímpico Marcell Jacobs, el keniano Ferdinand Omanyala y el histórico jamaicano Yohan Blake, estos dos últimos tienen ambos un 9.85 en la temporada. A estos tres velocistas el algoritmos los ubica en los lugares 9, 11 y 12 respectivamente."
                     ],
+                    "analysis":[
+                        "No hubo casualidad alguna, Estados Unidos hizo el 1,2,3. Fred Kerley se confirmó como el hombre del momento en los 100 metros. Trayvon Brommel y Marvin Bracy les siguieron en ese mismo orden. Christian Coleman rindió su corona, pero fue 6to. Qué clase de relevo 4x100 metros va a presentar Estados Unidos.",
+                        "El podio fue el pronosticado y en el mismo orden. Oblique Seville mejoró el pronostico que traía, 8vo, y terminó 4to. Hombres grandes, con historia, como Andre de Grasse y Yohan Blake no pudieron llegar a la final."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Fred Kerley",
@@ -2124,6 +2128,10 @@
                         "El salto largo de Oregón estará marcado por la ausencia de uno de los grandes protagonistas del salto largo en los últimos años, el cubano Juan Miguel Echevarria. En su ausencia, el griego Miltiadis Tentoglou es el gran favorito. Tentoglou es el actual campeón olimpico cuando venció al cubano cuando en un último salto igualó la mejor marca del cubano y ganó por una segunda mejor marca que Echevarría no pudo rebatir por una lesión. El griego, además, tiene cuatro de las diez mejores marcas del año. El sueco Montler es el favorito del modelo al segundo lugar. Tobías es actualmente el segundo del ranking mundial de la disciplina y ganó el subtítulo en el mundial bajo techo de este año. Dendy es la predicción del modelo para medalla de bronce. El  estadounidense no ha tenido marcas relevantes al aire libre este año, descontando un 8.41 con aire a favor,  pero tiene en su haber la medalla de bronce en el campeonato mundial bajo techo de Beograd 2022.",
                         "No extrañaría nada que estuvieran entre los medallistas el suizo Ehammer o el indio Sreeshankar. Ellos tienen, junto con Tentoglou, las tres mejores marcas del año al aire libre. El jamaicano Gayle, actual campeón mundial, no ha tenido una buena temporada al aire libre aunque el modelo lo sitúa como cuarto favorito. Otros, fuera de los pronosticados como los ocho primeros, que pudieran sorprender son el cubano Maykel Massó y el portugués Eusebio Cáceres, bronce y cuarto lugar en Tokio , aunque el modelo los sitúa en los lugares 13 y 14 respectivamente."
                     ],
+                    "analysis":[
+                        "El griego Miltiadis Tentoglou ya sabe lo que sufrió el cubano Juan Miguel Echevarría en Tokio. El griego iba primero hasta la última ronda, entonces saltó el chino Jianan Wang y todo cambió. El chino llegó hasta 8.36, lo mejor para el en la temporada, y le alcanzó para el oro pues Tentoglou en su último intento no pudo superarlo. El griego se quedó con la plata. El Simon Ehammer, de quien decíamos que no extrañaría si fuera medallista, se quedó con el bronce por un centímetro. El cubano Massó volvió a sufrir como en Tokio, aquella vez bajó de plata a bronce. Ahora quedó 4to y fuera del podio.",
+                        "El pronóstico del salto largo en general fue bueno. Se acertaron en 6 de los 8 que ocuparon los primeros lugares. Solo no cumplieron los pronósticos el campeón de Doha, Tajay Gayle, que en la clasificatoria no tuvo ningún salto válido; ni el uruguayo Emiliano Lasa que quedó a las puertas del final, en el lugar 13, y no tuvo posibilidad de competir por una mejor posición."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Miltiadis Tentoglou",
@@ -2308,6 +2316,10 @@
                     "previa": [
                         "Las balistas chinas están pronosticadas a ganar título y subtítulo en Oregón. Lijiao Gong es la actual campeona olímpica y mundial, y si gana en esta edición estaría logrando su séptima medalla mundial consecutiva. Gong apenas ha competido este año pero su historial la respalda. Jiayuan Song posee la tercera marca de la temporada y ya fue quinta en Tokio. Ahora el pronóstico del modelo es que entrará al podio como subcampeona. Una que podría romper los pronósticos es la  estadounidense Chase Ealey que posee las dos mejores marcas de la temporada y cinco de las diez primeras. El modelo la sitúa en un tercer lugar pero a nadie asombraría que se suba a lo más alto del podio.",
                         "Otras contendientes de fuerza son la portuguesa Dongmo y la canadiense Mitton. Ellas dos, sumadas a Ealey y Jiayuan, son las poseedoras de los doces mejores disparos del año."
+                    ],
+                    "analysis":[
+                        "La estadounidense Chase Ealey ganó la competencia con el primer disparo que se hizo en la final. Ealey mostró porque era la que más había lanzado en toda la temporada. La china Lijiao Gong, aún si haber competido casi, demostró porque es de las mejores balistas de los útlimos tiempos. Ella fue mejorando disparo a disparo pero no le alcanzó para superar a la norteamericana y se quedó con la plata. Jessica Schilder, de los Países Bajos, repitió el título que alcanzó en el mundial bajo techo de este año. Ahora es bronceada mundial en pista cubierta y al aire libre.",
+                        "En el pronóstico final acertamos con 6 de las 8 primeras balistas, aunque si no dimos con el orden exacto de ninguna de ellas ¡Nada mal! Fuera de las 8 primeras quedaron la estadounidense Maggie Ewen y la jamaicana Danniel Thomas Dodd, que llegaron a la final, pero quedaron en los lugares 9 y 10, respectivamente."
                     ],
                     "prediction": {
                         "1": {
@@ -2678,7 +2690,7 @@
                     ],
                     "analysis": [
                         "Se pronosticaba oro y plata para Polonia y así fue. Sin embargo, el orden fue diferente. Paweł Fajdek se ratificó como el hombre grande del martillo en los mundiales. Wojciech Nowicki ahora no pudo repetir su título olímpico pero mejoró el metal respecto a Doha. Ahora fue plata, aunque lo pronosticábamos como campeón. El noruego Henriksen, quien es el actual subcampeón olímpico, se mantuvo en la élite y ahora terminó en bronce.",
-                        "En el pronóstico acertamos con los 8 que finalmente concluyeron como los mejores martillistas en Oregón. En el orden solo vaticinamos correctamente al francés Bigot que terminó 4to. La rivalidad, como mencionamos, fue grande."
+                        "En el pronóstico acertamos con los 8 que finalmente concluyeron como los mejores martillistas en Oregón. En el orden solo vaticinamos correctamente al francés Bigot que terminó 4to. La rivalidad, como mencionamos en la previa, fue grande."
                     ],
                     "prediction": {
                         "1": {
