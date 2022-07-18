@@ -55,11 +55,11 @@ $.getJSON("data/predictions.json", function (data) {
     }
 
     function generateEventResult(even,sex){
-        let text = '<div class="pred-block">';
+        let text = '<div id="pred-item-'+even+'-'+sex+'" class="pred-block">';
         if ("result" in data.events[even].sex[sex]) {
             for(var i=1;i<=8;i++){
                 let prediction = data.events[even].sex[sex].result[i];
-                text+= '<div class="pred-item">';
+                text+= '<div id="pos-'+i+'" class="pred-item">';
                 text+= '<p>';
                 text+= '<span class="medal">'+i+'</span>';
                 text+= '<span>'+'<img class="flag" src="images/flags-mini/'+domains[prediction.country.toLowerCase()]+'.png">'+'</span>';
@@ -73,6 +73,7 @@ $.getJSON("data/predictions.json", function (data) {
         } 
         return '<div class="pred-block"><p class="no-result">Sin resultados aún</p></div>';
     }
+
 
     function generateEventAnalysis(even,sex){
         if ("analysis" in data.events[even].sex[sex]) {
@@ -167,7 +168,6 @@ $.getJSON("data/predictions.json", function (data) {
             }  
         }
 
-        console.log("Eventos",totalEvents,"Pronosticados",predictedEvents,"Finalistas",finalists,"Medallistas",medalWinners, "Medallistas exacto",exactMedalWinners,"Exactos",exactPositions,"Campeones",champs);
         text = '<div class="stats">';
         text+= '<div class="stats-item stats-item-title">'+title+'</div>';
         if (predictedEvents!=1) {
@@ -276,6 +276,15 @@ $.getJSON("data/predictions.json", function (data) {
     $('#points-table-sorter').tablesorter({
         sortList: [[9,1]]
     });
+
+    function setExtraordinaryThings(){
+        $('#pred-item-atl_per-female>#pos-7>p>.medal').html(6);
+        $('#pred-item-atl_110v-male>#pos-6>p>.medal').html("&nbsp;&nbsp;");
+        $('#pred-item-atl_110v-male>#pos-7>p>.medal').html("&nbsp;&nbsp;");
+        $('#pred-item-atl_110v-male>#pos-8>p>.medal').html("&nbsp;&nbsp;");
+    }
+
+    setExtraordinaryThings();
 
 });
 });
