@@ -446,6 +446,10 @@
                         "Jamaica es la favorita del modelo para copar el podio. Hace menos de un año Jamaica también ocupó los tres primeros lugares en Tokio. El trío medallista en ese entonces es el mismo que propone nuestro algoritmo, aunque en diferente orden. Para Oregón la predicción es  Shelly-Ann Fraser-Pryce campeona, Elaine Thompson-Herah subcampeona y Shericka Jackson bronce. Shelly-Ann tiene las tres mejores marcas del año (10.67, 10.67 y 10.70), la 4ta es de Shericka (10.77) y la 5ta es de Elaine (10.79). Esas cinco marcas son las únicas por debajo de 10.80",
                         "Las estadounidenses Aleia Hobbs y Twanisha Terry así como Julien Alfred, de Santa Lucía, tienen también excelentes marcas. Melissa Jefferson, que ganó el campeonato de Estados Unidos seguida de Hobss y Terry, es otra gran contendiente aunque el modelo la ubica en el lugar 11. En esta carrera las tres corredoras estuvieron por debajo de 10.75 pero con viento no permitido."
                     ],
+                    "analysis": [
+                        "La fiesta de la velocidad femenina de Oregon se pintó de los colores de la bandera jamaicana tras obtener un podio completo. Shelly-Ann Fraser-Pryce, quien dominó la temporada por completo, parece que a sus 36 años se encuentra en su mejor forma deportiva. Fraser-Pryce detuvo los relojes en un tiempo excepcional de 10.67 segundos, estableciendo un nuevo record para los campeonatos mundiales. Shericka Jackson hizo marca personal y demostró que no solo sabe correr 200 metros. Elaine Thompson-Herah esta vez solo llegó hasta el bronce, cuando el pronóstico era plata.",
+                        "La gran ausente de esta final fue Julien Alfred que fue descalificada en semifinales por una arrancada en falso. En la final destacó la británica Dina Asher-Smith que tuvo una formidable carrera estableciendo un nuevo record nacional y concluyendo 4ta tras la armada jamaicana."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Shelly-Ann Fraser-Pryce",
@@ -1273,6 +1277,10 @@
                         "En los 10 mil metros existe una gran rivalidad y cualquiera de los pronosticados como finalista pudiera titularse. El modelo da como favorito al ugandés Joshua Cheptegei a quien, sin marcas este año, no le faltan créditos: es el campeón mundial, subcampeón olímpico y recordista mundial de la distancia. Como segundo lugar aparece el canadiense Mohammed Ahmed que tiene en su haber la segunda mejor marca del año. El bronce se pronostica para el también ugandés Jacob Kiplimo, quien fue bronce en Tokio.",
                         "Otros grandes contendientes a medallas son el estadounidense Grant Fisher, que posee la mejor marca del año, y el etíope Selemon Barega, que es el actual campeón olímpico. Barega, tiener la 3ra mejor marca del año en una carrera que ganó y donde sus compatriotas Tadese Worku y Berihu Aregawi completaron el podio con el 4to y 5to mejor tiempo del año."
                     ],
+                    "analysis":[
+                        "La prueba más larga de la pista estuvo reñida. Una carrera muy táctica donde los equipos africanos, , como casi siempre, se llevaron el mejor dividendo. Prueba de esto son los 6 corredores africanos situados entre los 8 mejores del mundo. La carrera fue lenta y al ugandés Joshua Cheptegei le basto un discreto 27:27(mins) para quedarse con el título y mantener su corona mundial.",
+                        "El no ser una carrera rápida dio más opciones a corredores no tan conocidos como el kenyano, Stanley Waithaka Mburu que traía una marca que lo ubicaba en el puesto número 24 del año. El etíope Tadese Worku que fue el único corredor que fue pronosticado entre los 8 y no estuvo, cumplió función de liebre en el equipo etíope y explotó pasados los 8000 metros."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Joshua Cheptegei",
@@ -1369,6 +1377,10 @@
                     "previa": [
                         "El modelo da como pronóstico un podio totalmente estadounidense. Grant Holloway, Devon Allen y Trey Cunningham serían los tres primeros por ese orden. Holloway es el actual campeón del mundo y subcampeón olímpico. Allen es el líder de la temporada con la única marca (12.84) por debajo de 13 segundos. Cunningham tiene la segunda marca del año con 13 flat.",
                         "Otros dos candidatos de fuerza a las medallas son el jamaicano Hansle Parchment, que es el vigente campeón olímpico, y el norteño Daniel Roberts, que posee, en compañía de Holloway la 3ra marca del año (13.03)."
+                    ],
+                    "analysis":[
+                        "Probablemente una de las carreras más caóticas de la historia de los 110 con vallas. Minutos antes de comenzar el jamaicano Hansle Parchment, campeón olímpico en Tokio, se lesionó durante el calentamiento en la pista de competencia. El corredor de Barbados Shane Brathwaite, que corría por el carril uno, chocó con la quinta valla, derribó la sexta y se salió de la pista, lo que le costó la descalificación.  Por su parte, el ocupante del segundo lugar en el ranking mundial, el estadunidense Devon Allen, frustro el 1,2,3 estadunidense tras ser descalificado por una salida en falso con apenas una centésima por debajo de lo permitido.",
+                        "Grant Holloway y Trey Cunningham hicieron la tarea y con un tiempo discreto se situaron en la cima del podio. Con las ausencias mencionadas, la gran sorpresa fue el español Asier Martínez quien realizó marca personal que le valió para el bronce."
                     ],
                     "prediction": {
                         "1": {
@@ -2249,6 +2261,10 @@
                         "Las estadounidenses Sandi Morris y Katie Nageotte son, por ese orden, las pertiguistas que el modelo da como campeona y subcampeona. Morris, que es la actual subcampeona mundial, tiene dos mejores brincos de la temporada y es la única que ha estado sobre los 4.80. En la temporada bajo techo Sandi se tituló por segunda vez consecutiva campeona mundial bajo techo, en esa competencia la subcampeona fue Nageotte quien es la primera del ranking mundial. Katie no ha tenido una buena temporada al aire libre y ha estado afectada por molestias. Su mejor salto del año es un 4.65. La británica Holly Bradshaw, que se llevó el bronce olímpico, no ha saltado al aire libre más allá de los 4.60 pero el modelo la ve en el tercer lugar en Oregón.",
                         "Podrían entrar con facilidad en el podio la estadounidense Emily Grove, la eslovena Tina Šutej y la australiana Nina Kennedy, las tres han saltado sobre los 4.70. Fuera del pronóstico de las 8 primeras que da el algoritmo, habría que estar atentos a la italiana Roberta Bruni y la francesa Margot Chevrier quienes también han saltado 4.71 y 4.70 respectivamente."
                     ],
+                    "analysis":[
+                        "Las estadunidenses Katie Nageotte y Sandi Morris hicieron valer su pronóstico y se proclamaron campeona y subcampeona en ese orden con un salto de 4.85 metros que las estableció como punteras de la temporada. Es necesario destacar que, aunque ambas saltaron la misma altura Katie Nageotte venció la misma sin fallos quedándose con el título, sobreponiéndose a sus recurrentes afectaciones en las competencias al aire libre. El modelos las situaba como 1ra y 2da pero en orden inverso al que obtuvieron en la competencia.",
+                        "La británica Holly Bradshaw se vio obligaba a abandonar el mundial previo a la competencia por una lesión de último momento cuando su pértiga se rompió. Este trágico suceso la dejó fuera de la final e hizo imposible su pronóstico de bronce. Esta posición, finalmente, fue ocupada por la australiana Nina Kennedy, quien se apareció en la competencia saltando lo mejor de su temporada."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Sandi Morris",
@@ -2762,6 +2778,10 @@
                         "En la bala masculina el gran favorito es el estadounidense Ryan Crouser, y el modelo lo confirma. El norteño es el actual campeón olímpico y tiene las dos mejores marcas de la temporada que son, además, las únicas sobre los 23 metros. El segundo lugar según el modelo sería el también estadounidense Joe Kovacs, quien ganó el título mundial en Doha y sigue a Crouser con la 3ra mejor marca del año. El neozelandés Tom Walsh quien ha sido bronce, tras los estadounidenses, tanto en Doha como en Tokio, es el que se pronostica como tercer lugar en Oregón. Walsh posee el 7mo tiro del año. Tras los 10 mejores marcas de la temporada solo están los nombres Crouser, Kovacs y Walsh.",
                         "Un contendiente de fuerza es el brasileño Darlan Romani quien ha estado lanzando con fuerza y constancia en los últimos años. Esta temporada también ha lanzado con consistencia el italiano Nick Ponzio a quien el modelo ubica como el 9no favorito."
                     ],
+                    "analysis": [
+                        "Hubo, nuevamentes, un dominio claro de los estadounidenses en la final del lanzamiento de la bala. El modelo aceptó en los 8 finalistas, sin embargo, un par de contendientes alternaron su posición con respecto a lo pronosticado. Ryan Crouser y Joe Kovacs mantuvieron su liderazgo de la temporada ocupando los dos primeros lugares. Ryan Crouser tuvo una magnifica competencia con todos los disparos por encima de 22 metros, alcanzado un resultado fabuloso en su quinto lanzamiento (22.94 metros) en el que estableció un nuevo record del mundo para los campeonatos mundiales.",
+                        "El neozelandés Tom Walsh quien traía la cuarta mejor marca de la temporada se vio superado por el estadunidense Josh Awotunde que en su quinto intento lanzó lo mejor de su vida que le valió para una más que merecida medalla de bronce."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Ryan Crouser",
@@ -2996,6 +3016,10 @@
                     "previa": [
                         "Ausentes, por distintas razones, la campeonta olímpica Anita Wlodarczyk y la campeona mundial Deanna Price, en el martillo femenino se pronostica oro y plata para Estados Unidos. Brooke Andersen, quien tiene la mejor marca del año, y seis de las diez primeras, es la favorita al título. Janee' Kassanavoid, la probable subcampeona, tiene la tercera mejor marca del año solo detrás de Andersen y Wlodarczyk. La canadiense Camryn Rogers tiene el 6to lanzamiento de la temporada y solo han tirado más que ellas las favoritas al oro y la plata.",
                         "Otra a tener en cuenta es la polaca Kopron que es la actual medallista de bronce olímpica y también sabe qué es ser medallista mundial. La italiana Sara Fantini, a la que el modelo ubicó en la posición nueve, puede ser también una contendiente de fuerza por como ha estado lanzando en el año."
+                    ],
+                    "analysis":[
+                        "Las grandes ausencias mencionadas en la previa abrían el camino para una competencia poco habitual. La estadunidense Brooke Andersen cumplió con el pronóstico con un gran resultado en su último lanzamiento, quedándose a muy poco de la marca que la posicionaba como puntera de la temporada. Aunque se pronosticó correctamente el podio completo el orden del segundo y tercer lugar no fue el esperado. La estadunidense Janee' Kassanavoid tuvo una competencia constante por encima de los 74 metros, sin embargo, no pudo llegar a sus mejores marcas de esta temporada y fue superada por un magnifico lanzamiento de la canadiense Camryn Rogers en su tercera oportunidad.",
+                        "El bajo rendimiento de algunas de las atletas pronosticadas hizo que se quedaran fuera de las 8 mejores. Vale destacar que la italiana Sara Fantini tiene a su nombre la quinta mejor marca de la temporada, por lo que su cuarto lugar alcanzado no fue para nada sorpresa."
                     ],
                     "prediction": {
                         "1": {
@@ -3651,6 +3675,10 @@
                     "previa": [
                         "Las pruebas de maratón son de las más difíciles de pronosticar y pocas veces los atletas repiten podio. Lo que es bastante probable es que el podio sea africano. En esta ocasión el modelo propone como campeón al etíope Tamirat Tola que tiene la mejor marca de la temporada entre los inscritos. Le sigue, como subcampeón, el belga Bashir Abdi que se llevó el bronce olímpico en Tokio y es el actual recordista europeo de la especialidad. El pronóstico de tercer lugar es el también etíope Mosinet Geremew que tiene el 5to mejor tiempo en el año.",
                         "Entre los candidatos a romper la hegemonía africana está el brasileño Daniel Do Nascimento que posee la 9na marca del año y fue tercero en la maratón de Seoul así como el japonés Kengo Suzuki o el estadounidense Galen Rupp. Estos dos últimos son ubicados por el algoritmo en las posiciones 10 y 16 respectivamente."
+                    ],
+                    "analysis":[
+                        "Los etíopes volvieron a reinar en la maratón masculina realizando un excelente trabajo de equipo. El corredor Tamirat Tola, con una escapada espectacular a 8 kilómetros de la meta, paró los relojes con un tiempo de 2:05:36, estableciendo un nuevo record para los campeonatos mundiales. La plata se la llevó su compatriota Mosinet Geremew, quien venía con pronóstico de 3er lugar. El bronce fue para el también bronce olímpico en Tokio, el corredor belga Bashir Abdi. El belga era el favorito del modelo para el succamponato.",
+                        "Una mención merece el canadiense Cameron Levins que sin equipo estuvo muy cerca del podio y marcó un nuevo record nacional. El brasileño Daniel Do Nascimento volvió a ubicarse entre los 8 mejores del mundo reafirmando su buena forma deportiva."
                     ],
                     "prediction": {
                         "1": {
