@@ -1965,35 +1965,85 @@
                     "prediction": {
                         "1": {
                             "name": "Yaroslava Mahuchikh",
-                            "country": "UKR"
+                            "country": "UKR",
+                            "status":1,
+                            "medal":true
                         },
                         "2": {
                             "name": "Nicola Olyslagers",
-                            "country": "AUS"
+                            "country": "AUS",
+                            "status":1,
+                            "medal":false
                         },
                         "3": {
                             "name": "Eleanor Patterson",
-                            "country": "AUS"
+                            "country": "AUS",
+                            "status":1,
+                            "medal":true
                         },
                         "4": {
                             "name": "Vashti Cunningham",
-                            "country": "USA"
+                            "country": "USA",
+                            "status":-1,
+                            "medal":false
                         },
                         "5": {
                             "name": "Nadezhda Dubovitskaya",
-                            "country": "KAZ"
+                            "country": "KAZ",
+                            "status":1,
+                            "medal":false
                         },
                         "6": {
                             "name": "Iryna Gerashchenko",
-                            "country": "UKR"
+                            "country": "UKR",
+                            "status":1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Yuliya Levchenko",
-                            "country": "UKR"
+                            "country": "UKR",
+                            "status":-1,
+                            "medal":false
                         },
                         "8": {
                             "name": "Elena Vallortigara",
+                            "country": "ITA",
+                            "status":1,
+                            "medal":true
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Eleanor Patterson",
+                            "country": "AUS"
+                        },
+                        "2": {
+                            "name": "Yaroslava Mahuchikh",
+                            "country": "UKR"
+                        },
+                        "3": {
+                            "name": "Elena Vallortigara",
                             "country": "ITA"
+                        },
+                        "4": {
+                            "name": "Iryna Gerashchenko",
+                            "country": "UKR"
+                        },
+                        "5": {
+                            "name": "Nicola Olyslagers",
+                            "country": "AUS"
+                        },                        
+                        "6": {
+                            "name": "Safina Sadullayeva",
+                            "country": "UZB"
+                        },
+                        "7": {
+                            "name": "Karmen Bruus",
+                            "country": "EST"
+                        },
+                        "8": {
+                            "name": "Nadezhda Dubovitskaya",
+                            "country": "KAZ"
                         }
                     }
                 },
