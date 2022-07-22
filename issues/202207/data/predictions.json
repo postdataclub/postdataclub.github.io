@@ -3009,7 +3009,7 @@
                         }
                     },
                     "result": {
-                        "5": {
+                        "1": {
                             "name": "Bin Feng",
                             "country": "CHN"
                         },
@@ -3017,27 +3017,27 @@
                             "name": "Sandra Perković",
                             "country": "CRO"
                         },
-                        "1": {
+                        "3": {
                             "name": "Valarie Allman",
                             "country": "USA"
                         },
-                        "6": {
+                        "4": {
                             "name": "Jorinde Van Klinken",
                             "country": "NED"
                         },
-                        "8": {
+                        "5": {
                             "name": "Claudine Vita",
                             "country": "GER"
                         },                        
-                        "7": {
+                        "6": {
                             "name": "Liliana Cá",
                             "country": "POR"
                         },
-                        "4": {
+                        "7": {
                             "name": "Yaimé Pérez",
                             "country": "CUB"
                         },
-                        "3": {
+                        "8": {
                             "name": "Marija Tolj",
                             "country": "CRO"
                         }
