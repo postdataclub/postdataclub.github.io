@@ -1054,41 +1054,41 @@
                 "male": {
                     "date": "2022/07/11",
                     "previa": [
-                        "El modelo ofrece un inesperado candidato para el primer lugar. El británico Elliot Giles entraría en las cábalas de pocos cuando tiene un registro de 1.44.05 como mejor marca personal y un 1.45.94 como mejor marca del año. Más sentido tiene el segundo lugar en que se propone a Peter Bol quien terminó en 4to lugar en Tokio y este año ha hecho lo mejor de su vida con 1.44.00. En el tercer lugar está propuesto el francés Gabriel Tual. El francés ya fue finalista en Tokio y este año también hizo su mejor marca personal con 1.44.43",
-                        "El 4to favorito es el también francés Benjamin Robert que es uno de los 6 corredores que esta temporada han bajado del 1.44.00. Robert hizo su mejor marca de por vida en París cuando corrió para el primer lugar con marca de 1.43.75. En esta misma carrera fue donde Bol y Tual hicieron sus marcas personales quedando en 2do y 3er lugar respectivamente. El canadiense Marcom Arop, finalista en Doha, es tercero del listado del año y puede sorprender. El marroquí Moad Zahafi que se pronostica 8vo y tiene la 4ta marca del año  también podría estar en el podio. Hay un grupo de otros corredores que no fueron favorecidos por el algoritmo de pronósticos pero que no sería sopresa verlos entre los finalistas o en el podio: el británico Max Burgin que tiene la mejor marca del año, el keniano Wyclife Kinyamal Kisasy que sigue a Burgin con la segunda marca de la temporada,  el argelino Djamel Sedjati o el keniano Emmanuel Waayonyi todos en el Top10 del año."
+                        "El modelo ofrecía un inesperado candidato para el primer lugar. El británico Elliot Giles entraría en las cábalas de pocos cuando tiene un registro de 1.44.05 como mejor marca personal y un 1.45.94 como mejor marca del año. Sin embargo, el británico no estará finalmente en competencia y eso lo saca de los pronósticos. Más sentido tiene el siguiente favorito, Peter Bol, quien terminó en 4to lugar en Tokio y este año ha hecho lo mejor de su vida con 1.44.00. En el siguiente puesto aparece el francés Gabriel Tual. El francés ya fue finalista en Tokio y este año también hizo su mejor marca personal con 1.44.43. A Tual le sigue su compatriota Benjamin Robert que es uno de los 6 corredores que esta temporada han bajado del 1.44.00. Robert hizo su mejor marca de por vida en París cuando corrió para el primer lugar con marca de 1.43.75. En esta misma carrera fue donde Bol y Tual hicieron sus marcas personales quedando en 2do y 3er lugar respectivamente",
+                        "El canadiense Marcom Arop, finalista en Doha, es tercero del listado del año y puede sorprender. El marroquí Moad Zahafi que se pronostica 8vo y tiene la 4ta marca del año  también podría estar en el podio. Hay un grupo de otros corredores que no fueron favorecidos por el algoritmo de pronósticos pero que no sería sopresa verlos entre los finalistas o en el podio: el británico Max Burgin que tiene la mejor marca del año, el keniano Wyclife Kinyamal Kisasy que sigue a Burgin con la segunda marca de la temporada,  el argelino Djamel Sedjati o el keniano Emmanuel Waayonyi todos en el Top10 del año."
                     ],
                     "prediction": {
                         "1": {
-                            "name": "Elliot Giles",
-                            "country": "GBR"
-                        },
-                        "2": {
                             "name": "Peter Bol",
                             "country": "AUS"
                         },
-                        "3": {
+                        "2": {
                             "name": "Gabriel Tual",
                             "country": "FRA"
                         },
-                        "4": {
+                        "3": {
                             "name": "Benjamin Robert",
                             "country": "FRA"
                         },
-                        "5": {
+                        "4": {
                             "name": "Marco Arop",
                             "country": "CAN"
                         },
-                        "6": {
+                        "5": {
                             "name": "Andreas Kramer",
                             "country": "SWE"
                         },
-                        "7": {
+                        "6": {
                             "name": "Bryce Hoppel",
                             "country": "USA"
                         },
-                        "8": {
+                        "7": {
                             "name": "Moad Zahafi",
                             "country": "MAR"
+                        },
+                        "8": {
+                            "name": "Patryk Dobek",
+                            "country": "POl"
                         }
                     }
                 }
