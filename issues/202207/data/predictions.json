@@ -3455,37 +3455,37 @@
                         "El 4to lugar se pronostica para la también china Shiying Liu que es la vigente campeona olímpica y subcampeona mundial, Shiying no tiene marca registrada en el año. La polaca Maria Andrejczyk es la 5ta favorita, es la subcampeona olímpica y en el 2021 lanzó por encima de los 71 metros pero este año apenas ha llegado dos veces hasta 57.53. Hubiera sido interesante ver competir a la cubana Yulenmis Aguilar, que fue de las mejores lanzadoras del mundo en su epoca juvenil y este año tiene la 6ta marca del año pero como otros tantos atletas cubanos no estará en Oregón."
                     ],
                     "prediction": {
-                        "1": {
-                            "name": "Christin Hussong",
-                            "country": "GER"
-                        },
-                        "2": {
+                       "1": {
                             "name": "Huihui Lyu",
                             "country": "CHN"
                         },
-                        "3": {
+                        "2": {
                             "name": "Maggie Malone",
                             "country": "USA"
                         },
-                        "4": {
+                        "3": {
                             "name": "Shiying Liu",
                             "country": "CHN"
                         },
-                        "5": {
+                        "4": {
                             "name": "Maria Andrejczyk",
                             "country": "POL"
                         },
-                        "6": {
+                        "5": {
                             "name": "Kara Winger",
                             "country": "USA"
                         },
-                        "7": {
+                        "6": {
                             "name": "Annu Rani",
                             "country": "IND"
                         },
-                        "8": {
+                        "7": {
                             "name": "Nikola Ogrodníková",
                             "country": "CZE"
+                        },
+                        "8": {
+                            "name": "haruka_kitaguchi",
+                            "country": "JPN"
                         }
                     }
                 },
