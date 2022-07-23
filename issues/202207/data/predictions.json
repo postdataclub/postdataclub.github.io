@@ -3484,7 +3484,7 @@
                             "country": "CZE"
                         },
                         "8": {
-                            "name": "haruka_kitaguchi",
+                            "name": "Haruka Kitaguchi",
                             "country": "JPN"
                         }
                     }
@@ -3782,35 +3782,85 @@
                     "prediction": {
                         "1": {
                             "name": "Shijie Qieyang",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status":1,
+                            "medal":true
                         },
                         "2": {
                             "name": "Kimberly García León",
-                            "country": "PER"
+                            "country": "PER",
+                            "status":1,
+                            "medal":true
                         },
                         "3": {
                             "name": "Serena Sonoda",
-                            "country": "JPN"
+                            "country": "JPN",
+                            "status":-1,
+                            "medal":false
                         },
                         "4": {
                             "name": "Maocuo Li",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status":1,
+                            "medal":false
                         },
                         "5": {
                             "name": "Antigoni Ntrismpioti",
-                            "country": "GRE"
+                            "country": "GRE",
+                            "status":1,
+                            "medal":false
                         },
                         "6": {
                             "name": "Glenda Morejón",
-                            "country": "ECU"
+                            "country": "ECU",
+                            "status":-1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Laura García-Caro",
-                            "country": "ESP"
+                            "country": "ESP",
+                            "status":1,
+                            "medal":false
                         },
                         "8": {
                             "name": "Paola Pérez",
-                            "country": "ECU"
+                            "country": "ECU",
+                            "status":-1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Kimberly García León",
+                            "country": "PER"
+                        },
+                        "2": {
+                            "name": "Serena Sonoda",
+                            "country": "JPN"
+                        },
+                        "3": {
+                            "name": "Shijie Qieyang",
+                            "country": "CHN"
+                        },
+                        "4": {
+                            "name": "Antigoni Ntrismpioti",
+                            "country": "GRE"
+                        },
+                        "5": {
+                            "name": "Raquel González",
+                            "country": "ESP"
+                        },
+                        "6": {
+                            "name": "Laura García-Caro",
+                            "country": "ESP"
+                        },
+                        "7": {
+                            "name": "Maocuo Li",
+                            "country": "CHN"
+                        },
+                        "8": {
+                            "name": "Viviane Lyra",
+                            "country": "BRA"
                         }
                     }
                 }
