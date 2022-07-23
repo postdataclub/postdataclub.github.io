@@ -1310,28 +1310,28 @@
                             "country": "KEN"
                         },
                         "3": {
-                            "name": "Ejgayehu Taye",
-                            "country": "ETH"
-                        },
-                        "4": {
                             "name": "Nozomi Tanaka",
                             "country": "JPN"
                         },
-                        "5": {
+                        "4": {
                             "name": "Karoline Bjerkeli Grøvdal",
                             "country": "NOR"
                         },
-                        "6": {
+                        "5": {
                             "name": "Laura Galván",
                             "country": "MEX"
                         },
-                        "7": {
+                        "6": {
                             "name": "Jessica Judd",
                             "country": "GBR"
                         },
-                        "8": {
+                        "7": {
                             "name": "Elise Cranny",
                             "country": "USA"
+                        },
+                        "8": {
+                            "name": "Letesenbet Gidey",
+                            "country": "ETH"
                         }
                     }
                 },
