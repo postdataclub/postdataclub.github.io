@@ -284,6 +284,7 @@ $.getJSON("data/predictions.json", function (data) {
         $('#pred-item-atl_110v-male>#pos-7>p>.medal').html("&nbsp;&nbsp;");
         $('#pred-item-atl_110v-male>#pos-8>p>.medal').html("&nbsp;&nbsp;");
         $('#pred-item-atl_alt-male>#pos-7>p>.medal').html(6);
+        $('#pred-item-atl_4x100m-male>#pos-8>p>.medal').html("&nbsp;&nbsp;");
     }
 
     setExtraordinaryThings();

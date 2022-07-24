@@ -642,7 +642,7 @@
                         "La jamaicana Shericka Jackson hace apenas unos días corrió los 200 metros en 21.55; esa es la 3ra marca de la historia y la mejor de la temporada. Ese tiempo por sí    solo bastaría para ubicarla como principal favorita al oro,  lo que nuestro algoritmo hace. En segundo lugar se pronostica a Abby Steiner. La estadounidense tiene el segundo y tercer mejor tiempo del año con 21.77 y 21.80, este último conseguido por dos veces. El tercer lugar el modelo lo otorga a la jamaicana Elaine Thompson-Herah que es la campeona de Tokio en la distancia.",
                         "Otra que el algoritmo predice entre las primeras es la jamaicana Shelly-Ann Fraser-Pryce y ella es una que nunca descontaria para un podio en pruebas de velocidad. También entre las primeras estaría la vigente campeona mundial, la británica Dina Asher Smith."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "La jamaicana Shericka Jackson destrozó el anterior récord de los campeonatos del mundo con un sensacional tiempo de 21.45 segundos. La veterana, pero siembre habitual Shelly-Ann Fraser-Pryce con unos excelentísimos primeros 100 metros se quedó con la medalla de plata. El podio lo completó la británica Dina Asher-Smith.",
                         "Fuera de Jackson y Fraseer Pryce, nadie más bajó de los 22 segundos, marcando tiempos extremadamente discretos para una final mundial. Muchas de estas corredoras de 200 metros también corrieron los 100 metros y con esta última carrera habína llegado a 6. Sin embargo, esto no hizo mella en las jamaicanas."
                     ],
@@ -737,7 +737,7 @@
                         "En los 200 metros planos el modelo dice que los cuatro primeros lugares serán para Estados Unidos. El orden sería Noah Lyles, Kenneth Bednarek, Fred Kerley y Erriyon Knighton. Lyles es el campeón mundial de Doha y fue bronce en Tokio y tiene la 2da mejor marca del año con 19.61. Bednarek ganó el subtítulo en Tokio y en el año tiene un 19.87. Kerley tiene un 19.80 como mejor marca del año. Knighton es el líder de la temporada con un impresionante 19.49 que lo ubica como el 4to corredor más rápido  de todos los tiempos en los 200 metros, además este año tiene también un 19.69. Con esas marcas a nadie sorprendería que a sus 18 años se coronara como campeón del mundo.",
                         "El canadiense André de Grasse es el 5to favorito, aunque este año no ha bajado de los 20 segundos, pero es un corredor de competencia, no por gusto es el vigente campeón olímpico en Tokio y subcampeón mundial en Doha. En Oregón se echará en falta la sorpresa de la temporada en 200 metros planos, el cubano Reynier Mena, que hace unos días marcó 19.63 bajando en 0.41 segundos su mejor marca personal hasta ese momento."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "a bandera de las barras y las estrellas reinó en los 200 metros masculinos. Noah Lyles, quien traía las mejores marcas de la temporada, hizo valer su condición de favorito, y paró los relojes con la tercera mejor marca de todos los tiempos. Kenneth Bednarek corrió lo mejor de su temporada para un merecido segundo lugar. Erriyon Knighton, con su tercer lugar, siguió afirmando que el es el futuro inmediato de la velocidad.",
                         "El dominicano Alexander Ogando que había roto el récord nacional en las preliminares y en semifinales, esta vez no pudo más y se tuvo que conformar con un quinto puesto. Igual es una excelente actuación, pues volvió a correr por debajo de 20 segundos. Lamentablemente el seis veces medallista olímpico, el canadiense André De Grasse, se retiró de los 200 metros en los hits clasificatorios, tras no encontrarse en forma tras haber sido diagnosticado con Covid 19 hace unas pocas semanas."
                     ],
@@ -1068,35 +1068,85 @@
                     "prediction": {
                         "1": {
                             "name": "Peter Bol",
-                            "country": "AUS"
+                            "country": "AUS",
+                            "status": 1,
+                            "medal": false
                         },
                         "2": {
                             "name": "Gabriel Tual",
-                            "country": "FRA"
+                            "country": "FRA",
+                            "status": 1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Benjamin Robert",
-                            "country": "FRA"
+                            "country": "FRA",
+                            "status": -1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Marco Arop",
-                            "country": "CAN"
+                            "country": "CAN",
+                            "status": 1,
+                            "medal": true
                         },
                         "5": {
                             "name": "Andreas Kramer",
-                            "country": "SWE"
+                            "country": "SWE",
+                            "status": -1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Bryce Hoppel",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": -1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Moad Zahafi",
-                            "country": "MAR"
+                            "country": "MAR",
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Patryk Dobek",
-                            "country": "POl"
+                            "country": "POl",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Emmanuel Kipkurui Korir",
+                            "country": "KEN"
+                        },
+                        "2": {
+                            "name": "Djamel Sedjati",
+                            "country": "ALG"
+                        },
+                        "3": {
+                            "name": "Marco Arop",
+                            "country": "CAN"
+                        },
+                        "4": {
+                            "name": "Emmanuel Wanyonyi",
+                            "country": "KEN"
+                        },
+                        "5": {
+                            "name": "Slimane Moula",
+                            "country": "ALG"
+                        },
+                        "6": {
+                            "name": "Gabriel Tual",
+                            "country": "FRA"
+                        },
+                        "7": {
+                            "name": "Peter Bol",
+                            "country": "AUS"
+                        },
+                        "8": {
+                            "name": "Wyclife Kinyamal Kisasy",
+                            "country": "KEN"
                         }
                     }
                 }
@@ -1311,6 +1361,56 @@
                     "prediction": {
                         "1": {
                             "name": "Gudaf Tsegay",
+                            "country": "ETH",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "2": {
+                            "name": "Beatrice Chebet",
+                            "country": "KEN",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "3": {
+                            "name": "Nozomi Tanaka",
+                            "country": "JPN",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "4": {
+                            "name": "Karoline Bjerkeli Grøvdal",
+                            "country": "NOR",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "5": {
+                            "name": "Laura Galván",
+                            "country": "MEX",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "6": {
+                            "name": "Jessica Judd",
+                            "country": "GBR",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "7": {
+                            "name": "Elise Cranny",
+                            "country": "USA",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "8": {
+                            "name": "Letesenbet Gidey",
+                            "country": "ETH",
+                            "status": 1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Gudaf Tsegay",
                             "country": "ETH"
                         },
                         "2": {
@@ -1318,28 +1418,28 @@
                             "country": "KEN"
                         },
                         "3": {
-                            "name": "Nozomi Tanaka",
-                            "country": "JPN"
+                            "name": "Dawit Seyaum",
+                            "country": "ETH"
                         },
                         "4": {
-                            "name": "Karoline Bjerkeli Grøvdal",
-                            "country": "NOR"
+                            "name": "Margaret Chelimo Kipkemboi",
+                            "country": "KEN"
                         },
                         "5": {
-                            "name": "Laura Galván",
-                            "country": "MEX"
-                        },
-                        "6": {
-                            "name": "Jessica Judd",
-                            "country": "GBR"
-                        },
-                        "7": {
-                            "name": "Elise Cranny",
-                            "country": "USA"
-                        },
-                        "8": {
                             "name": "Letesenbet Gidey",
                             "country": "ETH"
+                        },
+                        "6": {
+                            "name": "Sifan Hassan",
+                            "country": "NED"
+                        },
+                        "7": {
+                            "name": "Caroline Chepkoech Kipkirui",
+                            "country": "KAZ"
+                        },
+                        "8": {
+                            "name": "Karoline Bjerkeli Grøvdal",
+                            "country": "NOR"
                         }
                     }
                 },
@@ -1744,50 +1844,50 @@
                         "1": {
                             "name": "Sydney Mclaughlin",
                             "country": "USA",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "Femke Bol",
                             "country": "NED",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "3": {
                             "name": "Dalilah Muhammad",
                             "country": "USA",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "4": {
                             "name": "Shamier Little",
                             "country": "USA",
-                            "status":2,
-                            "medal":false
+                            "status": 2,
+                            "medal": false
                         },
                         "5": {
                             "name": "Anna Ryzhykova",
                             "country": "UKR",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Britton Wilson",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Janieve Russell",
                             "country": "JAM",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Rushell Clayton",
                             "country": "JAM",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -2131,35 +2231,85 @@
                     "prediction": {
                         "1": {
                             "name": "Jamaica",
-                            "country": "JAM"
+                            "country": "JAM",
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Estados Unidos",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": 1,
+                            "medal": true
                         },
                         "3": {
                             "name": "Reino Unido",
-                            "country": "GBR"
+                            "country": "GBR",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "4": {
+                            "name": "Nigeria",
+                            "country": "NIG",
+                            "status": 2,
+                            "medal": false
+                        },
+                        "5": {
+                            "name": "Alemania",
+                            "country": "GER",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "6": {
+                            "name": "Suiza",
+                            "country": "SUI",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "7": {
+                            "name": "Países Bajos",
+                            "country": "NED",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "8": {
+                            "name": "Polonia",
+                            "country": "POL",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Estados Unidos",
+                            "country": "USA"
+                        },
+                        "2": {
+                            "name": "Jamaica",
+                            "country": "JAM"
+                        },
+                        "3": {
+                            "name": "Alemania",
+                            "country": "GER"
                         },
                         "4": {
                             "name": "Nigeria",
                             "country": "NIG"
                         },
                         "5": {
-                            "name": "Alemania",
-                            "country": "GER"
+                            "name": "España",
+                            "country": "ESP"
                         },
                         "6": {
+                            "name": "Reino Unido",
+                            "country": "GBR"
+                        },
+                        "7": {
                             "name": "Suiza",
                             "country": "SUI"
                         },
-                        "7": {
-                            "name": "Países Bajos",
-                            "country": "NED"
-                        },
                         "8": {
-                            "name": "Polonia",
-                            "country": "POL"
+                            "name": "Italia",
+                            "country": "ITA"
                         }
                     }
                 },
@@ -2172,31 +2322,81 @@
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
-                            "country": "USA"
+                            "country": "USA",
+                            "status":1,
+                            "medal":true
                         },
                         "2": {
                             "name": "Canadá",
-                            "country": "CAN"
+                            "country": "CAN",
+                            "status":1,
+                            "medal":true
                         },
                         "3": {
                             "name": "Jamaica",
-                            "country": "JAM"
+                            "country": "JAM",
+                            "status":1,
+                            "medal":false
                         },
                         "4": {
                             "name": "Nigeria",
-                            "country": "NIG"
+                            "country": "NIG",
+                            "status":-1,
+                            "medal":false
                         },
                         "5": {
                             "name": "Italia",
-                            "country": "ITA"
+                            "country": "ITA",
+                            "status":-1,
+                            "medal":false
                         },
                         "6": {
                             "name": "Ghana",
-                            "country": "GHA"
+                            "country": "GHA",
+                            "status":1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Reino Unido",
+                            "country": "GBR",
+                            "status":1,
+                            "medal":true
+                        },
+                        "8": {
+                            "name": "Francia",
+                            "country": "FRA",
+                            "status":2,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Canadá",
+                            "country": "CAN"
+                        },
+                        "2": {
+                            "name": "Estados Unidos",
+                            "country": "USA"
+                        },
+                        "3": {
+                            "name": "Reino Unido",
                             "country": "GBR"
+                        },
+                        "4": {
+                            "name": "Jamaica",
+                            "country": "JAM"
+                        },
+                        "5": {
+                            "name": "Ghana",
+                            "country": "GHA"
+                        },
+                        "6": {
+                            "name": "Sudáfrica",
+                            "country": "RSA"
+                        },
+                        "7": {
+                            "name": "Brasil",
+                            "country": "BRA"
                         },
                         "8": {
                             "name": "Francia",
@@ -2978,6 +3178,56 @@
                     "prediction": {
                         "1": {
                             "name": "Pedro Pichardo",
+                            "country": "POR",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "2": {
+                            "name": "Hugues Fabrice Zango",
+                            "country": "BUR",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "3": {
+                            "name": "Lázaro Martínez",
+                            "country": "CUB",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "4": {
+                            "name": "Yaming Zhu",
+                            "country": "CHN",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "5": {
+                            "name": "Andrea Dallavalle",
+                            "country": "ITA",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "6": {
+                            "name": "Will Claye",
+                            "country": "USA",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "7": {
+                            "name": "Donald Scott",
+                            "country": "USA",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "8": {
+                            "name": "Abdulla Aboobacker",
+                            "country": "IND",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Pedro Pichardo",
                             "country": "POR"
                         },
                         "2": {
@@ -2985,28 +3235,28 @@
                             "country": "BUR"
                         },
                         "3": {
-                            "name": "Lázaro Martínez",
-                            "country": "CUB"
-                        },
-                        "4": {
                             "name": "Yaming Zhu",
                             "country": "CHN"
                         },
-                        "5": {
+                        "4": {
                             "name": "Andrea Dallavalle",
                             "country": "ITA"
                         },
-                        "6": {
-                            "name": "Will Claye",
-                            "country": "USA"
+                        "5": {
+                            "name": "Emanuel Ihemeje",
+                            "country": "ITA"
                         },
-                        "7": {
+                        "6": {
                             "name": "Donald Scott",
                             "country": "USA"
                         },
+                        "7": {
+                            "name": "Almir Dos Santos",
+                            "country": "BRA"
+                        },
                         "8": {
-                            "name": "Abdulla Aboobacker",
-                            "country": "IND"
+                            "name": "Jean-Marc Pontvianne",
+                            "country": "FRA"
                         }
                     }
                 }
@@ -3704,35 +3954,85 @@
                     "prediction": {
                         "1": {
                             "name": "Neeraj Chopra",
-                            "country": "IND"
+                            "country": "IND",
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Anderson Peters",
-                            "country": "GRN"
+                            "country": "GRN",
+                            "status": 1,
+                            "medal": true
                         },
                         "3": {
                             "name": "Julian Weber",
-                            "country": "GER"
+                            "country": "GER",
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Oliver Helander",
-                            "country": "FIN"
+                            "country": "FIN",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "5": {
+                            "name": "Arshad Nadeem",
+                            "country": "PAK",
+                            "status": 2,
+                            "medal": false
+                        },
+                        "6": {
+                            "name": "Jakub Vadlejch",
+                            "country": "CZE",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "7": {
+                            "name": "Keshorn Walcott",
+                            "country": "TTO",
+                            "status": -1,
+                            "medal": false
+                        },
+                        "8": {
+                            "name": "Andreas Hofmann",
+                            "country": "GER",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Anderson Peters",
+                            "country": "GRN"
+                        },
+                        "2": {
+                            "name": "Neeraj Chopra",
+                            "country": "IND"
+                        },
+                        "3": {
+                            "name": "Jakub Vadlejch",
+                            "country": "CZE"
+                        },
+                        "4": {
+                            "name": "Julian Weber",
+                            "country": "GER"
                         },
                         "5": {
                             "name": "Arshad Nadeem",
                             "country": "PAK"
                         },
                         "6": {
-                            "name": "Jakub Vadlejch",
-                            "country": "CZE"
+                            "name": "Lassi Etelätalo",
+                            "country": "FIN"
                         },
                         "7": {
-                            "name": "Keshorn Walcott",
-                            "country": "TTO"
+                            "name": "Andrian Mardare",
+                            "country": "MDA"
                         },
                         "8": {
-                            "name": "Andreas Hofmann",
-                            "country": "GER"
+                            "name": "Oliver Helander",
+                            "country": "FIN"
                         }
                     }
                 }
