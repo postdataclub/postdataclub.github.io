@@ -4247,35 +4247,85 @@
                     "prediction": {
                         "1": {
                             "name": "Daisuke Matsunaga",
-                            "country": "JPN"
+                            "country": "JPN",
+                            "status":-1,
+                            "medal":false
                         },
                         "2": {
                             "name": "Tomohiro Noda",
-                            "country": "JPN"
+                            "country": "JPN",
+                            "status":-1,
+                            "medal":false
                         },
                         "3": {
                             "name": "Masatora Kawano",
-                            "country": "JPN"
+                            "country": "JPN",
+                            "status":1,
+                            "medal":true
                         },
                         "4": {
                             "name": "Massimo Stano",
-                            "country": "ITA"
+                            "country": "ITA",
+                            "status":1,
+                            "medal":true
                         },
                         "5": {
                             "name": "Miguel Ángel López",
-                            "country": "ESP"
+                            "country": "ESP",
+                            "status":-1,
+                            "medal":false
                         },
                         "6": {
                             "name": "Christopher Linke",
-                            "country": "GER"
+                            "country": "GER",
+                            "status":-1,
+                            "medal":false
                         },
                         "7": {
                             "name": "Xianghong He",
-                            "country": "CHN"
+                            "country": "CHN",
+                            "status":1,
+                            "medal":false
                         },
                         "8": {
                             "name": "Aurelien Quinion",
-                            "country": "FRA"
+                            "country": "FRA",
+                            "status":-1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Massimo Stano",
+                            "country": "ITA"
+                        },
+                        "2": {
+                            "name": "Masatora Kawano",
+                            "country": "JPN"
+                        },
+                        "3": {
+                            "name": "Perseus Karlström",
+                            "country": "SWE"
+                        },
+                        "4": {
+                            "name": "Brian Daniel Pintado",
+                            "country": "ECU"
+                        },
+                        "5": {
+                            "name": "Xianghong He",
+                            "country": "CHN"
+                        },
+                        "6": {
+                            "name": "Evan Dunfee",
+                            "country": "CAN"
+                        },
+                        "7": {
+                            "name": "Caio Bonfim",
+                            "country": "BRA"
+                        },
+                        "8": {
+                            "name": "Eider Arévalo",
+                            "country": "COL"
                         }
                     }
                 },
