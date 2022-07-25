@@ -1028,50 +1028,50 @@
                         "1": {
                             "name": "Athing Mu",
                             "country": "USA",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "Keely Hodgkinson",
                             "country": "GBR",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "3": {
                             "name": "Raevyn Rogers",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Natoya Goule",
                             "country": "JAM",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Habitam Alemu",
                             "country": "ETH",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Diribe Welteji",
                             "country": "ETH",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Rose Mary Almanza",
                             "country": "CUB",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Jemma Reekie",
                             "country": "GBR",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -1499,57 +1499,57 @@
                         "Los 5000 metros serán otra batalla africana donde, según nuestro modelo, solo el noruego Jakob Ingebrigtsen y el canadiense Mohammed Ahmed podrían decir algo fuera de los corredores de África. Acorde al pronóstico, el etíope Berihu Aregawi se llevaría el oro. Aregawi es el recordista mundial de los 5 kilómetros en carretera y tiene este año la 3ra marca del año. Sin embargo, no estuvo en el listado final . El noruego Ingebrigtsen es visto como el siguinte favorito, este año tiene una sola carrera cuyo tiempo, 13:02.03, la ubica en el lugar 14 del año. El año pasado lideró el listado mundial con 12:48.45.  El siguiente en el pronóstico es el etíope Yomif Kejelcha que tiene la 4ta marca del año. A ellos les sigue el ugandés Joshua Cheptegei que es el actual campeón olímpico.",
                         "Fuera del pronóstico de medallas hay un grupo de ilustres corredores de los cuales cualquiera puede cambiar el resultado predicho. El etíope Selemon Barega es el subcampeón mundial de Doha y tiene el 5to tiempo del año. El canadiense Mohammeda Ahmed es el subcampeón olímpico y bronce mundial de Doha y tiene el 6to tiempo del año. El keniano Nicholas Kipkorir es el líder de la temporada."
                     ],
-                    "prediction": {    
+                    "prediction": {
                         "1": {
                             "name": "Jakob Ingebrigtsen",
                             "country": "NOR",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "Yomif Kejelcha",
                             "country": "ETH",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Joshua Cheptegei",
                             "country": "UGA",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Selemon Barega",
                             "country": "ETH",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Mohammed Ahmed",
                             "country": "CAN",
-                            "status":2,
-                            "medal":false
+                            "status": 2,
+                            "medal": false
                         },
                         "6": {
                             "name": "Nicholas Kipkorir",
                             "country": "KEN",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Telahun Haile Bekele",
                             "country": "ETH",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Grant Fisher",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         }
                     },
-                    "result": {    
+                    "result": {
                         "1": {
                             "name": "Jakob Ingebrigtsen",
                             "country": "NOR"
@@ -1897,50 +1897,50 @@
                         "1": {
                             "name": "Jasmine Camacho-Quinn",
                             "country": "PUR",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Kendra Harrison",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Britany Anderson",
                             "country": "JAM",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "4": {
                             "name": "Tobi Amusan",
                             "country": "NGR",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "5": {
                             "name": "Alia Armstrong",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Danielle Williams",
                             "country": "JAM",
-                            "status":2,
-                            "medal":false
+                            "status": 2,
+                            "medal": false
                         },
                         "7": {
                             "name": "Cindy Sember",
                             "country": "GBR",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Megan Tapper",
                             "country": "JAM",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -2473,50 +2473,50 @@
                         "1": {
                             "name": "Estados Unidos",
                             "country": "USA",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "2": {
                             "name": "Canadá",
                             "country": "CAN",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "3": {
                             "name": "Jamaica",
                             "country": "JAM",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Nigeria",
                             "country": "NIG",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Italia",
                             "country": "ITA",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Ghana",
                             "country": "GHA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Reino Unido",
                             "country": "GBR",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "8": {
                             "name": "Francia",
                             "country": "FRA",
-                            "status":2,
-                            "medal":false
+                            "status": 2,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -3092,50 +3092,50 @@
                         "1": {
                             "name": "Malaika Mihambo",
                             "country": "GER",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "Ese Brume",
                             "country": "NGR",
-                            "status":2,
-                            "medal":true
+                            "status": 2,
+                            "medal": true
                         },
                         "3": {
                             "name": "Ivana Vuleta",
                             "country": "SRB",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Maryna Bekh-Romanchuk",
                             "country": "UKR",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Khaddi Sagnia",
                             "country": "SWE",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Quanesha Burks",
                             "country": "USA",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Brooke Buschkuehl",
                             "country": "AUS",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Lorraine Ugen",
                             "country": "GBR",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -4448,50 +4448,50 @@
                         "1": {
                             "name": "Daisuke Matsunaga",
                             "country": "JPN",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "2": {
                             "name": "Tomohiro Noda",
                             "country": "JPN",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Masatora Kawano",
                             "country": "JPN",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "4": {
                             "name": "Massimo Stano",
                             "country": "ITA",
-                            "status":1,
-                            "medal":true
+                            "status": 1,
+                            "medal": true
                         },
                         "5": {
                             "name": "Miguel Ángel López",
                             "country": "ESP",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "6": {
                             "name": "Christopher Linke",
                             "country": "GER",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Xianghong He",
                             "country": "CHN",
-                            "status":1,
-                            "medal":false
+                            "status": 1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Aurelien Quinion",
                             "country": "FRA",
-                            "status":-1,
-                            "medal":false
+                            "status": -1,
+                            "medal": false
                         }
                     },
                     "result": {
@@ -4932,35 +4932,85 @@
                     "prediction": {
                         "1": {
                             "name": "Damian Warner",
-                            "country": "CAN"
+                            "country": "CAN",
+                            "status": -1,
+                            "medal": false
                         },
                         "2": {
                             "name": "Kevin Mayer",
-                            "country": "FRA"
+                            "country": "FRA",
+                            "status": 1,
+                            "medal": true
                         },
                         "3": {
                             "name": "Pierce Lepage",
-                            "country": "CAN"
+                            "country": "CAN",
+                            "status": 1,
+                            "medal": true
                         },
                         "4": {
                             "name": "Ashley Moloney",
-                            "country": "AUS"
+                            "country": "AUS",
+                            "status": -1,
+                            "medal": false
                         },
                         "5": {
                             "name": "Zachery Ziemek",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": 1,
+                            "medal": true
                         },
                         "6": {
                             "name": "Ayden Owens-Delerme",
-                            "country": "PUR"
+                            "country": "PUR",
+                            "status": 1,
+                            "medal": false
                         },
                         "7": {
                             "name": "Lindon Victor",
-                            "country": "GRN"
+                            "country": "GRN",
+                            "status": 1,
+                            "medal": false
                         },
                         "8": {
                             "name": "Janek Õiglane",
+                            "country": "EST",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Kevin Mayer",
+                            "country": "FRA"
+                        },
+                        "2": {
+                            "name": "Pierce Lepage",
+                            "country": "CAN"
+                        },
+                        "3": {
+                            "name": "Zachery Ziemek",
+                            "country": "USA"
+                        },
+                        "4": {
+                            "name": "Ayden Owens-Delerme",
+                            "country": "PUR"
+                        },
+                        "5": {
+                            "name": "Lindon Victor",
+                            "country": "GRN"
+                        },
+                        "6": {
+                            "name": "Niklas Kaul",
+                            "country": "GER"
+                        },
+                        "7": {
+                            "name": "Maicel Uibo",
                             "country": "EST"
+                        },
+                        "8": {
+                            "name": "Cedric Dubler",
+                            "country": "AUS"
                         }
                     }
                 }
