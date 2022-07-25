@@ -3044,6 +3044,56 @@
                     "prediction": {
                         "1": {
                             "name": "Armand Duplantis",
+                            "country": "SWE",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "2": {
+                            "name": "Christopher Nilsen",
+                            "country": "USA",
+                            "status": 2,
+                            "medal": true
+                        },
+                        "3": {
+                            "name": "Thiago Braz",
+                            "country": "BRA",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "4": {
+                            "name": "Ernest John Obiena",
+                            "country": "PHI",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "5": {
+                            "name": "Renaud Lavillenie",
+                            "country": "FRA",
+                            "status": 2,
+                            "medal": false
+                        },
+                        "6": {
+                            "name": "Menno Vloon",
+                            "country": "NED",
+                            "status":-1,
+                            "medal":false
+                        },
+                        "7": {
+                            "name": "Pål Haugen Lillefosse",
+                            "country": "NOR",
+                            "status":-1,
+                            "medal":false
+                        },
+                        "8": {
+                            "name": "Bo Kanda Lita Baehre",
+                            "country": "GER",
+                            "status":1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Armand Duplantis",
                             "country": "SWE"
                         },
                         "2": {
@@ -3051,28 +3101,28 @@
                             "country": "USA"
                         },
                         "3": {
-                            "name": "Thiago Braz",
-                            "country": "BRA"
-                        },
-                        "4": {
                             "name": "Ernest John Obiena",
                             "country": "PHI"
+                        },
+                        "4": {
+                            "name": "Thiago Braz",
+                            "country": "BRA"
                         },
                         "5": {
                             "name": "Renaud Lavillenie",
                             "country": "FRA"
                         },
                         "6": {
-                            "name": "Menno Vloon",
-                            "country": "NED"
+                            "name": "Oleg Zernikel",
+                            "country": "GER"
                         },
                         "7": {
-                            "name": "Pål Haugen Lillefosse",
-                            "country": "NOR"
-                        },
-                        "8": {
                             "name": "Bo Kanda Lita Baehre",
                             "country": "GER"
+                        },
+                        "8": {
+                            "name": "Ersu Şaşma",
+                            "country": "TUR"
                         }
                     }
                 }
