@@ -2660,35 +2660,85 @@
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
-                            "country": "USA"
+                            "country": "USA",
+                            "status": 2,
+                            "medal": true
                         },
                         "2": {
                             "name": "República Dominicana",
-                            "country": "DOM"
+                            "country": "DOM",
+                            "status": -1,
+                            "medal": false
                         },
                         "3": {
                             "name": "Botswana",
-                            "country": "BOT"
+                            "country": "BOT",
+                            "status": 1,
+                            "medal": false
                         },
                         "4": {
                             "name": "Jamaica",
+                            "country": "JAM",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "5": {
+                            "name": "Trinidad Y Tobago",
+                            "country": "TTO",
+                            "status": 2,
+                            "medal": false
+                        },
+                        "6": {
+                            "name": "Bélgica",
+                            "country": "BEL",
+                            "status": 1,
+                            "medal": true
+                        },
+                        "7": {
+                            "name": "Francia",
+                            "country": "FRA",
+                            "status": 1,
+                            "medal": false
+                        },
+                        "8": {
+                            "name": "Brasil",
+                            "country": "BRA",
+                            "status": -1,
+                            "medal": false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Estados Unidos",
+                            "country": "USA"
+                        },
+                        "2": {
+                            "name": "Jamaica",
                             "country": "JAM"
+                        },
+                        "3": {
+                            "name": "Bélgica",
+                            "country": "BEL"
+                        },
+                        "4": {
+                            "name": "Japón",
+                            "country": "JPN"
                         },
                         "5": {
                             "name": "Trinidad Y Tobago",
                             "country": "TTO"
                         },
                         "6": {
-                            "name": "Bélgica",
-                            "country": "BEL"
+                            "name": "Botswana",
+                            "country": "BOT"
                         },
                         "7": {
                             "name": "Francia",
                             "country": "FRA"
                         },
                         "8": {
-                            "name": "Brasil",
-                            "country": "BRA"
+                            "name": "República Checa",
+                            "country": "CZE"
                         }
                     }
                 },
