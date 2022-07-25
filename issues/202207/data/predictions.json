@@ -2941,6 +2941,56 @@
                     "prediction": {
                         "1": {
                             "name": "Malaika Mihambo",
+                            "country": "GER",
+                            "status":2,
+                            "medal":true
+                        },
+                        "2": {
+                            "name": "Ese Brume",
+                            "country": "NGR",
+                            "status":2,
+                            "medal":true
+                        },
+                        "3": {
+                            "name": "Ivana Vuleta",
+                            "country": "SRB",
+                            "status":1,
+                            "medal":false
+                        },
+                        "4": {
+                            "name": "Maryna Bekh-Romanchuk",
+                            "country": "UKR",
+                            "status":1,
+                            "medal":false
+                        },
+                        "5": {
+                            "name": "Khaddi Sagnia",
+                            "country": "SWE",
+                            "status":1,
+                            "medal":false
+                        },
+                        "6": {
+                            "name": "Quanesha Burks",
+                            "country": "USA",
+                            "status":1,
+                            "medal":false
+                        },
+                        "7": {
+                            "name": "Brooke Buschkuehl",
+                            "country": "AUS",
+                            "status":1,
+                            "medal":false
+                        },
+                        "8": {
+                            "name": "Lorraine Ugen",
+                            "country": "GBR",
+                            "status":-1,
+                            "medal":false
+                        }
+                    },
+                    "result": {
+                        "1": {
+                            "name": "Malaika Mihambo",
                             "country": "GER"
                         },
                         "2": {
@@ -2948,28 +2998,28 @@
                             "country": "NGR"
                         },
                         "3": {
-                            "name": "Ivana Vuleta",
-                            "country": "SRB"
+                            "name": "Leticia Oro Melo",
+                            "country": "BRA"
                         },
                         "4": {
-                            "name": "Maryna Bekh-Romanchuk",
-                            "country": "UKR"
-                        },
-                        "5": {
-                            "name": "Khaddi Sagnia",
-                            "country": "SWE"
-                        },
-                        "6": {
                             "name": "Quanesha Burks",
                             "country": "USA"
                         },
-                        "7": {
+                        "5": {
                             "name": "Brooke Buschkuehl",
                             "country": "AUS"
                         },
+                        "6": {
+                            "name": "Khaddi Sagnia",
+                            "country": "SWE"
+                        },
+                        "7": {
+                            "name": "Ivana Vuleta",
+                            "country": "SRB"
+                        },
                         "8": {
-                            "name": "Lorraine Ugen",
-                            "country": "GBR"
+                            "name": "Maryna Bekh-Romanchuk",
+                            "country": "UKR"
                         }
                     }
                 },
