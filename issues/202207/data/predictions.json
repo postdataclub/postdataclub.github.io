@@ -1449,38 +1449,38 @@
                         "Los 5000 metros serán otra batalla africana donde, según nuestro modelo, solo el noruego Jakob Ingebrigtsen y el canadiense Mohammed Ahmed podrían decir algo fuera de los corredores de África. Acorde al pronóstico, el etíope Berihu Aregawi se llevaría el oro. Aregawi es el recordista mundial de los 5 kilómetros en carretera y tiene este año la 3ra marca del año. El noruego Ingebrigtsen es visto como el medallista de plata, este año tiene una sola carrera cuyo tiempo, 13:02.03, la ubica en el lugar 14 del año. El año pasado lideró el listado mundial con 12:48.45.  El tercer lugar se pronostica para el etíope Yomif Kejelcha que tiene la 4ta marca del año.",
                         "Fuera del pronóstico de medallas hay un grupo de ilustres corredores de los cuales cualquiera puede cambiar el resultado predicho. El estadounidense Joshua Cheptegei es el actual campeón olímpico. El etíope Selemon Barega es el subcampeón mundial de Doha y tiene el 5to tiempo del año. El canadiense Mohammeda Ahmed es el subcampeón olímpico y bronce mundial de Doha y tiene el 6to tiempo del año. El keniano Nicholas Kipkorir es el líder de la temporada."
                     ],
-                    "prediction": {
+                    "prediction": {    
                         "1": {
-                            "name": "Berihu Aregawi",
-                            "country": "ETH"
-                        },
-                        "2": {
                             "name": "Jakob Ingebrigtsen",
                             "country": "NOR"
                         },
-                        "3": {
+                        "2": {
                             "name": "Yomif Kejelcha",
                             "country": "ETH"
                         },
-                        "4": {
+                        "3": {
                             "name": "Joshua Cheptegei",
                             "country": "UGA"
                         },
-                        "5": {
+                        "4": {
                             "name": "Selemon Barega",
                             "country": "ETH"
                         },
-                        "6": {
+                        "5": {
                             "name": "Mohammed Ahmed",
                             "country": "CAN"
                         },
-                        "7": {
+                        "6": {
                             "name": "Nicholas Kipkorir",
                             "country": "KEN"
                         },
+                        "7": {
+                            "name": "Telahun Haile Bekele",
+                            "country": "ETH"
+                        },
                         "8": {
-                            "name": "Birhanu Balew",
-                            "country": "BRN"
+                            "name": "Grant Fisher",
+                            "country": "USA"
                         }
                     }
                 }
