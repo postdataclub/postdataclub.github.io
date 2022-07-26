@@ -186,15 +186,15 @@
         },
         {
             "event": "atl_4x400m",
+            "sex": "mixed"
+        },
+        {
+            "event": "atl_4x400m",
             "sex": "female"
         },
         {
             "event": "atl_4x400m",
             "sex": "male"
-        },
-        {
-            "event": "atl_4x400m",
-            "sex": "mixed"
         }
     ],
     "schedule": {
@@ -345,6 +345,10 @@
         "day-22": {
             "events": [
                 {
+                    "event": "atl_35km",
+                    "sex": "female"
+                },
+                {
                     "event": "atl_jab",
                     "sex": "female"
                 },
@@ -358,10 +362,6 @@
                 },
                 {
                     "event": "atl_400v",
-                    "sex": "female"
-                },
-                {
-                    "event": "atl_35km",
                     "sex": "female"
                 }
             ]
@@ -397,7 +397,7 @@
         "day-24": {
             "events": [
                 {
-                    "event": "atl_per",
+                    "event": "atl_35km",
                     "sex": "male"
                 },
                 {
@@ -429,7 +429,7 @@
                     "sex": "male"
                 },
                 {
-                    "event": "atl_35km",
+                    "event": "atl_per",
                     "sex": "male"
                 }
             ]
@@ -838,7 +838,7 @@
                         "La dominicana Marileidy Paulino es subcampeona olímpica de Tokio y es la líder de la temporada. Ella es la favorita para ganar el oro de nuestro algoritmo. Pero la segunda favorita según nuestro modelo, la bahamesa Shaunae Miller-Uibo no se lo pondrá fácil. Shaunae es la actual campeona olímpica y subcampeona mundial al aire libre en Doha y campeona mundial bajo techo en Belgrado, además posee la tercera marca de la temporada. La jamaicana Stephenie Ann Mcpherson fue 4ta en Tokio y 6ta en Catar, fue 3ra en el Campeonato Mudia de 2013 y es la tercera del ranking mundial aunque este año no ha podido bajar de los 50 segundos.",
                         "Según las marcas de la temporada tienen grandes opciones la jamaicana Charokee Young que tiene el 2do tiempo del año al aire libre y también la estadounidense Tahita Digss que es la 9na favorita según el modelo pero tiene la 4ta marca del año. Paulino, Young, Miller-Uibo y Diggs son las únicas que han corrido por debajo de los 50 segundos en la temporada al aire libre."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "La bahamesa Shaunae Miller-Uibo hizo valer el peso de la historia y demostró que no era campeona olímpica y subcampeona mundial por casualidad. Miller-Uibo paró los relojes con el mejor tiempo del año y se vistió de oro. A la dominicana Marileidy Paulino, quien dominó toda la temporada, no le alcanzó esta vez y se tuvo que conformar con un segundo lugar. La corredora de barbados Sada Williams estuvo en el mejor día de su vida y con un sensacional tiempo de 49.75 segundos estableció nuevo récord nacional y obtuvo una merecidísima medalla de bronce.",
                         "Entre las otras notables que no llegarón a alcanzar las medallas estuvo la jamaicana Stephenie Ann Mcpherson a la que el modelo daba como bronce. Cómo buen resultado si se puede catalogar el 6to lugar de la dominicana Fiordaliza Cofil."
                     ],
@@ -931,7 +931,7 @@
                         "Michael Norman posee las dos mejores marcas de la temporada. El estadounidense es el favorito al oro en nuestro pronóstico.  En 2do lugar se pronostica que estará el granadino Kirani James que fue bronce en Tokio, campeón en Londres 2012 y subcampeón en Río 2016 mientras que en mundiales fue bronce en Beijing 2015 y campeón en Daegu 2011. Este año posee la 4ta mejor marca al aire libre. Para el 3er lugar se vaticina al también norteamerica Michael Cherry que viene con la 10ma marca del año.",
                         "Los estadounidenses Champion Allison y Randolph Rossestán también entre los grandes candidatos a medallas. Allison tiene el 3er tiempo del año y Ross el 5to. Entre los cuatro estadounidenses y James y el bahamés Steven Gardiner están las 12 mejores marcas de la temporada. Otro que no se puede dejar fuera de las posibilidades es el sudafricano Wayde Van Niekerk, que es el actual recordista mundial pero lleva un tiempo luchando por retronar luego de una lesión de hace algunos años. Se sentirá la ausencia del mencionado Gardiner, que es el actual campeón olímpico y mundial y que tiene el 7mo y 8vo tiempos del año. Una lesión en los últimos días le impedirá luchar por revalidar su título. Inicialmente, en nuestro pronostico, era el 2do favorito. "
                     ],
-                    "analysis":[
+                    "analysis": [
                         "En una carrera sobre lo discreto Michael Norman reafirmó que era el líder de la temporada y se llevó el oro. El estelarísimo granadino Kirani James añadió otra medalla a su colección, esta vez una plata. Ellos dos era el pronóstico para oro y plata. Por su parte, el británico Matthew Hudson-Smith resistió el cierre del estadounidense  Champion Allison, para obtener una merecida medalla de bronce y así mejorar con creces su vaticinio de 6to lugar.",
                         "El recordista del mundo, Wayde Van Niekerk, logró llegar a la final pero aún no logra el estdo de forma que lo hizo el mejor corredor de 400 metros."
                     ],
@@ -1032,6 +1032,10 @@
                         "El modelo pronostica que se repetirá exactamente el mismo podio de los Juegos olímpicos de Tokio: la estadounidense Athing Mu, oro, la británica Keely Hodgkinson, plata y la también estadounidense Raevyn Rogers, bronce. Mu es la líder de la temporada con las dos mejores marcas del año. Hodgkinson posee la 7ma y la 8va, Rogers la 9na. Todas estas marcas están entre 1.57:00 y 1.58.00.",
                         "Fuera de las 8 primeras queda la estadounidense Ajee Wilson que tiene la 3ra marca del año y el modelo la sitúa como la 10ma favorita. Asimismo está la keniana Mary Moraa a quien el modelo ve 14ta pero ella ha corrido el 4to y 6to mejor tiempo del año. Estas marcas también están por debajo de 1.58.00. Por debajo de 1.59.00 han corrido, entre las probables finalistas del pronóstico, la etíope Diribe Welteji, la cubana Rose Mary Almanza y la británica Jemma Reekie."
                     ],
+                    "analysis": [
+                        "Los dos primeros lugares en los Juegos Olímpicos de Tokio en los 800 metros planos femeninos se repitieron ahora en Oregón. La estadunidense Athing Mu reafirmó su liderato de la temporada y se colocó en lo más alto del podio. Mientras tanto, la británica Keely Hodgkinson le siguió los pasos con la medalla de plata. La keniana Mary Moraa si sorprendió pues ni siquiera los pronósticos la daban como finalista. Sin embargo, Moraa con unos últimos metros de carrera sensacionales se llevó el metal bronceado",
+                        "La estadunidense  Raevyn Rogers se quedó fuera del podio y le tocó conformarse con un sexto lugar. La cubana Rose Mary Almanza, quien traía marcas que le daban pronóstico para ubicarse entre las ocho punteras mundiales, ni siquiera paso de primera fase."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Athing Mu",
@@ -1123,7 +1127,7 @@
                         "El modelo ofrecía un inesperado candidato para el primer lugar. El británico Elliot Giles entraría en las cábalas de pocos cuando tiene un registro de 1.44.05 como mejor marca personal y un 1.45.94 como mejor marca del año. Sin embargo, el británico no estará finalmente en competencia y eso lo saca de los pronósticos. Más sentido tiene el siguiente favorito, Peter Bol, quien terminó en 4to lugar en Tokio y este año ha hecho lo mejor de su vida con 1.44.00. En el siguiente puesto aparece el francés Gabriel Tual. El francés ya fue finalista en Tokio y este año también hizo su mejor marca personal con 1.44.43. A Tual le sigue su compatriota Benjamin Robert que es uno de los 6 corredores que esta temporada han bajado del 1.44.00. Robert hizo su mejor marca de por vida en París cuando corrió para el primer lugar con marca de 1.43.75. En esta misma carrera fue donde Bol y Tual hicieron sus marcas personales quedando en 2do y 3er lugar respectivamente",
                         "El canadiense Marcom Arop, finalista en Doha, es tercero del listado del año y puede sorprender. El marroquí Moad Zahafi que se pronostica 8vo y tiene la 4ta marca del año  también podría estar en el podio. Hay un grupo de otros corredores que no fueron favorecidos por el algoritmo de pronósticos pero que no sería sopresa verlos entre los finalistas o en el podio: el británico Max Burgin que tiene la mejor marca del año, el keniano Wyclife Kinyamal Kisasy que sigue a Burgin con la segunda marca de la temporada,  el argelino Djamel Sedjati o el keniano Emmanuel Waayonyi todos en el Top10 del año."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "En una carrera muy táctica, el keniano Emmanuel Kipkurui Korir regresó a planos estelares y se alzó hasta lo más alto del podio. El argelino  Djamel Sedjati, quien en semifinales dominó su hit sin muchas complicaciones, fue el acreedor de la medalla de plata con un cierre de lujo. El canadiense Marco Arop, tras una escapada temprana empezando la segunda vuelta se mantuvo firme, y aunque perdió algo de fuerzas llegando a los últimos 50 metros, se llevó un merecido bronce.",
                         "Aquí los pronosticados como medallistas quedaron distantes con Bol y Tual en los lugares 6to y 7mo, mientras que Robert ni siquiera llegó a la final."
                     ],
@@ -1420,7 +1424,7 @@
                         "Nada asombra que el modelo de pronóstico proponga un podio africano para los 5000 metros femeninos. La que da favorita para el oro es la etíope Gudaf Tsegay. La etíope es la medallista de bronce de Tokio y tiene la 4ta marca del año. En segundo lugar se propone a la keniana Beatrice Chebet que este año ganó el campeonato africano. La también etíope Ejgayehu Taye es el pronóstico para el 3er lugar. Taye tiene la mejor marca del año.",
                         "Hay tres corredoras que no fueron pronosticadas entre las 8 primeras pero que pueden ser fácilmente las campeonas. En primer lugar, la holandesa Sifan Hassan  que es la campeona olímpica actual, aunque este año solo tiene una carrera registrada. A la holandesa el algoritmo la ubica en un lugar 13. La etíope Letesenbet Gidey tiene la 2da marca de la temporada pero el modelo la da como 9na favorita. La keniana Margaret Chelimo Kipkemboi es la actual subcampeona del mundo y el modelo la sitúa como 14ta favorita. Además de estas tres corredoras, hay que observar a la noruega Karoline Bjerkeli Grøvdal como una que puede romper la hegemonía africana. Grøvdal es situada como 5ta favorita por el algoritmo y posee el 6to mejor tiempo del año."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "Una estupenda carrera de equipo realizada por las etíopes les valió para llevarse dos de las tres medallas, donde la favorita Gudaf Tsegay consiguió el oro y Dawit Seyaum el bronce. La actual campeona africana, Beatrice Chebet, con unos formidables últimos 200 metros, se interpuso entre las etíopes, alcanzado la medalla de plata. Tsegay y Chebet era las pronosticada para oro y plata.",
                         "La actual campeona olímpica, la holandesa Sifan Hassan, esta vez no pudo venir desde atrás y aunque en la última vuelta estuvo casi todo el tiempo en la punta del pelotón se agotó a falta de 70 metros. La recordista mundial, Letesenbet Gidey, quien ya había ganado los 10000 metros, aparentemente sirvió de liebre y, aunque no terminó bien posicionada para la recta final, obtuvo el quinto lugar."
                     ],
@@ -1514,6 +1518,10 @@
                     "previa": [
                         "Los 5000 metros serán otra batalla africana donde, según nuestro modelo, solo el noruego Jakob Ingebrigtsen y el canadiense Mohammed Ahmed podrían decir algo fuera de los corredores de África. Acorde al pronóstico, el etíope Berihu Aregawi se llevaría el oro. Aregawi es el recordista mundial de los 5 kilómetros en carretera y tiene este año la 3ra marca del año. Sin embargo, no estuvo en el listado final . El noruego Ingebrigtsen es visto como el siguinte favorito, este año tiene una sola carrera cuyo tiempo, 13:02.03, la ubica en el lugar 14 del año. El año pasado lideró el listado mundial con 12:48.45.  El siguiente en el pronóstico es el etíope Yomif Kejelcha que tiene la 4ta marca del año. A ellos les sigue el ugandés Joshua Cheptegei que es el actual campeón olímpico.",
                         "Fuera del pronóstico de medallas hay un grupo de ilustres corredores de los cuales cualquiera puede cambiar el resultado predicho. El etíope Selemon Barega es el subcampeón mundial de Doha y tiene el 5to tiempo del año. El canadiense Mohammeda Ahmed es el subcampeón olímpico y bronce mundial de Doha y tiene el 6to tiempo del año. El keniano Nicholas Kipkorir es el líder de la temporada."
+                    ],
+                    "analysis": [
+                        "La ausencia del recordista mundial Berihu Aregawi, abrió más posibilidades a una carrera que de por si se sabía reñida. El noruego Jakob Ingebrigtsen dominó la última parte de una carrera que fue lenta. Su sprint final le fue suficiente para conquistar el metal dorado que le fue esquivo en los 1500 metros. Ante la ausencia de Aregawi, Ingebrigtsen era el principal favorito según nuestros vaticicios. El joven corredor keniano de apenas 21 años, Jacob Krop, se llevó el segundo puesto y esto si no estaba en pronósticos. El bronce del uganés Oscar Chelimo tampo estaba previsto.",
+                        "El guatemalteco Luis Grijalva corrió lo mejor de su temporada y volvió a sorprender terminando en la cuarta posición. El actual campeón olímpico Joshua Cheptegei, se vio muy distante de sus mejores registros quedando en un rezagado noveno lugar. Otros favoritos como el etíope Yomif Kejelcha, el canadiense Mohammed Ahmed, el estadounidense Grant Fisher o el keniano Nicholas Kipkorir lograron entrar entre los ocho primeros."
                     ],
                     "prediction": {
                         "1": {
@@ -1909,6 +1917,10 @@
                         "El trío que se pronostica como medallistas es el que posee, en diferente orden, las tres mejores marcas del año. La puertoriqueña Jasmine Camacho-Quinn tiene el 3er tiempo del año y se cree que será la campeona, la estadounidense Kendra Harrison es la que mejor ha corrido en el año y se piensa que será plata, mientras que su compatriota Alaysha Johnson tiene la 2da marca de la temporada y se predice como medallista de bronce. Jasmine es la actual campeona olímpica. Kendra Harrison es la recordista mundial y subcampeona olímpica de Tokio y subcampeona mundial de Doha. ",
                         "Entre las restantes destaca la nigeriana Tobi Amusan que se quedó a las puertas de las medallas tanto en Doha como en Tokio pues en ambas lides concluyó en la cuarta posición."
                     ],
+                    "analysis": [
+                        "Lo de Tobi Amusan nadie lo esperaba. Todos los ojos, hasta antes de la semifinal, estaban sobre la puertoriqueña Jasmine Camacho-Quinn y la estadounidense Kendra Harrison, Sin embargo, Tobi se presentó de una forma estratosférica. En semifinales la nigeriana, con 12.12, rompió el récord del mundo que poseía la estadunidense Kendra Harrison (12.20). Eso convirtió a Amusan en la obvia favorita para la final. Y cumplió. Ganó el oro con 12.06, lástima que corrió con viento a favor no permitido y la marca, que hubiese sido su segundo récord mundial en el día, no se homologará. La carrera fue tan rápida que el tiempo de la 6to lugar, la jamaicana Danielle Williams, le hubiese bastado para ganar el título en seis de los mundiales previos.",
+                        "La jamaicana Britany Anderson y la puertorriqueña Jasmine Camacho-Quinn entraron con el mismo tiempo, pero la jamaicana entró primero por photo finish y se quedó con la plata.  Kendra Harrison vivió una jornada amarga, perdió su récord mundial en semifinales y quedó descalificada en la final."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Jasmine Camacho-Quinn",
@@ -2006,7 +2018,7 @@
                         "Hace unos días Sydney Mclaughlin volvió a romper el récord del mundo ahora con 51.41. Ella ya es la campeona olímpica y quiere este año ganar el título mundial, pues en Doha fue segunda. Nuestros pronósticos dicen que lo logrará. El segundo lugar se pronostica para Femke Bol. La holandesa fue tercera en Tokio y este año solo Mclaughlin ha corrido más rápido que ella. El tercer lugar se pronostica para la estadounidense Dalilah Muhammad, ella es la actual campeona del mundo y subcampeona olímpica. Muhammad, ha estado lesionada y no ha estado tan rápida este año, su mejor tiempo es un 53.88 que clasifica como el 14to tiempo del año. Sin embargo si llega en forma a Oregón es un peligro para cualquiera, incluida Mclaughlin",
                         "Pudieran asaltar la parte baja del podio tanto las estadounidenses Shamier Little y Britton Wilson como la jamaicanas Janieve Russell, las tres con tiempos entre 53 y 54 segundos."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "No fue sorpresa para nadie que en la final de los 400 con vallas hubiera tantas estadunidenses. La fuera de serie, Sydney Mclaughlin, quien hace unos días había roto el récord mundial, lo volvió a hacer bajándole casi un segundo a su anterior récord. Ahora paró los relojes con un tiempo estratosférico de 50.68 segundos. La holandesa Femke Bol resistió la presión de las estadunidenses y acabó con sus sueños de podio completo. La estadunidense Dalilah Muhammad, se llevó el bronce marcando lo mejor de su temporada. Ese fue exactamente el podio que pronosticamos.",
                         "A Muhammad le siguieron sus compatriotas Shamier Little y Britton Wilson mostrando el poderío de los Estados Unidos en las vallas largas femeninas. También sorprendió gratamente que la panameña Gianna Woodcruff se colara en la final terminando con un buen 7mo lugar en una carrera que fue de lujo."
                     ],
@@ -2398,7 +2410,7 @@
                         "Cuando se pronostica que Jamaica barrerá con las medallas en los 100 metros planos, la única manera de ser consistentes es que también se le considere como la probable granadora del relevo 4x100 metros femenino. En esa misma línea, siguiendo las predicciones en 100 y 200 metros, el candidato a la plata es el relevo estadounidense. Asimismo, la candidata al bronce es la cuarteta del Reino Unido. Estos tres países dominaron los relevos en Doha y Tokio. Jamaica ganó en ambas ocasiones. Las británicas fueron segundas en Doha y las norteamericanas en Tokio.",
                         "Otros relevos que suelen presentar fuerza habitualmente son los de Nigeria, Polonia y Alemania."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "Las magníficas actuaciones individuales de las jamaicanas parecían abrir el camino para que reinaran en el relevo corto. Sin embargo, se vieron superadas por un equipo estadunidense que, sin contar con las grandes estrellas, realizó todos los cambios perfectos. Aunque la jamaicana Shericka Jackson tuvo un cierre fenomenal, la chica del último cambio estadunidense, Twanisha Terry, se mantuvo firme para derrocar a las favoritas y dar la primera sorpresa en los relevos cortos.",
                         "La descalificación del equipo británico tras la lesión de Dina Asher-Smith abrió las puertas del broncce a las alemanas, que corrieron lo mejor de su temporada. Fue también una muy buena competencia para las cuartetas de Nigeria y España, ambas marcando récord nacional para sus respectivos países."
                     ],
@@ -2493,7 +2505,7 @@
                         "Para Estados Unidos se predijo que ocuparía los tres primeros lugares de los 100 metros planos y los cuatro primeros lugares de los 200 metros planos. Entonces sería de locos no predecir que ganarán el 4x100 metros masculino. Detrás de los estadounidenses es difícil decidirse entre Canadá y Jamaica. Los canadienses tienen un relevo más establecido y sus corredores encabezados por Andre De Grasse y Aaron Brown tienen buenos pronósticos para 100 y 200. Además, los canadienses son los actuales subcampeones olímpicos de hace un año. Para Jamaica, que siempre corre bien queda el pronóstico del bronce. La fuerza de los caribeños debe estar en Oblique Seville y Yohan Blake.",
                         "Otros relevos a tener en cuenta son Italia y China. Los italianos ganaron la olimpiada y tendrán de nuevo al campeón olímpico de los 100 metros, Marcell Jacobs a la cabeza. Por su parte china, que ganó el bronce en Tokio, tendrá de principal figura a Bingtian Su. "
                     ],
-                    "analysis":[
+                    "analysis": [
                         "Estados Unidos se presentaba como el favorito indiscutible y coqueteó con el título. Los sueños dorados de los estadunidenses fueron frustrados por un último cambio poco preciso y un remate de un histórico de la velocidad, el canadiense Andre De Grasse. El tiempo de los canadienses pasó a liderar los tiempos de la temporada y completó una jornada donde, en los relevos cortos, los países que dominaron el podio completo de los 100 metros planos no pudieron coronarse.",
                         "Jamaica se reforzó para la final con una leyenda de la velocidad jamaiquina, Yohan Blake, pero ni Blake ni nadie pudo cambiar el rumbo de la carrera y se tuvieron que conformar con un cuarto puesto tras la cuarteta del Reino Unido. En la carrera, a excepción de Francia que fue descalificado, todos los equipos corrieron lo mejor de su temporada."
                     ],
@@ -2594,6 +2606,10 @@
                         "Siguiendo el pronóstico de los 400 metros planos y los 400 metros con vallas, los dos primeros lugares del relevo masculino 4x400 metros deben estar entre Jamaica y Estados Unidos. Las norteamericanas han ganado las últimas dos grandes competencias: el mundial y la olimpiada, por eso pronosticamos que ellas se llevarán el oro. Jamaica fue 3ra tanto en Doha como en Tokio, pero esta vez creemos que incluso puede llegar a poner en apuros a Estados Unidos. Las caribeñas son el pronóstico para subtítulo. Polonia es el otro país que ha acompañado a estadounidenses y jamaicanas en los podios de Japón y Catar. En ambas ocasiones fueron subcampeonas pero creemos que esta ocasión solo les alcanzará para llegar hasta el bronce.",
                         "Otros contendientes que pueden presentar fuerza son los relevos de Reino Unido, Bahamas y Países Bajos."
                     ],
+                    "analysis":[
+                        "Estados unidos cumplió con su favoritismo en el relevo largo y se adjudicó la medalla de oro con un registro magnífico, el cuarto mejor tiempo de toda la historia. Aquí Allyson Félix, que corrió en las semifinales, se llevó ahora si su último título mundial y su medalla número 20 en estas lides. ¡Qué clase de corredora la Felix!  Jamaica, por su parte, corriendo lo mejor de su temporada consiguió la medalla de plata. El cuarteto británico completó la cima.",
+                        "Un equipo habitual en el podio de esta competencia, Polonia, no estuvo esta vez  entre las finalistas. Las polacas quedaron con el décimo tiempo en las clasificatorias, lo que impidió que avanzaran a la final."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Estados Unidos",
@@ -2684,6 +2700,10 @@
                     "previa": [
                         "El gran favorito para el 4x400 metros masculino es Estados Unidos. Basta mirar los pronósticos en las carreras de 400 metros para darse cuenta de ello. El pronóstico para el segundo lugar es mucho más abierto. La predicción de República Dominicana es arriesgada, pero es un relevo que puede correr bien y dar esa sorpresa de plata que le pronosticamos. Botswana como bronce es otra apuesta. Creemos que los africanos pueden repetir esa misma medalla que ganaron en Tokio.",
                         "Jamaica es uno de los relevos que puede revertir estos pronósticos que consideramos atrevidos. Los jamaicanos siempre tienen el potencial de ser medallistas en cualquier competencia, de hecho son los vigentes subcampeones mundiales. En el caso de los Países Bajos, que son los actuales subcampeones olímpicos, no creemos que puedan repetir una gesta como esa, incluso será complicado que puedan llegar a la final. Por su parte Bélgica, una vez más dependerá de los Borlée y también tendrá dificil repetir el bronce que ganaron en Doha."
+                    ],
+                    "analysis":[
+                        "Estados Unidos realizó el mejor tiempo de la temporada ratificando, a diferencia del 4x100 metros masculino, su condición de favorito. Jamaica se llevó el segundo puesto al igual que lo hizo en el relevo largo femenino. El bronce quedó para los belgas, una vez más con el protagonismo de la familia Borlée",
+                        "Lamentablemente, los dominicanos no pudieron llegar a la final tras ser descalificados en los preliminares. Antes de su descalificación venían haciendo una excelente carrera. Los japones corrieron muy bien y coquetearon con el bronce, estableciendo un nuevo récord nacional."
                     ],
                     "prediction": {
                         "1": {
@@ -3169,6 +3189,10 @@
                         "Armand Duplantis lo ha ganado todo, excepto el título mundial. En Doha, el sueco quedó segundo tras el estadounidense Sam Kendricks, ambos con 5.97. Este año nadie cree que pueda ocurrir de nuevo. Duplantis es el único que ha saltado más de 6 metros, incluyendo el mejor salto de la historia al aire libre, 6.16. Es el favorito del pronóstico para colgarse el oro. El candidato a llevarse la plata es el estadounidense Christopher Nilsen que llegado hasta los 6 metros y tiene otros brincos de 5.93 y 5.92. Nilsen es el subcampeón olímpico y fue bronce en el campeonato mundial de pista cubierta de Belgrado. El brasileño Thiago Braz es el pronóstico para el bronce. Este año ha llegado hasta 5.93 y es el tercero que más ha saltado luego de Duplantis y Nilsen. Braz ganó la olimpiada de Río, fue bronce en Tokio y fue subtitular mundial bajo techo en Belgrado. El brasileño aún no ha ganado una medalla mundial al aire libre.",
                         "Entre los otros candidatos a medallas están el filipino Ernest John Obiena y el alemán Bo Kanda Lita Baehre que son los otros dos pertiguistas que han saltado 4.90 o más. Por supuesto, nadie nunca descontaría lo que puede hacer Renaud Lavillenie que siendo multimedallista olímpico y mundial, no ha podido ganar el título de campeón del mundo y, siendo realistas, parace que esta vez tampoco será. "
                     ],
+                    "analysis": [
+                        "Armand Duplantis se coronó campeón. No podía ser de otro modo. Sin embargo, el fallo temprano sobre 5.87 metros revivió, por apenas un instante, los viejos fantasmas del sueco, quien perdió en el mundial anterior a pesar de haber sido el amplio favorito. Ese fallo fue un punto de inflección en la competencia y el inicio de una secuencia de saltos magistral. Duplantis marcó, como se anticipaba, una clara diferencia entre sus rivales, cuando sus principales competidores quedaron en los 5.94 metros. Primero, ya siendo campeón mundial, rompió el récord para los campeonatos del mundo con 5.06 metros y luego exhibió una marca de otra época, un increíble salto sobre los 6.21 metros. Esa fue la última acción en Oregón y cerró con broche de oro el primer campeonato mundial de atletismo al aire libre efectuado en los Estados Unidos.",
+                        "El estadounidense Christopher Nilsen cumplió su pronóstico de plata con brinco de 5.94. El filipino Ernest John Obiena, también con 5.94 pero con fallos, logró mejorar su marca personal para quedarse con el metal bronceado. El brasileño Thiago Braz y el francés Renaud Lavillenie, dos históricos de la pértiga, quedaron fuera del podio, al no poder pasar de los 5.87 metros."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Armand Duplantis",
@@ -3265,6 +3289,10 @@
                     "previa": [
                         "La alemana Malaika Mihambo es la actual campeona del mundo y olímpica, además tiene la segunda marca de la temporada con 7.09. Ella está pronosticada para repetir en Oregón el título que alcanzó en Doha. La nigeriana Ese Brume es la segunda favorita según el modelo de pronósticos. Tiene la 6ta marca de la temporada con 6.92. Brume se llevó las medallas de bronce en Doha y Tokio, y fue segunda en el mundial bajo techo de Belgrado este año.. La serbia Ivana Vuleta es el pronóstico de bronce.  Vuleta en la temporada bajo techo fue la única que llegó más allá de los 7 metros, 7.06, y se coronó por segunda vez campeona mundial en pista cubierta en Belgrado. La serbia ya sabe lo que es ser bronceada al aire libre pues ganó ese metal en los mundiales del 2015 y 2013.",
                         "Este año la escuadra estadounidense de salto largo se resentirá la ausencia de la histórica del salto largo Brittney Reese, tampoco está inscrita Tara Davis que es una de las tres saltadoras que ha ido más allá de los 7 metros al aire libre en el año,  Monae' Nicholls que tiene el 4to salto al aire libre tampoco fue anunciada, así que las principales posibilidades del equipo norteño caerán sobre Jasmine Moore (6.82) aunque el modelo ve mejores opciones en Quanesha Burks (6.77 aunque tiene un 7.06 con aire a favor). La ucraniana Maryna Bekh-Romanchuk es otra contendiente de fuerza, es la subcampeona mundial de Doha y ha llegado hasta los 6.86 en la temporada. A tener en cuenta también  están la sueca Khaddi Sagnia que ha llegado hasta los 6.95 y la australiana Brooke Buschkuehl que es la líder de la temporada pues hace apenas unos días saltó 7.13. Buschkuehl solo ha saltado dos veces en su vida sobre los 7 metros, la anterior vez fue en el 2016, este año su segundo mejor salto es de 6.61."
+                    ],
+                    "analysis": [
+                        "La alemana Malaika Mihambo mantuvo su título mundial con brinco sobre los 7 metros. En la última ronda saltó 7.12 cuando ya había garantizado el título con su 7.09 de la cuarta ronda. La nigeriana Ese Brume, tmabién soobre los 7 metros, cumplió con su pronóstico y se llevó el segundo lugar. La brasileña Leticia Oro Melo realizó el salto de su vida para colarse en el podio con un meritorio tercer puesto. En su primer salto llegó 6.89 superando por 26 centímetros su marca personal previa. Ya luego no pudo saltar más pues sus otros 5 saltos fueron fouls. Pero esto le alcanzó por apenas un centímetro para la medalla de bronce. Si bien Mihambo y Brume estaban vaticinadas como oro y plata, la brasileña figuraba en el pronóstico en el lugar 23 de todas las analizadas.",
+                        "Se extrañó la presencia de estadounidenses en el podio. Ante la ausencia de Brittney Reese, la mejor ubicada Quanesha Burks a apenas un pelo del bronce. Tampoco resaltaron, como otras veces, la serbia Ivana Vuleta y la ucraniana Maryna Bekh-Romanchuk, que ahora quedaron 7ma y 8va."
                     ],
                     "prediction": {
                         "1": {
@@ -3553,7 +3581,7 @@
                         "En el triple salto los dos mejores saltadores del año, el cubano ahora nacionalizado español Jordan Díaz y el también cubano Andy Díaz, no estarán presentes en el mundial. Esto abre la puerta para que el cubano nacionalizado portugués Pedro Pablo Pichardo pueda intentar ganar su primer título mundial. Pichardo, compitiendo dos subtítulos mundiales al aire libre y uno bajo techo, compitiendo por Portugal ganó este año también el subítulo en pista cubierta. Lo que si logró el año pasado, también bajo bandera portuguesa fue el título olímpico. Nuestros pronósticos dicen que este año podría lograrlo. Otro cubano es el favorito para el tercer lugar en Oregón, Lázaro Martínez, que si representará a Cuba, ganó el título bajo techo superando a Pichardo y tiene la 10ma marca del año al aire libre con 17.30 y lideró la temporada bajo techo con 17.64. Entre estos cuatro cubanos están las 12 mejores marcas al aire libre. El único que, según el modelo, se interpondrá entre Pichardo y Martínez será Hugues Fabrice Zango, de Burundi. Zango es bronce olímpico y mundial y tiene el 15to brinco de la temporada con 17.25.",
                         "Otro que va teniendo una buena temporada son el italiano Andrea Dallavalle que tiene la 13ra (17.28) y 15ta (17.25) marcas del año. El chino Yaming Zhu fue el subcampeón de Tokio y este año brincó hasta 17.22. Por otra parte nunca se puede dejar fuera al equipo estadounidense, sobre todo a Will Claye, que es el actual subcampeón mundial y a Christian Taylor que es el vigente campeón mundial, un título que ha ganado 4 veces a los que suma otros dos títulos olímpicos. "
                     ],
-                    "analysis":[
+                    "analysis": [
                         "El portugués de origen cubano Pedro Pichardo, con dos saltos iniciales muy cercanos a los 18 metros dió un golpe de autoridad. Todos los saltos válidos de Pichardo, que incluso se permitió renunciar al cuarto intento, le habrían bastado para coronarse. Ahora Pichardo suma a su título olímpico el título mundial pues en su palmarés mundial lo mejor que tenía era dos subcampeonatos. El atleta de Burundi, Hugues Fabrice Zango, bronce olímpico y mundial se ubicó segundo desde su primer salto. El chino Yaming Zhu quien fuera el subcampeón olímpico en Tokio se quedó ahora con el metal bronceado. Pichardo y Zango estaban pronosticados como oro y plata, en ese orden, mientras que Zhu tría como vaticinio un 4to lugar.",
                         "El cubano Lázaro Martínez, campeón mundial bajot techo en la temporada, decepcionó y no estuvo a la altura de los pronósticos,  marchándose de la competencia con tres fallos. Él era la última esperanza de medallas para Cuba que por primera ve en la historia se va sin medallas de un campeonato mundial."
                     ],
@@ -4242,7 +4270,7 @@
                         "En la jabalina femenina este año no ha habido una clara dominadora. Varias jabalinistas han lanzado sobre los 63 metros, pero solo 6 han superado los 64 metros y 3 más han ido más allá de los 65 metros. De esta manera en los pronóstico, acorde al modelo, tendrán bastante peso las marcas de 2020 y 2021 donde se superó los 67 metros e incluso se llegó a más de 70 metros. En esta línea el modelo pronostica como campeona a la alemana Christin Hussong, que tiene el 4to registro de la temporada con 64.87. Sin embargo, la alemana no se presentará finalmente. En orden el pronostica favorece a la china Huihui Lyu que ha sido medallista en los últimos tres campeonatos mundiales aunque esta temporada tiene solo una marca registrada y no llega a los 60 metros. La posición siguiente se pronostica para la norteamericana Maggie Malone que es la líder del año con un lanzamiento de 65.73. A ella le sigue la también china Shiying Liu que es la vigente campeona olímpica y subcampeona mundial, Shiying no tiene marca registrada en el año",
                         "El lugar siguiente se pronostica para la polaca Maria Andrejczyk que es la subcampeona olímpica y en el 2021 lanzó por encima de los 71 metros, pero este año apenas ha llegado dos veces hasta 57.53. Hubiera sido interesante ver competir a la cubana Yulenmis Aguilar, que fue de las mejores lanzadoras del mundo en su epoca juvenil y este año tiene la 6ta marca del año pero como otros tantos atletas cubanos no estará en Oregón."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "La competencia se comportó con el mismo matiz de envios pobres que ha caracterizado las últimas competiciones. La australinana Kelsey-Lee Barber realizó el tiro de la temporada para llevarse la presea dorada. Los últimos lanzamientos de Kara Winger y Haruka Kitaguchi, sin ser lanzamientos extraordinarios, dieron un golpe de autoridad para quedarse con las medallas de plata y bronce, por ese orden.",
                         "La favorita de muchos, incluyendo nuestro modelo, era la china Huihui Lyu, sin embargo, con un corto registro de 57.59 metros ni siquiera llego a las finales. El mismo caso fue el de la estadunidense Maggie Malone, que fue pronosticada segunda y se fue de la competencia sin alcanzar apenas los 60 metros."
                     ],
@@ -4337,7 +4365,7 @@
                         "Neeraj Chopra es el actual olímpico y es el que se pronostica como ganador de la medalla de oro. El indio tiene el 5to disparo de la temporada quedando a apenas 6 centímetros de la barrera de los 90 metros. El granadino Anderson Peters, que es el vigente campeón mundial, es el amplio dominador de la temporada donde ha llegado hasta los 93.07 metros. Peters es el pronóstico de segundo lugar. Para el bronce se pronostica a Julian Weber. El alemán hace poco más de un mes lanzó su mejor disparo de por vida, 89,54, con que ancla 7mo en el listado del año.",
                         "Uno que tratará de revertir el pronóstico es el checo Jakub Vadlejch, que es el otro jabalinista que ha superado los 90 metros este año. Vadlejch lanzó el dardo hasta los 90.88 quedando segundo en la misma competencia en que Perters tiró 93.07. Otros dos candidatos a tener en cuenta son el finés Oliver Helander y el trinitario Keshorn Walcott que son los otros dos jabalinistas que han llegado más allá de los 89 metros. Walcott ya conoce lo que es ser medallita olímpico, cogió oro en el 2012 y bronce en 2016, pero aún anda en búsqueda de un metal mundial."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "El granadino Anderson Peters, quien dominó la temporada de principio a fin, se presentó en una forma envidiable con tres lanzamientos por encima de los 90 metros. En su último intento con todo decidido, tiró un excelente disparo que fue la marca final de la competencia, unos tremendos 90.54 metros. El indio Neeraj Chopra, vigente campeón olímpico, con una secuencia de marcas crecientes se adueñó del segundo lugar.",
                         "Esta vez el formidable alemán Julian Weber se tuvo que conformar con un cuarto lugar, al verse superado por el checo Jakub Vadlejch. No obstante, la presencia del checo en el podio no fue sorpresa para nadie pues ya había superado los 90 metros este año."
                     ],
@@ -4634,6 +4662,10 @@
                         "El modelo pronostica un podio totalmente japonés: Daisuke Matsunaga, oro, Tomohiro Noda, plata y Masatora Kawano, bronce. Matsunaga tiene el 2do mejor tiempo de la temporada,  Noda posee el 4to y Kawano el primero. Ellos tres tienen las mejores marcas del año entre los inscritos.",
                         "Entre los rivales a tener en cuenta están el español Miguel Ángel López que, tras los japoneses, tiene la mejor marca entre los inscritos. El italiano Massimo Stano es el otro que les sigue en cuanto a tiempos. El sueco Perseus Karlström no tiene una buena marca en la temporada pero es el primero del ranking mundial."
                     ],
+                    "analysis":[
+                        "Una competencia realmente rápida donde varios atletas consiguieron récords nacionales y personales indistintamente. El sueño del podio completo japonés no se concretó, sin embargo, Masatora Kawano se quedó con la presea plateada. El italiano Massimo Stano, realizó un registro para la historia, consiguiendo un nuevo récord para los campeonatos del mundo. El sueco  Perseus Karlström, fuera de pronósticos, aunque era el mejor del ranking mundia, se apareció con lo mejor de su vida y una buena medalla de bronce que mejoró su curto lugar en los 20 km.",
+                        "Entre el resto de finalistas, destacó por latinoamérica el ecuatoriano Brian Daniel Pintado. También cumplió el chino Xianghong He quien fue 5to mejorando el 7mo lugar que traía como vaticinio según nuestro modelo."
+                    ],
                     "prediction": {
                         "1": {
                             "name": "Daisuke Matsunaga",
@@ -4725,7 +4757,7 @@
                         "Los resultados de la marcha de 35 km van a estar influenciados por la competencia de 20 km pues muchos competidores doblarán con una semana de diferencia. Ello puede incidir en los pronósticos. Según nuestro modelo, la campeona sería la china Shijie Qieyang quien tiene el 4to tiempo del año pero que es la mejor entre las inscritas. A ella le seguiría, en 2do lugar, la peruana Kimberly García. La peruana tiene el 5to tiempo del año. Mientras que en 3er lugar quedaría la japonesa Serena Sonoda que posee la 10ma marca del año.",
                         "Otra de las favoritas sería la china Maocuo Li con la 9na marca del año así como las ecuatorianas Glenda Morejón y Paola Pérez. Se notará la ausencia de las marchistas rusas que tienen 4 de las mejores marcas de la temporada incluyendo las dos mejores. María Pérez, la española que tiene la 3ra mejor marca del año solo correrá los 20km."
                     ],
-                    "analysis":[
+                    "analysis": [
                         "La peruana Kimberly García León se convirtió en la mejor marchista del año con un gran doblete. Ganó los 20km y los 35 km de la marcha, dando no una sino los dos primeros títulos, y medallas en general, para Perú en la historia de los mundiales. García León tenía la quinta mejor marca del año se apareció con un sorprendente registro de 2:39:16, para establecer un nuevo récord para los campeonatos mundiales. La polaca Katarzyna Zdzieblo destrozó su marca personal con una excelente competencia, obteniendo una inesperada medalla de plata. La favorita al oro, la china Shijie Qieyang, se tuvo que conformar con el bronce. Este fue exactamente el mismo podio de los 20km marcha.",
                         "La griega Antigoni Ntrismpioti destrozó el récord nacional pero solo le alcanzó para llegar en 4to lugar. La carrera fue tan excepcional que todas las atletas del primero al undécimo lugar rompieron sus marcas personales."
                     ],
@@ -5122,6 +5154,10 @@
                     "previa": [
                         "Damian Warner ganó el año pasado el título olímpico y superó la barrera de los 9000 puntos. Este año ganó el heptatlón en el campeonato mundial bajo techo de Belgrado y tiene el 2do mejor decatlón del año. El canadiense nunca ha ganado el título mundial y este año quiere lograrlos. Nuestro modelo de pronóstico confía en que lo logrará. El francés Kevin Mayer será su gran rival. Mayer es el recordista del mundo y en Tokio, al regreso de una lesión, fue subcampeón olímpico por segunda vez. Kevin ya sabe lo que es ser campeón mundial tanto al aire libre como en el heptatlón en pista cubierta. Este año hará su primer decatlón en Oregón; el modelo dice que no le alcanzará para superar a Warner pero sí para la medalla de plata. El canadiense Pierce Lepage no ha logrado medallas en un evento importante, terminó 5to tanto en Doha como en Tokio, y esta vez dice el modelo que lo conseguirá. Este es un pronóstico arriesgado pues Lepage no ha hecho ningún decatlón en el año.",
                         "Fuera de los pronosticados como medallistas hay que notar al australiano Ashley Moloney que fue el medallista de bronce en Tokio y al alemán Niklas Kaul que es el vigente campeón mundial, aunque el modelo lo pronostica ahora en el lugar 12. Además de ellos, hay que considerar a los estadounidenses Zachery Ziemek y Kyle Garland (10mo favorito según el pronóstico) que tienen el 3er y 4to mejor decatlón del año. El líder de la temporada, el también estadounidense Garrett Scantling no aparece entre los inscritos por Estados Unidos."
+                    ],
+                    "analysis":[
+                        "El decatlón masculino estuvo matizado por el abandono del favorito de todos, Damian Warner. El canadiense dominaba el primer día y se lesionó en la prueba de 400 metros que cerraba la jornada. El francés Kevin Mayer, segundo favorito y recordista mundial, aprovechó la ausencia de Warner y consiguió la medalla de oro. El canadiense Pierce Lepage al fin logró una medalla en eventos importantes conquistando la plata y mejorando así el bronce que se le pronosticaba en esta ocasión. El estadouniense Zachery Ziemek cerró con un bronce no esperado según los vaticinio.",
+                        "Una mención especial para el puertorriqueño Ayden Owens-Delerme, quien lideró el primer día de competencias pero esto no le fue suficiente para llegar al podio. Ayden, aún con el mejor 1500 metros de todos, debe mejorar mucho en las otras pruebas del segundo día si quiere aspirar a medallas en los grandes eventos mundiales."
                     ],
                     "prediction": {
                         "1": {
