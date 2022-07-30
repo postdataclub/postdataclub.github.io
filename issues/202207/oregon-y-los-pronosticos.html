@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../icon.png">
+
+  <title>Postdata.club - Oregón y los pronósticos</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+  <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+  
+  <!-- Bootstrap core CSS -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/theme.default.min.css">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <link href="../../assets/css/custom.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84667443-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" type="text/css" href="css/local.css">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class="logo logo-responsive" src="../../assets/images/logo.png">
+
+
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Autores <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+              <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+              <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+              <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Géneros <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../../generos/principales.html">Principales</a></li>
+              <li><a href="../../generos/articulos.html">Artículos</a></li>
+              <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+              <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+              <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+              <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+              <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+  <div class="header-pc hidden-xs hidden-sm row">
+    <div class="header-logo col-lg-6 col-md-6">
+      <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+    </div>
+    <div class="header-menu col-lg-3 col-md-3">
+      <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+      </div>
+    </div>
+    <div id="header-submenu" class="header-submenu col-lg-3 col-md-3">
+      <div id="generos" style="display:none" class="submenu">
+        <div class="submenu-header">Por géneros:</div>
+        <div><a href="../../generos/principales.html">Principales</a></div>
+        <div><a href="../../generos/articulos.html">Artículos</a></div>
+        <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+        <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+        <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+        <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+        <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+      </div>
+      <div id="authors" style="display:none" class="submenu">
+        <div class="submenu-header">Por autores:</div>
+        <div><a href="../../equipo/jessica.html">Jessica Dominguez</a></div>
+        <div><a href="../../equipo/ernesto.html">Ernesto Guerra</a></div>
+        <div><a href="../../equipo/saimi.html">Saimi Reyes</a></div>
+        <div><a href="../../equipo/yudivian.html">Yudivian Almeida</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-header row  main-color">
+    <div class="article-news-title">Oregón y los pronósticos</div>
+    <div class="article-news-author">Por <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">29/7/2022</span></div>
+    <div class="article-new-hr"><img src="../../assets/images/rule.png"></div>
+    <div class="article-news-lead">Analizando los resultados</div>
+
+    <!--  <div class="article-news-image">
+                <img src="images/portada.jpg">
+                
+                <div class = "image-info row">
+
+                <div class="image-caption col-lg-9 col-md-9"></div>
+                <div class="image-author col-lg-3 col-md-3">Ilustración: Carolina Holguín</div>
+                </div>
+            </div> -->
+  </div>
+
+  <div class="text-body">
+
+    <div class="text-block">
+      <p>
+        El XVIII certamen mundial de atletismo al aire libre celebrado en Oregón, Estados Unidos, concluyó el pasado domingo 24 de julio. Este es el primer certamen deportivo en el cual pronosticamos la totalidad de los eventos celebrados. En el <a href="http://www.postdata.club/predicciones_tokio_2021/index.html">vaticinio</a> más cercano, los Juegos Olímpicos de Tokio 2020, realizamos los pronósticos de 145 eventos de ellos 43 del atletismo. 
+      </p>
+      <p>
+        En la olimpiada japonesa, el atletismo tuvo 48 finales  y de ellas pronosticamos 43. En Oregón hubo 49 y se <a href="index.html">vaticinaron</a> todas. La diferencia estuvo en que para Tokio no se pronosticaron los cinco relevos y en esta ocasión si, aunque fue un vaticinio basado en criterios expertos. Para el resto de eventos, en ambas ocasiones, utilizamos un modelo basado en técnicas de Inteligencia Artificial a partir de los tiempos y marcas reportados por los atletas asistentes. Para Tokio se tomaron los resultados del período 2018-2021 y para Oregón de 2020-2022. Hubo en cada caso ligeras variaciones de los parámetros del algoritmo.
+      </p>
+      <p>
+        Otra diferencia respecto a Tokio, es que en esta ocasión no solo pronosticamos los medallistas, sino los 8 primeros de cada evento. Esto nos permitió, con un solo modelo de pronósticos, vaticinar también las Tablas por Países tanto de Medallas como de Puntos.
+      </p>
+      <p>
+        Los pronósticos en todos los deportes suelen ser afectados por sorpresas en la competición, y en el atletismo donde suelen aparecer frecuentemente. Estas pueden estar dadas por un atleta con un resultado que nunca había hecho en su carrera o por la lesión de un claro favorito que lo saca de la competición. Ambas situaciones ocurrieron en Oregón.
+      </p>
+    </div>
+
+      <div class="image-block" style="text-align: center;">
+        <img src="images/tobi.jpg" style="width:100%;">
+        <div class="image-info row">
+        <div class="image-caption col-lg-9 col-md-9">Tobi Amusan estaba pronosticada 4ta y terminó con el oro, un récord mundial y casi otro.</div>
+        <div class="image-author col-lg-3 col-md-3">Foto: <a href="https://www.premiumtimesng.com/">Premium Times</a></div>
+        </div>
+      </div>
+
+      <div class="text-block">  
+      <p>
+         Tobi Amusan, sin que nadie lo esperara, rompió el récord del mundo en las semifinales de los 100 metros con vallas y en la final hizo un tiempo mejor aún que no pudo ser homologado como récord porque se corrió con aire a favor no permitido. Por su parte, Damian Warner dominaba, tal como se vaticinaba, el primer día del decatlón cuando se lesionó en la carrera de 400 metros planos y tuvo que abandonar la competencia.
+      </p>
+      <p>
+        A pesar de las sorpresas, los resultados de los vaticinios los consideramos muy buenos. Se pronosticó correctamente al 68% de los 392 ubicados entre los primeros 8 en cada evento, al 60% de los 147 medallistas y a casi el 49% de los 49 campeones. De hecho, 127 de los 147 medallistas (86.4%) estaban entre el conjunto de finalistas que pronosticamos, y 46 de 49 de los que resultaron campeones (93.9%).
+      </p>
+      
+    </div>
+
+    <div id="predictions-results" class="media-block main-border border">
+      <div class="graph-text main-text" style="text-align:center;">
+        Resultados de los Pronósticos
+      </div>
+      <div >
+        <table class="table table-striped table-condensed table-hover main-text">
+          <thead>
+            <tr class="bd">
+              <td> </td>
+              <td colspan="3" class="gen center"> Pronóstico General</td>
+              <td colspan="3" class="ia center"> Pronóstico IA</td>
+              <td colspan="3" class="exp center"> Pronóstico Experto</td>
+            </tr>
+            <tr class="bd">
+              <td> Criterio</td>
+              <td class="gen"> Pronosticado</td>
+              <td class="gen"> Total</td>
+              <td class="gen"> %</td>
+              <td class="ia"> Pronosticado</td>
+              <td class="ia"> Total</td>
+              <td class="ia"> %</td>
+              <td class="exp"> Pronosticado</td>
+              <td class="exp"> Total</td>
+              <td class="exp"> %</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td> Eventos</td>
+              <td class="gen"> 49</td>
+              <td class="gen"> 49</td>
+              <td class="gen"> 100%</td>
+              <td class="ia"> 44</td>
+              <td class="ia"> 44</td>
+              <td class="ia"> 100%</td>
+              <td class="exp"> 5</td>
+              <td class="exp"> 5</td>
+              <td class="exp"> 100%</td>
+            </tr>
+           
+            <tr class="">
+              <td> Finalistas</td>
+              <td class="gen"> 269</td>
+              <td class="gen"> 392</td>
+              <td class="gen"> 68.62%</td>
+              <td class="ia"> 243</td>
+              <td class="ia"> 352</td>
+              <td class="ia"> 69.03%</td>
+              <td class="exp"> 26</td>
+              <td class="exp"> 40</td>
+              <td class="exp"> 65%</td>
+            </tr>
+
+            <tr class="">
+              <td> Finalistas <br> en su posición</td>
+              <td class="gen"> 68</td>
+              <td class="gen"> 392</td>
+              <td class="gen"> 17.35%</td>
+              <td class="ia"> 62</td>
+              <td class="ia"> 352</td>
+              <td class="ia"> 17.61%</td>
+              <td class="exp"> 6</td>
+              <td class="exp"> 40</td>
+              <td class="exp"> 15%</td>
+            </tr>
+            
+            <tr class="">
+              <td> Medallistas</td>
+              <td class="gen"> 89</td>
+              <td class="gen"> 147</td>
+              <td class="gen"> 60.54%</td>
+              <td class="ia"> 80</td>
+              <td class="ia"> 132</td>
+              <td class="ia"> 60.61%</td>
+              <td class="exp"> 9</td>
+              <td class="exp"> 15</td>
+              <td class="exp"> 60%</td>
+            </tr>
+
+            <tr class="">
+              <td> Medallistas <br> en su posición</td>
+              <td class="gen"> 41</td>
+              <td class="gen"> 147</td>
+              <td class="gen"> 27.89%</td>
+              <td class="ia"> 38</td>
+              <td class="ia"> 132</td>
+              <td class="ia"> 28.79%</td>
+              <td class="exp"> 3</td>
+              <td class="exp"> 15</td>
+              <td class="exp"> 20%</td>
+            </tr>
+
+            <tr class="">
+              <td> Campeones</td>
+              <td class="gen"> 24</td>
+              <td class="gen"> 49</td>
+              <td class="gen"> 48.98%</td>
+              <td class="ia"> 22</td>
+              <td class="ia"> 44</td>
+              <td class="ia"> 50%</td>
+              <td class="exp"> 2</td>
+              <td class="exp"> 5</td>
+              <td class="exp"> 40%</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>  
+
+    <div class="text-block">
+      <p>
+        Como se comentó, el realizar el pronóstico por evento permitió vaticinar también las Tablas por Medallas y por Puntos. En el caso del Medallero se preveía que 42 países se hicieran con al menos un metal bronceado y en la realidad lo lograron 45 naciones.
+      </p>
+     <p>
+       Cuba, Nueva Zelanda y Bahrein estaban pronosticados con alguna medalla y se fueron en blanco. Por Cuba, que por primera ve en la historia se va sin medallas en un mundial al aire libre, estaba pronosticado un bronce para Lázaro Martínez, campeón mundial bajo techo de 2022. Martínez llegó a la final pero en esta no tuvo ningún salto válido. Para Nueva Zelanda se vaticinaba el bronce de Tom Walsh en la bala que finalmente quedó en la 4ta posición. Mientras que para Bahrein se preveía la plata de Winfred Mutile Yavi en los 3000 metros con obstáculos femeninos y también quedó en el 4to lugar.
+     </p>
+     <p>
+       Los paises que lograron al menos una medalla y que no tenían pronóstico de ninguna fueron Suiza, República Checa, Filipinas, Israel, Barbados y España. Suiza obtuvo un bronce con  Simon Ehammer que venía con un pronóstico de 5to lugar. República Checa logró un tercer lugar con el jabalinista Jakub Vadlejch que era el 6to favorito según el modelo de vaticinios. Filipinas logró el metal bronceado con el pertiguista Ernest John Obiena brincando lo mejor de su vida y mejorando también su pronóstico de 4to lugar. Israel también alcanzó un solo metal bronceado con la maratonista Lonah Chemtai Salpeter  a quien se vaticinada 5ta. Barbados alcanzó su tercer lugar con Sada Williams en los 400 metros planos femeninos. Sada no estaba pronosticada siquiera entre las finalistas. 
+      </p>
+    </div>
+
+    <div class="image-block" style="text-align: center;">
+      <img src="images/sada.jpg" style="width:100%;">
+      <div class="image-info row">
+      <div class="image-caption col-lg-9 col-md-9">A Sada Williams no la veíamos siquiera como finalista y dió a Barbados su única medalla.</div>
+      <div class="image-author col-lg-3 col-md-3">Photo: Kirby Lee-USA TODAY Sports</div>
+      </div>
+    </div>
+
+    <div class="text-block"> 
+      <p> 
+       España, por su parte, se hizo con dos 3ros lugares no pronosticados. Mohamed Katir se llevó el bronce en los 1500 metros cuando tenía un pronóstico de 8vo. Por su parte, Asier Martínez ya había roto su pronóstico, lugar 13, al entrar en la final y en esta se benefició de que tres de los favoritos (Hansle Parchment, Shane Brathwaite y Devon Allen), por distintas razones, quedaron fuera, y se llevó un inédito bronce. Para lograrlo, eso si, tuvo que hacer marca personal.
+     </p>
+     <p>
+       En la cima del Top10 del medallero quedó , como se pronosticó, Estados Unidos. Los norteños traían como vaticinio un total de 36 medallas y alcanzaron 33 (un oro y dos platas menos). A los estadounidenses, tal como se preveía, le siguió Etiopía que alcanzaron 4 títulos, 4 subtítulos y dos terceros cuando su pronóstico era 4,3,4. El tercer lugar del medallero fue para Jamaica al que se vaticinaba que iba a terminar en la 4ta posición. La delegación jamaiquina se llevó dos oros, siete platas y un bronce y su pronóstico era 3,2,6. Mejor también estuvo Kenia, que fue 4ta con 2 tiulos, 5 subtítulos y  3 terceros cunado su predición era 1,4,1. Por debajo de las predicciones quedó China que era el país que se pensaba que iba a estar en el lugar tres del medallero. Los chinos, finalmente 5tos, lograron dos oros, una plata y tres bronces cuando su vaticinio era 4,2,2.  
+     </p>
+     <p>
+       En el Top10 sorpresivamente se coló Perú o, mejor dicho, Kimberly García. La peruana tenía como pronóstico el subtítulo en los 35 km marcha y terminó llevándose el título no solo en los 35 km sino también en los 20 km marcha. Esas son las primeras medallas de Perú en mundiales de atletismo. Australia, 6to, y Polonia, 8vo,  quedaron también entre los primeros 10 cuando el prónostico los ubicaban a ambos la posición 12 con un vaticinio de un oro, una plata y dos bronces. Australia  finalmente se llevó 2 oros y un bronce mientras que Polonia alcanzó un título y tres subtítulos.  
+     </p>
+    </div>
+
+    <div id="pronostico-medallas" class="media-block main-border border">
+      <div class="graph-text main-text" style="text-align:center;">
+        Tabla de Medallas - Top10
+      </div>
+    
+      <div id="top-10-medalas" style="padding-left:10px;padding-right:10px;">
+        <div  >
+          <table id="t-ridge" class="table table-striped table-condensed table-hover main-text tablesorter  ">
+            <thead>
+              <tr class="bd" >
+                <td colspan="6" class="gen center">
+                  Tabla Pronóstico
+                </td>
+                <td colspan="6" class="center">
+                  Tabla Real
+                </td>
+              </tr>
+              <tr class="bd center" >
+                <td class="gen">Pos.</td>
+                <td class="gen"> País</td>
+                <td class="gen"> <img src="images/gold.png"> Oro </td>
+                <td class="gen"><img src="images/silver.png"> Plata </td>
+                <td class="gen"> <img src="images/bronze.png"> Bronce</td>
+                <td class="gen">Total</td>
+
+                <td>Pos.</td>
+                <td> País</td>
+                <td> <img src="images/gold.png"> Oro </td>
+                <td><img src="images/silver.png"> Plata </td>
+                <td> <img src="images/bronze.png"> Bronce</td>
+                <td>Total</td>
+              </tr>
+            </thead>
+            <tbody id="b-ridge">
+              <tr class="center" >
+                <td class="gen">1</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/us.png"></span> <span class="country">USA</span></td>
+                <td class="gen">14  </td>
+                <td class="gen">11 </td>
+                <td class="gen">11 </td>
+                <td class="gen">36 </td>
+
+                <td>1 </td>
+                <td> <span><img class="flag" src="images/flags-mini/us.png"></span> <span class="country">USA</span></td>
+                <td>13 </td>
+                <td>9  </td>
+                <td>11 </td>
+                <td>33 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">2</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/et.png"></span> <span class="country">ETH</span></td>
+                <td class="gen">4  </td>
+                <td class="gen">3 </td>
+                <td class="gen">4 </td>
+                <td class="gen">11 </td>
+
+                <td>2 </td>
+                <td> <span><img class="flag" src="images/flags-mini/et.png"></span> <span class="country">ETH</span></td>
+                <td>4 </td>
+                <td>4  </td>
+                <td>2 </td>
+                <td>10 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">3</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/cn.png"></span> <span class="country">CHN</span></td>
+                <td class="gen">4  </td>
+                <td class="gen">2 </td>
+                <td class="gen">2 </td>
+                <td class="gen">8 </td>
+
+                <td>3 </td>
+                <td> <span><img class="flag" src="images/flags-mini/jm.png"></span> <span class="country">JAM</span></td>
+                <td>2  </td>
+                <td>7  </td>
+                <td>1 </td>
+                <td>10 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">4</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/jm.png"></span> <span class="country">JAM</span></td>
+                <td class="gen">3  </td>
+                <td class="gen">2 </td>
+                <td class="gen">6 </td>
+                <td class="gen">11 </td>
+
+                <td>4 </td>
+                <td> <span><img class="flag" src="images/flags-mini/ke.png"></span> <span class="country">KEN</span></td>
+                <td>2 </td>
+                <td>5  </td>
+                <td>3 </td>
+                <td>10 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">5</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/no.png"></span> <span class="country">NOR</span></td>
+                <td class="gen">3  </td>
+                <td class="gen">0 </td>
+                <td class="gen">0 </td>
+                <td class="gen">3 </td>
+
+                <td>5 </td>
+                <td> <span><img class="flag" src="images/flags-mini/cn.png"></span> <span class="country">CHN</span></td>
+                <td>2 </td>
+                <td>1  </td>
+                <td>3 </td>
+                <td>6 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">6</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/jp.png"></span> <span class="country">JAP</span></td>
+                <td class="gen">2  </td>
+                <td class="gen">2 </td>
+                <td class="gen">4 </td>
+                <td class="gen">8 </td>
+
+                <td>6 </td>
+                <td> <span><img class="flag" src="images/flags-mini/au.png"></span> <span class="country">AUS</span></td>
+                <td>2 </td>
+                <td>0  </td>
+                <td>0 </td>
+                <td>2 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">7</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/se.png"></span> <span class="country">SWE</span></td>
+                <td class="gen">2  </td>
+                <td class="gen">1 </td>
+                <td class="gen">0 </td>
+                <td class="gen">3 </td>
+
+                <td>7 </td>
+                <td> <span><img class="flag" src="images/flags-mini/pe.png"></span> <span class="country">PER</span></td>
+                <td>2 </td>
+                <td>0 </td>
+                <td>0 </td>
+                <td>2 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">8</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/ke.png"></span> <span class="country">KEN</span></td>
+                <td class="gen">1  </td>
+                <td class="gen">4 </td>
+                <td class="gen">1 </td>
+                <td class="gen">6 </td>
+
+                <td>8 </td>
+                <td> <span><img class="flag" src="images/flags-mini/pl.png"></span> <span class="country">POL</span></td>
+                <td>1 </td>
+                <td>3 </td>
+                <td>0 </td>
+                <td>4 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">9</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/ca.png"></span> <span class="country">CAN</span></td>
+                <td class="gen">1  </td>
+                <td class="gen">2 </td>
+                <td class="gen">2 </td>
+                <td class="gen">5 </td>
+
+                <td>9 </td>
+                <td> <span><img class="flag" src="images/flags-mini/ca.png"></span> <span class="country">CAN</span></td>
+                <td>1 </td>
+                <td>2 </td>
+                <td>1 </td>
+                <td>4 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">10</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/do.png"></span> <span class="country">DOM</span></td>
+                <td class="gen">1  </td>
+                <td class="gen">2 </td>
+                <td class="gen">0 </td>
+                <td class="gen">3 </td>
+
+                <td>9 </td>
+                <td> <span><img class="flag" src="images/flags-mini/jp.png"></span> <span class="country">JPN</span></td>
+                <td>1 </td>
+                <td>2  </td>
+                <td>1 </td>
+                <td>4 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">10</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/nl.png"></span> <span class="country">NED</span></td>
+                <td class="gen">1  </td>
+                <td class="gen">2 </td>
+                <td class="gen">0 </td>
+                <td class="gen">3 </td>
+
+                <td></td>
+                <td> </td>
+                <td> </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+              </tr>
+
+            </thead>
+            </tbody>
+          </table>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="text-block">
+      <p>
+        En la Tabla por Puntos Estados Unidos, Jamaica y Etiopía ocuparon los tres primeros lugares tanto en la realidad como en el pronóstico. Aunque el equipo jamaiquino superó al etíope por el segundo lugar cuando el vaticinio los daba en igualda. Ya en el resto de las posiciones, del 4to al 10mo
+        lugar, hubo algunas variaciones en la realidad respecto a los pronósticos. Kenya el 4to lugar cuando tenían un pronóstico de 6to. El Reino Unido cogío el 5to lugar que se le vaticinó. China, por su parte, reflejo de lo que ocurrió en el medallero, tenía la predicción del 4to lugar y terminó siendo 6ta con igual puntuación que Canadá, que se pensaba 7ma según el pronóstico.
+      </p>
+      <p>
+        Japón estaba vaticinada como 7ma por puntos y finalmente concluyó en el lugar 11. Por su parte, los Países Bajos que tenían pronosticados el lugar 11 terminaron en la posición 9 con los mismos puntos que Australia.
+      </p>
+    </div>
+
+    <div id="pronostico-medallas" class="media-block main-border border">
+      <div class="graph-text main-text" style="text-align:center;">
+        Tabla por Puntos - Top10
+      </div>
+    
+      <div id="top-10-medalas" style="padding-left:10px;padding-right:10px;">
+        <div  >
+          <table id="t-ridge" class="table table-striped table-condensed table-hover main-text tablesorter  ">
+            <thead>
+              <tr class="bd" >
+                <td colspan="3" class="gen center">
+                  Tabla Pronóstico
+                </td>
+                <td colspan="3" class="center">
+                  Tabla Real
+                </td>
+              </tr>
+              <tr class="bd center" >
+                <td class="gen">Pos.</td>
+                <td class="gen"> País</td>
+                <td class="gen center">Total de Puntos</td>
+
+                <td>Pos.</td>
+                <td class="center"> País</td>
+                <td class="center">Total de Puntos</td>
+              </tr>
+            </thead>
+            <tbody id="b-ridge">
+              <tr class="center" >
+                <td class="gen">1</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/us.png"></span> <span class="country">USA</span></td>
+            
+                <td class="gen center">394 </td>
+
+                <td>1 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/us.png"></span> <span class="country">USA</span></td>
+                
+                <td class="center">328 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">2</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/jm.png"></span> <span class="country">JAM</span></td>
+               
+                <td class="gen center">126 </td>
+
+                <td>2 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/jm.png"></span> <span class="country">JAM</span></td>
+                
+                <td class="center">110 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">2</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/et.png"></span> <span class="country">ETH</span></td>
+                
+                <td class="gen center">126 </td>
+
+                <td>3 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/et.png"></span> <span class="country">ETH</span></td>
+               
+                <td class="center">106 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">4</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/cn.png"></span> <span class="country">CHN</span></td>
+               
+                <td class="gen center">83 </td>
+
+                <td>4 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/ke.png"></span> <span class="country">KEN</span></td>
+                
+                <td class="center">104 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">5</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/uk.png"></span> <span class="country">GBR</span></td>
+                
+                <td class="gen center">63 </td>
+
+                <td>5 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/uk.png"></span> <span class="country">GBR</span></td>
+                
+                <td class="center">68 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">6</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/ke.png"></span> <span class="country">KEN</span></td>
+                
+                <td class="gen center">62 </td>
+
+                <td>6 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/ca.png"></span> <span class="country">CAN</span></td>
+               
+                <td class="center">63 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">6</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/jp.png"></span> <span class="country">JPN</span></td>
+                
+                <td class="gen center">60 </td>
+
+                <td>6 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/cn.png"></span> <span class="country">ChN</span></td>
+               
+                <td class="center">63 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">8</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/ca.png"></span> <span class="country">CAN</span></td>
+                
+                <td class="gen center">58 </td>
+
+                <td>8 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/pl.png"></span> <span class="country">POL</span></td>
+                
+                <td class="center">49 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">9</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/au.png"></span> <span class="country">AUS</span></td>
+                
+                <td class="gen center">46 </td>
+
+                <td>9 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/au.png"></span> <span class="country">AUS</span></td>
+                
+                <td class="center">47 </td>
+              </tr>
+
+              <tr class="center" >
+                <td class="gen">10</td>
+                <td class="gen"> <span><img class="flag" src="images/flags-mini/pl.png"></span> <span class="country">POl</span></td>
+               
+                <td class="gen center">41 </td>
+
+                <td>9 </td>
+                <td class="center"> <span><img class="flag" src="images/flags-mini/nl.png"></span> <span class="country">NED</span></td>
+                
+                <td class="center">47 </td>
+              </tr>
+
+              
+
+            </thead>
+            </tbody>
+          </table>
+        </div>
+       
+      </div>
+    </div>
+    
+    <div class="text-block">
+      <p>
+        Respecto a los pronósticos para certamen atlético de Tokio 2020, los vaticinios para Oregón fueron mejores. Para que que se tenga una idea, en las predicciones de Tokio se logró acertar en cinco tríos de medallistas, aunque ninguno en sus posiciones exactas, pero solo se logró acertar en tres duplas de campeón-subcampeón. 
+        Para el campeonato en Estados Unidos se vaticinaron también cinco podios, aunque en este caso dos de ellos fueron en su posiciones exactas (100 metros masculinos y  400 metros con vallas femeninos) sin emabargo se pronosticaron correctamente 13 pares campeón-subcampeón. 
+      </p>
+      <p>
+        La única coincidencia de estos casos tanto en Japón como en Estados Unidos fueron los 400 metros con vallas de mujeres. En ambos casos se logró pronosticar a las medallistas y a la campeona. Por cierto, las mismas tres mujeres: las estadounidense Sydney McLaughlin y Dalilah Muhammad y la holandesa Femke Bol. En ambas lides McLaughlin fue campeona rompiendo el récord del mundo. En Tokio, Muhammad fue plata y Bol bronce invirtiendo el vaticinio para esa ocasión. En Oregón, Femke fue plata y Dalilah fue bronce respondiendo exactamente al vaticinio hecho, al que se sumó también correctamente la predicción de Shamier Little como 4to lugar. 
+      </p>
+    </div>
+
+    <div class="image-block" style="text-align: center;">
+      <img src="images/sydney.jpg" style="width:100%;">
+      <div class="image-info row">
+      <div class="image-caption col-lg-9 col-md-9">Sydney McLaughlin volvió a romper el récord del mundo y a nadie asombrará si baja de 50 segundos</div>
+      <div class="image-author col-lg-3 col-md-3">Foto: Getty Images - Hannah Peters</div>
+      </div>
+    </div>
+
+    <div class="text-block">  
+      <p>
+        De los 16 campeones pronosticados correctamente para la Olimpiada de Tokio y los 24 vaticinados acertadamente para el Mundial de Oregón, coincidieron solo 6 de ellos. En estos caso estrellas indiscutibles en sus disciplinas. Una fue la ya mencionada McLaughlin y junto a ella estuvieron keniana Faith Kipyegon en los 1500 metros, la belga Nafissatou Thiam y la estrella del triple salto, la venezolana Yulimar Rojas. Por el lado de los hombres se contó al balista estadounidense Ryan Crouser y el sueco Armand Duplantis, que es la máxima figura de la pértiga. Duplnatis realizó la última acción competitiva en Oregón cuando llevó el récord del mundo hasta 6.21. 
+      </p>
+    </div>
+
+    <div class="image-block" style="text-align: center;">
+      <img src="images/armand.jpg" style="width:100%;">
+      <div class="image-info row">
+      <div class="image-caption col-lg-9 col-md-9">Lo de Armand Duplantis y los récords mundiales ya se está volviendo una costumbre.</div>
+      <div class="image-author col-lg-3 col-md-3">Foto: Sports Illustrated</div>
+      </div>
+    </div>
+
+    <div class="text-block">  
+      <p>
+        En términos de porciento de acierto de los pronósticos, también fue mejor la predicción de Oregón que su similar para Tokio. En el vaticinio para Japón se acertó correctamente con el 54% porciento de los medallistas por un 60% en Estados Unidos, asimismo en Tokio se predijo correctamente el 37% de los campeones por casi el 49% en Estados Unidos. Esto en terminos de los pronósticos generales.
+      </p>
+      <p>
+        Uno pudiera pensar que estas diferencias porcentuales se debe a las asimetrías de los pronósticos. Para Tokio se pronosticaron 43 eventos, pues no se predijeron los relevos y se previó el resultado de los 50 km marcha masculinos.  En Oregón fueron 49 eventos los vaticinados. Allí, además de los relevos se pronosticaron los 35 km marcha en ambos sexo que no estuvieron convocados en Japón y no se realizó predicción para los 50 km marcha pues este evento no estaba en el programa. 
+      </p>
+      <p> 
+        Entonces, si contamos los resultados de los eventos que coincidieron en ambas citas, 42, se puede ver que también son mejores los resultados de los vaticinios para el mundial. En este caso, en Tokio se acertó con casi el 56% de los medallistas por el 61% en Oregón, mientras que en Japón se acertó con el 38% de los campeones por el 52% en Estados Unidos.
+      </p>
+    </div>
+
+    <div id="predictions-results" class="media-block main-border border">
+      <div class="graph-text main-text" style="text-align:center;">
+        Comparación de los Pronósticos Tokio vs Oregón
+      </div>
+      <div >
+        <table class="table table-striped table-condensed table-hover main-text">
+          <thead>
+            <tr class="bd">
+              <td> </td>
+              <td colspan="3" class="gen center"> Pronóstico General <br> Tokio </td>
+              <td colspan="3" class="ia center"> Pronóstico General <br> Oregón</td>
+              <td colspan="3" class="gen center"> Pronóstico Normalizado <br> Tokio</td>
+              <td colspan="3" class="ia center"> Pronóstico Normalizado <br> Oregón</td>
+            </tr>
+            <tr class="bd">
+              <td> Criterio</td>
+              <td class="gen"> Pronosticado</td>
+              <td class="gen"> Total</td>
+              <td class="gen"> %</td>
+              <td class="ia"> Pronosticado</td>
+              <td class="ia"> Total</td>
+              <td class="ia"> %</td>
+              <td class="gen"> Pronosticado</td>
+              <td class="gen"> Total</td>
+              <td class="gen"> %</td>
+              <td class="ia"> Pronosticado</td>
+              <td class="ia"> Total</td>
+              <td class="ia"> %</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td> Eventos</td>
+              <td class="gen"> 43</td>
+              <td class="gen"> 48</td>
+              <td class="gen"> 89.58%</td>
+              <td class="ia"> 49</td>
+              <td class="ia"> 49</td>
+              <td class="ia"> 100%</td>
+              <td class="gen"> 42</td>
+              <td class="gen"> 42</td>
+              <td class="gen"> 100%</td>
+              <td class="ia"> 42</td>
+              <td class="ia"> 42</td>
+              <td class="ia"> 100%</td>
+            </tr>
+          
+            
+            <tr class="">
+              <td> Medallistas</td>
+              <td class="gen"> 70</td>
+              <td class="gen"> 129</td>
+              <td class="gen"> 54.26%</td>
+              <td class="ia"> 89</td>
+              <td class="ia"> 147</td>
+              <td class="ia"> 60.54%</td>
+              <td class="gen"> 70</td>
+              <td class="gen"> 126</td>
+              <td class="gen"> 55.55%</td>
+              <td class="ia"> 77</td>
+              <td class="ia"> 126</td>
+              <td class="ia"> 61.11%</td>
+            </tr>
+
+            <tr class="">
+              <td> Medallistas <br> en su posición</td>
+              <td class="gen"> 23</td>
+              <td class="gen"> 129</td>
+              <td class="gen"> 17.83%</td>
+              <td class="ia"> 41</td>
+              <td class="ia"> 147</td>
+              <td class="ia"> 27.89%</td>
+              <td class="gen"> 23</td>
+              <td class="gen"> 126</td>
+              <td class="gen"> 18.25%</td>
+              <td class="ia"> 38</td>
+              <td class="ia"> 126</td>
+              <td class="ia"> 30.15%</td>
+            </tr>
+
+            <tr class="">
+              <td> Campeones</td>
+              <td class="gen"> 16</td>
+              <td class="gen"> 43</td>
+              <td class="gen"> 37.21%</td>
+              <td class="ia"> 24</td>
+              <td class="ia"> 49</td>
+              <td class="ia"> 48.98%</td>
+              <td class="gen"> 16</td>
+              <td class="gen"> 42</td>
+              <td class="gen"> 38.09%</td>
+              <td class="ia"> 22</td>
+              <td class="ia"> 42</td>
+              <td class="ia"> 52.38%</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>  
+
+
+    <div class="it">
+      <p>
+        Este trabajo es el resultado de una colaboración con el Grupo de Inteligencia Artificial 
+        de la Facultad de Matemática y Computación de la Universidad de La Habana.
+      </p>
+    </div>
+
+    <div class="media-block notes">
+      <div id="link-bar" class="row">
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="http://www.facebook.com/sharer.php?u=http://www.postdata.club/issues/202207/oregon-y-los-pronosticos.html"
+            target='_blank'>
+            <div class="cursor  facebook-color"><i class="fa fa-facebook"></i> Facebook</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="https://twitter.com/share?url=http://www.postdata.club/issues/202207/oregon-y-los-pronosticos.html&amp;text=Oreg%C3%B3n%20y%20los%20pron%C3%B3sticos%20;hashtags=#postdataclub"
+            target='_blank'>
+            <div class="cursor  twitter-color"><i class="fa fa-twitter"></i> Twitter</div>
+          </a></div>
+        <div class="col-lg-4 col-md-4" style="padding:0px;margin:0px;"><a class="link-out" style="text-decoration:none;"
+            href="mailto:?subject=Lee este artículo de Postdata.club&amp;body=Oregón y los pronósticos - Analizando los resultados http://www.postdata.club/issues/202207/oregon-y-los-pronosticos.html"
+            target='_blank'>
+            <div class="cursor main-color"><i class="fa fa-envelope"></i> Email</div>
+          </a></div>
+      </div>
+    </div>
+
+
+
+
+    <div id="content-comments" class="comments-block">
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+        var disqus_config = function () {
+          this.page.url = 'http://www.postdata.club/issues/202207/oregon-y-los-pronosticos.html.html';  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = 'PDClub-202207-II'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = '//postdataclub.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
+    </div>
+  </div>
+
+
+  </div>
+
+  <div class="footer">
+    <div>
+      <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+      <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a>
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+      </span>
+    </div>
+
+    <div class="copyright">Copyright
+      <script>document.write(new Date().getFullYear());</script>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="../../assets/js/jquery.min.js"></script>
+  <script src="../../assets/js/d3.min.js" charset="utf-8"></script>
+  <script src="../../assets/js/c3.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+  <script src="../../assets/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+
+  <script>
+    $(document).on('click', function (e) {
+      submenu = $('#header-submenu');
+      if (!submenu.is(e.target)) {
+        $('.submenu').hide();
+      }
+    });
+    $("#genero").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#generos').show();
+    });
+    $("#author").click(function (event) {
+      event.stopPropagation();
+      $('.submenu').hide();
+      $('#authors').show();
+    });
+    $("#header-submenu").click(function (event) {
+      event.stopPropagation();
+    });
+  </script>
+  <script>
+    function show_profile(idp, open) {
+      opening = '#open-' + idp;
+      closing = '#close-' + idp;
+      if (open) {
+        $(opening).hide();
+        $(closing).show();
+        $('#' + idp).slideDown();
+      } else {
+        $('#' + idp).hide();
+        $(closing).slideUp();
+
+        $(opening).show();
+
+      }
+    }
+
+    $(function () {
+      $("#test").tablesorter();
+    });
+  </script>
+</body>
+
+</html>

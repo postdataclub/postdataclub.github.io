@@ -239,6 +239,22 @@ a {
     font-size: 1.4rem;
 }
 
+.gen {
+    color: red;
+}
+
+.ia {
+    color: blue;
+}
+
+.exp {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
 @media(min-width:990px){
 }
 
