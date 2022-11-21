@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../icon.png">
+
+    <title>Postdata.club - El mundial de los pronósticos</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/c3.css">
+    <link href='../../assets/fonts/font-awesome-4.2.0/css/font-awesome.min.css' rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/css/custom.css" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84667443-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">
+          <img id="myLogo" class = "logo logo-responsive" src="../../assets/images/logo.png" >
+
+
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></li>
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autores <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../equipo/ernesto.html">Ernesto Guerra</a></li>
+                <li><a href="../../equipo/jessica.html">Jessica Domínguez</a></li>
+                <li><a href="../../equipo/saimi.html">Saimi Reyes</a></li>
+                <li><a href="../../equipo/yudivian.html">Yudivián Almeida</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Géneros <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../../generos/principales.html">Principales</a></li>
+                <li ><a href="../../generos/articulos.html">Artículos</a></li>
+                <li><a href="../../generos/reportajes.html">Reportajes</a></li>
+                <li><a href="../../generos/comentarios.html">Comentarios</a></li>
+                <li><a href="../../generos/investigaciones.html">Investigaciones</a></li>
+                <li><a href="../../generos/visualizaciones.html">Visualizaciones</a></li>
+                <li><a href="../../generos/perfiles.html">Perfiles</a></li>
+              </ul>
+            </li>
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="menu-movil-separator hidden-md hidden-lg"></div>
+
+   <div  class="header-pc hidden-xs hidden-sm row">
+      <div class="header-logo col-lg-6 col-md-6">
+       <a href="../../index.html"><img class="logo-header" src="../../assets/images/logo.png"></a>
+      </div>
+      <div class="header-menu col-lg-3 col-md-3">
+        <div>
+        <div><span><a href="../../index.html">Inicio</a></span></div>
+        <div><span><a href="../../equipo/quienes-somos.html">¿Quiénes somos?</a></span></div>
+        <div><span><a id="author" href="#">Autores</a></span></div>
+        <div><span><a id="genero" href="#">Géneros</a></span></div>
+        </div>
+      </div>
+      <div id="header-submenu"  class="header-submenu col-lg-3 col-md-3">
+        <div id="generos" style="display:none" class="submenu">
+            <div class="submenu-header">Por géneros:</div>
+            <div><a href="../../generos/principales.html">Principales</a></div>
+            <div><a href="../../generos/articulos.html">Artículos</a></div>
+            <div><a href="../../generos/comentarios.html">Comentarios</a></div>
+            <div><a href="../../generos/reportajes.html">Reportajes</a></div>
+            <div><a href="../../generos/investigaciones.html">Investigaciones</a></div>
+            <div><a href="../../generos/visualizaciones.html">Visualizaciones</a></div>
+            <div><a href="../../generos/perfiles.html">Perfiles</a></div>
+        </div>
+        <div id="authors" style="display:none" class="submenu">
+            <div class="submenu-header">Por autores:</div>
+            <div><a href="../../equipo/jessica.html" >Jessica Dominguez</a></div>
+            <div><a href="../../equipo/ernesto.html" >Ernesto Guerra</a></div>
+            <div><a href="../../equipo/saimi.html" >Saimi Reyes</a></div>
+            <div><a href="../../equipo/yudivian.html" >Yudivian Almeida</a></div>
+        </div>
+      </div>
+   </div>
+   
+   <div class="article-header row  main-color">
+            <div class="article-news-title">Pronosticando Qatar 2022</div>
+            <div class="article-news-author">Por <a href="#">Lia de la C. Zerquera</a>, <a href="#">Daniel A. Cardenas</a>, <a href="#">Javier A. Oramas</a> y 
+              <a href="../../equipo/yudivian.html">Yudivian Almeida</a> <span class="article-date">20/11/2022</span></div>
+            <div class="article-new-hr"><img  src="../../assets/images/rule.png"></div>
+            <div class="article-news-lead">Un modelo de pronóstico diferente</div> 
+             <div class="article-news-image">
+                <img src="images/qatar-2022.png">
+
+            </div>           
+    </div>
+    
+    <div class="text-body">
+    
+    <div class="text-block">
+        <p>
+          En Postdata.club mantenemos la tradición de pronosticar los grandes eventos deportivos y la Copa Mundial de Fútbol de Qatar 2022 no podía ser la excepción. En esta ocasión
+          la idea que se siguió para el pronóstico fue simular los enfrentamientos entre los distintos equipos clasificados siguiendo la estructura de la fase de grupos y el posterior
+          organigrama hasta la final. 
+        </p>
+        <p>
+          En la simulación de los enfrentamientos se siguió un enfoque basado en agentes que tratan de jugar, intentando emular el juego real. 
+          Para ello los agentes, que representan a los distintos jugadores de cada equipo, fueron caracterizados con las habilidades de estos jugadores a partir de los datos obtenidos 
+          desde  <a href="https://www.sofascore.com">Sofascore</a>. Utilizando estas habilidades y un algoritmo de planificación, los agentes tienen la capacidad de tomar decisiones en cada 
+          instante del juego de futbol, el cual es simulado de minuto a minuto. Cada enfrentamiento fue simulado 30 veces.
+        </p>
+        <p>
+          Con los resultados de cada uno de los enfrentamientos se pudo obtener un pronóstico. Este pronóstico arrojó algunos resultados inesperados que no fueron comunes en otros
+          pronósticos observados. Una debilidad del modelo que seguimos es que puede estar afectado por la baja de figuras de distintas selecciones y que si fueron consideradas en las
+          simulaciones realizadas. Por ejmplo, Benzema, el balón de oro vigente, ya no estará con el equipo francés; Mané, la gran figura de Senegal, tampoco estará en Doha. 
+          Ambas estrellas fueron consideradas en las simulaciones que se tuvieron en cuenta para pronosticar.
+        </p>
+        <p>
+          Otro problema es que esta versión del modelo de pronóstico, el primero que realizamos para campeonatos mundiales de fútbol, no captura la dinámica de comportamiento
+          del equipo. Aún así, creemos que las características indivuales de los jugadores tienen un gran valor predictivo respecto a los resultados de su equipo.
+        </p>
+        
+        <div class="subtitle main-text">
+        La Fase de Grupos
+        </div>
+
+        <div class="subtitle main-text">
+        Grupo A
+        </div>
+       
+        <p>
+          En el Grupo A, por historia y tradición, la selección de los Países Bajos debería ser la gran protagonista. La selección naranja ha participado en 11 ediciones de las copas del 
+          mundo. En estas participaciones ha discutido, sin éxito, tres veces el título mundial, además en otras dos ocasiones ha estado entre los 4 primeros lugares. Sim embargo, luego 
+          de ser segundos y terceros en el 2010 y el 2014, se ausentaron a la cita de Rusia 2018. Actualmente son los 8vos del ranking mundial.
+       </p>
+       <p>
+         Senegal o Ecuador deberían ser quienes acompañaran a los Países Bajos hacia octavos de final, con Qatar, el país sede, en la cola del grupo. Senegal está en el lugar
+         18 del ranking, Ecuador en el 44 y Qatar en el 50.
+       </p>
+
+       <p>
+         Sin embargo, como primera gran sorpresa, el pronóstico deja afuera a Países Bajos de la próxima ronda. Acorde a las simulaciones Senegal terminaría como cabeza de grupo 
+         y Ecuador sería su escolta.
+       </p>
+
+        <div class="media-block main-border border row">
+          <div class="col-lg-6 col-md-6">
+            <p class="pronostico-head">Pronóstico del grupo</p>
+            <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/sn.png"></span> <span class="siglas">[SEN]</span> <span class="country">Senegal</span></p>
+            <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/ec.png"></span> <span class="siglas">[ECU]</span> <span class="country">Ecuador</span></p>
+            <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/nl.png"></span> <span class="siglas">[NED]</span> <span class="country">Países Bajos</span></p>
+            <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/qa.png"></span> <span class="siglas">[QAT]</span> <span class="country">Qatar</span></p>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <p class="pronostico-head">Pronósticos por partidos</p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/ec.png"></span> <span class="siglas-pro bold">ECU</span> vs <span class="flag"><img src="../../assets/images/flags-mini/qa.png"></span> <span class="siglas-pro">QAT</span> - Ganador: <span class="siglas-pro">ECU</span> <span class="perent">(88%)</span></p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/sn.png"></span> <span class="siglas-pro bold">SEN</span> vs <span class="flag"><img src="../../assets/images/flags-mini/nl.png"></span> <span class="siglas-pro">NED</span> - Ganador: <span class="siglas-pro">SEN</span> <span class="perent">(83%)</span></p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/sn.png"></span> <span class="siglas-pro bold">SEN</span> vs <span class="flag"><img src="../../assets/images/flags-mini/qa.png"></span> <span class="siglas-pro">QAT</span> - Ganador: <span class="siglas-pro">QAT</span> <span class="perent">(100%)</span></p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/ec.png"></span> <span class="siglas-pro bold">ECU</span> vs <span class="flag"><img src="../../assets/images/flags-mini/nl.png"></span> <span class="siglas-pro">NED</span> - Ganador: <span class="siglas-pro">ECU</span> <span class="perent">(63%)</span></p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/sn.png"></span> <span class="siglas-pro bold">SEN</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ec.png"></span> <span class="siglas-pro">ECU</span> - Ganador: <span class="siglas-pro">SEN</span> <span class="perent">(59%)</span></p>
+            <p><span class="flag"><img src="../../assets/images/flags-mini/nl.png"></span> <span class="siglas-pro bold">NED</span> vs <span class="flag"><img src="../../assets/images/flags-mini/qa.png"></span> <span class="siglas-pro">QAT</span> - Ganador: <span class="siglas-pro">NED</span> <span class="perent">(86%)</span></p>
+          </div>
+        </div>
+
+        <p>
+        Este pronóstico es dificil de creer. En las simulaciones de los partidos, Países Bajos caería derrotado tanto ante Senegal como ante Ecuador. En la historia reciente no aparecen
+        enfrentamientos de la selección naranja contra el equipo africano. La estadística de los europeos ante los sudamericanos es de un triunfo y un empate, aunque el último encuentro 
+        entre ellos es de hace 8 años.
+        </p>
+        <p>
+          La posibilidad de que se haga realidad este pronóstico tan sorprendente se dificulta aún más con la noticia de que Senegal no podrá contar con su estrella, Sadio Mané. Por lo
+          pronto, en el primer encuentro del mundial Ecuador venció a Qatar.
+        </p>
+        <div class="subtitle main-text">
+          Grupo B
+          </div>
+         <p>
+           En el Grupo B, Inglaterra es la gran favorita. Los ingleses han estado presentes en 14 ediciones, ganaron la Copa Mundial de 1966 y en la pasada edición concluyeron en el 4to lugar. Actualmente, ocupan el 5to lugar
+           del ranking de la FIFA. Aquí el favorito al segundo lugar está bien abierto. En el más reciente listado mundial, Estados Unidos ocupa el lugar 16, Gales el 19 e Irán el 20.
+         </p>
+         <p>
+           El pronóstico da como favoritos, en orden, a Inglaterra y a Estados Unidos. El grupo lo cerrarían Irán como 3ro y Gales cerrando las ubicaciones.
+         </p>
+          <div class="media-block main-border border row">
+            <div class="col-lg-6 col-md-6">
+              <p class="pronostico-head">Pronóstico del grupo</p>
+              <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/en.png"></span> <span class="siglas">[ENG]</span> <span class="country">Inglaterra</span></p>
+              <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/us.png"></span> <span class="siglas">[USA]</span> <span class="country">Estados Unidos</span></p>
+              <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/ir.png"></span> <span class="siglas">[IRI]</span> <span class="country">Irán</span></p>
+              <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/wl.png"></span> <span class="siglas">[WAL]</span> <span class="country">Gales</span></p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <p class="pronostico-head">Pronósticos por partidos</p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/en.png"></span> <span class="siglas-pro bold">ENG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ir.png"></span> <span class="siglas-pro">IRI</span> - Ganador: <span class="siglas-pro">ENG</span> <span class="perent">(62%)</span></p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/us.png"></span> <span class="siglas-pro bold">USA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/wl.png"></span> <span class="siglas-pro">WAL</span> - Ganador: <span class="siglas-pro">USA</span> <span class="perent">(88%)</span></p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/ir.png"></span> <span class="siglas-pro bold">IRI </span> vs <span class="flag"><img src="../../assets/images/flags-mini/wl.png"></span> <span class="siglas-pro">WAL</span> - Ganador: <span class="siglas-pro">IRI</span> <span class="perent">(89%)</span></p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/en.png"></span> <span class="siglas-pro bold">ENG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/us.png"></span> <span class="siglas-pro">USA</span> - Ganador: <span class="siglas-pro">ECU</span> <span class="perent">(64%)</span></p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/en.png"></span> <span class="siglas-pro bold">ENG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/wl.png"></span> <span class="siglas-pro">WAL</span> - Ganador: <span class="siglas-pro">ENG</span> <span class="perent">(97%)</span></p>
+              <p><span class="flag"><img src="../../assets/images/flags-mini/us.png"></span> <span class="siglas-pro bold">USA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ir.png"></span> <span class="siglas-pro">IRI</span> - Ganador: <span class="siglas-pro">USA</span> <span class="perent">(60%)</span></p>
+            </div>
+          </div>
+          <p>Los ingleses dominan con amplitud el historial de enfrentamientos frente a Estados Unidos y Gales.  Los encuentros más reciente frente a estos dos rivales son una victoria 3-0 ante los 
+            galeses en 2020 y un triunfo ante los estadounidenses, por el mismo marcador, en el 2018. 
+            Por su parte, no tienen reportado encuentros frente a Irán.
+          </p>
+          <p>
+            Los norteamericanos se han enfrentado a Irán en dos ocaciones con un saldo de un empate y una derrota. El partido más reciente fue un amistoso efectuado en el año 2000 que concluyó con
+            empate a uno. Frente a Gales, los estadounidenses tienen balance de una victoria y una derrota. El último encuentro entre ambos fue en el 2020 y también fue empate a uno.
+            </p>
+            <p>
+              Este historial de enfrentamientos y la cercanía de las ubicaciones en el ranking mundial muestra que el pronóstico del ocupante del segundo lugar está abierto. 
+            </p>
+          <div class="subtitle main-text">
+            Grupo C
+            </div>
+           <p>
+             La argentina de Messi es la gran favorita del Grupo C. Los gauchos han ganado dos veces el título mundial (1978 y 1986) en 17 de las veces que han participado. En el 2014 fueron 
+             subcampeones, mientras que en el 2018 perdieron en 8vos de final. Actualmente, son los 3eros del ranking mundial.
+           </p>
+           <p>
+             La segunda plaza del grupo debe quedar entre Polonia y México quedando el 4to lugar para Arabia Saudita. México es el lugar 13 del listado mundial, Polonia es el 26 y   Arabia 
+             Saudita el 51.
+           </p>
+           <p>En el pronóstico, como se esperaba, se da a Argentina de favorita mientras que se privilegia a la Polonia  por encima de México. </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/ar.png"></span> <span class="siglas">[ARG]</span> <span class="country">Argentina</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/pl.png"></span> <span class="siglas">[POL]</span> <span class="country">Polonia</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/mx.png"></span> <span class="siglas">[MEX]</span> <span class="country">México</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/sa.png"></span> <span class="siglas">[KSA]</span> <span class="country">Arabia Saudita</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ar.png"></span> <span class="siglas-pro bold">ARG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/sa.png"></span> <span class="siglas-pro">KSA</span> - Ganador: <span class="siglas-pro">ARG</span> <span class="perent">(93%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/pl.png"></span> <span class="siglas-pro bold">POL</span> vs <span class="flag"><img src="../../assets/images/flags-mini/mx.png"></span> <span class="siglas-pro">MEX</span> - Ganador: <span class="siglas-pro">POL</span> <span class="perent">(85%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/pl.png"></span> <span class="siglas-pro bold">POL</span> vs <span class="flag"><img src="../../assets/images/flags-mini/sa.png"></span> <span class="siglas-pro">KSA</span> - Ganador: <span class="siglas-pro">POL</span> <span class="perent">(75%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ar.png"></span> <span class="siglas-pro bold">ARG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/mx.png"></span> <span class="siglas-pro">MEX</span> - Ganador: <span class="siglas-pro">ARG</span> <span class="perent">(93%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ar.png"></span> <span class="siglas-pro bold">ARG</span> vs <span class="flag"><img src="../../assets/images/flags-mini/pl.png"></span> <span class="siglas-pro">POL</span> - Ganador: <span class="siglas-pro">ARG</span> <span class="perent">(71%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/mx.png"></span> <span class="siglas-pro bold">MEX</span> vs <span class="flag"><img src="../../assets/images/flags-mini/sa.png"></span> <span class="siglas-pro">KSA</span> - Ganador: <span class="siglas-pro">MEX</span> <span class="perent">(65%)</span></p>
+              </div>
+            </div>
+  
+          <p>
+          Los gauchos superan históricamente a los polacos, los mexicanos y los árabes saudíes. Por su parte, los enfrentamientos entre Polonia y México son liderados ligeramente
+          por los europeos con 4 victorias, 2 empates y 3 derrotas. No obstante, el último encuentro entre ambos, un amistoso en el 2017, fue ganado por los latinoamericanos 1 - 0.
+          </p>
+          <p>Aquí, probablemente, lo que permitió que el modelo de pronóstico se decantara por el equipo polaco fue la presencia en este de una estrella como Robert Lewandowski. Sin embargo,
+            no sería sorpresa que fuese México el que pasara a la segunda fase.
+          </p>
+          <div class="subtitle main-text">
+            Grupo D
+            </div>
+           <p>
+             El Grupo D tiene como principal favorito al actual campeón mundial.  Los galos cuentan ya
+             con dos títulos mundiales en 15 ediciones. En estos momento son los 4tos del ranking mundial. Los galos, hombre por hombre, son una de las mejores selecciones del torneo. 
+             Sin embargo, el equipo francés es también el que más ha sido afectado por las lesiones y no podrán contar en la competencia con Kanté, Pogba, Nkunku y, más recientemente,
+             Benzema. A ello se suma que su actuación en la última Liga de Naciones no fue nada buena.
+           </p>
+           <p>Dinamarca, que es la 10ma del listado FIFA, es la favorita de muchos para ocupar el 2do lugar e, incluso, no sorprendería a nadie si desbanca a los franceses de la
+             punta del grupo. En el historial de enfrentamiento entre galos y daneses, los primeros estan al frente 8 victorias por 7 con empates. Sin embargo, la historia reciente
+             muestra dos triunfos daneses en la pasada Liga de Naciones. 
+           </p>
+           <p>Australia y Túnes, respectivamente lugares 38 y 30 del listado mundial, deberían ocupar el sótano del grupo. Sin embargo, el modelo de pronóstico no lo ve así
+             y ubica a los australianos como compañía de los franceses en la segunda ronda.
+           </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/fr.png"></span> <span class="siglas">[FRA]</span> <span class="country">Francia</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/au.png"></span> <span class="siglas">[AUS]</span> <span class="country">Australia</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/dk.png"></span> <span class="siglas">[DEN]</span> <span class="country">Dinamarca</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/tn.png"></span> <span class="siglas">[TUN]</span> <span class="country">Túnez</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/dk.png"></span> <span class="siglas-pro bold">DEN</span> vs <span class="flag"><img src="../../assets/images/flags-mini/tn.png"></span> <span class="siglas-pro">TUN</span> - Ganador: <span class="siglas-pro">DEN</span> <span class="perent">(59%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/fr.png"></span> <span class="siglas-pro bold">FRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/au.png"></span> <span class="siglas-pro">AUS</span> - Ganador: <span class="siglas-pro">FRA</span> <span class="perent">(76%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/au.png"></span> <span class="siglas-pro bold">AUS</span> vs <span class="flag"><img src="../../assets/images/flags-mini/tn.png"></span> <span class="siglas-pro">TUN</span> - Ganador: <span class="siglas-pro">AUS</span> <span class="perent">(87%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/fr.png"></span> <span class="siglas-pro bold">FRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/dk.png"></span> <span class="siglas-pro">DEN</span> - Ganador: <span class="siglas-pro">FRA</span> <span class="perent">(90%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/au.png"></span> <span class="siglas-pro bold">AUS</span> vs <span class="flag"><img src="../../assets/images/flags-mini/dk.png"></span> <span class="siglas-pro">DEN</span> - Ganador: <span class="siglas-pro">AUS</span> <span class="perent">(76%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/fr.png"></span> <span class="siglas-pro bold">FRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/tn.png"></span> <span class="siglas-pro">TUN</span> - Ganador: <span class="siglas-pro">FRA</span> <span class="perent">(100%)</span></p>
+              </div>
+            </div>
+  
+          <p>
+          Todos comprenden que se ubique a Francia como primera del grupo. Su plantilla, aún con tantas ausencias, sigue siendo de excelencia y es, sin lugar a dudas, la mejor del apartado.
+          Pero el favoritismo del modelo de Australia sobre Dinamarca, cuando menos, asombra.
+          </p>
+          <p>
+            Los daneses superan ligeramente a los australianos con dos victorias, un empate y una derrota. El último encuentro entre ambos fue en el mundial anterior y terminó
+            con un empate a uno. Curiosamente, Francia, Dinamarca y Australia compartieron el mismo grupo en Rusia, Aquella vez los galos triunfaron 2-1 sobre los de la tierra de los canguros, 
+            mientras que empataron a cero con los daneses. 
+          </p>
+          <div class="subtitle main-text">
+            Grupo E
+            </div>
+           <p>
+             Es dificil no dar favorita a Alemania en cada grupo de cada competencia de fútbol en la que participe. Por eso asombró a todos que en Rusia se no pasara a 8vos luego
+             de haber ganado su 4ta corona en Brasil 2014. Sin embargo, desde hace 56 años ningún equipo ha logrado retener su corona y en las últimas 3 ediciones el campeón anterior
+             no ha logrado pasar la fase de grupos. Los teutones han estado presentes en 19 ediciones mundialistas y ocupan el 11 lugar del ranking.
+           </p>
+           <p>
+             España es el otro gran favorito del grupo. Los hispanos ganaron el mundial del 2014 y han participado en 15 copas mundiales. Esta es una nueva generación de futbolistas españoles
+             que luchan por emular a aquel equipo donde sobresalían Casillas, Xavi e Iniesta, entre otras estrellas. En estos momentos el equipo español ocupa el 7mo lugar del listado
+             FIFA. 
+           </p>
+           <p>
+             Para Japón y Costa Rica, 24 y 31 del ranking respectivamente, deben quedar las últimas dos posiciones del grupo. El pronóstico es consistente con estas previsiones.
+           </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/de.png"></span> <span class="siglas">[GER]</span> <span class="country">Alemania</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/es.png"></span> <span class="siglas">[ESP]</span> <span class="country">España</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/dk.png"></span> <span class="siglas">[JPN]</span> <span class="country">Japón</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/cr.png"></span> <span class="siglas">[CRC]</span> <span class="country">Costa Rica</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/de.png"></span> <span class="siglas-pro bold">GER</span> vs <span class="flag"><img src="../../assets/images/flags-mini/jp.png"></span> <span class="siglas-pro">JPN</span> - Ganador: <span class="siglas-pro">GER</span> <span class="perent">(77%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/es.png"></span> <span class="siglas-pro bold">ESP</span> vs <span class="flag"><img src="../../assets/images/flags-mini/cr.png"></span> <span class="siglas-pro">CRC</span> - Ganador: <span class="siglas-pro">ESP</span> <span class="perent">(86%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/jp.png"></span> <span class="siglas-pro bold">JPN</span> vs <span class="flag"><img src="../../assets/images/flags-mini/cr.png"></span> <span class="siglas-pro">CRC</span> - Ganador: <span class="siglas-pro">JPN</span> <span class="perent">(64%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/de.png"></span> <span class="siglas-pro bold">GER</span> vs <span class="flag"><img src="../../assets/images/flags-mini/es.png"></span> <span class="siglas-pro">ESP</span> - Ganador: <span class="siglas-pro">GER</span> <span class="perent">(68%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/es.png"></span> <span class="siglas-pro bold">ESP</span> vs <span class="flag"><img src="../../assets/images/flags-mini/jp.png"></span> <span class="siglas-pro">JPN</span> - Ganador: <span class="siglas-pro">ESP</span> <span class="perent">(72%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/de.png"></span> <span class="siglas-pro bold">GER</span> vs <span class="flag"><img src="../../assets/images/flags-mini/cr.png"></span> <span class="siglas-pro">CRC</span> - Ganador: <span class="siglas-pro">GER</span> <span class="perent">(90%)</span></p>
+              </div>
+            </div>
+  
+          <p>
+          La duda en la predicción es si ciertamente, como pronostica el modelo, Alemania será primera y España segunda. En los enfrentamientos históricos, los germanos superan a los españoles
+          9 victorias por 8 derrotas con 8 empates. Los encuentros más reciente, par de choques de la Liga de Naciones 2020/2021, culminó con un victoria española 6-0 y un empate a 1.
+          </p>
+          <p>
+            Aún con estos resultados, el modelo sitúa a los alemanes por encima de los españoles.  Pero si ocurriera lo contrario no sería, como hace años, una sorpresa.
+          </p>
+          <div class="subtitle main-text">
+            Grupo F
+            </div>
+           <p>
+             Esta parece ser la última oportunidad de una gran generación belga que ya ha envejecido. Bélgica lo tuvo cerca en Rusia 2019 cuando perdió con Francia en Semifinales
+             y luego ganó a Inglaterra por el 3er lugar, resultando su mejor actuación histórica. Estrellas como Lukaku o Hazard no están en un buen momento. Sin embargo, la entidad
+             futbolística de sus jugadores y sus dinámicas de equipo les deberían sobrar para encabezar el grupo. No por gusto son los segundos del listado mundial.
+           </p>
+           <p>
+             La Croacia de Modrik, sorprendente subcampeona del mundo en Rusia, tratará de impedir que los belgas sean los primeros de grupo y sino deberían ser los favoritos
+             para la segunda plaza. Los croatas, con una corta vida como país en copas del mundo, ya lograron un 3er lugar en 1998 junto al mencionado subtítulo de la edición pasada. 
+             Esto en apenas 5 participaciones en copas mundiales. Llegan a Qatar en el lugar 12 del ranking.
+           </p>
+           <p>
+             El sentido común diría que Marruecos y Canadá, respectivamente lugar 22 y 41 del listado FIFA, deberían cerrar el grupo, pero el modelo de pronóstico no coincide con ello
+             y ubica a belgas y marroquíes como los equpos que pasarán a 8vos.
+           </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/be.png"></span> <span class="siglas">[BEL]</span> <span class="country">Bélgica</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/ma.png"></span> <span class="siglas">[MAR]</span> <span class="country">Marruecos</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/hr.png"></span> <span class="siglas">[CRO]</span> <span class="country">Croacia</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/ca.png"></span> <span class="siglas">[CAN]</span> <span class="country">Canadá</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ma.png"></span> <span class="siglas-pro bold">MAR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/hr.png"></span> <span class="siglas-pro">CRO</span> - Ganador: <span class="siglas-pro">MAR</span> <span class="perent">(77%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/be.png"></span> <span class="siglas-pro bold">BEL</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ca.png"></span> <span class="siglas-pro">CAN</span> - Ganador: <span class="siglas-pro">BEL</span> <span class="perent">(83%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/be.png"></span> <span class="siglas-pro bold">BEL</span> vs <span class="flag"><img src="../../assets/images/flags-mini/hr.png"></span> <span class="siglas-pro">CRO</span> - Ganador: <span class="siglas-pro">BEL</span> <span class="perent">(100%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ma.png"></span> <span class="siglas-pro bold">MAR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ca.png"></span> <span class="siglas-pro">CAN</span> - Ganador: <span class="siglas-pro">MAR</span> <span class="perent">(80%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/be.png"></span> <span class="siglas-pro bold">BEL</span> vs <span class="flag"><img src="../../assets/images/flags-mini/hr.png"></span> <span class="siglas-pro">CRO</span> - Ganador: <span class="siglas-pro">BEL</span> <span class="perent">(100%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ma.png"></span> <span class="siglas-pro bold">MAR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ca.png"></span> <span class="siglas-pro">CAN</span> - Ganador: <span class="siglas-pro">MAR</span> <span class="perent">(80%)</span></p>
+              </div>
+            </div>
+  
+          <p>
+          Nadie duda del favoritismo de Bélgica para encabezar el grupo, sin embargo que Marruecos esté por encima de Croacia es cuestionable.
+          </p>
+          <p>
+            Croacia y Marruecos apenas se han eenfrentado en una ocasión. En un partido amistoso de hace años, en 1996, empataron a 2 goles. Los croatas ganaron su grupo de la Liga de Naciones, 
+            donde estaban también Frnacia y Dinamarca, y le ganaron 1-0 a Arabia Saudí en el último encuentro que efectuaron. Por su parte, Marruecos ha logrado 4 victorias y un empate en los últimos 
+            5 partidos que ha efectuado. Su último encuentro fue una victoria 3-0 frente a Georgia.
+          </p>
+          <div class="subtitle main-text">
+            Grupo G
+            </div>
+            <p>
+              Brasil ha estado presente en todas las citas mundiales, es el máximo ganador de títulos con 5 y es el actual número uno del ranking mundial. Sin embargo, desde el 2002 no se titula.
+              Este equipo, con Neymar de líder, intentará cambiar eso. Sobra decir que es el gran favorito para ganar el grupo.
+            </p>
+            <p>
+              El posible segundo lugar del apartado ya no queda tan claro. Suiza, lugar 15 del ranking, parece el mejor posicionado para lograrlo. Serbia, en la posición 21, y Camerún, en la 43, 
+              parecerían con menos opciones.
+            </p>
+            <p>
+              El modelo de pronóstico, sin embargo, lo ve de otro modo. Si bien coincide ubicando a Brasil como 1ro del grupo, también posiciona a Camerún en la segunda posición por encima de Suiza
+              y Serbia, en ese orden.
+            </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/br.png"></span> <span class="siglas">[BRA]</span> <span class="country">Brasil</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/cm.png"></span> <span class="siglas">[CMR]</span> <span class="country">Camerún</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/ch.png"></span> <span class="siglas">[SUI]</span> <span class="country">Suiza</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/rs.png"></span> <span class="siglas">[SRB]</span> <span class="country">Serbia</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/cm.png"></span> <span class="siglas-pro bold">CMR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ch.png"></span> <span class="siglas-pro">SUI</span> - Ganador: <span class="siglas-pro">CMR</span> <span class="perent">(73%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/br.png"></span> <span class="siglas-pro bold">BRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/rs.png"></span> <span class="siglas-pro">SRB</span> - Ganador: <span class="siglas-pro">BRA</span> <span class="perent">(85%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/cm.png"></span> <span class="siglas-pro bold">CMR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/rs.png"></span> <span class="siglas-pro">SRB</span> - Ganador: <span class="siglas-pro">CMR</span> <span class="perent">(77%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/br.png"></span> <span class="siglas-pro bold">BRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/ch.png"></span> <span class="siglas-pro">SUI</span> - Ganador: <span class="siglas-pro">BRA</span> <span class="perent">(86%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/ch.png"></span> <span class="siglas-pro bold">SUI</span> vs <span class="flag"><img src="../../assets/images/flags-mini/rs.png"></span> <span class="siglas-pro">SRB</span> - Ganador: <span class="siglas-pro">SUI</span> <span class="perent">(74%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/br.png"></span> <span class="siglas-pro bold">BRA</span> vs <span class="flag"><img src="../../assets/images/flags-mini/cm.png"></span> <span class="siglas-pro">CMR</span> - Ganador: <span class="siglas-pro">BRA</span> <span class="perent">(74%)</span></p>
+              </div>
+            </div>
+  
+          <p>
+          Camerún nunca se ha enfrentado a Suiza y frente a Serbia tiene una derrota, 4-3, en un partido amistoso efectuado en el 2010. Los africanos en sus últimos 5 partidos apenas han tirunfado una 
+          vez frente a dos derrotas y dos empates. Su último enfrentamiento fue frente a Panamá y concluyó con empate a uno.
+          </p>
+          <p>Suiza, por su parte, en sus últimos 5 partidos tiene 3 victorias y dos derrotas. Su último encuentro terminó en una derrota 2-0 frente a Ghana. En el caso de Serbia,
+            el equipo balcánico ha ganado 4 de sus últimos 5 partidos con un empate. Su último encuentro fue una victoria por goleada de 5-1 frente al más débil equipo de Bahrein.
+          </p>
+          <p>
+            Esos resultados muestran que es posible que el segundo lugar de este grupo no resulte tal como predice el pronóstico.
+          </p>
+          <div class="subtitle main-text">
+            Grupo H
+            </div>
+            <p>
+              La Portugal de Cristiano Ronaldo es la gran favorita del Grupo H. Los lusos han estado presentes en 7 ediciones mundialistas y sus mejores ubicaciones son el 3er lugar
+              en 1966 y el 4to en el 2006. Llegan a la cita de Doha en la posición 9 del listado mundial actual.
+            </p>
+            <p>Uruguay debería ser el otro gran favorito. Los charrúas han estado en 13 mundiales y se titularon en la 1ra edición, en 1930, y luego repetieron en 1950, cuando
+              silenciaron a todo Brasil. Su mejor ubicación más reciente fue el 4to lugar en Sudáfrica 2010. Llegan a esta cita en el lugar 14 del ranking.
+            </p>
+            <p>
+              Los otros dos protagonistas del grupo son Corea del Sur y Ghana. Los coreanos aparecen en el lugar 28 del mundo y sorprendieron con el 4to lugar del 2022, cuando compartieron
+              la sede mundial con Japón. Ghana, por su parte, llega a Qatar con el lugar 61 del ranking.
+            </p>
+            <p>
+              El modelo de pronóstico, sin sorpresa, ubica Portugal de primero del grupo, pero ubica a Corea del Sur como segundo por encima de Uruguay mientras que Ghana es el que cerraría
+              el cuarteto.
+            </p>
+            <div class="media-block main-border border row">
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronóstico del grupo</p>
+                <p><span class="place">1</span> <span class="flag"><img src="../../assets/images/flags-mini/pt.png"></span> <span class="siglas">[POR]</span> <span class="country">Portugal</span></p>
+                <p><span class="place">2</span> <span class="flag"><img src="../../assets/images/flags-mini/kr.png"></span> <span class="siglas">[KOR]</span> <span class="country">Corea del Sur</span></p>
+                <p><span class="place">3</span> <span class="flag"><img src="../../assets/images/flags-mini/uy.png"></span> <span class="siglas">[URU]</span> <span class="country">Uruguay</span></p>
+                <p><span class="place">4</span> <span class="flag"><img src="../../assets/images/flags-mini/gh.png"></span> <span class="siglas">[GHA]</span> <span class="country">Ghana</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="pronostico-head">Pronósticos por partidos</p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/kr.png"></span> <span class="siglas-pro bold">KOR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/uy.png"></span> <span class="siglas-pro">URU</span> - Ganador: <span class="siglas-pro">KOR</span> <span class="perent">(69%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/pt.png"></span> <span class="siglas-pro bold">POR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/gh.png"></span> <span class="siglas-pro">GHA</span> - Ganador: <span class="siglas-pro">POR</span> <span class="perent">(85%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/kr.png"></span> <span class="siglas-pro bold">KOR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/gh.png"></span> <span class="siglas-pro">GHA</span> - Ganador: <span class="siglas-pro">KOR</span> <span class="perent">(85%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/pt.png"></span> <span class="siglas-pro bold">POR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/uy.png"></span> <span class="siglas-pro">URU</span> - Ganador: <span class="siglas-pro">POR</span> <span class="perent">(79%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/uy.png"></span> <span class="siglas-pro bold">URU</span> vs <span class="flag"><img src="../../assets/images/flags-mini/gh.png"></span> <span class="siglas-pro">GHA</span> - Ganador: <span class="siglas-pro">URU</span> <span class="perent">(79%)</span></p>
+                <p><span class="flag"><img src="../../assets/images/flags-mini/pt.png"></span> <span class="siglas-pro bold">POR</span> vs <span class="flag"><img src="../../assets/images/flags-mini/kr.png"></span> <span class="siglas-pro">KOR</span> - Ganador: <span class="siglas-pro">POR</span> <span class="perent">(52%)</span></p>
+              </div>
+            </div>
+          
+  
+          <p>
+          La predicción de Portugal como primero no arroja dudas. Los cuestionamientos están en que el modelo prefiera a los coreanos como el segundo lugar.
+          </p>
+          <p>
+            Corea del Sur es aventajada claramente por Uruguay en los enfrentamientos bilaterales. Los charrúas han ganado en 6 ocasiones, con un empate y una derrota.
+            Sin embargo esta derrota de Uruguay frente a los coreanos ocurrió en el partido más reciente que han efectuado y que concluyó 1-2.  
+          </p>
+          <p>
+            Los coreanos en sus últimos 5 encuentros tienen blance de 3 victorias, 1 empate y 1 derrota. El último partido fue una victoria 1-0 frente a Islandia. Uruguay
+            llega con el mismo balance en sus últimos 5 encuentros: 3 victorias, 1 empate y 1 derrota. El último match fue la victoria de 2-0 frente a Canadá.
+          </p>
+          <div class="subtitle main-text">
+            Octavos de Final
+            </div>
+        <p>
+          El pronóstico de cruces de 8vos de final tiene claros favoritos en casi todos los partidos. Las predicciones menos claras son las de los partidos Senegal vs Estados Unidos
+        y Bélgica vs España.
+        </p>
+        <p>
+          Los norteamericanos nunca se han enfrentado a los de África. Por su parte, la diferencia en el ranking mundial es mínima pues Estados Unidos ocupa el lugar 16 por el 18 Senegal.
+          El modelo favorece a Estados Unidos.
+        </p>
+        <p>
+          En el caso de Bélgica y España si tienen un historial de enfrentamientos que favorece a los hispanos con 12 victorias, 5 derrotas y 6 empates. Sin embargo no hay enfrentamientos 
+          tan recientes. El último encuentro entre ambos fue en el 2016, con una victoria española 2-0. Bélgica llega ahora como 2da del ranking mundial y 3ra del pasado mundial. España,
+          por su parte, llega como como 7ma del listado FIFA y cayó en 8ctavos de final en Rusia 2018. El modelo pronostica una victoria belga.
+        </p>
+        <p>
+          La sorpres de esta ronda, según el modelo de predicción, sería la victoria de Camerún sobre Portugal. Estas selecciones se han enfrentado dos veces y en ambas ocasiones ganaron
+          los portugueses. En el 2010 vencieron 3-1 y en el 2014 5-1. Sin embargo, la predicción dice que en esta ocasión saldrán airosos los africanos, en lo que sería el fin de la carrera
+          de Cristiano Ronaldo en mundiales. Pocos van a creer en este vaticinio. 
+        </p>
+        <p>
+          El modelo de pronóstico da como vencedores de esta ronda a Estados Unidos, Argentina, Alemania, Brasil, Inglaterra, Francia, Alemania y Camerún.
+        </p>
+        <div id="cruces" class="media-block main-border border">
+        <div id="bracket"  style="display:table;margin:0 auto;"></div>
+        </div>
+
+        <div class="subtitle main-text">
+          Cuartos de Final
+          </div>
+
+          <p>
+            En los cuartos de final, acorde al pronóstico hasta ese momento, hay dos encuentros que tienen claros favoritos: Estados Unidos vs Argentina y Bélgica vs Camerún. 
+            Para ellos se vaticinan las victorias de Argentina y Bélgica. Esto es lo que todo el mundo esperaría.
+          </p>
+
+          <p>
+            Los otros dos encuentros serían choques de trenes: Alemania vs Brasil y Francia vs Inglaterra. El enfrentamiento entre la canarinha y los teutones pondría de nuevo frente
+            a frente a las dos selecciones más exitosas en la historia de los mundiales. Los brasileños dominan los enfrentamientos particulares: 13 victorias, 5 derrotas y 5 empates.
+            Sin embargo, en la historia reciente lo que más se recuerda fue la humillante derrota, 7-1, que sufrieron los brasileños en su propio mundial. El encuentro más reciente
+            fue en el 2018 y perdió Alemania 1-0. El modelo de pronóstico dice que en esta ocasión los brasileños saldrán airosos.
+          </p>
+
+          <p>
+            Francia es la campeona del mundo en el 2018 e Inglaterra fue 4to lugar en la misma cita.  Los ingleses dominan los encuentros bilaterals con 17 triunfos, 9 derrotas y 5 empates.
+            Las dos veces que se han encontrado en mundiales, en 1966 y en 1982, ha triunfado Inglaterra. El partido más reciente entre ambos fue en el 2017 y ganó Francia 3-2.
+            Los galos llegan como 4tos del ranking FIFA y los ingleses son 5tos. El modelo de predicción apuesta a que Francia seguirá en el camnino a tratar de revalidar su cetro mundial.
+          </p>
+          <p>
+            Así el modelo de pronósticos da como semifinalistas a los cuatro países que lideran el ranking mundial de la FIFA (Brasil 1ro, Bélgica 2do, Argentina 3ro, Francia 4to) sin haber
+            utilizado esta información para su predicción.
+          </p>
+      <div id="cruces" class="media-block main-border border">
+      <div id="bracket-2"  style="display:table;margin:0 auto;"></div>
+      </div>
+
+      <div class="subtitle main-text">
+        Semifinales
+        </div>
+        
+        <p>
+          El vaticinio de encuentros en semifinales nos daría un clásico de Sudamérica: Brasil vs Argentina. Neymar vs Messi. En el partido más reciente, la final de la Copa América en el 2021,
+          se selló con un triunfo argentino. La historia de los enfrentamientos entre ellos muestra 43 triunfos brasileños por 40 argentinos con 26 empates. Brasil llega como la líder del ranking 
+          FIFA y Argentima es 3ra. Una gran paridad. Messi parece que haría la diferencia y así el modelo lo piensa. El vaticinio pone a Argentina en la final.
+        </p>
+        <p>
+          La otra semifinal sería una repetición del pasado mundial. En aquella ocasión Francia le ganó a Bélgica. En los enfrenamientos históricos Bélgica va a la cabeza con 30 victorias, 
+          26 derrotas y 19 derrotas. Francia ha ganado los tres partidos en que ha enfrentado a Bélgica en mundiales, en octavos de final en 1938 (3:1), por el tercer puesto en 1986 (4-2) y en
+          la mencionada semifinal del 2018 (1-0). El último enfrentamiento entre ambos fue también otra semifinal, la de la Liga de Naciones 2020/2021, y Francia también la ganó (1-0). En esta
+          ocasión el modelo dice que se repetirá la historia reciente y Francia llegará a su segunda final consecutiva.
+        </p>
+    
+    <div id="cruces" class="media-block main-border border">
+    <div id="bracket-3"  style="display:table;margin:0 auto;"></div>
+    </div>
+
+    <div class="subtitle main-text">
+      Final
+      </div>
+
+      <p>
+        En el partido que nadie quiere jugar Brasil triunfaría sobre Bélgica y se quedaría con el 3er lugar. Los brasileños aventajan históricamente a los belgas por la mínima, 3 victorias
+        por 2 derrotas. El enfrentamiento más reciente fue en el pasado mundial cuando Bélgica, en cuartos de final, dejó en el camino a Brasil 2-1. Ahora, según el modelo, será diferente 
+        y Brasil se impondrá. Este pronóstico, de ser cierto, sería una actuación excelente para cualquier equipo. Cualquier equipo que no sea Brasil.
+      </p>
+      <p>
+        La gran final pondría frente a frente a Messi con Mbappé. En el 2018 ya se enfrentaron y Francia, en cuartos, dejó en el camino a Argentina (4-3). Kylian fue la gran figura de ese juego
+        y Pavard anotó ahí el mejor gol del mundial pasado. Este es el último encuentro entre ambas selecciones en una historia 12 enfrentamientos con 6 victorias gauchas por 3 galas, con 3 
+        empates. Ahora el modelo de pronóstico dice que es el momento de Messi y que Argentina logrará su 3ra corona en mundiales. Si esto sucede, Messi tendría lo que más le critican sus 
+        detractores cuando se debate sobre los mejores de la historia: la Copa del Mundo.
+      </p>
+  
+  <div id="cruces" class="media-block main-border border">
+  <div id="bracket-4"  style="display:table;margin:0 auto;"></div>
+  </div>
+  </div>
+
+
+    
+
+    
+     <div class="comments-block">
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://postdata.club/suplementos/mundial-qatar/pronosticando-qatar.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'PDClub-202211-S1'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//postdataclub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    
+    </div>   
+    
+    
+    
+     <div class="footer">
+        <div>
+        <span><a href="../../index.html"><img class="logo-footer" src="../../assets/images/logo-white.png"></a></span>
+        <span class="footer-icons">
+        <a href="mailto://social@postdata.club"><i class="fa fa-envelope"></i></a> 
+        <a href="http://facebook.com/postdataclub"><i class="fa fa-facebook"></i></a> 
+        <a href="http://twitter.com/postdataclub"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.youtube.com/channel/UCZ14lFS4j0Aczm8OniDa9DQ"><i class="fa fa-youtube"></i></a>
+        </span>
+        </div>
+
+        <div class="copyright">Copyright 2016</div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/jquery.bracket.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.bracket.min.css" />
+    <script>
+    $(document).on('click',function (e) {
+        submenu = $('#header-submenu');
+        if (!submenu.is(e.target)){
+            $('.submenu').hide();
+        }
+    });
+    $( "#genero" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#generos').show();
+    });
+    $( "#author" ).click(function( event ) {
+        event.stopPropagation();
+        $('.submenu').hide();
+        $('#authors').show();
+    });
+    $( "#header-submenu" ).click(function( event ) {
+        event.stopPropagation();
+    });
+    </script>
+    <script>
+        var minimalData = {
+        teams : [
+          ["<img class='flag' src='../../assets/images/flags-mini/sn.png'> SEN", "<img  class='flag' src='../../assets/images/flags-mini/us.png'> USA"], 
+          ["<img class='flag' src='../../assets/images/flags-mini/ar.png'> ARG", "<img class='flag' src='../../assets/images/flags-mini/au.png'> AUS"],
+          
+          ["<img class='flag' src='../../assets/images/flags-mini/de.png'> GER", "<img class='flag' src='../../assets/images/flags-mini/ma.png'> MAR"], 
+          ["<img class='flag' src='../../assets/images/flags-mini/br.png'> BRA", "<img class='flag' src='../../assets/images/flags-mini/kr.png'> KOR"],
+          
+          ["<img class='flag' src='../../assets/images/flags-mini/en.png'> ENG", "<img class='flag' src='../../assets/images/flags-mini/ec.png'> ECU"],
+          ["<img class='flag' src='../../assets/images/flags-mini/fr.png'> FRA", "<img class='flag' src='../../assets/images/flags-mini/pl.png'> POL"],
+          
+          
+          ["<img class='flag' src='../../assets/images/flags-mini/be.png'> BEL", "<img class='flag' src='../../assets/images/flags-mini/es.png'> ESP"],
+          ["<img class='flag' src='../../assets/images/flags-mini/pt.png'> POR", "<img class='flag' src='../../assets/images/flags-mini/cm.png'> CMR"],
+        ],
+        results : [ 
+           [[27,73],[84,16],[62,38],[85,15],[85,15],[79,21],[58,42],[34,66]]
+        ]
+      }
+ 
+    $(function() {
+    $('#bracket').bracket({
+      init: minimalData,
+      skipConsolationRound: true,
+      teamWidth: 90,
+      scoreWidth: 20,
+      matchMargin: 13,
+      roundMargin: 10,
+      })
+       })
+    </script>
+
+<script>
+  var minimalData2 = {
+  teams : [
+    ["<img class='flag' src='../../assets/images/flags-mini/sn.png'> SEN", "<img  class='flag' src='../../assets/images/flags-mini/us.png'> USA"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/ar.png'> ARG", "<img class='flag' src='../../assets/images/flags-mini/au.png'> AUS"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/de.png'> GER", "<img class='flag' src='../../assets/images/flags-mini/ma.png'> MAR"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/br.png'> BRA", "<img class='flag' src='../../assets/images/flags-mini/kr.png'> KOR"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/en.png'> ENG", "<img class='flag' src='../../assets/images/flags-mini/ec.png'> ECU"],
+    ["<img class='flag' src='../../assets/images/flags-mini/fr.png'> FRA", "<img class='flag' src='../../assets/images/flags-mini/pl.png'> POL"],
+    
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/be.png'> BEL", "<img class='flag' src='../../assets/images/flags-mini/es.png'> ESP"],
+    ["<img class='flag' src='../../assets/images/flags-mini/pt.png'> POR", "<img class='flag' src='../../assets/images/flags-mini/cm.png'> CMR"],
+  ],
+  results : [ 
+     [[27,73],[84,16],[62,38],[85,15],[85,15],[79,21],[58,42],[34,66]],
+     [[19,81],[46,54],[43,57],[77,23]]
+  ]
+}
+
+$(function() {
+$('#bracket-2').bracket({
+init: minimalData2,
+skipConsolationRound: true,
+teamWidth: 90,
+scoreWidth: 20,
+matchMargin: 13,
+roundMargin: 10,
+})
+ })
+</script>
+
+<script>
+  var minimalData3 = {
+  teams : [
+    ["<img class='flag' src='../../assets/images/flags-mini/sn.png'> SEN", "<img  class='flag' src='../../assets/images/flags-mini/us.png'> USA"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/ar.png'> ARG", "<img class='flag' src='../../assets/images/flags-mini/au.png'> AUS"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/de.png'> GER", "<img class='flag' src='../../assets/images/flags-mini/ma.png'> MAR"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/br.png'> BRA", "<img class='flag' src='../../assets/images/flags-mini/kr.png'> KOR"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/en.png'> ENG", "<img class='flag' src='../../assets/images/flags-mini/ec.png'> ECU"],
+    ["<img class='flag' src='../../assets/images/flags-mini/fr.png'> FRA", "<img class='flag' src='../../assets/images/flags-mini/pl.png'> POL"],
+    
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/be.png'> BEL", "<img class='flag' src='../../assets/images/flags-mini/es.png'> ESP"],
+    ["<img class='flag' src='../../assets/images/flags-mini/pt.png'> POR", "<img class='flag' src='../../assets/images/flags-mini/cm.png'> CMR"],
+  ],
+  results : [ 
+     [[27,73],[84,16],[62,38],[85,15],[85,15],[79,21],[58,42],[34,66]],
+     [[19,81],[46,54],[43,57],[77,23]],
+     [[56,44],[52,48]]
+  ]
+}
+
+$(function() {
+$('#bracket-3').bracket({
+init: minimalData3,
+skipConsolationRound: true,
+teamWidth: 90,
+scoreWidth: 20,
+matchMargin: 13,
+roundMargin: 10,
+})
+ })
+</script>
+
+<script>
+  var minimalData4 = {
+  teams : [
+    ["<img class='flag' src='../../assets/images/flags-mini/sn.png'> SEN", "<img  class='flag' src='../../assets/images/flags-mini/us.png'> USA"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/ar.png'> ARG", "<img class='flag' src='../../assets/images/flags-mini/au.png'> AUS"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/de.png'> GER", "<img class='flag' src='../../assets/images/flags-mini/ma.png'> MAR"], 
+    ["<img class='flag' src='../../assets/images/flags-mini/br.png'> BRA", "<img class='flag' src='../../assets/images/flags-mini/kr.png'> KOR"],
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/en.png'> ENG", "<img class='flag' src='../../assets/images/flags-mini/ec.png'> ECU"],
+    ["<img class='flag' src='../../assets/images/flags-mini/fr.png'> FRA", "<img class='flag' src='../../assets/images/flags-mini/pl.png'> POL"],
+    
+    
+    ["<img class='flag' src='../../assets/images/flags-mini/be.png'> BEL", "<img class='flag' src='../../assets/images/flags-mini/es.png'> ESP"],
+    ["<img class='flag' src='../../assets/images/flags-mini/pt.png'> POR", "<img class='flag' src='../../assets/images/flags-mini/cm.png'> CMR"],
+  ],
+  results : [ 
+     [[27,73],[84,16],[62,38],[85,15],[85,15],[79,21],[58,42],[34,66]],
+     [[19,81],[46,54],[43,57],[77,23]],
+     [[56,44],[52,48]],
+     [[58,42,"Final"],[56,44,"3er lugar"]]
+  ]
+}
+
+$(function() {
+$('#bracket-4').bracket({
+init: minimalData4,
+skipConsolationRound: false,
+teamWidth: 90,
+scoreWidth: 20,
+matchMargin: 13,
+roundMargin: 10,
+})
+ })
+</script>
+    
+  </body>
+</html>

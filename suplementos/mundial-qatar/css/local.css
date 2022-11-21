@@ -1,0 +1,27 @@
+.contender>a {
+    text-decoration: None;
+    color: #717276;
+    font-size: 22;
+} 
+
+.looser {
+    text-decoration: line-through red;
+    
+}
+
+.pronostico-head, .bold {
+    font-weight: bold;
+}
+
+.place {
+    font-size: 16px;
+}
+
+.flag > img, .flag {
+    width: 30px;
+    height: 20px;
+}
+
+.siglas {
+    font-size: 15px;
+}
